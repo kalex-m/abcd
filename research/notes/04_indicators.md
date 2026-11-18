@@ -1,0 +1,9 @@
+# Third-party / off-consensus indicators (web + FMP, Nov 2026)
+- UST 10Y 5.10% vs 3M 4.33% (steepening); Fed hiking into oil shock.
+- Margin debt: record $1.502T Jun-26 (+49% y/y); Jul-26 record monthly drop (-$84.8B to $1.417T); Sep +$26B; y/y growth 53.7% (May) -> 31.4% (Sep). Net investor credit balance record low -$1.06T (Jun).
+- Private credit: gates everywhere (BCRED 5% cap vs 10% requests; Cliffwater $31B capped at 5% vs 16% asks; Apollo ADS 16.8% asks; Fitch: 10/16 BDCs breached caps Q2-26; $15.6B asked back Q2). Fitch private-credit default rate record 6.1% (Jul-26); MS warns 8%. SOFTWARE ~26% of BDC exposure (AI-disruption -> PE-owned SaaS borrowers -> private credit losses). Blue Owl OBDC II redemptions closed permanently (Feb-26).
+- Households (NY Fed Q3-26): debt $19.1T (+$334B q/q); 5.0% delinquent (from 4.7%); card serious-delinq flow 6.87%; mortgage flow 1.60% (from 1.28%); card balances record $1.285T.
+- AI capex 2026: GOOGL $195-205B, AMZN ~$220B, META $135-145B, ORCL $90-95B, MSFT ~$150B+ run-rate => ~$800B+/yr, financed increasingly with equity + debt; NVDA receivables +$40B in 2 qtrs, strategic "investments" in customers ~$35B.
+- Bank loans to NDFIs (nonbank financials incl. private credit/PE): ~$1.32T (Q3-25 FDIC); ~23%/yr growth 2010-25 vs ~4% total loans; concentrated at largest banks. Apr-26 SLOOS: banks TIGHTENING NDFI lending (sharpest to business/consumer credit intermediaries); demand strongest from PE funds. Q1-26 NDFI share of loans: First Citizens 26%, PNC 21%, Truist 12%, Fifth Third 7%, USB 3%; GS Bank & MS Bank >300% of equity.
+- Stablecoins: ~$300-322B (2026), flattening; GENIUS Act bans issuer yield (exchange "rewards" loophole). StanChart: ~$500B deposit drain by 2028 (regionals most exposed). Galaxy: marginal NIM compression, not systemic.
+- NOTE: WebSearch hit account 5-hour limit at this point (resets 18:40 UTC). Remaining work uses FMP + computed analysis.

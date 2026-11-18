@@ -1,0 +1,432 @@
+<title>Seven Industry Champions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one research column (max 1180px) with sticky industry nav; each industry = verdict + charts + head-to-head table */
+:root{
+  --bg:#f3f5f7; --panel:#ffffff; --ink:#0f1b2d; --muted:#5a6878; --line:#d9e0e7; --soft:#e9eef3;
+  --accent:#0e6e8c; --accent-2:#7a4fd6; --good:#13804a; --warn:#b2620b; --bad:#b4282c; --win:#0e6e8c;
+  --chip:#e4edf3; --heat-1:#0e6e8c; --heat-mid:#9fc3d1; --heat-low:#eef3f6;
+  --f-display:"Space Grotesk",ui-sans-serif,system-ui,sans-serif; --f-body:"Inter",ui-sans-serif,system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c1420; --panel:#121d2c; --ink:#e5edf6; --muted:#9aabbd; --line:#243447; --soft:#18263a;
+  --accent:#4cc3e6; --accent-2:#b39bff; --good:#4ad391; --warn:#f0a845; --bad:#ff7a7f; --win:#4cc3e6;
+  --chip:#1b2b40; --heat-1:#3fb4d8; --heat-mid:#2b5d73; --heat-low:#16253a; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#0c1420; --panel:#121d2c; --ink:#e5edf6; --muted:#9aabbd; --line:#243447; --soft:#18263a;
+  --accent:#4cc3e6; --accent-2:#b39bff; --good:#4ad391; --warn:#f0a845; --bad:#ff7a7f; --win:#4cc3e6;
+  --chip:#1b2b40; --heat-1:#3fb4d8; --heat-mid:#2b5d73; --heat-low:#16253a; color-scheme:dark;}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0 48px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:1180px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:-0.01em}
+h1{font-size:clamp(28px,4.4vw,44px);line-height:1.08}
+h2{font-size:clamp(22px,2.8vw,30px)}
+h3{font-size:17px}
+p{margin:0}
+.mono,.num,td.n{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.muted{color:var(--muted)}
+header.top{padding-block:28px 18px;display:grid;gap:10px}
+.sub{color:var(--muted);max-width:75ch}
+nav.jump{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+  display:flex;gap:6px;overflow-x:auto;padding-block:10px;scrollbar-width:thin}
+nav.jump a{flex:0 0 auto;font-family:var(--f-mono);font-size:12px;text-decoration:none;color:var(--ink);padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
+nav.jump a:hover,nav.jump a:focus-visible{border-color:var(--accent);outline:none;color:var(--accent)}
+section{padding-block:34px 6px;display:grid;gap:16px;scroll-margin-top:60px}
+.lede{max-width:72ch;color:var(--muted)}
+.grid{display:grid;gap:14px}
+.g7{grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}
+.win-card{display:grid;gap:8px;grid-template-rows:auto auto 1fr auto}
+.win-card .tk{font-family:var(--f-display);font-size:34px;font-weight:700;line-height:1;color:var(--win)}
+.win-card .ind{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.win-card .nm{font-weight:600}
+.win-card .why{font-size:13.5px;color:var(--ink)}
+.kv{display:flex;flex-wrap:wrap;gap:6px}
+.pill{font-family:var(--f-mono);font-size:11px;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--ink);white-space:normal;max-width:100%;overflow-wrap:anywhere}
+.pill.good{background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good)}
+.pill.warn{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.pill.bad{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.pill.acc{background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent)}
+.tiles{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(min(100%,170px),1fr))}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:2px}
+.tile .v{font-family:var(--f-display);font-size:24px;font-weight:600}
+.tile .l{font-size:12px;color:var(--muted)}
+.chart{position:relative;height:300px}
+.chart.tall{height:380px}
+.chart.short{height:240px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;background:var(--soft);position:sticky;top:0}
+th:first-child,td:first-child{text-align:left;position:sticky;left:0;background:var(--panel)}
+th:first-child{background:var(--soft)}
+tr.w td{font-weight:600}
+tr.w td:first-child{box-shadow:inset 3px 0 0 var(--win)}
+td.pos{color:var(--good)} td.neg{color:var(--bad)}
+.heat td{text-align:center;font-family:var(--f-mono)}
+.verdict{display:grid;gap:12px;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+@media (max-width:820px){.verdict{grid-template-columns:1fr}}
+.verdict .big{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.verdict .big .tk{font-family:var(--f-display);font-size:42px;font-weight:700;color:var(--win);line-height:1}
+ul.tight{margin:0;padding-left:18px;display:grid;gap:5px}
+ul.tight li{max-width:75ch}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:13px}
+.flow .n{padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
+.flow .n.hi{border-color:var(--accent);color:var(--accent);font-weight:600}
+.flow .ar{color:var(--muted);font-family:var(--f-mono)}
+.arch{display:grid;gap:10px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-family:var(--f-mono);font-size:12px;padding:3px 8px;border-radius:6px;border:1px solid var(--line);background:var(--panel)}
+.chip.w{border-color:var(--win);color:var(--win);font-weight:600}
+.tree{display:grid;gap:8px}
+.tree .q{font-weight:600}
+.tree .a{padding-left:14px;border-left:2px solid var(--line);color:var(--ink)}
+.flag{font-size:12.5px;color:var(--bad)}
+.note{font-size:12.5px;color:var(--muted)}
+.src{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+footer{padding-block:30px 0;color:var(--muted);font-size:12.5px;display:grid;gap:8px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <span class="eyebrow">Independent equity research · as of 18 Nov 2026 · 52 companies · 7 industries</span>
+  <h1>Seven Industry Champions</h1>
+  <p class="sub">Every number below is computed from primary filings (SEC EDGAR XBRL for 45 US filers, company 20-F data via yfinance for 7 foreign filers, FMP for cross-checks) and live prices. No analyst ratings or price targets were used. Each industry was scored under 5 weighting schemes plus 1 stress test; the winner had to stay on top across them.</p>
+</header>
+<nav class="jump" aria-label="Jump to section">
+  <a href="#winners">Winners</a><a href="#regime">Regime</a><a href="#berkshire">Berkshire signal</a><a href="#indicators">My indicators</a>
+  <a href="#bank">Banks</a><a href="#oil">Oil &amp; Gas</a><a href="#semi">Semis</a><a href="#hyper">Hyperscalers</a><a href="#soft">Software</a><a href="#air">Airlines</a><a href="#pharma">Pharma</a>
+  <a href="#archetypes">Business models</a><a href="#depressed">Depressed-sector tests</a><a href="#method">Method</a>
+</nav>
+
+<section id="winners">
+  <h2>The winners</h2>
+  <div class="grid g7" id="winGrid"></div>
+  <p class="note">"Priced for" = the 10-year annual growth in owner earnings that today's market cap requires at a 9% cost of equity (10-yr Treasury 5.07% + 4% risk premium), my reverse DCF. Banks: the return on tangible equity the price requires.</p>
+</section>
+
+<section id="regime">
+  <h2>2026 regime: oil shock, rate hikes, AI capex financed from outside</h2>
+  <div class="tiles" id="regimeTiles"></div>
+  <div class="grid g2">
+    <div class="panel"><h3>Sector ETFs, 2026 YTD</h3><div class="chart short"><canvas id="cSect"></canvas></div><p class="src">yfinance closes, 2 Jan to 18 Nov 2026</p></div>
+    <div class="panel"><h3>1-year price path of the 7 winners (indexed to 100)</h3><div class="chart short"><canvas id="cWinPx"></canvas></div><p class="src">yfinance daily closes, weekly samples</p></div>
+  </div>
+</section>
+
+<section id="berkshire">
+  <h2>The Berkshire signal: why it keeps selling banks</h2>
+  <p class="lede">Straight from Berkshire's 13F filings on EDGAR (14 quarters). Bank of America is down from 1.03B shares to 456M; Citigroup, Nu and most of Capital One are gone. The money went to Alphabet (including $10B bought directly from Alphabet's equity raise), Delta, Lennar, the Taylor Morrison buyout and Berkshire's own stock.</p>
+  <div class="grid g2">
+    <div class="panel"><h3>Lender stocks in Berkshire's 13F ($B) and share of portfolio</h3><div class="chart"><canvas id="cBrkBanks"></canvas></div><p class="src">SEC EDGAR 13F-HR information tables, Jun-2023 to Sep-2026 (amendments merged)</p></div>
+    <div class="panel"><h3>Hidden hole: held-to-maturity bond losses vs tangible book</h3><div class="chart"><canvas id="cHTM"></canvas></div><p class="src">SEC XBRL: HTM amortized cost minus fair value, latest 10-Q. Not in reported book value or AOCI.</p></div>
+  </div>
+  <div class="grid g3">
+    <div class="panel"><h3>Find out why</h3><ul class="tight" id="brkWhy"></ul></div>
+    <div class="panel"><h3>What it indicates</h3><ul class="tight" id="brkInd"></ul></div>
+    <div class="panel"><h3>Broader market implications</h3><ul class="tight" id="brkImp"></ul></div>
+  </div>
+  <div class="panel"><h3>Where the money moved (13F share counts, millions)</h3><div class="chart short"><canvas id="cBrkMoves"></canvas></div></div>
+</section>
+
+<section id="indicators">
+  <h2>Indicators Wall Street isn't tracking</h2>
+  <p class="lede">Built from filings and market data rather than from consensus. Each one is measurable and repeatable.</p>
+  <div class="grid g3" id="indGrid"></div>
+</section>
+
+<div id="industries"></div>
+
+<section id="archetypes">
+  <h2>Business-model map: your four diagrams, applied to 52 companies</h2>
+  <p class="lede">Classified from 5 years of cash-flow use (capex, dividends, buybacks as a share of operating cash flow) and the balance sheet. Winners are outlined.</p>
+  <div class="grid g2" id="archGrid"></div>
+</section>
+
+<section id="depressed">
+  <h2>Depressed-sector tests (your decision tree)</h2>
+  <div class="grid g3" id="treeGrid"></div>
+</section>
+
+<section id="method">
+  <h2>Method, data and limits</h2>
+  <div class="grid g2">
+    <div class="panel"><h3>How the winners were chosen</h3><ul class="tight" id="methodList"></ul></div>
+    <div class="panel"><h3>Weighting schemes (each run is scored separately)</h3><div class="tbl"><table id="schemeTbl"></table></div>
+      <p class="note" style="margin-top:8px">Q quality · S strength · A capital allocation · G growth · V valuation</p></div>
+  </div>
+  <div class="panel"><h3>Limits</h3><ul class="tight">
+    <li>Foreign filers (Shell, TotalEnergies, BP, TSMC, ASML, SAP, Novo) use reported statements via yfinance and FMP, converted at today's FX (EUR 1.097, DKK 6.81, TWD 32.95 per USD).</li>
+    <li>Citigroup's 2026 10-Q facts were missing from the EDGAR XBRL feed, so its TTM uses FMP quarterly data. NVIDIA's Oct-26 quarter came from FMP because EDGAR had not indexed it yet.</li>
+    <li>Patent-cliff exposure, seat exposure and the risk flags are my estimates from filings and news, listed in full in each industry. They move scores by 0.03 per flag.</li>
+    <li>Prices are from 18 Nov 2026. This is research, not personal financial advice.</li>
+  </ul></div>
+</section>
+
+<footer>
+  <span class="src">Sources: SEC EDGAR XBRL companyfacts and 13F-HR filings · yfinance (prices, market caps, foreign statements, FX) · Financial Modeling Prep (statements cross-check) · company releases and news for 2026 events (Fed, Iran war, NVIDIA CEO exit, Alphabet/Meta/Oracle/Intel equity raises, Anthropic IPO).</span>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script id="data" type="application/json">/*__DATA__*/</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const pct = (v,d=1) => v==null||isNaN(v) ? '–' : (v*100).toFixed(d)+'%';
+const num = (v,d=1) => v==null||isNaN(v) ? '–' : Number(v).toFixed(d);
+const big = v => v==null ? '–' : (v>=1000 ? (v/1000).toFixed(2)+'T' : v.toFixed(v<10?1:0)+'B');
+const el = (tag, cls, html) => { const e=document.createElement(tag); if(cls) e.className=cls; if(html!=null) e.innerHTML=html; return e; };
+const IND_ORDER = ['bank','oil','semi','hyper','soft','air','pharma'];
+const ARCH = {A:'War chest → capital (img 4)',B:'Capital-intensive cycle (img 5)',C:'Cash cow → dividends (img 6)',D:'Hybrid: keep + distribute (img 7)'};
+const company = (ind,t) => D.industries[ind].companies.find(c=>c.t===t);
+
+const NARR = {
+ bank:{one:'Highest returns on tangible equity among deposit franchises, best cost discipline, smallest hidden bond hole.',
+  why:['ROTCE ~22% TTM vs 11–19% for the other deposit banks (SEC XBRL).','Cost/revenue 52% vs 57–66% for peers: scale advantage that compounds.','HTM bond loss only 8% of tangible book vs 52% at Bank of America and 33% at Wells Fargo.','Wins 5 of 6 runs, including a credit-cycle stress with provisions ×2.5.'],
+  diff:'A fortress model: card, investment bank, payments and wealth on one balance sheet, with capital held back (payout 65% of earnings) instead of over-distributed (BAC 115%, COF 117%).',
+  risk:'Priced for ~21% ROTCE, which is about what it earns: a great bank at a full price. Cheaper vs its returns: Goldman Sachs and Capital One; PNC is cheap but ~21% of its loans go to non-bank lenders.',
+  scatter:{x:'p_etbv',y:'rotce',xl:'Price / economic tangible book (×)',yl:'ROTCE (TTM)'}},
+ oil:{one:'Highest return on capital in oil & gas, near-zero debt, priced for decline even at normal oil.',
+  why:['ROIC 23% vs 10–17% for the majors; 36% operating margin.','Net debt / EBITDA 0.2×; P/E 9.5; ~10% FCF yield.','Wins all 6 runs, including Brent back to $65 with refining margins normal.','Price implies owner earnings shrink ~4% a year for a decade.'],
+  diff:'Pure low-cost US shale and gas with a "premium well" return hurdle and no refining. Its 2026 profits come from production, not from the refining windfall that inflates Exxon, Shell and BP this year.',
+  risk:'No downstream hedge, so it feels crude prices fully (Brent 52-week range $59–126). Exxon looks expensive in comparison: P/E 16, priced for +1.4% growth.',
+  scatter:{x:'oe_y_strict',y:'roic',xl:'Owner-earnings yield (FCF − SBC) / market cap',yl:'ROIC (TTM)'}},
+ semi:{one:'The only EUV toolmaker: every leading-edge and HBM fab pays it, whoever wins the AI chip war.',
+  why:['Return on operating capital >100%, net cash, 39% operating margin, revenue +55% y/y.','Wins 5 of 6 runs and stays #1 when AI capex falls 30%.','Less exposed to which chip designer wins: TSMC, Samsung, Intel and memory makers all need EUV.'],
+  diff:'Sells the monopoly tool rather than the chip. Revenue comes from capacity additions across logic and memory, so it depends less on one AI customer.',
+  risk:'Not cheap: priced for 7–16% annual growth for 10 years. NVIDIA is the cheapest quality (P/E 16, priced for ~8%) but carries four red flags: CEO resignation, cash conversion down to ~70%, receivables +$40B in two quarters, ~$35B invested in its own customers.',
+  scatter:{x:'rev_yoy_q',y:'pe_norm',xl:'Revenue growth, latest quarter y/y',yl:'P/E on 5-yr average margin'}},
+ hyper:{one:'The one AI giant still funding its build-out from its own cash flow.',
+  why:['Never ranked below #2 in 6 runs; 47% operating margin, ROIC 24%.','External financing ≈5% of operating cash flow vs Alphabet 88%, Amazon 74%, Oracle ~74%.','Keeps paying dividends and buying back stock while capex runs at $136B TTM.'],
+  diff:'Monetizes AI twice: seats (Microsoft 365 Copilot) and consumption (Azure). The others either sell ads (Meta, Alphabet) or rent capacity on debt (Oracle).',
+  risk:'Free cash flow is down to 42% of net income; backlog leans on OpenAI. Priced for 8% growth if capex earns its keep, 23% if it doesn\'t. Apple wins the safety run (no AI capex); Meta wins growth and value.',
+  scatter:{x:'capex_ocf',y:'oe_y_maint',xl:'Capex / operating cash flow',yl:'Owner-earnings yield if growth capex pays off'}},
+ soft:{one:'A cash machine priced for permanent decline while its numbers still grow.',
+  why:['FCF yield 12% (9.7% after stock comp); 36% operating margin; ROIC 56%.','Revenue +13% y/y; share count down 18% since 2021.','Wins 5 of 6 runs and stays #1 even if AI agents cut 30% of seats.','Price implies owner earnings shrink 3.7% a year forever.'],
+  diff:'Sells AI as credits inside Creative Cloud and Firefly plus enterprise content workflows, so AI adds usage revenue instead of only replacing seats. Buys back ~10% of its market value a year at these prices.',
+  risk:'Generative AI can substitute creative seats (~60% seat exposure). Palantir is the growth winner but priced for 29% annual growth; Intuit is the second-best value.',
+  scatter:{x:'rev_yoy_q',y:'oe_y_strict',xl:'Revenue growth, latest quarter y/y',yl:'Owner-earnings yield (FCF − SBC)'}},
+ air:{one:'The airline that stayed cash-positive through a 60–90% jet-fuel shock.',
+  why:['FCF positive in every 2026 quarter; net debt / EBITDA 1.9×; ~$20B debt repaid since 2021.','Ties United on average rank; wins the fuel +20% stress test that breaks the tie.','Revenue +21% in Q3: premium fares passed fuel through.'],
+  diff:'Owns a refinery (Trainer), which cut its Q4 fuel to ~$4.25/gal vs ~$4.80 at United, and earns a high-margin annuity from its AmEx card deal. Berkshire owns ~9.8%.',
+  risk:'Fuel and recession still hit it. United is cheaper (P/E 9.8) but burned $1.7B in Q3 and carries more debt. American fails survival: negative equity and interest cover below 1×.',
+  scatter:{x:'nd_ebitda',y:'om',xl:'Net debt / EBITDA (TTM)',yl:'Operating margin (TTM)'}},
+ pharma:{one:'The incretin leader: fastest growth, highest margins, least patent-cliff exposure.',
+  why:['Revenue +39% in Q3; 2026 guide $91–92B (+40%); operating margin 51%; ROIC 41%.','~5% of revenue faces loss of exclusivity by 2030 vs ~50% at Merck and ~45% at Bristol-Myers.','Wins the Quality-first and Growth-first runs.'],
+  diff:'Oral orforglipron (Foundayo) is a small molecule that scales cheaply, on top of Zepbound/Mounjaro. It is building US capacity now, which makes it a capital-intensive grower for a few years.',
+  risk:'Expensive: priced for 15–28% annual growth (P/E ~45 TTM, ~39× 2026 guidance). Novo Nordisk ranked #1 on price (P/E ~11) but guides 2026 sales down 0–6% while losing share, so it fails your "is revenue stable?" test.',
+  scatter:{x:'rev_yoy_q',y:'pe_norm',xl:'Revenue growth (latest quarter; guidance for NVO/LLY)',yl:'P/E on 5-yr average margin'}}
+};
+
+function winnerCards(){
+  const g=document.getElementById('winGrid');
+  IND_ORDER.forEach(ind=>{
+    const I=D.industries[ind], c=company(ind,I.winner), N=NARR[ind];
+    const gs=[c.val.g_strict,c.val.g_maint].filter(x=>x!=null).sort((a,b)=>a-b); const priced = ind==='bank' ? `priced for ${pct(c.val.impl_rotce_tbv,0)} ROTCE` : (gs.length>1&&Math.abs(gs[1]-gs[0])>0.02 ? `priced for ${pct(gs[0],0)} to ${pct(gs[1],0)}/yr` : `priced for ${pct(gs[0],0)}/yr`);
+    const arch = ind==='bank' ? 'D' : c.arch;
+    const card=el('a','panel win-card'); card.href='#'+ind; card.style.textDecoration='none'; card.style.color='inherit';
+    card.innerHTML=`<span class="ind">${I.name}</span><div><div class="tk">${c.t}</div><div class="nm">${c.name}</div></div>
+      <p class="why">${N.one}</p>
+      <div class="kv"><span class="pill acc">${c.wins}/${I.n_runs} runs won</span><span class="pill">${ARCH[arch].split(' (')[0]}</span><span class="pill ${ind==='bank'||(gs[0]??0)<0.08?'good':'warn'}">${priced}</span></div>`;
+    g.appendChild(card);
+  });
+}
+function regime(){
+  const m=D.mkt, t=document.getElementById('regimeTiles');
+  [[`$${num(m['BZ=F'].px,0)}`,`Brent crude · 52-wk $${num(m['BZ=F'].lo,0)}–${num(m['BZ=F'].hi,0)}`],[`${num(m['^TNX'].px,2)}%`,'10-yr Treasury yield'],['3.75–4.00%','Fed funds after Sep hike; Dec hike priced'],
+   [`${D.sect_ytd.XLE>0?'+':''}${D.sect_ytd.XLE}%`,'Energy ETF 2026 YTD'],[`${D.sect_ytd.IGV}%`,'Software ETF 2026 YTD'],['~$800B','2026 AI capex, top 5 spenders']].forEach(([v,l])=>{
+    const d=el('div','tile'); d.innerHTML=`<span class="v">${v}</span><span class="l">${l}</span>`; t.appendChild(d);});
+}
+const charts=[];
+function mk(id,cfg){const c=new Chart(document.getElementById(id),cfg);charts.push([id,cfg,c]);return c;}
+function baseOpts(extra={}){
+  const ink=css('--ink'), muted=css('--muted'), line=css('--line');
+  return Object.assign({responsive:true,maintainAspectRatio:false,animation:false,
+    plugins:{legend:{labels:{color:ink,font:{family:'Inter',size:11},boxWidth:10}},tooltip:{titleFont:{family:'Inter'},bodyFont:{family:'IBM Plex Mono'}}},
+    scales:{x:{ticks:{color:muted,font:{family:'IBM Plex Mono',size:10}},grid:{color:line}},y:{ticks:{color:muted,font:{family:'IBM Plex Mono',size:10}},grid:{color:line}}}},extra);
+}
+function drawAll(){
+  charts.splice(0).forEach(([id,cfg,c])=>c.destroy());
+  const acc=css('--accent'), acc2=css('--accent-2'), good=css('--good'), bad=css('--bad'), warn=css('--warn'), muted=css('--muted'), ink=css('--ink');
+  // sectors
+  const sk=['XLE','SMH','XLV','XLK','BRK-B','SPY','XLF','JETS','ITB','IGV'], sl={XLE:'Energy',SMH:'Semis',XLV:'Health care',XLK:'Tech',SPY:'S&P 500','BRK-B':'Berkshire',XLF:'Financials',JETS:'Airlines',ITB:'Homebuilders',IGV:'Software'};
+  mk('cSect',{type:'bar',data:{labels:sk.map(k=>sl[k]),datasets:[{data:sk.map(k=>D.sect_ytd[k]),backgroundColor:sk.map(k=>D.sect_ytd[k]>=0?good:bad),borderRadius:3}]},
+    options:baseOpts({indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{ticks:{color:muted,callback:v=>v+'%'},grid:{color:css('--line')}},y:{ticks:{color:ink,font:{size:11}},grid:{display:false}}}})});
+  // winners price paths
+  const pal=[acc,acc2,good,warn,bad,muted,ink];
+  mk('cWinPx',{type:'line',data:{datasets:IND_ORDER.map((ind,i)=>{const c=company(ind,D.industries[ind].winner);return {label:c.t,data:c.px1y.map(([d,v])=>({x:d,y:v})),borderColor:pal[i],borderWidth:1.6,pointRadius:0,tension:.2};})},
+    options:baseOpts({parsing:true,scales:{x:{type:'category',labels:company('bank','JPM').px1y.map(p=>p[0]),ticks:{color:muted,maxTicksLimit:6,font:{size:10}},grid:{display:false}},y:{ticks:{color:muted},grid:{color:css('--line')}}}})});
+  // berkshire banks
+  const q=D.brk.q.map(s=>s.slice(0,7)), P=D.brk.pos;
+  mk('cBrkBanks',{data:{labels:q,datasets:[
+    {type:'bar',label:'Bank of America',data:P.BAC.val,backgroundColor:acc,stack:'s'},
+    {type:'bar',label:'Citigroup',data:P.C.val,backgroundColor:acc2,stack:'s'},
+    {type:'bar',label:'Capital One + others',data:q.map((_,i)=>+(D.brk.banks[i]-P.BAC.val[i]-P.C.val[i]).toFixed(2)),backgroundColor:muted,stack:'s'},
+    {type:'line',label:'% of 13F portfolio',data:D.brk.bank_share,yAxisID:'y2',borderColor:bad,backgroundColor:bad,pointRadius:2,borderWidth:2}]},
+    options:baseOpts({scales:{x:{stacked:true,ticks:{color:muted,font:{size:10}},grid:{display:false}},y:{stacked:true,ticks:{color:muted,callback:v=>'$'+v+'B'},grid:{color:css('--line')}},y2:{position:'right',ticks:{color:bad,callback:v=>v+'%'},grid:{display:false}}}})});
+  const ht=Object.entries(D.htm).sort((a,b)=>b[1].pct-a[1].pct);
+  mk('cHTM',{type:'bar',data:{labels:ht.map(([t])=>t),datasets:[{label:'HTM loss as % of tangible book',data:ht.map(([,v])=>v.pct),backgroundColor:ht.map(([t,v])=>v.pct>30?bad:v.pct>12?warn:good),borderRadius:3}]},
+    options:baseOpts({plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.raw}% of TBV · $${D.htm[c.label].loss}B loss`}}},scales:{x:{ticks:{color:ink},grid:{display:false}},y:{ticks:{color:muted,callback:v=>v+'%'},grid:{color:css('--line')}}}})});
+  const mv=['BAC','AAPL','C','COF','GOOGL','DAL','LEN','CB'];
+  mk('cBrkMoves',{type:'line',data:{labels:q,datasets:[
+    {label:'Bank of America (M sh)',data:P.BAC.sh,borderColor:acc,yAxisID:'y',pointRadius:1.5,borderWidth:2},
+    {label:'Apple (M sh)',data:P.AAPL.sh,borderColor:muted,yAxisID:'y',pointRadius:1.5,borderWidth:2},
+    {label:'Alphabet ($B, right)',data:P.GOOGL.val,borderColor:good,yAxisID:'y2',pointRadius:1.5,borderWidth:2},
+    {label:'Delta (M sh, right)',data:P.DAL.sh,borderColor:warn,yAxisID:'y2',pointRadius:1.5,borderWidth:2},
+    {label:'Lennar (M sh, right)',data:P.LEN.sh,borderColor:acc2,yAxisID:'y2',pointRadius:1.5,borderWidth:2}]},
+    options:baseOpts({scales:{x:{ticks:{color:muted,font:{size:10}},grid:{display:false}},y:{ticks:{color:muted},grid:{color:css('--line')}},y2:{position:'right',ticks:{color:muted},grid:{display:false}}}})});
+  // industries
+  IND_ORDER.forEach(ind=>{
+    const I=D.industries[ind], cs=I.companies, W=I.winner;
+    const sorted=[...cs].sort((a,b)=>b.score-a.score);
+    mk('score_'+ind,{type:'bar',data:{labels:sorted.map(c=>c.t+(c.flags.length?' ⚑'+c.flags.length:'')),datasets:Object.keys(sorted[0].pillars).map((p,i)=>({label:{Q:'Quality',S:'Strength',A:'Allocation',G:'Growth',V:'Valuation'}[p],
+      data:sorted.map(c=>+(c.pillars[p]*D.schemes['Owner (base)'][p]).toFixed(3)),backgroundColor:[acc,good,acc2,warn,muted][i],stack:'s'}))},
+      options:baseOpts({indexAxis:'y',scales:{x:{stacked:true,max:1,ticks:{color:muted},grid:{color:css('--line')}},y:{stacked:true,ticks:{color:ink,font:{family:'IBM Plex Mono',size:11,weight:'600'}},grid:{display:false}}},
+        plugins:{legend:{position:'bottom',labels:{color:ink,boxWidth:10,font:{size:10}}},tooltip:{callbacks:{footer:items=>{const c=sorted[items[0].dataIndex];return `flags: ${c.flags.length}  ·  total ${c.score.toFixed(3)}`;}}}}})});
+    const sc=NARR[ind].scatter;
+    const pts=cs.filter(c=>c[sc.x]!=null&&c[sc.y]!=null&&Math.abs(c[sc.y])<5&&Math.abs(c[sc.x])<50);
+    mk('sc_'+ind,{type:'scatter',data:{datasets:[{data:pts.map(c=>({x:c[sc.x],y:c[sc.y],t:c.t})),pointRadius:pts.map(c=>c.t===W?9:6),
+      pointBackgroundColor:pts.map(c=>c.t===W?acc:css('--heat-mid')),pointBorderColor:pts.map(c=>c.t===W?ink:muted),pointBorderWidth:1}]},
+      options:baseOpts({plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.raw.t}: ${fmtAxis(sc.x,c.raw.x)}, ${fmtAxis(sc.y,c.raw.y)}`}}},
+        scales:{x:{title:{display:true,text:sc.xl,color:muted,font:{size:11}},ticks:{color:muted,callback:v=>fmtAxis(sc.x,v)},grid:{color:css('--line')}},
+                y:{title:{display:true,text:sc.yl,color:muted,font:{size:11}},ticks:{color:muted,callback:v=>fmtAxis(sc.y,v)},grid:{color:css('--line')}}}}),
+      plugins:[{id:'lbl',afterDatasetsDraw(ch){const ctx=ch.ctx;ctx.save();ctx.font='600 11px IBM Plex Mono';ctx.fillStyle=css('--ink');
+        ch.getDatasetMeta(0).data.forEach((p,i)=>{ctx.fillText(pts[i].t,p.x+8,p.y-6);});ctx.restore();}}]});
+    if(ind!=='bank'){
+      const w=company(ind,W);
+      mk('hist_'+ind,{data:{labels:w.hist.rev.map(r=>r[0]),datasets:[{type:'bar',label:'Revenue $B',data:w.hist.rev.map(r=>r[1]),backgroundColor:css('--heat-mid'),borderRadius:3},
+        {type:'line',label:'Free cash flow $B',data:w.hist.rev.map(r=>{const f=w.hist.fcf.find(x=>x[0]===r[0]);return f?f[1]:null;}),borderColor:acc,backgroundColor:acc,pointRadius:3,borderWidth:2}]},
+        options:baseOpts({scales:{x:{ticks:{color:muted},grid:{display:false}},y:{ticks:{color:muted},grid:{color:css('--line')}}}})});
+    }
+  });
+}
+function fmtAxis(k,v){const P=['rotce','roic','om','fcf_m','oe_y_strict','oe_y_maint','rev_yoy_q','capex_ocf','fcf_y'];return P.includes(k)?(v*100).toFixed(0)+'%':Number(v).toFixed(1)+(k.startsWith('p')||k.includes('ebitda')?'×':'');}
+
+const COLS = {
+ bank:[['mcap','Mkt cap',v=>big(v)],['rotce','ROTCE',pct],['eff','Cost/rev',v=>pct(v,0)],['ptbv','P/TBV',v=>num(v,2)+'×'],['htm_loss_tbv','HTM hole/TBV',v=>pct(v,0)],['p_etbv','P/econ TBV',v=>num(v,2)+'×'],['pe','P/E',v=>num(v,1)],['payout','Payout',v=>pct(v,0)],['shs_cagr','Shares/yr',pct],['cet1','CET1',v=>v?v+'%':'–'],['ret_1y','1-yr',v=>pct(v,0)]],
+ nf:[['mcap','Mkt cap',v=>big(v)],['rev_yoy_q','Rev y/y',v=>pct(v,0)],['om','Op margin',v=>pct(v,0)],['fcf_m','FCF margin',v=>pct(v,0)],['roic','ROIC',v=>pct(v,0)],['nd_ebitda','ND/EBITDA',v=>num(v,1)+'×'],['pe','P/E',v=>num(v,1)],['pe_norm','P/E norm.',v=>num(v,1)],['oe_y_strict','OE yield',pct],['capex_ocf','Capex/OCF',v=>pct(v,0)],['shs_cagr','Shares/yr',pct],['ret_1y','1-yr',v=>pct(v,0)]]
+};
+function industries(){
+  const host=document.getElementById('industries');
+  IND_ORDER.forEach(ind=>{
+    const I=D.industries[ind], N=NARR[ind], W=I.winner, w=company(ind,W);
+    const s=el('section'); s.id=ind;
+    const priced = ind==='bank' ? `Price requires ${pct(w.val.impl_rotce_tbv,0)} ROTCE; it earns ${pct(w.rotce,0)}` : `Price implies ${pct(w.val.g_strict,1)}/yr (strict) · ${pct(w.val.g_maint,1)}/yr (if growth capex pays)`;
+    const archTxt = ind==='bank' ? ARCH.D : ARCH[w.arch];
+    s.innerHTML=`<div><span class="eyebrow">${I.companies.length} companies · ${I.n_runs} runs</span><h2>${I.name}</h2></div>
+    <div class="verdict">
+      <div class="panel" style="display:grid;gap:10px">
+        <div class="big"><span class="tk">${W}</span><span><b>${w.name}</b><br><span class="muted">${N.one}</span></span></div>
+        <div class="kv"><span class="pill acc">won ${w.wins}/${I.n_runs} runs · avg rank ${w.avgrank}</span><span class="pill">${archTxt}</span><span class="pill warn">${priced}</span></div>
+        <ul class="tight">${N.why.map(x=>`<li>${x}</li>`).join('')}</ul>
+      </div>
+      <div class="panel" style="display:grid;gap:10px">
+        <div><h3>What it does differently</h3><p style="margin-top:4px">${N.diff}</p></div>
+        <div><h3>Risks and the runner-up</h3><p style="margin-top:4px">${N.risk}</p></div>
+        ${w.flags.length?`<p class="flag">Flags: ${w.flags.join(' · ')}</p>`:''}
+      </div>
+    </div>
+    <div class="grid g2">
+      <div class="panel"><h3>Head-to-head score (Owner weights, pillar contributions)</h3><div class="chart tall"><canvas id="score_${ind}"></canvas></div><p class="note">Bars show pillar points before flags; order is after flags (⚑ = number of risk flags, −0.03 each).</p></div>
+      <div class="panel"><h3>${N.scatter.yl} vs ${N.scatter.xl.toLowerCase()}</h3><div class="chart tall"><canvas id="sc_${ind}"></canvas></div></div>
+    </div>
+    <div class="grid g2">
+      <div class="panel"><h3>Trial and error: rank in every run</h3><div class="tbl"><table class="heat" id="heat_${ind}"></table></div><p class="note">1 = best. Five weighting schemes, then the industry stress test.</p></div>
+      ${ind!=='bank'?`<div class="panel"><h3>${W}: revenue and free cash flow by fiscal year ($B)</h3><div class="chart"><canvas id="hist_${ind}"></canvas></div><p class="src">SEC EDGAR XBRL annual filings${['ASML','TSM','SAP','NVO','SHEL','TTE','BP'].includes(W)?' / 20-F via yfinance':''}</p></div>`
+        :`<div class="panel"><h3>Bank hidden-loss check</h3><div class="tbl"><table id="htmTbl"></table></div><p class="note">Economic TBV = TBV − 76% of the HTM loss (after tax).</p></div>`}
+    </div>
+    <div class="tbl"><table id="tbl_${ind}"></table></div>
+    <div class="panel"><h3>Risk flags applied in ${I.name.toLowerCase()}</h3><ul class="tight">${I.companies.filter(c=>c.flags.length).map(c=>`<li><b>${c.t}</b>: ${c.flags.join('; ')}</li>`).join('')||'<li>None</li>'}</ul></div>`;
+    host.appendChild(s);
+    // heat table
+    const runs=Object.entries(I.runs), names=runs.map(([k])=>k.replace('STRESS: ','⚡ ').replace(' (base)',''));
+    const ht=document.getElementById('heat_'+ind), n=I.companies.length;
+    ht.innerHTML=`<thead><tr><th>Co.</th>${names.map(x=>`<th title="${x}">${x.length>14?x.slice(0,13)+'…':x}</th>`).join('')}<th>Avg</th></tr></thead><tbody>`+
+      I.companies.map(c=>`<tr class="${c.t===W?'w':''}"><td>${c.t}</td>${runs.map(([k,r])=>{const k1=r.indexOf(c.t)+1, f=1-(k1-1)/(n-1);
+        return `<td style="background:color-mix(in srgb,var(--heat-1) ${Math.round(f*f*70)}%,var(--heat-low));color:${f>0.7?'var(--panel)':'var(--ink)'}">${k1}</td>`;}).join('')}<td>${c.avgrank}</td></tr>`).join('')+'</tbody>';
+    // metrics table
+    const cols=ind==='bank'?COLS.bank:COLS.nf, t=document.getElementById('tbl_'+ind);
+    t.innerHTML=`<thead><tr><th>Company</th>${cols.map(c=>`<th>${c[1]}</th>`).join('')}</tr></thead><tbody>`+
+      I.companies.map(c=>`<tr class="${c.t===W?'w':''}"><td>${c.t} <span class="muted" style="font-weight:400">${c.name}</span></td>${cols.map(([k,,f])=>{const v=c[k];const cls=(k==='ret_1y'||k==='rev_yoy_q'||k==='shs_cagr')&&v!=null?(k==='shs_cagr'?(v<0?'pos':'neg'):(v>=0?'pos':'neg')):'';return `<td class="n ${cls}">${f(v)}</td>`;}).join('')}</tr>`).join('')+'</tbody>';
+    if(ind==='bank'){
+      const h=document.getElementById('htmTbl');
+      h.innerHTML='<thead><tr><th>Bank</th><th>HTM loss</th><th>TBV</th><th>Hole/TBV</th><th>P/TBV</th><th>P/econ TBV</th></tr></thead><tbody>'+
+        I.companies.map(c=>`<tr class="${c.t===W?'w':''}"><td>${c.t}</td><td class="n">$${num(c.htm_loss,1)}B</td><td class="n">$${num(c.tbv,0)}B</td><td class="n ${c.htm_loss_tbv>0.3?'neg':''}">${pct(c.htm_loss_tbv,0)}</td><td class="n">${num(c.ptbv,2)}×</td><td class="n">${num(c.p_etbv,2)}×</td></tr>`).join('')+'</tbody>';
+    }
+  });
+}
+function berkshireText(){
+  const why=['Rates are rising again (Fed hiked in Sep; 10-yr at 5.07%). Bank of America holds $496B of held-to-maturity bonds worth $392B: a $104B loss equal to 52% of its tangible book, invisible in reported equity.',
+    'Selling began in Jul-2024, when Berkshire owned ~13% of BAC, and never stopped: 1,033M → 456M shares. Citigroup (Q1-25) and Nu were exited; Capital One cut 91%.',
+    'Bank prices already assume peak returns: JPMorgan at 2.8× tangible book needs ~21% ROTCE forever. On marked-to-market book, BAC (2.8×) is no cheaper than JPM (3.0×).',
+    'Credit is turning: private-credit defaults at a record 6.1%, ~$1.3T of bank loans to non-bank lenders, household delinquencies up to 5.0%.'];
+  const ind=['Reported bank book value overstates economic capital when long rates rise; the market ignores it until deposits move.',
+    'Abel prefers being the capital provider at a discount (Alphabet: $10B direct at ~6.5% below market) and buying depressed cyclicals with strong balance sheets (Delta, Lennar, Taylor Morrison).',
+    'Berkshire buying its own stock ($14.4B in 9 months + ~$2B in Oct) while staying a net seller of equities: it sees its own shares as cheaper than the market, and T-bills at 4%+ as better than most stocks.'];
+  const imp=['Financials lag: XLF +4% YTD vs S&P +7.7%. Deposit-heavy banks with big HTM books (BAC, WFC, USB) are most exposed if stablecoins or money funds pull deposits.',
+    'Capital is getting scarce at the top: Alphabet, Meta, Oracle and Intel are issuing equity; Amazon added $125B of debt in a year. A late-cycle capex signal, like telecom in 2000.',
+    'Equity yields of the biggest stocks (Microsoft 3.8%, Apple 2.6%, Lilly 2.2%) sit below the 5.07% Treasury yield. Favor businesses that fund themselves and are priced for decline (EOG, Adobe).'];
+  [['brkWhy',why],['brkInd',ind],['brkImp',imp]].forEach(([id,arr])=>{document.getElementById(id).innerHTML=arr.map(x=>`<li>${x}</li>`).join('');});
+}
+function indicators(){
+  const I=[
+    ['Hidden HTM hole / tangible book','52% BAC','bad','BAC $104B, WFC 33%, USB 31%, JPM 8%. The cleanest explanation for Berkshire\'s exit. SEC XBRL.'],
+    ['AI capex funded from outside','88% GOOGL','bad','(Debt + equity raised) ÷ operating cash flow, TTM: Alphabet 88%, Amazon 74%, Oracle ~74% funding gap (FCF −$28.7B, $20B equity sold), Meta 40%, Microsoft ~5%.'],
+    ['NVIDIA cash conversion','70%','warn','Operating cash flow ÷ net income, TTM (86–88% before). Receivables +$40B in two quarters; ~$35B invested in customers.'],
+    ['Megacap earnings yield vs 10-yr','3.8% < 5.07%','warn','Microsoft 3.8%, Apple 2.6%, Lilly 2.2% earnings yield vs 5.07% risk-free. Negative equity premium at the top of the index.'],
+    ['Berkshire: buying itself, not the market','$16B','good','Buybacks $14.4B (9M) + ~$2B Oct while net-selling stocks and holding ~$352B of T-bills.'],
+    ['Private credit default rate','6.1%','bad','Fitch, record (Jul-26). Software ≈26% of BDC loans, so AI disruption of SaaS shows up in credit. Redemptions gated at BCRED, Cliffwater, Apollo.'],
+    ['Margin debt','$1.50T peak','warn','Record in Jun-26 (+49% y/y), then the largest monthly drop on record in Jul (−$85B): leverage unwinding.'],
+    ['Household delinquency','5.0%','warn','NY Fed Q3-26, up from 4.7%. Mortgage serious-delinquency flow 1.60% (from 1.28%).'],
+    ['Fare pass-through','+21% rev','good','Delta/Southwest Q3 revenue +21% with jet fuel up 60–90%: premium demand absorbs fuel; low-cost carriers (JetBlue, Alaska) lose money.'],
+    ['Oil curve vs refining','Brent $89','good','Crude below its 50-day ($104) while refining margins carry the majors; producers like EOG are priced for decline.']];
+  const g=document.getElementById('indGrid');
+  I.forEach(([t,v,s,txt])=>{const d=el('div','panel');d.style.display='grid';d.style.gap='6px';
+    d.innerHTML=`<span class="eyebrow">${t}</span><div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap"><span class="mono" style="font-size:22px;font-weight:500">${v}</span><span class="pill ${s}">${s==='bad'?'red':s==='warn'?'amber':'green'}</span></div><p style="font-size:13.5px">${txt}</p>`;g.appendChild(d);});
+}
+function archetypes(){
+  const g=document.getElementById('archGrid'), buckets={A:[],B:[],C:[],D:[]};
+  IND_ORDER.forEach(ind=>D.industries[ind].companies.forEach(c=>buckets[ind==='bank'?'D':c.arch].push([c.t,c.t===D.industries[ind].winner])));
+  const FLOW={A:['Revenue','Good margins','Strong recurring FCF','Cash kept / war chest','Capital'],B:['Capital-intensive industry','Revenue','Good margins','FCF','Cash kept','Capital → reinvested (cycle)'],
+    C:['Revenue','Good margins','Strong recurring FCF','Strong dividend / cash cow'],D:['Revenue','Good margins','Strong recurring FCF','Cash kept for capital + dividends (well managed)']};
+  Object.entries(buckets).forEach(([k,list])=>{const d=el('div','panel arch');
+    d.innerHTML=`<h3>${ARCH[k]}</h3><div class="flow">${FLOW[k].map((n,i)=>`<span class="n ${i===FLOW[k].length-1?'hi':''}">${n}</span>${i<FLOW[k].length-1?'<span class="ar">→</span>':''}`).join('')}</div>
+      <div class="chips">${list.map(([t,w])=>`<span class="chip ${w?'w':''}">${t}</span>`).join('')}</div>`;g.appendChild(d);});
+}
+function trees(){
+  const T=[
+    ['Software: Adobe',[['The economics behind the depression','AI agents threaten per-seat pricing; software ETF −5.5% YTD; CRM −9.7% and NOW −6.5% on 17 Nov.'],['Cycle or long-term disruption?','For Adobe so far a fear, not a fact: revenue +13%, TTM FCF $10.6B vs $9.9B in FY25, AI-priced ARR +150%. For seat-heavy CRM and Workday the risk is more structural.'],['Capital intensive?','No: capex 1% of revenue.'],['Capital to survive?','Yes: net debt ≈0, $10.6B FCF.'],['FCF & revenue stable?','Yes: FCF positive every year, rising. Verdict: priced as disruption, behaving like a cycle.']]],
+    ['Airlines: Delta',[['The economics behind the depression','US–Iran war: jet fuel +60–90%, record $4.64/gal in Oct; American guides to a loss.'],['Cycle or long-term disruption?','Cycle: fuel shock plus Fed hikes; demand intact (revenue +13–21%).'],['Capital intensive?','Yes: capex ~6–7% of revenue, fleet debt.'],['Capital to survive?','Delta yes (ND/EBITDA 1.9×, refinery hedge). American no (negative equity, cover <1×).'],['FCF & revenue stable?','Delta FCF positive every 2026 quarter; United −$1.7B in Q3.']]],
+    ['Pharma: Novo Nordisk (rejected)',[['The economics behind the depression','GLP-1 price resets (US deals), share loss to Lilly, ex-US semaglutide generics from 2026.'],['Cycle or long-term disruption?','Long-term: competitive share loss, not a cycle.'],['Capital intensive?','Now yes: heavy capacity build (strict FCF thin).'],['Capital to survive?','Yes: low debt, 42% margins.'],['FCF & revenue stable?','No: 2026 sales guided 0–6% lower. Fails the test, so Lilly takes pharma.']]]];
+  const g=document.getElementById('treeGrid');
+  T.forEach(([t,qs])=>{const d=el('div','panel tree');d.innerHTML=`<h3>${t}</h3>`+qs.map(([q,a])=>`<div><div class="q">${q}</div><div class="a">${a}</div></div>`).join('');g.appendChild(d);});
+}
+function method(){
+  const L=['Universe: the major listed companies in each industry (52 total), not a pre-picked shortlist.','Data: SEC EDGAR XBRL companyfacts (annual + trailing-12-month built from 10-K/10-Q), yfinance for prices and foreign filers, FMP to cross-check. TTM through Sep/Oct 2026.',
+   'Own metrics only: ROIC/ROTCE, margins and their 5-yr averages, FCF conversion, owner earnings (FCF − stock comp), share-count trend, leverage, cash-flow allocation, reverse DCF.',
+   'Each industry scored on 5 pillars with percentile ranks, under 5 weighting schemes, plus one industry stress test (oil $65, AI capex −30%, seats −30%, fuel +20%, patent cliff, credit cycle).',
+   'Winner = best average rank over the 6 runs. Ties (<0.5 apart) go to the stress-test leader. A company guiding revenue down cannot win (your "is revenue stable?" test).',
+   'Banks are marked for held-to-maturity bond losses (economic tangible book) because rates are rising and Berkshire is selling.'];
+  document.getElementById('methodList').innerHTML=L.map(x=>`<li>${x}</li>`).join('');
+  const t=document.getElementById('schemeTbl'), S=D.schemes;
+  t.innerHTML='<thead><tr><th>Scheme</th><th>Q</th><th>S</th><th>A</th><th>G</th><th>V</th></tr></thead><tbody>'+Object.entries(S).map(([k,w])=>`<tr><td>${k}</td>${['Q','S','A','G','V'].map(p=>`<td class="n">${Math.round(w[p]*100)}%</td>`).join('')}</tr>`).join('')+'</tbody>';
+}
+winnerCards(); regime(); berkshireText(); indicators(); industries(); archetypes(); trees(); method();
+function safeDraw(){ if(window.Chart){ Chart.defaults.font.family='Inter'; drawAll(); } }
+safeDraw();
+const mq=window.matchMedia('(prefers-color-scheme: dark)'); mq.addEventListener&&mq.addEventListener('change',safeDraw);
+new MutationObserver(safeDraw).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+</script>
