@@ -1,0 +1,6 @@
+Crumb fetch rate-limited (HTTP 429), continuing without crumb
+HTTP Error 401: Unauthorized{"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+HTTP Error 401: Unauthorized{"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+info 374 missing price: []
+prices (155, 385) (752, 374)
+foreign stmts ['TSM', 'ASML', 'SAP', 'NVO', 'AZN', 'NVS', 'SHEL', 'TTE', 'BP', 'TM', 'STLA', 'BHP', 'RIO', 'BTI', 'INFY', 'SPOT', 'CP']

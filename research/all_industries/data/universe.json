@@ -1,0 +1,74 @@
+{
+ "Information Technology": {
+  "Semiconductors": ["NVDA","AVGO","TSM","AMD","QCOM","TXN","MU","ADI","MRVL","INTC"],
+  "Semiconductor Equipment": ["ASML","AMAT","LRCX","KLAC","TER"],
+  "Application & Design Software": ["ADBE","CRM","NOW","INTU","WDAY","SAP","ADSK","PLTR","SNPS","CDNS"],
+  "Cybersecurity": ["PANW","CRWD","FTNT","ZS","NET","OKTA"],
+  "Tech Hardware & Networking": ["AAPL","CSCO","ANET","DELL","HPQ","HPE","SMCI","NTAP"],
+  "IT Services & Consulting": ["ACN","IBM","CTSH","IT","EPAM","INFY"]
+ },
+ "Communication Services": {
+  "Hyperscalers & Mega-cap Platforms": ["MSFT","AMZN","GOOGL","META","ORCL"],
+  "Telecom & Cable": ["TMUS","VZ","T","CMCSA","CHTR"],
+  "Media & Streaming": ["NFLX","DIS","SPOT","ROKU"]
+ },
+ "Consumer Discretionary": {
+  "Autos & EVs": ["TSLA","GM","F","TM","STLA","RIVN"],
+  "Homebuilders": ["DHI","LEN","PHM","NVR","TOL","KBH"],
+  "Restaurants": ["MCD","SBUX","CMG","YUM","DRI","QSR","DPZ","WING"],
+  "Specialty & Home Improvement Retail": ["HD","LOW","TJX","ROST","ORLY","AZO","TSCO","ULTA","BBY"],
+  "Travel, Hotels & Cruise": ["BKNG","ABNB","EXPE","MAR","HLT","RCL","CCL","NCLH"],
+  "Apparel & Footwear": ["NKE","LULU","DECK","TPR","RL","CROX","VFC"],
+  "Internet Marketplaces & Delivery": ["MELI","UBER","DASH","EBAY","CPNG","ETSY"]
+ },
+ "Consumer Staples": {
+  "Beverages": ["KO","PEP","MNST","KDP","CELH","STZ","BF-B","TAP"],
+  "Household & Personal Products": ["PG","CL","KMB","CHD","CLX","EL"],
+  "Packaged Foods": ["MDLZ","GIS","KHC","HSY","CPB","CAG","SJM","HRL","MKC"],
+  "Tobacco": ["PM","MO","BTI"],
+  "Staples Retail": ["WMT","COST","TGT","KR","DG","DLTR","BJ"]
+ },
+ "Health Care": {
+  "Big Pharma": ["LLY","JNJ","ABBV","MRK","PFE","BMY","AMGN","GILD","NVO","AZN","NVS"],
+  "Biotech": ["VRTX","REGN","BIIB","ALNY","MRNA","INCY"],
+  "Managed Care": ["UNH","ELV","CI","CVS","HUM","CNC","MOH"],
+  "Medical Devices": ["ABT","SYK","BSX","MDT","ISRG","EW","BDX","ZBH"],
+  "Life Science Tools & Diagnostics": ["TMO","DHR","A","IQV","WAT","MTD","IDXX"]
+ },
+ "Financials": {
+  "Banks": ["JPM","BAC","WFC","C","USB","PNC","TFC","MTB"],
+  "Capital Markets & Brokers": ["GS","MS","SCHW","IBKR","RJF","HOOD"],
+  "Payment Networks & Processors": ["V","MA","PYPL","FISV","FIS","XYZ","GPN"],
+  "Consumer Finance & Cards": ["AXP","COF","SYF","ALLY"],
+  "P&C Insurance": ["PGR","CB","TRV","ALL","AIG","HIG","WRB","CINF"],
+  "Insurance Brokers": ["MRSH","AON","AJG","WTW","BRO"],
+  "Asset Managers & Alternatives": ["BLK","BX","KKR","APO","ARES","TROW","OWL"],
+  "Exchanges & Financial Data": ["SPGI","MCO","ICE","CME","NDAQ","MSCI","CBOE"]
+ },
+ "Industrials": {
+  "Aerospace & Defense": ["GE","RTX","BA","LMT","NOC","GD","HWM","TDG","LHX"],
+  "Machinery & Heavy Equipment": ["CAT","DE","PCAR","CMI","ITW","PH","URI"],
+  "Electrical & Power Equipment": ["ETN","GEV","EMR","VRT","ROK","HUBB","AME"],
+  "Railroads": ["UNP","CSX","NSC","CP"],
+  "Trucking, Parcel & Logistics": ["UPS","FDX","ODFL","JBHT","CHRW","XPO","SAIA"],
+  "Airlines": ["DAL","UAL","AAL","LUV","ALK","JBLU"],
+  "Waste & Environmental Services": ["WM","RSG","WCN","CLH"]
+ },
+ "Energy": {
+  "Integrated Oil & Gas": ["XOM","CVX","SHEL","TTE","BP"],
+  "Exploration & Production": ["COP","EOG","OXY","DVN","FANG","EQT"],
+  "Midstream": ["KMI","WMB","OKE","ET","EPD","MPLX","TRGP"],
+  "Oilfield Services": ["SLB","HAL","BKR","NOV"],
+  "Refiners": ["MPC","VLO","PSX","DINO","PBF"]
+ },
+ "Materials": {
+  "Chemicals & Industrial Gases": ["LIN","APD","SHW","ECL","DOW","LYB","DD","PPG","CE"],
+  "Metals & Mining": ["FCX","NEM","SCCO","NUE","STLD","BHP","RIO","AA","CLF"]
+ },
+ "Utilities": {
+  "Utilities & Power": ["NEE","SO","DUK","CEG","VST","AEP","SRE","D","EXC","NRG"]
+ },
+ "Real Estate": {
+  "REITs": ["PLD","AMT","EQIX","WELL","SPG","O","PSA","DLR","CCI","VICI"]
+ }
+}

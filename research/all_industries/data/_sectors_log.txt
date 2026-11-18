@@ -1,0 +1,50 @@
+IT Services & Consulting         rel3 -84% rel1 -29% dd -36% | yoy +6.0% om 16.6% vs5y 14.9% | cagr10 +3.1% decl 1 rec 1 capi 2% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Packaged Foods                   rel3 -79% rel1 -10% dd -25% | yoy -0.4% om 8.7% vs5y 11.5% | cagr10 +2.8% decl 1 rec 1 capi 4% | DEPRESSED Cycle
+Managed Care                     rel3 -75% rel1 +22% dd -16% | yoy +7.0% om 2.7% vs5y 3.6% | cagr10 +13.4% decl 0 rec 0 capi 1% | DEPRESSED Mixed
+Beverages                        rel3 -64% rel1 +2% dd -9% | yoy +4.3% om 20.5% vs5y 22.3% | cagr10 +4.1% decl 1 rec 1 capi 5% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Payment Networks & Processors    rel3 -63% rel1 -6% dd -27% | yoy +14.8% om 16.4% vs5y 17.8% | cagr10 +15.0% decl 0 rec 0 capi 3% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Telecom & Cable                  rel3 -62% rel1 -15% dd -23% | yoy +4.0% om 18.3% vs5y 16.8% | cagr10 +3.0% decl 1 rec 1 capi 10% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Household & Personal Products    rel3 -59% rel1 +8% dd -6% | yoy +3.3% om 15.6% vs5y 14.9% | cagr10 +1.7% decl 3 rec 3 capi 4% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Oilfield Services                rel3 -57% rel1 +9% dd -23% | yoy +1.3% om 11.6% vs5y 9.4% | cagr10 +0.4% decl 3 rec 2 capi 5% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Chemicals & Industrial Gases     rel3 -56% rel1 +13% dd -6% | yoy +3.0% om 8.6% vs5y 14.3% | cagr10 +3.3% decl 2 rec 1 capi 8% | DEPRESSED Cycle
+Restaurants                      rel3 -55% rel1 -5% dd -10% | yoy +6.8% om 23.4% vs5y 22.0% | cagr10 +4.6% decl 1 rec 1 capi 6% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Insurance Brokers                rel3 -52% rel1 -4% dd -18% | yoy +9.2% om 22.0% vs5y 22.5% | cagr10 +13.7% decl 1 rec 1 capi 2% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Homebuilders                     rel3 -51% rel1 -23% dd -30% | yoy -5.5% om 12.8% vs5y 16.2% | cagr10 +12.6% decl 1 rec 0 capi 0% | DEPRESSED Mixed
+Medical Devices                  rel3 -48% rel1 -13% dd -12% | yoy +10.4% om 18.4% vs5y 17.2% | cagr10 +7.8% decl 0 rec 0 capi 5% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Exploration & Production         rel3 -46% rel1 +16% dd -14% | yoy +24.0% om 19.1% vs5y 29.5% | cagr10 +12.3% decl 2 rec 1 capi 16% | DEPRESSED Cycle
+Asset Managers & Alternatives    rel3 -41% rel1 -18% dd -29% | yoy +4.5% om 32.5% vs5y 35.7% | cagr10 +21.3% decl 1 rec 1 capi 1% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Autos & EVs                      rel3 -38% rel1 -25% dd -18% | yoy +0.2% om -0.7% vs5y 5.1% | cagr10 +5.0% decl 2 rec 2 capi 7% | DEPRESSED Cycle
+Trucking, Parcel & Logistics     rel3 -30% rel1 +16% dd -19% | yoy +8.9% om 7.2% vs5y 7.9% | cagr10 +4.4% decl 1 rec 0 capi 6% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Life Science Tools & Diagnostics rel3 -26% rel1 +2% dd -3% | yoy +6.9% om 20.4% vs5y 23.0% | cagr10 +8.2% decl 2 rec 2 capi 4% | DEPRESSED Fear / disruption risk (fundamentals intact)
+Specialty & Home Improvement Ret rel3 -25% rel1 -6% dd -4% | yoy +6.3% om 12.4% vs5y 12.4% | cagr10 +5.5% decl 0 rec 0 capi 3% | DEPRESSED Fear / disruption risk (fundamentals intact)
+REITs                            rel3 -20% rel1 +5% dd -2% | yoy +7.7% om 40.4% vs5y 39.8% | cagr10 +10.1% decl 0 rec 0 capi 24% | Not depressed
+Railroads                        rel3 -17% rel1 +22% dd -3% | yoy +7.6% om 36.4% vs5y 37.6% | cagr10 +2.3% decl 3 rec 3 capi 16% | Not depressed
+Internet Marketplaces & Delivery rel3 -16% rel1 -10% dd -22% | yoy +12.4% om 9.9% vs5y 2.3% | cagr10 +29.9% decl 0 rec 0 capi 3% | Not depressed
+Application & Design Software    rel3 -14% rel1 -27% dd -25% | yoy +15.3% om 26.6% vs5y 19.7% | cagr10 +13.8% decl 0 rec 0 capi 2% | Fear / disruption risk (fundamentals intact)
+Waste & Environmental Services   rel3 -11% rel1 +6% dd -4% | yoy +8.5% om 17.6% vs5y 16.1% | cagr10 +7.4% decl 0 rec 0 capi 11% | Not depressed
+Biotech                          rel3 -10% rel1 +106% dd -10% | yoy +14.0% om 18.6% vs5y 19.7% | cagr10 +10.4% decl 2 rec 0 capi 4% | Not depressed
+Integrated Oil & Gas             rel3 -9% rel1 +28% dd -12% | yoy -1.1% om 13.7% vs5y 13.5% | cagr10 +1.6% decl 6 rec 3 capi 6% | Not depressed
+Exchanges & Financial Data       rel3 -9% rel1 +5% dd -4% | yoy +11.1% om 44.6% vs5y 40.1% | cagr10 +10.3% decl 0 rec 0 capi 2% | Not depressed
+Metals & Mining                  rel3 -3% rel1 +10% dd -24% | yoy +15.8% om 25.9% vs5y 17.7% | cagr10 +10.0% decl 1 rec 0 capi 11% | Not depressed
+Staples Retail                   rel3 -2% rel1 +22% dd -0% | yoy +5.3% om 4.4% vs5y 4.1% | cagr10 +4.9% decl 0 rec 0 capi 3% | Not depressed
+Airlines                         rel3 -1% rel1 -2% dd -20% | yoy +11.1% om 3.0% vs5y 4.1% | cagr10 +4.7% decl 1 rec 1 capi 9% | Cycle
+Hyperscalers & Mega-cap Platform rel3 -0% rel1 -16% dd -18% | yoy +19.9% om 32.9% vs5y 29.7% | cagr10 +17.5% decl 0 rec 0 capi 9% | Not depressed
+Apparel & Footwear               rel3 +1% rel1 -1% dd -8% | yoy +1.6% om 17.8% vs5y 16.4% | cagr10 +6.1% decl 2 rec 2 capi 2% | Not depressed
+Big Pharma                       rel3 +1% rel1 +14% dd -5% | yoy +6.4% om 30.8% vs5y 25.5% | cagr10 +5.5% decl 1 rec 1 capi 5% | Not depressed
+P&C Insurance                    rel3 +13% rel1 +7% dd -2% | yoy +3.5% om 18.5% vs5y 14.2% | cagr10 +6.2% decl 2 rec 2 capi 0% | Not depressed
+Consumer Finance & Cards         rel3 +18% rel1 -18% dd -20% | yoy +8.2% om 21.8% vs5y 24.1% | cagr10 +7.6% decl 1 rec 1 capi 2% | Not depressed
+Utilities & Power                rel3 +19% rel1 -16% dd -21% | yoy +9.9% om 24.2% vs5y 20.4% | cagr10 +6.1% decl 0 rec 0 capi 28% | Not depressed
+Media & Streaming                rel3 +19% rel1 +2% dd -29% | yoy +11.8% om 16.9% vs5y 9.8% | cagr10 +33.1% decl 0 rec 0 capi 4% | Fear / disruption risk (fundamentals intact)
+Machinery & Heavy Equipment      rel3 +23% rel1 +4% dd -22% | yoy +6.1% om 18.8% vs5y 17.4% | cagr10 +4.5% decl 6 rec 4 capi 4% | Not depressed
+Travel, Hotels & Cruise          rel3 +23% rel1 +9% dd -6% | yoy +6.6% om 19.9% vs5y 11.8% | cagr10 +8.3% decl 1 rec 1 capi 11% | Not depressed
+Banks                            rel3 +31% rel1 +2% dd -13% | yoy +5.5% om 34.2% vs5y 32.9% | cagr10 +3.5% decl 0 rec 0 capi 1% | Not depressed
+Aerospace & Defense              rel3 +32% rel1 -5% dd -15% | yoy +11.5% om 11.8% vs5y 10.7% | cagr10 +4.9% decl 2 rec 2 capi 3% | Not depressed
+Midstream                        rel3 +39% rel1 +18% dd -7% | yoy +19.4% om 22.5% vs5y 18.3% | cagr10 +9.4% decl 4 rec 3 capi 8% | Not depressed
+Electrical & Power Equipment     rel3 +42% rel1 +4% dd -29% | yoy +14.2% om 20.1% vs5y 16.6% | cagr10 +10.0% decl 1 rec 1 capi 3% | Fear / disruption risk (fundamentals intact)
+Refiners                         rel3 +57% rel1 +79% dd -25% | yoy +21.9% om 11.5% vs5y 4.9% | cagr10 +7.1% decl 4 rec 1 capi 1% | Not depressed
+Tobacco                          rel3 +63% rel1 +15% dd -6% | yoy -1.0% om 39.0% vs5y 36.9% | cagr10 -1.7% decl 1 rec 0 capi 2% | Not depressed
+Tech Hardware & Networking       rel3 +70% rel1 +43% dd -29% | yoy +20.9% om 17.2% vs5y 13.6% | cagr10 +5.3% decl 1 rec 1 capi 3% | Fear / disruption risk (fundamentals intact)
+Semiconductor Equipment          rel3 +90% rel1 +24% dd -49% | yoy +20.3% om 37.0% vs5y 31.4% | cagr10 +14.1% decl 1 rec 1 capi 5% | Fear / disruption risk (fundamentals intact)
+Cybersecurity                    rel3 +111% rel1 +59% dd -19% | yoy +24.1% om 1.8% vs5y -8.7% | cagr10 +28.3% decl 0 rec 0 capi 5% | Not depressed
+Capital Markets & Brokers        rel3 +171% rel1 -9% dd -31% | yoy +16.5% om 43.7% vs5y 31.0% | cagr10 +8.2% decl 1 rec 1 capi 3% | Fear / disruption risk (fundamentals intact)
+Semiconductors                   rel3 +176% rel1 +48% dd -31% | yoy +35.5% om 38.2% vs5y 26.1% | cagr10 +15.4% decl 0 rec 0 capi 19% | Fear / disruption risk (fundamentals intact)

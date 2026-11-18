@@ -1,0 +1,467 @@
+<title>Industry Champions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one ledger column. Board of champions -> stress map -> industry folder (sketch: SECTOR, Company 1 vs Company 2 ..., curved rail) -> trial & error */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#0f1722; --ink2:#465263; --muted:#7a8597; --line:#dbe1ea; --rail:#0f1722;
+  --accent:#1c5cab; --accent-ink:#ffffff; --accent-soft:#e3eefc;
+  --pos:#2a78d6; --neg:#e34948; --neutral:#c9d0da;
+  --good:#0a7d0a; --bad:#c43333; --warn-bg:#fde9df; --warn-ink:#9a3b12; --warn:#ec835a;
+  --h0:#edf1f6; --h1:#cde2fb; --h2:#9ec5f4; --h3:#5598e7; --h4:#256abf; --h5:#0d366b;
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-ink:#06121f; --accent-soft:#16304f;
+  --pos:#3987e5; --neg:#e66767; --neutral:#3a4452;
+  --good:#3fbf3f; --bad:#ec6a6a; --warn-bg:#3a2216; --warn-ink:#f2a27f; --warn:#ec835a;
+  --h0:#1d2531; --h1:#1a3556; --h2:#184f95; --h3:#2a78d6; --h4:#6da7ec; --h5:#b7d3f6; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-ink:#06121f; --accent-soft:#16304f;
+  --pos:#3987e5; --neg:#e66767; --neutral:#3a4452;
+  --good:#3fbf3f; --bad:#ec6a6a; --warn-bg:#3a2216; --warn-ink:#f2a27f; --warn:#ec835a;
+  --h0:#1d2531; --h1:#1a3556; --h2:#184f95; --h3:#2a78d6; --h4:#6da7ec; --h5:#b7d3f6; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1}
+h2{font-size:26px;font-weight:700}
+h3{font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--ink2)}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+section{padding-block:36px}
+section+section{border-top:1px solid var(--line)}
+.shead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin-bottom:18px}
+.shead p{margin:0;color:var(--ink2);max-width:62ch}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* header */
+.top{padding-block:40px 28px;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .lede{font-size:17px;color:var(--ink2);max-width:62ch;margin:14px 0 22px}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:13px}
+.chain span{padding:4px 9px;border:1px solid var(--line);border-radius:4px;background:var(--bg);white-space:nowrap}
+.chain .ar{border:0;background:none;padding:0 2px;color:var(--muted)}
+.chain .plus{background:var(--accent-soft);border-color:transparent}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px;margin-top:16px}
+.rule{border-left:3px solid var(--accent);padding:4px 0 4px 12px;font-size:13px;color:var(--ink2)}
+.rule b{display:block;color:var(--ink);font-family:var(--f-disp);font-size:14px;letter-spacing:.02em}
+
+/* filters */
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px}
+.fchip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13px;cursor:pointer}
+.fchip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fchip.dep[aria-pressed="true"]{background:var(--warn);border-color:var(--warn);color:#1b0d05}
+
+/* board */
+.sgroup{margin-bottom:22px}
+.sgroup h3{margin-bottom:8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(205px,1fr));gap:10px}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:3px;padding:12px 12px 10px;background:var(--surface);border:1px solid var(--line);border-radius:6px;min-width:0}
+.tile:hover{border-color:var(--accent)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile[aria-current="true"]{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.t-ind{font-size:12px;color:var(--ink2);line-height:1.25;min-height:2.5em}
+.t-row{display:flex;align-items:baseline;gap:8px;min-width:0}
+.t-tk{font-family:var(--f-disp);font-weight:700;font-size:26px;line-height:1.05}
+.t-nm{font-size:13px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.bar{height:5px;border-radius:3px;background:var(--h0);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:3px}
+.t-meta{display:flex;justify-content:space-between;gap:6px;font-size:11.5px;color:var(--muted);margin-top:2px}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:600;padding:1px 7px;border-radius:3px;background:var(--warn-bg);color:var(--warn-ink);white-space:nowrap}
+.tag.ok{background:var(--h0);color:var(--ink2);font-weight:500}
+
+/* stress chart */
+.stress{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 14px 8px}
+.srow{display:grid;grid-template-columns:minmax(120px,210px) 1fr 58px minmax(0,190px);align-items:center;gap:10px;min-height:22px;cursor:pointer;border-radius:3px;padding:1px 4px}
+.srow:hover{background:var(--bg)}
+.slab{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.strack{position:relative;height:12px}
+.strack .z{position:absolute;top:-4px;bottom:-4px;width:1px;background:var(--ink2)}
+.strack .th{position:absolute;top:-4px;bottom:-4px;width:0;border-left:1px dashed var(--warn)}
+.strack i{position:absolute;top:1px;height:10px;border-radius:2px}
+.sval{font-size:12px;text-align:right}
+.snat{font-size:11.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.saxis{display:grid;grid-template-columns:minmax(120px,210px) 1fr 58px minmax(0,190px);gap:10px;padding:6px 4px 0;font-size:11px;color:var(--muted)}
+.saxis .ticks{position:relative;height:14px}
+.saxis .ticks span{position:absolute;transform:translateX(-50%)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;color:var(--ink2);margin:0 0 10px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+/* industry folder */
+.dnav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dnav{min-width:0;max-width:100%}
+.dnav select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink);min-width:0;width:min(420px,calc(100vw - 150px))}
+.nbtn{border:1px solid var(--line);background:var(--surface);border-radius:4px;padding:6px 10px;cursor:pointer}
+.dgrid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:28px;align-items:start}
+.vs-sector{font-family:var(--f-disp);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 2px}
+.vs-title{font-family:var(--f-disp);font-weight:700;font-size:30px;line-height:1.1;margin:0 0 10px}
+.vs-body{border-top:2px solid var(--rail);border-right:2px solid var(--rail);border-top-right-radius:64px;padding:14px 26px 6px 0;position:relative}
+.colhead{display:grid;grid-template-columns:28px minmax(0,1fr) 189px 110px;gap:10px;font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;padding:0 0 6px}
+.colhead .pl{display:grid;grid-template-columns:repeat(9,19px);gap:2px}
+.colhead .pl span{writing-mode:vertical-rl;transform:rotate(180deg);height:58px;font-size:10px;letter-spacing:.02em;text-transform:none}
+.co{display:grid;grid-template-columns:28px minmax(0,1fr) 189px 110px;gap:4px 10px;align-items:center;padding:8px 0;position:relative}
+.co .rk{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.co .id{min-width:0}
+.co .tk{font-family:var(--f-disp);font-weight:700;font-size:21px;line-height:1}
+.co .nm{font-size:12.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.heat{display:grid;grid-template-columns:repeat(9,19px);gap:2px}
+.heat i{height:19px;border-radius:2px;display:block}
+.wins{font-family:var(--f-mono);font-size:12px}
+.wins .bar{margin-top:3px}
+.co .kv{grid-column:2 / -1;display:flex;flex-wrap:wrap;gap:2px 14px;font-size:11.5px;color:var(--ink2)}
+.co .kv b{font-family:var(--f-mono);font-weight:500;color:var(--ink)}
+.gates{display:flex;gap:4px;margin-top:4px}
+.g{font-size:11px;font-weight:600;width:18px;height:18px;display:inline-grid;place-items:center;border-radius:3px;border:1px solid currentColor}
+.g.y{color:var(--good)} .g.n{color:var(--bad)}
+.co.champ{background:var(--accent-soft);margin:0 -10px;padding:10px;border-radius:6px;grid-template-columns:28px minmax(0,1fr) 189px 110px}
+.co.champ::after{content:"";position:absolute;right:-34px;top:50%;width:12px;height:12px;margin-top:-6px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--bg)}
+.crown{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;background:var(--accent);color:var(--accent-ink);padding:2px 6px;border-radius:3px;margin-left:6px;vertical-align:3px}
+.vsep{font-family:var(--f-disp);font-size:13px;color:var(--muted);padding-left:38px;line-height:1}
+
+/* side: tree */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px}
+.panel+.panel{margin-top:14px}
+.panel h4{font-family:var(--f-disp);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px;color:var(--ink2)}
+.tree .root{font-family:var(--f-disp);font-weight:700;font-size:18px;display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.tree ul{list-style:none;margin:6px 0 0 6px;padding:0 0 0 14px;border-left:2px solid var(--rail)}
+.tree li{position:relative;padding:8px 0 4px 6px}
+.tree li::before{content:"";position:absolute;left:-14px;top:18px;width:14px;border-top:2px solid var(--rail)}
+.tree li b{font-family:var(--f-disp);font-size:14.5px;font-weight:600}
+.tree li p{margin:3px 0 0;font-size:13px;color:var(--ink2)}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.chip{font-family:var(--f-mono);font-size:11.5px;padding:2px 6px;border-radius:3px;border:1px solid var(--line);cursor:default}
+.chip.y{border-color:var(--good);color:var(--good)} .chip.n{border-color:var(--bad);color:var(--bad);text-decoration:line-through}
+.chip.pk{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.vchip{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:3px;background:var(--h0);color:var(--ink)}
+.spark{display:flex;align-items:flex-end;gap:2px;height:44px;margin-top:8px}
+.spark i{flex:1;background:var(--h3);border-radius:2px 2px 0 0;min-width:3px}
+.spark i:last-child{background:var(--accent)}
+.sparkx{display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);font-family:var(--f-mono)}
+.final{margin-top:12px;padding:10px 12px;border-radius:4px;background:var(--accent-soft);font-size:13px}
+.final b{font-family:var(--f-disp);font-size:18px}
+.btrow{display:grid;grid-template-columns:72px 1fr 70px;gap:8px;font-size:13px;padding:5px 0;border-top:1px solid var(--line)}
+.btrow:first-of-type{border-top:0}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+
+/* cycle (image 4) */
+.cycle{margin-top:26px}
+.cyc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px 34px;position:relative;margin-top:12px}
+.cn{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px;position:relative;min-width:0}
+.cn .l{font-family:var(--f-disp);font-weight:600;font-size:14px;line-height:1.2}
+.cn .v{font-family:var(--f-mono);font-size:19px;margin-top:4px}
+.cn .s{font-size:11.5px;color:var(--muted)}
+.cn .pbar{height:4px;background:var(--h0);border-radius:2px;margin-top:6px;overflow:hidden}
+.cn .pbar i{display:block;height:100%;background:var(--accent)}
+.cn.r::after{content:"\2192";position:absolute;right:-26px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:18px}
+.cn.l2::after{content:"\2190";position:absolute;left:-26px;top:50%;transform:translateY(-50%);color:var(--muted);font-size:18px}
+.cn.d::before{content:"\2193";position:absolute;bottom:-27px;left:50%;color:var(--muted);font-size:18px}
+.cn.u::before{content:"\2191";position:absolute;top:-27px;left:50%;color:var(--muted);font-size:18px}
+.cyc .word{grid-column:1 / span 2;font-family:var(--f-disp);font-weight:700;font-size:40px;color:var(--muted);opacity:.45;line-height:1;margin-top:-14px;padding-left:8px}
+.cn.span2{grid-column:span 2}
+
+/* trial & error */
+.bt{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.bt .panel h4{text-transform:none;letter-spacing:0;font-size:16px;color:var(--ink);font-weight:600}
+.brow{display:grid;grid-template-columns:minmax(110px,170px) 1fr 52px;gap:8px;align-items:center;font-size:12.5px;min-height:24px}
+.brow .trk{position:relative;height:14px}
+.brow .trk .z{position:absolute;top:-5px;bottom:-5px;width:1px;background:var(--ink2)}
+.brow .trk i{position:absolute;top:2px;height:10px;border-radius:2px}
+.brow .v{text-align:right;font-family:var(--f-mono);font-size:12px}
+.brow.hl .lb{font-weight:600}
+.note{font-size:12px;color:var(--muted);margin:10px 0 0}
+footer{padding-block:28px 40px;font-size:12.5px;color:var(--ink2);border-top:1px solid var(--line)}
+footer a{color:var(--accent)}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;line-height:1.4;padding:6px 9px;border-radius:4px;max-width:280px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+
+@media (max-width:900px){
+  .dgrid{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .srow,.saxis{grid-template-columns:minmax(96px,130px) 1fr 48px}
+  .snat,.saxis .sp{display:none}
+  .colhead{display:none}
+  .co,.co.champ{grid-template-columns:24px minmax(0,1fr) 92px}
+  .co .heat{grid-column:2 / -1;grid-row:2}
+  .co .kv{grid-row:3}
+  .heat{grid-template-columns:repeat(9,minmax(0,1fr))}
+  .vs-body{padding-right:18px;border-top-right-radius:40px}
+  .co.champ::after{right:-26px}
+  .cyc{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+  .cn::after,.cn::before{display:none}
+  .cyc .word{display:none}
+  .cn.span2{grid-column:auto}
+}
+@media (prefers-reduced-motion:no-preference){ .tile,.srow{transition:border-color .15s,background .15s} }
+</style>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow" id="hdr-meta">Equity research</p>
+    <h1 style="margin-top:8px">Industry Champions</h1>
+    <p class="lede" id="lede">The best company in every major industry, picked from primary filings.</p>
+    <div class="chain" aria-label="Scoring pillars">
+      <span>Revenue</span><span class="ar">&rarr;</span><span>Good margins</span><span class="ar">&rarr;</span><span>Strong recurring FCF</span><span class="ar">&rarr;</span><span>Cash kept / war chest</span><span class="ar">&rarr;</span><span>Capital</span><span class="ar">&rarr;</span><span>Capital-intensive?</span><span class="ar">&rarr;</span><span>Business model</span><span class="ar">&#8634;</span>
+      <span class="plus">+ Value</span><span class="plus">+ Survival</span>
+    </div>
+    <div class="rules">
+      <div class="rule"><b>1 &middot; Rank inside the industry</b>Every metric becomes a percentile against direct peers only.</div>
+      <div class="rule"><b>2 &middot; Brute force</b>20,000 random weightings &times; random metric subsets &times; now / 5y / 10y lenses. Count who wins.</div>
+      <div class="rule"><b>3 &middot; Gates</b>FCF &amp; revenue stable? Capital to survive? Not shrinking while peers grow?</div>
+      <div class="rule"><b>4 &middot; Depressed industry</b>Survival tree decides: strongest balance sheet among gate-passers.</div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="board">
+  <div class="wrap">
+    <div class="shead"><h2>Champions</h2><p class="muted" style="font-size:13px">Bar = share of the 20,000 brute-force runs the company won. Tap a tile for the head-to-head.</p></div>
+    <div class="filters" id="filters" role="group" aria-label="Filter by sector"></div>
+    <div id="board-groups"></div>
+  </div>
+</section>
+
+<section id="stress">
+  <div class="wrap">
+    <div class="shead"><h2>Where the depression is</h2><p class="muted" style="font-size:13px">3-year total return of each industry (equal-weight) minus the S&amp;P 500. Past &minus;25 pp = depressed.</p></div>
+    <div class="legend"><span><i style="background:var(--warn)"></i>Depressed (&lt; &minus;25 pp)</span><span><i style="background:var(--neutral)"></i>Lagging</span><span><i style="background:var(--pos)"></i>Beating S&amp;P 500</span></div>
+    <div class="stress" id="stress-chart"></div>
+  </div>
+</section>
+
+<section id="detail">
+  <div class="wrap">
+    <div class="shead">
+      <h2>Head-to-head</h2>
+      <div class="dnav">
+        <button class="nbtn" id="prev" aria-label="Previous industry">&larr;</button>
+        <label for="ind-select" class="eyebrow" style="position:absolute;left:-9999px">Industry</label>
+        <select id="ind-select"></select>
+        <button class="nbtn" id="next" aria-label="Next industry">&rarr;</button>
+      </div>
+    </div>
+    <div class="dgrid">
+      <div>
+        <p class="vs-sector" id="vs-sector">Sector</p>
+        <h3 class="vs-title" id="vs-title">Industry</h3>
+        <div class="vs-body">
+          <div class="colhead" aria-hidden="true"><span></span><span>Company</span><span class="pl" id="pl-head"></span><span>Brute-force wins</span></div>
+          <div id="vs-list"></div>
+        </div>
+      </div>
+      <aside id="side"></aside>
+    </div>
+    <div class="cycle">
+      <h3 id="cyc-title">The cycle, for the champion</h3>
+      <div class="cyc" id="cyc"></div>
+    </div>
+  </div>
+</section>
+
+<section id="trial">
+  <div class="wrap">
+    <div class="shead"><h2>Trial &amp; error</h2><p class="muted" style="font-size:13px" id="bt-sub">Same method, re-run point-in-time in the past: only filings already public on that date, then total return to today vs. the industry average.</p></div>
+    <div class="bt" id="bt"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap" id="foot"></div>
+</footer>
+<div id="tip" hidden></div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('data').textContent);
+const M = D.meta, INDS = D.inds;
+const PL = ["Revenue","Margins","FCF","War chest","ROIC","Capital-light","Model","Value","Survival"];
+const PLS = ["Rev","Margin","FCF","Cash","ROIC","Cap-lite","Model","Value","Survive"];
+const SECS = Object.keys(INDS.reduce((a,i)=>(a[i.sec]=1,a),{}));
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const slug = s => 'ind-' + s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const pct = (v,d=1,s=false) => v==null ? '–' : (s && v>0 ? '+' : '') + (v*100).toFixed(d) + '%';
+const pp = v => v==null ? '–' : (v>0?'+':'') + Math.round(v*100) + ' pp';
+const xx = v => v==null ? '–' : v.toFixed(1) + 'x';
+const usd = b => { if (b==null) return '–'; const a=Math.abs(b), s=b<0?'-':''; return a>=1000 ? s+'$'+(a/1000).toFixed(1)+'T' : a>=10 ? s+'$'+a.toFixed(0)+'B' : s+'$'+a.toFixed(1)+'B'; };
+const fmtK = (v,f) => f==='x' ? xx(v) : f==='usd' ? usd(v) : f==='na' ? 'n/a' : pct(v, 1, false);
+const heat = p => 'var(--h' + Math.min(5, Math.floor(p*6)) + ')';
+const valueWord = p => p>=0.6 ? 'Cheaper than peers' : p<=0.4 ? 'Pricier than peers' : 'Priced like peers';
+const dt = s => { const d=new Date(s+'T00:00:00'); return d.toLocaleDateString('en-US',{month:'short',year:'numeric'}); };
+const champOf = i => i.cos.find(c => c.t === i.pick);
+const nDep = INDS.filter(i=>i.dep).length;
+
+$('#hdr-meta').textContent = `Equity research · ${new Date(M.asof+'T00:00:00').toLocaleDateString('en-US',{day:'numeric',month:'short',year:'numeric'})} · SEC EDGAR XBRL + yFinance`;
+$('#lede').textContent = `The best company in each of ${M.n_ind} industries across all ${M.n_sec} sectors. ${M.n_cos} companies, up to 20 years of SEC filings each, ranked only against direct peers and stress-tested 20,000 ways. ${nDep} industries are depressed right now; those run through your survival tree.`;
+
+/* ---------- tooltip ---------- */
+const tip = $('#tip');
+function showTip(el, x, y){ tip.innerHTML = el.getAttribute('data-tip'); tip.hidden = false;
+  const r = tip.getBoundingClientRect(); let L = x + 14, T = y + 14;
+  if (L + r.width > innerWidth - 8) L = x - r.width - 14; if (T + r.height > innerHeight - 8) T = y - r.height - 14;
+  tip.style.left = Math.max(8,L) + 'px'; tip.style.top = Math.max(8,T) + 'px'; }
+document.addEventListener('pointerover', e => { const el = e.target.closest('[data-tip]'); if (el) showTip(el, e.clientX, e.clientY); });
+document.addEventListener('pointermove', e => { const el = e.target.closest('[data-tip]'); if (el && !tip.hidden) showTip(el, e.clientX, e.clientY); else if (!el) tip.hidden = true; });
+document.addEventListener('pointerout', e => { if (!e.relatedTarget || !e.relatedTarget.closest || !e.relatedTarget.closest('[data-tip]')) tip.hidden = true; });
+document.addEventListener('focusin', e => { const el = e.target.closest('[data-tip]'); if (el){ const r = el.getBoundingClientRect(); showTip(el, r.left, r.bottom); } });
+document.addEventListener('focusout', () => tip.hidden = true);
+addEventListener('scroll', () => tip.hidden = true, {passive:true});
+
+/* ---------- board ---------- */
+let secFilter = 'All', depOnly = false, current = null;
+function renderFilters(){
+  const f = $('#filters'); f.innerHTML = '';
+  ['All', ...SECS].forEach(s => { const b = document.createElement('button'); b.className = 'fchip'; b.textContent = s;
+    b.setAttribute('aria-pressed', String(secFilter === s)); b.onclick = () => { secFilter = s; renderFilters(); renderBoard(); }; f.appendChild(b); });
+  const d = document.createElement('button'); d.className = 'fchip dep'; d.textContent = `Depressed only (${nDep})`; d.setAttribute('aria-pressed', String(depOnly));
+  d.onclick = () => { depOnly = !depOnly; renderFilters(); renderBoard(); }; f.appendChild(d);
+}
+function renderBoard(){
+  const g = $('#board-groups'); g.innerHTML = '';
+  SECS.filter(s => secFilter === 'All' || s === secFilter).forEach(s => {
+    const list = INDS.filter(i => i.sec === s && (!depOnly || i.dep)); if (!list.length) return;
+    const div = document.createElement('div'); div.className = 'sgroup';
+    div.innerHTML = `<h3>${esc(s)}</h3><div class="tiles">${list.map(i => { const c = champOf(i);
+      return `<button class="tile" data-ind="${esc(i.ind)}" aria-current="${current===i.ind}">
+        <span class="t-ind">${esc(i.ind)}</span>
+        <span class="t-row"><span class="t-tk">${esc(c.t)}</span><span class="t-nm">${esc(c.n)}</span></span>
+        <span class="bar" data-tip="${esc(c.t)} won ${pct(c.win,0)} of 20,000 random weightings; top-3 in ${pct(c.top3,0)}"><i style="width:${Math.max(2,c.win*100)}%"></i></span>
+        <span class="t-meta"><span>${pct(c.win,0)} wins · ${valueWord(c.P[7])}</span>${i.dep ? '<span class="tag">&#9660; Depressed</span>' : ''}</span>
+      </button>`; }).join('')}</div>`;
+    g.appendChild(div);
+  });
+  g.querySelectorAll('.tile').forEach(b => b.onclick = () => { select(b.dataset.ind, true); });
+}
+
+/* ---------- stress chart ---------- */
+function renderStress(){
+  const rows = [...INDS].sort((a,b) => a.rel3 - b.rel3);
+  const lo = -1.0, hi = Math.max(1.8, ...rows.map(r=>r.rel3)) ;
+  const X = v => ((Math.max(lo, Math.min(hi, v)) - lo) / (hi - lo)) * 100;
+  const z = X(0), th = X(-0.25);
+  const el = $('#stress-chart');
+  el.innerHTML = rows.map(r => { const a = Math.min(X(r.rel3), z), w = Math.abs(X(r.rel3) - z);
+    const col = r.dep ? 'var(--warn)' : r.rel3 < 0 ? 'var(--neutral)' : 'var(--pos)';
+    const tipTxt = `<b>${esc(r.ind)}</b><br>3y vs S&amp;P 500: ${pp(r.rel3)} · 1y: ${pp(r.rel1)}<br>Median op margin ${pct(r.omt)} vs 5y ${pct(r.om5)}<br>Revenue y/y ${pct(r.yoy,1,true)} · Capex/revenue ${pct(r.capi,0)}${r.dep ? '<br>Verdict: '+esc((r.why||{}).verdict||r.nature) : ''}`;
+    return `<div class="srow" role="button" tabindex="0" data-ind="${esc(r.ind)}" data-tip="${tipTxt}">
+      <span class="slab">${r.dep ? '&#9660; ' : ''}${esc(r.ind)}</span>
+      <span class="strack"><span class="th" style="left:${th}%"></span><span class="z" style="left:${z}%"></span><i style="left:${a}%;width:${Math.max(0.6,w)}%;background:${col}"></i></span>
+      <span class="sval mono">${pp(r.rel3)}</span>
+      <span class="snat">${r.dep ? esc((r.why||{}).verdict || r.nature) : ''}</span></div>`; }).join('') +
+    `<div class="saxis"><span></span><span class="ticks">${[-1,-0.5,0,0.5,1,1.5].filter(v=>v<=hi).map(v => `<span style="left:${X(v)}%">${v>0?'+':''}${Math.round(v*100)}</span>`).join('')}</span><span></span><span class="sp">pp vs S&amp;P 500, 3y</span></div>`;
+  el.querySelectorAll('.srow').forEach(r => { r.onclick = () => select(r.dataset.ind, true); r.onkeydown = e => { if (e.key==='Enter'||e.key===' '){ e.preventDefault(); select(r.dataset.ind, true);} }; });
+}
+
+/* ---------- detail ---------- */
+const sel = $('#ind-select');
+INDS.forEach(i => { const o = document.createElement('option'); o.value = i.ind; o.textContent = `${i.sec} · ${i.ind}${i.dep ? '  ▼' : ''}`; sel.appendChild(o); });
+sel.onchange = () => select(sel.value, false);
+$('#prev').onclick = () => step(-1); $('#next').onclick = () => step(1);
+function step(d){ const k = INDS.findIndex(i => i.ind === current); select(INDS[(k + d + INDS.length) % INDS.length].ind, false); }
+$('#pl-head').innerHTML = PLS.map(p => `<span>${p}</span>`).join('');
+
+function gateTxt(g){ const nm = {stable:'FCF &amp; revenue stable', survive:'Capital to survive', share:'Not losing share'}; return Object.entries(g).map(([k,v]) => `${v[0]?'&#10003;':'&#10007;'} ${nm[k]||k}: ${esc(v[1])}`).join('<br>'); }
+function renderVS(i){
+  $('#vs-sector').textContent = i.sec; $('#vs-title').textContent = i.ind;
+  const keys = i.keys;
+  $('#vs-list').innerHTML = i.cos.map((c, k) => {
+    const champ = c.t === i.pick;
+    const gates = ['stable','survive','share'].filter(g => c.g[g]).map(g => `<span class="g ${c.g[g][0]?'y':'n'}" aria-label="${g} ${c.g[g][0]?'pass':'fail'}">${c.g[g][0]?'&#10003;':'&#10007;'}</span>`).join('');
+    const row = `<div class="co${champ?' champ':''}">
+      <span class="rk">${k+1}</span>
+      <span class="id"><span class="tk">${esc(c.t)}</span>${champ?'<span class="crown">Champion</span>':''}<span class="nm">${esc(c.n)} · ${usd(c.mc)}</span>
+        <span class="gates" data-tip="${gateTxt(c.g)}">${gates}</span></span>
+      <span class="heat">${c.P.map((p,j) => `<i style="background:${heat(p)}" data-tip="<b>${esc(c.t)} · ${PL[j]}</b><br>Percentile vs peers: ${Math.round(p*100)}"></i>`).join('')}</span>
+      <span class="wins" data-tip="Won ${pct(c.win,1)} of 20,000 random weightings; top-3 in ${pct(c.top3,0)}${i.dep ? '<br>Survival-tree score: '+Math.round(c.sv*100) : ''}"><b>${pct(c.win,0)}</b><span class="bar"><i style="width:${Math.max(1.5,c.win*100)}%"></i></span></span>
+      <span class="kv">${keys.map((kk,j) => `<span>${kk[0]} <b>${fmtK(c.k[j], kk[1])}</b></span>`).join('')}<span>FY <b>${esc((c.fy||'').slice(0,7))}</b></span></span>
+    </div>`;
+    return row + (k < i.cos.length - 1 ? '<div class="vsep">vs.</div>' : '');
+  }).join('');
+}
+function renderSide(i){
+  const c = champOf(i);
+  const names = t => i.cos.find(x=>x.t===t);
+  const chipsFor = g => i.cos.map(x => { const v = x.g[g]; if (!v) return ''; return `<span class="chip ${x.t===i.pick?'pk':v[0]?'y':'n'}" data-tip="${esc(x.t)}: ${esc(v[1])}">${esc(x.t)}</span>`; }).join('');
+  const w = i.why || {};
+  const agg = i.agg || {years:[], rev_b:[]};
+  const mx = Math.max(...agg.rev_b, 1);
+  const spark = agg.rev_b.length ? `<div class="spark" aria-label="Industry revenue by fiscal year">${agg.rev_b.map((v,k) => `<i style="height:${Math.max(4, v/mx*100)}%" data-tip="FY${agg.years[k]}: ${usd(v)} industry revenue · op margin ${pct(agg.om[k])}"></i>`).join('')}</div><div class="sparkx"><span>FY${agg.years[0]}</span><span>industry revenue</span><span>FY${agg.years[agg.years.length-1]}</span></div>` : '';
+  const capi = `${i.capint ? 'Yes' : 'No'} · capex ${pct(i.capi,0)} of revenue`;
+  const root = i.dep ? `<div class="root">Depressed sector <span class="tag">&#9660; ${pp(i.rel3)} vs S&amp;P 3y</span></div>`
+                     : `<div class="root">Not depressed <span class="tag ok">${pp(i.rel3)} vs S&amp;P 3y</span></div>`;
+  const econ = i.dep ? `<li><b>The economics behind the depression</b><p>${esc(w.econ||'')}</p><p class="muted">${esc(w.fund||'')}</p></li>
+       <li><b>Cycle or long-term disruption?</b><div class="chips"><span class="vchip">${esc(w.verdict||i.nature)}</span></div>${spark}</li>` :
+       `<li><b>Stress check</b><p>1y ${pp(i.rel1)} vs S&amp;P · revenue ${pct(i.yoy,1,true)} y/y · op margin ${pct(i.omt)} vs ${pct(i.om5)} 5y</p>${spark}</li>`;
+  const rule = i.dep ? `strongest survival-tree score among companies that pass every gate` : `most brute-force wins among companies that pass every gate`;
+  const alt = (i.dep && i.mc !== i.pick) ? `<p class="note">Brute-force quality leader: <b>${esc(i.mc)}</b>. In depressed industries the tree overrides it (backtest below).</p>` : (!i.dep && i.svp !== i.pick ? `<p class="note">Strongest balance sheet: <b>${esc(i.svp)}</b>.</p>` : '');
+  const bt = (i.bt||[]).map(b => `<div class="btrow"><span class="muted">${dt(b.A)}</span><span class="mono">${esc(b.pick)}</span><span class="mono ${b.pick_xs>=0?'pos':'neg'}" style="text-align:right">${b.pick_xs>=0?'+':''}${(b.pick_xs*100).toFixed(1)}%/yr</span></div>`).join('');
+  $('#side').innerHTML = `<div class="panel tree">${root}<ul>${econ}
+      <li><b>Capital intensive?</b><p>${capi}</p>
+        <ul><li><b>Adequate capital to survive?</b><div class="chips">${chipsFor('survive')}</div></li>
+            <li><b>Is FCF &amp; revenue stable?</b><div class="chips">${chipsFor('stable')}</div></li></ul></li>
+      <li><b>Other</b><p>Shrinking while the industry grows?</p><div class="chips">${chipsFor('share')}</div></li></ul>
+      <div class="final">&rarr; <b>${esc(c.t)}</b> ${esc(c.n)}<br><span class="muted">${rule}. Wins ${pct(c.win,0)} of brute-force runs; also #1 in ${i.sch}/${i.nsch} fixed schemes and ${i.lopo}/9 leave-one-pillar-out runs.</span></div>${alt}</div>
+    <div class="panel"><h4>Same rules, run in the past</h4>${bt || '<p class="muted" style="margin:0;font-size:13px">Not enough history.</p>'}<p class="note">Pick's annual total return vs the industry average, from that date to ${dt(M.asof)}.</p></div>`;
+}
+function renderCycle(i){
+  const c = champOf(i);
+  $('#cyc-title').textContent = `The cycle, for the champion: ${c.t}`;
+  const map = [0,1,2,3,4,5,6]; // pillar index per node
+  const node = (k, cls) => { const d = i.cycdef[k], v = c.cyc[k], p = c.P[map[k]];
+    const lbl = ["Revenue","Good margins","Strong recurring FCF","Cash kept / war chest","Capital","Capital-intensive industry","Business model"][k];
+    return `<div class="cn ${cls}" data-tip="${esc(c.t)} · ${lbl}<br>${esc(d[1])}: ${fmtK(v, d[0])}<br>Peer percentile: ${Math.round(p*100)}"><div class="l">${lbl}</div><div class="v">${fmtK(v, d[0])}</div><div class="s">${esc(d[1])}</div><div class="pbar"><i style="width:${Math.max(3,p*100)}%"></i></div></div>`; };
+  // sketch: top row L->R, down from war chest to Capital, bottom row R->L, up to Revenue
+  $('#cyc').innerHTML = node(0,'r') + node(1,'r') + node(2,'r') + node(3,'d') +
+    node(6,'u') + node(5,'l2 span2') + node(4,'l2') + `<span class="word" aria-hidden="true">cycle</span>`;
+}
+function select(ind, scroll){
+  const i = INDS.find(x => x.ind === ind) || INDS[0]; current = i.ind; sel.value = i.ind;
+  renderVS(i); renderSide(i); renderCycle(i);
+  document.querySelectorAll('.tile').forEach(t => t.setAttribute('aria-current', String(t.dataset.ind === current)));
+  try { history.replaceState(null, '', '#' + slug(i.ind)); } catch(e) {}
+  if (scroll) document.getElementById('detail').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'});
+}
+
+/* ---------- trial & error ---------- */
+function bars(rows, lo, hi){
+  const X = v => ((Math.max(lo, Math.min(hi, v)) - lo) / (hi - lo)) * 100, z = X(0);
+  return rows.map(r => { const a = Math.min(X(r.v), z), w = Math.abs(X(r.v) - z);
+    return `<div class="brow${r.hl?' hl':''}" data-tip="${esc(r.tip||r.l)}"><span class="lb">${esc(r.l)}</span><span class="trk"><span class="z" style="left:${z}%"></span><i style="left:${a}%;width:${Math.max(0.8,w)}%;background:${r.v>=0?'var(--pos)':'var(--neg)'}"></i></span><span class="v">${r.v>=0?'+':''}${(r.v*100).toFixed(1)}%</span></div>`; }).join('');
+}
+function renderBT(){
+  const S = M.bt.strategies, Q = M.bt.search;
+  const lab = {"Brute-force winner + gates":"Brute force + gates","Brute-force winner (no gates)":"Brute force, no gates","Brute-force LAST place":"Brute-force LAST place"};
+  const r1 = Object.entries(S).map(([k,v]) => ({l: lab[k] || k.replace('Scheme: ',''), v: v.all.xs, tip: `${esc(k)}<br>${M.bt.asof.map(a => dt(a)+': '+((v[a].xs>=0?'+':'')+(v[a].xs*100).toFixed(1))+'%/yr, beat median '+Math.round(v[a].hit*100)+'%').join('<br>')}`, hl: k.startsWith('Brute-force winner +')})).sort((a,b)=>b.v-a.v);
+  const dep = Q.depressed, nm = {"P_Survival":"Survival pillar","P_WarChest":"War-chest pillar","S_Survival (img 3)":"Survival tree (rule)","S_Buffett owner":"Buffett owner","win":"Brute-force winner","P_FCF":"FCF pillar","P_Capital":"ROIC pillar","P_Value":"Cheapest (value)"};
+  const r2 = Object.entries(dep).map(([k,v]) => ({l: nm[k]||k, v: v[0], tip: `${nm[k]||k}: ${(v[0]*100).toFixed(1)}%/yr vs industry, beat median in ${Math.round(v[1]*100)}% of ${v[2]} cases`, hl: k==='S_Survival (img 3)'})).sort((a,b)=>b.v-a.v);
+  const r3 = [{l:'Best weights, 2017–19', v: Q.is_best_mean, tip:'Top 50 of 5,000 random weightings, fitted on 2017 + 2019 start dates'},{l:'Same weights, 2021–23', v: Q.oos_of_is_best, tip:`Out of sample. Beat median ${Math.round(Q.oos_hit_of_is_best*100)}% of the time`}];
+  const ic = Object.entries(M.bt.ic).map(([k,v],j) => ({l: PL[j], v: v.all, tip: `Rank correlation of ${PL[j]} with forward return, avg across industries: ${v.all.toFixed(3)}`}));
+  $('#bt').innerHTML = `
+   <div class="panel"><h4>In depressed industries, balance sheet won and cheapness lost</h4>${bars(r2,-0.02,0.04)}<p class="note">${dep['P_Survival'][2]} industry-periods where the industry trailed the S&amp;P 500 by &gt;25 pp over 3 years. Excess return per year vs industry average.</p></div>
+   <div class="panel"><h4>Across all industries, ranking quality didn't predict the stock</h4>${bars(r1,-0.02,0.02)}<p class="note">${M.bt.n_groups} industry-periods, 4 start dates (${M.bt.asof.map(dt).join(', ')}). Best business &ne; best stock. Price paid still matters.</p></div>
+   <div class="panel"><h4>Fitting weights to the past doesn't carry forward</h4>${bars(r3,-0.01,0.03)}<p class="note">So the weights stay random (brute force) instead of tuned. Rank-correlation of each pillar with forward returns:</p>${bars(ic,-0.1,0.05)}</div>`;
+}
+
+/* ---------- footer ---------- */
+$('#foot').innerHTML = `<p style="margin:0 0 8px"><b>Data.</b> Fundamentals: SEC EDGAR XBRL company facts (10-K, 10-Q, 20-F, 40-F), every fiscal year with its first-filed date; trailing-12-month figures from 10-Q year-to-date math. Market data: yFinance (prices, total returns, market caps, splits; quarterly statements for 20-F filers). No FMP, no analyst targets. As of ${dt(M.asof)}.</p>
+<p style="margin:0 0 8px"><b>Limits.</b> Universe = today's large caps, so the backtest carries survivorship bias; the within-industry comparison is the point. Banks, brokers and card lenders use bank metrics (ROTCE, efficiency, TCE, HTM losses); P&amp;C insurers use loss ratio, ROE and book growth; REITs use operating cash flow. GE Aerospace history starts 2022 (pre-spin conglomerate removed).</p>
+<p style="margin:0"><b>Context for "economics behind the depression".</b> <a href="https://www.fool.com/investing/2026/06/21/wall-street-just-sold-off-these-it-services-stocks/" target="_blank" rel="noopener">IT services selloff</a> · <a href="https://www.marketscreener.com/news/general-mills-cuts-annual-sales-and-profit-forecast-ce7e5dd8d18df421" target="_blank" rel="noopener">General Mills outlook cut</a> · <a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/us-health-insurers-raise-outlooks-despite-q2-cost-rises-shifting-membership-105000456" target="_blank" rel="noopener">Managed care Q2</a> · <a href="https://www.nasdaq.com/articles/payments-game-changing-mastercard-still-safe-bet" target="_blank" rel="noopener">Payments vs stablecoins</a> · <a href="https://www.insurancebusinessmag.com/us/news/breaking-news/brown-and-brown-organic-growth-recovers-to-1-2-as-soft-market-weighs-on-results-595056.aspx" target="_blank" rel="noopener">Broker soft market</a> · <a href="https://247wallst.com/investing/2026/11/09/2-chemical-giants-cut-their-dividends-this-third-stock-kept-raising/" target="_blank" rel="noopener">Chemical dividend cuts</a> · <a href="https://www.placer.ai/anchor/articles/why-chipotle-and-mcdonalds-took-different-paths-in-q2-2026" target="_blank" rel="noopener">Restaurant traffic</a> · <a href="https://broadbandbreakfast.com/comcast-down-181-000-broadband-subs-in-line-with-expectations/" target="_blank" rel="noopener">Cable broadband losses</a> · <a href="https://www.bioworld.com/articles/719561-ouch-tariffs-hit-med-tech-harder-than-expected?v=preview" target="_blank" rel="noopener">Medtech tariffs</a> · <a href="https://www.argusmedia.com/en/news-and-insights/latest-market-news/2898876-oil-services-firms-see-momentum-building-into-2027" target="_blank" rel="noopener">Oilfield services</a></p>
+<p class="note">Research output, not investment advice.</p>`;
+
+renderFilters(); renderBoard(); renderStress(); renderBT();
+const h = (location.hash || '').slice(1); const hit = INDS.find(i => slug(i.ind) === h);
+select(hit ? hit.ind : INDS[0].ind, false);
+addEventListener('hashchange', () => { const k = INDS.find(i => slug(i.ind) === location.hash.slice(1)); if (k && k.ind !== current) select(k.ind, false); });
+})();
+</script>

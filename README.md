@@ -1,3 +1,7 @@
+# Research
+
+- **NEW: Industry Champions, all 50 industries (SEC EDGAR + yFinance only):** `research/all_industries/` (report: `research/all_industries/report/industry-champions.html`)
+
 # Seven Industry Champions (Nov 2026)
 
 Independent equity research: best company in 7 industries (52 companies), built from primary data.

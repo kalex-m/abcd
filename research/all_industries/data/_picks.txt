@@ -1,0 +1,50 @@
+Semiconductors                     NVDA
+Semiconductor Equipment            ASML
+Application & Design Software      ADBE
+Cybersecurity                      FTNT
+Tech Hardware & Networking         ANET
+IT Services & Consulting           INFY
+Hyperscalers & Mega-cap Platforms  GOOGL
+Telecom & Cable                    TMUS
+Media & Streaming                  SPOT
+Autos & EVs                        TSLA
+Homebuilders                       NVR
+Restaurants                        YUM
+Specialty & Home Improvement Retai ROST
+Travel, Hotels & Cruise            BKNG
+Apparel & Footwear                 DECK
+Internet Marketplaces & Delivery   MELI
+Beverages                          MNST
+Household & Personal Products      PG
+Packaged Foods                     HSY
+Tobacco                            PM
+Staples Retail                     COST
+Big Pharma                         NVO
+Biotech                            REGN
+Managed Care                       UNH
+Medical Devices                    ISRG
+Life Science Tools & Diagnostics   IDXX
+Banks                              JPM
+Capital Markets & Brokers          RJF
+Payment Networks & Processors      MA
+Consumer Finance & Cards           AXP
+P&C Insurance                      CB
+Insurance Brokers                  AON
+Asset Managers & Alternatives      TROW
+Exchanges & Financial Data         MSCI
+Aerospace & Defense                LMT
+Machinery & Heavy Equipment        ITW
+Electrical & Power Equipment       AME
+Railroads                          UNP
+Trucking, Parcel & Logistics       ODFL
+Airlines                           DAL
+Waste & Environmental Services     CLH
+Integrated Oil & Gas               TTE
+Exploration & Production           EOG
+Midstream                          MPLX
+Oilfield Services                  SLB
+Refiners                           MPC
+Chemicals & Industrial Gases       LIN
+Metals & Mining                    SCCO
+Utilities & Power                  VST
+REITs                              VICI
