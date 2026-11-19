@@ -1,0 +1,822 @@
+ticker,name,reason,mcap,adv
+IX,ORIX Corporation,ADV < 20M,35535327232.0,12059339.0
+ARXS,"Arxis, Inc.",filing history < 5y (first EDGAR filing 2025-11-24),23004856320.0,46398516.0
+BCH,Banco de Chile,ADV < 20M,18779076608.0,12947788.0
+BSP,Bending Spoons S.p.A.,filing history < 5y (first EDGAR filing 2023-12-29),28101867520.0,106622440.0
+CBRS,Cerebras Systems Inc.,filing history < 5y (first EDGAR filing 2024-06-17),22878767104.0,1353341440.0
+RBRK,"Rubrik, Inc.",filing history < 5y (first EDGAR filing 2022-10-14),22641141760.0,351717664.0
+SHG,"Shinhan Financial Group Co., Ltd.",ADV < 20M,29672640512.0,14111734.0
+VG,"Venture Global, Inc.",filing history < 5y (first EDGAR filing 2024-08-08),30312495104.0,195502608.0
+VIV,Telefônica Brasil S.A.,ADV < 20M,19381352448.0,17860948.0
+WIT,Wipro Limited,ADV < 20M,19985571840.0,18464784.0
+BSAC,Banco Santander-Chile,ADV < 20M,14303062016.0,12205557.0
+KSPI,Joint Stock Company Kaspi.kz,filing history < 5y (first EDGAR filing 2023-09-11),16893423616.0,52437304.0
+PHYS,Sprott Physical Gold Trust,commodity trust,13289213952.0,126721760.0
+PKX,POSCO Holdings Inc.,ADV < 20M,14479865856.0,12867493.0
+PS,Pershing Square Inc.,filing history < 5y (first EDGAR filing 2024-06-13),16239998976.0,22487292.0
+CAE,CAE Inc.,ADV < 20M,8813739008.0,18354082.0
+CBC,"Central Bancompany, Inc.",filing history < 5y (first EDGAR filing 2025-04-28),9120463872.0,37885852.0
+ENLT,Enlight Renewable Energy Ltd,ADV < 20M,9092379648.0,13512575.0
+FRHC,Freedom Holdings Corp.,ADV < 20M,9641542656.0,18729390.0
+INIO,Innio N.V.,filing history < 5y (first EDGAR filing 2026-02-09),10192499712.0,101621864.0
+JAN,"Janus Living, Inc.",filing history < 5y (first EDGAR filing 2025-12-19),11108962304.0,69762696.0
+KEP,Korea Electric Power Corporation,ADV < 20M,11670907904.0,10799511.0
+MAIR,Madison Air Solutions Corporation,filing history < 5y (first EDGAR filing 2025-12-12),11469379584.0,61932704.0
+MICC,The Magnum Ice Cream Company N.V.,ADV < 20M,11780286464.0,15420490.0
+NTSK,"Netskope, Inc.",filing history < 5y (first EDGAR filing 2025-04-28),9603854336.0,124245608.0
+PAYP,PayPay Corporation,ADV < 20M,8609034240.0,10226048.0
+PSLV,Sprott Physical Silver Trust,commodity trust,9117540352.0,128384096.0
+PSO,Pearson plc,ADV < 20M,10260613120.0,11451963.0
+QNT,Quantinuum Inc.,filing history < 5y (first EDGAR filing 2026-02-17),8569936384.0,89165912.0
+SAIL,"SailPoint, Inc.",filing history < 5y (first EDGAR filing 2024-09-12),12702783488.0,92904080.0
+TBBB,BBB Foods Inc.,filing history < 5y (first EDGAR filing 2023-11-13),8216353280.0,51337076.0
+TIMB,TIM S.A.,ADV < 20M,8993807360.0,12684454.0
+TLK,Perusahaan Perseroan (Persero) PT Telekomunikasi Indonesia Tbk,ADV < 20M,11510890496.0,19536584.0
+ABVX,ABIVAX Société Anonyme,filing history < 5y (first EDGAR filing 2022-12-16),7338603008.0,108525440.0
+ACT,"Enact Holdings, Inc.",ADV < 20M,6051225088.0,19914962.0
+BLCO,Bausch + Lomb Corporation,ADV < 20M,7489570304.0,12233520.0
+BLTE,"Belite Bio, Inc",filing history < 5y (first EDGAR filing 2021-12-01),6345149952.0,29808246.0
+CEF,Sprott Physical Gold and Silver Trust,commodity trust,6115017728.0,26027020.0
+CGON,"CG Oncology, Inc.",filing history < 5y (first EDGAR filing 2023-10-27),7145512960.0,87086424.0
+FPS,"Forgent Power Solutions, Inc.",filing history < 5y (first EDGAR filing 2025-08-13),6606107136.0,299600992.0
+HUT,Hut 8 Corp.,filing history < 5y (first EDGAR filing 2023-02-07),6864947200.0,433004000.0
+LOAR,Loar Holdings Inc.,filing history < 5y (first EDGAR filing 2023-12-15),6601430528.0,60993916.0
+NE,Noble Corporation plc,filing history < 5y (first EDGAR filing 2021-12-20),6245969920.0,54031096.0
+PACS,"PACS Group, Inc.",filing history < 5y (first EDGAR filing 2023-12-08),7348899840.0,35774416.0
+RAL,Ralliant Corporation,filing history < 5y (first EDGAR filing 2024-12-17),7381299712.0,98536320.0
+TFPM,Triple Flag Precious Metals Corp.,ADV < 20M,5931968512.0,15502844.0
+ADPT,Adaptive Biotechnologies Corporation,mcap < 5B,4607010304.0,59344864.0
+ALH,Alliance Laundry Holdings Inc.,mcap < 5B,4761949696.0,25948530.0
+AMTM,"Amentum Holdings, Inc.",filing history < 5y (first EDGAR filing 2024-03-07),5117519360.0,36917708.0
+APLE,"Apple Hospitality REIT, Inc.",mcap < 5B,4620528128.0,44069068.0
+AROC,"Archrock, Inc.",mcap < 5B,4695981568.0,56164980.0
+BBUC,Brookfield Business Corporation,ADV < 20M,5765976576.0,10070627.0
+BC,Brunswick Corporation,mcap < 5B,4813352960.0,55741584.0
+BCO,The Brink's Company,mcap < 5B,4797421056.0,49469004.0
+BETA,"BETA Technologies, Inc.",mcap < 5B,4711009792.0,57938700.0
+BILI,Bilibili Inc.,mcap < 5B,4549168128.0,48905356.0
+BLLN,"BillionToOne, Inc.",mcap < 5B,4373309440.0,66184596.0
+BROS,Dutch Bros Inc.,mcap < 5B,4893109248.0,190114064.0
+BWIN,"The Baldwin Insurance Group, Inc.",mcap < 5B,4545088512.0,85100600.0
+CACC,Credit Acceptance Corporation,mcap < 5B,4973035008.0,62605324.0
+CAI,"Caris Life Sciences, Inc.",filing history < 5y (first EDGAR filing 2024-06-10),5592297984.0,131166784.0
+CCC,CCC Intelligent Solutions Holdings Inc.,mcap < 5B,4545106432.0,161748384.0
+CHEF,"The Chefs' Warehouse, Inc.",mcap < 5B,4516229632.0,62834032.0
+CIG,Companhia Energética de Minas Gerais - CEMIG,ADV < 20M,5206441472.0,10673078.0
+CIGI,Colliers International Group Inc.,mcap < 5B,4720459776.0,22607382.0
+CMBT,Cmb.Tech NV,mcap < 5B,4822621696.0,21046892.0
+CNK,"Cinemark Holdings, Inc.",mcap < 5B,4604306432.0,77808984.0
+COGT,"Cogent Biosciences, Inc.",mcap < 5B,4838785536.0,65653760.0
+COLD,"Americold Realty Trust, Inc.",mcap < 5B,4756774912.0,60437176.0
+CON,"Concentra Group Holdings Parent, Inc.",filing history < 5y (first EDGAR filing 2024-03-11),5277630464.0,39720616.0
+CUZ,Cousins Properties Incorporated,mcap < 5B,4864687616.0,41365480.0
+CVCO,"Cavco Industries, Inc.",mcap < 5B,4905896448.0,59805344.0
+DNTH,"Dianthus Therapeutics, Inc.",mcap < 5B,4729141760.0,76199376.0
+DOO,BRP Inc.,mcap < 5B,4558600192.0,14821146.0
+DOX,Amdocs Limited,mcap < 5B,4414666240.0,75728272.0
+DPC,DPC Holdings PLC,mcap < 5B,4768625152.0,52699248.0
+EBC,"Eastern Bankshares, Inc.",mcap < 5B,4978387968.0,48206196.0
+ENS,EnerSys,mcap < 5B,4834812928.0,99212064.0
+EPR,EPR Properties,mcap < 5B,4554370048.0,53076944.0
+ERAS,"Erasca, Inc.",mcap < 5B,4829160448.0,78864984.0
+ESAB,ESAB Corporation,mcap < 5B,4917517824.0,76303784.0
+EWTX,"Edgewise Therapeutics, Inc.",mcap < 5B,4529301504.0,63924280.0
+FIGR,"Figure Technology Solutions, Inc.",filing history < 5y (first EDGAR filing 2025-05-09),5836705792.0,142071840.0
+GFF,Griffon Corporation,mcap < 5B,4920572416.0,34230408.0
+GGAL,Grupo Financiero Galicia S.A.,mcap < 5B,4707416576.0,35499300.0
+GOLF,Acushnet Holdings Corp.,mcap < 5B,4858973184.0,27975200.0
+GRAL,"GRAIL, Inc.",mcap < 5B,4590637568.0,120244736.0
+HAFN,Hafnia Limited,mcap < 5B,4775154176.0,25436474.0
+HASI,"HA Sustainable Infrastructure Capital, Inc.",mcap < 5B,4916928512.0,40361308.0
+HGTY,"Hagerty, Inc.",ADV < 20M,5574851072.0,10324806.0
+HHH,Howard Hughes Holdings Inc.,mcap < 5B,4971955200.0,57183476.0
+HWC,Hancock Whitney Corporation,mcap < 5B,4933253632.0,69722104.0
+IFS,Intercorp Financial Services Inc.,ADV < 20M,5444328448.0,10964516.0
+INSW,"International Seaways, Inc.",mcap < 5B,4999412224.0,81144360.0
+IRDM,Iridium Communications Inc.,mcap < 5B,4701341696.0,42613128.0
+KRMN,Karman Holdings Inc.,mcap < 5B,4531327488.0,129870536.0
+LAUR,"Laureate Education, Inc.",mcap < 5B,4567849472.0,43499500.0
+LB,LandBridge Corporation,filing history < 5y (first EDGAR filing 2023-10-11),5501010432.0,25485068.0
+LGN,Legence Corp.,filing history < 5y (first EDGAR filing 2025-02-14),5597599232.0,59635620.0
+LKQ,LKQ Corporation,mcap < 5B,4820803584.0,87812480.0
+LUMN,"Lumen Technologies, Inc.",mcap < 5B,4433483776.0,79048416.0
+MEOH,Methanex Corporation,mcap < 5B,4931971584.0,48788308.0
+MMED,"MiniMed Group, Inc.",mcap < 5B,4780134912.0,158570096.0
+MMYT,MakeMyTrip Limited,mcap < 5B,4655903744.0,44088616.0
+MRCY,"Mercury Systems, Inc.",mcap < 5B,4764115968.0,57522424.0
+MRX,Marex Group Limited,mcap < 5B,4645073408.0,52412856.0
+MUR,Murphy Oil Corporation,mcap < 5B,4757771776.0,60104304.0
+MWH,"SOLV Energy, Inc.",filing history < 5y (first EDGAR filing 2025-05-09),5513692160.0,40850032.0
+MXL,"MaxLinear, Inc.",mcap < 5B,4507230208.0,223769264.0
+OCTV,Octave Intelligence plc,filing history < 5y (first EDGAR filing 2025-09-11),5717724672.0,43482960.0
+OGC,OceanaGold Corporation,ADV < 20M,5405856256.0,16879974.0
+OMAB,"Grupo Aeroportuario del Centro Norte, S.A.B. de C.V.",ADV < 20M,5029373952.0,12609487.0
+OPCH,"Option Care Health, Inc.",mcap < 5B,4750148608.0,122948328.0
+PEGA,Pegasystems Inc.,mcap < 5B,4723330048.0,86040488.0
+PIPR,Piper Sandler Companies,mcap < 5B,4500284416.0,54704056.0
+PL,Planet Labs PBC,mcap < 5B,4384368640.0,158553760.0
+PLNT,"Planet Fitness, Inc.",mcap < 5B,4665012736.0,100769480.0
+PRM,Perimeter Group Inc.,mcap < 5B,4824555520.0,34954924.0
+RDN,Radian Group Inc.,mcap < 5B,4618760192.0,51093444.0
+RITM,Rithm Capital Corp.,mcap < 5B,4640362496.0,57318628.0
+RRR,"Red Rock Resorts, Inc.",mcap < 5B,4850008064.0,49630040.0
+RXO,"RXO, Inc.",mcap < 5B,4717600256.0,81681936.0
+SFM,"Sprouts Farmers Market, Inc.",mcap < 5B,4476049408.0,175625600.0
+SHC,Sotera Health Company,mcap < 5B,4650070528.0,39640576.0
+SITE,"SiteOne Landscape Supply, Inc.",mcap < 5B,4793683456.0,108500136.0
+SKT,Tanger Inc.,mcap < 5B,4703831040.0,32785250.0
+SKY,"Champion Homes, Inc.",mcap < 5B,4972460032.0,50781648.0
+SON,Sonoco Products Company,mcap < 5B,4689676288.0,60237156.0
+SSRM,SSR Mining Inc.,mcap < 5B,4827453952.0,81248968.0
+SYNA,Synaptics Incorporated,mcap < 5B,4674854400.0,117887528.0
+TNL,Travel + Leisure Co.,mcap < 5B,4810131456.0,51898660.0
+TVTX,"Travere Therapeutics, Inc.",mcap < 5B,4822645760.0,102042472.0
+VEON,VEON Ltd.,ADV < 20M,5121895424.0,12927032.0
+VSNT,"Versant Media Group, Inc.",mcap < 5B,4912735232.0,63148428.0
+WAY,Waystar Holding Corp.,filing history < 5y (first EDGAR filing 2023-08-24),5298466816.0,55982388.0
+WFG,West Fraser Timber Co. Ltd.,ADV < 20M,5055294464.0,13335141.0
+WHD,"Cactus, Inc.",mcap < 5B,4795874304.0,44750644.0
+AAOI,"Applied Optoelectronics, Inc.",mcap < 5B,3702538496.0,886016512.0
+ABCL,AbCellera Biologics Inc.,mcap < 5B,3599329280.0,53885356.0
+ABG,"Asbury Automotive Group, Inc.",mcap < 5B,3548362496.0,52312824.0
+ACHC,"Acadia Healthcare Company, Inc.",mcap < 5B,3494617856.0,57222812.0
+AEO,"American Eagle Outfitters, Inc.",mcap < 5B,3639692544.0,98862344.0
+AGX,"Argan, Inc.",mcap < 5B,4264510720.0,132396640.0
+AIR,AAR Corp.,mcap < 5B,4240489472.0,54963428.0
+ALK,"Alaska Air Group, Inc.",mcap < 5B,4134382848.0,126109240.0
+AMLX,"Amylyx Pharmaceuticals, Inc.",mcap < 5B,3422344704.0,49385656.0
+APLD,Applied Digital Corporation,mcap < 5B,4369494016.0,479318784.0
+APPN,Appian Corporation,mcap < 5B,3858986240.0,43003812.0
+AQN,Algonquin Power & Utilities Corp.,mcap < 5B,4296408064.0,22816008.0
+ARQT,"Arcutis Biotherapeutics, Inc.",mcap < 5B,3491423488.0,70577560.0
+ARX,Accelerant Holdings,mcap < 5B,4325617152.0,30683288.0
+ASO,"Academy Sports and Outdoors, Inc.",mcap < 5B,4498338304.0,95884800.0
+ATMU,Atmus Filtration Technologies Inc.,mcap < 5B,4358247424.0,32755888.0
+AVNT,Avient Corporation,mcap < 5B,4068010496.0,32579054.0
+AWR,American States Water Company,mcap < 5B,3465737472.0,19155068.0
+AZZ,AZZ Inc.,mcap < 5B,3822036736.0,32376914.0
+BANF,BancFirst Corporation,mcap < 5B,3979822336.0,16289251.0
+BBWI,"Bath & Body Works, Inc.",mcap < 5B,3762701568.0,130276928.0
+BDC,Belden Inc.,mcap < 5B,4074613504.0,45117632.0
+BFH,"Bread Financial Holdings, Inc.",mcap < 5B,3670851840.0,59502084.0
+BMA,Banco Macro S.A.,mcap < 5B,3446953216.0,20859788.0
+BMI,"Badger Meter, Inc.",mcap < 5B,4534992384.0,61188552.0
+BNL,"Broadstone Net Lease, Inc.",mcap < 5B,3621064960.0,44887360.0
+BOOT,"Boot Barn Holdings, Inc.",mcap < 5B,4231185408.0,102077784.0
+BRC,Brady Corporation,mcap < 5B,3653918208.0,24031944.0
+CAMT,Camtek Ltd.,mcap < 5B,4598697984.0,62597540.0
+CAR,"Avis Budget Group, Inc.",mcap < 5B,4300259840.0,49811320.0
+CATY,Cathay General Bancorp,mcap < 5B,4182689792.0,28853672.0
+CBT,Cabot Corporation,mcap < 5B,3800611328.0,29800936.0
+CDNA,"CareDx, Inc.",mcap < 5B,3911284992.0,85439224.0
+CDP,COPT Defense Properties,mcap < 5B,3826617088.0,30263342.0
+CGAU,Centerra Gold Inc.,mcap < 5B,3639093504.0,27626640.0
+CNR,"Core Natural Resources, Inc.",mcap < 5B,4029136384.0,45716196.0
+CNS,"Cohen & Steers, Inc.",mcap < 5B,3448062976.0,21309228.0
+COCO,"The Vita Coco Company, Inc.",mcap < 5B,3857802496.0,76411200.0
+COLM,Columbia Sportswear Company,mcap < 5B,3846137088.0,46121564.0
+CORZ,"Core Scientific, Inc.",mcap < 5B,4527418368.0,214895824.0
+COTY,Coty Inc.,mcap < 5B,3710454528.0,18859094.0
+CPK,Chesapeake Utilities Corporation,mcap < 5B,3502320384.0,22417744.0
+CRC,California Resources Corporation,mcap < 5B,3937982720.0,46487240.0
+CRK,"Comstock Resources, Inc.",mcap < 5B,4113527552.0,38205028.0
+CRSP,CRISPR Therapeutics AG,mcap < 5B,3898462720.0,87157136.0
+CRVL,CorVel Corporation,mcap < 5B,4474214912.0,14732857.0
+CSW,"CSW Industrials, Inc.",mcap < 5B,4588845568.0,35514704.0
+CURB,Curbline Properties Corp.,mcap < 5B,3510373376.0,40246128.0
+CVBF,CVB Financial Corp.,mcap < 5B,3832623104.0,29542616.0
+CVI,"CVR Energy, Inc.",mcap < 5B,3748907520.0,68024256.0
+CVSA,Covista Inc.,mcap < 5B,3984310272.0,47277668.0
+CWEN,"Clearway Energy, Inc.",mcap < 5B,3878810368.0,41530308.0
+DFTX,"Definium Therapeutics, Inc.",mcap < 5B,3986526208.0,72357432.0
+DHT,"DHT Holdings, Inc.",mcap < 5B,3353699584.0,106028312.0
+DIOD,Diodes Incorporated,mcap < 5B,3885382400.0,47942380.0
+DK,"Delek US Holdings, Inc.",mcap < 5B,3656245504.0,145468848.0
+DLO,DLocal Limited,mcap < 5B,3692597760.0,32710372.0
+DORM,"Dorman Products, Inc.",mcap < 5B,4035963136.0,29483084.0
+ECG,"Everus Construction Group, Inc.",mcap < 5B,4369049600.0,64517300.0
+EE,"Excelerate Energy, Inc.",mcap < 5B,4195805184.0,14602790.0
+ELVN,"Enliven Therapeutics, Inc.",mcap < 5B,3303685632.0,64309900.0
+ENVA,"Enova International, Inc.",mcap < 5B,4155767040.0,64519816.0
+EQPT,EquipmentShare.com Inc.,mcap < 5B,3785804288.0,56045532.0
+EXPO,"Exponent, Inc.",mcap < 5B,4239776768.0,37584660.0
+EXTR,"Extreme Networks, Inc.",mcap < 5B,3519851776.0,36537580.0
+FA,First Advantage Corporation,mcap < 5B,3702520064.0,38787112.0
+FBP,First BanCorp.,mcap < 5B,3713406976.0,38222112.0
+FELE,"Franklin Electric Co., Inc.",mcap < 5B,4326937600.0,28067726.0
+FFIN,"First Financial Bankshares, Inc.",mcap < 5B,4267626240.0,28263516.0
+FHI,"Federated Hermes, Inc.",mcap < 5B,4539343872.0,44530268.0
+FIGS,"FIGS, Inc.",mcap < 5B,3547512576.0,62216004.0
+FIZZ,National Beverage Corp.,mcap < 5B,3502148608.0,12397745.0
+FLG,"Flagstar Bank, National Association",mcap < 5B,4085800704.0,66423780.0
+FLY,Firefly Aerospace Inc.,mcap < 5B,3512407040.0,71122144.0
+FULT,Fulton Financial Corporation,mcap < 5B,4425232896.0,37345452.0
+GEF,"Greif, Inc.",mcap < 5B,3835545344.0,29033398.0
+GEO,"The GEO Group, Inc.",mcap < 5B,4193400064.0,76198264.0
+GLNG,Golar LNG Limited,mcap < 5B,4134928384.0,69404744.0
+GNTX,Gentex Corporation,mcap < 5B,3968961536.0,57796320.0
+GPGI,"GPGI, Inc.",mcap < 5B,3878887168.0,21386498.0
+GTX,Garrett Motion Inc.,mcap < 5B,3972713728.0,81160288.0
+HCC,"Warrior Met Coal, Inc.",mcap < 5B,4179813376.0,55861236.0
+HG,"Hamilton Insurance Group, Ltd.",mcap < 5B,3773171456.0,14387376.0
+HGV,Hilton Grand Vacations Inc.,mcap < 5B,3521965824.0,46357400.0
+HIMS,"Hims & Hers Health, Inc.",mcap < 5B,3996731392.0,316345120.0
+HIW,"Highwoods Properties, Inc.",mcap < 5B,3460966400.0,34316784.0
+HP,"Helmerich & Payne, Inc.",mcap < 5B,3512854016.0,47321412.0
+HTFL,"Heartflow, Inc.",mcap < 5B,4033160192.0,95394056.0
+ICUI,"ICU Medical, Inc.",mcap < 5B,4463802368.0,42294156.0
+INDB,Independent Bank Corp.,mcap < 5B,3818632960.0,30502486.0
+INTA,"Intapp, Inc.",mcap < 5B,3392589824.0,27508878.0
+IONS,"Ionis Pharmaceuticals, Inc.",mcap < 5B,4561670144.0,168588784.0
+IPAR,"Interparfums, Inc.",mcap < 5B,4283048192.0,26473980.0
+IRON,"Disc Medicine, Inc.",mcap < 5B,3551274752.0,71485208.0
+IRT,"Independence Realty Trust, Inc.",mcap < 5B,3576390144.0,51385164.0
+ITRI,"Itron, Inc.",mcap < 5B,4298321920.0,56443576.0
+JOBY,"Joby Aviation, Inc.",mcap < 5B,4259730944.0,134523632.0
+JOE,The St. Joe Company,mcap < 5B,3835776512.0,16231232.0
+JOYY,JOYY Inc.,mcap < 5B,3843440640.0,25464432.0
+KBR,"KBR, Inc.",mcap < 5B,4171685376.0,57970096.0
+KD,"Kyndryl Holdings, Inc.",no yfinance market cap,,54883028.0
+KFY,Korn Ferry,mcap < 5B,4077183232.0,38531244.0
+KGS,"Kodiak Gas Services, Inc.",mcap < 5B,4336928256.0,101897872.0
+KRC,Kilroy Realty Corporation,mcap < 5B,4314839552.0,48478328.0
+KTB,"Kontoor Brands, Inc.",mcap < 5B,4546448384.0,56704028.0
+LAZ,"Lazard, Inc.",mcap < 5B,4227102208.0,62090484.0
+LBTYA,Liberty Global Ltd.,mcap < 5B,3433606400.0,36620460.0
+LFTO,"Liftoff Mobile, Inc.",mcap < 5B,4066662400.0,18718012.0
+LIF,"Life360, Inc.",mcap < 5B,3602956800.0,28753188.0
+LION,Lionsgate Studios Corp.,mcap < 5B,4119368448.0,37517948.0
+MAT,"Mattel, Inc.",mcap < 5B,4185430016.0,93038416.0
+MC,Moelis & Company,mcap < 5B,4029343744.0,55527408.0
+MDA,MDA Space Ltd.,mcap < 5B,4521432064.0,40838428.0
+MDU,"MDU Resources Group, Inc.",mcap < 5B,4099564800.0,35148472.0
+MGNI,"Magnite, Inc.",mcap < 5B,3978032896.0,57889672.0
+MIAX,"Miami International Holdings, Inc.",mcap < 5B,3704105216.0,56695884.0
+MIR,"Mirion Technologies, Inc.",mcap < 5B,4379316736.0,70803808.0
+MNSO,MINISO Group Holding Limited,mcap < 5B,3413206272.0,11693072.0
+MRP,"Millrose Properties, Inc.",mcap < 5B,4162821376.0,60416668.0
+MSGE,Madison Square Garden Entertainment Corp.,mcap < 5B,3823495936.0,35617524.0
+MTH,Meritage Homes Corporation,mcap < 5B,3983932160.0,58466284.0
+MTRN,Materion Corporation,mcap < 5B,4192963840.0,60888568.0
+MWA,"Mueller Water Products, Inc.",mcap < 5B,3728913664.0,32333396.0
+MYRG,MYR Group Inc.,mcap < 5B,4238311680.0,80260968.0
+NATL,NCR Atleos Corporation,mcap < 5B,3555029504.0,35653120.0
+NIC,"Nicolet Bankshares, Inc.",mcap < 5B,3529773568.0,25656132.0
+NNI,"Nelnet, Inc.",mcap < 5B,4409180672.0,16884848.0
+NOVT,Novanta Inc.,mcap < 5B,4458819072.0,60433372.0
+NP,Neptune Insurance Holdings Inc.,mcap < 5B,4008363776.0,15850025.0
+NSIT,"Insight Enterprises, Inc.",mcap < 5B,4661820416.0,66444740.0
+NVST,Envista Holdings Corporation,mcap < 5B,3808192512.0,70539816.0
+OGN,Organon & Co.,mcap < 5B,3655692544.0,37160808.0
+OKLO,Oklo Inc.,mcap < 5B,4257313024.0,334961760.0
+OLED,Universal Display Corporation,mcap < 5B,3726170368.0,62357476.0
+OPLN,"OPENLANE, Inc.",mcap < 5B,4181506048.0,39915308.0
+OTF,Blue Owl Technology Finance Corp.,mcap < 5B,4145926656.0,24106398.0
+PARR,"Par Pacific Holdings, Inc.",mcap < 5B,3269524736.0,70050440.0
+PAY,"Paymentus Holdings, Inc.",mcap < 5B,4094829312.0,31985430.0
+PBLS,"Parabilis Medicines, Inc.",mcap < 5B,3566090240.0,31041664.0
+PII,Polaris Inc.,mcap < 5B,3745728768.0,47870108.0
+PLMR,"Palomar Holdings, Inc.",mcap < 5B,4139876608.0,35458412.0
+POST,"Post Holdings, Inc.",mcap < 5B,3552149248.0,63390252.0
+PRIM,Primoris Services Corporation,mcap < 5B,3373393408.0,103299152.0
+PSUS,"Pershing Square USA, Ltd.",mcap < 5B,3581000192.0,13620213.0
+PTEN,"Patterson-UTI Energy, Inc.",mcap < 5B,3684156416.0,89860216.0
+PTRN,Pattern Group Inc.,mcap < 5B,3587024128.0,26091324.0
+PVH,PVH Corp.,mcap < 5B,4514586624.0,72606024.0
+QTWO,"Q2 Holdings, Inc.",mcap < 5B,4309262848.0,43496236.0
+RELY,"Remitly Global, Inc.",mcap < 5B,4409729024.0,82448336.0
+RHI,Robert Half Inc.,mcap < 5B,4184081408.0,78249880.0
+RLAY,"Relay Therapeutics, Inc.",mcap < 5B,3648040960.0,54125900.0
+RNST,Renasant Corporation,mcap < 5B,3577917184.0,27549616.0
+ROAD,"Construction Partners, Inc.",mcap < 5B,4429771264.0,60718320.0
+SEB,Seaboard Corporation,mcap < 5B,3545019648.0,52492788.0
+SFBS,"ServisFirst Bancshares, Inc.",mcap < 5B,4392165376.0,24305430.0
+SGRY,"Surgery Partners, Inc.",mcap < 5B,3528557568.0,79388368.0
+SIG,Signet Jewelers Limited,mcap < 5B,4181177856.0,91352112.0
+SKE,Skeena Resources Limited,mcap < 5B,3399927808.0,17292194.0
+SLG,SL Green Realty Corp.,mcap < 5B,3669616896.0,44205192.0
+SLGN,Silgan Holdings Inc.,mcap < 5B,4294917120.0,43939420.0
+SLS,"SELLAS Life Sciences Group, Inc.",mcap < 5B,3659271936.0,123886024.0
+SMG,The Scotts Miracle-Gro Company,mcap < 5B,3729590528.0,59925060.0
+SPHR,Sphere Entertainment Co.,mcap < 5B,4564465152.0,97085648.0
+SRAD,Sportradar Group AG,mcap < 5B,3569177088.0,27047234.0
+STNG,Scorpio Tankers Inc.,mcap < 5B,4024502784.0,84671424.0
+STVN,Stevanato Group S.p.A.,mcap < 5B,4195256320.0,11068664.0
+STWD,"Starwood Property Trust, Inc.",mcap < 5B,4214264320.0,76933240.0
+TAC,TransAlta Corporation,mcap < 5B,4045476864.0,20711992.0
+TARS,"Tarsus Pharmaceuticals, Inc.",mcap < 5B,3744756480.0,65340688.0
+TDW,Tidewater Inc.,mcap < 5B,3630969856.0,52077360.0
+TENB,"Tenable Holdings, Inc.",mcap < 5B,4669400576.0,167765552.0
+TFSL,TFS Financial Corporation,mcap < 5B,4454421504.0,12418403.0
+THO,"THOR Industries, Inc.",mcap < 5B,4022648576.0,61821876.0
+TKC,Turkcell Iletisim Hizmetleri A.S.,mcap < 5B,4126534912.0,11024595.0
+TNGX,"Tango Therapeutics, Inc.",mcap < 5B,3709373440.0,81352928.0
+TRMD,TORM plc,mcap < 5B,3315038976.0,62472112.0
+UCB,"United Community Banks, Inc.",mcap < 5B,4372337152.0,31912398.0
+UFPI,"UFP Industries, Inc.",mcap < 5B,4343059456.0,35891200.0
+UNF,UniFirst Corporation,mcap < 5B,4363094016.0,93488552.0
+VAC,Marriott Vacations Worldwide Corporation,mcap < 5B,4003957760.0,44613172.0
+VIA,"Via Transportation, Inc.",mcap < 5B,3828218624.0,25244336.0
+VSH,"Vishay Intertechnology, Inc.",mcap < 5B,3863755008.0,110608408.0
+VVV,Valvoline Inc.,mcap < 5B,4255878912.0,83518400.0
+WING,Wingstop Inc.,mcap < 5B,4214607360.0,165587840.0
+WK,Workiva Inc.,mcap < 5B,3620606976.0,80974840.0
+WSBC,"WesBanco, Inc.",mcap < 5B,3605201664.0,31714682.0
+WSC,WillScot Holdings Corporation,mcap < 5B,3493803776.0,57209240.0
+WSFS,WSFS Financial Corporation,mcap < 5B,3913843968.0,26311740.0
+XE,"X-Energy, Inc.",mcap < 5B,4100234240.0,89578184.0
+XENE,Xenon Pharmaceuticals Inc.,mcap < 5B,3710248704.0,68564888.0
+ZGN,Ermenegildo Zegna N.V.,mcap < 5B,3853184768.0,14871272.0
+ZIM,ZIM Integrated Shipping Services Ltd.,mcap < 5B,3609820160.0,40350456.0
+AAMI,Acadian Asset Management Inc.,mcap < 5B,3111587072.0,41310356.0
+AAP,"Advance Auto Parts, Inc.",mcap < 5B,2791688192.0,75373448.0
+AAUC,Allied Gold Corporation,mcap < 5B,2788927232.0,10029902.0
+AB,AllianceBernstein Holding L.P.,mcap < 5B,2925749760.0,10338575.0
+ABM,ABM Industries Incorporated,mcap < 5B,3206218240.0,22049746.0
+ACAD,Acadia Pharmaceuticals Inc.,mcap < 5B,3081540608.0,47445856.0
+ACHR,Archer Aviation Inc.,mcap < 5B,2527659520.0,120152000.0
+ACLS,"Axcelis Technologies, Inc.",mcap < 5B,3118637824.0,40911120.0
+ACMR,"ACM Research, Inc.",mcap < 5B,3073489920.0,72465672.0
+ADMA,"ADMA Biologics, Inc.",mcap < 5B,3008345600.0,34606392.0
+AGO,Assured Guaranty Ltd.,mcap < 5B,3265524224.0,31130524.0
+AGYS,"Agilysys, Inc.",mcap < 5B,3398875648.0,29104234.0
+AKR,Acadia Realty Trust,mcap < 5B,3024517888.0,25901116.0
+ALRM,"Alarm.com Holdings, Inc.",mcap < 5B,3257352960.0,28101902.0
+AMC,"AMC Entertainment Holdings, Inc.",mcap < 5B,2686739968.0,72816216.0
+APAM,Artisan Partners Asset Management Inc.,mcap < 5B,2572312064.0,40105880.0
+ARCB,ArcBest Corporation,mcap < 5B,2960619008.0,31030982.0
+ARIS,Aris Mining Corporation,mcap < 5B,2744375040.0,28666806.0
+ASH,Ashland Inc.,mcap < 5B,3498613504.0,47419336.0
+ATRC,"AtriCure, Inc.",mcap < 5B,2823640576.0,59105416.0
+AVA,Avista Corporation,mcap < 5B,3321782272.0,28316598.0
+AVPT,"AvePoint, Inc.",mcap < 5B,3443156736.0,41161288.0
+AXGN,"Axogen, Inc.",mcap < 5B,3401664256.0,72331240.0
+AYA,Aya Gold & Silver Inc.,mcap < 5B,2924282112.0,27442932.0
+BANC,"Banc of California, Inc.",mcap < 5B,2685890816.0,41428444.0
+BHC,Bausch Health Companies Inc.,mcap < 5B,3267348224.0,22962754.0
+BKU,"BankUnited, Inc.",mcap < 5B,2973873920.0,39811380.0
+BLSH,Bullish,mcap < 5B,3087560448.0,44443932.0
+BOBS,"Bob's Discount Furniture, Inc.",mcap < 5B,2726605056.0,15581345.0
+BOH,Bank of Hawaii Corporation,mcap < 5B,2675217152.0,28689624.0
+BTE,Baytex Energy Corp.,mcap < 5B,2660288000.0,87449936.0
+BULL,Webull Corporation,mcap < 5B,2524935936.0,98565840.0
+BWLP,BW LPG Limited,mcap < 5B,3257941248.0,10968147.0
+CALM,"Cal-Maine Foods, Inc.",mcap < 5B,3289828352.0,79570936.0
+CALY,Callaway Golf Company,mcap < 5B,3081091840.0,28906328.0
+CARG,"CarGurus, Inc.",mcap < 5B,3102934528.0,41526604.0
+CBU,"Community Financial System, Inc.",mcap < 5B,3317703424.0,15509931.0
+CELC,Celcuity Inc.,mcap < 5B,2720613888.0,88675928.0
+CENX,Century Aluminum Company,mcap < 5B,3143037184.0,70852904.0
+CHA,Chagee Holdings Limited,mcap < 5B,2586750720.0,11749637.0
+CIFR,Cipher Digital Inc.,mcap < 5B,2998318848.0,509180448.0
+CLBK,"Columbia Financial, Inc.",mcap < 5B,2924595456.0,40823876.0
+CLBT,Cellebrite DI Ltd.,mcap < 5B,2804966144.0,27395518.0
+CLMT,"Calumet, Inc.",mcap < 5B,2670962688.0,74900264.0
+CSQR,"Csquare, Inc.",mcap < 5B,2642814976.0,30598138.0
+CSTM,Constellium SE,mcap < 5B,2875047424.0,38001172.0
+CUBI,"Customers Bancorp, Inc.",mcap < 5B,2760248064.0,22689330.0
+CWK,Cushman & Wakefield Limited,mcap < 5B,3079992064.0,33541614.0
+CWT,California Water Service Group,mcap < 5B,3075940608.0,21167406.0
+CXT,"Crane NXT, Co.",mcap < 5B,3188683264.0,32042306.0
+CXW,"CoreCivic, Inc.",mcap < 5B,2768803328.0,64899568.0
+DAVE,Dave Inc.,mcap < 5B,3434298624.0,113049072.0
+DNLI,Denali Therapeutics Inc.,mcap < 5B,2949346048.0,33267780.0
+DRH,DiamondRock Hospitality Company,mcap < 5B,2954844160.0,41688368.0
+DYN,"Dyne Therapeutics, Inc.",mcap < 5B,2973830912.0,52484344.0
+ECO,Okeanis Eco Tankers Corp.,mcap < 5B,3232116480.0,69568072.0
+ENPH,"Enphase Energy, Inc.",mcap < 5B,2998241536.0,183430448.0
+ERO,Ero Copper Corp.,mcap < 5B,2497707520.0,50074308.0
+FBK,FB Financial Corporation,mcap < 5B,2598287616.0,26021644.0
+FBNC,First Bancorp,mcap < 5B,2609807616.0,13651805.0
+FFBC,First Financial Bancorp.,mcap < 5B,3343835904.0,27416212.0
+FG,"F&G Annuities & Life, Inc.",mcap < 5B,2922674944.0,15059185.0
+FHB,"First Hawaiian, Inc.",mcap < 5B,2913051648.0,57400948.0
+FIBK,"First Interstate BancSystem, Inc.",mcap < 5B,3399575552.0,41768208.0
+FLYW,Flywire Corporation,mcap < 5B,2707295232.0,30975482.0
+FOUR,"Shift4 Payments, Inc.",mcap < 5B,3056963584.0,92464520.0
+FRPT,"Freshpet, Inc.",mcap < 5B,3272526336.0,71647880.0
+FRSH,Freshworks Inc.,mcap < 5B,3355173888.0,76535464.0
+FRVO,Fervo Energy Company,mcap < 5B,3363237632.0,112946712.0
+FSK,FS KKR Capital Corp.,mcap < 5B,3036213760.0,22162674.0
+FSM,Fortuna Mining Corp.,mcap < 5B,2450526976.0,54866248.0
+FUL,H.B. Fuller Company,mcap < 5B,2592410368.0,36872140.0
+GBDC,"Golub Capital BDC, Inc.",mcap < 5B,3149573632.0,16816860.0
+GDS,GDS Holdings Limited,mcap < 5B,3137913344.0,56400548.0
+GNW,"Genworth Financial, Inc.",mcap < 5B,2882071808.0,36667600.0
+GPI,"Group 1 Automotive, Inc.",mcap < 5B,3135331840.0,59432680.0
+GPK,Graphic Packaging Holding Company,mcap < 5B,3120788992.0,68291232.0
+GPOR,Gulfport Energy Corporation,mcap < 5B,2793586432.0,49741004.0
+GRDN,"Guardian Pharmacy Services, Inc.",mcap < 5B,3094205440.0,23373822.0
+HAYW,"Hayward Holdings, Inc.",mcap < 5B,3440520960.0,50029244.0
+HNI,HNI Corporation,mcap < 5B,3545729280.0,26037296.0
+HOG,"Harley-Davidson, Inc.",mcap < 5B,3367085056.0,58753984.0
+HTGC,"Hercules Capital, Inc.",mcap < 5B,2920946944.0,22627332.0
+HTO,H2O America,mcap < 5B,2846471936.0,38458680.0
+HURN,Huron Consulting Group Inc.,mcap < 5B,2676415232.0,57802600.0
+HWKN,"Hawkins, Inc.",mcap < 5B,3185343744.0,20287412.0
+IDYA,"IDEAYA Biosciences, Inc.",mcap < 5B,2561439232.0,32509564.0
+IMAX,IMAX Corporation,mcap < 5B,2582943744.0,51377888.0
+IOND,Ionic Digital Inc.,mcap < 5B,2827109888.0,41109676.0
+IOVA,"Iovance Biotherapeutics, Inc.",mcap < 5B,3460660480.0,164722976.0
+IPGP,IPG Photonics Corporation,mcap < 5B,2796610560.0,32191204.0
+IRTC,"iRhythm Holdings, Inc.",mcap < 5B,3189353472.0,72728152.0
+KAI,Kadant Inc.,mcap < 5B,3427427584.0,40926924.0
+KBH,KB Home,mcap < 5B,2795085824.0,65878612.0
+KLIC,"Kulicke and Soffa Industries, Inc.",mcap < 5B,3505527296.0,55491192.0
+KN,Knowles Corporation,mcap < 5B,2848319744.0,26004460.0
+KNF,Knife River Corporation,mcap < 5B,3039681024.0,49986016.0
+KSS,Kohl's Corporation,mcap < 5B,2725569792.0,87182312.0
+KWR,Quaker Chemical Corporation,mcap < 5B,2656329728.0,23111856.0
+LCLN,"Lincoln International, Inc.",mcap < 5B,3007673856.0,13846371.0
+LEGN,Legend Biotech Corporation,mcap < 5B,3151996672.0,43363956.0
+LMND,"Lemonade, Inc.",mcap < 5B,3065420544.0,54948268.0
+LOPE,"Grand Canyon Education, Inc.",mcap < 5B,2994169344.0,51042500.0
+LRN,"Stride, Inc.",mcap < 5B,3270559744.0,64311300.0
+MBX,"MBX Biosciences, Inc.",mcap < 5B,2652637440.0,29801440.0
+MGEE,"MGE Energy, Inc.",mcap < 5B,3033445888.0,13413429.0
+MGRC,McGrath RentCorp,mcap < 5B,3012894976.0,33682016.0
+MHO,"M/I Homes, Inc.",mcap < 5B,3084598784.0,35224208.0
+MMS,"Maximus, Inc.",mcap < 5B,3416867840.0,37540132.0
+MNDY,monday.com Ltd.,mcap < 5B,3129975808.0,101951136.0
+MZTI,The Marzetti Company,mcap < 5B,3003703040.0,43927800.0
+NBTB,NBT Bancorp Inc.,mcap < 5B,2682622208.0,15838355.0
+NEA,Nuveen AMT-Free Quality Municipal Income Fund,mcap < 5B,2927615488.0,20330646.0
+NHC,National HealthCare Corporation,mcap < 5B,3157923840.0,26817710.0
+NHI,"National Health Investors, Inc.",mcap < 5B,3065964288.0,23737932.0
+NMIH,"NMI Holdings, Inc.",mcap < 5B,2879443456.0,31395346.0
+OII,"Oceaneering International, Inc.",mcap < 5B,3390974976.0,40800708.0
+ONDS,Ondas Inc.,mcap < 5B,2614175488.0,374079680.0
+OSIS,"OSI Systems, Inc.",mcap < 5B,3098761472.0,49147228.0
+OSW,OneSpaWorld Holdings Limited,mcap < 5B,3175327744.0,24134818.0
+OTTR,Otter Tail Corporation,mcap < 5B,3257660928.0,20942876.0
+PAM,Pampa Energía S.A.,mcap < 5B,3345947392.0,15117266.0
+PATK,"Patrick Industries, Inc.",mcap < 5B,2643654144.0,48424836.0
+PENG,"Penguin Solutions, Inc.",mcap < 5B,2619245056.0,172641936.0
+PFS,"Provident Financial Services, Inc.",mcap < 5B,2871831296.0,19023718.0
+PFSI,"PennyMac Financial Services, Inc.",mcap < 5B,3114892032.0,38610804.0
+PGNY,"Progyny, Inc.",mcap < 5B,2663087616.0,31562528.0
+PHIN,PHINIA Inc.,mcap < 5B,2703448832.0,25058776.0
+PK,Park Hotels & Resorts Inc.,mcap < 5B,3263626240.0,59039976.0
+PLSE,"Pulse Biosciences, Inc.",mcap < 5B,3370747392.0,26114646.0
+PPLI,People Incorporated,mcap < 5B,3190877952.0,46579252.0
+PRK,Park National Corporation,mcap < 5B,3092194560.0,17433906.0
+PRVA,"Privia Health Group, Inc.",mcap < 5B,3143099904.0,28346934.0
+QBTS,D-Wave Quantum Inc.,mcap < 5B,2922684672.0,227769568.0
+REZI,"Resideo Technologies, Inc.",mcap < 5B,3356819968.0,38136584.0
+RGTI,"Rigetti Computing, Inc.",mcap < 5B,2855382528.0,223193072.0
+RSI,"Rush Street Interactive, Inc.",mcap < 5B,2842258176.0,66784544.0
+SA,Seabridge Gold Inc.,mcap < 5B,2761440256.0,18424004.0
+SBCF,Seacoast Banking Corporation of Florida,mcap < 5B,3142421248.0,26928524.0
+SBLK,Star Bulk Carriers Corp.,mcap < 5B,3093302272.0,47342284.0
+SDRL,Seadrill Limited,mcap < 5B,2538639616.0,31121412.0
+SFNC,Simmons First National Corporation,mcap < 5B,3289460736.0,35912824.0
+SHAK,Shake Shack Inc.,mcap < 5B,3189954560.0,85166840.0
+SHOO,"Steven Madden, Ltd.",mcap < 5B,3115891968.0,52535304.0
+SII,Sprott Inc.,mcap < 5B,2544517888.0,15941614.0
+SKWD,"Skyward Specialty Insurance Group, Inc.",mcap < 5B,2821586176.0,21955054.0
+SKYW,"SkyWest, Inc.",mcap < 5B,3079625728.0,30788448.0
+SLDE,"Slide Insurance Holdings, Inc.",mcap < 5B,3137574144.0,33276050.0
+SLM,SLM Corporation,mcap < 5B,2850182144.0,62062692.0
+SPNT,SiriusPoint Ltd.,mcap < 5B,2981631232.0,23109510.0
+SPSC,"SPS Commerce, Inc.",mcap < 5B,2805149440.0,41354620.0
+STGW,Stagwell Inc.,mcap < 5B,2715307776.0,15878923.0
+SXI,Standex International Corporation,mcap < 5B,2816412416.0,37696368.0
+TALO,Talos Energy Inc.,mcap < 5B,2501797376.0,47262688.0
+TDC,Teradata Corporation,mcap < 5B,3294056192.0,57990356.0
+TMDX,"TransMedics Group, Inc.",mcap < 5B,3349388544.0,75029272.0
+TNET,"TriNet Group, Inc.",mcap < 5B,2946966272.0,22560422.0
+TNK,Teekay Tankers Ltd.,mcap < 5B,2977416448.0,47956592.0
+TRMK,Trustmark Corporation,mcap < 5B,2655234560.0,23825234.0
+UE,Urban Edge Properties,mcap < 5B,2878924032.0,21595668.0
+UEC,Uranium Energy Corp.,mcap < 5B,2933861376.0,91624136.0
+UNFI,"United Natural Foods, Inc.",mcap < 5B,3116157952.0,27749466.0
+USLM,"United States Lime & Minerals, Inc.",mcap < 5B,3081987072.0,15743245.0
+UTG,Reaves Utility Income Fund,mcap < 5B,2898272512.0,12366182.0
+VCEL,Vericel Corporation,mcap < 5B,2992896000.0,30176568.0
+VERX,"Vertex, Inc.",mcap < 5B,2807232512.0,20274252.0
+VGNT,Versigent PLC,mcap < 5B,3011606272.0,33720612.0
+VKTX,"Viking Therapeutics, Inc.",mcap < 5B,3337255680.0,168750160.0
+VRDN,"Viridian Therapeutics, Inc.",mcap < 5B,3420380672.0,50067356.0
+WBI,WaterBridge Infrastructure LLC,mcap < 5B,3165867776.0,17981800.0
+WDFC,WD-40 Company,mcap < 5B,2973532928.0,26118008.0
+WIX,Wix.com Ltd.,mcap < 5B,2659118080.0,82854240.0
+WLY,"John Wiley & Sons, Inc.",mcap < 5B,2548894720.0,22204108.0
+WOR,"Worthington Enterprises, Inc.",mcap < 5B,2853122304.0,21101110.0
+WRBY,Warby Parker Inc.,mcap < 5B,3508157184.0,89935760.0
+WT,"WisdomTree, Inc.",mcap < 5B,3017678336.0,60778788.0
+XERS,"Xeris Biopharma Holdings, Inc.",mcap < 5B,3104073472.0,31516122.0
+XNCR,"Xencor, Inc.",mcap < 5B,2580614912.0,42792920.0
+XXI,"Twenty One Capital, Inc.",mcap < 5B,2866611200.0,11189014.0
+YETI,"YETI Holdings, Inc.",mcap < 5B,2859067904.0,74490824.0
+ZLAB,Zai Lab Limited,mcap < 5B,2760284416.0,24468852.0
+ACCV,Accelevation Holdings Corp.,mcap < 5B,2490245376.0,19964220.0
+ADUS,Addus HomeCare Corporation,mcap < 5B,2251836160.0,26026834.0
+ALGT,Allegiant Travel Company,mcap < 5B,2605131264.0,40729372.0
+ALM,Almonty Industries Inc.,mcap < 5B,2225371648.0,79375608.0
+ALMR,"Alamar Biosciences, Inc.",mcap < 5B,2119885056.0,18952832.0
+AMBA,"Ambarella, Inc.",mcap < 5B,2411862784.0,97956752.0
+AMPL,"Amplitude, Inc.",mcap < 5B,2153440256.0,27504038.0
+ASAN,"Asana, Inc.",mcap < 5B,2106524928.0,58276048.0
+ASST,"Strive, Inc.",mcap < 5B,2183728640.0,232494848.0
+ATEN,"A10 Networks, Inc.",mcap < 5B,2331587840.0,30808744.0
+ATHM,Autohome Inc.,mcap < 5B,2462353920.0,10870266.0
+ATRO,Astronics Corporation,mcap < 5B,2538869248.0,39284704.0
+AUPH,Aurinia Pharmaceuticals Inc.,mcap < 5B,2027399680.0,14042809.0
+AVAH,Aveanna Healthcare Holdings Inc.,mcap < 5B,2368652288.0,37533624.0
+AXTI,"AXT, Inc.",mcap < 5B,2340372992.0,576274496.0
+AZTA,"Azenta, Inc.",mcap < 5B,2033149184.0,38665176.0
+BANR,Banner Corporation,mcap < 5B,2470407424.0,17977782.0
+BBT,Beacon Financial Corporation,mcap < 5B,2515761408.0,29259242.0
+BCC,Boise Cascade Company,mcap < 5B,2286890752.0,25998460.0
+BEAM,Beam Therapeutics Inc.,mcap < 5B,2174443520.0,50468192.0
+BELFA,Bel Fuse Inc.,mcap < 5B,2522830336.0,17739908.0
+BFAM,Bright Horizons Family Solutions Inc.,mcap < 5B,2468448256.0,64272716.0
+BHE,"Benchmark Electronics, Inc.",mcap < 5B,2218523904.0,29071328.0
+BHF,"Brighthouse Financial, Inc.",mcap < 5B,2419511552.0,43387112.0
+BKD,Brookdale Senior Living Inc.,mcap < 5B,2055724928.0,64898416.0
+BKE,"The Buckle, Inc.",mcap < 5B,2201641472.0,20116352.0
+BKV,BKV Corporation,mcap < 5B,2029164160.0,44259640.0
+BLKB,"Blackbaud, Inc.",mcap < 5B,2303368192.0,20550660.0
+BTU,Peabody Energy Corporation,mcap < 5B,2071080960.0,58879496.0
+BUSE,First Busey Corporation,mcap < 5B,2256020736.0,22761106.0
+CALX,"Calix, Inc.",mcap < 5B,2019697408.0,36712912.0
+CLDX,"Celldex Therapeutics, Inc.",mcap < 5B,2163916032.0,43104664.0
+CLOV,"Clover Health Investments, Corp.",mcap < 5B,2232704768.0,19941078.0
+CNXN,"PC Connection, Inc.",mcap < 5B,2093051776.0,13325698.0
+CPRI,Capri Holdings Limited,mcap < 5B,2011185152.0,69836656.0
+CTRI,"Centuri Holdings, Inc.",mcap < 5B,2198064640.0,39726780.0
+DAN,Dana Incorporated,mcap < 5B,2387116544.0,42658076.0
+DCO,Ducommun Incorporated,mcap < 5B,2129925248.0,33643200.0
+DGII,Digi International Inc.,mcap < 5B,2122438528.0,29284062.0
+DNOW,DNOW Inc.,mcap < 5B,2453519872.0,36846544.0
+DV,"DoubleVerify Holdings, Inc.",mcap < 5B,2118223104.0,35644608.0
+DX,"Dynex Capital, Inc.",mcap < 5B,2523575552.0,74627920.0
+DXC,DXC Technology Company,mcap < 5B,2234113536.0,48300228.0
+DXPE,"DXP Enterprises, Inc.",mcap < 5B,2371926528.0,26420838.0
+ECPG,"Encore Capital Group, Inc.",mcap < 5B,2193470208.0,29588026.0
+EEFT,"Euronet Worldwide, Inc.",mcap < 5B,2498166784.0,50428824.0
+EFSC,Enterprise Financial Services Corp,mcap < 5B,2131716608.0,15288440.0
+EFXT,Enerflex Ltd.,mcap < 5B,2339491072.0,15205407.0
+EROC,"ERock, Inc.",mcap < 5B,2032020224.0,29515904.0
+ESTA,Establishment Labs Holdings Inc.,mcap < 5B,2111501824.0,27566066.0
+FCPT,"Four Corners Property Trust, Inc.",mcap < 5B,2503959552.0,24940140.0
+FRME,First Merchants Corporation,mcap < 5B,2478874880.0,17936548.0
+FSLY,"Fastly, Inc.",mcap < 5B,2885479936.0,151193376.0
+GCT,GigaCloud Technology Inc.,mcap < 5B,2326248960.0,36362032.0
+GOF,Guggenheim Strategic Opportunities Fund,mcap < 5B,1903774976.0,21573198.0
+GRBK,"Green Brick Partners, Inc.",mcap < 5B,2499717632.0,23277796.0
+GRND,Grindr Inc.,mcap < 5B,2583785728.0,25675830.0
+HCI,"HCI Group, Inc.",mcap < 5B,2372022784.0,32095194.0
+HMN,Horace Mann Educators Corporation,mcap < 5B,2148708864.0,14748850.0
+HSAI,Hesai Group,mcap < 5B,2049348736.0,23947502.0
+IDT,IDT Corporation,mcap < 5B,1902028928.0,18934856.0
+IVT,InvenTrust Properties Corp.,mcap < 5B,2466457856.0,19823566.0
+JPC,Nuveen Preferred & Income Opportunities Fund,mcap < 5B,2525916928.0,13917105.0
+KC,Kingsoft Cloud Holdings Limited,mcap < 5B,1912972160.0,11902118.0
+KRP,"Kimbell Royalty Partners, LP",mcap < 5B,2088758528.0,13434797.0
+LASR,"nLIGHT, Inc.",mcap < 5B,2232113408.0,42304904.0
+LBRT,Liberty Energy Inc.,mcap < 5B,1964824704.0,71278144.0
+LCII,LCI Industries,mcap < 5B,2416377344.0,41524236.0
+LEU,Centrus Energy Corp.,mcap < 5B,1891949056.0,106930344.0
+LIFE,Ethos Technologies Inc.,mcap < 5B,2115594624.0,59371164.0
+LIND,"Lindblad Expeditions Holdings, Inc.",mcap < 5B,2193423616.0,28323340.0
+LTC,"LTC Properties, Inc.",mcap < 5B,2343754496.0,26789656.0
+LUNR,"Intuitive Machines, Inc.",mcap < 5B,1795233408.0,105834328.0
+MAN,ManpowerGroup Inc.,mcap < 5B,2101121536.0,44351576.0
+MARA,"MARA Holdings, Inc.",mcap < 5B,2541385984.0,415592448.0
+MD,"Pediatrix Medical Group, Inc.",mcap < 5B,2409366272.0,19870444.0
+MFP,"Midera Food Processing, Inc.",mcap < 5B,2183726336.0,20033044.0
+MRVI,"Maravai LifeSciences Holdings, Inc.",mcap < 5B,1918346496.0,21590076.0
+MSGR,MSG Rangers Corp.,mcap < 5B,2427532032.0,40929696.0
+NAD,Nuveen Quality Municipal Income Fund,mcap < 5B,2327638784.0,15980248.0
+NAMS,NewAmsterdam Pharma Company N.V.,mcap < 5B,2367418112.0,35977568.0
+NCNO,"nCino, Inc.",mcap < 5B,2295532288.0,45672716.0
+NEOG,Neogen Corporation,mcap < 5B,2418830848.0,43201116.0
+NESR,National Energy Services Reunited Corp.,mcap < 5B,2069015552.0,61568084.0
+NG,NovaGold Resources Inc.,mcap < 5B,2330113024.0,35447868.0
+NMM,Navios Maritime Partners L.P.,mcap < 5B,2408362496.0,16211874.0
+NMRK,"Newmark Group, Inc.",mcap < 5B,2432956160.0,25946192.0
+NOG,"Northern Oil and Gas, Inc.",mcap < 5B,2455756288.0,49920780.0
+NTCT,"NetScout Systems, Inc.",mcap < 5B,2425516032.0,21771480.0
+NTST,NETSTREIT Corp.,mcap < 5B,2337960704.0,28448524.0
+NVG,Nuveen AMT-Free Municipal Credit Income Fund,mcap < 5B,2281232640.0,12719220.0
+NVTS,Navitas Semiconductor Corporation,mcap < 5B,1967404928.0,148845872.0
+NWBI,"Northwest Bancshares, Inc.",mcap < 5B,2152957952.0,16261811.0
+NWL,Newell Brands Inc.,mcap < 5B,2415420160.0,33685444.0
+NWN,Northwest Natural Holding Company,mcap < 5B,2185267968.0,14008795.0
+NZF,Nuveen Municipal Credit Income Fund,mcap < 5B,2079738240.0,12058624.0
+OFG,OFG Bancorp,mcap < 5B,2095940608.0,14869910.0
+OUST,"Ouster, Inc.",mcap < 5B,2138817024.0,87551176.0
+PAGS,PagSeguro Digital Ltd.,mcap < 5B,2068772480.0,38157940.0
+PAYO,Payoneer Global Inc.,mcap < 5B,2447798272.0,17131130.0
+PBH,Prestige Consumer Healthcare Inc.,mcap < 5B,2399241472.0,27732010.0
+PBI,Pitney Bowes Inc.,mcap < 5B,2057718016.0,27565232.0
+PEB,Pebblebrook Hotel Trust,mcap < 5B,2434930944.0,46838736.0
+PENN,"PENN Entertainment, Inc.",mcap < 5B,2507860992.0,49671876.0
+PHVS,Pharvaris N.V.,mcap < 5B,2233485312.0,26329064.0
+PLGO,Pelagos Insurance Capital Ltd,mcap < 5B,2187549440.0,11224277.0
+PLUS,ePlus inc.,mcap < 5B,2520699904.0,20921358.0
+POWI,"Power Integrations, Inc.",mcap < 5B,2410751232.0,39462376.0
+PPTA,Perpetua Resources Corp.,mcap < 5B,2104770560.0,25651670.0
+PRCH,"Porch Group, Inc.",mcap < 5B,2373529856.0,30408916.0
+PRGO,Perrigo Company plc,mcap < 5B,2351303680.0,38535356.0
+PTON,"Peloton Interactive, Inc.",mcap < 5B,2385299712.0,46439384.0
+PTY,PIMCO Corporate & Income Opportunity Fund,mcap < 5B,2318686464.0,17701346.0
+PURR,Hyperliquid Strategies Inc.,mcap < 5B,2212256768.0,229070928.0
+PVLA,"Palvella Therapeutics, Inc.",mcap < 5B,2142773504.0,35258540.0
+QS,QuantumScape Corporation,mcap < 5B,1984367616.0,66514808.0
+RCUS,"Arcus Biosciences, Inc.",mcap < 5B,2269292032.0,41830424.0
+RH,RH,mcap < 5B,2221238272.0,108045120.0
+RNW,ReNew Energy Global Plc,mcap < 5B,2537345536.0,11828364.0
+ROG,Rogers Corporation,mcap < 5B,2177805824.0,32260662.0
+RUM,RUM Group Inc.,mcap < 5B,1944879872.0,34792968.0
+SAM,"The Boston Beer Company, Inc.",mcap < 5B,2268334848.0,41024008.0
+SDGR,"Schrödinger, Inc.",mcap < 5B,2042115968.0,56857864.0
+SMA,"SmartStop Self Storage REIT, Inc.",mcap < 5B,2295865600.0,30752748.0
+SONO,"Sonos, Inc.",mcap < 5B,2100900992.0,30427946.0
+SYBT,"Stock Yards Bancorp, Inc.",mcap < 5B,2389260032.0,11513265.0
+TGB,Trekor Metals Limited,mcap < 5B,2039272704.0,38381648.0
+TGLS,Tecnoglass Holdings Inc.,mcap < 5B,2057182592.0,13182908.0
+TIC,"TIC Solutions, Inc.",mcap < 5B,2145182336.0,15304731.0
+TRN,"Trinity Industries, Inc.",mcap < 5B,2299452672.0,20845462.0
+UAA,"Under Armour, Inc.",mcap < 5B,2083295872.0,44396224.0
+UCTT,"Ultra Clean Holdings, Inc.",mcap < 5B,2118400128.0,70673376.0
+UFPT,"UFP Technologies, Inc.",mcap < 5B,2367866112.0,32761324.0
+UTZ,"Utz Brands, Inc.",mcap < 5B,1263624448.0,28104310.0
+UWMC,UWM Holdings Corporation,mcap < 5B,2284055808.0,16044455.0
+VCYT,"Veracyte, Inc.",mcap < 5B,2063383424.0,68217144.0
+VECO,Veeco Instruments Inc.,mcap < 5B,2295812864.0,32297146.0
+VVX,"V2X, Inc.",mcap < 5B,2453580032.0,37476424.0
+WAFD,"WaFd, Inc.",mcap < 5B,2079245824.0,30780888.0
+WTTR,"Select Water Solutions, Inc.",mcap < 5B,2435088384.0,32027504.0
+WWW,"Wolverine World Wide, Inc.",mcap < 5B,2123586432.0,19953546.0
+XHR,"Xenia Hotels & Resorts, Inc.",mcap < 5B,2191217152.0,16185742.0
+AGM,Federal Agricultural Mortgage Corporation,mcap < 5B,1812952704.0,23740494.0
+AI,"C3.ai, Inc.",mcap < 5B,1611014272.0,54440532.0
+ANIP,"ANI Pharmaceuticals, Inc.",mcap < 5B,1624498560.0,30825882.0
+ARHS,"Arhaus, Inc.",mcap < 5B,1957647488.0,18624104.0
+BFLY,"Butterfly Network, Inc.",mcap < 5B,1626168576.0,40034656.0
+BPRE,Bluerock Private Real Estate Fund,mcap < 5B,1722254208.0,10751994.0
+CLM,"Cornerstone Strategic Investment Fund, Inc.",mcap < 5B,1719903872.0,14768242.0
+CXM,"Sprinklr, Inc.",mcap < 5B,1525365760.0,19053804.0
+ESRT,"Empire State Realty Trust, Inc.",mcap < 5B,1611769728.0,18659584.0
+ETOR,eToro Group Ltd.,mcap < 5B,1619966848.0,30144364.0
+EZPW,"EZCORP, Inc.",mcap < 5B,1628184704.0,25881784.0
+FLOC,Flowco Holdings Inc.,mcap < 5B,1896845568.0,11662674.0
+GSHD,"Goosehead Insurance, Inc.",mcap < 5B,1668616192.0,22021674.0
+HUBG,"Hub Group, Inc.",mcap < 5B,1444445952.0,34515100.0
+INTR,"Inter & Co, Inc.",mcap < 5B,1682279680.0,51203224.0
+MQ,"Marqeta, Inc.",mcap < 5B,1734679040.0,13960191.0
+MQY,"BlackRock MuniYield Quality Fund, Inc.",mcap < 5B,1520868608.0,10832993.0
+NAC,Nuveen California Quality Municipal Income Fund,mcap < 5B,1660843648.0,12721557.0
+NMZ,Nuveen Municipal High Income Opportunity Fund,mcap < 5B,1834932992.0,14419861.0
+NUV,"Nuveen Municipal Value Fund, Inc.",mcap < 5B,1685237760.0,10100615.0
+PDO,Pimco Dynamic Income Opportunities Fund,mcap < 5B,1638038784.0,13016565.0
+SAH,"Sonic Automotive, Inc.",mcap < 5B,1915303552.0,18913840.0
+SMR,NuScale Power Corporation,mcap < 5B,1605216768.0,254563232.0
+SOUN,"SoundHound AI, Inc.",mcap < 5B,1470064128.0,104250664.0
+STNE,StoneCo Ltd.,mcap < 5B,1660394112.0,64982900.0
+STUB,"StubHub Holdings, Inc.",no yfinance market cap,,36478584.0
+SVM,Silvercorp Metals Inc.,mcap < 5B,1686283008.0,23266958.0
+TRLV,Trulieve Cannabis Corp.,mcap < 5B,1709728896.0,20687866.0
+VOYG,"Voyager Technologies, Inc./TX",no yfinance market cap,,53228516.0
+AMRC,"Ameresco, Inc.",mcap < 5B,1243868416.0,13828422.0
+ANDG,Andersen Group Inc.,no yfinance market cap,,28016812.0
+ARCO,Arcos Dorados Holdings Inc.,no yfinance market cap,,13218256.0
+BAND,Bandwidth Inc.,no yfinance market cap,,43037156.0
+BCAT,BlackRock Capital Allocation Term Trust,no yfinance market cap,,11409398.0
+BH-A,Biglari Holdings Inc.,mcap < 5B,1225675136.0,52028424.0
+DXYZ,Destiny Tech100 Inc.,mcap < 5B,1205730560.0,28060326.0
+GPCR,Structure Therapeutics Inc.,mcap < 5B,1242808576.0,35877240.0
+HIMX,"Himax Technologies, Inc.",mcap < 5B,1360522240.0,13550759.0
+IBTA,"Ibotta, Inc.",mcap < 5B,1307578112.0,16691806.0
+PAX,Patria Investments Limited,mcap < 5B,1488775552.0,13480204.0
+PFBC,Preferred Bank,mcap < 5B,1200885248.0,12895469.0
+PGY,Pagaya Technologies Ltd.,mcap < 5B,1308310912.0,41280932.0
+PWP,Perella Weinberg Partners,mcap < 5B,1285199744.0,26602242.0
+RSKD,Riskified Ltd.,mcap < 5B,1308009344.0,17865864.0
+RVLV,"Revolve Group, Inc.",mcap < 5B,1379255552.0,18111582.0
+SENEA,Seneca Foods Corporation,mcap < 5B,1185668864.0,17341008.0
+SG,"Sweetgreen, Inc.",mcap < 5B,1556902656.0,46386292.0
+SHLS,"Shoals Technologies Group, Inc.",mcap < 5B,1206258816.0,42979768.0
+SLN,Silence Therapeutics plc,mcap < 5B,1232863872.0,43278136.0
+WRD,WeRide Inc.,mcap < 5B,1207268992.0,12805157.0
+AVEX,AEVEX Corp.,mcap < 5B,927247936.0,26010032.0
+BMBL,Bumble Inc.,mcap < 5B,927599360.0,28787266.0
+DFH,"Dream Finders Homes, Inc.",mcap < 5B,973252544.0,13242274.0
+EVC,Entravision Communications Corporation,mcap < 5B,796448064.0,10373803.0
+EVER,"EverQuote, Inc.",mcap < 5B,1004925504.0,17300412.0
+LADR,Ladder Capital Corp,mcap < 5B,1050773312.0,15605034.0
+MAX,"MediaAlpha, Inc.",mcap < 5B,822325056.0,11891492.0
+OPY,Oppenheimer Holdings Inc.,mcap < 5B,920520960.0,11943073.0
+PUBM,"PubMatic, Inc.",mcap < 5B,947486976.0,12456106.0
+SB,"Safe Bulkers, Inc.",mcap < 5B,887941824.0,10593403.0
+VZLA,Vizsla Silver Corp.,mcap < 5B,1058069440.0,16998020.0
+ANNX,"Annexon, Inc.",mcap < 5B,671489216.0,13627238.0
+FLNC,"Fluence Energy, Inc.",mcap < 5B,784491072.0,52260820.0
+GMRS,GMR Solutions Inc.,mcap < 5B,714340608.0,11575676.0
+IAM,"Iambic Therapeutics, Inc.",mcap < 5B,699635776.0,12227599.0
+ODD,Oddity Tech Ltd.,mcap < 5B,686333312.0,21122810.0
+SCHL,Scholastic Corporation,mcap < 5B,722754752.0,14094049.0
+SGMT,Sagimet Biosciences Inc.,mcap < 5B,727266560.0,12156203.0
+SHAZ,SharonAI Holdings Inc.,mcap < 5B,846138432.0,73475352.0
+VCX,"Fundrise Growth Tech Fund, LLC",mcap < 5B,778945664.0,14825295.0
+VNET,"VNET Group, Inc.",mcap < 5B,647479552.0,26626320.0
+ALMS,Alumis Inc.,mcap < 5B,570563136.0,24657040.0
+DNA,"Ginkgo Bioworks Holdings, Inc.",mcap < 5B,547123072.0,26827092.0
+FDMT,"4D Molecular Therapeutics, Inc.",mcap < 5B,589728512.0,13014147.0
+HELP,Helus Pharma Inc,mcap < 5B,549940224.0,19887886.0
+HOV,"Hovnanian Enterprises, Inc.",mcap < 5B,553137408.0,13434724.0
+SPT,"Sprout Social, Inc.",mcap < 5B,615462912.0,11062099.0
+XNDU,Xanadu Quantum Technologies Limited,mcap < 5B,602377984.0,24775564.0
+BTGO,"BITGO HOLDINGS, INC.",mcap < 5B,437120576.0,10230673.0
+CWH,"Camping World Holdings, Inc.",mcap < 5B,457867072.0,10792612.0
+INDI,"indie Semiconductor, Inc.",mcap < 5B,433825920.0,14795161.0
+OXLC,Oxford Lane Capital Corp.,mcap < 5B,473486080.0,10007193.0
+SATL,Satellogic Inc.,mcap < 5B,446098560.0,22314140.0
+XRPN,"Evernorth Holdings, Inc.",mcap < 5B,443228032.0,18833252.0
+BRUN,"Boost Run, Inc.",mcap < 5B,382182400.0,35240568.0
+METC,"Ramaco Resources, Inc.",mcap < 5B,384009408.0,20093014.0
+ABTC,American Bitcoin Corp,mcap < 5B,297115008.0,10924133.0
+BETR,Better Home & Finance Holding Company,mcap < 5B,286246176.0,10546815.0
+GEMI,"Gemini Space Station, Inc.",mcap < 5B,240432064.0,10434462.0
+FUBO,FuboTV Inc.,mcap < 5B,203274784.0,11133505.0
+SES,SES AI Corporation,mcap < 5B,175917744.0,15517102.0
+CDNL,Cardinal Infrastructure Group Inc.,mcap < 5B,114133192.0,21745258.0
+GPRO,"GoPro, Inc.",mcap < 5B,125693728.0,46052536.0
+USDE,StablecoinX Inc.,mcap < 5B,106696928.0,45653480.0
+XLAB,Exascale Labs Holdings Inc.,mcap < 5B,106795744.0,20379088.0
+AIOK,AI OKTO CORP.,mcap < 5B,40088820.0,74888184.0
+SAIQ,WISeSat.Space Holdings Corp.,mcap < 5B,52306380.0,20945508.0
+ENGS,Energys Group Limited,mcap < 5B,18745080.0,12523881.0
+BENF,Beneficient,mcap < 5B,10015968.0,18317914.0
+JAGX,"Jaguar Health, Inc.",mcap < 5B,4713802.0,26097732.0
+ASR,"Grupo Aeroportuario del Sureste, S. A. B. de C. V.",no yfinance market cap,,15510832.0
+CHSN,Chanson International Holding,mcap < 5B,236883.0,10885722.0
+DIA,State Street SPDR Dow Jones Industrial Average ETF Trust,quoteType ETF,,1811291776.0
+MCY,Mercury General Corporation,no yfinance market cap,,30374576.0
+MDY,State Street SPDR S&P MIDCAP 400 ETF Trust,quoteType ETF,,456520064.0
+RETO,"ReTo Eco-Solutions, Inc.",mcap < 5B,1442683.0,20184134.0
+SPY,State Street SPDR S&P 500 ETF Trust,quoteType ETF,,33639438336.0
+WDS,Woodside Energy Group Ltd,no yfinance market cap,,13736669.0
+AAAU,Goldman Sachs Physical Gold ETF,quoteType ETF,,63703904.0
+BITB,Bitwise Bitcoin ETF,quoteType ETF,,46439172.0
+BTC,Grayscale Bitcoin Mini Trust ETF,quoteType ETF,,61436656.0
+DAC,Danaos Corporation,no yfinance market cap,,23485388.0
+ETHA,iShares Ethereum Trust ETF,quoteType ETF,,658150720.0
+FBTC,Fidelity Wise Origin Bitcoin Fund,quoteType ETF,,254871824.0
+GBTC,Grayscale Bitcoin Trust ETF,quoteType ETF,,108821680.0
+GLD,SPDR Gold Shares,quoteType ETF,,3700302336.0
+GLDM,SPDR Gold MiniShares,quoteType ETF,,398535168.0
+GLTR,abrdn Physical Precious Metals Basket Shares ETF,quoteType ETF,,11074824.0
+IAU,iShares Gold Trust,quoteType ETF,,399172320.0
+IAUM,iShares Gold Trust Micro,quoteType ETF,,131041960.0
+IBIT,iShares Bitcoin Trust ETF,quoteType ETF,,2122596480.0
+OUNZ,VanEck Merk Gold Trust,quoteType ETF,,25916946.0
+SATS,"Strive, Inc.",no yfinance market cap,,32069026.0
+SGOL,abrdn Physical Gold Shares ETF,quoteType ETF,,109005296.0
+SIVR,abrdn Physical Silver Shares ETF,quoteType ETF,,102714976.0
+SLV,iShares Silver Trust,quoteType ETF,,922354432.0
+BATRK,"Atlanta Braves Holdings, Inc.",mcap < 5B,3418447872.0,26014214.0
+BELFB,Bel Fuse Inc.,mcap < 5B,3258264576.0,40263232.0
+BH,Biglari Holdings Inc.,mcap < 5B,1213236736.0,38236664.0
+BULZ,MicroSectors Solactive FANG Innovation 3X Leveraged ETNs,quoteType ETF,,20890592.0
+CENTA,Central Garden & Pet Company,mcap < 5B,2536878080.0,12101302.0
+FNGD,MicroSectors FANG+ Index -3X Inverse Leveraged ETN,quoteType ETF,,12739289.0
+FNGU,BANK OF MONTREAL /CAN/,quoteType ETF,,92909976.0
+GDXD,MicroSectors Gold Miners -3X Inverse Leveraged ETNs,quoteType ETF,,48568032.0
+GDXU,MicroSectors Gold Miners 3X Leveraged ETNs,quoteType ETF,,210599872.0
+GLLD,MicroSectors Gold 3X Leveraged ETN,no yfinance market cap,,10933114.0
+ITGR,Integer Holdings Corporation,mcap < 5B,4316641792.0,100658808.0
+LBTYK,Liberty Global Ltd.,mcap < 5B,3357156352.0,19299490.0
+LILAK,Liberty Latin America Ltd.,mcap < 5B,1829465984.0,13538202.0
+MCHPP,Microchip Technology Incorporated,no yfinance market cap,,14580568.0
+SHO,"Sunstone Hotel Investors, Inc.",mcap < 5B,2325493504.0,28338748.0
+SOMN,The Southern Company,no yfinance market cap,,29495096.0
+SPYU,MAX S&P 500 4X Leveraged ETN,quoteType ETF,,28423358.0
+STRC,Strategy Inc,no yfinance market cap,,172536128.0
+TDS,"Telephone and Data Systems, Inc.",mcap < 5B,3333974272.0,57726052.0
+UA,"Under Armour, Inc.",mcap < 5B,1988795904.0,12247834.0
+UHAL-B,U-Haul Holding Company,ADV < 20M,9308111872.0,16745469.0
+VXX,iPath Series B S&P 500 VIX Short-Term Futures ETN,quoteType ETF,,236210176.0
+AGQ,ProShares Ultra Silver,quoteType ETF,,195320640.0
+BOIL,ProShares Ultra Bloomberg Natural Gas,quoteType ETF,,125385712.0
+BWET,Breakwave Tanker Shipping ETF,quoteType ETF,,108516928.0
+DGP,DB Gold Double Long ETN,quoteType ETF,,17952036.0
+DUKU,Duke Energy Corporation,no yfinance market cap,,24967262.0
+GLDI,UBS ETRACS Gold Shares Covered Call ETN,quoteType ETF,,13287290.0
+GLL,ProShares UltraShort Gold,quoteType ETF,,72638144.0
+GOOGM,Alphabet Inc.,no yfinance market cap,,78630936.0
+GOOGN,Alphabet Inc.,no yfinance market cap,,72593768.0
+KOLD,ProShares UltraShort Bloomberg Natural Gas,quoteType ETF,,83596072.0
+SCO,ProShares UltraShort Bloomberg Crude Oil,quoteType ETF,,120229648.0
+SLVO,UBS ETRACS Silver Shares Covered Call ETN,quoteType ETF,,11663826.0
+SMCIP,"Super Micro Computer, Inc.",no yfinance market cap,,46129520.0
+SVXY,ProShares Short VIX Short-Term Futures ETF,quoteType ETF,,101148848.0
+UCO,ProShares Ultra Bloomberg Crude Oil,quoteType ETF,,122220184.0
+UGL,ProShares Ultra Gold,quoteType ETF,,136747536.0
+UVXY,ProShares Ultra VIX Short-Term Futures ETF,quoteType ETF,,209679792.0
+VIXY,ProShares VIX Short-Term Futures ETF,quoteType ETF,,65724672.0
+WEAT,Teucrium Wheat Fund,quoteType ETF,,13507159.0
+ZSL,ProShares UltraShort Silver,quoteType ETF,,97256464.0
+SATA,"Strive, Inc.",no yfinance market cap,,48873176.0

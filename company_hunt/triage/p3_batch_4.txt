@@ -1,0 +1,18 @@
+DLB|G4|Dolby Laboratories, Inc.|Specialty Business Services
+GGG|G3|Graco Inc.|Specialty Industrial Machinery
+LOGI|G4|Logitech International S.A.|Computer Hardware
+IT|G1,G2|Gartner, Inc.|Information Technology Services
+FIS|G1,G2|Fidelity National Information Services, Inc.|Information Technology Services
+EPAM|G1,G2,G4|EPAM Systems, Inc.|Information Technology Services
+ACN|G4|Accenture plc|Information Technology Services
+CTSH|G4|Cognizant Technology Solutions Corporation|Information Technology Services
+G|G4|Genpact Limited|Information Technology Services
+CRUS|G4|Cirrus Logic, Inc.|Semiconductors
+ADBE|G1,G3,G4|Adobe Inc.|Software - Application
+FICO|G1,G3|Fair Isaac Corporation|Software - Application
+NICE|G1,G4|NICE Ltd.|Software - Application
+INTU|G1,G2,G3,G4|Intuit Inc.|Software - Application
+PAYX|G3|Paychex, Inc.|Software - Application
+QLYS|G3|Qualys, Inc.|Software - Infrastructure
+CHKP|G3,G4|Check Point Software Technologies Ltd.|Software - Infrastructure
+FISV|G1|Fiserv, Inc.|nan

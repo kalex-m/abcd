@@ -1,0 +1,19 @@
+PYPL|G1,G2,G4|PayPal Holdings, Inc.|Credit Services
+MA|G3|Mastercard Incorporated|Credit Services
+V|G3|Visa Inc.|Credit Services
+COIN|G1|Coinbase Global, Inc.|Financial Data & Stock Exchanges
+SPGI|G3|S&P Global Inc.|Financial Data & Stock Exchanges
+MSCI|G3|MSCI Inc.|Financial Data & Stock Exchanges
+FDS|G3|FactSet Research Systems Inc.|Financial Data & Stock Exchanges
+ZTS|G2|Zoetis Inc.|Drug Manufacturers - Specialty & Generic
+DOCS|G1|Doximity, Inc.|Health Information Services
+VEEV|G3|Veeva Systems Inc.|Health Information Services
+CAH|G4|Cardinal Health, Inc.|Medical Distribution
+TDG|G3|TransDigm Group Incorporated|Aerospace & Defense
+OC|G2|Owens Corning|Building Products & Equipment
+HON|G2,G3|Honeywell International Inc.|Conglomerates
+POWL|G1|Powell Industries, Inc.|Electrical Equipment & Parts
+AYI|G4|Acuity Inc.|Electrical Equipment & Parts
+AGCO|G2|AGCO Corporation|Farm & Heavy Construction Machinery
+MLI|G4|Mueller Industries, Inc.|Metal Fabrication
+CPRT|G1,G3|Copart, Inc.|Specialty Business Services

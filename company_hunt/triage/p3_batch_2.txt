@@ -1,0 +1,19 @@
+TAP|G2|Molson Coors Beverage Company|Beverages - Brewers
+CELH|G2|Celsius Holdings, Inc.|Beverages - Non-Alcoholic
+BF-B|G2|Brown-Forman Corporation|Beverages - Wineries & Distilleries
+EDU|G1,G4|New Oriental Education & Technology Group Inc.|Education & Training Services
+ADM|G2|Archer-Daniels-Midland Company|Farm Products
+LW|G2|Lamb Weston Holdings, Inc.|Packaged Foods
+GIS|G2|General Mills, Inc.|Packaged Foods
+CPB|G2|The Campbell's Company|Packaged Foods
+CAG|G2|Conagra Brands, Inc.|Packaged Foods
+MO|G3|Altria Group, Inc.|Tobacco
+TPL|G3|Texas Pacific Land Corporation|Oil & Gas E&P
+EOG|G4|EOG Resources, Inc.|Oil & Gas E&P
+NOV|G2|NOV Inc.|Oil & Gas Equipment & Services
+SOBO|G3|South Bow Corporation|Oil & Gas Midstream
+SEIC|G3|SEI Investments Company|Asset Management
+AMP|G4|Ameriprise Financial, Inc.|Asset Management
+FUTU|G1,G3|Futu Holdings Limited|Capital Markets
+MKTX|G1,G3|MarketAxess Holdings Inc.|Capital Markets
+SF|G4|Stifel Financial Corp.|Capital Markets

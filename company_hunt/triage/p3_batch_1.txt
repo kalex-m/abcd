@@ -1,0 +1,19 @@
+CTVA|G1,G2|Corteva, Inc.|Agricultural Inputs
+CF|G4|CF Industries Holdings, Inc.|Agricultural Inputs
+CE|G2|Celanese Corporation|Chemicals
+TTD|G1,G4|The Trade Desk, Inc.|Advertising Agencies
+NTES|G1,G3,G4|NetEase, Inc.|Electronic Gaming & Multimedia
+SIRI|G2|Sirius XM Holdings Inc.|Entertainment
+CHTR|G1|Charter Communications, Inc.|Telecom Services
+LULU|G1|lululemon athletica inc.|Apparel Retail
+KMX|G2|CarMax, Inc.|Auto & Truck Dealerships
+APTV|G1,G2|Aptiv PLC|Auto Parts
+DECK|G1,G4|Deckers Outdoor Corporation|Footwear & Accessories
+BABA|G1|Alibaba Group Holding Limited|Internet Retail
+MELI|G1|MercadoLibre, Inc.|Internet Retail
+CHH|G3|Choice Hotels International, Inc.|Lodging
+NVR|G4|NVR, Inc.|Residential Construction
+MGM|G2|MGM Resorts International|Resorts & Casinos
+CZR|G2|Caesars Entertainment, Inc.|Resorts & Casinos
+YUM|G3|Yum! Brands, Inc.|Restaurants
+BKNG|G4|Booking Holdings Inc.|Travel Services
