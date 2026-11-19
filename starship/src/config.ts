@@ -164,7 +164,7 @@ export const CONFIG = {
       missingFraction: 0.004,
       chippedFraction: 0.015,
       scorchedFraction: 0.08,
-      maxInstances: 24000, // real ships carry ~18k; see DECISIONS.md
+      maxInstances: 24000, // cap; the windward coverage rule places ~13.8k (real ships carry ~18k)
       coverageNose: 0.6, // fraction of circumference at the nose
       coverageAft: 0.4, // fraction at the aft
     },

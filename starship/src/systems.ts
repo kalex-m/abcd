@@ -56,7 +56,13 @@ export async function buildSystems(engine: Engine, ui: HTMLElement, progress: (f
   steps.push(['tower', () => engine.register(new Tower(engine.world))]);
   steps.push(['tank farm', () => { tankfarm = new TankFarm(engine.world); engine.register(tankfarm); }]);
   steps.push(['site lights', () => engine.register(new SiteLights(engine.world, engine.fxScene))]);
-  const useCache = !record;
+  // IndexedDB texture cache: skipped when recording (always regenerate) and on software GL, where any
+  // readback (even the async PBO path) is reported as a GPU stall in the console
+  const gl = engine.renderer.getContext();
+  const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+  const rendererName = dbg ? String(gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL)) : '';
+  const software = /swiftshader|llvmpipe|software/i.test(rendererName);
+  const useCache = !record && !software;
   steps.push(['booster hull maps', async () => { booster = await Booster.create(engine.renderer, engine.scene, engine.preset.hullTexSize, useCache); engine.register(booster); }]);
   steps.push(['ship hull maps', async () => engine.register(await Ship.create(engine.renderer, engine.scene, engine.preset.hullTexSize, useCache, engine.preset.tileLodDistance))]);
   steps.push(['plumes', () => engine.register(new Plumes(engine.scene, engine.fxScene, engine.heatScene, engine.sky, engine.preset.plumeSteps))]);

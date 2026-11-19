@@ -13,7 +13,11 @@ export class GpuTimer {
 
   constructor(gl: WebGL2RenderingContext) {
     this.gl = gl;
-    this.ext = gl.getExtension('EXT_disjoint_timer_query_webgl2') as GpuTimer['ext'];
+    // software GL implements timer queries with readbacks (console stall notices): use CPU timing there
+    const dbg = gl.getExtension('WEBGL_debug_renderer_info');
+    const name = dbg ? String(gl.getParameter(dbg.UNMASKED_RENDERER_WEBGL)) : '';
+    const software = /swiftshader|llvmpipe|software/i.test(name);
+    this.ext = software ? null : (gl.getExtension('EXT_disjoint_timer_query_webgl2') as GpuTimer['ext']);
     this.supported = !!this.ext;
   }
 

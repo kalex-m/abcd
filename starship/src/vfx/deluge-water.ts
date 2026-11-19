@@ -72,5 +72,7 @@ bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out
 }`,
     update: (ctx) => (ctx.mission > 2 && ctx.mission < 45 ? 1 : 0),
   };
-  return [jets, mist, rain];
+  // the fine mist curtain is carried by the volumetric phase-A puffs (smoke-gpu.ts); the sprite mist is kept
+  // for the Low preset only, where volumetrics are coarse
+  return budget < 50000 ? [jets, mist, rain] : [jets, rain];
 }

@@ -16,6 +16,7 @@ await page.waitForFunction(() => [...document.querySelectorAll('div')].some((d) 
 await page.evaluate(() => [...document.querySelectorAll('div')].find((d) => d.textContent === 'CLICK TO BEGIN').click());
 await page.waitForFunction(() => window.__engine && window.__engine.clock.playing, { timeout: 0, polling: 500 });
 const heap0 = await page.evaluate(() => performance.memory ? performance.memory.usedJSHeapSize : 0);
+console.log(`driver notices during boot: ${logs.filter((l) => l.includes('GPU stall')).length}`);
 const t0 = Date.now();
 const keys = ['h', 'h', 'l', 'l', ']', '[', '4', 'Space', 'Space', '7', 'm', 'm', 'c', 'c'];
 let k = 0;
@@ -28,6 +29,7 @@ console.log(`played ${seconds}s wall: cinematic t=${st.cin.toFixed(2)}s, frames=
 console.log(`JS heap: ${(heap0 / 1e6).toFixed(1)} MB -> ${(st.heap / 1e6).toFixed(1)} MB`);
 const real = logs.filter((l) => !l.includes('GPU stall due to ReadPixels'));
 console.log(real.length ? 'console problems:\n' + real.join('\n') : 'console: clean (no errors or warnings)');
+console.log(`software-GL driver notices filtered: ${logs.length - real.length}`);
 await browser.close();
 await server.close();
 process.exit(real.length ? 1 : 0);
