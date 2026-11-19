@@ -1,0 +1,184 @@
+<title>The Bombardier Case</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: verdict -> the cycle (user's loop drawing, one chart per node) -> survival tree -> what to watch -> sources */
+:root{
+  --bg:#f2f4f7; --surface:#ffffff; --ink:#0e1621; --ink2:#465263; --muted:#7a8597; --line:#dbe1ea; --rail:#0e1621;
+  --accent:#1c5cab; --accent-soft:#e3eefc; --bar:#9ec5f4; --good:#0a7d0a; --warn:#9a3b12; --warn-bg:#fde9df;
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-soft:#16304f; --bar:#2a5d9e; --good:#3fbf3f; --warn:#f2a27f; --warn-bg:#3a2216; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-soft:#16304f; --bar:#2a5d9e; --good:#3fbf3f; --warn:#f2a27f; --warn-bg:#3a2216; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-disp);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(36px,6.5vw,60px);line-height:1;font-weight:700}
+h2{font-size:26px;font-weight:700}
+.eyebrow{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin:0}
+section{padding-block:32px} section+section{border-top:1px solid var(--line)}
+.top{background:var(--surface);border-bottom:1px solid var(--line);padding-block:38px 28px}
+.lede{font-size:17px;color:var(--ink2);max-width:66ch;margin:14px 0 20px}
+.tiles{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.tile{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:12px}
+.tile b{display:block;font-family:var(--f-disp);font-size:30px;line-height:1.05}
+.tile small{display:block;font-size:12px;color:var(--ink2)}
+.tile em{font-style:normal;font-family:var(--f-mono);font-size:11.5px;color:var(--good)}
+.shead{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px;margin-bottom:16px}
+.shead p{margin:0;font-size:13px;color:var(--muted);max-width:62ch}
+/* the loop */
+.loop{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:34px 36px;position:relative}
+.node{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;position:relative;min-width:0;display:flex;flex-direction:column;gap:6px}
+.node h3{font-size:16px;font-weight:600}
+.node .big{font-family:var(--f-mono);font-size:22px;line-height:1.1}
+.node .sub{font-size:12.5px;color:var(--ink2)}
+.node .fact{font-size:12.5px;color:var(--ink2);border-top:1px solid var(--line);padding-top:6px;margin-top:auto}
+.node .fact b{color:var(--ink);font-weight:600}
+.node.r::after{content:"\2192";position:absolute;right:-28px;top:44%;color:var(--muted);font-size:20px}
+.node.l::after{content:"\2190";position:absolute;left:-28px;top:44%;color:var(--muted);font-size:20px}
+.node.d::before{content:"\2193";position:absolute;bottom:-30px;left:50%;color:var(--muted);font-size:20px}
+.node.u::before{content:"\2191";position:absolute;top:-30px;left:50%;color:var(--muted);font-size:20px}
+.node.w2{grid-column:span 2}
+.node svg{max-width:340px}
+.cyc{grid-column:1 / span 2;font-family:var(--f-disp);font-weight:700;font-size:44px;color:var(--muted);opacity:.45;line-height:1;padding-left:8px;margin-top:-12px}
+svg text{fill:var(--ink2);font-family:var(--f-mono)}
+/* tree */
+.tw{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px;align-items:start}
+.tree .root{font-family:var(--f-disp);font-weight:700;font-size:20px}
+.tree ul{list-style:none;margin:6px 0 0 6px;padding:0 0 0 16px;border-left:2px solid var(--rail)}
+.tree li{position:relative;padding:9px 0 3px 8px}
+.tree li::before{content:"";position:absolute;left:-16px;top:20px;width:16px;border-top:2px solid var(--rail)}
+.tree li b{font-family:var(--f-disp);font-size:15px;font-weight:600}
+.tree li p{margin:3px 0 0;font-size:13.5px;color:var(--ink2)}
+.ok{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:3px;border:1px solid var(--good);color:var(--good);margin-left:6px;vertical-align:2px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px}
+.panel h4{font-family:var(--f-disp);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+.watch{display:grid;gap:10px}
+.watch div{border-left:3px solid var(--warn);background:var(--warn-bg);padding:8px 12px;border-radius:0 4px 4px 0;font-size:13.5px}
+.watch b{display:block;color:var(--warn);font-family:var(--f-disp);font-size:14px}
+footer{padding-block:24px 40px;font-size:12.5px;color:var(--ink2);border-top:1px solid var(--line)}
+footer a{color:var(--accent)}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;padding:5px 8px;border-radius:4px;max-width:260px}
+@media (max-width:980px){ .tiles{grid-template-columns:repeat(3,minmax(0,1fr))} .tw{grid-template-columns:1fr} }
+@media (max-width:760px){
+  .loop{grid-template-columns:minmax(0,1fr);gap:14px} .node.w2{grid-column:auto} .cyc{display:none}
+  .node.r::after,.node.l::after,.node.d::before,.node.u::before{display:none}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+</style>
+
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Business-quality case · Bombardier Inc. (TSX: BBD.B) · data through Q3 2026 · valuation deliberately excluded</p>
+  <h1 style="margin-top:8px">The Bombardier Case</h1>
+  <p class="lede">Bombardier is no longer the debt-laden trains-and-airliners conglomerate it was. It now builds only large business jets, in a market with two serious players. Its numbers run through your whole cycle: revenue, margins, cash flow, debt paid down, investment phase finished, and a services business that keeps paying.</p>
+  <div class="tiles" id="tiles"></div>
+</div></header>
+
+<main>
+<section><div class="wrap">
+  <div class="shead"><h2>Your cycle, filled with Bombardier's numbers</h2><p>FY2022 → FY2025 → trailing 12 months to Sep-2026. US$. Statements via yFinance; backlog, services and defense from company results.</p></div>
+  <div class="loop" id="loop"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="shead"><h2>Your survival tree</h2><p>Aerospace is the definition of a capital-intensive industry. The test is whether the company can carry it.</p></div>
+  <div class="tw">
+    <div class="panel tree" id="tree"></div>
+    <div>
+      <div class="panel"><h4>What to keep watching</h4><div class="watch">
+        <div><b>Deliveries lag demand</b>33 jets in Q3-26 vs 34 a year earlier while backlog jumped. Engine and supplier bottlenecks cap output; management is weighing higher rates only after checking supplier capacity.</div>
+        <div><b>Business jets are cyclical</b>Demand follows corporate profits and wealth. The $22.2B backlog and the services annuity cushion a downturn, but new-jet volumes would fall.</div>
+        <div><b>Balance sheet still healing</b>Shareholders' equity is still negative (−$0.48B) and debt is $4.1B. Both are moving the right way every quarter.</div>
+      </div></div>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <p style="margin:0 0 6px"><b>Data.</b> Income statement, cash flow and balance sheet: yFinance (BBD-B.TO, reported in US$). Bombardier is not an SEC registrant, so SEC EDGAR has no filings for it. Backlog, services, defense, deliveries, guidance and ratings: company results as reported in
+  <a href="https://www.bnnbloomberg.ca/business/company-news/2026/11/05/bombardier-raises-2026-free-cash-flow-forecast-on-strong-private-jet-demand/" target="_blank" rel="noopener">BNN Bloomberg (Q3-26)</a>,
+  <a href="https://www.ainonline.com/aviation-news/business-aviation/2026-11-05/bombardier-deliveries-flatten-orders-revenues-rise" target="_blank" rel="noopener">AIN (Q3-26)</a>,
+  <a href="https://www.globalair.com/articles/bombardiers-backlog-swells-to-222-billion-buyers-may-still-have-to-wait/12831" target="_blank" rel="noopener">GlobalAir (backlog)</a>,
+  <a href="https://www.barchart.com/story/news/177936/bombardier-exceeds-all-2025-guidance-metrics-successfully-completes-its-turnaround-plan-and-sets-2026-guidance-for-strong-year-ahead" target="_blank" rel="noopener">FY2025 release</a>,
+  <a href="https://www.ainonline.com/aviation-news/business-aviation/2026-08-19/moodys-upgrade-bombardier-balance-sheet-improves" target="_blank" rel="noopener">Moody's upgrade</a>,
+  <a href="https://www.flyingmag.com/u-s-army-selects-bombardiers-global-6500-for-recon-aircraft-prototype/" target="_blank" rel="noopener">US Army HADES</a>,
+  <a href="https://www.flightglobal.com/business-aviation/bombardier-bedeviled-by-brutal-engine-supply-issue-but-martel-sees-progress-as-deliveries-rise/166303.article" target="_blank" rel="noopener">engine supply</a>.</p>
+  <p style="margin:0">TTM = Q4-25 + Q1–Q3-26. Operating margin uses reported operating income; leverage uses normalized EBITDA (TTM: reported EBITDA). Research output, not investment advice.</p>
+</div></footer>
+<div id="tip" hidden></div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('data').textContent), L = D.labels;
+const $ = s => document.querySelector(s);
+const pct = (v,d=1) => (v*100).toFixed(d) + '%';
+const usd = v => (v<0?'−':'') + '$' + Math.abs(v).toFixed(v>=10||v<=-10?1:2).replace(/\.?0+$/,'') + 'B';
+const usd1 = v => (v<0?'−':'') + '$' + Math.abs(v).toFixed(1) + 'B';
+/* tooltip */
+const tip = $('#tip');
+document.addEventListener('pointerover', e => { const el = e.target.closest('[data-tip]'); if (!el) return; tip.textContent = el.getAttribute('data-tip'); tip.hidden = false; });
+document.addEventListener('pointermove', e => { if (tip.hidden) return; const el = e.target.closest('[data-tip]'); if (!el) { tip.hidden = true; return; } let x = e.clientX + 12, y = e.clientY + 12; const r = tip.getBoundingClientRect(); if (x + r.width > innerWidth - 8) x = e.clientX - r.width - 12; tip.style.left = x + 'px'; tip.style.top = y + 'px'; });
+addEventListener('scroll', () => tip.hidden = true, {passive:true});
+
+/* small bar chart: values, labels, formatter; last bar emphasized; supports negatives */
+function bars(vals, labs, fmt, opt={}){
+  const W = 300, H = opt.h || 120, T = 16, B = 18, n = vals.length, gap = 8, bw = (W - gap*(n-1)) / n;
+  const mx = Math.max(0, ...vals), mn = Math.min(0, ...vals), sc = v => T + (mx - v) / ((mx - mn) || 1) * (H - T - B);
+  let s = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${opt.aria||''}">`;
+  s += `<line x1="0" x2="${W}" y1="${sc(0)}" y2="${sc(0)}" stroke="var(--line)"/>`;
+  vals.forEach((v,i) => { const x = i*(bw+gap), y0 = sc(0), y1 = sc(v), y = Math.min(y0,y1), h = Math.max(2, Math.abs(y1-y0));
+    const last = i === n-1 || (opt.hl||[]).includes(i);
+    s += `<g data-tip="${labs[i]}: ${fmt(v)}"><rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="3" fill="${last?'var(--accent)':'var(--bar)'}"/>`;
+    s += `<text x="${x+bw/2}" y="${v>=0 ? y-4 : y+h+11}" text-anchor="middle" font-size="10.5" style="fill:var(--ink)">${fmt(v)}</text>`;
+    s += `<text x="${x+bw/2}" y="${H-4}" text-anchor="middle" font-size="9.5">${labs[i]}</text></g>`; });
+  return s + `</svg>`;
+}
+const first = a => a[0], lastv = a => a[a.length-1];
+$('#tiles').innerHTML = [
+  [usd1(lastv(D.rev)), 'revenue, TTM', `+${pct(lastv(D.rev)/first(D.rev)-1,0)} vs FY22`],
+  ['$22.2B', 'order backlog, Sep-26', '+27% vs Dec-25'],
+  [pct(lastv(D.om)), 'operating margin, TTM', `from ${pct(first(D.om))} FY22`],
+  [usd1(lastv(D.fcf)), 'free cash flow, TTM', 'FY26 guide > $1.3B'],
+  [lastv(D.lev).toFixed(1)+'x', 'net debt / EBITDA', `from ${first(D.lev).toFixed(1)}x FY22`],
+  ['35%', 'of FY25 revenue from services + defense', 'up from ~30%']
+].map(([b,s,e]) => `<div class="tile"><b>${b}</b><small>${s}</small><em>${e}</em></div>`).join('');
+
+const node = (cls, title, big, sub, chart, fact) => `<div class="node ${cls}"><h3>${title}</h3><div class="big">${big}</div><div class="sub">${sub}</div>${chart}<div class="fact">${fact}</div></div>`;
+const bl = [14.4, 17.5, 22.2], bll = ['Dec-24','Dec-25','Sep-26'];
+$('#loop').innerHTML =
+  node('r', 'Revenue', usd1(lastv(D.rev)), `four straight years of growth; FY26 guide &gt; $10B`, bars(D.rev, L, usd1, {aria:'Revenue by year'}),
+       `<b>Backlog</b> ${bars(bl, bll, v=>'$'+v.toFixed(1)+'B', {h:90, aria:'Backlog'})} Book-to-bill 1.7x in Q3-26: orders arrive faster than jets ship.`) +
+  node('r', 'Good margins', pct(lastv(D.om)), 'operating margin, TTM', bars(D.om, L, v=>pct(v), {aria:'Operating margin'}),
+       `<b>Adj. EBITDA margin</b> 15.4% → 16.1% (Q3-25 → Q3-26); FY26 guide &gt; 16.25%. Mix shift to services lifts margins.`) +
+  node('r', 'Strong recurring FCF', usd1(lastv(D.fcf)), 'free cash flow, TTM', bars(D.fcf, L, usd1, {aria:'Free cash flow'}),
+       `TTM is lifted by a $1.7B jump in customer deposits; FY26 guide &gt; $1.3B. <b>Recurring engine</b>: services revenue $2.3B in FY25 (+13%), record $701M in Q3-26 (+19%). Every jet sold feeds 20+ years of parts, maintenance and upgrades.`) +
+  node('d', 'Cash kept / war chest', usd1(lastv(D.adv)), 'customer deposits on the balance sheet', bars(D.adv, L, usd1, {aria:'Customer deposits'}),
+       `<b>Customers fund the build</b>: deposits rose $1.7B in 9 months. Plus ${usd1(lastv(D.cash))} cash and a $750M undrawn revolver.`) +
+  node('u', 'Business model', 'Duopoly + annuity', 'large-cabin jets: Bombardier and Gulfstream', `<div class="sub" style="font-size:13px">• Global 7500 / new Global 8000 (in service Dec-25) and Challenger 3500 cover the top of the market<br>• Certifying a new large jet takes ~a decade and billions: few can enter<br>• Defense revenue &gt; $1B in FY25 (special-mission Globals, e.g. US Army HADES)<br>• Services + defense = 35% of revenue, rising</div>`,
+       `<b>Mix</b> new jets ~65% · services + defense ~35% (FY25)`) +
+  node('l w2', 'Capital-intensive industry', pct(lastv(D.inv)), 'R&amp;D + capex as % of revenue, TTM', bars(D.inv, L, v=>pct(v), {aria:'Investment intensity'}),
+       `<b>Investment cycle done</b>: Global 8000 certified and delivering. Spend fell from ${pct(first(D.inv))} to ${pct(lastv(D.inv))} of revenue, so more of each dollar of profit becomes cash.`) +
+  node('l', 'Capital', usd1(lastv(D.debt)), 'total debt, Sep-26', bars(D.debt, L, usd1, {aria:'Total debt'}),
+       `<b>Leverage</b> ${first(D.lev).toFixed(1)}x → ${lastv(D.lev).toFixed(1)}x net debt/EBITDA · interest cover ${D.icov[0].toFixed(1)}x → ${lastv(D.icov).toFixed(1)}x · equity deficit ${usd1(first(D.eq))} → ${usd1(lastv(D.eq))} · Moody's Ba2, positive outlook (2nd upgrade in 12 months).`) +
+  `<span class="cyc" aria-hidden="true">cycle</span>`;
+
+$('#tree').innerHTML = `<div class="root">Capital-intensive industry: aerospace</div><ul>
+  <li><b>Does the company have adequate capital to survive?</b><span class="ok">Yes</span>
+    <p>Liquidity ≈ ${usd1(lastv(D.cash)+0.75)} (cash + undrawn revolver). Net debt ${usd1(lastv(D.nd))} = ${lastv(D.lev).toFixed(1)}x EBITDA, down from ${first(D.lev).toFixed(1)}x. Debt cut by more than $6B since the turnaround began; $1.1B repaid in 2026 alone.</p>
+    <ul><li><b>Is FCF &amp; revenue stable?</b><span class="ok">Yes</span>
+      <p>Revenue up every year: ${D.rev.map(usd1).join(' → ')}. Free cash flow positive every year: ${D.fcf.map(usd1).join(' → ')}. The FY23–24 dip was inventory built for higher deliveries, not losses.</p></li></ul></li>
+  <li><b>Cycle or long-term disruption?</b><span class="ok">Cycle</span>
+    <p>Business-jet demand moves with corporate profits and wealth. No technology is replacing a 7,700-nm private jet; the risk is the economic cycle, and the backlog covers about 2.3 years of revenue.</p></li>
+</ul>`;
+})();
+</script>
