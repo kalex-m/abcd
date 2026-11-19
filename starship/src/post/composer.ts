@@ -253,7 +253,7 @@ void main() {
   vec3 dirt = texture2D(tDirt, uv).rgb;
   vec3 streak = texture2D(tStreak, uv).rgb * vec3(0.55, 0.7, 1.0);
   col = min(col * exposure, vec3(4096.0));
-  col += bloom * uBloom * (1.0 + dirt * 2.5) + streak * uAnamorphic;
+  col += bloom * uBloom * (1.0 + dirt * 1.2) + streak * uAnamorphic * 0.25;
   // halation: red-orange glow around strong highlights (film base reflection)
   col += bloom * vec3(1.0, 0.35, 0.12) * uHalation;
   col = tonemap(clamp(col, 0.0, 4096.0));

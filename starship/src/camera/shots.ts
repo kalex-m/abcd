@@ -195,7 +195,7 @@ export class ShotList {
       {
         id: '4', name: 'Remote long-lens liftoff', duration: 37, warp: [[0, 0], [10, 5.2], [37, 25]],
         pose: (l, m, h) => {
-          const pos = new THREE.Vector3(420, G + 3, 1540);
+          const pos = new THREE.Vector3(150, G + 3 + 2.6, 1590);
           const lag = 0.8;
           const tm = m - lag;
           const tgt = h.boosterPoint(tm, 58 + 12 * smoothstep(0, 6, tm)).add(new THREE.Vector3(0, -8 * (1 - smoothstep(0, 4, tm)), 0));

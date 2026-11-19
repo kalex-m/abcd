@@ -26,7 +26,7 @@ vec3 S(vec2 o) {
   vec3 c = texture2D(tSrc, vUv + o * uTexel).rgb * gExposure;
   // limit extreme sources (sun disc, plume core) like the finite veiling glare of a real lens
   float l = max(c.r, max(c.g, c.b));
-  return l > 48.0 ? c * (48.0 + log2(l / 48.0 + 1.0) * 8.0) / l : c;
+  return l > 24.0 ? c * (24.0 + log2(l / 24.0 + 1.0) * 4.0) / l : c;
 }
 void main() {
   if (uFirst > 0.5) { float ev = texture2D(tExposure, vec2(0.5)).r; gExposure = 0.18 / exp2(ev - 3.0) * exp2(uEvComp); }

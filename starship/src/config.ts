@@ -105,7 +105,7 @@ export const CONFIG = {
     maxSunDiscRadiance: 60000, // scene units, fp16 safe clamp
     envUpdateInterval: 4.0, // s of cinematic time between sky IBL refreshes
     envFireUpdateInterval: 0.1, // s, refresh interval while the plume lights the scene
-    floodlightIntensity: 1.8e5, // cd (before luxScale) per pad floodlight
+    floodlightIntensity: 2.5e6, // cd (before luxScale) per pad floodlight bank
     floodlightColorK: 2100, // K, high-pressure sodium
     beaconHz: 0.7, // Hz, tower aviation beacons
     strobeHz: 1.2, // Hz, countdown strobes
@@ -164,7 +164,7 @@ export const CONFIG = {
       missingFraction: 0.004,
       chippedFraction: 0.015,
       scorchedFraction: 0.08,
-      maxInstances: 12000,
+      maxInstances: 24000, // real ships carry ~18k; see DECISIONS.md
       coverageNose: 0.6, // fraction of circumference at the nose
       coverageAft: 0.4, // fraction at the aft
     },
@@ -308,11 +308,11 @@ export const CONFIG = {
     terrainSegments: 256,
     grassRadius: 900, // m, radius of the dense grass field around cameras
     floodlights: [
-      [-55, -14, 40],
-      [48, -14, 52],
-      [40, -14, -60],
-      [-48, -14, -50],
-    ] as [number, number, number][], // m positions (grade is y=-20)
+      [-62, 6, 46],
+      [58, 6, 58],
+      [52, 6, -66],
+      [-58, 6, -58],
+    ] as [number, number, number][], // m positions of the flood banks (on 26 m poles; grade is y=-20)
   },
 
   // ---------------------------------------------------------------- sky
@@ -345,7 +345,7 @@ export const CONFIG = {
     mExit: 3.4, // exit Mach
     diamondCount: 5,
     diamondDecay: 9.0, // m
-    lengthSL: 60, // m visible plume length at sea level (merged)
+    lengthSL: 105, // m visible plume length at sea level (merged)
     lengthVac: 900, // m visible plume length in vacuum
     maxExpansionDeg: 55, // deg
     visibleFlowSpeed: 40, // m/s noise scroll (de-strobed)
@@ -411,14 +411,14 @@ export const CONFIG = {
   post: {
     bloomThreshold: 1.0,
     bloomKnee: 0.5,
-    bloomIntensity: 0.35,
+    bloomIntensity: 0.07, // energy fraction redistributed (physically based; 0.35 of the spec reads as fog on HDR fire)
     plumeGlare: 0.12,
     exposureAdaptUp: 0.7, // s
     exposureAdaptDown: 1.5, // s
     evRange: [-6, 14] as [number, number],
     tonemapper: 'aces' as 'agx' | 'aces',
     grain: 0.04,
-    halation: 0.08,
+    halation: 0.03,
     vignette: 0.25,
     letterbox: 2.39,
     heatHazeStrength: 0.006,

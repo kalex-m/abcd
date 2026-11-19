@@ -194,23 +194,27 @@ float gRough = 0.9;`)
   vec2 p = vTW.xz;
   float r = length(p);
   float ds = shoreDistance(p);
-  float n1 = vnoise2(p * 0.9), n2 = vnoise2(p * 0.13 + 3.0), n3 = vnoise2(p * 4.1);
+  // derivative-based fade of fine detail (procedural anti-aliasing at grazing angles / distance)
+  float fw = max(fwidth(p.x), fwidth(p.y));
+  float aa1 = 1.0 - smoothstep(0.2, 0.9, fw * 0.9);
+  float aa2 = 1.0 - smoothstep(0.05, 0.25, fw * 4.1);
+  float n1 = mix(0.5, vnoise2(p * 0.9), aa1), n2 = vnoise2(p * 0.13 + 3.0), n3 = mix(0.5, vnoise2(p * 4.1), aa2);
   float pm = marshMask(p);
   // base: flats with scrub/grass
-  vec3 scrub = mix(vec3(0.16, 0.15, 0.08), vec3(0.24, 0.22, 0.12), n2) * mix(0.8, 1.15, n1);
-  vec3 grass = mix(vec3(0.11, 0.13, 0.05), vec3(0.20, 0.19, 0.09), n1);
+  vec3 scrub = mix(vec3(0.12, 0.11, 0.06), vec3(0.19, 0.17, 0.10), n2) * mix(0.85, 1.1, n1);
+  vec3 grass = mix(vec3(0.08, 0.10, 0.04), vec3(0.15, 0.14, 0.07), n1);
   vec3 col = mix(scrub, grass, smoothstep(0.3, 0.7, tFbm(p / 60.0, 3) * 0.5 + 0.5));
   float rough = 0.92;
   // salt crust patches
-  float salt = smoothstep(0.62, 0.75, tFbm(p / 140.0 + 9.0, 4) * 0.5 + 0.5) * (1.0 - pm);
-  col = mix(col, vec3(0.58, 0.55, 0.5), salt * 0.7);
+  float salt = smoothstep(0.7, 0.82, tFbm(p / 140.0 + 9.0, 4) * 0.5 + 0.5) * (1.0 - pm);
+  col = mix(col, vec3(0.42, 0.40, 0.36), salt * 0.55);
   // mud flats around the pools (dark and wet)
   float mud = smoothstep(0.2, 1.4, -vH + 0.6) * (1.0 - step(60.0, ds));
   col = mix(col, vec3(0.085, 0.075, 0.06) * mix(0.8, 1.2, n3), mud);
   rough = mix(rough, 0.25, mud);
   // dunes and beach sand
   float sand = smoothstep(-180.0, -110.0, ds);
-  vec3 dry = mix(vec3(0.55, 0.47, 0.36), vec3(0.62, 0.55, 0.43), n1);
+  vec3 dry = mix(vec3(0.46, 0.40, 0.31), vec3(0.54, 0.47, 0.37), n1);
   col = mix(col, dry, sand * (1.0 - smoothstep(0.0, 0.5, -vH - 0.4) * step(-30.0, ds)));
   float wet = smoothstep(-25.0, 5.0, ds);
   col = mix(col, vec3(0.30, 0.26, 0.20), wet);
@@ -219,12 +223,12 @@ float gRough = 0.9;`)
   float apron = 1.0 - smoothstep(120.0, 135.0, r + 6.0 * n2);
   vec2 cell = fract(p / 6.0);
   float joint = (1.0 - smoothstep(0.0, 0.012, min(min(cell.x, 1.0 - cell.x), min(cell.y, 1.0 - cell.y))));
-  vec3 conc = vec3(0.42, 0.41, 0.39) * mix(0.85, 1.08, hash12(floor(p / 6.0))) * mix(0.9, 1.05, n3);
+  vec3 conc = vec3(0.34, 0.335, 0.32) * mix(0.88, 1.06, hash12(floor(p / 6.0))) * mix(0.94, 1.03, n3);
   conc *= 1.0 - 0.45 * joint;
   float oil = smoothstep(0.7, 0.85, vnoise2(p * 0.08 + 17.0)) * 0.5;
   conc *= 1.0 - oil * 0.6;
   float gravel = smoothstep(115.0, 140.0, r) * (1.0 - smoothstep(150.0, 200.0, r + 15.0 * n2));
-  vec3 grav = vec3(0.33, 0.31, 0.28) * mix(0.7, 1.2, hash12(floor(p * 7.0)));
+  vec3 grav = vec3(0.26, 0.245, 0.225) * mix(0.85, 1.1, mix(0.5, vnoise2(p * 3.0), aa2)) * mix(0.9, 1.05, n2);
   col = mix(col, grav, gravel);
   col = mix(col, conc, apron);
   rough = mix(rough, 0.82, apron + gravel);
@@ -244,7 +248,8 @@ float gRough = 0.9;`)
   }
   diffuseColor.rgb = col;
   gRough = rough;
-  gTerrainNormalPerturb = vec3(vnoise2(p * 2.3) - 0.5, 0.0, vnoise2(p * 2.3 + 11.0) - 0.5) * (0.35 - 0.3 * apron) + vec3(vnoise2(p * 11.0) - 0.5, 0.0, vnoise2(p * 11.0 + 5.0) - 0.5) * 0.25 * (1.0 - wet);
+  gTerrainNormalPerturb = (vec3(vnoise2(p * 2.3) - 0.5, 0.0, vnoise2(p * 2.3 + 11.0) - 0.5) * (0.35 - 0.3 * apron) * aa1
+    + vec3(vnoise2(p * 11.0) - 0.5, 0.0, vnoise2(p * 11.0 + 5.0) - 0.5) * 0.25 * (1.0 - wet) * aa2);
 }`)
         .replace('#include <roughnessmap_fragment>', `float roughnessFactor = gRough;`)
         .replace('#include <normal_fragment_maps>', `#include <normal_fragment_maps>

@@ -105,7 +105,7 @@ export class Engine {
   private dynamicScale = 1;
   width: number;
   height: number;
-  private pixelRatio: number;
+  pixelRatio: number;
   onAfterUpdate: ((ctx: FrameContext) => void) | null = null;
   /** Overrides the shot camera (shots harness / free-fly). */
   cameraOverride: ((ctx: FrameContext) => CameraPose) | null = null;

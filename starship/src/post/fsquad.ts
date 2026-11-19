@@ -21,12 +21,12 @@ void main() {
   }
 
   /** Render `material` over the whole target (null = canvas). */
-  render(renderer: THREE.WebGLRenderer, material: THREE.Material, target: THREE.WebGLRenderTarget | null): void {
+  render(renderer: THREE.WebGLRenderer, material: THREE.Material, target: THREE.WebGLRenderTarget | null, layer = 0): void {
     this.mesh.material = material;
     const prev = renderer.getRenderTarget();
     const prevAuto = renderer.autoClear;
     renderer.autoClear = false;
-    renderer.setRenderTarget(target);
+    renderer.setRenderTarget(target, layer);
     renderer.render(this.scene, this.camera);
     renderer.autoClear = prevAuto;
     renderer.setRenderTarget(prev);

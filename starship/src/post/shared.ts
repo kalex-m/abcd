@@ -18,7 +18,7 @@ export const SHARED = {
   uAmbientGround: { value: new THREE.Vector3(0.05, 0.05, 0.05) },
   tSmokeSlices: { value: null as THREE.Texture | null },
   tCloudSlices: { value: null as THREE.Texture | null },
-  uSliceDist: { value: new THREE.Vector4(100, 200, 300, 500) }, // m, camera distances of the T slices
+  uSliceDist: { value: new THREE.Vector3(100, 250, 600) }, // m, camera distances of the T slices
   uPlumeLightPos: { value: [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()] }, // scene coordinates (m)
   uPlumeLightCol: { value: [new THREE.Vector3(), new THREE.Vector3(), new THREE.Vector3()] }, // scene units * m^2
   uCamPosW: { value: new THREE.Vector3() }, // camera position in scene (origin-relative) coordinates
@@ -41,7 +41,7 @@ uniform vec3 uAmbient;
 uniform vec3 uAmbientGround;
 uniform sampler2D tSmokeSlices;
 uniform sampler2D tCloudSlices;
-uniform vec4 uSliceDist;
+uniform vec3 uSliceDist;
 uniform vec3 uPlumeLightPos[3];
 uniform vec3 uPlumeLightCol[3];
 uniform vec3 uCamPosW;
@@ -53,12 +53,12 @@ float linearDepth(float d) { return d >= 0.999999 ? 1e9 : exp2(d * uLogFar) - 1.
 float sceneDepthAt(vec2 screenUv) { return linearDepth(texture2D(tDepth, screenUv).r); }
 
 // Transmittance of smoke and clouds between the camera and view distance dist (piecewise-linear in slices)
+// s.rgb: transmittance at uSliceDist.xyz; s.a holds the low-res depth used by the upsampler
 float sliceT(vec4 s, float dist) {
   if (dist <= uSliceDist.x) return mix(1.0, s.x, dist / uSliceDist.x);
   if (dist <= uSliceDist.y) return mix(s.x, s.y, (dist - uSliceDist.x) / (uSliceDist.y - uSliceDist.x));
   if (dist <= uSliceDist.z) return mix(s.y, s.z, (dist - uSliceDist.y) / (uSliceDist.z - uSliceDist.y));
-  if (dist <= uSliceDist.w) return mix(s.z, s.w, (dist - uSliceDist.z) / (uSliceDist.w - uSliceDist.z));
-  return s.w;
+  return s.z;
 }
 float volumeTransmittance(vec2 screenUv, float dist) {
   return sliceT(texture2D(tSmokeSlices, screenUv), dist) * sliceT(texture2D(tCloudSlices, screenUv), dist);
@@ -74,3 +74,30 @@ vec3 plumeLightAt(vec3 pScene, float softR) {
   return c;
 }
 `;
+
+/**
+ * Pure additive blending for emissive FX (rgb += src.rgb, alpha untouched). three's AdditiveBlending
+ * scales by source alpha, which emissive volumes leave at 0.
+ */
+export const ADDITIVE = {
+  transparent: true,
+  depthWrite: false,
+  blending: THREE.CustomBlending,
+  blendEquation: THREE.AddEquation,
+  blendSrc: THREE.OneFactor,
+  blendDst: THREE.OneFactor,
+  blendSrcAlpha: THREE.ZeroFactor,
+  blendDstAlpha: THREE.OneFactor,
+} as const;
+
+/** Premultiplied-alpha "over" blending for lit particles / smoke billboards in the FX layer. */
+export const PREMULT = {
+  transparent: true,
+  depthWrite: false,
+  blending: THREE.CustomBlending,
+  blendEquation: THREE.AddEquation,
+  blendSrc: THREE.OneFactor,
+  blendDst: THREE.OneMinusSrcAlphaFactor,
+  blendSrcAlpha: THREE.OneFactor,
+  blendDstAlpha: THREE.OneMinusSrcAlphaFactor,
+} as const;
