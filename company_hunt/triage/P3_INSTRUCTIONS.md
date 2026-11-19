@@ -29,3 +29,6 @@ Append one row per ticker to `triage/why_cheap_part_<N>.csv` (N = your batch num
 - `sources`: semicolon-separated URLs (EDGAR document URLs, fool.com transcript URLs, news URLs used as leads).
 Quote fields that contain commas. Also write `triage/why_cheap_part_<N>.md` with one short paragraph per company (your reading, plain language, ending on the verdict) so later phases can see your reasoning.
 When finished, reply in 3-6 lines: counts per class and which names advance.
+
+## Resumability (mandatory)
+The container can restart and kill you mid-run. Write each company's CSV row (and its .md paragraph) to disk as soon as that company is finished, appending; do not hold results in memory until the end. On start, if your output CSV already exists, read it and skip tickers already present.
