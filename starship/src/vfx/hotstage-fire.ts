@@ -205,8 +205,8 @@ bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out
   vec3 vb = (vehPos(0, tb + 0.1) - vehPos(0, tb)) * 10.0;
   pos = c + dir * (4.6 + (40.0 + 30.0 * r1.w) * (1.0 - exp(-a / 0.35)) * 0.35) + vb * a;
   vel = dir * 30.0 * exp(-a / 0.3);
-  size = 0.6 + a * 6.0;
-  col = vec4(litColor(vec3(0.95, 0.97, 1.0), pos, 0.7), 0.45 * (1.0 - a / 1.6));
+  size = 0.4 + a * 2.6;
+  col = vec4(litColor(vec3(0.95, 0.97, 1.0), pos, 0.7), 0.16 * (1.0 - a / 1.6));
   emis = 0.0;
   return true;
 }`,

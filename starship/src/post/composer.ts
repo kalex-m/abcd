@@ -179,9 +179,10 @@ void main() {
     // clamp very bright / dark outliers relative to the current adaptation (approximates a histogram
     // with low/high percentile rejection) so the sun or the plume core cannot crush the exposure
     float prevEv = texture2D(tPrev, vec2(0.5)).r - 3.0;
-    float lo = uInstant > 0.5 ? -14.0 : prevEv - 7.0;
+    float lo = uInstant > 0.5 ? -9.0 : prevEv - 4.5;
     float hi = uInstant > 0.5 ? 6.0 : prevEv + 3.5;
-    lsum += clamp(log2(max(l, 1e-6)), lo, hi);
+    // instant (cut) metering ignores near-black pixels entirely (space backgrounds)
+    lsum += clamp(log2(max(l, 1e-6)), max(lo, uInstant > 0.5 ? log2(0.002) : lo), hi);
   }
   vec2 cc = vUv - 0.5;
   float wgt = mix(0.35, 1.0, exp(-dot(cc, cc) * 6.0));

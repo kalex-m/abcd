@@ -59,12 +59,13 @@ vec3 plumeDensity(vec3 q, float time) {
   float diam = 1.0 + 0.6 * uDiamonds * cos(6.2831853 * x / uDiamondL) * exp(-x / uDiamondDecay);
   float chug = eng.g;
   float spark = eng.b;
-  float core = jetCore * diam * (1.0 + 0.25 * turb) * uCore * mix(1.0, 0.35, uVacuum);
+  // jets dilute as their footprint spreads (strongly in vacuum, barely at sea level)
+  float core = jetCore * diam * (1.0 + 0.25 * turb) * uCore * pow(spread, -(0.3 + 2.0 * uVacuum));
   float dil = pow(clamp((uRadius0 + 0.55) / R, 0.0, 1.0), 1.6); // emission per volume ~ 1/area
   float body = column * decay * (0.55 + 0.45 * turb) * (0.4 + 0.6 * uCore) * dil;
   // ignition chugs: short, puffy, orange, unstable
   float puff = chug * exp(-x / 6.0) * (0.6 + 0.8 * abs(turb));
-  float e = core * 2.6 + body * (0.6 + 0.4 * (1.0 - uVacuum)) + puff * 1.6 + spark * exp(-x * 2.0) * 6.0;
+  float e = core * 2.6 + body * (0.6 + 0.4 * (1.0 - uVacuum)) * mix(1.0, 0.35, uVacuum) + puff * 1.6 + spark * exp(-x * 2.0) * 6.0;
   e *= mix(1.0, 0.25, uVacuum * smoothstep(0.0, 1.0, x / uLength));
   // temperature: core mix (1) to edge (0)
   float tmix = clamp(core * 1.4 + exp(-rn * rn * 6.0) * decay * 0.6 - puff * 0.6, 0.0, 1.0);

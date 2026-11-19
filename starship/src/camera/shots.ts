@@ -267,7 +267,7 @@ export class ShotList {
           const tgt = ring.clone().addScaledVector(ax, lerp(-6, 1.5, push) + 22 * pull);
           const focal = lerp(lerp(70, 35, push), 30, pull);
           return pose({
-            position: pos, target: tgt, focal, fStop: 5.6, focusDistance: pos.distanceTo(ring), evComp: -0.6,
+            position: pos, target: tgt, focal, fStop: 5.6, focusDistance: pos.distanceTo(ring), evComp: -2.0,
             shake: { gain: 0.35 + 1.5 * Math.exp(-Math.max(0, m - ev.hotStage) * 1.5) * (m > ev.hotStage ? 1 : 0), handheld: true, close: 0.5, thrustNorm: 0.4, distance: 60, impulses: [m - ev.hotStage, m - ev.sep] },
             shakeTime: l + 700, shadowFocus: ring, shadowExtent: 120, envProbe: ring, flashGain: 0.35, up: ax.clone(), heat: 0.4,
           });
@@ -281,7 +281,7 @@ export class ShotList {
           const pos = c.clone().addScaledVector(SIDE, 125 + 35 * smoothstep(0, 25, l)).add(new THREE.Vector3(0, -40, 0)).addScaledVector(DOWNRANGE, -30);
           const focal = lerp(26, 40, smootherstep(2, 22, l));
           return pose({
-            position: pos, target: c.clone().add(new THREE.Vector3(0, 8, 0)), focal, fStop: 5.6, focusDistance: pos.distanceTo(c), evComp: -0.3,
+            position: pos, target: c.clone().add(new THREE.Vector3(0, 8, 0)), focal, fStop: 5.6, focusDistance: pos.distanceTo(c), evComp: -1.6,
             shake: { gain: 0.3, handheld: true, close: 0.2, thrustNorm: 0.3, distance: 120, impulses: [] }, shakeTime: l + 800,
             shadowFocus: c, shadowExtent: 110, envProbe: c, heat: 0.3,
           });
@@ -299,7 +299,7 @@ export class ShotList {
           const pos = sp.clone().addScaledVector(SIDE, back).addScaledVector(v, back * 0.25).addScaledVector(upL, back * 0.18);
           const tgt = sp.clone().addScaledVector(v, -back * 0.18).addScaledVector(upL, -back * 0.12);
           return pose({
-            position: pos, target: tgt, focal: 35, fStop: 8, focusDistance: back, evComp: -0.2, up: upL,
+            position: pos, target: tgt, focal: 35, fStop: 8, focusDistance: back, evComp: -1.4, up: upL,
             shake: { gain: 0.15, handheld: true, close: 0, thrustNorm: 0, distance: 1000, impulses: [] }, shakeTime: l + 900,
             shadowFocus: sp, shadowExtent: 80, envProbe: sp, dof: false, heat: 0,
           });
