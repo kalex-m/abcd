@@ -7,7 +7,7 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   {
     languageOptions: {
-      globals: { window: 'readonly', document: 'readonly', console: 'readonly', process: 'readonly' },
+      globals: { window: 'readonly', document: 'readonly', console: 'readonly', process: 'readonly', Buffer: 'readonly', performance: 'readonly', setTimeout: 'readonly' },
     },
     rules: {
       '@typescript-eslint/no-explicit-any': 'warn',

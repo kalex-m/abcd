@@ -53,6 +53,9 @@ async function boot(): Promise<void> {
     throw e;
   }
   overlay.progress(1, 'ready');
+  engine.safeFlashes = params.has('safe-flashes') || params.get('safeFlashes') === '1';
+  engine.reduceMotion = params.has('reduce-motion');
+  reportGpuMemory(engine);
   overlay.hide();
   const startShot = Number(params.get('shot') ?? 0);
   if (startShot > 0) engine.clock.seek(engine.shots.startOf(startShot - 1));
@@ -86,6 +89,23 @@ async function boot(): Promise<void> {
     requestAnimationFrame(loop);
   };
   requestAnimationFrame(loop);
+}
+
+/** Estimated GPU memory per category (render targets, textures, geometry), logged once at boot. */
+function reportGpuMemory(engine: Engine): void {
+  const [w, h] = engine.internalSize;
+  const p = engine.preset;
+  const mb = (b: number) => (b / 1048576).toFixed(1);
+  const rt = w * h * (8 * Math.max(1, p.msaa) + 4 + 8 * 5 + 4) + (w >> 1) * (h >> 1) * 8 * 2;
+  const vol = Math.floor(w * p.volumetricScale) * Math.floor(h * p.volumetricScale) * 16 * 2 + p.smokeGrid[0] * p.smokeGrid[1] * p.smokeGrid[2] * 8 + 64 ** 3 * 4;
+  const shadows = p.shadowMapSize ** 2 * 4;
+  const hull = p.hullTexSize * (p.hullTexSize / 2) * 4 * 3 * 2 * 1.33;
+  let geo = 0;
+  engine.scene.traverse((o) => {
+    const g = (o as THREE.Mesh).geometry as THREE.BufferGeometry | undefined;
+    if (g) for (const a of Object.values(g.attributes)) geo += (a as THREE.BufferAttribute).array.byteLength;
+  });
+  console.info(`[gpu memory] render targets ${mb(rt)} MB | volumetrics ${mb(vol)} MB | shadow map ${mb(shadows)} MB | hull maps ${mb(hull)} MB | scene geometry ${mb(geo)} MB | total ~${mb(rt + vol + shadows + hull + geo)} MB (${engine.presetName})`);
 }
 
 function CONFIG_PRESET_PR(p: PresetName): number {

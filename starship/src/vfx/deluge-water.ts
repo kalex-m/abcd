@@ -44,7 +44,7 @@ bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out
   vec3 v0 = vec3(cos(ang) * (4.0 + 10.0 * r1.x), 3.0 + 9.0 * r1.y, sin(ang) * (4.0 + 10.0 * r1.x));
   pos = dragMotion(p0, v0, a, 2.5, windAt(8.0), 0.4);
   vel = vec3(0.0);
-  size = 1.5 + 2.5 * r1.z + a * 0.9;
+  size = 1.0 + 1.5 * r1.z + a * 0.6;
   vec3 c = litColor(vec3(0.9, 0.92, 0.95), pos, 0.8);
   col = vec4(c, 0.03 * (1.0 - a / L) * smoothstep(0.0, 0.5, a));
   emis = 0.0;

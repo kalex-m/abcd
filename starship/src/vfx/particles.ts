@@ -163,10 +163,10 @@ vec3 litColor(vec3 albedo, vec3 posW, float forward) {
   float c = dot(V, uSunDirW);
   float g = 0.55 * forward;
   float ph = (1.0 - g * g) / pow(max(1.0 + g * g - 2.0 * g * c, 1e-3), 1.5) * 0.25;
-  vec3 sun = uSunColor * (0.35 + ph) * step(-0.05, uSunDirW.y);
-  vec3 amb = uAmbient * 3.0;
-  vec3 fire = plumeLightAt(pS, 8.0) * 0.15;
-  return albedo * (sun * 0.6 + amb + fire);
+  vec3 sun = uSunColor * (0.3 + min(ph, 1.2)) * step(-0.05, uSunDirW.y);
+  vec3 amb = uAmbient * 7.0 + uSunColor * 0.06;
+  vec3 fire = plumeLightAt(pS, 8.0) * 0.12;
+  return albedo * (sun * 0.45 + amb + fire);
 }
 `;
 

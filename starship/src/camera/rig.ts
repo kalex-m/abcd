@@ -36,8 +36,12 @@ export class CameraRig {
     cam.fov = CameraRig.fovFor(this.focal * breathing);
     cam.near = pose.near ?? CONFIG.camera.near;
     cam.updateProjectionMatrix();
-    if (pose.jitter) cam.projectionMatrix.elements[8] += pose.jitter[0], cam.projectionMatrix.elements[9] += pose.jitter[1];
-    if (pose.jitter) cam.projectionMatrixInverse.copy(cam.projectionMatrix).invert();
+    if (pose.jitter) {
+      // sub-pixel jitter for record-mode accumulation (anti-aliasing)
+      cam.projectionMatrix.elements[8] += pose.jitter[0];
+      cam.projectionMatrix.elements[9] += pose.jitter[1];
+      cam.projectionMatrixInverse.copy(cam.projectionMatrix).invert();
+    }
     // wide lenses barrel, long lenses slight pincushion
     this.distortion = this.focal < 35 ? (35 - this.focal) / 35 * 0.09 : -Math.min(0.02, (this.focal - 35) / 2000);
     const shutterS = (CONFIG.camera.shutterAngle / 360) / CONFIG.camera.fps;

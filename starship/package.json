@@ -11,6 +11,8 @@
     "typecheck": "tsc --noEmit",
     "physics-check": "tsx scripts/physics-check.ts",
     "test": "node --import tsx --test tests/*.test.ts",
+    "test:gpu": "node scripts/determinism.mjs && node scripts/live-check.mjs && node scripts/memory-loop.mjs",
+    "audio-check": "node scripts/audio-check.mjs",
     "shots": "node scripts/shots.mjs",
     "record": "node scripts/record.mjs",
     "lint": "eslint src scripts tests",

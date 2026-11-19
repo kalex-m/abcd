@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { CONFIG } from '../config';
 import type { FrameContext, System } from '../engine';
 import { generateHullMaps } from './procedural-tex';
@@ -79,7 +80,6 @@ export class Ship implements System {
       const a = (i / 160) * Math.PI * 2;
       bolts.push(bolt.clone().rotateY(-a).translate(Math.cos(a) * (R + 0.015), CONFIG.vehicle.shipAftSkirtHeight, Math.sin(a) * (R + 0.015)));
     }
-    const { mergeGeometries } = await import('three/examples/jsm/utils/BufferGeometryUtils.js');
     add(new THREE.Mesh(mergeGeometries(bolts), galvanised()), false);
     // heat shield and flaps
     this.shield = new HeatShield(L);

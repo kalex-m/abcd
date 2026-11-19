@@ -19,7 +19,7 @@ export function ventEmitters(budget: number, ports: THREE.Vector3[], tankVents: 
     glsl: /* glsl */ `
 const vec3 PORTS[${portW.length}] = vec3[${portW.length}](${P});
 bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out vec4 col, out vec3 vel, out float emis) {
-  float L = 9.0 + 5.0 * r0.y;
+  float L = 4.5 + 2.5 * r0.y;
   float a = mod(T + r0.x * L, L);
   int k = int(mod(id, ${portW.length.toFixed(1)}));
   vec3 port = PORTS[k];
@@ -27,17 +27,17 @@ bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out
   if (r1.w > 0.6) port += vec3(0.0, ${CONFIG.vehicle.boosterHeight.toFixed(1)} + 8.0 * r1.z - port.y + 72.0 + 24.0 * step(0.8, r1.w), 0.0);
   vec3 outward = normalize(vec3(port.x, 0.0, port.z) + 1e-3);
   vec3 v0 = outward * (2.5 + 3.5 * r1.x) + vec3((r1.y - 0.5) * 1.5, -0.5, 0.0);
-  vec3 p = dragMotion(port + outward * 0.3, v0, a, 1.6, windAt(port.y + 20.0) * 0.6, 3.2);
+  vec3 p = dragMotion(port + outward * 0.3, v0, a, 1.6, windAt(port.y + 20.0) * 0.25, 3.2);
   // cold vapour hugs the hull: pull back towards the cylinder while sinking
   vec2 rad = p.xz;
   float rr = length(rad);
-  float hug = smoothstep(0.0, 3.0, a) * 0.6;
+  float hug = smoothstep(0.0, 2.0, a) * 0.8;
   p.xz = rad / max(rr, 1e-3) * mix(rr, 4.8 + a * 0.6, hug);
   p.y = max(p.y, GRADE + 1.0);
   pos = p;
   vel = vec3(0.0);
-  size = 0.6 + a * 0.7 + 1.2 * r0.z;
-  col = vec4(litColor(vec3(0.92, 0.94, 0.97), pos, 0.35), 0.06 * smoothstep(0.0, 0.8, a) * (1.0 - a / L));
+  size = 0.4 + a * 0.45 + 0.6 * r0.z;
+  col = vec4(litColor(vec3(0.92, 0.94, 0.97), pos, 0.35), 0.045 * smoothstep(0.0, 0.5, a) * pow(1.0 - a / L, 2.0));
   emis = 0.0;
   return true;
 }`,
@@ -56,7 +56,7 @@ bool emit(float id, vec4 r0, vec4 r1, float T, out vec3 pos, out float size, out
   pos.y = GRADE + 0.5 + 2.5 * r1.x + a * 0.05;
   vel = vec3(0.0);
   size = 6.0 + 10.0 * r1.y + a * 0.4;
-  col = vec4(litColor(vec3(0.85, 0.88, 0.92), pos, 0.6), 0.07 * smoothstep(0.0, 4.0, a) * (1.0 - a / L));
+  col = vec4(litColor(vec3(0.85, 0.88, 0.92), pos, 0.6), 0.035 * smoothstep(0.0, 4.0, a) * (1.0 - a / L));
   emis = 0.0;
   return true;
 }`,

@@ -209,7 +209,7 @@ export class ShotList {
       {
         id: '5', name: 'Tower-top departure', duration: 15, warp: [[0, 3], [15, 14]],
         pose: (l, m, h) => {
-          const pos = TOWER.clone().add(new THREE.Vector3(6.5, 100, 5.5));
+          const pos = TOWER.clone().add(new THREE.Vector3(6.5, 121, 5.5));
           const tgt = h.boosterPoint(m - 0.25, 8).add(new THREE.Vector3(0, -4, 0));
           const white = smoothstep(13.6, 15, l);
           return pose({
