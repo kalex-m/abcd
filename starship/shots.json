@@ -1,0 +1,20 @@
+[
+  { "name": "s01_predawn", "t": -60, "camera": "shot1" },
+  { "name": "s02_tower", "t": -24, "camera": "shot2" },
+  { "name": "s03_tminus10", "t": -10, "camera": "shot3" },
+  { "name": "s03_tminus5", "t": -5, "camera": "shot3" },
+  { "name": "s04_t0", "t": 0.5, "camera": "shot4" },
+  { "name": "s04_t2", "t": 2, "camera": "shot4" },
+  { "name": "s05_t8", "t": 8, "camera": "shot5" },
+  { "name": "s04_t20", "t": 20, "camera": "shot4" },
+  { "name": "s06_t35", "t": 30, "camera": "shot6" },
+  { "name": "s07_t47", "t": 45, "camera": "shot7" },
+  { "name": "s06_t120", "t": 120, "camera": { "pos": [9000, 41000, 3000], "target": "booster", "focal": 50 } },
+  { "name": "s08_t157", "t": 157, "camera": "shot8" },
+  { "name": "s08_t159", "t": 159.2, "camera": "shot8" },
+  { "name": "s09_t170", "t": 170, "camera": "shot9" },
+  { "name": "s09_t210", "t": 195, "camera": "shot9" },
+  { "name": "s10_ship", "t": 330, "camera": "shot10" },
+  { "name": "s11_landing", "t": 438, "camera": "shot11" },
+  { "name": "s11_catch", "t": 447, "camera": "shot11B" }
+]
