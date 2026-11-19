@@ -1,0 +1,74 @@
+{
+ "ticker": "MOG-A",
+ "cik": 67887,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-06-27",
+   7100000000,
+   "10-Q",
+   "2026-07-31",
+   "0001628280-26-051294"
+  ],
+  "prior": [
+   null,
+   "2025-06-28",
+   5510000000,
+   "10-Q",
+   "2025-07-25",
+   "0000067887-25-000051"
+  ],
+  "growth": 0.28856624319419244
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-03-29",
+   "2026-06-27",
+   1116545000,
+   "10-Q",
+   "2026-07-31",
+   "0001628280-26-051294"
+  ],
+  "prior": [
+   "2025-03-30",
+   "2025-06-28",
+   969582000,
+   "10-Q",
+   "2026-07-31",
+   "0001628280-26-051294"
+  ],
+  "growth": 0.15157356469076366
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-03-29",
+   "2026-06-27",
+   176270000,
+   "10-Q",
+   "2026-07-31",
+   "0001628280-26-051294"
+  ],
+  "prior": [
+   "2025-03-30",
+   "2025-06-28",
+   111911000,
+   "10-Q",
+   "2026-07-31",
+   "0001628280-26-051294"
+  ],
+  "growth": 0.5750909204635826
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-07-31",
+  "period": "2026-06-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/67887/000162828026051294/mog-20260627.htm"
+ },
+ "backlog_hits": [
+  "erial, direct labor, other direct costs and indirect overhead costs. Contract profit is recorded as a result of the revenue recognized less costs incurred in any reporting period. Variable consideration and contract modifications, such as performance incentives, penalties, contract claims or change orders are considered in estimating revenues, costs and profits when they can be reliably estimated and realization is considered probable. Revenue recognized on contracts for unresolved claims or unapproved contract change orders was not material for the three and nine months ended June 27, 2026 and June 28, 2025.   As of June 27, 2026, we had contract reserves of $ 84,173 . For contracts with anticipa",
+  "ects the impact of an increase in contract advances that exceeds the additional unbilled revenues during the period. For the three and nine months ended June 27, 2026, we recognized $ 48,791 and $ 262,691 of revenue that was included in the contract liability balance at the beginning of the year.   Remaining Performance Obligations   As of June 27, 2026, the aggregate amount of the transaction price allocated to the performance obligations that are unsatisfied (or partially unsatisfied) was $ 7,100,000 . We expect to recognize approximately 46 % of that amount as sales over the next twelve months and the balance thereafter.   Note 3 - Acquisitions and Assets Held for Sale   Acquisitions   On July 1, 2025, we acquired COTSW",
+  "(8) |   Effective tax rate | (10.6) | % | 23.4 | % | 10.0 | % | 23.4 | % |   Net earnings | $ | 152 | $ | 58 | $ | 94 | 160 | % | $ | 313 | $ | 171 | $ | 142 | 83 | % |   Diluted earnings per share | $ | 4.74 | $ | 1.83 | $ | 2.91 | 159 | % | $ | 9.76 | $ | 5.32 | $ | 4.44 | 83 | % |   Twelve-month backlog | $ | 3,250 | $ | 2,650 | $ | 600 | 23 | % |   Net sales increased across all our segments in the third quarter and in the first three quarters of 2026 compared to the third quarter and the first three quarters of 2025.   Gross margin increased in the third quarter and first three quarters of 2026 compared to the third quarter and first three quarters of 2025, driven by IEEPA tariff refund claims"
+ ]
+}

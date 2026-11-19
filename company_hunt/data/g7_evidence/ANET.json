@@ -1,0 +1,77 @@
+{
+ "ticker": "ANET",
+ "cik": 1596532,
+ "rpo": {
+  "latest": [
+   null,
+   "2022-12-31",
+   1300000000,
+   "10-K",
+   "2023-02-14",
+   "0001596532-23-000016"
+  ],
+  "prior": [
+   null,
+   "2021-12-31",
+   1209700000,
+   "10-K",
+   "2022-02-15",
+   "0001596532-22-000026"
+  ],
+  "growth": 0.07464660659667688
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3657600000,
+   "10-Q",
+   "2026-11-04",
+   "0001596532-26-000254"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2308300000,
+   "10-Q",
+   "2026-11-04",
+   "0001596532-26-000254"
+  ],
+  "growth": 0.5845427370792358
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1642400000,
+   "10-Q",
+   "2026-11-04",
+   "0001596532-26-000254"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   978200000,
+   "10-Q",
+   "2026-11-04",
+   "0001596532-26-000254"
+  ],
+  "growth": 0.6790022490288286
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000254/anet-20260930.htm"
+ },
+ "backlog_hits": [
+  "ance obligations totaling $ 1.4 billion as of September 30, 2026 include unbilled multi-year PCS and service contract amounts of $ 497.1 million, and $ 943.5 million of binding contractual agreements with certain customers that are primarily related to future product shipments.   Revenue from Total Remaining Performance Obligations   Total revenue from our deferred revenue, contract liabilities and other performance obligations that is expected to be recognized in future periods amounts to $ 8.6 billion as of September 30, 2026. Approximately 91 % of this future revenue is expected to be recognized over the next two years and the remaining 9 % is expected to be recognized during the third to the fifth year.   Other Income ",
+  " $ | 513.0 | $ | 289.1 |   4. Commitments and Contingencies   Purchase Commitments   We outsource most of our manufacturing and supply chain management operations to third-party contract manufacturers, who procure components and assemble products on our behalf. A significant portion of our purchase orders for finished goods and strategic components, including integrated circuits consigned to contract manufacturers, consists of non-cancellable commitments. As of September 30, 2026, we had non-cancellable purchase commitments not recorded on our balance sheet of $ 11.4 billion, of which $ 9.3 billion have expected receipt dates within 12 months, and $ 2.1 billion have expected receipt dates greater ",
+  "hree years. Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively. We have experienced unpredictability in the timing of orders from our high-volume customers, primarily due to the inherent complexity of large-scale orders and fluctuations in their specific demand. This includes reductions or shifts in their capital expenditure budgets, as well as the impact of their internal cost-reduction and efficiency initiatives. Furthermore, variability in customer concentration is driven by the timing of new product deployments, cu",
+  "ily derived from sales of PCS, which are typically purchased in conjunction with our products, and subsequent renewals of those contracts. Our revenue may vary from period to period based on, among other things, customer demand, industry and customer cyclicality, the timing, size, and complexity of orders, especially with respect to our large customers, and the time it takes for customers to evaluate, test, qualify and accept our products and services.   Product revenue increased by $1,278.3 million, or 66.9%, and $2,625.3 million, or 47.9% for the three and nine months ended September 30, 2026, compared to the same periods in 2025. This increase reflects healthy customer demand of our switching a",
+  "ts include the following contractual and other obligations:   Purchase Obligations   We outsource most of our manufacturing and supply chain management operations to third-party contract manufacturers, who procure components and assemble products on our behalf. A significant portion of our purchase orders for finished goods and strategic components, including integrated circuits consigned to contract manufacturers, consists of non-cancellable commitments. As of September 30, 2026, we had $11.4 billion of such purchase obligations, of which $9.3 billion are expected to be received within one year, and $2.1 billion are expected to be received after one year. Purchase commitments with our contract ma",
+  "r example, sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively. We have experienced unpredictability in t he timing of orders from our high-volume customers primarily due to the overall complexity of large-scale orders and changes in demand specific to these customers, including reductions in or changes in the mix of capital expenditures by these customers and the impact of cost reduction and other efficiency efforts by these customers. Volatility and uncertainty in the demand for AI models underlying network systems co"
+ ]
+}

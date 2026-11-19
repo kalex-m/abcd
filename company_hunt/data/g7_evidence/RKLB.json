@@ -1,0 +1,78 @@
+{
+ "ticker": "RKLB",
+ "cik": 1819994,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   3572965000,
+   "10-Q",
+   "2026-11-09",
+   "0001819994-26-000074"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   1095977000,
+   "10-Q",
+   "2025-11-10",
+   "0001819994-25-000021"
+  ],
+  "growth": 2.2600729759839853
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   267834000,
+   "10-Q",
+   "2026-11-09",
+   "0001819994-26-000074"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   155080000,
+   "10-Q",
+   "2026-11-09",
+   "0001819994-26-000074"
+  ],
+  "growth": 0.7270698994067577
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   -79189000,
+   "10-Q",
+   "2026-11-09",
+   "0001819994-26-000074"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   -58969000,
+   "10-Q",
+   "2026-11-09",
+   "0001819994-26-000074"
+  ],
+  "growth": 0.34289202801471963
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-09",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm"
+ },
+ "backlog_hits": [
+  " determine with certainty the net amount, if any, of actual liquidated damages that could ultimately be incurred.   Backlog   The Company\u2019s backlog represents the estimated transaction prices on performance obligations to the Company\u2019s customers for which work remains to be performed. The amount of backlog increases with new contracts or additions to existing contracts and decreases as revenue is recognized on existing contracts. Contracts are included in the amount of backlog when an enforceable agreement has been reached. Remaining backlog totaled $ 3,572,965 as of September 30, 2026, of which approximately 33 % is expected to be recognized within 12 months, with the remaining 67 % to be recogniz",
+  "ll | 28,975 |   Total purchase price | $ | 44,539 |   The following is a summary of preliminary identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:   Type | Estimated Life in Years | Fair Value |   Developed technology | 17 | $ | 13,300 |   Backlog | 1.5 | 700 |   Total identifiable intangible assets acquired | $ | 14,000 |   Goodwill of $ 28,975 was recorded for the Motiv acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized primar",
+  "preliminary identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:   Type | Estimated Life in Years | Fair Value |   Developed technology | 11 | $ | 51,996 |   Customer relationships | 12 | 32,439 |   Trademarks and tradenames | 18 | 7,495 |   Backlog | 1 | 7,143 |   Total identifiable intangible assets acquired | $ | 99,073 |   Goodwill of $ 60,740 was recorded for the Mynaric acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized prim",
+  " and projected financial information.   17   Table of Contents   The following is a summary of identifiable intangible assets acquired and the related expected lives for the finite-lived intangible assets:   Type | Estimated Life in Years | Fair Value |   Developed technology | 10 | $ | 172,300 |   Backlog | 5 | 11,000 |   Total identifiable intangible assets acquired | $ | 183,300 |   Goodwill of $ 138,644 was recorded for the GEOST acquisition, representing the excess of the purchase price over the fair value of the identifiable net assets. The goodwill has been allocated to the space systems operating segment, reflecting the strategic operations of this operating segment. Goodwill recognized pri",
+  "et Carrying Amount |   Finite-Lived Intangible Assets |   Developed technology | $ | 295,845 | $ | ( 58,165 ) | $ | 237,680 |   Capitalized software | 14,582 | ( 11,876 ) | 2,706 |   Customer relationships | 48,424 | ( 8,039 ) | 40,385 |   Trademarks and tradenames | 17,561 | ( 4,282 ) | 13,279 |   Backlog | 22,113 | ( 9,653 ) | 12,460 |   Other | 1,528 | ( 689 ) | 839 |   Indefinite-Lived Intangible Assets |   In-process technology | 500 | \u2014 | 500 |   Total | $ | 400,553 | $ | ( 92,704 ) | $ | 307,849 |   December 31, 2025 |   Gross Carrying Amount | Accumulated Amortization | Net Carrying Amount |   Finite-Lived Intangible Assets |   Developed technology | $ | 230,165 | $ | ( 37,238 ) | $ | 192,9",
+  " September 30, 2026 and 2025 was $4.9 million and $5.5 million, respectively. The increase in revenue per launch reflects changes in customer mix and mission complexity during the period in which the launches occurred. The decrease in cost per launch was primarily driven by efficiencies of scale.   Backlog   Backlog represents future revenues that we would recognize in connection with the completion of all contracts and purchase orders that have been entered into by our customers but have not yet been fulfilled, excluding any customer options for future products or services that have not yet been exercised. Contracts for launch services and spacecraft builds typically include termination rights tha",
+  "fied termination fee. Backlog increased from $1,847.3 million as of December 31, 2025 to $3,573.0 million as of September 30, 2026, of which $1,724.7 million is related to space systems and $1,848.3 million is related to launch services. The increase was primarily a result of continued bookings and backlog added through acquisitions, partially offset by revenue recognized on contracts during the period.   37   Table of Contents   Components of Results of Operations   Revenue   Our revenues are derived from a combination of long-term fixed price contracts for launch services and spacecraft builds, and purchase order based spacecraft components sales. Revenues from long-term contracts are recognized "
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "ticker": "CACI",
+ "cik": 16058,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   14300000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066827"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   13100000000,
+   "10-Q",
+   "2025-10-23",
+   "0000016058-25-000087"
+  ],
+  "growth": 0.09160305343511443
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2474597000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066827"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2287623000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066827"
+  ],
+  "growth": 0.08173287294278819
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   247528000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066827"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   212275000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066827"
+  ],
+  "growth": 0.16607231185961613
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-22",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/16058/000162828026066827/caci-20260930.htm"
+ },
+ "backlog_hits": [
+  " 2025. The change in revenues generally relates to final true-up adjustments for estimated award or incentive fees in the period in which the customers\u2019 final performance score was received or when it can be determined that more objective, contractually-defined criteria have been fully satisfied.   Remaining Performance Obligations   As of September 30, 2026, the Company had $ 14.3 billion of remaining performance obligations and expects to recognize approximately 43 % and 62 % as revenue over the next 12 and 24 months, respectively, with the remainder to be recognized thereafter.   Contract Balances   Contract balances consist of the following (in thousands):   Description of contract related balance | Financial statement",
+  "25.2% and 24.9% for the three months ended September 30, 2026 and 2025, respectively. The effective tax rates for the three months ended September 30, 2026 and 2025 differ from the statutory rate of 21.0% primarily due to state income taxes offset by research and development tax credits.   Contract Backlog   The Company\u2019s backlog represents the value on existing contracts that has the potential to be recognized as revenues as work is performed. The Company includes unexercised option years in its backlog and excludes the value of task orders that may be awarded under multiple award indefinite delivery/indefinite quantity vehicles until such task orders are issued.   The Company\u2019s backlog as of the ",
+  "eviously recognized on these contracts.   \u2022 Unfunded backlog represents estimated values that have the potential to be recognized as revenue from executed contracts for which funding has not been appropriated and unexercised priced contract options.   As of September 30, 2026, the Company had total backlog of $34.0 billion, compared to $33.9 billion a year ago, an increase of 0.3%. Funded backlog as of September 30, 2026 was $6.2 billion. The total backlog consists of remaining performance obligations plus unexercised options. See \u201cNote 5 \u2013 Revenues\u201d in the Notes to the Financial Statements of this Quarterly Report on Form 10-Q for additional information.   There is no assurance that all funded or "
+ ]
+}

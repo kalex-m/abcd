@@ -1,0 +1,80 @@
+{
+ "ticker": "DRS",
+ "cik": 1833756,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   9381000000,
+   "10-Q",
+   "2026-10-29",
+   "0001833756-26-000044"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   8909000000,
+   "10-Q",
+   "2025-10-29",
+   "0001833756-25-000010"
+  ],
+  "growth": 0.052980132450331174
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1066000000,
+   "10-Q",
+   "2026-10-29",
+   "0001833756-26-000044"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   960000000,
+   "10-Q",
+   "2026-10-29",
+   "0001833756-26-000044"
+  ],
+  "growth": 0.11041666666666661
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   116000000,
+   "10-Q",
+   "2026-10-29",
+   "0001833756-26-000044"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   93000000,
+   "10-Q",
+   "2026-10-29",
+   "0001833756-26-000044"
+  ],
+  "growth": 0.24731182795698925
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1833756/000183375626000044/drs-20260930.htm"
+ },
+ "backlog_hits": [
+  "  Contract assets | $ | 1,083 | $ | 931 |   Contract liabilities | 594 | 585 |   Revenue recognized in the nine months ended September 30, 2026 and 2025, that was included in the contract liability balance at the beginning of each period was $ 411 million and $ 270 million, respectively.   Value of Remaining Performance Obligations   As of September 30, 2026, the total value of our remaining performance obligations was $ 9,381 million. We expect to recognize approximately 40 % of our September 30, 2026 remaining performance obligations as revenue over the next twelve months , with the remainder to be recognized thereafter. Approximately 40 % of our remaining performance obligations relates to long-term contracts on electri",
+  " Earnings before taxes | $ | 116 | $ | 87 | $ | 29 | 33.3 | % |   Income tax provision | (1) | (15) | 14 | (93.3) | % |   Net earnings | $ | 115 | $ | 72 | $ | 43 | 59.7 | % |   Basic EPS   | $ | 0.43 | $ | 0.27 | $ | 0.16 | 59.3 | % |   Diluted EPS   | $ | 0.43 | $ | 0.26 | $ | 0.17 | 65.4 | % |   Backlog | $ | 9,381 | $ | 8,669 | $ | 712 | 8.2 | % |   Bookings | $ | 1,639 | $ | 1,307 | $ | 332 | 25.4 | % |   Nine Months Ended September 30, | Change |   (Dollars in millions, except per share amounts) | 2026 | 2025 | $ | % |   Total revenues | $ | 2,825 | $ | 2,588 | $ | 237 | 9.2 | % |   Total cost of revenues | (2,113) | (1,988) | (125) | 6.3 | % |   Gross profit | $ | 712 | $ | 600 | $ | 112 | 1",
+  "arnings before taxes | $ | 293 | $ | 212 | $ | 81 | 38.2 | % |   Income tax provision | (30) | (36) | 6 | (16.7) | % |   Net earnings | $ | 263 | $ | 176 | $ | 87 | 49.4 | % |   Basic EPS   | $ | 0.99 | $ | 0.66 | $ | 0.33 | 50.0 | % |   Diluted EPS   | $ | 0.98 | $ | 0.65 | $ | 0.33 | 50.8 | % |   Backlog | $ | 9,381 | $ | 8,669 | $ | 712 | 8.2 | % |   Bookings | $ | 3,609 | $ | 3,151 | $ | 458 | 14.5 | % |   Revenue   Our revenue of $1,066 million for the three months ended September 30, 2026 represents an increase of $106 million, or 11.0%, as compared to the three months ended September 30, 2025. The   25   revenue increase is primarily attributed to the conversion of our funded backlog along w",
+  "lsion and space payload program activities.   Our revenue of $2,825 million for the nine months ended September 30, 2026 represents an increase of $237 million, or 9.2%, as compared to the nine months ended September 30, 2025. The revenue increase is primarily attributed to conversion of our funded backlog along with higher demand across each of our operating segments. This is highlighted by our efforts within advanced sensing, power and propulsion and force protection activities.   See \u201c\u2014Review of Operating Segments\u201d below for more detail.   Cost of Revenues   Cost of revenues increased by $65 million, or 8.8%, to $803 million for the three months ended September 30, 2026, as compared to $738 mill",
+  "hs ended September 30, 2026 and increased by $87 million to $263 million for the nine months ended September 30, 2026, as compared to the same periods in the prior year. This was driven by an increase in earnings before taxes coupled with the changes in our effective tax rate as noted above.   27   Backlog and Bookings   Total backlog includes the following components:   (1) Funded - Funded backlog represents the revenue value of orders for products and services under existing contracts for which funding is appropriated or otherwise authorized less revenue previously recognized on these contracts.   (2) Unfunded - Unfunded backlog represents the revenue value of firm orders for products and service",
+  "funding previously recognized on these contracts.   The following table summarizes the value of our backlog, incorporating both funded and unfunded components:   (Dollars in millions) | September 30, 2026 | September 30, 2025 |   Funded | $ | 5,640 | $ | 4,678 |   Unfunded | 3,741 | 3,991 |   Total backlog | $ | 9,381 | $ | 8,669 |   Backlog increased by $712 million to $9,381 million as of September 30, 2026, from $8,669 million as of September 30, 2025. The backlog increase was driven primarily by the receipt of new awards within our IMS segment which realized bookings in excess of revenue for the period.   We define bookings as the total value of contract awards received from the U.S. government",
+  "ember 30, 2026 increased to $1,639 million, as compared to $1,307 million for the three months ended September 30, 2025. Bookings for the nine months ended September 30, 2026 increased to $3,609 million, as compared to $3,151 million for the nine months ended September 30, 2025. The increase in new orders for the nine months ended September 30, 2026 was driven by bookings within our IMS segment. See \u201c\u2014Review of Operating Segments\u201d below for more detail.   Factors Impacting Our Performance   U.S. Government Spending and Federal Budget Uncertainty   Changes in the volume and relative mix of U.S. and allied government spending as well as areas of spending growth, including due to the evolution of war",
+  " the three months ended September 30, 2026, an increase of 13.6%, or $79 million, from the three months ended September 30, 2025. The revenue increase is attributed to increased demand for our tactical radars, advanced sensing used in space-based   32   applications and the overall execution of our backlog programs coupled with increased customer demand driven by the elevated global threat environment.   The ASC segment reported revenue of $1,805 million for the nine months ended September 30, 2026, an increase of 10.5%, or $172 million, from the nine months ended September 30, 2025. The revenue increase is attributed to our tactical radars, advanced sensing used in space-based applications and the",
+  "o the 6.6% realized during the nine months ended September 30, 2025.   Bookings   For the three months ended September 30, 2026, bookings increased $260 million, or 34.3%, from the three months ended September 30, 2025 to $1,017 million. The increase in new awards is largely attributed to increased orders for our tactical radars and aircraft protection systems. This was offset in part by a reduction in infrared sensing awards realized during the period.   For the nine months ended September 30, 2026, bookings increased $152 million, or 7.7%, from the nine months ended September 30, 2025 to $2,137 million. The increase is driven by demand for our tactical radar programs offset in part by a large mu"
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "ticker": "SEI",
+ "cik": 1697500,
+ "rpo": {
+  "latest": [
+   null,
+   "2019-12-31",
+   0,
+   "10-K",
+   "2020-02-19",
+   "0001697500-20-000006"
+  ],
+  "prior": [
+   null,
+   "2018-12-31",
+   25458000,
+   "10-K",
+   "2020-02-19",
+   "0001697500-20-000006"
+  ],
+  "growth": -1.0
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   341089000,
+   "10-Q",
+   "2026-11-06",
+   "0001628280-26-071604"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   166843000,
+   "10-Q",
+   "2026-11-06",
+   "0001628280-26-071604"
+  ],
+  "growth": 1.0443710554233623
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   66985000,
+   "10-Q",
+   "2026-11-06",
+   "0001628280-26-071604"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   37913000,
+   "10-Q",
+   "2026-11-06",
+   "0001628280-26-071604"
+  ],
+  "growth": 0.7668082188167646
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-06",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1697500/000162828026071604/sei-20260930.htm"
+ },
+ "backlog_hits": [
+  "e of third-party customers across multiple end markets and is expected to continue to serve third-party customers following the Omega Acquisition in addition to performing work on our own power projects. Omega\u2019s work is performed principally under master service agreements and project-specific work orders, predominantly under fixed-price contracts.   The preliminary fair value of the total purchase consideration transferred was $275.2 million, consisting of cash and equity consideration, including 3,599,199 shares of our Class A common stock with an acquisition-date fair value of $178.7 million. See Note 4. \u201cAcquisitions - Business Combinations \u201d in the notes to our condensed consolidated financia",
+  "industrial sector customers.   Since the second quarter of 2026, the company has secured over 300 MW of additional generation capacity. The Company\u2019s power generation capacity is now expected to reach a total of more than 3,500 MW by the end of 2029 based on expected deliveries under our contracted orders. The majority of this capacity is currently committed to customers under commercial agreements that primarily range in tenor from two to fifteen years, with extension options ranging from five to fifteen years. Each of these commercial agreements include distinct product specifications, such as product type, quantity, delivery period, and price, as well as standard terms and conditions with respe",
+  "may meet our cash requirements through the issuance of additional securities and/or the entry into additional debt financing agreements. Even if we are unable to secure the   52   Table of Contents   financing of our planned capital expenditures, we have the ability to cancel the committed purchase orders, subject to the payment of cancellation fees.   2032 Senior Notes   The 2032 Senior Notes were issued on October 1, 2026 and are not reflected in the Company\u2019s condensed consolidated balance sheet or condensed consolidated statements of operations as of or for the three and nine months ended September 30, 2026. The net proceeds of the 2032 Senior Notes were approximately $1.23 billion and will be"
+ ]
+}

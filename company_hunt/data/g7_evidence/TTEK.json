@@ -1,0 +1,76 @@
+{
+ "ticker": "TTEK",
+ "cik": 831641,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-27",
+   4625408000,
+   "10-K",
+   "2026-11-17",
+   "0000831641-26-000024"
+  ],
+  "prior": [
+   null,
+   "2025-09-28",
+   4101127000,
+   "10-K",
+   "2025-11-20",
+   "0000831641-25-000032"
+  ],
+  "growth": 0.12783827469863773
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   1337362000,
+   "10-K",
+   "2026-11-17",
+   "0000831641-26-000024"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   1330100000,
+   "10-K",
+   "2026-11-17",
+   "0000831641-26-000024"
+  ],
+  "growth": 0.005459739869182689
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   188440000,
+   "10-K",
+   "2026-11-17",
+   "0000831641-26-000024"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   181304000,
+   "10-K",
+   "2026-11-17",
+   "0000831641-26-000024"
+  ],
+  "growth": 0.03935930812337296
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-17",
+  "period": "2026-09-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/831641/000083164126000024/ttek-20260927.htm"
+ },
+ "backlog_hits": [
+  "l order: AECOM; Arcadis NV; AtkinsR\u00e9alis; Black & Veatch Corporation; Booz Allen Hamilton; Brown & Caldwell; Carollo Engineers, Inc.; CDM Smith Inc.; Exponent, Inc.; GHD; ICF International, Inc.; Jacobs Solutions, Inc.; Leidos, Inc.; SAIC; Stantec Inc.; Weston Solutions, Inc.; and WSP Global Inc.   Backlog   We include in our backlog only those contracts for which funding has been provided and work authorization has been received. We estimate that approximately 70% of our backlog at the end of fiscal 2026 will be recognized as revenue in fiscal 2027, as work is being performed. However, we cannot guarantee that the revenue projected in our backlog will be realized or, if realized, will result in pr",
+  "ofits. In addition, project cancellations or scope adjustments may occur with respect to contracts reflected in our backlog. For example, certain of our contracts with the U.S. federal government and other clients are terminable at the discretion of the client, with or without cause. These types of backlog reductions could adversely affect our revenue and margins. Accordingly, our backlog as of any particular date is an uncertain indicator of our future earnings.   Our backlog at fiscal 2026 year-end was $4.7 billion. GSG and CIG reported $2.3 billion and $2.4 billion of backlog, respectively, at fiscal 2026 year-end.   Regulations   We engage in various service activities that are subject to gover",
+  "s and procedures to monitor legal and regulatory compliance, our employees, subcontractors and agents could take actions that violate these requirements. As a result, our international risk exposure may be more or less than the percentage of revenue attributed to our international operations.   Our backlog is subject to cancellation, unexpected adjustments and changing economic conditions and is an uncertain indicator of future operating results.   Our backlog at fiscal 2026 year-end was $4.7 billion. We include in backlog only those contracts for which funding has been provided and work authorizations have been received. We cannot guarantee that the revenue projected in our backlog will be realize",
+  " to reflect any known project cancellations, revisions to project scope and cost, foreign currency exchange fluctuations and project deferrals, as appropriate. Our operations and maintenance contracts can generally be terminated by the clients without a substantive financial penalty; therefore, the remaining performance obligations on such contracts are limited to the notice period required for the termination (usually 30 , 60 or 90 days).   4. Stock Repurchase and Dividends   On September 9, 2026, our Board of Directors authorized a new $ 500 million stock repurchase program in addition to the previous $ 500 million stock repurchase program authorized on May 5, 2025. In fiscal 2026, we repurchased and settled 9,258,554 sh",
+  "| September 28, 2025 |   Weighted- Average Remaining Life (in years) | Gross Amount | Accumulated Amortization | Net Amount | Gross Amount | Accumulated Amortization | Net Amount |   Client relations | 6.5 | $ | 191,056 | $ | ( 77,319 ) | $ | 113,737 | $ | 169,807 | $ | ( 56,241 ) | $ | 113,566 |   Backlog | 0.4 | 51,007 | ( 48,327 ) | 2,680 | 43,919 | ( 40,397 ) | 3,522 |   Trade names | 0.0 | 34,393 | ( 34,393 ) | \u2014 | 34,805 | ( 30,733 ) | 4,072 |   Total | $ | 276,456 | $ | ( 160,039 ) | $ | 116,417 | $ | 248,531 | $ | ( 127,371 ) | $ | 121,160 |   Amortization expense for the identifiable intangible assets for fiscal 2026, 2025 and 2024 was $ 33.9 million, $ 37.1 million and $ 50.0 million, res"
+ ]
+}

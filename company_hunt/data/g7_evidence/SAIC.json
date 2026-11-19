@@ -1,0 +1,76 @@
+{
+ "ticker": "SAIC",
+ "cik": 1571123,
+ "rpo": {
+  "latest": [
+   null,
+   "2023-11-03",
+   5500000000,
+   "10-Q",
+   "2023-12-04",
+   "0001571123-23-000135"
+  ],
+  "prior": [
+   null,
+   "2022-10-28",
+   5000000000,
+   "10-Q",
+   "2022-12-05",
+   "0001571123-22-000084"
+  ],
+  "growth": 0.10000000000000009
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-02",
+   "2026-07-31",
+   1880000000,
+   "10-Q",
+   "2026-08-31",
+   "0001571123-26-000133"
+  ],
+  "prior": [
+   "2025-05-03",
+   "2025-08-01",
+   1769000000,
+   "10-Q",
+   "2026-08-31",
+   "0001571123-26-000133"
+  ],
+  "growth": 0.06274731486715668
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-05-02",
+   "2026-07-31",
+   152000000,
+   "10-Q",
+   "2026-08-31",
+   "0001571123-26-000133"
+  ],
+  "prior": [
+   "2025-05-03",
+   "2025-08-01",
+   139000000,
+   "10-Q",
+   "2026-08-31",
+   "0001571123-26-000133"
+  ],
+  "growth": 0.09352517985611519
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-31",
+  "period": "2026-07-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571123/000157112326000133/saic-20260731.htm"
+ },
+ "backlog_hits": [
+  "alance of contract liabilities as of January 30, 2026. During the three and six months ended August 1, 2025, the Company recognized revenues of $ 8 million and $ 25 million, respectively, relating to amounts that were included in the opening balance of contract liabilities as of January 31, 2025.   Remaining Performance Obligations   Remaining performance obligations (\"RPO\") represent the transaction price of exercised contracts (both funded and unfunded) less inception to date revenue recognized. RPO does not include unexercised option periods and future task orders expected to be awarded under IDIQ contracts. As of July 31, 2026, the Company had approximately $ 6.4 billion of RPO. The Company expects to recognize revenue",
+  " million, respectively. Substantially all of the goodwill recorded is tax deductible. The goodwill is primarily associated with intellectual capital and an acquired assembled workforce. The intangible assets consist of customer relationships of $ 90 million, developed technology of $ 9 million, and backlog of $ 2 million that will be amortized over a period of ten years , eight years , and one year , respectively.   During the three and six months ended July 31, 2026, revenues of $ 20 million and $ 39 million, respectively, related to SilverEdge were recorded to the Defense and Intelligence reportable segment.   Note 5\u2014Goodwill and Intangible Assets:   Goodwill   The following table presents the ca",
+  " Accumulated amortization | Net carrying value | Gross carrying value | Accumulated amortization | Net carrying value |   (in millions) |   Customer relationships | $ | 1,550 | $ | ( 865 ) | $ | 685 | $ | 1,551 | $ | ( 804 ) | $ | 747 |   Developed technology | 19 | ( 7 ) | 12 | 19 | ( 6 ) | 13 |   Backlog   | 2 | ( 2 ) | \u2014 | 2 | ( 1 ) | 1 |   Total intangible assets | $ | 1,571 | $ | ( 874 ) | $ | 697 | $ | 1,572 | $ | ( 811 ) | $ | 761 |   Amortization expense related to intangible assets was $ 32 million and $ 64 million for the three and six months ended July 31, 2026, respectively, and was $ 29 million and $ 58 million for the three and six months ended August 1, 2025, respectively. There were",
+  "ex problems. As one of the largest pure-play technology service providers to the U.S. government, we serve markets of significant scale and opportunity. Our primary customers are the departments and agencies of the U.S. government. We serve them through approximately 1,700 active contracts and task orders, employing approximately 23,000 individuals led by an experienced executive team of proven industry leaders. Our long history of serving the U.S. government has afforded us the ability to develop strong and longstanding relationships with some of the largest customers in the markets we serve. Substantially all of our revenues and tangible long-lived assets are generated and located in the United ",
+  "mercial customers include provisions that allow the customer to cancel prior to contract completion. Most of our contracts have cancellation terms that would permit us to recover all or a portion of our incurred costs and fees (contract profit) for work performed.   The estimated value of our total backlog as of the dates presented was:   July 31, 2026 | January 30, 2026 |   Defense and Intelligence   | Civilian   | Total SAIC   | Defense and Intelligence   | Civilian   | Total SAIC   |   (in millions) |   Funded backlog | $ | 2,883 | $ | 935 | $ | 3,818 | $ | 2,511 | $ | 1,061 | $ | 3,572 |   Negotiated unfunded backlog | 15,250 | 3,068 | 18,318 | 15,869 | 3,181 | 19,050 |   Total backlog | $ | 18"
+ ]
+}

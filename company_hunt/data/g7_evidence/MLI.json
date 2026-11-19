@@ -1,0 +1,53 @@
+{
+ "ticker": "MLI",
+ "cik": 89439,
+ "rev_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   1418598000,
+   "10-Q",
+   "2026-10-21",
+   "0000089439-26-000041"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   1077824000,
+   "10-Q",
+   "2026-10-21",
+   "0000089439-26-000041"
+  ],
+  "growth": 0.31616850246422423
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   281573000,
+   "10-Q",
+   "2026-10-21",
+   "0000089439-26-000041"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   276115000,
+   "10-Q",
+   "2026-10-21",
+   "0000089439-26-000041"
+  ],
+  "growth": 0.01976712601633368
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-21",
+  "period": "2026-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/89439/000008943926000041/mli-20260926.htm"
+ },
+ "backlog_hits": [
+  "angements is generally managed with commodity futures contracts. These futures contracts have been designated as cash flow hedges.   At September 26, 2026, the Company held open futures contracts to purchase approximately $ 33.9 million of copper over the next 10 months related to fixed price sales orders. The fair value of those futures contracts was a $ 2.4 million net gain position, which was determined by obtaining quoted market prices (level 1 within the fair value hierarchy). In the next 12 months, the Company will reclassify into earnings realized gains or losses relating to cash flow hedges. At September 26, 2026, this amount was approximately $ 1.9 million of deferred net gains, net of ta",
+  " Periodic value fluctuations of the contracts generally offset the value fluctuations of the underlying fixed-price transactions or inventory. At September 26, 2026, we held open futures contracts to purchase approximately $33.9 million of copper over the next 10 months related to fixed-price sales orders and to sell approximately $67.5 million of copper over the next six months related to copper inventory.   Interest Rates   At September 26, 2026, we had no variable-rate debt and $27.4 million in letters of credit outstanding. At this borrowing level, a hypothetical 10 percent increase in interest rates would have had an insignificant unfavorable impact on our pre-tax earnings and cash flows. The"
+ ]
+}

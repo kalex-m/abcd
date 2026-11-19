@@ -1,0 +1,72 @@
+{
+ "ticker": "NVDA",
+ "cik": 1045810,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-07-26",
+   3200000000,
+   "10-Q",
+   "2026-08-26",
+   "0001045810-26-000075"
+  ],
+  "prior": [
+   null,
+   "2025-07-27",
+   1900000000,
+   "10-Q",
+   "2025-08-27",
+   "0001045810-25-000209"
+  ],
+  "growth": 0.6842105263157894
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-27",
+   "2026-07-26",
+   96221000000,
+   "10-Q",
+   "2026-08-26",
+   "0001045810-26-000075"
+  ],
+  "prior": [
+   "2025-04-28",
+   "2025-07-27",
+   46743000000,
+   "10-Q",
+   "2026-08-26",
+   "0001045810-26-000075"
+  ],
+  "growth": 1.0585114348672526
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-04-27",
+   "2026-07-26",
+   63734000000,
+   "10-Q",
+   "2026-08-26",
+   "0001045810-26-000075"
+  ],
+  "prior": [
+   "2025-04-28",
+   "2025-07-27",
+   28440000000,
+   "10-Q",
+   "2026-08-26",
+   "0001045810-26-000075"
+  ],
+  "growth": 1.240998593530239
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-26",
+  "period": "2026-07-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+ },
+ "backlog_hits": [
+  "ances for the first half of fiscal years 2027 and 2026, respectively.   We recognized revenue of $ 758 million and $ 479 million in the first half of fiscal years 2027 and 2026, respectively, that was included in the prior year-end deferred revenue balance.   As of July 26, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $ 3.2 billion, which included $ 3.0 billion from deferred revenue and $ 244 million that has not yet been billed or recognized as revenue. Approximately 39 % of revenue from contracts greater than one year in length will be recognized over the next twelve months .   Other Income, Net   Other income, net, consisted of the following:   Three Month"
+ ]
+}

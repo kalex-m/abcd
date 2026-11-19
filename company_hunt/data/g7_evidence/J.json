@@ -1,0 +1,77 @@
+{
+ "ticker": "J",
+ "cik": 52988,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-06-26",
+   22200000000,
+   "10-Q",
+   "2026-08-04",
+   "0001628280-26-052573"
+  ],
+  "prior": [
+   null,
+   "2025-06-27",
+   15200000000,
+   "10-Q",
+   "2025-08-05",
+   "0000052988-25-000051"
+  ],
+  "growth": 0.4605263157894737
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-03-28",
+   "2026-06-26",
+   4076410000,
+   "10-Q",
+   "2026-08-04",
+   "0001628280-26-052573"
+  ],
+  "prior": [
+   "2025-03-29",
+   "2025-06-27",
+   3031768000,
+   "10-Q",
+   "2026-08-04",
+   "0001628280-26-052573"
+  ],
+  "growth": 0.34456528335941283
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-03-28",
+   "2026-06-26",
+   286703000,
+   "10-Q",
+   "2026-08-04",
+   "0001628280-26-052573"
+  ],
+  "prior": [
+   "2025-03-29",
+   "2025-06-27",
+   235014000,
+   "10-Q",
+   "2026-08-04",
+   "0001628280-26-052573"
+  ],
+  "growth": 0.21994008867556825
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-04",
+  "period": "2026-06-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/52988/000162828026052573/jec-20260626.htm"
+ },
+ "backlog_hits": [
+  "ecognized for the three and nine months ended June 27, 2025 that was included in the contract liability balance on September 27, 2024 was $ 97.0 million and $ 680.0 million, respectively.   Page 15   JACOBS SOLUTIONS INC. AND SUBSIDIARIES   NOTES TO CONSOLIDATED FINANCIAL STATEMENTS - (CONTINUED)   Remaining Performance Obligations   The Company\u2019s remaining performance obligations as of June 26, 2026 represent a measure of the total dollar value of work to be performed on contracts awarded and in progress. The Company had approximately $ 22.2 billion in remaining performance obligations as of June 26, 2026. The Company expects to recognize approximately 45 % of its remaining performance obligations into revenue within the ",
+  "26, 2026 | $ | 3,348,763 | $ | 1,407,698 | $ | 4,756,461 |   The following table provides certain information related to the Company\u2019s acquired intangibles in the accompanying Consolidated Balance Sheets at June 26, 2026 and September 26, 2025 (in thousands):   Customer Relationships, Contracts and Backlog | Developed Technology | Trade Names | Total |   Balance September 26, 2025 | $ | 521,275 | $ | 19,524 | $ | 176,871 | $ | 717,670 |   Amortization | ( 86,964 ) | ( 7,292 ) | ( 11,255 ) | ( 105,511 ) |   Foreign currency translation adjustments and other | ( 5,500 ) | ( 6 ) | ( 2,454 ) | ( 7,960 ) |   Balance June 26, 2026 | $ | 428,811 | $ | 12,226 | $ | 163,162 | $ | 604,199 |   The following t",
+  "& Advanced Facilities and PA Consulting. For more information, please refer to Note 18- Segment Information . In addition, the Company attributes each segment's specific incentive compensation plan costs to the segments. The methods for recognizing revenue, incentive fees, project losses and change orders are consistent among the segments.   Page 47   Infrastructure & Advanced Facilities   Three Months Ended | Nine Months Ended |   (in thousands)   | June 26, 2026 | June 27, 2025 | June 26, 2026 | June 27, 2025 |   Revenues   | $ | 3,746,900 | $ | 2,699,062 | $ | 10,022,055 | $ | 7,928,023 |   Operating Profit | $ | 268,125 | $ | 235,975 | $ | 708,089 | $ | 649,514 |   Revenues for the I&AF segmen",
+  ", or 2% and 15% from $72.4 million and $206.5 million in the corresponding periods last year. The year-over-year increase was mainly attributable to improved revenues for the nine month period as mentioned above, as well as a decrease in Selling, general and administrative expenses.   |   Page 48   Backlog Information   Backlog represents revenue we expect to realize for work to be completed by our consolidated subsidiaries and our proportionate share of work to be performed by unconsolidated joint ventures. Because of variations in the nature, size, expected duration, funding commitments, and the scope of services required by our contracts, the amount and timing of when backlog will be recognized ",
+  "ojects as well as national government programs) can cause large increases to backlog in the fiscal period in which we recognize the award, and because many of our contracts require us to provide services that span over several fiscal quarters (and sometimes over fiscal years), we have presented our backlog on a year-over-year basis, rather than on a sequential, quarter-over-quarter basis.   The following table summarizes our backlog at June 26, 2026 and June 27, 2025 (in millions):   June 26, 2026 | June 27, 2025 |   Infrastructure & Advanced Facilities | $ | 28,429 | $ | 22,270 |   PA Consulting | 459 | 420 |   Total | $ | 28,888 | $ | 22,690 |   The increase in backlog in I&AF from June 27, 2025 ",
+  "performance obligations as defined by ASC 606 primarily because of contract change orders or new wins not yet processed and our national government contracts where our policy is to generally include in backlog the contract award, whether funded or unfunded excluding certain option periods while our remaining performance obligations represent a measure of the total dollar value of work to be performed on contracts awarded and in progress. Additionally, the Company does not include our proportionate share of backlog related to unconsolidated joint ventures in our remaining performance obligations.   Liquidity and Capital Resources   At June 26, 2026, our principal sources of liquidity consisted of $1.17 billion in cash and c"
+ ]
+}

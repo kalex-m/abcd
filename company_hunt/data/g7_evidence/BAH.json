@@ -1,0 +1,76 @@
+{
+ "ticker": "BAH",
+ "cik": 1443646,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   11800000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066973"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   12100000000,
+   "10-Q",
+   "2025-10-24",
+   "0001628280-25-046176"
+  ],
+  "growth": -0.024793388429752095
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2778000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066973"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2890000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066973"
+  ],
+  "growth": -0.03875432525951561
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   245000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066973"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   283000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066973"
+  ],
+  "growth": -0.13427561837455826
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-23",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1443646/000162828026066973/bah-20260930.htm"
+ },
+ "backlog_hits": [
+  "actor | $ | 2,621 | 94 | % | $ | 2,701 | 93 | % | $ | 5,272 | 95 | % | $ | 5,442 | 94 | % |   Subcontractor | 157 | 6 | % | 189 | 7 | % | 306 | 5 | % | 372 | 6 | % |   Total Revenue | $ | 2,778 | 100 | % | $ | 2,890 | 100 | % | $ | 5,578 | 100 | % | $ | 5,814 | 100 | % |   Performance Obligations   Remaining performance obligations represent the transaction price of exercised contracts for which work has not yet been performed, irrespective of whether funding has or has not been authorized and appropriated as of the date of exercise. Remaining performance obligations exclude negotiated but unexercised options, the unfunded value of expired contracts, and certain variable consideration that was determined to be constrained.",
+  "currently under protest and also does not include any task orders under indefinite delivery/indefinite quantity (\u201cIDIQ\u201d) contracts, General Services Administration (\u201cGSA\u201d) Multiple Award schedule contracts (\u201cGSA schedules\u201d) or other master agreement contract vehicles, except to the extent that task orders have been awarded to us under those contracts.   16   Table of Contents   The following table summarizes the value of our contract backlog as of the respective periods presented:   September 30, 2026 | September 30, 2025 |   (In millions) |   Backlog (1) :   |   Funded | $ | 5,711 | $ | 5,440 |   Unfunded | 10,409 | 10,668 |   Priced options | 24,813 | 24,080 |   Total backlog | $ | 40,933 | $ | ",
+  "nted includes backlog acquired from the Company\u2019s acquisition of Ultra Mission Solutions during the six months ended September 30, 2026. Total backlog acquired from Ultra was approximately $164 million at the acquisition date.   Our total backlog consists of contractual values which is inclusive of remaining performance obligations, and potential contract value from unexercised option periods and other unexercised optional orders. As of September 30, 2026 and March 31, 2026, the Company had $11.8 billion and $10.7 billion of remaining performance obligations, respectively, and we expect to recognize approximately 65% of the remaining performance obligations as of September 30, 2026 as revenue over the next 12 months, and a",
+  "cally are only partially funded at any point during their term and all or some of the work to be performed under the contracts may remain unfunded unless and until the U.S. Congress makes subsequent appropriations and the procuring agency allocates funding to the contract.   We view growth in total backlog as a key measure of our potential business growth. Total backlog increased by 2% from September 30, 2025 to September 30, 2026. Additions to funded backlog during the twelve months ended September 30, 2026 and 2025 totaled $11.3 billion and $11.4 billion, respectively, as a result of the conversion of unfunded backlog to funded backlog, the award of new contracts and tas k orders under which fund",
+  "f Revenue   Costs associated with compensation and related expenses for our people are the most significant component of our operating costs and expenses. The principal factors that affect our costs are the increases or decreases in labor and employee related costs as we are awarded contracts, task orders, and additional work under our existing contracts, and the hiring of people with specific skill sets and security clearances.   Cost of revenue as a percentage of revenue was 48% and 46% for the three months ended September 30, 2026 and 2025, respectively, and 48% for both the six months ended September 30, 2026 and 2025, respectively. Cost of revenue decreased 1% and 3% for the three and six mon"
+ ]
+}

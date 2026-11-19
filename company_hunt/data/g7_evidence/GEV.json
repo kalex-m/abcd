@@ -1,0 +1,82 @@
+{
+ "ticker": "GEV",
+ "cik": 1996810,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   196721000000,
+   "10-Q",
+   "2026-10-28",
+   "0001996810-26-000163"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   135269000000,
+   "10-Q",
+   "2025-10-22",
+   "0001996810-25-000160"
+  ],
+  "growth": 0.4542947755952953
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   12642000000,
+   "10-Q",
+   "2026-10-28",
+   "0001996810-26-000163"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   9969000000,
+   "10-Q",
+   "2026-10-28",
+   "0001996810-26-000163"
+  ],
+  "growth": 0.26813120674089674
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1394000000,
+   "10-Q",
+   "2026-10-28",
+   "0001996810-26-000163"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   366000000,
+   "10-Q",
+   "2026-10-28",
+   "0001996810-26-000163"
+  ],
+  "growth": 2.808743169398907
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000163/gev-20260930.htm"
+ },
+ "backlog_hits": [
+  " & CONTRACT LIABILITIES AND DEFERRED INCOME   Contract assets reflect revenue recognized on contracts in excess of billings based on contractual terms. Contract liabilities primarily   represent cash received from customers under ordinary commercial payment terms in advance of delivery of equipment orders or servicing   of customers\u2019 installed base.   Contract and other deferred assets increase d $ 120 million in the nine months ended September 30, 2026 primarily due to the timing of   revenue recognition ahead of billing milestones on equipment and other service agreements. Contract liabilities and deferred income   increase d $ 19,797 million in the nine months ended September 30, 2026 primarily",
+  "   | 2,796   | 23,798   |   Contract liabilities and current deferred income   | $ 16,527   | $ 6,449   | $ 2,796   | $ 25,774   |   Non-current deferred income   | 20   | 13   | 142   | 175   |   Total contract liabilities and deferred income   | $ 16,547   | $ 6,462   | $ 2,938   | $ 25,950   |   Remaining Performance Obligation (RPO) . As of September 30, 2026 , the aggregate amount of the contracted revenues allocated to our   unsatisfied (or partially unsatisfied) performance obligations was $ 196,721 million . We expect to recognize revenue as we satisfy our RPO   as follows:   (1) Equipment-related RPO of $ 104,054 million of which 33 % , 60 % , and 97 % is expected to be recognized within 1 , 2 , and 5 years ,   re",
+  "offering were used for general   corporate purposes, including financing a portion of the acquisition of the remaining 50% stake of Prolec GE.   Offshore Wind . At Offshore Wind, we continue to experience pressure related to our project costs and execution timelines, as we deliver   on our existing backlog. During the first quarter of 2026, we successfully completed the installation of all remaining wind turbines at the   Vineyard Wind project and have commissioned substantially all wind turbines with the remainder expected to be completed in early 2027 .   In the third quarter of 2026, we reached commercial resolution with our customer to resolve outstanding claims and counterclaims.   Tariffs . T",
+  "tember 30, 2026 and 2025 , respectively.   For the three months ended September 30, 2026 , Adjusted EBITDA* was $1.9 billion , an increase of $1.1 billion . Free cash flow* was $15.3   billion and $1.9 billion for the nine months ended September 30, 2026 and 2025 , respectively.   RPO, a measure of backlog, includes unfilled firm and unconditional customer orders for equipment and services, excluding any purchase   order that provides the customer with the ability to cancel or terminate without incurring a substantive penalty. Services RPO includes the   estimated life of contract sales related to long-term service agreements which remain unsatisfied at the end of the reporting period,   excluding ",
+  "mand for alternating current substation solutions, partially offset by decreases in high-voltage direct current solutions at Grid Systems   Integration; partially offset at Wind, due to a decrease at Offshore Wind as we continue to execute on our contracts and at Onshore Wind   due to a decrease in orders primarily in North America . RPO increase d $61.5 billion ( 45% ) from September 30, 2025 , primarily at Power,   due to increases at Gas Power equipment and services, and increases at Nuclear Power services and equipment; and at Electrification,   due to the acquisition of Prolec GE of $5.0 billion and demand for switchgear and transformers at Power Transmission, demand for   alternating current",
+  "ransmission systems, and high-voltage direct current solutions at Grid   Systems Integration, and synchronous condensers at Power Conversion & Storage ; partially offset at Wind, due to a decrease at Offshore   Wind as we continue to execute on our contracts and at Onshore Wind due to a decrease in orders primarily in North America.   Three months ended September 30   | Nine months ended September 30   |   REVENUES   | 2026   | 2025   | 2026   | 2025   |   Equipment revenues   | $ 8,340   | $ 5,880   | $ 20,053   | $ 14,971   |   Services revenues   | 4,302   | 4,089   | 13,031   | 12,141   |   Total revenues   | $ 12,642   | $ 9,969   | $ 33,084   | $ 27,112   |   *Non-GAAP Financial Measure   20",
+  "DA increased $0.6 billion ( 86% ) organically*, primarily at Power Transmission due to higher volume, productivity, and   favorable price and at Grid Systems Integration due to higher volume.   WIND   Three months ended September 30   | Nine months ended September 30   |   Onshore and Offshore Wind orders in units   | 2026   | 2025   | 2026   | 2025   |   Wind Turbines   | 145   | 156   | 438   | 560   |   Repower Units   | 481   | 139   | 530   | 344   |   Wind Turbine and Repower Units Gigawatts   | 1.5   | 0.9   | 2.7   | 2.7   |   Three months ended September 30   | Nine months ended September 30   |   Onshore and Offshore Wind sales in units   | 2026   | 2025   | 2026   | 2025   |   Wind Turb",
+  ",630   | $ 21,508   |   R PO as of September 30, 2026 decreased $1.7 billion ( 8% ) from December 31, 2025 and decreased $1.6 billion ( 7% ) from September 30,   2025 , primarily due to a decrease at Offshore Wind as we continue to execute on our contracts and at Onshore Wind due to a decrease in   orders primarily in North America.   Three months ended September 30   | Nine months ended September 30   |   SEGMENT REVENUES AND EBITDA   | 2026   | 2025   | 2026   | 2025   |   Onshore Wind   | $ 2,468   | $ 2,453   | $ 5,376   | $ 6,118   |   Offshore Wind   | 273   | 195   | 824   | 624   |   Total segment revenues   | $ 2,741   | $ 2,647   | $ 6,200   | $ 6,742   |   Equipment   | $ 2,121   | $ 2,",
+  "reased by $14.2 billion in 2026 compared to 2025 , primarily driven by higher customer payment activity   and improved profitability. The increase was primarily driven by: an increase from contract liabilities and current deferred income of $17.1   billion , primarily due to higher down payments on orders and slot reservation agreements at Power, h igher down payments at   Electrification, and lower revenue recognition at Wind; higher net income (after adjusting for depreciation of PP&E, amortization of   intangible assets, (gains) losses on purchases and sales of business interests, and provision (benefit) for income taxes) of $2.3 billion ; an   increase from accounts payable of $1.0 billion , d",
+  " of $16.7 billion for the nine months ended September 30, 2026 included a $17.0 billion inflow from changes   in working capital. The cash inflow from changes in working capital was primarily driven by: contract liabilities and current deferred income   of $19.5 billion , driven by down payments on orders and slot reservation agreements at Power, and down payments at Electrification ; and   accounts payable and equipment project payables of $1.5 billion , due to purchases of materials outpacing disbursements, including a   decrease in prepayments, at Electrification and Power; partially offset by inventories of $(2.1) billion , due to higher volume to support   fulfillment and future deliveries, p",
+  "ies of $2.5 billion for the nine months ended September 30, 2025 included a $1.8 billion inflow from changes in   working capital. The cash inflow from changes in working capital was primarily driven by: contract liabilities and current deferred income of   $2.4 billion , driven by down payments on orders and slot reservation agreements at Power, and down payments and collections at   Electrification, partially offset by higher net revenue recognition at Wind; accounts payable and equipment project payables of $0.6 billion,   driven by reductions in prepayments and purchases of materials outpacing disbursements primarily at Electrification; current receivables of   $0.6 billion , driven by lower b"
+ ]
+}

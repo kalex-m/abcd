@@ -1,0 +1,71 @@
+{
+ "ticker": "ETR",
+ "cik": 65984,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-03-31",
+   8031000000,
+   "10-Q",
+   "2026-05-01",
+   "0000065984-26-000222"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   3187626000,
+   "10-Q",
+   "2026-05-01",
+   "0000065984-26-000222"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   2846874000,
+   "10-Q",
+   "2026-05-01",
+   "0000065984-26-000222"
+  ],
+  "growth": 0.11969339001304591
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   572222000,
+   "10-Q",
+   "2026-05-01",
+   "0000065984-26-000222"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   700104000,
+   "10-Q",
+   "2026-05-01",
+   "0000065984-26-000222"
+  ],
+  "growth": -0.18266143315850214
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-02",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/65984/000006598426000325/etr-20260930.htm"
+ },
+ "backlog_hits": [
+  " no outstanding unresolved issues. The joint audit report recommended and requested that an LPSC order be issued finding that all costs included in Entergy Louisiana\u2019s purchased gas adjustment filings in the audit period were reasonable, prudent, and necessary and in compliance with applicable LPSC orders, and thus were appropriately eligible for recovery from customers. The LPSC voted to approve the joint audit report at its October 2026 Business and Executive Session.   In February 2026, Entergy Louisiana, in its monthly filing to update its fuel adjustment clause, requested to defer approximately $ 141.9 million of fuel costs incurred in January 2026 that were primarily attributable to the effe",
+  " loans, grants, guarantees, and other subsidies. Entergy Arkansas is not able to predict the effect of potential changes in regulation and law, changes to governmental programs, such as loans, grants, guarantees, and other subsidies, and governmental policies and actions, such as tariffs, executive orders, and other measures, including Executive Order 14421 and the Section 232 Proclamation, on its current and planned capital projects, including project delays, modifications, and cost increases.   Entergy Arkansas\u2019s receivables from or (payables to) the money pool were as follows:   September 30, 2026 | December 31,  2025 | September 30,  2025 | December 31,  2024 |   (In Thousands) |   $24,279 | $",
+  "loans, grants, guarantees, and other subsidies. Entergy Louisiana is not able to predict the effect of potential changes in regulation and law, changes to governmental programs, such as loans, grants, guarantees, and other subsidies, and governmental policies and actions, such as tariffs, executive orders, and other measures, including Executive Order 14421 and the Section 232 Proclamation, on its current and planned capital projects, including project delays, modifications, and cost increases.   Entergy Louisiana\u2019s receivables from the money pool were as follows:   September 30,  2026 | December 31,  2025 | September 30,  2025 | December 31,  2024 |   (In Thousands) |   $90,081 | $63,435 | $97,46",
+  " no outstanding unresolved issues. The joint audit report recommended and requested that an LPSC order be issued finding that all costs included in Entergy Louisiana\u2019s purchased gas adjustment filings in the audit period were reasonable, prudent, and necessary and in compliance with applicable LPSC orders, and thus were appropriately eligible for recovery from customers. The LPSC voted to approve the joint audit report at its October 2026 Business and Executive Session.   In February 2026, Entergy Louisiana, in its monthly filing to update its fuel adjustment clause, requested to defer approximately $141.9 million of fuel costs incurred in January 2026 that were primarily attributable to the effec",
+  "ans, grants, guarantees, and other subsidies. Entergy Mississippi is not able to predict the effect of potential changes in regulation and law, changes to governmental programs, such as loans, grants, guarantees, and other subsidies, and governmental policies and actions, such as tariffs, executive orders, and other measures, including Executive Order 14421 and the Section 232 Proclamation, on its current and planned capital projects, including project delays, modifications, and cost increases.   Entergy Mississippi\u2019s receivables from the money pool were as follows:   September 30,  2026 | December 31,  2025 | September 30,  2025 | December 31,   2024   |   (In Thousands) |   $24,070 | $27,422 | $",
+  "ans, grants, guarantees, and other subsidies. Entergy New Orleans is not able to predict the effect of potential changes in regulation and law, changes to governmental programs, such as loans, grants, guarantees, and other subsidies, and governmental policies and actions, such as tariffs, executive orders, and other measures, including Executive Order 14421 and the Section 232 Proclamation, on its current and planned capital projects, including project delays, modifications, and cost increases.   Entergy New Orleans\u2019s receivables from the money pool were as follows:   September 30,  2026 | December 31,  2025 | September 30,  2025 | December 31,  2024 |   (In Thousands) |   $3,125 | $9,009 | $17,84",
+  " as loans, grants, guarantees, and other subsidies. System Energy is not able to predict the effect of potential changes in regulation and law, changes to governmental programs, such as loans, grants, guarantees, and other subsidies, and governmental policies and actions, such as tariffs, executive orders, and other measures, including Executive Order 14421 and the Section 232 Proclamation, on its current and planned capital projects, including project delays, modifications, and cost increases.   System Energy\u2019s receivables from or (payables to) the money pool were as follows:   September 30,  2026 | December 31,  2025 | September 30,  2025 | December 31, 2024 |   (In Thousands) |   $1,238 | ($16,"
+ ]
+}

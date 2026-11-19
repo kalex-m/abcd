@@ -1,0 +1,74 @@
+{
+ "ticker": "HII",
+ "cik": 1501585,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   86200000000,
+   "10-Q",
+   "2026-10-29",
+   "0001501585-26-000056"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   55700000000,
+   "10-Q",
+   "2025-10-30",
+   "0001501585-25-000112"
+  ],
+  "growth": 0.5475763016157988
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3537000000,
+   "10-Q",
+   "2026-10-29",
+   "0001501585-26-000056"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   3192000000,
+   "10-Q",
+   "2026-10-29",
+   "0001501585-26-000056"
+  ],
+  "growth": 0.10808270676691722
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   246000000,
+   "10-Q",
+   "2026-10-29",
+   "0001501585-26-000056"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   161000000,
+   "10-Q",
+   "2026-10-29",
+   "0001501585-26-000056"
+  ],
+  "growth": 0.5279503105590062
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1501585/000150158526000056/hii-20260930.htm"
+ },
+ "backlog_hits": [
+  "ther | 276 | 263 | 774 | 775 |   Total Mission Technologies | 792 | 787 | 2,300 | 2,313 |   Intersegment eliminations | ( 41 ) | ( 40 ) | ( 116 ) | ( 110 ) |   Sales and service revenues | $ | 3,537 | $ | 3,192 | $ | 10,054 | $ | 9,008 |   As of September 30, 2026, the Company had $ 86.2 billion of remaining performance obligations. The Company expects to recognize approximately 20 % of its remaining performance obligations as revenue through 2027, an additional 30 % through 2029, and the balance thereafter.   10   Table of Contents   Cumulative Catch-up Revenue Adjustments   The following table presents the effect of net cumulative catch-up revenue adjustments on operating income and diluted earnings per share:   Three Mo",
+  "m or other transitional safe harbor provisions will be broadly applicable to our international operations and, accordingly, do not expect Pillar Two to have a material impact on our effective tax rate, consolidated results of operations, financial position, or cash flows.   30   Table of Contents   BACKLOG   Total backlog as of September 30, 2026, and December 31, 2025, was $86.2 billion and $53.1 billion, respectively. Total backlog includes both funded backlog (firm orders for which funding is contractually obligated by the customer) and unfunded backlog (firm orders for which funding is not currently contractually obligated by the customer). Backlog excludes unexercised contract options and unfu",
+  "nts committed by the customer as of September 30, 2026 and December 31, 2025, respectively.   The following table presents funded and unfunded backlog by segment as of September 30, 2026, and December 31, 2025:   September 30, 2026 | December 31, 2025 |   ($ in millions) | Funded | Unfunded | Total Backlog | Funded | Unfunded | Total Backlog |   Ingalls | $ | 16,674 | $ | 2,207 | $ | 18,881 | $ | 14,925 | $ | 2,856 | $ | 17,781 |   Newport News | 18,601 | 42,151 | 60,752 | 15,337 | 14,588 | 29,925 |   Mission Technologies   | 2,630 | 3,918 | 6,548 | 1,723 | 3,710 | 5,433 |   Total backlog | $ | 37,905 | $ | 48,276 | $ | 86,181 | $ | 31,985 | $ | 21,154 | $ | 53,139 |   We expect approximately 22% o"
+ ]
+}

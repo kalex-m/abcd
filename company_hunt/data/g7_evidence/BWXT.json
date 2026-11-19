@@ -1,0 +1,77 @@
+{
+ "ticker": "BWXT",
+ "cik": 1486957,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   8556200000,
+   "10-Q",
+   "2026-11-02",
+   "0001486957-26-000051"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   7389100000,
+   "10-Q",
+   "2025-11-03",
+   "0001486957-25-000059"
+  ],
+  "growth": 0.15794887063377128
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   952972000,
+   "10-Q",
+   "2026-11-02",
+   "0001486957-26-000051"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   866286000,
+   "10-Q",
+   "2026-11-02",
+   "0001486957-26-000051"
+  ],
+  "growth": 0.10006625987260565
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   132077000,
+   "10-Q",
+   "2026-11-02",
+   "0001486957-26-000051"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   113349000,
+   "10-Q",
+   "2026-11-02",
+   "0001486957-26-000051"
+  ],
+  "growth": 0.16522421900501993
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-02",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1486957/000148695726000051/bwxt-20260930.htm"
+ },
+ "backlog_hits": [
+  "of $ 75.0 million of Goodwill, $ 27.0 million of Intangible Assets and $ 12.7 million of Property, Plant and Equipment.   The intangible assets included above consist of the following (dollar amounts in thousands):   Amount | Amortization Period |   Customer relationships | $ | 25,400 | 6 years |   Backlog | $ | 1,600 | 1 year |   Kinectrics Inc.   On May 20, 2025, we acquired all of the equity interests of Kinectrics Holdings Inc., the parent company of   Kinectrics Inc. (\"Kinectrics\") for CAD $ 782.7 million, subject to certain working capital and other adjustments. This resulted in purchase consideration of CAD $ 614.5 million ($ 440.6 million U.S. dollar equivalent) which is net of assumed pens",
+  "nd on current assumptions of future operations. These amounts are subject to change upon the completion of acquisition accounting.   The Intangible Assets included above consist of the following(dollar amounts in thousands):   Amount | Amortization Period |   Trade name | $ | 7,000 | Indefinite |   Backlog | $ | 6,000 | 5 years |   Manufacturing Process Know-how | $ | 8,000 | 10 years |   Customer relationships | $ | 30,000 | 20 years |   Sale of Medical Business   On July 31, 2026, we entered into a definitive agreement to sell our medical business, which includes BWXT Medical and Kinectrics' stable medical isotope business, to Nordic Capital, in a transaction valued at up to $ 800 million. Under ",
+  "y, of revenues that were in Advance billings on contracts at the beginning of each year. During the nine months ended September 30, 2026 and 2025, we recognized $ 149.6 million and $ 138.3 million, respectively, of revenues that were in Advance billings on contracts at the beginning of each year.   Remaining Performance Obligations   Remaining performance obligations represent the dollar amount of revenue we expect to recognize in the future from performance obligations on contracts previously awarded and in progress. At September 30, 2026, our remaining performance obligations were $ 8,556.2 million. We expect to recognize approximately 46 % of the revenue associated with our remaining performance obligations by the end o",
+  "tive tax rates for the nine months ended September 30, 2026, and September 30, 2025, were both lower than the U.S. corporate federal income tax rate of 21% primarily due to benefits from U.S. federal research and development tax credits and excess tax benefits associated with equity compensation.   Backlog   Backlog represents the dollar amount of revenue we expect to recognize in the future from contracts awarded and in progress. Not all of our expected revenue from a contract award is recorded in backlog for a variety of reasons, including that some projects are awarded and completed within the same reporting period.   Our backlog is equal to our remaining performance obligations under contracts ",
+  "d financial statements included in this Report. It is possible that our methodology for determining backlog may not be comparable to methods used by other companies.   We are subject to the budgetary and appropriations cycle of the U.S. Government as it relates to our Government Operations segment. Backlog may not be indicative of future operating results and projects in our backlog may be cancelled, modified or otherwise altered by customers.   28   Table of Contents   September 30, 2026 | December 31, 2025 |   (In approximate millions) |   Government Operations | $ | 6,482 | $ | 5,541 |   Commercial Operations | 2,074 | 1,720 |   Total Backlog | $ | 8,556 | $ | 7,261 |   We do not include the val",
+  " and may not be awarded to us before the end of the calendar year. Due to the fact that most contracts awarded by the U.S. Government are subject to these annual funding approvals, the total values of the underlying programs are significantly larger.   The value of unexercised options excluded from backlog as of September 30, 2026, including previous awards, was approximately $1,400 million. We expect $900 million to be awarded in 2030 and $500 million to be awarded in 2035, subject to annual Congressional appropriations.   Liquidity and Capital Resources   New Credit Facility   On November 10, 2025, we entered into a second Amended and Restated Credit Agreement (the \"New Credit Facility\") with Wel"
+ ]
+}

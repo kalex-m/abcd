@@ -1,0 +1,55 @@
+{
+ "ticker": "PPL",
+ "cik": 922224,
+ "rev_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   2774000000,
+   "10-Q",
+   "2026-05-08",
+   "0000922224-26-000026"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   2504000000,
+   "10-Q",
+   "2026-05-08",
+   "0000922224-26-000026"
+  ],
+  "growth": 0.10782747603833864
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   745000000,
+   "10-Q",
+   "2026-05-08",
+   "0000922224-26-000026"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   678000000,
+   "10-Q",
+   "2026-05-08",
+   "0000922224-26-000026"
+  ],
+  "growth": 0.09882005899705004
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-06",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/922224/000092222426000052/ppl-20260930.htm"
+ },
+ "backlog_hits": [
+  " operation and maintenance expense budget of $ 14 million, primarily for vegetation management. On March 31, 2026, the RIPUC approved RIE's compliance filing for rates effective April 1, 2026.   Kentucky Activities   (PPL, LG&E and KU)   Rate Case Proceedings   On February 16, 2026, the KPSC issued orders approving portions of LG&E's and KU's October 2025 stipulation and recommendation, with modifications. See \"Regulatory Matters \u2013 Kentucky Activities \u2013 Rate Case Proceedings\" in Note 7 in PPL's, LG&E's and KU's 2025 Form 10-K for additional information on the filings made by LG&E and KU with the KPSC in 2025.   The KPSC orders provide for increases in annual electricity and gas revenues of $ 233 m",
+  "as revenues and approximately $ 3 million in annual KU electricity revenues, above the increased amounts contained in the KPSC's February 2026 order. The revised rates are effective for services rendered on and after the date of the order.   Potential Legal Merger of LG&E and KU   Pursuant to prior orders of the KPSC, the LG&E and KU rate case application included an assessment of a potential legal merger of LG&E and KU and concluded a legal merger may be appropriate. On December 30, 2025, LG&E and KU filed a joint update in the rate case proceedings stating that they expected to file necessary applications for merger approval in mid-2026 with the KPSC. On March 31, 2026, LG&E and KU filed an appl",
+  " 11.14% ROE was unjust and unreasonable under the Federal Power Act (Section 206).   In 2014, the FERC issued Opinion No. 531 that changed the methodology the FERC uses for determining transmission ROEs. It set the ROE at 10.57% with a maximum ROE including incentives of 11.74%. Two additional FERC orders followed: Opinion No. 531-A (2014) and Opinion No. 531-B (2015). Each maintained the 10.57% ROE. Both the NETOs and customers appealed.   In 2017, the D.C. Circuit Court of Appeals issued an order vacating Opinions Nos. 531, 531-A, and 531-B, and remanding to the FERC for further proceedings. The court found that the FERC had not properly followed Section 206, which required a specific finding th",
+  "2025 stipulation and recommendation, with modifications. See \"Regulatory Matters \u2013 Kentucky Activities \u2013 Rate Case Proceedings\" in Note 7 in PPL's, LG&E's and KU's 2025 Form 10-K for additional information on the filings made by LG&E and KU with the KPSC in 2025.   74   Table of Contents   The KPSC orders provide for increases in annual electricity and gas revenues of $233 million ($59 million and $128 million in electricity revenues at LG&E and KU and $46 million in gas revenues at LG&E.) The orders included authorized returns on equity of 9.775% for base rate purposes and 9.675% for capital rate adjustment mechanisms.   The KPSC orders approved LG&E's and KU's requests for establishment of certa"
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "ticker": "MU",
+ "cik": 723125,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-03",
+   134000000000,
+   "10-K",
+   "2026-10-09",
+   "0000723125-26-000023"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-02-27",
+   "2026-05-28",
+   41456000000,
+   "10-Q",
+   "2026-06-25",
+   "0000723125-26-000015"
+  ],
+  "prior": [
+   "2025-02-28",
+   "2025-05-29",
+   9301000000,
+   "10-Q",
+   "2026-06-25",
+   "0000723125-26-000015"
+  ],
+  "growth": 3.457155144608107
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-02-27",
+   "2026-05-28",
+   33318000000,
+   "10-Q",
+   "2026-06-25",
+   "0000723125-26-000015"
+  ],
+  "prior": [
+   "2025-02-28",
+   "2025-05-29",
+   2169000000,
+   "10-Q",
+   "2026-06-25",
+   "0000723125-26-000015"
+  ],
+  "growth": 14.360995850622407
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-10-09",
+  "period": "2026-09-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+ },
+ "backlog_hits": [
+  "ble volumes over the multi-year contract terms. Pricing for our contracts is either fixed or periodically negotiated, with the majority of the strategic customer agreements having pricing that is subject to minimum and maximum bands.   As of September 3, 2026, the transaction price allocated to our remaining performance obligations was approximately $ 134 billion, of which $ 13 billion has been recognized as contract liabilities. Contract liabilities primarily consisted of customer deposits associated with strategic customer agreements. Nearly all of the deposits are scheduled to be repaid between 2029 and 2031. Approximately one-fourth of the remaining performance obligations as of September 3, 2026 are expected to be rec"
+ ]
+}

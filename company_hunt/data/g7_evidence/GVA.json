@@ -1,0 +1,75 @@
+{
+ "ticker": "GVA",
+ "cik": 861459,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   4852921000,
+   "10-Q",
+   "2026-10-29",
+   "0000861459-26-000042"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   4325329000,
+   "10-Q",
+   "2025-11-06",
+   "0000861459-25-000053"
+  ],
+  "growth": 0.1219773108588964
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1766331000,
+   "10-Q",
+   "2026-10-29",
+   "0000861459-26-000042"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1433498000,
+   "10-Q",
+   "2026-10-29",
+   "0000861459-26-000042"
+  ],
+  "growth": 0.23218239578987898
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   224338000,
+   "10-Q",
+   "2026-10-29",
+   "0000861459-26-000042"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   143651000,
+   "10-Q",
+   "2026-10-29",
+   "0000861459-26-000042"
+  ],
+  "growth": 0.5616877014430808
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/861459/000086145926000042/gva-20260930.htm"
+ },
+ "backlog_hits": [
+  " is primarily attributable to the Construction segment, with an immaterial amount recorded in the Materials segment. The most significant assets acquired were property and equipment of $ 68.2 million and accounts receivable of $ 15.3 million. The identifiable intangible assets acquired consisted of backlog, trademarks/trade name, water rights, and customer relationships.   Pro Forma Financial Information   The pro forma financial information in the table below summarizes the combined results of operations of Granite and Kenny Seng Construction as though the companies had been combined as of January 1, 2025. The pro forma financial information is presented for informational purposes only and is not ",
+  "tangible and identifiable intangible assets acquired were $ 121.8 million and $ 16.1 million, respectively, resulting in acquired goodwill of $ 40.1 million, all of which is expected to be deductible for federal and state income tax purposes. The identifiable intangible assets acquired consisted of backlog, permits and customer relationships. Of the acquired goodwill, $ 5.0 million is in the Materials segment and $ 35.1 million is in the Construction segment. The most significant assets acquired were $ 88.2 million of property and equipment and $ 33.6 million of accounts receivable.   The factors that contributed to the recognition of goodwill from this acquisition include the strengthening of our ",
+  "2026 and 2025, respectively, and $ 219.8 million and $ 165.6 million during the nine months ended September 30, 2026 and 2025, respectively. The changes in contract transaction price for the three and nine months ended September 30, 2026 and 2025 were from items such as executed or estimated change orders, contract modifications and claims.   As of September 30, 2026 and December 31, 2025, the aggregate claim recovery estimates included in contract asset and liability balances were $ 19.0 million and $ 19.4 million, respectively.   The components of the contract asset balances as of the respective dates were as follows:   (in thousands) | September 30, 2026 | December 31, 2025 |   Costs in excess ",
+  "\u201cCM/GC\u201d) contracts and awarded contracts with unexercised contract options or unissued task orders. The general construction portion of CM/GC contracts are included in other awards to the extent contract execution and funding is probable. Contracts with unexercised contract options or unissued task orders are included in other awards to the extent option exercise or task order issuance is probable. All CAP is in the Construction segment.   (dollars in thousands) | September 30, 2026 | June 30, 2026 | December 31, 2025 |   Unearned revenue | $ | 4,852,921 | 65.1 | % | $ | 5,056,462 | 68.2 | % | $ | 4,123,113 | 59.2 | % |   Other awards | 2,602,549 | 34.9 | 2,362,368 | 31.8 | 2,846,259 | 40.8 |   To"
+ ]
+}

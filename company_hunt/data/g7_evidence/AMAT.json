@@ -1,0 +1,52 @@
+{
+ "ticker": "AMAT",
+ "cik": 6951,
+ "rev_q": {
+  "latest": [
+   "2026-04-27",
+   "2026-07-26",
+   9115000000,
+   "10-Q",
+   "2026-08-20",
+   "0001628280-26-058235"
+  ],
+  "prior": [
+   "2025-04-28",
+   "2025-07-27",
+   7302000000,
+   "10-Q",
+   "2026-08-20",
+   "0001628280-26-058235"
+  ],
+  "growth": 0.2482881402355519
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-04-27",
+   "2026-07-26",
+   3075000000,
+   "10-Q",
+   "2026-08-20",
+   "0001628280-26-058235"
+  ],
+  "prior": [
+   "2025-04-28",
+   "2025-07-27",
+   2233000000,
+   "10-Q",
+   "2026-08-20",
+   "0001628280-26-058235"
+  ],
+  "growth": 0.3770712046574116
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-20",
+  "period": "2026-07-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm"
+ },
+ "backlog_hits": [
+  "dit losses recognized on our accounts receivable and contract assets during both the nine months ended July 26, 2026 and July 27, 2025.   Performance Obligations   As of July 26, 2026, the amount of remaining unsatisfied performance obligations on contracts, primarily consisting of written purchase orders received from customers, with an original estimated duration of one year or more was approximately $ 1.0 billion, of which approximately 73 % is expected to be recognized within 12 months and the remainder is expected to be recognized within the following 24 months thereafter.   We have elected the available practical expedient to exclude the value of unsatisfied performance obligations for contr"
+ ]
+}

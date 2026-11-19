@@ -1,0 +1,52 @@
+{
+ "ticker": "MOD",
+ "cik": 67347,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   994400000,
+   "10-Q",
+   "2026-11-04",
+   "0001104659-26-122523"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   738900000,
+   "10-Q",
+   "2026-11-04",
+   "0001104659-26-122523"
+  ],
+  "growth": 0.3457842739206929
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   97800000,
+   "10-Q",
+   "2026-11-04",
+   "0001104659-26-122523"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   73500000,
+   "10-Q",
+   "2026-11-04",
+   "0001104659-26-122523"
+  ],
+  "growth": 0.33061224489795915
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926122523/mod-20260930x10q.htm"
+ },
+ "backlog_hits": [
+  "pensation-related expenses, which increased approximately $10.0 million, and increases across other general and administrative expenses. These increases were partially offset by lower amortization expense, which decreased $1.8 million. The lower amortization expense was primarily driven by an order backlog intangible asset related to our acquisition of Scott Springfield Mfg. Inc., which we finished amortizing during the first quarter of fiscal 2026.   Operating income of $107.5 million during the first six months of fiscal 2027 increased $36.9 million, or 52 percent, from the same period last year, primarily due to higher gross profit, partially offset by higher SG&A expenses.  \u200b   \u200b   \u200b   \u200b   \u200b   "
+ ]
+}

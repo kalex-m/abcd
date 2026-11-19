@@ -1,0 +1,52 @@
+{
+ "ticker": "TTMI",
+ "cik": 1116942,
+ "rev_q": {
+  "latest": [
+   "2026-06-30",
+   "2026-09-28",
+   1203855000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435875"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-29",
+   752736000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435875"
+  ],
+  "growth": 0.5993057326871571
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-06-30",
+   "2026-09-28",
+   162253000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435875"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-29",
+   71906000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435875"
+  ],
+  "growth": 1.256459822546102
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526435875/ttmi-20260928.htm"
+ },
+ "backlog_hits": [
+  "ount of the estimated loss is recorded on a cumulative basis. The estimated remaining costs to complete for loss contracts as of September 28, 2026 and December 29, 2025 were $ 17,438 and $ 33,163 , respectively.   As of September 28, 2026, the aggregate amount of the transaction price allocated to remaining performance obligations for long\u2011term contracts was $ 463,492 . The Company expects to recognize revenue on approximately 55 % of the remaining performance obligations for the Company\u2019s long-term contracts over the next 12 month s with the remaining amount expected to be recognized thereafter. The remaining performance obligations for the Company\u2019s short\u2011term contracts are expected to be recognized within one year, and"
+ ]
+}

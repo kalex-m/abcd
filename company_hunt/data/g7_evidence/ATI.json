@@ -1,0 +1,74 @@
+{
+ "ticker": "ATI",
+ "cik": 1018963,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-27",
+   4300000000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "prior": [
+   null,
+   "2025-09-28",
+   3600000000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "growth": 0.19444444444444442
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   1423700000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   1125500000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "growth": 0.2649489115948467
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   271900000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   162400000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068145"
+  ],
+  "growth": 0.6742610837438423
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026068145/ati-20260927.htm"
+ },
+ "backlog_hits": [
+  "| % | 18 | % | 19 | % | 18 | % |   Zirconium and related alloys | \u2014 | % | 21 | % | 10 | % | \u2014 | % | 19 | % | 9 | % |   Precision rolled strip products | \u2014 | % | 10 | % | 5 | % | \u2014 | % | 11 | % | 5 | % |   Total | 100 | % | 100 | % | 100 | % | 100 | % | 100 | % | 100 | % |   The Company maintained a backlog of confirmed orders totaling $ 4.3 billion and $ 3.6 billion at September 27, 2026 and September 28, 2025, respectively. Due to the structure of the Company\u2019s long-term agreements, approximately 75 % of this   8   backlog at September 27, 2026 represented booked orders with performance obligations that will be satisfied within the next 12 months. The backlog does not reflect any elements of varia",
+  "PMC results for third quarter 2026 reflected year-over-year improved operating leverage and pricing as we continued to experience strong demand in our key aerospace & defense markets, particularly for commercial jet engine products. We believe our long-term agreements with aerospace market OEMs and backlog for our specialty materials, including powders, parts and components, position the HPMC segment for continued growth.   Advanced Alloys & Solutions Segment   Third quarter 2026 sales were $702.3 million, an increase of $179.7 million, or 34%, compared to third quarter 2025, primarily driven by higher sales to the aerospace & defense and specialty energy markets. On a year-over-year basis, aerospa",
+  "ice volatility in the markets for critical raw materials.   The majority of our products are sold utilizing raw material surcharges and index mechanisms. However, as of September 27, 2026, we had entered into financial hedging arrangements, primarily at the request of our customers, related to firm orders, for an aggregate notional amount of approximately 5 million pounds of nickel with hedge dates through 2027. The aggregate notional amount hedged is approximately 7% of a single year\u2019s estimated nickel raw material purchase requirements. These derivative instruments are used to hedge the variability of a selling price that is based on the London Metal Exchange (LME) index for nickel, as well as t"
+ ]
+}

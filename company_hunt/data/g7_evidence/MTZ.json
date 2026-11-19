@@ -1,0 +1,80 @@
+{
+ "ticker": "MTZ",
+ "cik": 15615,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   19100000000,
+   "10-Q",
+   "2026-10-29",
+   "0000015615-26-000125"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   11700000000,
+   "10-Q",
+   "2025-10-30",
+   "0000015615-25-000128"
+  ],
+  "growth": 0.6324786324786325
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   5152336000,
+   "10-Q",
+   "2026-10-29",
+   "0000015615-26-000125"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   3966948000,
+   "10-Q",
+   "2026-10-29",
+   "0000015615-26-000125"
+  ],
+  "growth": 0.29881611757955984
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   275448000,
+   "10-Q",
+   "2026-10-29",
+   "0000015615-26-000125"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   249613000,
+   "10-Q",
+   "2026-10-29",
+   "0000015615-26-000125"
+  ],
+  "growth": 0.10350021833798717
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/15615/000001561526000125/mtz-20260930.htm"
+ },
+ "backlog_hits": [
+  "e performance obligation is satisfied. The Company\u2019s contracts often require significant services to integrate complex activities and equipment into a single deliverable, and are therefore generally accounted for as a single performance obligation, even when delivering multiple distinct services.   Remaining performance obligations represent the amount of unearned transaction prices under contracts for which work is wholly or partially unperformed, including the Company\u2019s share of unearned transaction prices from its proportionately consolidated non-controlled joint ventures. As of September 30, 2026, the amount of the Company\u2019s remaining performance obligations was $ 19.1 billion. Based on current expectations, the Compan",
+  "pproximately $ 4.3 billion, or 22.5 %, of its remaining performance obligations as revenue during 2026, with the majority of the remaining balance expected to be recognized over the subsequent two year period, and the balance recognized thereafter. Estimates of the timing of revenue recognition for remaining performance obligations may change as a result of project accelerations, cancellations, deferrals or other changes in the timing of project work, including changes in project schedules, weather conditions, regulatory matters, permitting, and market conditions. These factors, among others, could cause revenue to be realized in periods and at levels different from those originally expected.   Variable Consideration. Tran",
+  " in transaction prices are based largely on discussions, correspondence or preliminary negotiations and past practices with the customer, engineering studies and legal advice and all other relevant information that is reasonably available at the time of the estimate. To the extent unapproved change orders, claims and other variable consideration reflected in transaction prices are not resolved in the Company\u2019s favor, or to the extent incentives reflected in transaction prices are not earned, there could be reductions in, or reversals of, previously recognized revenue.   As of September 30, 2026 and December 31, 2025, the Company\u2019s contract transaction prices included approximately $ 334 million an",
+  "ended September 30, 2026 were primarily the result of net working capital and valuation adjustments.   12   The following table provides a reconciliation of changes in other intangible assets, net, for the period indicated (in millions):   Other Intangible Assets, Net |   Customer Relationships and Backlog (a)   | Trade Names | Other (b)   | Total |   Other intangible assets, gross, as of December 31, 2025   | $ | 1,113.2 | $ | 228.3 | $ | 80.0 | $ | 1,421.5 |   Accumulated amortization | ( 628.8 ) | ( 83.7 ) | ( 52.8 ) | ( 765.3 ) |   Other intangible assets, net, as of December 31, 2025   | $ | 484.4 | $ | 144.6 | $ | 27.2 | $ | 656.2 |   Additions from new business combinations | 1,137.9 | 88.9 ",
+  "26 acquisitions as of September 30, 2026, and the related weighted average amortization periods by type (in millions):   Estimated Fair Value |   Weighted Average Amortization Period (in years) | McKee | Superior | All Others |   Customer relationships | 9.8   | $ | 108.3 | $ | 856.0 | $ | 40.7 |   Backlog | 1.5   | 30.4 | 95.0 | 0.5 |   Trade names | 9.2   | 2.8 | 83.0 | 3.1 |   Total identifiable intangible assets | $ | 141.5 | $ | 1,034.0 | $ | 44.3 |   Customer relationships are based on operational history and the nature of the customers, which are primarily municipalities and utility customers for McKee and primarily general contractors for Superior. Backlog is based on estimated cash flows e",
+  "master service and other service agreements is determined based on historical trends, anticipated seasonal impacts, experience from similar projects and estimates of customer demand based on communications with our customers. For contracts with not-to-exceed maximum amounts, we include in estimated backlog only the portion of the remaining maximum contractual amounts that, based on our estimates, we expect to realize. Based on current expectations of our customers\u2019 requirements, we anticipate that we will realize approximately 23% of our estimated September 30, 2026 backlog in 2026. The following table presents 18-month estimated backlog by reportable segment as of the dates indicated:   Reportable",
+  " 30, 2026   | September 30, 2025   |   Communications   | $ | 5,053 | $ | 5,461 | $ | 5,055 |   Clean Energy and Infrastructure   | 8,315 | 7,791 | 5,026 |   Power Delivery   | 8,913 | 6,347 | 5,128 |   Pipeline Infrastructure   | 2,265 | 1,792 | 1,571 |   Other   | \u2014 | \u2014 | \u2014 |   Estimated 18-month backlog | $ | 24,546 | $ | 21,391 | $ | 16,780 |   As of September 30, 2026, 34% of our backlog is estimated to be attributable to amounts under master service or other service agreements, pursuant to which our customers are not contractually committed to purchase a minimum amount of services. Most of these agreements can be canceled on short or no advance notice. Timing of revenue for construction and i",
+  "acklog as of any particular date is an uncertain indicator of future revenue and earnings.   30   Backlog is a common measurement used in our industry. Our methodology for determining backlog may not, however, be comparable to the methodologies used by others. Backlog differs from the amount of our remaining performance obligations, which are described in Note 1 \u2013 Business, Basis of Presentation and Significant Accounting Policies in the notes to the consolidated financial statements, which is incorporated by reference. As of September 30, 2026, total 18-month backlog differed from the amount of our remaining performance obligations due primarily to the inclusion of $9.0 billion of estimated future revenue under master ser",
+  "n not-to-exceed contracts within our backlog estimates, as described above, and the exclusion of approximately $3.6 billion of remaining performance obligations and estimated future revenue under master service and other service agreements in excess of 18 months, which amount is not included in the backlog estimates above. Backlog expected to be realized in 2026 differs from the amount of remaining performance obligations expected to be recognized for the same period due primarily to the inclusion of approximately $1.4 billion of estimated future revenue under master service and other service agreements included within our backlog estimate, which is not included within our remaining performance obl"
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "ticker": "FTI",
+ "cik": 1681459,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   15100000000,
+   "10-Q",
+   "2026-10-29",
+   "0001681459-26-000053"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   16813600000,
+   "10-Q",
+   "2025-10-23",
+   "0001681459-25-000112"
+  ],
+  "growth": -0.10191749536089834
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2895800000,
+   "10-Q",
+   "2026-10-29",
+   "0001681459-26-000053"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2647300000,
+   "10-Q",
+   "2026-10-29",
+   "0001681459-26-000053"
+  ],
+  "growth": 0.09386922524836616
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   564000000,
+   "10-Q",
+   "2026-10-29",
+   "0001681459-26-000053"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   438100000,
+   "10-Q",
+   "2026-10-29",
+   "0001681459-26-000053"
+  ],
+  "growth": 0.2873773111161835
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1681459/000168145926000053/fti-20260930.htm"
+ },
+ "backlog_hits": [
+  "bligations that are unsatisfied or partially unsatisfied as of the reporting date and reflect only the contract term for which the Company has present enforceable rights and obligations. As of September 30, 2026, RUPO was $ 15.1 billion. TechnipFMC expects to recognize revenue associated with these remaining performance obligations of approximately $ 2.0 billion, during the remainder of 2026, $ 5.9 billion in 2027, and $ 7.2 billion thereafter.   NOTE 4. BUSINESS SEGMENTS   Management\u2019s determination of our reporting segments was made on the basis of our strategic priorities within each segment and the differences in the products and services we provide, which corresponds to the manner in which our Chair and Chief Executiv",
+  " 418.4 | $ | 309.7 | $ | 108.7 | 35.1 |   Revenue   Revenue increased by $248.5 million during the three months ended September 30, 2026, compared to the same period in 2025. The increase was primarily attributable to $280.8 million higher Subsea revenue. This growth was driven by the conversion of backlog, with backlog being 17.4% higher at December 31, 2025, when compared to December 31, 2024, resulting in increased revenue activity across iEPCI \u00ae , SPS supply and Services activities, particularly in Latin America, Asia Pacific, and the Middle East. This increase was partially offset by lower activity in North America and Africa.   Gross Profit   Gross profit (revenue less cost of sales) increase",
+  " $ | 1,041.6 | $ | 721.2 | $ | 320.4 | 44.4 |   Revenue   Revenue increased by $736.0 million during the nine months ended September 30, 2026, compared to the prior-year period. The increase was primarily attributable $823.6 million higher Subsea revenue. This growth was driven by the conversion of backlog, with backlog being 17.4% higher at December 31, 2025, when compared to December 31, 2024, resulting in increased revenue activity across iEPCI \u00ae , SPS supply and Services activities, particularly in Latin America, Africa, and the Middle East. This increase was partially offset by lower activity in North America.   Gross Profit   Gross profit (revenue less cost of sales) increased to $1,998.7 mil",
+  " |   Operating profit | $ | 522.6 | $ | 401.3 | $ | 121.3 | 30.2 |   Operating profit as a percentage of revenue | 20.1 | % | 17.3 | % | 2.8 pts. |   Subsea revenue increased by $280.8 million during the three months ended September 30, 2026, compared to the same period in 2025, driven by increased backlog in 2025 related to higher energy demand and upstream spending, further aided by our unique commercial offerings. The increase in revenue was driven by iEPCI \u00ae and SPS supply and Services activities, primaril y $230.1 million from Latin America, $89.8 million from Asia Pacific, and $76.8 million from the Middle East. The rest of the world contributed a net decrease of $115.9 million primarily driv",
+  "  Operating profit | $ | 1,358.1 | $ | 1,029.5 | $ | 328.6 | 31.9 |   Operating profit as a percentage of revenue | 18.6 | % | 15.9 | % | 2.7 pts. |   Subsea revenue increased by $823.6 million during the nine months ended September 30, 2026, compared to the same period in 2025, driven by increased backlog during 2025 related to higher energy demand and upstream spending, further aided by our unique commercial offerings. The increase in revenue was driven by iEPCI \u00ae , SPS supply and Services activities, primar ily $607.0 million from Latin America, $162.6 million from Africa, and $159.5 million from the Middle East. The rest of the world contributed a net decrease of $105.5 million, primarily drive",
+  "| 2026 | 2025 | $ | % |   Corporate expense | $ | (92.3) | $ | (80.4) | $ | (11.9) | (14.8) |   Corporate expense increased by $11.9 million, compared to the prior-year period, primarily driven by an increase in share-based compensation expense recognized during the first quarter of 2026.   INBOUND ORDERS AND ORDER BACKLOG   Inbound orders - Inbound orders represent the estimated sales value of confirmed customer orders received during the reporting period.   Inbound Orders |   Three Months Ended September 30, | Nine Months Ended September 30, |   (In millions) | 2026 | 2025 | 2026 | 2025 |   Subsea | $ | 2,051.5 | $ | 2,381.5 | $ | 6,462.3 | $ | 7,720.1 |   Surface Technologies | 268.0 | 266.6 | ",
+  "| 848.1 |   Total inbound orders | $ | 2,319.5 | $ | 2,648.1 | $ | 7,198.5 | $ | 8,568.2 |   Order backlog - Order backlog is calculated as the estimated sales value of unfilled, confirmed customer orders at the reporting date. Backlog reflects the current expectations of project execution.   Order Backlog |   (In millions) | September 30, 2026 | December 31, 2025 |   Subsea | $ | 15,487.0 | $ | 15,871.7 |   Surface Technologies | 578.8 | 699.9 |   Total order backlog | $ | 16,065.8 | $ | 16,571.6 |   Subsea - Subsea backlog of $15,487.0 million as of September 30, 2026 decreased by $384.7 million compared to December 31, 2025, and was composed of various subsea projects, including TotalEnergies Mo",
+  "as Mero 3 HISEP \u00ae and Global 24; Shell Orca; Equinor Raia and Johan Sverdrup Phase 3; ExxonMobil Hammerhead and Whiptail; V\u00e5r Energi Ofelia & Gj\u00f8a Nord; ENI Coral North and Baleine Phase 3; Azule Greater PAJ and West Hub Tails and Woodside Great Western Flank Phase 4.   Surface Technologies - Order backlog for Surface Technologies as of September 30, 2026 decreased by $121.1 million compared to December 31, 2025. Surface Technologies\u2019 backlog of $578.8 million as of September 30, 2026, was composed primarily of projects for customers in the Middle East, namely ADNOC and Saudi Aramco. The remaining backlog was composed of various projects in the rest of the world.   LIQUIDITY AND CAPITAL RESOURCES  "
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "ticker": "TKR",
+ "cik": 98362,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   166000000,
+   "10-Q",
+   "2026-11-04",
+   "0000098362-26-000059"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   233000000,
+   "10-Q",
+   "2025-10-29",
+   "0000098362-25-000142"
+  ],
+  "growth": -0.28755364806866957
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1211400000,
+   "10-Q",
+   "2026-11-04",
+   "0000098362-26-000059"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1157100000,
+   "10-Q",
+   "2026-11-04",
+   "0000098362-26-000059"
+  ],
+  "growth": 0.0469276639875551
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   166000000,
+   "10-Q",
+   "2026-11-04",
+   "0000098362-26-000059"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   139400000,
+   "10-Q",
+   "2026-11-04",
+   "0000098362-26-000059"
+  ],
+  "growth": 0.19081779053084658
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/98362/000009836226000059/tkr-20260930.htm"
+ },
+ "backlog_hits": [
+  "ot been performed and excludes unexercised contract options. Performance obligations having a duration of more than one year are concentrated in contracts for certain products and services provided to the U.S. government or its contractors. The aggregate amount of the transaction price allocated to remaining performance obligations for such contracts with a duration of more than one year was approximately $ 166 million at September 30, 2026.   10   Table of Contents   Note 5 - Revenue (continued)   Unbilled Receivables:   The following table contains a rollforward of unbilled receivables for the nine months ended September 30, 2026 and the twelve months ended December 31, 2025:   September 30, 2026 | December 31, 2025 |   "
+ ]
+}

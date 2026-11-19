@@ -1,0 +1,83 @@
+{
+ "ticker": "XYL",
+ "cik": 1524472,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   3192000000,
+   "10-Q",
+   "2026-10-27",
+   "0001524472-26-000148"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   1980000000,
+   "10-Q",
+   "2025-10-28",
+   "0001524472-25-000046"
+  ],
+  "growth": 0.6121212121212121
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2201000000,
+   "10-Q",
+   "2026-10-27",
+   "0001524472-26-000148"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2268000000,
+   "10-Q",
+   "2026-10-27",
+   "0001524472-26-000148"
+  ],
+  "growth": -0.02954144620811283
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   385000000,
+   "10-Q",
+   "2026-10-27",
+   "0001524472-26-000148"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   334000000,
+   "10-Q",
+   "2026-10-27",
+   "0001524472-26-000148"
+  ],
+  "growth": 0.15269461077844304
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-27",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1524472/000152447226000148/xyl-20260930.htm"
+ },
+ "backlog_hits": [
+  "evenue loss from divestitures and $17 million of additional revenue from acquisitions, organic declines of $7 million, or 0.3%, partially offset by favorable foreign currency impacts of $3 million.   Additional financial highlights for the quarter ended September 30, 2026 include the following:   \u2022 Orders of $2,331 million, up 6.9% from $2,181 million in the prior year period, and up 9.9% on an organic basis.   \u2022 Earnings per share of $1.25, up 34.4% compared to prior year ($1.44, up 5.1% versus prior year, on an adjusted basis).   \u2022 Net income attributable to Xylem as a percent of revenue of 13.2%, up 320 basis points compared to 10.0% in the prior year. Adjusted EBITDA margin of 23.9%, up 70 bas",
+  "ming of revenue recognition in western Europe, market softness in China, and targeted exits on non-strategic capital revenue and market softness in emerging markets. The decreased organic revenue was partially offset by organic revenue growth in the transport application of $8 million due to strong backlog execution in the U.S., partially offset by reduced backlog execution and project timing in the emerging markets.   Water Infrastructure revenue increased $44 million, or 2.3%, for the nine months ended September 30, 2026 as compared to the prior year. Revenue growth for the period included $45 million of favorable impacts from foreign currency translation, an increase of $8 million of revenue fro",
+  "rowth of $4 million, or 0.2% and a loss of revenue of $13 million from divestitures. Organic revenue growth was driven by $42 million of organic growth in the transport application due to increased sales volume and strong backlog execution in the U.S. partially offset by market softness and reduced backlog execution in the emerging markets. Revenue in the treatment application declined by $38 million organically, driven by targeted exits on non-strategic capital revenue, market softness in China and reduced sales volume and capital project revenue in western Europe, partially offset by favorable capital project revenue in the U.S.   Applied Water   Applied Water revenue increased $33 million, or 7.",
+  "6 as compared to the prior year. Revenue growth for the quarter included organic revenue growth of $39 million, or 8.7%, and $6 million of lost revenue from divestitures. Revenue from the industrial application grew $24 million organically, due primarily to increased data center project revenue and backlog execution in the emerging markets and U.S. Building solutions revenue grew $15 million organically due to strong backlog execution and price realization in the U.S. commercial market, partially offset by declines in the residential market across all major geographies.   Applied Water revenue increased $64 million, or 4.7% for the nine months ended September 30, 2026 as compared to the prior year.",
+  "n organically, due primarily to commercial backlog execution and price in the U.S., partially offset by residential declines in the emerging markets and western Europe. Revenue from the industrial application grew by $15 million organically due primarily to increased data center project revenue and backlog execution in the U.S. and emerging markets, partially offset by reduced demand in western Europe driven by geopolitical uncertainty.   Measurement and Control Solutions   Measurement and Control Solutions revenue decreased $86 million, or 16.5%, for the third quarter of 2026 as compared to the prior year. The decrease in revenue was primarily due to the net impact of $68 million of lost revenue f",
+  "llion, or 1.6%, partially offset by $14 million of favorable foreign currency translation. Organic revenue declines were driven by $16 million from the smart metering and other applications, driven by reduced sales volume in water metering, partially offset by energy metering due to lower shippable backlog coming into the year in the U.S. Organic revenue declined by $7 million in the analytics application due primarily to reduced sales volume in the emerging markets and U.S.   47   Water Solutions and Services   Water Solutions and Services revenue decreased $3 million, or 0.5%, for the third quarter of 2026 as compared to the prior year. The decrease in revenue was primarily driven by $15 million,",
+  "ntract modification and favorable sales volume in the emerging markets and western Europe. Organic revenue from the service application declined by $6 million driven by unfavorable service project timing in the U.S., partially offset by favorable service and rental volume in the emerging markets.   Orders/Backlog   An order represents a legally enforceable, written document that includes the scope of work or services to be performed or equipment to be supplied to a customer, the corresponding price and the expected delivery date for the applicable products or services to be provided. An order often takes the form of a customer purchase order or a signed quote from a Xylem business.   The following",
+  " relation to orders during 2026:   Water Infrastructure | Applied Water | Measurement and Control Solutions | Water Solutions and Services | Total Xylem |   (in millions) | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change |   2025 Orders | $ | 683 | $ | 445 | $ | 446 | $ | 607 | $ | 2,181 |   Organic Impact | (8) | (1.2) | % | 67 | 15.4 | % | 114 | 29.5 | % | 36 | 5.9 | % | 209 | 9.9 | % |   Acquisitions | 2 | 0.3 | % | \u2014 | \u2014 | % | 4 | 0.9 | % | 5 | 0.8 | % | 11 | 0.5 | % |   Divestitures | (4) | (0.6) | % | (10) | (2.2) | % | (60) | (13.5) | % | \u2014 | \u2014 | % | (74) | (3.4) | % |   Foreign currency translation (a) | 2 | 0.3 | % | \u2014 ",
+  "ces in computational basis.   48   Water Infrastructure | Applied Water | Measurement and Control Solutions | Water Solutions and Services | Total Xylem |   (in millions) | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change | $  Change | %  Change |   2025 Orders | $ | 1,981 | $ | 1,419 | $ | 1,285 | $ | 1,828 | $ | 6,513 |   Organic Impact | (20) | (1.0) | % | 123 | 8.7 | % | 186 | 15.4 | % | 792 | 43.3 | % | 1,081 | 16.9 | % |   Acquisitions | 23 | 1.2 | % | \u2014 | \u2014 | % | 4 | 0.3 | % | 11 | 0.6 | % | 38 | 0.6 | % |   Divestitures | (12) | (0.6) | % | (10) | (0.7) | % | (80) | (6.2) | % | \u2014 | \u2014 | % | (102) | (1.6) | % |   Foreign currency translation (a) |",
+  "as contractual customer agreements at the end of the period. Delivery schedules vary from customer to customer based on their requirements. Annual or multi-year contracts are subject to rescheduling and cancellation by customers due to the long-term nature of the contracts. As such, beginning total backlog, plus orders, minus revenues, will not equal ending total backlog due to contract adjustments, foreign currency fluctuations, and other factors. Typically, capital projects require longer lead production cycles and deployment schedules and delays occur from time to time. Total backlog was $5,466 million at September 30, 2026, an increase of $647 million, or 13.4%, as compared to September 30, 202",
+  "million. The backlog increase was due to strong order intake in the Water Solutions and Services and Applied Water segments, including the securing of a significant contract in Water Solutions and Services during the nine months ended September 30, 2026. The backlog increase was partially offset by backlog declines in the Measurement and Control Solutions due to the net impact of divestiture and acquisition activity, and Water Infrastructure segments primarily due to revenue outpacing orders and contract wins. Backlog increased $851 million, or 18.4%, at September 30, 2026, as compared to December 31, 2025 backlog of $4,615 million. The increase in backlog as compared to December 31, 2025 was drive",
+  "ng order intake across all segments, including the securing of a significant contract in the Water Solutions and Services segment, partially offset by the divestiture of the international metering business in the Measurement and Control Solutions segment. We anticipate that approximately 20% of the backlog as of September 30, 2026 will be recognized as revenue in the remainder of 2026. There were no significant order cancellations during the quarter.   Gross Margin   Gross margin as a percentage of revenue increased 230 basis points to 41.2% for the three months ended September 30, 2026, as compared to 38.9% for the three months ended September 30, 2025. The gross margin increase included net favor"
+ ]
+}

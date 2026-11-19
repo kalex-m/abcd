@@ -1,0 +1,77 @@
+{
+ "ticker": "EQIX",
+ "cik": 1101239,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   15900000000,
+   "10-Q",
+   "2026-10-28",
+   "0001101239-26-000180"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   12700000000,
+   "10-Q",
+   "2025-10-29",
+   "0001101239-25-000062"
+  ],
+  "growth": 0.25196850393700787
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2571000000,
+   "10-Q",
+   "2026-10-28",
+   "0001101239-26-000180"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2316000000,
+   "10-Q",
+   "2026-10-28",
+   "0001101239-26-000180"
+  ],
+  "growth": 0.11010362694300513
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   600000000,
+   "10-Q",
+   "2026-10-28",
+   "0001101239-26-000180"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   474000000,
+   "10-Q",
+   "2026-10-28",
+   "0001101239-26-000180"
+  ],
+  "growth": 0.26582278481012667
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1101239/000110123926000180/eqix-20260930.htm"
+ },
+ "backlog_hits": [
+  "ized during the nine months ended September 30, 2026 from the opening deferred revenue balance as of January 1, 2026 was $ 91 million. The amount of revenue recognized during the nine months ended September 30, 2025 from the opening deferred revenue balance as of January 1, 2025 was $ 78 million.   Remaining Performance Obligations   Approximately $ 15.9 billion of revenues, including deferred installation revenues, are expected to be recognized in future periods related to unsatisfied performance obligations as of September 30, 2026. Most of our revenue contracts have an initial term varying from one to five years , and thereafter automatically renew in one-year increments. Included in the remaining performance obligation",
+  "constant currency basis). Growth in Americas revenues was primarily due to:   46   Table of Contents   \u2022 approximately $54 million of incremental revenues generated from IBX data center expansion projects which were completed within the twelve months ended September 30, 2026; and   \u2022 an increase in orders from both our existing customers and new customers during the period, driven by the realization of strong bookings.   EMEA Revenues. During the three months ended September 30, 2026, EMEA revenues increased by $94 million or 12% (11% on a constant currency basis). Growth in EMEA revenues was primarily due to:   \u2022 approximately $30 million of incremental revenues generated from IBX data center exp",
+  "ion or 10% (11% on a constant currency basis). Growth in Asia-Pacific revenues was primarily due to:   \u2022 approximately $17 million of incremental revenues generated from IBX data center expansion projects which were completed within the twelve months ended September 30, 2026; and   \u2022 an increase in orders from both our existing customers and new customers during the period, driven by the realization of strong bookings.   Cost of Revenues. Our cost of revenues for the three months ended September 30, 2026 and 2025 by geographic regions was as follows ($ in millions):   Three Months Ended September 30, | $ Change | % Change |   2026 | % | 2025 | % | Actual | Actual | Constant Currency |   Americas |",
+  " \u2022 approximately $163 million of incremental revenues generated from IBX data center expansion projects which were completed within the twelve months ended September 30, 2026;   \u2022 $116 million of incremental revenues from non-recurring services provided to our joint ventures; and   \u2022 an increase in orders from both our existing customers and new customers during the period, driven by the realization of strong bookings.   EMEA Revenues. During the nine months ended September 30, 2026, EMEA revenues increased by $256 million or 11% (8% on a constant currency basis). Growth in EMEA revenues was primarily due to:   \u2022 approximately $90 million of incremental revenues generated from IBX data center expa",
+  "llion or 9% (8% on a constant currency basis). Growth in Asia-Pacific revenues was primarily due to:   \u2022 approximately $51 million of incremental revenues generated from IBX data center expansion projects which were completed within the twelve months ended September 30, 2026; and   \u2022 an increase in orders from both our existing customers and new customers during the period, driven by the realization of strong bookings.   The increase was partially offset by a decrease in revenues from non-recurring services provided to our joint ventures.   52   Table of Contents   Cost of Revenues. Our cost of revenues for the nine months ended September 30, 2026 and 2025 by geographic regions was as follows ($ i",
+  "xpansion projects prior to making them available to customers for installation, the majority of which is payable within the next 12 months; and   \u2022 approximately $2.4 billion of other non-capital purchase commitments, such as commitments to purchase power in select locations and other open purchase orders, which contractually bind us for goods, services or arrangements to be delivered or provided during the remainder of 2026 and beyond, the majority of which is payable within the next two years.   We believe that our sources of liquidity, including our expected future operating cash flows, are sized to adequately meet both the near- and long-term material cash commitments for the foreseeable futur"
+ ]
+}

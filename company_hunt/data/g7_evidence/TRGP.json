@@ -1,0 +1,53 @@
+{
+ "ticker": "TRGP",
+ "cik": 1389170,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   5598600000,
+   "10-Q",
+   "2026-11-05",
+   "0001193125-26-449541"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   4151200000,
+   "10-Q",
+   "2026-11-05",
+   "0001193125-26-449541"
+  ],
+  "growth": 0.3486702640200423
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1096000000,
+   "10-Q",
+   "2026-11-05",
+   "0001193125-26-449541"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   836900000,
+   "10-Q",
+   "2026-11-05",
+   "0001193125-26-449541"
+  ],
+  "growth": 0.3095949336838333
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526449541/trgp-20260930.htm"
+ },
+ "backlog_hits": [
+  "ugh December 31, 2022. On July 7, 2026, Targa paid an administrative penalty of approximately $ 0.5 million and agreed to perform a Supplemental Environmental Project for an equal amount. On November 4, 2026, the TCEQ approved the Agreed Order.   Note 14 \u2014 Revenue   Fixed consideration allocated to remaining performance obligations   The following table presents the estimated minimum revenue related to unsatisfied performance obligations at the end of the reporting period, and is comprised of fixed consideration primarily attributable to contracts with minimum volume commitments, for which a guaranteed amount of revenue can be calculated. These contracts are comprised primarily of gathering and processing, fractionation, t",
+  "  |   |   2028 and after   |   |   Fixed consideration to be recognized as of September 30, 2026   |   |   |   $   |   94.0   |   |   |   $   |   434.8   |   |   |   $   |   1,998.7   |   |   Based on the optional exemptions that we elected to apply, the amounts presented in the table above exclude remaining performance obligations for (i) variable consideration for which the allocation exception is met and (ii) contracts with an original expected duration of one year or less.   24   Deferred Revenue   Deferred revenue as of September 30, 2026 and December 31, 2025 was $ 140.1 million and $ 135.7 million, respectively. As of September 30, 2026, $ 24.3 million of deferred revenue is included in Accrued liabilities and $ 115"
+ ]
+}

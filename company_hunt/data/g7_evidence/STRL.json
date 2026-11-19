@@ -1,0 +1,78 @@
+{
+ "ticker": "STRL",
+ "cik": 874238,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   4048816000,
+   "10-Q",
+   "2026-10-29",
+   "0000874238-26-000125"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   2575370000,
+   "10-Q",
+   "2025-11-04",
+   "0000874238-25-000136"
+  ],
+  "growth": 0.5721298298885209
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1563927000,
+   "10-Q",
+   "2026-10-29",
+   "0000874238-26-000125"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   689019000,
+   "10-Q",
+   "2026-10-29",
+   "0000874238-26-000125"
+  ],
+  "growth": 1.2697879158629877
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   306842000,
+   "10-Q",
+   "2026-10-29",
+   "0000874238-26-000125"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   125309000,
+   "10-Q",
+   "2026-10-29",
+   "0000874238-26-000125"
+  ],
+  "growth": 1.4486828559800173
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/874238/000087423826000125/strl-20260930.htm"
+ },
+ "backlog_hits": [
+  "ders | $ | 214,933 | $ | 90,766 | $ | 480,052 | $ | 208,691 |   From the acquisition date of June 1, 2026 through September 30, 2026, the revenue and net income associated with the Stone Ridge Acquisition did not have a material impact on our results of operations.   4. | REVENUE FROM CUSTOMERS |   Remaining Performance Obligations (\u201cRPOs\u201d)\u2014 RPOs represent the aggregate amount of our contract transaction price related to performance obligations that are unsatisfied or partially satisfied at the end of the period. RPOs include the entire expected revenue values for joint ventures we consolidate and our proportionate value for those we proportionately consolidate. RPOs may not be indicative of future operating results. Proje",
+  " 515,500 |   Residential and Other | 292,560 | 81,300 | 553,938 | 252,747 |   Total Revenues | $ | 1,563,927 | $ | 689,019 | $ | 3,557,781 | $ | 1,734,436 |   Variable Consideration   The Company has projects that it is in the process of negotiating, or awaiting final approval of, unapproved change orders and claims with its customers. The Company is proceeding with its contractual rights to recoup additional costs incurred from its customers based on completing work associated with change orders, including change orders with pending change order pricing, or claims related to significant changes in scope which resulted in substantial delays and additional costs in completing the work. Unapproved c",
+  "s and negotiations with the customers are ongoing. If additional progress with an acceptable resolution is not reached, legal action will be taken. Based upon the Company\u2019s review of the provisions of its contracts, specific costs incurred and other related evidence supporting the unapproved change orders and claims, together in some cases as necessary with the views of the Company\u2019s outside claim consultants, the Company concluded it was appropriate to include in project price amounts of $ 29.4 million and $ 2.9 million at September 30, 2026 and December 31, 2025, respectively, relating to unapproved change orders and claims. Provisions for estimated losses on uncompleted contracts are made in th",
+  "ally completed in 6 to 36 months.   Our unsigned awards (\u201cUnsigned Awards\u201d) are excluded from Backlog until the contract is executed by our customer. We refer to the combination of our Backlog and Unsigned Awards as \u201cCombined Backlog.\u201d Our book-to-burn ratio is determined by taking our additions to Backlog and dividing them by revenue for the applicable period. This metric allows management to monitor the Company\u2019s business development efforts to ensure we grow our Backlog and our business over time, and management believes that this measure is useful to investors for the same reason.   At September 30, 2026, our RPOs were $4.05 billion and our estimated orders under MSAs were $94.1 million, result",
+  " billion and estimated MSAs orders were zero, resulting in a total Backlog of $3.01 billion. For the nine months ended September 30, 2026, the Backlog book-to-burn ratio was 1.3X. Unsigned Awards were $2.00 billion at September 30, 2026 and $300.7 million at December 31, 2025, resulting in Combined Backlog of $6.14 billion and $3.31 billion at September 30, 2026 and December 31, 2025, respectively, with a book-to-burn ratio of 1.9X for the nine months ended September 30, 2026.   25   RESULTS OF OPERATIONS   Consolidated Results   Three Months Ended September 30, | Nine Months Ended September 30, |   (In thousands) | 2026 | 2025 | 2026 | 2025 |   Revenues | $ | 1,563,927 | $ | 689,019 | $ | 3,557,78",
+  "egment.   Our contracts are of various sizes, of different expected profitability and in various stages of completion. The nearer a contract progresses toward completion, the more visibility the Company has in refining its estimate of total revenues (including incentives, delay penalties and change orders), costs and gross profit. Thus, gross profit as a percentage of revenues can increase or decrease from comparable and subsequent quarters due to variations among contracts and the stage of completion of contracts.   General and administrative expenses\u2014 General and administrative expenses were $61.4 million, or 3.9% of revenue, for the third quarter of 2026, compared to $37.6 million, or 5.5% of r",
+  "| 607 |   Accounts payable | 144,381 | 5,316 |   Change in Contract Capital, net | $ | (350,834) | $ | (113,610) |   During the nine months ended September 30, 2026, the change in Contract Capital was $350.8 million. The Company\u2019s Contract Capital fluctuations are impacted by the mix of projects in Backlog, seasonality, the timing of new awards and related payments for work performed and the contract billings to the customer as projects are completed. Contract Capital is also impacted at period-end by the timing of accounts receivable collections and accounts payable payments for projects.   Investing Activities \u2014During the nine months ended September 30, 2026, net cash used in investing activities"
+ ]
+}

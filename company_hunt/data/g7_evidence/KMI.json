@@ -1,0 +1,73 @@
+{
+ "ticker": "KMI",
+ "cik": 1506307,
+ "rpo": {
+  "latest": [
+   null,
+   "2025-09-30",
+   35671000000,
+   "10-Q",
+   "2025-10-24",
+   "0001506307-25-000065"
+  ],
+  "prior": [
+   null,
+   "2024-09-30",
+   32833000000,
+   "10-Q",
+   "2024-10-18",
+   "0001506307-24-000119"
+  ],
+  "growth": 0.08643742576066771
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   4531000000,
+   "10-Q",
+   "2026-10-23",
+   "0001506307-26-000132"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   4146000000,
+   "10-Q",
+   "2026-10-23",
+   "0001506307-26-000132"
+  ],
+  "growth": 0.09286058851905454
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1160000000,
+   "10-Q",
+   "2026-10-23",
+   "0001506307-26-000132"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1063000000,
+   "10-Q",
+   "2026-10-23",
+   "0001506307-26-000132"
+  ],
+  "growth": 0.09125117591721543
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-23",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1506307/000150630726000132/kmi-20260930.htm"
+ },
+ "backlog_hits": [
+  "e contract liability balance associated with prepaid fixed reservation charges relating to contracts expiring from 2035 to 2040, under a long-term terminal services contract totaling $ 489 million and $ 531 million as of September 30, 2026 and December 31, 2025, respectively.   Revenue Allocated to Remaining Performance Obligations   The following table presents our estimated revenue related to unsatisfied performance obligations representing fixed consideration primarily related to commodity sales or service contracts with take-or-pay or minimum volume commitments that we expect to recognize in future periods:   Remaining 2026 | 2027 | 2028 and thereafter |   (In billions) |   Estimated revenue as of September 30, 2026   ",
+  "d purchase of natural gas by failing to repurchase natural gas nominated by Freeport between February 10-22, 2021 during Winter Storm Uri. We deny that we were obligated to repurchase natural gas from Freeport given our declaration of force majeure during the storm and our compliance with emergency orders issued by the Railroad Commission of Texas providing heightened priority for the delivery of gas to human needs customers. Freeport alleges that it is owed approximately $ 104 million, plus attorney fees and interest. On October 24, 2022, the trial court granted our motion for summary judgment on all of Freeport\u2019s claims. On April 15, 2025, the 14th Court of Appeals reversed and remanded the case"
+ ]
+}

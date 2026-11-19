@@ -1,0 +1,66 @@
+{
+ "ticker": "PNR",
+ "cik": 77360,
+ "rpo": {
+  "latest": [
+   null,
+   "2018-12-31",
+   57200000,
+   "10-K",
+   "2019-02-19",
+   "0000077360-19-000006"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   976400000,
+   "10-Q",
+   "2026-10-27",
+   "0000077360-26-000058"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1022000000,
+   "10-Q",
+   "2026-10-27",
+   "0000077360-26-000058"
+  ],
+  "growth": -0.044618395303326785
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   195900000,
+   "10-Q",
+   "2026-10-27",
+   "0000077360-26-000058"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   231700000,
+   "10-Q",
+   "2026-10-27",
+   "0000077360-26-000058"
+  ],
+  "growth": -0.15451014242555028
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-27",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/77360/000007736026000058/pnr-20260930.htm"
+ },
+ "backlog_hits": [
+  "| 593.6 | 577.7 |   Consolidated net sales | $ | 976.4 | $ | 1,022.0 | $ | 2,945.7 | $ | 3,155.5 |   8   Table of Contents   Pentair plc and Subsidiaries   Notes to condensed consolidated financial statements (unaudited)   Performance obligations   As of September 30, 2026, we had $ 94.8 million of remaining performance obligations on contracts with an original expected duration of one year or more. We expect to recognize the majority of our remaining performance obligations on these contracts within the next 12 to 18 months.   Contract assets and liabilities   Contract assets and liabilities consisted of the following:   In millions | September 30, 2026 | December 31, 2025 | $ Change | % Change |   Contract assets | $ | 6",
+  "s and bonds   In the ordinary course of business, we are required to commit to bonds, letters of credit and bank guarantees that require payments to our customers for any non-performance. The outstanding face value of these instruments fluctuates with the value of our projects in process and in our backlog. In addition, we issue financial stand-by letters of credit primarily to secure our performance to third parties under self-insurance programs.   As of September 30, 2026 and December 31, 2025, the outstanding value of bonds, letters of credit and bank guarantees totaled $ 117.2 million and $ 115.0 million, respectively.   24   Table of Contents   ITEM 2. MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF F"
+ ]
+}

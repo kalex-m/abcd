@@ -1,0 +1,72 @@
+{
+ "ticker": "DELL",
+ "cik": 1571996,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-07-31",
+   132000000000,
+   "10-Q",
+   "2026-09-08",
+   "0001571996-26-000046"
+  ],
+  "prior": [
+   null,
+   "2025-08-01",
+   44000000000,
+   "10-Q",
+   "2025-09-08",
+   "0001571996-25-000102"
+  ],
+  "growth": 2.0
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-02",
+   "2026-07-31",
+   46971000000,
+   "10-Q",
+   "2026-09-08",
+   "0001571996-26-000046"
+  ],
+  "prior": [
+   "2025-05-03",
+   "2025-08-01",
+   29776000000,
+   "10-Q",
+   "2026-09-08",
+   "0001571996-26-000046"
+  ],
+  "growth": 0.5774785061794734
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-05-02",
+   "2026-07-31",
+   5385000000,
+   "10-Q",
+   "2026-09-08",
+   "0001571996-26-000046"
+  ],
+  "prior": [
+   "2025-05-03",
+   "2025-08-01",
+   1773000000,
+   "10-Q",
+   "2026-09-08",
+   "0001571996-26-000046"
+  ],
+  "growth": 2.0372250423011846
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-08",
+  "period": "2026-07-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm"
+ },
+ "backlog_hits": [
+  "|   Revenue recognized | ( 5,006 ) | ( 5,111 ) | ( 10,024 ) | ( 10,211 ) |   Deferred revenue at end of period | $ | 29,718 | $ | 26,181 | $ | 29,718 | $ | 26,181 |   Short-term | $ | 14,761 | $ | 13,759 | $ | 14,761 | $ | 13,759 |   Long-term | $ | 14,957 | $ | 12,422 | $ | 14,957 | $ | 12,422 |   Remaining Performance Obligations   Revenue allocated to remaining performance obligations, which includes deferred revenue and unbilled amounts not yet recorded in deferred revenue, was approximately $ 132 billion as of July 31, 2026. The Company expects to recognize approximately 77 % of remaining performance obligations as revenue in the next twelve months , approximately 14 % in the following twelve months , and the remainde"
+ ]
+}

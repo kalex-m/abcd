@@ -1,0 +1,72 @@
+{
+ "ticker": "AMD",
+ "cik": 2488,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-26",
+   246000000,
+   "10-Q",
+   "2026-11-04",
+   "0000002488-26-000191"
+  ],
+  "prior": [
+   null,
+   "2025-09-27",
+   279000000,
+   "10-Q",
+   "2025-11-05",
+   "0000002488-25-000166"
+  ],
+  "growth": -0.11827956989247312
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   13377000000,
+   "10-Q",
+   "2026-11-04",
+   "0000002488-26-000191"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   9246000000,
+   "10-Q",
+   "2026-11-04",
+   "0000002488-26-000191"
+  ],
+  "growth": 0.4467878001297858
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   2832000000,
+   "10-Q",
+   "2026-11-04",
+   "0000002488-26-000191"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   1270000000,
+   "10-Q",
+   "2026-11-04",
+   "0000002488-26-000191"
+  ],
+  "growth": 1.2299212598425195
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+ },
+ "backlog_hits": [
+  "omer-related liabilities | $ | 1,405 | $ | 1,194 |   Accrued marketing programs | 1,131 | 1,454 |   Accrued compensation and benefits | 2,270 | 1,645 |   Other accrued expenses and liabilities   | 1,425 | 957 |   Total accrued liabilities   | $ | 6,231 | $ | 5,250 |   Revenue   Revenue allocated to remaining performance obligations that are unsatisfied or partially unsatisfied include amounts received from customers and amounts that will be invoiced and recognized as revenue in future periods for development and engineering services, IP licensing, and product revenue. As of September 26, 2026, the aggregate transaction price allocated to remaining performance obligations under contracts with an original expected duration o"
+ ]
+}

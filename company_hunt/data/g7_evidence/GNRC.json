@@ -1,0 +1,72 @@
+{
+ "ticker": "GNRC",
+ "cik": 1474735,
+ "rpo": {
+  "latest": [
+   null,
+   "2025-09-30",
+   211430000,
+   "10-Q",
+   "2025-11-04",
+   "0001437749-25-033048"
+  ],
+  "prior": [
+   null,
+   "2024-09-30",
+   179294000,
+   "10-Q",
+   "2024-11-05",
+   "0001437749-24-033337"
+  ],
+  "growth": 0.17923633808158668
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1294779000,
+   "10-Q",
+   "2026-11-03",
+   "0001437749-26-034665"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1114353000,
+   "10-Q",
+   "2026-11-03",
+   "0001437749-26-034665"
+  ],
+  "growth": 0.16191099229777284
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   160583000,
+   "10-Q",
+   "2026-11-03",
+   "0001437749-26-034665"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   103079000,
+   "10-Q",
+   "2026-11-03",
+   "0001437749-26-034665"
+  ],
+  "growth": 0.5578633863347529
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926034665/gnrc20260930_10q.htm"
+ },
+ "backlog_hits": [
+  "ring the nine months ended September 30, 2026, the Company recognized revenue of $ 100,281 rel ated to amounts included in the December 31, 2025 contract liability balance.   16   Table of Contents   As of September 30, 2026 , the aggregate amount of revenue that the Company expects to recognize on remaining performance obligations (excluding extended warranty) was approximately $ 330,000 , of which approximately 92 % is expected to be recognized as revenue over the next two years. We have applied the practical expedient to exclude the value of remaining performance obligations for contracts with an original term of one year or less.   12 . Customer Warrant   On September 16, 2026, the Company issued a warrant (the Warrant"
+ ]
+}

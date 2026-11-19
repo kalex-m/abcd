@@ -1,0 +1,76 @@
+{
+ "ticker": "LDOS",
+ "cik": 1336920,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-10-02",
+   21000000000,
+   "10-Q",
+   "2026-11-03",
+   "0001336920-26-000293"
+  ],
+  "prior": [
+   null,
+   "2025-10-03",
+   17000000000,
+   "10-Q",
+   "2025-11-04",
+   "0001336920-25-000060"
+  ],
+  "growth": 0.23529411764705888
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   4630000000,
+   "10-Q",
+   "2026-11-03",
+   "0001336920-26-000293"
+  ],
+  "prior": [
+   "2025-07-05",
+   "2025-10-03",
+   4469000000,
+   "10-Q",
+   "2026-11-03",
+   "0001336920-26-000293"
+  ],
+  "growth": 0.03602595658984109
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   553000000,
+   "10-Q",
+   "2026-11-03",
+   "0001336920-26-000293"
+  ],
+  "prior": [
+   "2025-07-05",
+   "2025-10-03",
+   535000000,
+   "10-Q",
+   "2026-11-03",
+   "0001336920-26-000293"
+  ],
+  "growth": 0.03364485981308407
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-10-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1336920/000133692026000293/ldos-20261002.htm"
+ },
+ "backlog_hits": [
+  " include unexercised option periods and future potential task orders expected to be awarded under indefinite delivery/indefinite quantity (\"IDIQ\") contracts, General Services Administration Schedule or other master agreement contract vehicles, with the exception of certain IDIQ contracts where task orders are not competitively awarded and separately priced but instead are used as a funding mechanism, and where there is a basis for estimating future revenues and funding on future anticipated task orders.   As of October 2, 2026, we had $ 21 billion of RPO and expect to recognize approximately 64 % and 83 % over the next 12 months and 24 months, respectively, with the remainder to be recognized ther",
+  " material.   The goodwill represents intellectual capital and the acquired assembled workforce, neither of which qualifies for recognition as a separate intangible asset. Of the preliminary goodwill recognized, approximately $ 119 million is tax deductible.   The acquired customer relationships and backlog intangible assets are amortized over their respective estimated useful lives in proportion to the pattern of economic benefit based on expected future discounted cash flows.   The following table summarizes the preliminary fair value of intangible assets acquired at the Acquisition Date and the related weighted average amortization period:   Weighted Amortization Period | Fair Value |   (in years",
+  "Gross carrying value | Accumulated amortization | Net carrying value | Gross carrying value | Accumulated amortization | Net carrying value |   Customer Relationships | $ | 628 | $ | ( 44 ) | $ | 584 | $ | 53 | $ | ( 34 ) | $ | 19 |   Programs | 1,626 | ( 1,377 ) | 249 | 1,748 | ( 1,391 ) | 357 |   Backlog   | 55 | ( 28 ) | 27 | 12 | ( 7 ) | 5 |   Software and technology   | 97 | ( 78 ) | 19 | 264 | ( 187 ) | 77 |   Total intangible assets | $ | 2,406 | $ | ( 1,527 ) | $ | 879 | $ | 2,077 | $ | ( 1,619 ) | $ | 458 |   Amortization expense was $ 35 million and $ 105 million for the three and nine months ended October 2, 2026, respectively, and $ 34 million and $ 96 million for the three and nine mon",
+  "ths ended October 3, 2025, and 18.9% for the nine months ended October 2, 2026, compared to 23.9% for the nine months ended October 3, 2025. The decreases in both periods were primarily due to an increase in the federal research tax credit and a decrease in unrecognized tax benefits.   BOOKINGS AND BACKLOG   We recorded net bookings worth an estimated $5.5 billion and $13.7 billion during the three and nine months ended October 2, 2026, respectively, as compared to $5.9 billion and $11.9 billion for the three and nine months ended October 3, 2025, respectively.   The estimated value of our total backlog was as follows:   October 2, 2026 | October 3, 2025 |   (in millions) | Funded | Unfunded | Tota",
+  " $ | 17,339 | $ | 19,431 |   Health | 1,243 | 5,075 | 6,318 | 1,523 | 6,479 | 8,002 |   Homeland | 3,909 | 6,501 | 10,410 | 3,193 | 6,538 | 9,731 |   Defense | 3,812 | 10,842 | 14,654 | 2,256 | 8,236 | 10,492 |   Total | $ | 11,062 | $ | 38,492 | $ | 49,554 | $ | 9,064 | $ | 38,592 | $ | 47,656 |   Backlog at October 2, 2026, includes amounts acquired as part of the Entrust transaction. As of March 27, 2026, the acquisition date, Entrust had $371 million of backlog that was included within the Homeland reportable segment.   Backlog represents the revenues we expect to recognize under negotiated contracts and unissued task orders on sole source IDIQ contracts, to the extent we believe their executio"
+ ]
+}

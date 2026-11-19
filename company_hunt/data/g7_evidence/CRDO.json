@@ -1,0 +1,55 @@
+{
+ "ticker": "CRDO",
+ "cik": 1807794,
+ "rev_q": {
+  "latest": [
+   "2026-05-03",
+   "2026-08-01",
+   479003000,
+   "10-Q",
+   "2026-09-02",
+   "0001628280-26-060111"
+  ],
+  "prior": [
+   "2025-05-04",
+   "2025-08-02",
+   223074000,
+   "10-Q",
+   "2026-09-02",
+   "0001628280-26-060111"
+  ],
+  "growth": 1.1472829643974647
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-05-03",
+   "2026-08-01",
+   120700000,
+   "10-Q",
+   "2026-09-02",
+   "0001628280-26-060111"
+  ],
+  "prior": [
+   "2025-05-04",
+   "2025-08-02",
+   60742000,
+   "10-Q",
+   "2026-09-02",
+   "0001628280-26-060111"
+  ],
+  "growth": 0.9870929505120016
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-02",
+  "period": "2026-08-01",
+  "url": "https://www.sec.gov/Archives/edgar/data/1807794/000162828026060111/crdo-20260801.htm"
+ },
+ "backlog_hits": [
+  "s   | $   | 255,442   |   | $   | 82,828   |   |   Hong Kong   | 91,175   |   |   | 74,885   |   |   Malaysia | 74,455   |   |   | 6,383   |   |   Mainland China   | 1,095   |   |   | 51,781   |   |   Rest of World   | 56,836   |   |   | 7,197   |   |   $   | 479,003   |   | $   | 223,074   |   |   Remaining Performance Obligations   Revenue allocated to remaining performance obligations represents the transaction price allocated to the performance obligations that are unsatisfied, or partially unsatisfied, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods. The contracted but unsatisfied performance obligations as of August 1, 2026 were approximately $ 4.2 million",
+  "plement to our financial statement footnote disclosure and to provide further insight into our end customer concentration, the following table summarizes our revenue by customer as a percentage of revenue based on end customer profile, rather than based on the contracting parties who place purchase orders or sign revenue contracts with us:   Three Months Ended |   Revenue | August 1, 2026 | August 2, 2025 |   Customer C | 28 | % | 35 | % |   Customer D | 33 | % | 33 | % |   Customer E | 13 | % | 20 | % |   Customer F | 10 | % | * |   * Less than 10% of total revenue.   Our Business Model   We are a product-focused business with a strong foundation in IP, pioneering comprehensive connectivity solut",
+  "sh outflows from working capital for the three months ended August 1, 2026 were primarily driven by (a) an increase in accounts receivable of $54.5 million primarily due to increased sales in the three months ended August 1, 2026; (b) an increase in inventory of $61.5 million to support unfulfilled backlog and related new product ramps; (c) an increase in other non-current assets of $25.3 million primarily relating to payments of refundable deposits for a manufacturing supply capacity reservation agreement; and (d) a decrease in accounts payable and other current liabilities of $16.4 million due to timing of payments for inventory and IP license purchases.   Net cash provided by operating activitie",
+  "flows from working capital for the three months ended August 2, 2025, which was primarily driven by (a) an increase in accounts receivable of $19.1 million primarily due to increased sales in the three months ended August 2, 2025; (b) an increase in inventory of $27.5 million to support unfulfilled backlog and related new product ramps and (c) an increase in accounts payable of $9.0 million due to timing of payment for purchases of property and equipment.   Cash Flows Used in Investing Activities   Net cash used in investing activities of $762.0 million in the three months ended August 1, 2026 was primarily attributable to purchases of property and equipment of $7.3 million, purchases of certificat"
+ ]
+}

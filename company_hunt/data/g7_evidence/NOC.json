@@ -1,0 +1,74 @@
+{
+ "ticker": "NOC",
+ "cik": 1133421,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   109600000000,
+   "10-Q",
+   "2026-10-20",
+   "0001133421-26-000038"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   91400000000,
+   "10-Q",
+   "2025-10-21",
+   "0001133421-25-000053"
+  ],
+  "growth": 0.19912472647702417
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   11122000000,
+   "10-Q",
+   "2026-10-20",
+   "0001133421-26-000038"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   10423000000,
+   "10-Q",
+   "2026-10-20",
+   "0001133421-26-000038"
+  ],
+  "growth": 0.06706322555886013
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1269000000,
+   "10-Q",
+   "2026-10-20",
+   "0001133421-26-000038"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1242000000,
+   "10-Q",
+   "2026-10-20",
+   "0001133421-26-000038"
+  ],
+  "growth": 0.021739130434782705
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-20",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1133421/000113342126000038/noc-20260930.htm"
+ },
+ "backlog_hits": [
+  "e EAC adjustment on the engineering and manufacturing development (EMD) phase of the Sentinel program at Defense Systems. During the first quarter of 2025, the company recorded a $ 226 million unfavorable EAC adjustment on the first and second LRIP lots of the B-21 program at Aeronautics Systems.   Backlog   Backlog represents the future sales we expect to recognize on firm orders received by the company and is equivalent to the company\u2019s remaining performance obligations at the end of each period. It comprises both funded backlog (firm orders for which funding is authorized and appropriated) and unfunded backlog. Unexercised contract options and indefinite delivery indefinite quantity (IDIQ) contr",
+  " reduction activities, and evaluation of   -24-   Table of Contents   NORTHROP GRUMMAN CORPORATION   options to accelerate fielding of initial capability, have resulted in further definition and authorization of elements of the program execution plan, resulting in a $9.4 billion increase in program backlog.   During the third quarter of 2026, we again reviewed our estimated profitability on the Sentinel program and made no significant changes. If our estimated cost to complete the restructured EMD effort or our achievement of future contract incentives is more or less favorable than what we have estimated, our financial position, results of operations and/or cash flows could be materially affected.",
+  "higher restricted service sales at Aeronautics Systems.   Year to date 2026 service costs decreased $122 million, or 2 percent, reflecting a higher operating margin rate principally driven by higher net EAC adjustments on service programs at Aeronautics Systems, Mission Systems and Space Systems.   BACKLOG   Backlog consisted of the following as of September 30, 2026 and December 31, 2025:   September 30, 2026 | December 31, 2025 |   $ in millions | Funded | Unfunded | Total Backlog | Total Backlog | % Change in 2026   |   Aeronautics Systems | $ | 15,511 | $ | 11,288 | $ | 26,799 | $ | 23,052 | 16 | % |   Defense Systems | 10,294 | 26,181 | 36,475 | 27,796 | 31 | % |   Mission Systems | 14,442 | 5"
+ ]
+}

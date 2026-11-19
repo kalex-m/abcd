@@ -1,0 +1,77 @@
+{
+ "ticker": "KTOS",
+ "cik": 1069258,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-27",
+   2650000000,
+   "10-Q",
+   "2026-11-05",
+   "0001069258-26-000088"
+  ],
+  "prior": [
+   null,
+   "2025-09-28",
+   1480000000,
+   "10-Q",
+   "2025-11-04",
+   "0001069258-25-000058"
+  ],
+  "growth": 0.7905405405405406
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   471800000,
+   "10-Q",
+   "2026-11-05",
+   "0001069258-26-000088"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   347600000,
+   "10-Q",
+   "2026-11-05",
+   "0001069258-26-000088"
+  ],
+  "growth": 0.3573072497123131
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   -4900000,
+   "10-Q",
+   "2026-11-05",
+   "0001069258-26-000088"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   7100000,
+   "10-Q",
+   "2026-11-05",
+   "0001069258-26-000088"
+  ],
+  "growth": -1.6901408450704225
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000088/ktos-20260927.htm"
+ },
+ "backlog_hits": [
+  "  Total assets acquired   | 20.4 |   Total liabilities assumed   | ( 10.1 ) |   Goodwill | 26.9 |   Total consideration transferred | $ | 37.2 |   The identifiable intangible assets as of February 4, 2025 included customer relationships of $ 5.8 million with a useful life of 10 years, contracts and backlog of $ 1.4 million with a useful life of 2 years, developed technology of $ 1.4 million with a useful life of 5 years, trade names of $ 0.6 million with a useful life of 7 years, and a non-compete agreement valued at $ 0.5 million with a useful life of 5 years. The goodwill recorded in this transaction is expected to be tax-deductible.   The value of customer relationships was estimated using the m",
+  "ent of the transaction price associated with work performed to date on products or services that do not have an alternative use to the Company. As a result, under ASC 606, revenue is recognized over time using the cost-to-cost method (cost incurred relative to total estimated cost at completion).   Remaining Performance Obligations   The Company calculates revenues from remaining performance obligations based on the transaction price on executed contracts as of the measurement date. On September 27, 2026, the Company had approximately $ 2.650 billion of remaining performance obligations. The Company expects to recognize approximately 16 % of the remaining performance obligations as revenue in fiscal year 2026, an additiona",
+  "ecapitalization of the defense industrial base and weapon systems occurring globally, including with the United States and its allies, to address individual and potential collective peer and near peer threats, including Russia, China, North Korea and Iran. The Company currently has record levels of backlog and opportunity pipeline. The Company is currently making significant capital, property, plant, equipment and other internally funded investments including the procurement of supply chain components for approximately 3,000 turbojet engines we expect to produce in 2027, of which we currently expect to deliver approximately 1,500 to customers in 2027 and the remainder in 2028, to address backlog, e",
+  "d September 28, 2025 include a benefit of $9.2 million and $3.4 million, respectively, for stock compensation related items. For the nine months ended September 27, 2026 and September 28, 2025, the Company utilized the annual effective tax rate method based on the forecasted information provided.   Backlog   On September 27, 2026, we had approximately $2.650 billion of total backlog, of which $2.067 billion was funded. We expect to recognize approximately 16% of the remaining total backlog as revenue in fiscal year 2026, an additional 50% in fiscal year 2027 and the balance thereafter. Our comparable total backlog balance as of September 28, 2025, was approximately $1.480 billion, of which $1.234 b",
+  "ncreased primarily as a result of contract awards in our Space, Satellite and Training, Defense Rocket Support Services, Microwave Products and Unmanned Systems businesses, as well as the impact of the acquisitions of Nomad and Orbit which contributed approximately $258.1 million to the increase in backlog.   Total backlog is our estimate of the amount of revenue expected to be realized over the remaining life of awarded contracts and task orders that we have in hand as of the measurement date. Total backlog represents the transaction price allocated to unsatisfied or partially unsatisfied performance obligations under ASC 606 as of the measurement date. Total backlog can include award fees, incent",
+  "-to-year comparisons of backlog are not necessarily indicative of future revenues. The actual timing of receipt of revenues, if any, on projects included in backlog could change because many factors affect the scheduling of projects. In addition, cancellations or adjustments to contracts may occur. Backlog is typically subject to large variations from quarter-to-quarter as existing contracts are renewed or new contracts are awarded. Additionally, all U.S. Government contracts included in backlog, whether or not funded, may be terminated at the convenience of the U.S. Government.   Liquidity and Capital Resources   As of September 27, 2026, we had cash and cash equivalents of $1,404.3 million compar"
+ ]
+}

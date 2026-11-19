@@ -1,0 +1,83 @@
+{
+ "ticker": "EME",
+ "cik": 105634,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   18572631000,
+   "10-Q",
+   "2026-10-29",
+   "0000105634-26-000130"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   12613893000,
+   "10-Q",
+   "2025-10-30",
+   "0000105634-25-000078"
+  ],
+  "growth": 0.4723948427341187
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   5541520000,
+   "10-Q",
+   "2026-10-29",
+   "0000105634-26-000130"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   4301529000,
+   "10-Q",
+   "2026-10-29",
+   "0000105634-26-000130"
+  ],
+  "growth": 0.2882674974410262
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   545792000,
+   "10-Q",
+   "2026-10-29",
+   "0000105634-26-000130"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   405696000,
+   "10-Q",
+   "2026-10-29",
+   "0000105634-26-000130"
+  ],
+  "growth": 0.34532260608928844
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000130/eme-20260930.htm"
+ },
+ "backlog_hits": [
+  "bligation is made in the period in which the loss becomes evident.   Based on an evaluation of individual projects that were substantially complete in prior periods but had revisions to total estimated costs or anticipated contract value (inclusive of the settlement of previously outstanding change orders and claims) that resulted in an increase to profitability in excess of $ 1.0 million, we recognized revenue during the three and nine months ended September 30, 2026 and 2025, as summarized in the following table (in thousands):   For the three months ended September 30, | For the nine months ended September 30, |   2026 | 2025 | 2026 | 2025 |   United States electrical construction and facilitie",
+  "Consolidated Financial Statements (Unaudited)   NOTE 3 - Revenue from Contracts with Customers (Continued)   Transaction Price Allocated to Remaining Unsatisfied Performance Obligations   The following table presents the transaction price allocated to remaining unsatisfied performance obligations (\u201cremaining performance obligations\u201d) for each of our reportable segments and their respective percentages of total remaining performance obligations as of September 30, 2026 (in thousands, except for percentages):   September 30, 2026 | % of Total |   Remaining performance obligations: |   United States electrical construction and facilities services | $ | 7,242,368 | 39 | % |   United States mechanical construction and facilitie",
+  "tions | $ | 18,572,631 | 100 | % |   Our remaining performance obligations at September 30, 2026 were $ 18.57 billion. Remaining performance obligations increase with awards of new contracts and decrease as we perform work and recognize revenue on existing contracts. We include a project within our remaining performance obligations at such time the project is awarded and agreement on contract terms has been reached. Our remaining performance obligations include amounts related to contracts for which a fixed price contract value is not assigned when a reasonable estimate of the total transaction price can be made.   Remaining performance obligations include unrecognized revenues to be realized from uncompleted construction ",
+  "f variable consideration to the extent that such variable consideration has been included within the transaction price of our contracts. Such claim and other variable consideration amounts were immaterial for all periods presented.   Refer to the table below for additional information regarding our remaining performance obligations, including an estimate of when we expect to recognize such remaining performance obligations as revenue (in thousands):   Within one year | Greater than one year |   Remaining performance obligations: |   United States electrical construction and facilities services | $ | 5,599,660 | $ | 1,642,708 |   United States mechanical construction and facilities services | 7,464,455 | 2,399,495 |   Unite",
+  "lowing table summarizes, in the aggregate, the estimated fair values of identifiable intangible assets (in thousands) and their weighted average useful lives (in years).   2026 Acquisitions | Estimated  Fair Value | Weighted  Average Life |   Customer relationships | $ | 328,400 | 15.1 |   Contract backlog | 42,000 | 1.3 |   Trade names (finite-lived) | 1,150 | 2.7 |   Total intangible assets subject to amortization | 371,550 | 13.5 |   Trade names (indefinite-lived) | 100,800 | Indefinite |   Total identifiable intangible assets | $ | 472,350 |   On February 3, 2025, we completed the acquisition of Miller Electric Company (\u201cMiller Electric\u201d), a leading electrical contractor that operates predomina",
+  "ic acquisition, the following table summarizes the estimated fair values of identifiable intangible assets (in thousands) and their estimated useful lives (in years).   Miller Electric   | Estimated   Fair Value   | Estimated  Useful Life |   Customer relationships | $ | 280,000 | 16.0 |   Contract backlog | 40,000 | 1.5 |   Total intangible assets subject to amortization | 320,000 | 14.2 |   Trade name | 155,000 | Indefinite |   Total identifiable intangible assets | $ | 475,000 |   In addition to Miller Electric, during calendar year 2025, we acquired nine companies, for upfront consideration of $ 182.3 million, inclusive of customary working capital adjustments. These acquisitions are comprised ",
+  "projects, partially in an effort to mitigate the impact of long lead times, (b) an increase in raw materials on hand to support our fabrication facilities, and (c) higher levels of work in process inventory within our United States industrial services segment due to greater new build heat exchanger orders.   NOTE 7 - Debt   Excluding finance lease liabilities of $ 6.0 million at September 30, 2026 and $ 6.3 million at December 31, 2025, we had no outstanding debt as of September 30, 2026 and December 31, 2025. The current portion of our finance lease liabilities of $ 2.5 million and $ 2.4 million at September 30, 2026 and December 31, 2025, respectively, were included in \u201cOther accrued expenses an",
+  "s issued on our behalf. As of September 30, 2026, based on the percentage-of-completion of our projects covered by surety bonds, our aggregate estimated exposure, assuming defaults on all our then existing contractual obligations, was $ 4.36 billion, which represents approximately 23 % of our total remaining performance obligations.   Surety bonds are sometimes provided to secure obligations for wages and benefits payable to or for certain of our employees, at the request of labor unions representing such employees. In addition, surety bonds may be issued as collateral for certain insurance obligations. As of September 30, 2026, we satisfied $ 105.5 million of the collateral requirements of our insurance programs by utiliz",
+  "f the notes to consolidated financial statements for further discussion regarding our income tax provision and effective income tax rate.   Remaining Unsatisfied Performance Obligations   The following table presents the transaction price allocated to remaining unsatisfied performance obligations (\u201cremaining performance obligations\u201d) for each of our reportable segments and their respective percentage of total remaining performance obligations (in thousands, except for percentages):   September 30, 2026 | % of Total | December 31, 2025 | % of Total | September 30, 2025 | % of Total |   Remaining performance obligations: |   United States electrical construction and   facilities services   | $ | 7,242,368 | 39 | % | $ | 4,96",
+  "| 2 | % |   Total United States operations | 18,572,631 | 100 | % | 13,253,664 | 100 | % | 12,402,065 | 98 | % |   United Kingdom building services | \u2014 | \u2014 | % | \u2014 | \u2014 | % | 211,828 | 2 | % |   Total operations | $ | 18,572,631 | 100 | % | $ | 13,253,664 | 100 | % | $ | 12,613,893 | 100 | % |   Our remaining performance obligations at September 30, 2026 were a record $18.57 billion compared to $13.25 billion at December 31, 2025 and $12.61 billion at September 30, 2025. When compared to December 31, 2025, remaining performance obligations increased by $5.32 billion. Acquisitions account for $500.3 million of such increase, with the remaining growth resulting from new contract awards within our United States construction se",
+  " with $138.7 million payable within the next 12 months.   Open Purchase Obligations \u2013 As of September 30, 2026, we had $4.85 billion of open purchase obligations, of which payments totaling $3.86 billion are expected to become due within the next 12 months. These obligations represent open purchase orders to suppliers and subcontractors related to our construction and services contracts. These purchase orders are not reflected in the Consolidated Balance Sheets and are not expected to impact future liquidity as amounts should be recovered through customer billings.   Insurance Obligations \u2013 As described in further detail in Note 11 - Commitments and Contingencies of the notes to consolidated finan",
+  "nds issued on our behalf. As of September 30, 2026, based on the percentage-of-completion of our projects covered by surety bonds, our aggregate estimated exposure, assuming defaults on all our then existing contractual obligations, was $4.36 billion, which represents approximately 23% of our total remaining performance obligations.   Surety bonds expire at various times ranging from final completion of a project to a period extending beyond contract completion in certain circumstances. Such amounts can also fluctuate from period to period based upon the mix and level of our bonded operating activity. For example, public sector contracts require surety bonds more frequently than private sector contracts and, accordingly, o"
+ ]
+}

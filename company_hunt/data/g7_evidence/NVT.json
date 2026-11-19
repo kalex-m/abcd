@@ -1,0 +1,68 @@
+{
+ "ticker": "NVT",
+ "cik": 1720635,
+ "rpo": {
+  "latest": [
+   null,
+   "2018-09-30",
+   54600000,
+   "10-Q",
+   "2018-10-25",
+   "0001720635-18-000024"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1514900000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068596"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1054000000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068596"
+  ],
+  "growth": 0.43728652751423147
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   282300000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068596"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   166300000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068596"
+  ],
+  "growth": 0.6975345760673481
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068596/nvt-20260930.htm"
+ },
+ "backlog_hits": [
+  "zed in revenue during the nine months ended September 30, 2026. There were no material imp airment losses recognized on our contract assets for the three and nine months ended September 30, 2026 and 2025.   10   nVent Electric plc   Notes to condensed consolidated financial statements (unaudited)   Remaining performance obligations   On September 30, 2026, we had $ 2.6 billion of remaining performance obligations. We expect to recognize the majority of our remaining performance obligations on these contracts within the next twelve months .   3. Restructuring   During the nine months ended September 30, 2026 and the year ended December 31, 2025, we initiated and continued execution of certain business restructuring initiati",
+  "ed operations.   Identifiable intangible assets acquired relate to $ 325.2 million of definite-lived customer relationships with estimated useful lives of 16 and 20 years, $ 32.8 million of definite-lived proprietary technologies with estimated useful lives of 8 years and $ 75.8 million of customer backlog with estimated useful lives of approximately 3 years. The fair values of proprietary technologies acquired in the acquisition were determined using a relief-from-royalty method, and the fair values of customer relationships and customer backlog acquired were determined using a multi-period excess earnings method. These methods utilize unobservable inputs that are significant to these fair value m",
+  "s and bonds   In the ordinary course of business, we are required to commit to bonds, letters of credit and bank guarantees that require payments to our customers for any non-performance. The outstanding face value of these instruments fluctuates with the value of our projects in process and in our backlog. In addition, we issue financial stand-by letters of credit primarily to secure our performance to third parties under self-insurance programs.   As of September 30, 2026 and December 31, 2025, the outstanding value of bonds, letters of credit and bank guarantees totaled $ 105.8 million and $ 75.7 million, respectively.   25   ITEM 2. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AN",
+  "pplicable mandatory cooling-off period under Rule 10b5-1 under the Securities Act of 1934, as amended.   |   Duration of trading arrangement | The trading arrangement permits transactions through and including the earlier to occur of June 30, 2027 or the execution of all trades or expiration of all orders relating to such trades.   |   Aggregate number of shares to be sold | Up to 8,618 shares issuable upon the exercise of options to acquire shares pursuant to the trading arrangement.   |   39   ITEM 6. EXHIBITS   The exhibits listed in the following Exhibit Index are filed as part of this Quarterly Report on Form 10-Q.   Exhibit Index to Form 10-Q for the Period Ended September 30, 2026   10.1   "
+ ]
+}

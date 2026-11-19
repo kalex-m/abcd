@@ -1,0 +1,52 @@
+{
+ "ticker": "NRG",
+ "cik": 1013871,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   9466000000,
+   "10-Q",
+   "2026-11-09",
+   "0001013871-26-000025"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   7635000000,
+   "10-Q",
+   "2026-11-09",
+   "0001013871-26-000025"
+  ],
+  "growth": 0.23981663392272434
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1084000000,
+   "10-Q",
+   "2026-11-09",
+   "0001013871-26-000025"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   414000000,
+   "10-Q",
+   "2026-11-09",
+   "0001013871-26-000025"
+  ],
+  "growth": 1.6183574879227054
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-09",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1013871/000101387126000025/nrg-20260930.htm"
+ },
+ "backlog_hits": [
+  "ther environmental controls or to impose additional restrictions on the operations of the Company\u2019s facilities, which could have a material effect on the Company\u2019s consolidated financial position, results of operations, or cash flows. At the federal level, the President has issued several Executive Orders that indicate that the current administration intends to relax or rescind some previously promulgated regulations. The EPA has proposed several and finalized some rules that relax and/or rescind regulations previously promulgated. The Company has elected to use a $ 1 million disclosure threshold, as permitted, for environmental proceedings to which the government is a party.   Air   CPP/ACE Rules"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "TDG",
+ "cik": 1260221,
+ "rev_q": {
+  "latest": [
+   "2026-03-29",
+   "2026-06-27",
+   2741000000,
+   "10-Q",
+   "2026-08-04",
+   "0001260221-26-000053"
+  ],
+  "prior": [
+   "2025-03-30",
+   "2025-06-28",
+   2237000000,
+   "10-Q",
+   "2026-08-04",
+   "0001260221-26-000053"
+  ],
+  "growth": 0.2253017434063478
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-03-29",
+   "2026-06-27",
+   1227000000,
+   "10-Q",
+   "2026-08-04",
+   "0001260221-26-000053"
+  ],
+  "prior": [
+   "2025-03-30",
+   "2025-06-28",
+   1039000000,
+   "10-Q",
+   "2026-08-04",
+   "0001260221-26-000053"
+  ],
+  "growth": 0.1809432146294514
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-10",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000077/tdg-20260930.htm"
+ },
+ "backlog_hits": [
+  "f goodwill and $ 410 million of other intangible assets. The other intangible assets consist of $ 198 million of technology (amortized over 20 years), $ 135 million of customer relationships (amortized over 20 years), $ 65 million of trademarks and trade names (indefinite-lived) and $ 12 million of backlog (amortized over 1 year). Of these amounts, $ 219 million of goodwill and $ 170 million of other intangible assets are expected to be deductible for tax purposes over 15 years.   Jet Parts Engineering and Victor Sierra Aviation Holdings \u2013 On April 7, 2026, the Company completed the acquisition of 95 % of the outstanding stock of Jet Parts Engineering (\u201cJPE\u201d) and 96 % of the outstanding stock of Vi",
+  ":   2026 | 2025 |   Gross Carrying Amount | Accumulated Amortization | Net | Gross Carrying Amount | Accumulated Amortization | Net |   Trademarks and trade names | $ | 1,371 | $ | \u2014 | $ | 1,371 | $ | 1,162 | $ | \u2014 | $ | 1,162 |   Technology | 3,392 | 1,271 | 2,121 | 2,647 | 1,137 | 1,510 |   Order backlog | 59 | 29 | 30 | 59 | 28 | 31 |   Customer relationships | 1,925 | 299 | 1,626 | 971 | 225 | 746 |   Other | 12 | 8 | 4 | 12 | 7 | 5 |   Total | $ | 6,759 | $ | 1,607 | $ | 5,152 | $ | 4,851 | $ | 1,397 | $ | 3,454 |   F-18   Table of Contents   The purchase price of each acquisition is allocated to the assets acquired and liabilities assumed based on their estimated fair values at the acquisitio",
+  "ptember 30, 2026 are summarized in the table below (in millions):   Gross Amount | Amortization Period |   Intangible assets not subject to amortization: |   Trademarks and trade names | $ | 214 |   Intangible assets subject to amortization: |   Technology & Other | 766 | 10 to 20 years   |   Order backlog | 26 | 1 to 3 years   |   Customer relationships | 959 | 10 to 20 years   |   1,751 |   Total | $ | 1,965 |   Information regarding the amortization expense of amortizable intangible assets is detailed below (in millions):   Annual Amortization Expense:   Fiscal Years Ended September 30, |   2026 | $ | 252 |   2025 | 201 |   2024 | 161 |   Estimated Amortization Expense:   Fiscal Years Ended Sept"
+ ]
+}

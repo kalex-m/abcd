@@ -1,0 +1,52 @@
+{
+ "ticker": "ALAB",
+ "cik": 1736297,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   584899000,
+   "10-Q",
+   "2026-11-04",
+   "0001736297-26-000045"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   230575000,
+   "10-Q",
+   "2026-11-04",
+   "0001736297-26-000045"
+  ],
+  "growth": 1.5366973869673641
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   179056000,
+   "10-Q",
+   "2026-11-04",
+   "0001736297-26-000045"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   55406000,
+   "10-Q",
+   "2026-11-04",
+   "0001736297-26-000045"
+  ],
+  "growth": 2.2317077572826047
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1736297/000173629726000045/alab-20260930.htm"
+ },
+ "backlog_hits": [
+  "ease obligations of $ 11.7 million.   8. Commitments and Contingencies   Purchase Commitments   The Company depends upon third-party subcontractors to manufacture wafers and other inventory parts. The Company\u2019s subcontractor relationships typically allow for the cancellation of outstanding purchase orders but require payment of all expenses incurred through the date of cancellation.   The Company\u2019s purchase commitments also include payments for software licenses and cloud services when there is a fixed, non-cancellable payment schedule or when minimum payments are due according to a delivery schedule. The Company is committed to make the following minimum payments under its purchase commitments as"
+ ]
+}

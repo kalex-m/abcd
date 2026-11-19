@@ -1,0 +1,52 @@
+{
+ "ticker": "DUK",
+ "cik": 1326160,
+ "rev_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   8995000000,
+   "10-Q",
+   "2026-05-05",
+   "0001326160-26-000026"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   8218000000,
+   "10-Q",
+   "2026-05-05",
+   "0001326160-26-000026"
+  ],
+  "growth": 0.09454855195911405
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   2725000000,
+   "10-Q",
+   "2026-05-05",
+   "0001326160-26-000026"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   2343000000,
+   "10-Q",
+   "2026-05-05",
+   "0001326160-26-000026"
+  ],
+  "growth": 0.16303883909517713
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1326160/000132616026000051/duk-20260930.htm"
+ },
+ "backlog_hits": [
+  " employee post-retirement benefits was recorded in December 2024. An order for the rate case was issued by the IURC on January 29, 2025, and revised February 3, 2025, which authorized an ROE of 9.75 %, an equity ratio of 53 % and an annual revenue increase of $ 296 million. Based on review of these orders, Duke Energy Indiana identified an inconsistency in the calculation of operating revenues before the effect of trackers. On February 7, 2025, Duke Energy Indiana made a compliance filing in accordance with the IURC's findings in its order and addressed the identified inconsistencies. The compliance filing also clarified the annual revenue increase was approximately $ 385 million. On February 18, "
+ ]
+}

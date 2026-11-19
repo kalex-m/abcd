@@ -1,0 +1,75 @@
+{
+ "ticker": "AEP",
+ "cik": 4904,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-03-31",
+   205000000,
+   "10-Q",
+   "2026-05-05",
+   "0000004904-26-000034"
+  ],
+  "prior": [
+   null,
+   "2025-03-31",
+   278000000,
+   "10-Q",
+   "2025-05-06",
+   "0000004904-25-000061"
+  ],
+  "growth": -0.262589928057554
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   6020000000,
+   "10-Q",
+   "2026-05-05",
+   "0000004904-26-000034"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   5463000000,
+   "10-Q",
+   "2026-05-05",
+   "0000004904-26-000034"
+  ],
+  "growth": 0.10195863078894374
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   1360000000,
+   "10-Q",
+   "2026-05-05",
+   "0000004904-26-000034"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   1284000000,
+   "10-Q",
+   "2026-05-05",
+   "0000004904-26-000034"
+  ],
+  "growth": 0.05919003115264787
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/4904/000000490426000072/aep-20260930.htm"
+ },
+ "backlog_hits": [
+  " would not cause an event of default under its credit agreements.   The revolving credit facilities do not permit the lenders to refuse a draw on any facility if a material adverse change occurs.   Utility Money Pool borrowings and external borrowings may not exceed amounts authorized by regulatory orders and AEP manages its borrowings to stay within those authorized limits.   ATM Program   In November 2025, AEP filed a prospectus supplement under which it may sell up to $3.5 billion of its common stock through an ATM program. In the first quarter of 2026, two million shares of common stock were issued for $264 million in net proceeds. In addition to these issuances and sales of shares of common s",
+  "onsumables Used for Electric Generation expenses decreased $24 million primarily due to the following:   \u2022 A $40 million increase in Virginia FAC and West Virginia ENEC under-recoveries due to decreases in fuel revenues.   \u2022 A $39 million increase in West Virginia ENEC under-recoveries due to WVPSC orders for final recovery of West Virginia MRBC, Broadband and Vegetation Management under-recovery balances through ENEC rates.   These decreases were partially offset by:   \u2022 A $34 million decrease in Virginia FAC and West Virginia ENEC under-recoveries due to increased PJM revenues as a result of the performance of APCo\u2019s generation during periods of high prices in July 2026.   \u2022 A $9 million increas",
+  "nsumables Used for Electric Generation expenses decreased $81 million primarily due to the following:   \u2022 A $152 million increase in Virginia FAC and West Virginia ENEC under-recoveries due to decreases in fuel revenues.   \u2022 A $39 million increase in West Virginia ENEC under-recoveries due to WVPSC orders for final recovery of West Virginia MRBC, Broadband and Vegetation Management under-recovery balances through ENEC rates.   These decreases were partially offset by:   \u2022 A $57 million decrease in Virginia FAC and West Virginia ENEC under-recoveries due to increased PJM revenues as a result of the performance of APCo\u2019s generation during periods of high prices in July 2026.   \u2022 A $21 million increa",
+  "e earnings test evaluations require I&M to include a credit in the FAC factor computation for periods in which I&M earned above its authorized return for the one-year periods ending May and November. The credit is determined as 50% of the one-year earnings above the authorized level. If future IURC orders require that I&M provide credits in the FAC factor computation in excess of established earnings test requirements, it could reduce future net income and cash flows and impact financial condition.   In February 2026, I&M submitted its FAC filing and earnings test evaluation for the period ended November 2025. I&M proposed an over-earnings credit to customers for the earnings test period ending No"
+ ]
+}

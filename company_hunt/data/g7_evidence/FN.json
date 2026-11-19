@@ -1,0 +1,52 @@
+{
+ "ticker": "FN",
+ "cik": 1408710,
+ "rev_q": {
+  "latest": [
+   "2026-06-27",
+   "2026-09-25",
+   1474459000,
+   "10-Q",
+   "2026-11-03",
+   "0001408710-26-000041"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-09-26",
+   978128000,
+   "10-Q",
+   "2026-11-03",
+   "0001408710-26-000041"
+  ],
+  "growth": 0.5074294979798144
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-06-27",
+   "2026-09-25",
+   146005000,
+   "10-Q",
+   "2026-11-03",
+   "0001408710-26-000041"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-09-26",
+   94193000,
+   "10-Q",
+   "2026-11-03",
+   "0001408710-26-000041"
+  ],
+  "growth": 0.5500621065259625
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000041/fn-20260925.htm"
+ },
+ "backlog_hits": [
+  "ember 25, 2026 and September 26, 2025, we had three customers for both periods, that each contributed 10% or more of our revenues. Such customers together accounted for 46.7% and 51.5% of our revenues during the respective periods. Dependence on a small number of customers means that a reduction in orders from, a loss of, or other adverse actions by any one of these customers would reduce our revenues and could have a material adverse effect on our business, financial condition and operating results.   43   Table of Contents   Further, our customer concentration increases the concentration of our accounts receivable and our exposure to payment default by any of our key customers. Many of our exist"
+ ]
+}

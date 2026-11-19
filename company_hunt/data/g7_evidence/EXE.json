@@ -1,0 +1,52 @@
+{
+ "ticker": "EXE",
+ "cik": 895126,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3286000000,
+   "10-Q",
+   "2026-10-27",
+   "0000895126-26-000068"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2966000000,
+   "10-Q",
+   "2026-10-27",
+   "0000895126-26-000068"
+  ],
+  "growth": 0.10788941335131486
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   640000000,
+   "10-Q",
+   "2026-10-27",
+   "0000895126-26-000068"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   725000000,
+   "10-Q",
+   "2026-10-27",
+   "0000895126-26-000068"
+  ],
+  "growth": -0.11724137931034484
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-27",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/895126/000089512626000068/exe-20260930.htm"
+ },
+ "backlog_hits": [
+  " oil and NGL revenue | $ | 5,371 | $ | 250 | $ | 550 | $ | 6,171 |   Marketing sales | $ | 7,445 | $ | 349 | $ | 619 | $ | 8,413 |   Intersegment revenues | ( 5,290 ) | ( 248 ) | ( 511 ) | ( 6,049 ) |   Marketing revenue | $ | 2,155 | $ | 101 | $ | 108 | $ | 2,364 |   Transaction Price Allocated to Remaining Performance Obligation   As of September 30, 2026, we had approximately $ 536 million of unsatisfied performance obligations related to natural gas sales that have a fixed price component and a contract term of greater than one year . These obligations were assumed in connection with the Twin Eagle Acquisition and are expected to be recognized over the next 5 years.   Accounts Receivable   Our accounts receivable are p"
+ ]
+}

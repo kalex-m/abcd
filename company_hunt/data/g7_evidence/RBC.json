@@ -1,0 +1,79 @@
+{
+ "ticker": "RBC",
+ "cik": 1324948,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-26",
+   1375100000,
+   "10-Q",
+   "2026-10-30",
+   "0001213900-26-114396"
+  ],
+  "prior": [
+   null,
+   "2025-09-27",
+   998700000,
+   "10-Q",
+   "2025-10-31",
+   "0001213900-25-104623"
+  ],
+  "growth": 0.37688995694402716
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   524600000,
+   "10-Q",
+   "2026-10-30",
+   "0001213900-26-114396"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   455300000,
+   "10-Q",
+   "2026-10-30",
+   "0001213900-26-114396"
+  ],
+  "growth": 0.15220733582253465
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   131600000,
+   "10-Q",
+   "2026-10-30",
+   "0001213900-26-114396"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   97800000,
+   "10-Q",
+   "2026-10-30",
+   "0001213900-26-114396"
+  ],
+  "growth": 0.34560327198364016
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1324948/000121390026114396/ea0309437-10q_rbcbear.htm"
+ },
+ "backlog_hits": [
+  "ich work has not been performed or has been partially performed and excludes unexercised contract options. The duration of the majority of our contracts, as defined by ASC Topic 606, is less than one year. The Company has elected to apply the practical expedient, which allows the Company to exclude remaining performance obligations with an original expected duration of one year or less. The aggregate amount of the transaction price allocated to remaining performance obligations for such contracts with a duration of more than one year was approximately $ 1,375.1 at September 26, 2026. The Company expects to recognize revenue on approximately 42 % of the remaining performance obligations over the next 12 months with the rema",
+  "6 | | | | 374.7 | |   Non-amortizable repair station certifications | | n/a | | | 24.3 | | | | \u2014 | | | | 24.3 | | | | \u2014 | |   Total | | 23 | | $ | 1,765.2 | | | $ | 416.3 | | | $ | 1,752.9 | | | $ | 374.7 | |   (1) | Includes $ 8.6 of customer relationships, $ 1.5 of trade names and $ 1.2 of funded backlog resulting from the PSC Couplings acquisition. |   Amortization expense for definite-lived intangible assets during the three-month periods ended September 26, 2026 and September 27, 2025 was $ 21.3 and $ 20.7 , respectively. Amortization expense for definite-lived intangible assets during the six-month periods ended September 26, 2026 and September 27, 2025 was $ 42.3 and $ 38.6 , respectively. T",
+  "three-month period ended September 26, 2026 increased 15.2% compared to the same period last fiscal year. The increase in net sales was a result of a 15.8% increase in our Aerospace & Defense segment and a 14.8% increase in our Industrial segment, including approximately $2.0 of net sales from PSC. Backlog as of September 26, 2026, was $2.4 billion compared to $2.3 billion as of March 28, 2026 and $1.6 billion as of September 27, 2025.  We are continuing to see the expansion of the commercial aerospace business, which experienced a 17.4% increase in net sales for the three-month period ended September 26, 2026 versus the same period last fiscal year. We anticipate this growth to continue through th",
+  "is time last year. Defense sales, which represented approximately 40.8% of segment sales during the quarter, were up 13.6% quarter over quarter. We expect this growth to continue throughout the current fiscal year and beyond as we are increasing capacity to fulfill the substantial number of defense orders in our backlog. Our Industrial business continued to demonstrate strength across most major end markets, notably including semiconductor equipment, grain, aggregate & cement, mining & metals, and food & beverage.  The Company expects net sales to be approximately $520.0 to $525.0 in the third quarter of fiscal 2027, an increase of 12.7% to 13.7% compared to the third quarter of fiscal 2026. Gross",
+  " This was supported by defense sales, which were up 13.6% compared to the same period in the prior fiscal year, driven by marine and spares. Commercial OEM and aftermarket sales increased 17.4% compared to the same period in the prior fiscal year. The increase in aerospace sales reflected growth in orders from large OEMs as build rates escalated, as well as expansion in the aftermarket. Space sales continued to grow due to demand from OEMs, increasing to approximately $21.9 in the second quarter of fiscal 2027 compared to approximately $18.9 for the same period in the prior fiscal year.  22   Net income for the second quarter of fiscal 2027 was $93.8 compared to $60.0 for the same period last fisc",
+  " in sales was led by defense sales, which were up 34.6% compared to the same period in the prior fiscal year, driven by marine from VACCO and spares. Commercial sales increased 19.5% compared to the same period in the prior fiscal year. The increase in commercial aerospace sales reflected growth in orders from large OEMs as build rates escalated. Space sales increased to approximately $47.0 in the first six months of fiscal 2027 compared to approximately $26.4 for the same period in the prior year.  Net income for the six months ended September 26, 2026 was $195.3 compared to $128.5 for the same period last fiscal year.  Gross Margin   | | Three Months Ended | |   | | September 26,  2026 | | | Sep",
+  "bution and aftermarket net sales, increased by 13.6% compared to fiscal 2026 when OEM net sales were $62.5 and distribution and aftermarket net sales were $20.1. The increase in defense net sales was driven by military aircraft and reflects continued growth in demand which is evident by our growing backlog. VACCO contributed $26.6 of net sales to the Aerospace & Defense segment in the second quarter of fiscal 2027 compared to $24.7 in the prior year.  27   Gross margin as a percentage of segment net sales was 42.2% for the second quarter of fiscal 2027 compared to 38.7% for the same period last fiscal year. The increase in gross margin as a percentage of net sales was primarily driven by efficienci",
+  "ution and aftermarket net sales, increased by 34.6% compared to fiscal 2026 when OEM net sales were $103.1 and distribution and aftermarket net sales were $37.5. The increase in defense net sales was driven by marine and spares and reflects continued growth in demand which is evident by our growing backlog. VACCO contributed $59.9 of net sales to the Aerospace & Defense segment for the first six months of fiscal 2027 compared to $24.7 in the prior year.  Gross margin for the first six months of fiscal 2027 was 43.3% of net sales compared to 40.5% in the same period last fiscal year. Gross margin for the six months ended September 27, 2025 was unfavorably impacted by a $3.3 purchase accounting adjus"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "ITT",
+ "cik": 216228,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-10-03",
+   2781600000,
+   "10-Q",
+   "2026-11-05",
+   "0000216228-26-000076"
+  ],
+  "prior": [
+   null,
+   "2025-09-27",
+   1886100000,
+   "10-Q",
+   "2025-10-29",
+   "0000216228-25-000061"
+  ],
+  "growth": 0.4747892476538891
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-05",
+   "2026-10-03",
+   1440600000,
+   "10-Q",
+   "2026-11-05",
+   "0000216228-26-000076"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   999100000,
+   "10-Q",
+   "2026-11-05",
+   "0000216228-26-000076"
+  ],
+  "growth": 0.44189770793714334
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-05",
+   "2026-10-03",
+   226800000,
+   "10-Q",
+   "2026-11-05",
+   "0000216228-26-000076"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   179800000,
+   "10-Q",
+   "2026-11-05",
+   "0000216228-26-000076"
+  ],
+  "growth": 0.2614015572858732
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-10-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/216228/000021622826000076/itt-20261003.htm"
+ },
+ "backlog_hits": [
+  "t liabilities as of December 31, 2025. The increase in current contract assets and liabilities is due to contract liabilities acquired as a result of the SPX FLOW acquisition.   The aggregate amount of the transaction price allocated to unsatisfied or partially satisfied performance obligations, or backlog, was $ 2,781.6 as of October 3, 2026. Of this amount, we expect to recognize approximately 35 % to 40 % of revenue during the remainder of 2026. Our backlog generally represents firm orders that have been received, acknowledged, and entered into our production systems. However, within certain businesses in MT, our customers include automotive OEMs and we may win an award on an automotive platform",
+  " Contacts consist of the following:   SPX FLOW | Aerospace Contacts |   Useful life (in years) | Fair value | Useful life (in years) | Fair value |   Customer relationships | 18 | $ | 1,990.0 | 15 | $ | 7.5 |   Developed technology | 18 | 330.0 | \u2014 |   Trade name | Indefinite | 320.0 | 10 | 0.7 |   Backlog | 1 | 95.0 | \u2014 |   Total intangible assets acquired | $ | 2,735.0 | $ | 8.2 |   C ustomer relationships, developed technology, and other intangible assets are amortized over weighted average lives of approximately 17.7 years, 17.7 years and 1.7 years, respectively. Indefinite-lived intangibles primarily consist of brands and trademarks.   ITT Inc. | Q3 2026 Form 10-Q | 17   E stimated amortizatio"
+ ]
+}

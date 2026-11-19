@@ -1,0 +1,72 @@
+{
+ "ticker": "VLTO",
+ "cik": 1967680,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-10-02",
+   340000000,
+   "10-Q",
+   "2026-10-30",
+   "0001967680-26-000048"
+  ],
+  "prior": [
+   null,
+   "2025-10-03",
+   321000000,
+   "10-Q",
+   "2025-10-29",
+   "0001967680-25-000136"
+  ],
+  "growth": 0.05919003115264787
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   1509000000,
+   "10-Q",
+   "2026-10-30",
+   "0001967680-26-000048"
+  ],
+  "prior": [
+   "2025-07-05",
+   "2025-10-03",
+   1404000000,
+   "10-Q",
+   "2026-10-30",
+   "0001967680-26-000048"
+  ],
+  "growth": 0.07478632478632474
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   298000000,
+   "10-Q",
+   "2026-10-30",
+   "0001967680-26-000048"
+  ],
+  "prior": [
+   "2025-07-05",
+   "2025-10-03",
+   326000000,
+   "10-Q",
+   "2026-10-30",
+   "0001967680-26-000048"
+  ],
+  "growth": -0.08588957055214719
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-10-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1967680/000196768026000048/vlto-20261002.htm"
+ },
+ "backlog_hits": [
+  "6 and October 3, 2025, lease revenue was $ 78 million and $ 69 million, respectively. Service and software revenue was immaterial for all periods presented. Software revenues for point-in-time licenses are nonrecurring while revenues for Software as a Service and over time licenses are recurring.   Remaining performance obligations related to Topic 606, Revenue from Contracts with Customers , represent the aggregate transaction price allocated to performance obligations with an original contract term greater than one year which are fully or partially unsatisfied at the end of the period. As of October 2, 2026, the aggregate amount of the transaction price allocated to remaining performance obligations was $ 340 million. Th"
+ ]
+}

@@ -34,3 +34,9 @@ Run date: 2026-11-19 (UTC). Working folder: `company_hunt/`.
 - Cross-check (25 per ground, G1-G4): 82/100 rows within 5% on revenue, NI, OCF and capex after fix 3; rest explained (currency translation FUTU/NTES, excise-tax revenue MO/TAP, NCI attribution CF/CZR). EDGAR kept. Detail `triage/xcheck_ground_N.csv`.
 - Surprise: the 2026 market has repriced application software and IT services hard (ADBE 12x vs 46x own median, FICO 17x vs 50x, INTU 18x vs 51x, NICE 8x vs 41x). Ground 1 is mostly one question: cycle or substitution.
 - Phase 3 started early on the 77 unique G1-G4 names (4 agents) while G5-G7 lists are built. Added a 5th and 6th Phase 3 class: PRICED_IN (true quality at a full multiple, not mispriced) and DATA_ARTIFACT (screen quirk), both reject.
+
+## Interruption (about 12:40Z)
+- The container restarted and killed all seven background agents (G5, G6, G7 builders; Phase 3 batches 1-4). Disk survived: all data, scripts and the G5 agent's partial segment pulls (80 companies in data/g5seg, results.json for 79). Nothing from Phase 3 had been written yet.
+- Fix: all agent instructions now require append-as-you-go output and skip-if-done on restart. All seven relaunched ~13:00Z; G5 resumes from its saved segment data.
+- Layer D (Perplexity Finance): asset hosts approved and added (pplx-next-static-public, frontend-cdn, r2cdn, edge). First automated page load rendered (ADBE: market cap $88.04B, trailing P/E 12.62, forward 8.43, matching yfinance), but subsequent loads hit a Cloudflare bot check that headless browsers cannot pass. Layer D status: intermittent. `scripts/pplx.js` kept; WebSearch used for leads where Perplexity refuses.
+- Phase 4 instructions written (`kill_tests/P4_INSTRUCTIONS.md`): 10 gates with evidence, war-chest netting table, two UNVERIFIED gates = FAIL.

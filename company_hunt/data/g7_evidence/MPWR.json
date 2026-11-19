@@ -1,0 +1,52 @@
+{
+ "ticker": "MPWR",
+ "cik": 1280452,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1202409000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069440"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   737176000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069440"
+  ],
+  "growth": 0.6311016636461306
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   357687000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069440"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   195183000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069440"
+  ],
+  "growth": 0.8325725088762854
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1280452/000162828026069440/mpwr-20260930.htm"
+ },
+ "backlog_hits": [
+  "r sales cycle generally takes a number of quarters after we receive an initial customer order for a new product to ramp up. Typical supply chain lead times for orders are generally 16 to 26 weeks. These factors, combined with the fact that our customers, in most situations, can cancel or reschedule orders without incurring a significant penalty, make the forecasting of our orders, revenue and expenses difficult.   We derive most of our revenue from sales through distribution arrangements and direct sales to customers in Asia, where our products are incorporated into end-user products. Our revenue from sales to direct customers in Asia was 93% and 91% of our total revenue for the three months ended"
+ ]
+}

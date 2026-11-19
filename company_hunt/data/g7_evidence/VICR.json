@@ -1,0 +1,53 @@
+{
+ "ticker": "VICR",
+ "cik": 751978,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   197114000,
+   "10-Q",
+   "2026-10-26",
+   "0001193125-26-431231"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   110423000,
+   "10-Q",
+   "2026-10-26",
+   "0001193125-26-431231"
+  ],
+  "growth": 0.7850810066743341
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   72148000,
+   "10-Q",
+   "2026-10-26",
+   "0001193125-26-431231"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   20907000,
+   "10-Q",
+   "2026-10-26",
+   "0001193125-26-431231"
+  ],
+  "growth": 2.4509016119003206
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-26",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/751978/000119312526431231/vicr-20260930.htm"
+ },
+ "backlog_hits": [
+  "ing royalty revenue, and a decrease in freight-in and tariff spending of $2,240,000 (net of approximately $2,768,000 in duty drawback recovery in the third quarter of 2026 of previously paid tariffs and $11,000 in duty drawback recovery in the second quarter of 2026 of previously paid tariffs).   \u2022 Backlog, which represents the total value of orders for products for which shipment is scheduled within the next 12 months, was approximately $406,043,000 at the end of the third quarter of 2026, as compared to $379,736,000 at the end of the second quarter of 2026.   \u2022 Operating expenses for the third quarter of 2026 increased $14,290,000, or 29.6%, to $62,532,000 from $48,242,000 for the second quarter ",
+  "iation and amortization of $5,423,000 and capital additions of $11,173,000 for the second quarter of 2026.   \u2022 Inventories increased by approximately $6,433,000, or 6.2%, to $110,922,000 at September 30, 2026, compared to $104,489,000 at June 30, 2026, in anticipation of increased volume to fulfill backlog.   Three Months Ended September 30, 2026 Compared to Three Months Ended September 30, 2025   Total net revenues for the third quarter of 2026 were $197,114,000, an increase of $86,691,000, or 78.5%, as compared to $110,423,000 for the third quarter of 2025. Net revenues, by product line, for the three months ended September 30, 2026 and 2025 were as follows (dollars in thousands):   |   |   |   |"
+ ]
+}

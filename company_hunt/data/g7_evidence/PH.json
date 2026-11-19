@@ -1,0 +1,75 @@
+{
+ "ticker": "PH",
+ "cik": 76334,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   13700000000,
+   "10-Q",
+   "2026-11-05",
+   "0000076334-26-000172"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   11300000000,
+   "10-Q",
+   "2025-11-07",
+   "0000076334-25-000071"
+  ],
+  "growth": 0.21238938053097356
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   5992000000,
+   "10-Q",
+   "2026-11-05",
+   "0000076334-26-000172"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   5084000000,
+   "10-Q",
+   "2026-11-05",
+   "0000076334-26-000172"
+  ],
+  "growth": 0.17859952793076328
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1411000000,
+   "10-Q",
+   "2026-11-05",
+   "0000076334-26-000172"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1183000000,
+   "10-Q",
+   "2026-11-05",
+   "0000076334-26-000172"
+  ],
+  "growth": 0.19273034657650046
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/76334/000007633426000172/ph-20260930.htm"
+ },
+ "backlog_hits": [
+  "2026 amount primarily due to timing differences between when revenue was recognized and the receipt of advance payments. During the three months   - 7 -   ended September 30, 2026, approximately $ 83 million of revenue was recognized that was included in the contract liabilities at June 30, 2026.   Remaining Performance Obligations   Our backlog represents written firm orders from a customer to deliver products and, in the case of blanket purchase orders, only includes the portion of the order for which a schedule or release date has been agreed to with the customer. We believe our backlog represents our unsatisfied or partially unsatisfied performance obligations. Backlog at September 30, 2026 was $ 13.7 billion, of which",
+  "rest expense and other, net | 1,411 | 1,183 |   Interest expense | 146 | 101 |   Other, net | 128 | 42 |   Income before income taxes | $ | 1,137 | $ | 1,040 |   (1) Corporate includes IEEPA tariff-related returns to customers.   |   The following segment discussions include information relating to backlog for each segment. Backlog consists of written firm orders from a customer to deliver products and, in the case of blanket purchase orders, only includes the portion of the order for which a schedule or release date has been agreed to with the customer. The dollar value of backlog is equal to the amount that is expected to be billed to the customer and reported as a sale.   Diversified Industrial ",
+  "alue related to the acquisition of FGC.   We expect to incur approximately $75 million and $35 million in business realignment and acquisition integration charges, respectively, during the remainder of fiscal 2027. Continually changing business conditions could impact the ultimate costs we incur.   Backlog   September 30, 2026 | June 30, 2026 | September 30, 2025 |   Backlog | $ | 5,016 | $ | 4,332 | $ | 3,622 |   Diversified Industrial backlog, as of September 30, 2026, increased from June 30, 2026 and the prior-year quarter, primarily due to the addition of FGC backlog as well as orders exceeding shipments in both the North America and International businesses.   Aerospace Systems   Three Months ",
+  "ased by 160 basis points in the current-year quarter compared to the prior-year quarter, primarily driven by higher sales volume and productivity gains, partially offset by unfavorable mix. Benefits from cost containment initiatives also contributed to the increase in margins, to a lesser extent.   Backlog   September 30, 2026 | June 30, 2026 | September 30, 2025 |   Backlog | $ | 8,684 | $ | 8,498 | $ | 7,716 |   Aerospace Systems backlog as of September 30, 2026, increased from June 30, 2026 and the prior-year quarter primarily due to orders exceeding shipments in all market segments.   Corporate general & administrative expenses   Three Months Ended |   September 30, |   2026 | 2025 |   Corporat"
+ ]
+}

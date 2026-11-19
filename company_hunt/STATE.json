@@ -5,7 +5,7 @@
   "0": "done",
   "1": "done",
   "2": "in_progress (G1-G4 done by script; G5/G6/G7 sub-agents running)",
-  "3": "in_progress (G1-G4 names, 4 batches)",
+  "3": "in_progress (batches 1-4 relaunched after restart)",
   "4": "pending",
   "5": "pending",
   "6": "pending",
@@ -25,7 +25,7 @@
   "g1_4_unique_triage": 77
  },
  "companies": {},
- "notes": "Resume from the phase marked in_progress. Scripts in company_hunt/scripts. Raw data cache in company_hunt/data.",
+ "notes": "Resume from the phase marked in_progress. Scripts in company_hunt/scripts. Raw data cache in company_hunt/data. Container restart at ~12:40Z killed agents; relaunched with resumable outputs.",
  "resume_hints": [
   "Phase 1 output universe/universe.csv; Phase 2 metrics triage/metrics.csv (scripts/p2_metrics.py, p2_yf_merge.py, p2_grounds.py)",
   "G5/G6/G7 lists come from sub-agents: triage/ground_5.csv, ground_6.csv, ground_7.csv (+ .md notes). If missing, re-spawn per RUNLOG.",

@@ -1,0 +1,76 @@
+{
+ "ticker": "BKR",
+ "cik": 1701605,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   46400000000,
+   "10-Q",
+   "2026-10-28",
+   "0001701605-26-000035"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   35300000000,
+   "10-Q",
+   "2025-10-24",
+   "0001701605-25-000117"
+  ],
+  "growth": 0.3144475920679888
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   8025000000,
+   "10-Q",
+   "2026-10-28",
+   "0001701605-26-000035"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   7010000000,
+   "10-Q",
+   "2026-10-28",
+   "0001701605-26-000035"
+  ],
+  "growth": 0.1447931526390871
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2024-07-01",
+   "2024-09-30",
+   930000000,
+   "10-Q",
+   "2024-10-23",
+   "0001701605-24-000131"
+  ],
+  "prior": [
+   "2023-07-01",
+   "2023-09-30",
+   714000000,
+   "10-Q",
+   "2024-10-23",
+   "0001701605-24-000131"
+  ],
+  "growth": 0.3025210084033614
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000035/bkr-20260930.htm"
+ },
+ "backlog_hits": [
+  "17 |   Finite-lived intangible assets | 11,128 | ( 3,507 ) | 7,621 | 5,345 | ( 3,400 ) | 1,945 |   Indefinite-lived intangible assets | 2,152 | \u2014 | 2,152 | 2,152 | \u2014 | 2,152 |   Total intangible assets | $ | 13,280 | $ | ( 3,507 ) | $ | 9,773 | $ | 7,497 | $ | ( 3,400 ) | $ | 4,097 |   (1) Includes backlog recognized as a result of the Chart acquisition.   Amortization expense for the three months ended September 30, 2026 and 2025 was $ 200 million and $ 58 million, respectively, and $ 317 million and $ 192 million for the nine months ended September 30, 2026 and 2025, respectively. The amortization of acquired intangible assets is presented separately in the condensed consolidated statements of in",
+  " Hughes Company   Notes to Unaudited Condensed Consolidated Financial Statements   Useful Life | Fair Value Assigned |   Customer relationships | 20 years   | $ | 3,610 |   Trade names and trademarks | 20 years   | 1,345 |   Technology | 8 years   | 567 |   Capitalized software | 5 years   | 28 |   Backlog | 1 year   | 370 |   Total intangible assets acquired | $ | 5,920 |   Estimated amortization expense for the remainder of 2026 and each of the subsequent five fiscal years is expected to be as follows:   Year | Estimated Amortization Expense |   Remainder of 2026 | $ | 230 |   2027 | 741 |   2028 | 522 |   2029 | 493 |   2030 | 467 |   2031 | 448 |   NOTE 7. CONTRACT AND OTHER DEFERRED ASSETS   C",
+  " 2026 | 2025 |   North America | $ | 955 | $ | 980 | $ | 2,814 | $ | 2,830 |   Latin America | 674 | 603 | 2,006 | 1,810 |   Europe/CIS/Sub-Saharan Africa | 770 | 599 | 1,897 | 1,831 |   Middle East/Asia | 1,261 | 1,454 | 3,631 | 4,281 |   Total | $ | 3,660 | $ | 3,636 | $ | 10,348 | $ | 10,752 |   REMAINING PERFORMANCE OBLIGATIONS   As of September 30, 2026, the aggregate amount of the transaction price allocated to unsatisfied (or partially unsatisfied) performance obligations was $ 46.4 billion. As of September 30, 2026, the Company expects to recognize revenue of approximately 60 %, 80 % and 93 % of the total remaining performance obligations within 2 , 5 , and 15 years, respectively, and the remaining thereafter. Cont",
+  "l, compensation and benefits, and overhead costs.   Productivity: Productivity is measured by the remaining variance in profit, after adjusting for the period-over-period impact of volume, price, business mix, FX, and (inflation)/deflation.   Baker Hughes Company 2026 Third Quarter Form 10-Q | 34   Orders and Remaining Performance Obligations   Summarized orders information for our segments is shown in the following table.   Three Months Ended September 30, | $ Change | Nine Months Ended September 30, | $ Change |   2026 | 2025 | 2026 | 2025 |   Orders: |   Oilfield Services & Equipment | $ | 4,047 | $ | 4,068 | $ | (21) | $ | 10,730 | $ | 10,852 | $ | (122) |   Gas Technology Equipment | 3,120 | ",
+  "ergy Technology | 5,886 | 4,139 | 1,747 | 17,861 | 10,847 | 7,014 |   Original Equipment | 587 | \u2014 | 587 | 587 | \u2014 | 587 |   Aftermarket | 244 | \u2014 | 244 | 244 | \u2014 | 244 |   Chart | 831 | \u2014 | 831 | 831 | \u2014 | 831 |   Total | $ | 10,764 | $ | 8,207 | $ | 2,557 | $ | 29,422 | $ | 21,699 | $ | 7,723 |   Remaining Performance Obligations (\"RPO\") relate to the aggregate amount of the transaction prices allocated to the unsatisfied (or partially unsatisfied) performance obligations. As of September 30, 2026, RPO totaled $46.4 billion, of which IET totaled $39.4 billion, Chart totaled $3.6 billion, and OFSE totaled $3.4 billion.   Third Quarter of 2026 Compared to the Third Quarter of 2025   Revenue increased $1.0 billion, or 14%, "
+ ]
+}

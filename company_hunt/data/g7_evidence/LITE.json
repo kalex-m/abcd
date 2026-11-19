@@ -1,0 +1,73 @@
+{
+ "ticker": "LITE",
+ "cik": 1633978,
+ "rpo": {
+  "latest": [
+   null,
+   "2021-04-03",
+   426600000,
+   "10-Q",
+   "2021-05-12",
+   "0001633978-21-000009"
+  ],
+  "prior": [
+   null,
+   "2020-03-28",
+   546600000,
+   "10-Q",
+   "2020-05-05",
+   "0001633978-20-000008"
+  ],
+  "growth": -0.2195389681668496
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   1262600000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069615"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   533800000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069615"
+  ],
+  "growth": 1.3653053578119145
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   359800000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069615"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   6700000,
+   "10-Q",
+   "2026-11-03",
+   "0001628280-26-069615"
+  ],
+  "growth": 52.701492537313435
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm"
+ },
+ "backlog_hits": [
+  "ember 26, 2026 | Gross Carrying Amounts | Accumulated Amortization | Net Carrying Amounts | Weighted Average Remaining Amortization Period (Years) |   Acquired developed technologies | $ | 828.4 | $ | ( 657.8 ) | $ | 170.6 | 3.3 |   Customer relationships | 419.5 | ( 296.0 ) | 123.5 | 3.2 |   Order backlog | 14.0 | ( 14.0 ) | \u2014 | \u2014 |   Trade name and trademarks | 3.0 | ( 3.0 ) | \u2014 | \u2014 |   Total intangible assets | $ | 1,264.9 | $ | ( 970.8 ) | $ | 294.1 |   June 27, 2026 | Gross Carrying Amounts | Accumulated Amortization | Net Carrying Amounts | Weighted Average Remaining Amortization Period (Years) |   Acquired developed technologies | $ | 828.4 | $ | ( 638.7 ) | $ | 189.7 | 3.5 |   Customer rela",
+  "itments and Contingencies   Purchase Obligations   Our purchase obligations of $ 2,948.9 million a s of September 26, 2026 represent legally binding commitments to purchase inventory and other commitments made in the normal course of business to meet operational requirements. Although open purchase orders are considered enforceable and legally binding, the terms generally allow the option to cancel, reschedule and adjust the requirements based on our business needs prior to the delivery of goods or performance of services. Obligations to purchase inventory and other commitments are generally expected to be fulfilled within one year .   We depend on a limited number of contract manufacturers, subco"
+ ]
+}

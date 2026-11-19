@@ -1,0 +1,78 @@
+{
+ "ticker": "IESC",
+ "cik": 1048268,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-06-30",
+   2801635000,
+   "10-Q",
+   "2026-07-31",
+   "0001048268-26-000130"
+  ],
+  "prior": [
+   null,
+   "2025-06-30",
+   1295207000,
+   "10-Q",
+   "2025-08-01",
+   "0001048268-25-000106"
+  ],
+  "growth": 1.1630789518586604
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   1242697000,
+   "10-Q",
+   "2026-07-31",
+   "0001048268-26-000130"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   890158000,
+   "10-Q",
+   "2026-07-31",
+   "0001048268-26-000130"
+  ],
+  "growth": 0.3960409275656682
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   178547000,
+   "10-Q",
+   "2026-07-31",
+   "0001048268-26-000130"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   111902000,
+   "10-Q",
+   "2026-07-31",
+   "0001048268-26-000130"
+  ],
+  "growth": 0.59556576289968
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-07-31",
+  "period": "2026-06-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1048268/000104826826000130/iesc-20260630.htm"
+ },
+ "backlog_hits": [
+  "r Condensed Consolidated Balance Sheets under the caption \u201cBillings in excess of costs and estimated earnings\u201d.   During the nine months ended June 30, 2026 and 2025, we recognized revenue of $ 164,294 and $ 145,991 related to our contract liabilities at September 30, 2025 and 2024, respectively.   Remaining Performance Obligations   Remaining performance obligations represent the unrecognized revenue value of our contract commitments. Our new performance obligations vary significantly each reporting period based on the timing of our major new contract commitments. At June 30, 2026, we had remaining performance obligations of $ 2,801,635 . The Company expects to recognize revenue on approximately $ 2,289,343 of the remaini",
+  "| Accumulated Amortization | Net |   Trademarks/trade names | 5 | - | 20 | $ | 21,089 | $ | ( 10,379 ) | $ | 10,710 |   Technical library | 20 | 400 | ( 256 ) | 144 |   Customer relationships | 1 | - | 15 | 117,892 | ( 75,562 ) | 42,330 |   Non-competition arrangements | 5 | 940 | ( 172 ) | 768 |   Backlog and construction contracts | 1 | - | 2 | 1,257 | ( 972 ) | 285 |   Total intangible assets | $ | 141,578 | $ | ( 87,341 ) | $ | 54,237 |   Estimated Useful Lives (in Years) | September 30, 2025 |   Gross Carrying Amount | Accumulated Amortization | Net |   Trademarks/trade names | 5 | - | 20 | $ | 16,199 | $ | ( 8,549 ) | $ | 7,650 |   Technical library | 20 | 400 | ( 241 ) | 159 |   Customer rel",
+  "AC   29   revenues increased by $10.9 million compared to the prior year period, with expansion of the plumbing and HVAC trades into new markets offsetting the impact of slowing demand on new home construction. Our multi-family revenues decreased by $12.4 million, or 14.2%, reflecting a d ecline in backlog during fiscal 2025 resulting from the impact of elevated interest rates on demand.   Gross Profit. During the three months ended June 30, 2026, our Residential segment's gross profit decreased by $25.2 million, or 25.9%, compared to the three months ended June 30, 2025, driven primarily by lower volume as discussed above. Gross profit as a percentage of revenue decreased to 22.2% during the three",
+  "g market was impacted by housing affordability challenges, availability and cost of insurance, and overall economic uncertainty, leading to a decline in construction volumes and pressure on pricing during the period. Our multi-family revenues also decreased by $40.2 million, reflecting a decline in backlog during fiscal 2025 resulting from the impact of elevated interest rates on demand. Our single-family plumbing and HVAC revenue increased by $30.5 million compa red to the prior year period as the general decrease in demand for single-family housing was more than offset by continued expansion of our plumbing and HVAC business into new markets, as well as improved market conditions for these servic",
+  "cklog. In our Communications segment, we have a significant amount of shorter duration projects that can be substantially completed within a quarter. The table below summarizes our remaining performance obligations and backlog (in thousands):   June 30, 2026 | September 30, 2025 | June 30, 2025 |   Remaining Performance Obligations | Agreements without an enforceable obligation (1)   | Backlog | Remaining Performance Obligations | Agreements without an enforceable obligation (1)   | Backlog | Remaining Performance Obligations | Agreements without an enforceable obligation (1)   | Backlog |   (Dollars in millions) |   Communications | $ | 1,329,313 | $ | 282,768 | $ | 1,612,081 | $ | 692,238 | $ | 63,569 | $ | 755,807 | $ |",
+  " 419,804 | 592,787 |   Commercial & Industrial | 838,455 | 563,500 | 1,401,955 | 613,633 | 11,533 | 625,165 | 261,153 | 162,348 | 423,501 |   Total | $ | 2,801,635 | $ | 1,723,467 | $ | 4,525,102 | $ | 1,686,583 | $ | 687,207 | $ | 2,373,790 | $ | 1,295,207 | $ | 771,593 | $ | 2,066,800 |   (1) Our backlog contains signed agreements and letters of intent, which we do not have a legal right to enforce prior to work starting. These arrangements are excluded from remaining performance obligations until work begins.   (2) In January 2026, Infrastructure Solutions acquired $29.1 million of remaining performance obligations and backlog in connection with the acquisition of Gulf Island.   34   WORKING CAP",
+  "working capital needs such as the timing of our receivable collections. Working capital requirements may also be affected by needs associated with higher growth or acquisitions. Through the first quarter of fiscal 2027, we expect an increase in our working capital needs as a result of growth in the backlog of our Infrastructure Solutions segment, as this type of work is not progress billed, and due to the timing of certain payments such as annual incentive compensation payments and our annual insurance renewal.   Net cash provided by operating activities was $239.4 million during the nine months ended June 30, 2026, as compared to $154.1 million in the nine months ended June 30, 2025. The increase "
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "ticker": "PSN",
+ "cik": 275880,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   7600000000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435045"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   7000000000,
+   "10-Q",
+   "2025-11-05",
+   "0001193125-25-265659"
+  ],
+  "growth": 0.08571428571428563
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1650548000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435045"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1621748000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435045"
+  ],
+  "growth": 0.017758616011858797
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   103819000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435045"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   107955000,
+   "10-Q",
+   "2026-10-28",
+   "0001193125-26-435045"
+  ],
+  "growth": -0.03831225973785368
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/275880/000119312526435045/psn-20260930.htm"
+ },
+ "backlog_hits": [
+  "purchase price, the following values were preliminarily assigned to intangible assets (in thousands, except for years):   |   |   Gross Carrying Amount   |   |   |   Amortization Period   |   |   |   |   |   |   (in years)   |   Customer relationships   |   |   $   |   85,300   |   |   |   15   |   Backlog   |   |   |   16,400   |   |   |   1   |   Trade name   |   |   |   3,900   |   |   |   2   |   Non-compete agreements   |   |   |   200   |   |   |   3   |   Amortization expense of $ 6.0 million and $ 18.1 million related to these intangible assets was recorded for the three and nine months ended September 30, 2026, respectively. The entire value of goodwill was assigned to the Federal Solution",
+  "   Net assets acquired   |   |   $   |   28,227   |   |   Of the total purchase price, the following values were preliminarily assigned to intangible assets (in thousands, except for years):   |   |   Gross Carrying Amount   |   |   |   Amortization Period   |   |   |   |   |   |   (in years)   |   Backlog   |   |   $   |   2,460   |   |   |   3   |   Customer relationships   |   |   |   1,840   |   |   |   3   |   Non-compete agreements   |   |   |   220   |   |   |   3   |   Trade name   |   |   |   70   |   |   |   1   |   Amortization expense of $ 0.4 million and $ 1.2 million related to these intangible assets was recorded for the three and nine months ended September 30, 2026, respectively. T",
+  "ase price, the following values were preliminarily assigned to intangible assets (in thousands, except for years):   11   |   |   Gross Carrying Amount   |   |   |   Amortization Period   |   |   |   |   |   |   (in years)   |   Customer relationships   |   |   $   |   20,690   |   |   |   15   |   Backlog   |   |   |   8,010   |   |   |   5   |   Developed technologies   |   |   |   3,000   |   |   |   3   |   Non-compete agreements   |   |   |   2,460   |   |   |   3   |   Trade name   |   |   $   |   660   |   |   |   1   |   Amortization expense of $ 1.2 million and $ 3.9 million related to these intangible assets was recorded for the three and nine months ended September 30, 2026, respectively",
+  "   Net assets acquired   |   |   $   |   36,566   |   |   Of the total purchase price, the following values were preliminarily assigned to intangible assets (in thousands, except for years):   |   |   Gross Carrying Amount   |   |   |   Amortization Period   |   |   |   |   |   |   (in years)   |   Backlog   |   |   $   |   1,900   |   |   |   3   |   Developed technologies   |   |   |   3,900   |   |   |   5   |   Trade name   |   |   $   |   300   |   |   |   1   |   Amortization expense of $ 0.4 million and $ 1.1 million related to these intangible assets was recorded for the three and nine months ended September 30, 2026 , respectively and $ 0.4 million and $ 1.1 million for the three and nine ",
+  " 2026 and December 31, 2025 include $ 58.9 million and $ 58.9 million , respectively, related to n et claim recoveries. For the three and nine months ended September 30, 2026 and September 30, 2025 , there were no material losses recognized related to the collectability of claims, unapproved change orders, and requests for equitable adjustment.   During the three months ended September 30, 2026 and September 30, 2025, the Company recognized revenue of $ 14.1 million and $ 12.9 million , respectively and $ 185.0 million and $ 178.1 million during the nine months ended September 30, 2026 and September 30, 2025, respectively, that was included in the corresponding contract liability balances at Decem",
+  " |   Weighted Average   |   |   |   |   Gross Carrying Amount   |   |   |   Accumulated Amortization   |   |   |   Net Carrying Amount   |   |   |   Gross Carrying Amount   |   |   |   Accumulated Amortization   |   |   |   Net Carrying Amount   |   |   |   Amortization Period  (in years)   |   |   Backlog   |   |   $   |   170,870   |   |   |   $   |   ( 120,016   |   )   |   |   $   |   50,854   |   |   |   $   |   154,470   |   |   |   $   |   ( 83,181   |   )   |   |   $   |   71,289   |   |   |   |   3.3   |   |   Customer relationships   |   |   |   480,030   |   |   |   |   ( 188,878   |   )   |   |   |   291,152   |   |   |   |   395,460   |   |   |   |   ( 166,391   |   )   |   |   |   229",
+  "ts and task orders are subject to renewal and rebidding at the end of their   34   term, and some are subject to the exercise of contract options and issuance of task orders by the applicable government entity. In addition to focusing on increasing our revenues through increased contract awards and backlog, we focus our financial performance on margin expansion and cash flow.   Key Metrics   We manage and assess the performance of our business by evaluating a variety of metrics. The following table sets forth selected key metrics (in thousands, except Book-to-Bill):   |   |   September 30, 2026   |   |   |   September 30, 2025   |   |   Awards (year to date)   |   |   $   |   5,748,571   |   |   | ",
+  "   $   |   8,832,447   |   |   Book-to-Bill (year to date)   |   |   |   1.2   |   |   |   |   1.0   |   |   (1) Difference between our backlog of $9.4 billion and our remaining unsatisfied performance obligations, or RUPO, of $7.6 billion, each as of September 30, 2026, is due to (i) unissued task orders and unexercised option years, to the extent their issuance or exercise is probable, as well as (ii) contract awards, to the extent we believe contract execution and funding is probable.   Awards   Awards generally represent the amount of revenue expected to be earned in the future from funded and unfunded contract awards received during the period. Contract awards include both new and re-compete ",
+  "rately priced.   35   Backlog includes (i) unissued task orders and unexercised option years, to the extent their issuance or exercise is probable, as well as (ii) contract awards, to the extent we believe contract execution and funding is probable.   The following table summarizes the value of our backlog at the respective dates presented below (in thousands):   |   |   September 30, 2026   |   |   |   September 30, 2025   |   |   Federal Solutions:   |   |   |   |   |   |   |   Funded   |   |   $   |   2,147,451   |   |   |   $   |   1,897,010   |   |   Unfunded   |   |   |   2,495,738   |   |   |   |   2,409,177   |   |   Total Federal Solutions   |   |   |   4,643,189   |   |   |   |   4,306,18",
+  "|   |   4,483,659   |   |   Unfunded   |   |   |   34,292   |   |   |   |   42,601   |   |   Total Critical Infrastructure   |   |   |   4,719,277   |   |   |   |   4,526,260   |   |   Total Backlog (1)   |   |   $   |   9,362,466   |   |   |   $   |   8,832,447   |   |   (1) Difference between our backlog of $9.4 billion and our RUPO of $7.6 billion, each as of September 30, 2026, is due to (i) unissued task orders and unexercised option years, to the extent their issuance or exercise is probable, as well as (ii) contract awards, to the extent we believe contract execution and funding is probable.   Our backlog includes orders under contracts that in some cases extend for several years. For exampl",
+  "y funded at any point during their term. All or some of the work to be performed under the contracts may remain unfunded unless and until the U.S. Congress makes subsequent appropriations and the procuring agency allocates funding to the contract.   We expect to recognize $4.0 billion of our funded backlog at September 30, 2026 as revenues in the following twelve months. However, our U.S. federal government customers may cancel their contracts with us at any time through a termination for convenience or may elect to not exercise option periods under such contracts. In the case of a termination for convenience, we would not receive anticipated future revenues, but would generally be permitted to rec"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "ticker": "VMI",
+ "cik": 102729,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-26",
+   329000,
+   "10-Q",
+   "2026-10-27",
+   "0000102729-26-000050"
+  ],
+  "prior": [
+   null,
+   "2025-09-27",
+   329000,
+   "10-Q",
+   "2025-10-28",
+   "0000102729-25-000053"
+  ],
+  "growth": 0.0
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   1103801000,
+   "10-Q",
+   "2026-10-27",
+   "0000102729-26-000050"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   1045980000,
+   "10-Q",
+   "2026-10-27",
+   "0000102729-26-000050"
+  ],
+  "growth": 0.05527925964167579
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-28",
+   "2026-09-26",
+   172834000,
+   "10-Q",
+   "2026-10-27",
+   "0000102729-26-000050"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   141456000,
+   "10-Q",
+   "2026-10-27",
+   "0000102729-26-000050"
+  ],
+  "growth": 0.22182162651283788
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-27",
+  "period": "2026-09-26",
+  "url": "https://www.sec.gov/Archives/edgar/data/102729/000010272926000050/vmi-20260926x10q.htm"
+ },
+ "backlog_hits": [
+  "ember 27, 2025, the Company recognized $ 44,525 and $ 101,468 from amounts included in contract liabilities as of December 28, 2024. This revenue reflects advance payments applied to performance obligations completed during the respective periods.  As of September 26, 2026, the Company had $ 329 in remaining performance obligations on contracts with an original expected duration of one year or more, which the Company expects to recognize as revenue within the next 12 to 36 months .  Disaggregated Revenue   A breakdown of revenue recognized over time and at a point in time by segment for the thirteen and thirty-nine weeks ended September 26, 2026 and September 27, 2025 is as follows:  \u200b   \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   |"
+ ]
+}

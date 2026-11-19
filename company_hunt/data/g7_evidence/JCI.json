@@ -1,0 +1,77 @@
+{
+ "ticker": "JCI",
+ "cik": 833444,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   29300000000,
+   "10-K",
+   "2026-11-12",
+   "0000833444-26-000108"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   22700000000,
+   "10-K",
+   "2025-11-14",
+   "0000833444-25-000097"
+  ],
+  "growth": 0.29074889867841414
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   6614000000,
+   "10-Q",
+   "2026-07-29",
+   "0000833444-26-000087"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   6052000000,
+   "10-Q",
+   "2026-07-29",
+   "0000833444-26-000087"
+  ],
+  "growth": 0.09286186384666228
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2016-03-26",
+   "2016-06-24",
+   236000000,
+   "10-Q",
+   "2016-07-29",
+   "0000833444-16-000197"
+  ],
+  "prior": [
+   "2015-03-28",
+   "2015-06-26",
+   253000000,
+   "10-Q",
+   "2016-07-29",
+   "0000833444-16-000197"
+  ],
+  "growth": -0.06719367588932801
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-12",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/833444/000083344426000108/jci-20260930.htm"
+ },
+ "backlog_hits": [
+  "ancing charges | 279 | 319 | 342 |   Loss (gain) on divestitures | (70) | \u2014 | 42 |   Net mark-to-market adjustments | (73) | 6 | (47) |   Segment EBIT | 4,377 | 3,568 | 3,242 |   Amortization of intangible assets | 351 | 439 | 476 |   Segment EBITA (non-GAAP) | $ | 4,728 | $ | 4,007 | $ | 3,718 |   ORDERS AND BACKLOG   Orders and backlog are metrics that are meant to provide management with a deeper level of insight into the progress of specific strategic and growth initiatives. Orders provide management with a signal of customer demand for the Company's products and services, as well as an indication of future revenues and performance. The Company reports backlog, which it believes is a useful me",
+  "Change (1)   | September 30, 2026 | Year-over-Year Change (1)   |   Americas   | $ | 21.6 | 48 | % | $ | 17.8 | 54 | % |   EMEA   | 5.1 | 9 | % | 3.1 | 18 | % |   APAC   | 3.0 | 10 | % | 2.1 | 12 | % |   Total | $ | 29.7 | 35 | % | $ | 23.0 | 43 | % |   (1) Change is compared to September 30, 2025 (backlog) and the year ended September 30, 2025 (orders) and excludes the impact of acquisitions, dispositions and foreign currency.   Orders   Orders increased 35%, driven by continued data center demand, along with strong growth across mission-critical verticals, including battery and semiconductor manufacturing and large research universities.   \u2022 The 48% increase in orders for Americas was led by 69% ",
+  "rowth in Services.   \u2022 The 9% increase in orders for EMEA was led by 15% growth in Products and Systems and 2% growth in Services.   \u2022 The 10% increase in orders for APAC was due to 12% growth in Products and Systems and 4% growth in Services.   Backlog   Backlog increased 43%, reflecting sustained orders growth and led by growth in Products and Systems.   \u2022 The 54% increase in backlog for Americas was led by 63% growth in Products and Systems.   \u2022 The 18% increase in backlog for EMEA was due to 18% growth in Products and Systems and 16% growth in Services.   36   \u2022 The 12% increase in backlog for APAC was due to 13% growth in Products and Systems and 10% growth in Services.   Remaining performanc",
+  " contracts which approximates five years;   \u2022 Remaining performance obligations exclude service contracts with an original expected duration of one year or less and contracts that are cancellable without substantial penalty versus backlog which includes short-term and cancellable contracts; and   \u2022 Remaining performance obligations include the full remaining term of service contracts with substantial termination penalties versus backlog which includes only one year for all outstanding service contracts.   LIQUIDITY AND CAPITAL RESOURCES   Working Capital   September 30, |   (in millions) | 2026 | 2025 | Change |   Current assets | $ | 11,678 | $ | 10,162 | 15 | % |   Current liabilities | 12,919 | 10,941 | 18 | % |   Worki",
+  "sitions and share repurchases.   \u2022 The Company expects to make approximately $900 million in capital expenditure investments during fiscal 2027 focused on expanding global thermal-management capacity to support increased demand, including enhancements to capacity, lead times and delivery to support backlog conversion and execution. The Company expects to fund these capital expenditures through existing cash and liquidity resources, including cash from operations and short-term commercial paper.   \u2022 Refer to Note 9, \"Debt and Financing Arrangements,\" of the notes to consolidated financial statements for additional information on debt obligations and maturities. Interest payable on long-term debt out",
+  "ectively.   Performance Obligations   Performance obligations are satisfied at a point in time or over time. The timing of satisfying the performance obligation is typically stipulated by the terms of the contract. As of September 30, 2026, the aggregate amount of the transaction price allocated to remaining performance obligations was approximately $ 29.3 billion, of which approximately 73 % is expected to be recognized as revenue over the next two years . The remaining performance obligations expected to be recognized in revenue beyond two years primarily relate to large, multi-purpose construction contracts, which include services to be performed over the building's lifetime, with initial contract terms of 25 to 35 year"
+ ]
+}

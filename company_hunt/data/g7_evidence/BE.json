@@ -1,0 +1,52 @@
+{
+ "ticker": "BE",
+ "cik": 1664703,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1235837000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066931"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   519048000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066931"
+  ],
+  "growth": 1.380968619472573
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   225449000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066931"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   7846000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066931"
+  ],
+  "growth": 27.73425949528422
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-22",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm"
+ },
+ "backlog_hits": [
+  "g lease liabilities | 54 | 484 |   Total liabilities | $ | 44,458 | $ | 40,674 |   12. Commitments and Contingencies   Commitments   Purchase Commitments with Suppliers and Contract Manufacturers\u2014 Manufacturing, long-term supply and other related purchase commitments include agreements and purchase orders with component suppliers and third-party manufacturers. These commitments primarily relate to minimum purchase quantities and non-cancelable orders for raw materials and components used in the manufacture of our Energy Server and ancillary systems. Certain arrangements require us to purchase specified minimum quantities or make payments for contractual shortfalls, including under take-or-pay prov"
+ ]
+}

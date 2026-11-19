@@ -1,0 +1,80 @@
+{
+ "ticker": "GD",
+ "cik": 40533,
+ "rpo": {
+  "latest": [
+   null,
+   "2025-12-31",
+   118000000000,
+   "10-K",
+   "2026-01-30",
+   "0000040533-26-000006"
+  ],
+  "prior": [
+   null,
+   "2024-12-31",
+   90600000000,
+   "10-K",
+   "2025-02-07",
+   "0000040533-25-000008"
+  ],
+  "growth": 0.30242825607064017
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-06",
+   "2026-10-04",
+   14566000000,
+   "10-Q",
+   "2026-10-30",
+   "0000040533-26-000038"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   12907000000,
+   "10-Q",
+   "2026-10-30",
+   "0000040533-26-000038"
+  ],
+  "growth": 0.1285349035407144
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-06",
+   "2026-10-04",
+   1527000000,
+   "10-Q",
+   "2026-10-30",
+   "0000040533-26-000038"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   1331000000,
+   "10-Q",
+   "2026-10-30",
+   "0000040533-26-000038"
+  ],
+  "growth": 0.14725770097670932
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-10-04",
+  "url": "https://www.sec.gov/Archives/edgar/data/40533/000004053326000038/gd-20261004.htm"
+ },
+ "backlog_hits": [
+  "ufacture of business jet aircraft in our Aerospace segment. Revenue on these contracts is recognized when the customer obtains control of the asset, which is generally upon delivery and acceptance by the customer of the fully outfitted air craft.   10   On October 4, 2026, we had $ 220.3 billion of remaining performance obligations, which we refer to as total backlog. We expect to recognize approximately 30 % of our remaining performance obligations as revenue by year-end 2027, an additional 25 % by year-e nd 2029 and the balance thereafter.   Contract Estimates. The majority of our revenue is derived from long-term contracts and programs that can span several years. Accounting for long-term contracts and programs involves",
+  "60 ) | \u2014 |   Total intangible assets | $ | 3,913 | $ | ( 2,682 ) | $ | 1,231 | $ | 3,953 | $ | ( 2,578 ) | $ | 1,375 |   (a) Changes in gross carrying amounts consisted primarily of foreign currency translation and adjustments for acquired and divested intangible assets.   (b) Consisted of acquired backlog and probable follow-on work and associated customer relationships.   Amortization expense is included in operating costs and expenses in the Consolidated Statement of Earnings. Amortization expense for intangible assets was $ 43 and $ 130 for the three- and nine-month periods ended October 4, 2026, and $ 44 and $ 131 for the three- and nine-month periods ended September 28, 2025.   H. DEBT   Debt",
+  " and insurance carriers totaling approximately $ 2.1 billion on October 4, 2026. In addition, from time to time and in the ordinary course of business, we contractually guarantee the payment or performance of our subsidiaries arising under certain contracts.   Aircraft Trade-ins. In connection with orders for new aircraft in contract backlog, some Gulfstream customers hold options to trade in aircraft as partial consideration in their new-aircraft transaction. These trade-in commitments are generally structured to establish the fair market value of the trade-in aircraft at a date generally 45 or fewer days preceding delivery of the new aircraft to the customer. At that time, the customer is requir",
+  "t mix. Aircraft services operating earnings increased in the third quarter and first nine months of 2026 due to higher volume and a favorable services mix. G&A/other expenses increased in the third quarter and first nine months of 2026 due primarily to higher selling expenses associated with strong orders for new aircraft. In total, the Aerospace segment\u2019s operating margin increased 120 basis points in the third quarter and 110 basis points in the first nine months of 2026 compared with the prior-year periods due to improved operating performance.   MARINE SYSTEMS   Three Months Ended | October 4, 2026 | September 28, 2025 | Variance |   Revenue | $ | 4,960 | $ | 4,096 | $ | 864 | 21.1 | % |   Ope",
+  "   The following are updates to the previously-issued outlook from our second quarter 2026 Form 10-Q:   \u2022 Revenue between $56.5 billion and $56.8 billion and operating margin around 10.5%,   \u2022 Net interest expense of approximately $215, and   \u2022 Diluted earnings per share (EPS) of $17.20 to $17.30   BACKLOG AND ESTIMATED POTENTIAL CONTRACT VALUE   Our total backlog, including funded and unfunded portions, was $220.3 billion at the end of the third quarter of 2026 compared with $136.5 billion at the end of the second quarter. Our total backlog is equal to our remaining performance obligations under contracts with customers as discussed in Note B to the unaudited Consolidated Financial Statements in P",
+  "tract value, which combines total backlog with estimated potential contract value, was $270.7 billion on October 4, 2026.   The following table details the backlog and estimated potential contract value of each segment at the end of the third and second quarters of 2026:   Funded | Unfunded | Total Backlog | Estimated Potential Contract Value | Total  Estimated Contract Value |   October 4, 2026 |   Aerospace | $ | 24,460 | $ | 925 | $ | 25,385 | $ | 1,374 | $ | 26,759 |   Marine Systems | 47,289 | 99,576 | 146,865 | 7,644 | 154,509 |   Combat Systems | 26,983 | 1,701 | 28,684 | 9,588 | 38,272 |   Technologies | 13,064 | 6,341 | 19,405 | 31,724 | 51,129 |   Total | $ | 111,796 | $ | 108,543 | $ | 2",
+  " Marine Systems | 42,356 | 22,826 | 65,182 | 7,442 | 72,624 |   Combat Systems | 27,507 | 1,843 | 29,350 | 10,847 | 40,197 |   Technologies | 11,256 | 6,733 | 17,989 | 30,945 | 48,934 |   Total | $ | 104,111 | $ | 32,387 | $ | 136,498 | $ | 50,404 | $ | 186,902 |   36   AEROSPACE   Aerospace funded backlog represents primarily new aircraft orders for which we have definitive purchase contracts and deposits from customers. Unfunded backlog consists of agreements to provide future aircraft maintenance and support services. The Aerospace segment ended the third quarter of 2026 with backlog of $25.4 billion.   Orders for new Gulfstream aircraft reflected very strong demand across our portfolio of produ",
+  "ed potential contract value represents primarily options and other agreements with existing customers to purchase new aircraft and long-term aircraft services agreements. On October 4, 2026, estimated potential contract value in the Aerospace segment was $1.4 billion.   DEFENSE SEGMENTS   The total backlog in our defense segments represents the estimated remaining sales value of work to be performed under firm contracts. The funded portion of total backlog includes items that have been authorized and appropriated by the U.S. Congress and funded by customers, as well as commitments by international customers that are approved and funded similarly by their governments. The unfunded portion of total b",
+  "his amount in our estimated potential contract value. This amount is often less than the total IDIQ contract value, particularly when the contract has multiple awardees. The actual amount of funding received in the future may be higher or lower than our estimate of potential contract value.   Total backlog in our defense segments was $195 billion on October 4, 2026, up 73% compared with $112.5 billion at the end of the second quarter. The increase in backlog was primarily driven by large awards in the Marine Systems segment for construction of Virginia-class and Columbia-class submarines. The defense segments achieved a book-to-bill ratio of 8.5-to-1 in the third quarter of 2026 and 4.1-to-1 in the"
+ ]
+}

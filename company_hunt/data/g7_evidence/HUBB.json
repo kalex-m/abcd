@@ -1,0 +1,67 @@
+{
+ "ticker": "HUBB",
+ "cik": 48898,
+ "rpo": {
+  "latest": [
+   null,
+   "2020-09-30",
+   305000000,
+   "10-Q",
+   "2020-10-28",
+   "0001628280-20-014919"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1872500000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067729"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1502400000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067729"
+  ],
+  "growth": 0.2463391906283281
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   408700000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067729"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   330600000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067729"
+  ],
+  "growth": 0.23623714458560197
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026067729/hubb-20260930.htm"
+ },
+ "backlog_hits": [
+  "ation to identifiable intangible assets acquired for the 2026 acquisition is as follows (in millions, except useful life amounts):   Estimated Fair Value | Weighted Average Estimated Useful Life |   Patents, tradenames and trademarks | $ | 65.0 | 20 |   Customer relationships | $ | 1,780.0 | 25 |   Backlog | $ | 11.0 | 1 |   Total | $ | 1,856.0 |   Customer relationships intangible assets acquired are amortized using an accelerated method that reflects the pattern in which economic benefits of the intangible assets are consumed and results in higher amortization in the earlier years of the asset's useful life.   Supplemental Pro-forma Data   The results of operations of NSI Industries has been incl",
+  "gnized intangible assets of $ 364.0 million and goodwill of $ 471.3 million as a result of the acquisition. The $ 364.0 million of intangible assets consists primarily of $ 290.0 million of customer relationships, with the remaining $ 74.0 million consisting of developed technology, trade names and backlog. The intangible assets are amortized over a weighted average period of approximately 21 years.   The Company financed the acquisition of DMC Power with net proceeds from borrowings under a new unsecured term loan facility in the aggregate principal amount of $ 600.0 million and issuances of commercial paper.   We determined the fair values of the customer relationships intangible assets using a m",
+  "liabilities balance was primarily due to the recognition of $ 101.7 million in revenue related to amounts that were recorded in contract liabilities at January 1, 2026, partially offset by a $ 66.1 million net increase in current year deferrals primarily due to timing of advance payments on certain orders. The ending balance of contract assets as of September 30, 2026 and December 31, 2025, was $ 63.5 million and $ 48.2 million, respectively, with the increase being driven by revenue recognized in excess of billings. Credit losses recognized on our receivables and contract assets were immaterial for the three and nine months ended September 30, 2026.   HUBBELL INCORPORATED - Form 10-Q 14   Back to"
+ ]
+}

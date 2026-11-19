@@ -1,0 +1,75 @@
+{
+ "ticker": "LHX",
+ "cik": 202058,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-07-03",
+   42000000000,
+   "10-Q",
+   "2026-07-30",
+   "0000202058-26-000058"
+  ],
+  "prior": [
+   null,
+   "2025-06-27",
+   35400000000,
+   "10-Q",
+   "2025-07-24",
+   "0000202058-25-000151"
+  ],
+  "growth": 0.18644067796610164
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   6060000000,
+   "10-Q",
+   "2026-10-29",
+   "0000202058-26-000087"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-10-03",
+   5659000000,
+   "10-Q",
+   "2026-10-29",
+   "0000202058-26-000087"
+  ],
+  "growth": 0.07086057607351126
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   786000000,
+   "10-Q",
+   "2026-10-29",
+   "0000202058-26-000087"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-10-03",
+   621000000,
+   "10-Q",
+   "2026-10-29",
+   "0000202058-26-000087"
+  ],
+  "growth": 0.2657004830917875
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-10-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/202058/000020205826000087/hrs-20261002.htm"
+ },
+ "backlog_hits": [
+  "backlog, which is the equivalent of our remaining performance obligations, represents the future revenue we expect to recognize as we perform on our current contracts. Contractual backlog comprises both funded backlog (i.e., firm orders for which funding is authorized and appropriated) and unfunded backlog (i.e., orders for which funds have not been appropriated and/or incrementally funded). Contractual backlog excludes unexercised contract options and potential orders under ordering-type contracts, such as indefinite-delivery, indefinite-quantity (\u201cIDIQ\u201d) contracts.   As of October 2, 2026, our contractual backlog and funded contractual backlog was $ 53.2 billion and $ 31.2 billion, respectively. ",
+  "e of assets from a product line sale in first quarter 2026, partially offset by $10 million decrease from the Space Technology disposal group divestiture in third quarter 2026 and a $31 million unfavorable EAC adjustment on a legacy domestic naval sensor program in first quarter 2026.   Contractual Backlog   We monitor contractual backlog as an operational indicator of future business activity. Although backlog is not necessarily indicative of revenue to be recognized in any particular period, it provides insight into demand trends and expected future utilization of production and service capacity. Our contractual backlog by segment, including funded and unfunded components, were as follows:   Octo",
+  ") | Funded | Unfunded | Total Contractual Backlog |   Space & Mission Systems | $ | 15.1 | $ | 7.2 | $ | 22.3 |   Communications & Spectrum Dominance | 8.4 | 2.5 | 10.9 |   Missile Solutions | 7.7 | 12.3 | 20.0 |   Total contractual backlog | $ | 31.2 | $ | 22.0 | $ | 53.2 |   Our total contractual backlog increased during third quarter 2026, driven by new awards across all three segments and contract modifications during the period, including firm amounts associated with undefinitized contract action (\u201cUCA\u201d), partially offset by a reduction of approximately $2.0 billion in contractual backlog associated with the completed Space Technology disposal group divestiture.   In our Missile Solutions segm",
+  " Terminal High Altitude Area Defense (\u201cTHAAD\u201d) and PAC-3 Missile Segment Enhancement programs, respectively. These awards represent two seven-year contracts consistent with the long-term framework agreements established with the DoW. The first year of each contract is included in funded contractual backlog and the remaining contract years are included in unfunded contractual backlog.   _____________________________________________________________________   35   In our Communications & Spectrum Dominance segment, third quarter 2026 awards included UCA awards of $723 million associated with our Next Generation Jammer Electronic Warfare and $540 million in new VAMPIRE\u2122 program awards.   Unallocated Co"
+ ]
+}

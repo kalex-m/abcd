@@ -1,0 +1,52 @@
+{
+ "ticker": "COHR",
+ "cik": 820318,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2370324000,
+   "10-Q",
+   "2026-11-04",
+   "0000820318-26-000023"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1581378000,
+   "10-Q",
+   "2026-11-04",
+   "0000820318-26-000023"
+  ],
+  "growth": 0.4988977967317112
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2024-01-01",
+   "2024-03-31",
+   22305000,
+   "10-Q",
+   "2024-05-07",
+   "0000820318-24-000009"
+  ],
+  "prior": [
+   "2023-01-01",
+   "2023-03-31",
+   67388000,
+   "10-Q",
+   "2024-05-07",
+   "0000820318-24-000009"
+  ],
+  "growth": -0.6690063512791595
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm"
+ },
+ "backlog_hits": [
+  "ook Value |   Technology | $ | 1,505,282 | $ | ( 629,241 ) | $ | 876,041 | $ | 1,505,754 | $ | ( 601,358 ) | $ | 904,396 |   Trade Names | 438,471 | ( 8,471 ) | 430,000 | 438,471 | ( 8,471 ) | 430,000 |   Customer Lists | 2,385,930 | ( 876,104 ) | 1,509,826 | 2,384,730 | ( 834,652 ) | 1,550,078 |   Backlog and Other | 85,373 | ( 85,373 ) | \u2014 | 82,887 | ( 82,887 ) | \u2014 |   Total | $ | 4,415,056 | $ | ( 1,599,189 ) | $ | 2,815,867 | $ | 4,411,842 | $ | ( 1,527,368 ) | $ | 2,884,474 |   10   Table of Contents   Note 7. Assets Held-for-Sale and Sale of Businesses   On September 2, 2025, the Company completed the sale of its aerospace and defense business, which was part of the Industrial segment, for ap"
+ ]
+}

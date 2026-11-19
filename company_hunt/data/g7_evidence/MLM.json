@@ -1,0 +1,73 @@
+{
+ "ticker": "MLM",
+ "cik": 916076,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   219000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   225000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "growth": -0.026666666666666616
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2369000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1846000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "growth": 0.28331527627302266
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   438000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   505000000,
+   "10-Q",
+   "2026-11-04",
+   "0001193125-26-447418"
+  ],
+  "growth": -0.13267326732673268
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/916076/000119312526447418/mlm-20260930.htm"
+ },
+ "backlog_hits": [
+  "onsumer confidence and discretionary spending, and overall market conditions and these conditions could have an impact on our Company. Further, outbreaks of illnesses could negatively affect the health of our employees, employee productivity, customer purchasing patterns and fulfillment of purchase orders, availability of supplies, pricing for raw materials and the ability to transport materials via the Company\u2019s distribution network.   Personnel Risk Factors   Labor disputes could disrupt operations of our businesses.   Labor unions represented 21% of the hourly employees of our Building Materials business and 47% of the hourly employees of our Specialties business (including LNA) as of September",
+  "by fluctuations in currency exchange rates, regulatory requirements, political or economic developments and changes in customer demand. These risks may increase costs, disrupt supply chains, complicate compliance and reporting, or limit our ability to move products, raw materials or capital across borders.   Our substantial indebtedness following the LNA Transaction could adversely affect our financial condition, operating flexibility, credit profile and ability to pursue our business strategy.   We funded the cash consideration for the LNA Transaction with approximately $7.0 billion of indebtedness, significantly increasing our leverage and debt service obligations. As a result, a substantial por"
+ ]
+}

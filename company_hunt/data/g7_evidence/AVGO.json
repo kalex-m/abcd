@@ -1,0 +1,73 @@
+{
+ "ticker": "AVGO",
+ "cik": 1730168,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-08-02",
+   179200000000,
+   "10-Q",
+   "2026-09-10",
+   "0001730168-26-000080"
+  ],
+  "prior": [
+   null,
+   "2025-08-03",
+   27500000000,
+   "10-Q",
+   "2025-09-10",
+   "0001730168-25-000098"
+  ],
+  "growth": 5.516363636363637
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-04",
+   "2026-08-02",
+   29591000000,
+   "10-Q",
+   "2026-09-10",
+   "0001730168-26-000080"
+  ],
+  "prior": [
+   "2025-05-05",
+   "2025-08-03",
+   15952000000,
+   "10-Q",
+   "2026-09-10",
+   "0001730168-26-000080"
+  ],
+  "growth": 0.8550025075225678
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-05-04",
+   "2026-08-02",
+   15955000000,
+   "10-Q",
+   "2026-09-10",
+   "0001730168-26-000080"
+  ],
+  "prior": [
+   "2025-05-05",
+   "2025-08-03",
+   5887000000,
+   "10-Q",
+   "2026-09-10",
+   "0001730168-26-000080"
+  ],
+  "growth": 1.7102089349413965
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-10",
+  "period": "2026-08-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm"
+ },
+ "backlog_hits": [
+  "August 2, 2026 that was included in the contract liabilities balance as of November 2, 2025 was $ 8,309 million. The amount of revenue recognized during the three fiscal quarters ended August 3, 2025 that was included in the contract liabilities balance as of November 3, 2024 was $ 8,021 million.   Remaining Performance Obligations   Revenue allocated to remaining performance obligations represents the transaction price allocated to unsatisfied or partially unsatisfied performance obligations. Remaining performance obligations include unearned revenue and amounts that will be invoiced and recognized as revenue in future periods. Certain multi-year customer contracts in our semiconductor solutions segment and infrastructure",
+  "ts as of August 2, 2026 were approximately $ 179.2 billion. These commitments include obligations under a long-term contract for custom AI accelerators entered in the fiscal quarter ended May 3, 2026. We expect approximately 25 % of this amount to be recognized as revenue over the next 12 months.   Remaining performance obligations do not include contracts for software, subscriptions or services where the customer is not committed. The customer is not considered committed when the customer contract permits termination for convenience. For contracts with termination for convenience rights, our customers generally do not exercise those rights. Additionally, as a practical expedient, we have not included contracts that have a"
+ ]
+}

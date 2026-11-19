@@ -1,0 +1,53 @@
+{
+ "ticker": "WTS",
+ "cik": 795403,
+ "rev_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   728000000,
+   "10-Q",
+   "2026-11-05",
+   "0001104659-26-123118"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   611700000,
+   "10-Q",
+   "2026-11-05",
+   "0001104659-26-123118"
+  ],
+  "growth": 0.19012587869870856
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   190800000,
+   "10-Q",
+   "2026-11-05",
+   "0001104659-26-123118"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   111400000,
+   "10-Q",
+   "2026-11-05",
+   "0001104659-26-123118"
+  ],
+  "growth": 0.7127468581687613
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/795403/000110465926123118/wts-20260927x10q.htm"
+ },
+ "backlog_hits": [
+  "\u200b   |   | 0.6   | \u200b   |   | 86.0   |   Total   | \u200b   | $  | 464.1   | \u200b   | $  | 111.6   | \u200b   | $  | 36.0   | \u200b   | $  | 611.7   | \u200b   | $  | 1,380.8   | \u200b   | $  | 331.0   | \u200b   | $  | 101.6   | \u200b   | $  | 1,813.4   |   \u200b   12  Table of Contents   The Company generally considers customer purchase orders, which in some cases are governed by master sales agreements, to represent the contract with a customer. The Company\u2019s contracts with customers are generally for products only and typically do not include other performance obligations such as professional services, extended warranties, or other material rights. In situations where sales are to a distributor, the Company has concluded that its con",
+  "| ( 30.3 )   | \u200b   |   | ( 26.6 )  |   Net contract liability  | \u200b   | $   | ( 22.9 )   | \u200b   | $  | ( 22.4 )  |   \u200b   During the first nine months of 2026 and 2025 we recognized revenue of $ 23.1 million and $ 7.7 million, respectively, which was included in the opening contract liability balance. Remaining performance obligations (\u201cRPOs\u201d) represent the aggregate amount of certain contracts for which products have not been provided or services have not been performed. The Company does not disclose the value of RPOs for contracts with an original expected duration of one year or less. The RPOs for contracts with an original expected duration of more than one year is not material.  \u200b   The Company incurs costs to obtain and"
+ ]
+}

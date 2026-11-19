@@ -1,0 +1,72 @@
+{
+ "ticker": "VST",
+ "cik": 1692819,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   7847000000,
+   "10-Q",
+   "2026-11-09",
+   "0001692819-26-000025"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   3631000000,
+   "10-Q",
+   "2025-11-07",
+   "0001692819-25-000094"
+  ],
+  "growth": 1.16111264114569
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   6347000000,
+   "10-Q",
+   "2026-11-09",
+   "0001692819-26-000025"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   4971000000,
+   "10-Q",
+   "2026-11-09",
+   "0001692819-26-000025"
+  ],
+  "growth": 0.2768054717360693
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1706000000,
+   "10-Q",
+   "2026-11-09",
+   "0001692819-26-000025"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1037000000,
+   "10-Q",
+   "2026-11-09",
+   "0001692819-26-000025"
+  ],
+  "growth": 0.6451301832208294
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-09",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm"
+ },
+ "backlog_hits": [
+  "es in the table below represent minimum guaranteed capacity revenues as determined on a contract-by-contract basis and do not represent the full amount of capacity that is expected to be delivered.   Balance of 2026   | 2027 | 2028 | 2029 | 2030 | 2031 and Thereafter   | Total |   (in millions) |   Remaining performance obligations | $ | 491 | $ | 1,713 | $ | 1,420 | $ | 715 | $ | 215 | $ | 3,293 | $ | 7,847 |   Contract Balances   September 30,  2026 | December 31, 2025 |   (in millions) |   Wholesale and retail trade accounts receivable | $ | 2,870 | $ | 2,412 |   Allowance for credit losses | ( 107 ) | ( 89 ) |   Trade accounts receivable \u2014 net | $ | 2,763 | $ | 2,323 |   Trade accounts receivable from contracts with cu"
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "ticker": "HEI",
+ "cik": 46619,
+ "rev_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-07-31",
+   1413050000,
+   "10-Q",
+   "2026-08-27",
+   "0000046619-26-000020"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-07-31",
+   1147591000,
+   "10-Q",
+   "2026-08-27",
+   "0000046619-26-000020"
+  ],
+  "growth": 0.2313184749618984
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-07-31",
+   355197000,
+   "10-Q",
+   "2026-08-27",
+   "0000046619-26-000020"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-07-31",
+   265019000,
+   "10-Q",
+   "2026-08-27",
+   "0000046619-26-000020"
+  ],
+  "growth": 0.34026994290975354
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-27",
+  "period": "2026-07-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/46619/000004661926000020/hei-20260731.htm"
+ },
+ "backlog_hits": [
+  "nce deposits on certain customer contracts, mainly at the FSG.   The amount of revenue that the Company recognized during the nine and three months ended July 31, 2026 that was included in contract liabilities as of the beginning of fiscal 2026 was $ 73.6 million and $ 17.8 million, respectively.   Remaining Performance Obligations   Backlog, which the Company believes to be the equivalent of its remaining performance obligations, represents contractually committed or firm customer orders. As of July 31, 2026, the Company had $ 2,824.8 million of remaining performance obligations associated with firm contracts pertaining to many of the products offered by the FSG and ETG. The Company will recognize net sales as these oblig",
+  "incipally the receipt of advance deposits on certain long-term customer contracts), partially offset by a $154.4 million increase in net working capital. The increase in net working capital is inclusive of a $78.4 million increase in inventories to support an increase in   38   Index   consolidated backlog, a $58.7 million increase in accounts receivable resulting from increased net sales and the timing of collections, and a $33.5 million increase in prepaid expenses and other current assets mainly reflecting deposits placed on future inventory deliveries, partially offset by a $47.3 million increase in trade accounts payable due to the timing of payments.   Net cash provided by operating activitie"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "EQT",
+ "cik": 33213,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   10616831000,
+   "10-Q",
+   "2026-10-28",
+   "0000033213-26-000058"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   11652894000,
+   "10-Q",
+   "2025-10-22",
+   "0000033213-25-000049"
+  ],
+  "growth": -0.08891035995006902
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1770394000,
+   "10-Q",
+   "2026-10-28",
+   "0000033213-26-000058"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1958571000,
+   "10-Q",
+   "2026-10-28",
+   "0000033213-26-000058"
+  ],
+  "growth": -0.09607872270139806
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   459461000,
+   "10-Q",
+   "2026-10-28",
+   "0000033213-26-000058"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   603210000,
+   "10-Q",
+   "2026-10-28",
+   "0000033213-26-000058"
+  ],
+  "growth": -0.23830672568425593
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/33213/000003321326000058/eqt-20260930.htm"
+ },
+ "backlog_hits": [
+  "sideration, the Company recorded accounts receivable of $ 530.8 million and $ 1,159.0 million as of September 30, 2026 and December 31, 2025, respectively.   17   Table of Contents   EQT CORPORATION AND SUBSIDIARIES   NOTES TO THE CONDENSED CONSOLIDATED FINANCIAL STATEMENTS (UNAUDITED)   Summary of remaining performance obligations . The following table summarizes the transaction price allocated to the Company's remaining obligations on all contracts with fixed consideration as of September 30, 2026.   2026 (a) | 2027 | 2028 | 2029 | 2030 | Thereafter | Total |   (Thousands) |   Upstream natural gas sales | $ | 7,887 | $ | 13,648 | $ | 3,973 | $ | \u2014 | $ | \u2014 | $ | \u2014 | $ | 25,508 |   Gathering firm reservation fee revenue: |",
+  "178,560 | 172,626 | 169,923 | 166,411 | 661,778 | 1,401,047 |   Affiliate | 66,041 | 262,637 | 260,777 | 260,445 | 260,445 | 1,704,604 | 2,814,949 |   Total | 117,790 | 441,197 | 433,403 | 430,368 | 426,856 | 2,366,382 | 4,215,996 |   Other revenues | 2,664 | 4,358 | \u2014 | \u2014 | \u2014 | \u2014 | 7,022 |   Total remaining performance obligations | $ | 305,466 | $ | 1,155,149 | $ | 1,121,255 | $ | 1,101,446 | $ | 1,091,861 | $ | 5,841,654 | $ | 10,616,831 |   (a) October 1 through December 31.   As of September 30, 2026, based on total projected contractual revenues, the Company's firm gathering contracts had weighted average remaining terms of approximately 10 years for third-party contracts and 12 years for affiliate contracts.   As of"
+ ]
+}

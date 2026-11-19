@@ -1,0 +1,52 @@
+{
+ "ticker": "AR",
+ "cik": 1433270,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1562837000,
+   "10-Q",
+   "2026-10-28",
+   "0001104659-26-119637"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1213994000,
+   "10-Q",
+   "2026-10-28",
+   "0001104659-26-119637"
+  ],
+  "growth": 0.2873515025609681
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   391783000,
+   "10-Q",
+   "2026-10-28",
+   "0001104659-26-119637"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   118117000,
+   "10-Q",
+   "2026-10-28",
+   "0001104659-26-119637"
+  ],
+  "growth": 2.316906118509613
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1433270/000110465926119637/ar-20260930x10q.htm"
+ },
+ "backlog_hits": [
+  " | \u200b   | \u200b   | 46,186   | \u200b   | \u200b   | 195,060   | \u200b   | \u200b   | 41,560   | \u200b   | \u200b   | 403,438   | \u200b   | \u200b   | \u200b   |   Total revenue  | \u200b   | $  | 1,213,994   | \u200b   | \u200b   | 1,562,837   | \u200b   | \u200b   | 3,864,194   | \u200b   | \u200b   | 5,067,805   | \u200b   | \u200b   | \u200b   |   \u200b   (b)   | Transaction Price Allocated to Remaining Performance Obligations   |   For the Company\u2019s product sales that have a contract term greater than one year, the Company utilized the practical expedient in FASB ASC Topic 606, Revenue from Contracts with Customers (\u201cASC 606\u201d), which does not require the disclosure of the transaction price allocated to remaining performance obligations if the variable consideration is allocated entirely to a wholly unsatisfied perfor"
+ ]
+}

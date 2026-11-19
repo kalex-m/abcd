@@ -1,0 +1,54 @@
+{
+ "ticker": "AWK",
+ "cik": 1410636,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1502000000,
+   "10-Q",
+   "2026-10-28",
+   "0001410636-26-000149"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1454000000,
+   "10-Q",
+   "2026-10-28",
+   "0001410636-26-000149"
+  ],
+  "growth": 0.03301237964236581
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   641000000,
+   "10-Q",
+   "2026-10-28",
+   "0001410636-26-000149"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   614000000,
+   "10-Q",
+   "2026-10-28",
+   "0001410636-26-000149"
+  ],
+  "growth": 0.043973941368078195
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1410636/000141063626000149/awk-20260930.htm"
+ },
+ "backlog_hits": [
+  "ies on the Consolidated Balance Sheets as of September 30, 2026, and December 31, 2025, respectively. Revenues recognized for the nine months ended September 30, 2026 and 2025, from amounts included in contract liabilities were $ 62 million and $ 72 million, respectively.   20   Table of Contents   Remaining Performance Obligations   Remaining performance obligations (\u201cRPOs\u201d) represent revenues the Company expects to recognize in the future from contracts that are in progress. The Company enters into agreements for the provision of services to water and wastewater facilities for the U.S. military, municipalities and other customers. As of September 30, 2026, the Company\u2019s operation and maintenance (\u201cO&M\u201d) and capital impro",
+  "oximately 2,500 acre-feet per year for 2050. On May 4, 2026, the CPUC issued an order denying the motions for rehearing and to stay the August 2025 Final Decision. This proceeding is now closed.   While Cal Am believes that its expenditures to date have been prudent and necessary to comply with the Orders, as well as relevant final decisions of the CPUC related thereto, Cal Am cannot currently predict its ability to recover all of its costs and expenses associated with the Water Supply Project and there can be no assurance that Cal Am will be able to recover all of such costs and expenses in excess of the $ 123 million in previously approved aggregate construction costs, plus applicable AFUDC, pre",
+  "the Company and a governmental authority if the amount of potential monetary sanctions, exclusive of interest and costs, that the Company reasonably believes will result from such proceeding is $1 million or more.   Alternative Water Supply in Lieu of Carmel River Diversions   Compliance with SWRCB Orders to Reduce Carmel River Diversions   During June and July 2026, the SWRCB issued and subsequently amended a Notice of Hearing related to its consideration of a modification to the moratorium on new service connections contained in the 2009 Order. Written and rebuttal testimony was filed on August 19, 2026, and September 18, 2026, respectively. A hearing to receive public comment and presentation o"
+ ]
+}

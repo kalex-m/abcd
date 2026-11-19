@@ -1,0 +1,75 @@
+{
+ "ticker": "SMCI",
+ "cik": 1375365,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   5665700000,
+   "10-Q",
+   "2026-11-06",
+   "0001375365-26-000027"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   1028000000,
+   "10-Q",
+   "2025-11-07",
+   "0001375365-25-000030"
+  ],
+  "growth": 4.511381322957199
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   19945832000,
+   "10-Q",
+   "2026-11-06",
+   "0001375365-26-000027"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   5017790000,
+   "10-Q",
+   "2026-11-06",
+   "0001375365-26-000027"
+  ],
+  "growth": 2.9750232672152483
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2064493000,
+   "10-Q",
+   "2026-11-06",
+   "0001375365-26-000027"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   182256000,
+   "10-Q",
+   "2026-11-06",
+   "0001375365-26-000027"
+  ],
+  "growth": 10.327435036432272
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-06",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/smci-20260930.htm"
+ },
+ "backlog_hits": [
+  "ue balance as of June 30, 2026 of $ 2,612.0 million, was $ 893.3 million. Revenue recognized during the three months ended September 30, 2025, which was included in the opening deferred revenue balance as of June 30, 2025 of $ 731.4 million, was $ 182.8 million.   Transaction Price Allocated to the Remaining Performance Obligations   Remaining performance obligations represent in aggregate the amount of transaction price that has been allocated to performance obligations not delivered, or only partially delivered, as of the end of the reporting period. We apply the exemption to not disclose information about remaining performance obligations that are part of a contract that has an original expected duration of one year or ",
+  "cluded from this disclosure primarily relate to short-term contracts expected to be fulfilled within one year, such as on-site services, integration services, extended warranty services, and for products where control has not yet been transferred. The value of the transaction price allocated to the remaining performance obligations as of September 30, 2026 was approximately $ 5,665.7 million. We expect to recognize approximately 76 % of such value in the next 12 months, and the remainder thereafter.   Note 3. Financial Instruments and Fair Value Measurements   We classify our financial instruments, except for our investments in privately held companies, within Level 1 or Level 2 in the fair value hierarchy because we use q",
+  "from Ablecom.   SMCI | Q1 2027 Form 10-Q | 26   Table of Contents   SUPER MICRO COMPUTER, INC.   NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS\u2014(Continued)   (Unaudited)   Our exposure to financial loss as a result of our involvement with Ablecom is limited to potential losses on our purchase orders in the event of an unforeseen decline in the market price and/or demand of our products such that we incur a loss on the sale or cannot sell the products. Non-cancelable purchase orders from us to Ablecom on September 30, 2026 and June 30, 2026 were $ 51.0 million and $ 59.8 million, respectively, effectively representing the exposure to financial loss. We do not directly or indirectly guarantee ",
+  "he products we purchase from Compuware. In addition to the inventory purchases, we also incur costs associated with design services, tooling assets, and miscellaneous costs.   Our exposure to financial loss as a result of our involvement with Compuware is limited to potential losses on our purchase orders in the event of an unforeseen decline in the market price and/or demand of our products such that we incur a loss on the sale or cannot sell the products. Non-cancelable purchase orders from us to Compuware on September 30, 2026 and June 30, 2026 were $ 153.1 million and $ 182.2 million, respectively, effectively representing the exposure to financial loss. We do not directly or indirectly guaran"
+ ]
+}

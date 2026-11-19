@@ -1,0 +1,81 @@
+{
+ "ticker": "PWR",
+ "cik": 1050915,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   41750000000,
+   "10-Q",
+   "2026-10-29",
+   "0001050915-26-000041"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   20970000000,
+   "10-Q",
+   "2025-10-30",
+   "0001050915-25-000111"
+  ],
+  "growth": 0.9909394372913687
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   12014877000,
+   "10-Q",
+   "2026-10-29",
+   "0001050915-26-000041"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   7631408000,
+   "10-Q",
+   "2026-10-29",
+   "0001050915-26-000041"
+  ],
+  "growth": 0.574398459628944
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1026547000,
+   "10-Q",
+   "2026-10-29",
+   "0001050915-26-000041"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   517217000,
+   "10-Q",
+   "2026-10-29",
+   "0001050915-26-000041"
+  ],
+  "growth": 0.9847510812676303
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000041/pwr-20260930.htm"
+ },
+ "backlog_hits": [
+  "ine months ended September 30, 2026 and 2025 were associated with this revenue recognition method.   Performance Obligations   Quanta\u2019s remaining performance obligations represent management\u2019s estimates of the consolidated revenues that are expected to be realized from the remaining portion of firm orders under fixed price contracts not yet completed or for which work had not yet begun as of such dates and, to a lesser extent, from certain unit-price contracts with more than an insignificant amount of partially completed units. As of September 30, 2026 and December 31, 2025, Quanta\u2019s remaining performance obligations were approximately $ 41.75 billion and $ 23.76 billion, of which (i) approximatel",
+  "ing payment of liquidated damages) or requiring rework or replacement. Any changes in estimates could result in changes to profitability or losses associated with the related performance obligations.   Additionally, changes in cost estimates on certain contracts may result in the issuance of change orders, which can be approved or unapproved by the customer, or the assertion of contract claims. Quanta recognizes amounts associated with change orders and claims as revenue if it is probable that the contract price will be adjusted and the amount of any such adjustment can be reasonably estimated.   As of September 30, 2026 and December 31, 2025, Quanta had recognized revenues of $ 488.4 million and ",
+  ". As of September 30, 2026, approximately $ 527.6 million of goodwill related to acquisitions completed in the nine months ended September 30, 2026 is expected to be deductible for income tax purposes.   Quanta\u2019s identifiable intangible assets subject to amortization include customer relationships, backlog, trade names, non-compete agreements, and patented rights and other. The following table summarizes the estimated fair values of identifiable intangible assets for the acquisitions completed in the nine months ended September 30, 2026 as of the acquisition dates and the   19   QUANTA SERVICES, INC. AND SUBSIDIARIES   NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS - (Continued)   (Unaudited)",
+  "n periods by type (in thousands, except for weighted average amortization periods, which are in years).   Nine Months Ended September 30, 2026 |   Estimated Fair Value | Weighted Average Amortization Period in Years |   Customer relationships | $ | 565,235 | 7.0 |   Trade names | 109,044 | 15.0 |   Backlog | 94,254 | 1.5 |   Non-compete agreements | 3,700 | 5.0 |   Total identifiable intangible assets | $ | 772,233 | 7.5 |   The level of inputs used for these identifiable intangible asset fair value measurements is Level 3.   The significant assumptions used by management in determining the fair values of customer relationships include future revenues, margins, discount rates and customer attrition",
+  "es primarily include prepaid job costs, prepaid insurance expense and prepaid software expense.   Other Intangible Assets   Quanta\u2019s identifiable intangible assets were as follows (in thousands):   September 30, 2026 | December 31, 2025 |   Customer relationships | $ | 4,111,340 | $ | 3,523,939 |   Backlog | 675,538 | 618,911 |   Trade names | 904,217 | 794,379 |   Non-compete agreements | 95,296 | 91,781 |   Patented rights, developed technology, process certifications and other | 35,434 | 35,413 |   Curriculum | 17,508 | 16,691 |   Other intangible assets subject to amortization   | 5,839,333 | 5,081,114 |   Accumulated amortization   | ( 2,672,463 ) | ( 2,177,926 ) |   Other intangible assets su",
+  "d for general corporate purposes. Our debt financing arrangements are more fully described in Note 7 of the Notes to Condensed Consolidated Financial Statements in Item 1. Financial Statements of Part I of this Quarterly Report.   33   We expect the strong demand for our services will continue. Our remaining performance obligations and backlog were $41.75 billion and $63.73 billion as of September 30, 2026, representing increases of 75.7% and 44.9% relative to December 31, 2025. For a reconciliation of backlog to remaining performance obligations, the most comparable financial measure prepared in conformity with generally accepted accounting principles in the United States (GAAP), see Non-GAAP Financial Measures below.   S",
+  "025 and $6.1 million and $15.2 million for the nine months ended September 30, 2026 and 2025 that, pursuant to acquisition purchase agreements, were or will be withheld from the sellers\u2019 proceeds, and have or will be paid to certain employees upon satisfaction of post-closing service obligations.   Remaining Performance Obligations and Backlog   A performance obligation is a promise in a contract with a customer to transfer a distinct good or service. Our remaining performance obligations represent management\u2019s estimate of consolidated revenues that are expected to be realized from the remaining portion of firm orders under fixed price contracts not yet completed or for which work has not yet begun as of such date, and, to",
+  "easure enables management to more effectively forecast our future capital needs and results and better identify future operating trends that may not otherwise be apparent. We believe this measure is also useful for investors in forecasting our future results and comparing us to our competitors. Our remaining performance obligations are a component of backlog, which also includes estimated orders under MSAs, including estimated renewals, and certain non-fixed price contracts. Our methodology for determining backlog may not be comparable to the methodologies used by other companies.   As of September 30, 2026 and December 31, 2025, MSAs accounted for 31% and 37% of our estimated 12-month backlog and 37% and 44% of our total ",
+  "ulatory requirements, natural disasters, emergencies and adverse weather conditions; and final acceptance of change orders by customers. These factors can cause revenues to be realized in periods and at levels that are different than originally projected.   41   The following table reconciles total remaining performance obligations to our backlog (a non-GAAP financial measure) by reportable segment along with estimates of amounts expected to be realized within 12 months (in thousands):   September 30, 2026 | December 31, 2025 |   12 Month | Total | 12 Month | Total |   Electric |   Remaining performance obligations | $ | 24,564,896 | $ | 37,358,173 | $ | 14,188,737 | $ | 21,638,080 |   Estimated orders under MSAs and short",
+  " price contracts | 6,550,070 | 14,526,940 | 7,755,355 | 14,528,626 |   Backlog   | $ | 31,114,966 | $ | 51,885,113 | $ | 21,944,092 | $ | 36,166,706 |   Underground and Infrastructure |   Remaining performance obligations | $ | 3,398,120 | $ | 4,394,823 | $ | 1,518,060 | $ | 2,124,934 |   Estimated orders under MSAs and short-term, non-fixed price contracts | 3,935,186 | 7,451,757 | 2,404,135 | 5,684,768 |   Backlog | $ | 7,333,306 | $ | 11,846,580 | $ | 3,922,195 | $ | 7,809,702 |   Total |   Remaining performance obligations | $ | 27,963,016 | $ | 41,752,996 | $ | 15,706,797 | $ | 23,763,014 |   Estimated orders under MSAs and short-term, non-fixed price contracts | 10,485,256 | 21,978,697 | 10,"
+ ]
+}

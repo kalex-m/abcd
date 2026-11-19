@@ -1,0 +1,36 @@
+{
+ "ticker": "ESLT",
+ "cik": 1027664,
+ "rpo": {
+  "latest": [
+   null,
+   "2025-12-31",
+   28100000000,
+   "20-F",
+   "2026-03-17",
+   "0001027664-26-000005"
+  ],
+  "prior": [
+   null,
+   "2024-12-31",
+   22600000000,
+   "20-F",
+   "2025-03-20",
+   "0001628280-25-013971"
+  ],
+  "growth": 0.24336283185840712
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "latest_report": {
+  "form": "20-F",
+  "filed": "2026-03-17",
+  "period": "2025-12-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1027664/000102766426000005/eslt-20251231.htm"
+ },
+ "backlog_hits": [
+  "tions on behalf of several Company entities primarily in order to secure certain advances from customers and performance obligations.   Purchase Commitments. As of December 31, 2025 and 2024 we had purchase commitments of approximately $4,601 million and $4,345 million, respectively. These purchase orders and subcontracts are typically in standard formats proposed by us. These subcontracts and purchase orders also reflect provisions from the applicable prime contract that apply to subcontractors and vendors. The terms typically included in these purchase orders and subcontracts are consistent with Uniform Commercial Code provisions in the United States for sales of goods, as well as with specific ",
+  "cific contract are recognized, such as when delivery or acceptance occurs or when contract milestones or engineering progress under long-term contracts are recognized as achieved, or when revenues are recognized based on costs incurred. In the unusual event of a contract cancellation, we reduce our backlog accordingly. The method of backlog recognition used may differ depending on the particular contract. Orders in currencies other than U.S. dollars are translated periodically into U.S. dollars and recorded accordingly.   Our backlog of orders as of December 31, 2025 was $28,131 million, of which 72% was for orders outside Israel. Our backlog of orders as of December 31, 2024 was $22,617 million, o",
+  " |   Other Governments | 3,904,658 | 3,496,079 |   Commercial sales and other | 525,840 | 553,820 |   $ | 7,938,627 | $ | 6,827,871 |   (1) Including U.S. Foreign Military Financing sales   (2) Including indirect sales   See Note 23 for disaggregation of revenues by segments and geographic areas.   Remaining performance obligations (\u201cBacklog\u201d):   Backlog represents the future revenues expected to be recognized on firm orders received by the Company and is equivalent to the Company\u2019s remaining performance obligations at the end of each period for a remaining period of more than a year. Unexercised contract options and indefinite delivery indefinite quantity (\u201cIDIQ\u201d) contracts are not included in backlog until the time an op",
+  "rminate the purchase order or subcontract in the event of the vendor\u2019s or subcontractor\u2019s default, and typically include the Company\u2019s right to terminate the order or subcontract for the Company\u2019s convenience (or if the Company\u2019s prime contractor has so terminated the prime contract). Such purchase orders and subcontracts typically are not subject to variable price provisions. As of December 31, 2025 and 2024, the purchase commitments were $ 4,600,858 and $ 4,344,779 , respectively. The Company's purchase commitments are expected to be realized during the years 2026 - 2031.   G. FIXED LIENS   In order to secure bank loans and bank and other financial institutions guarantees in the amount of approx"
+ ]
+}

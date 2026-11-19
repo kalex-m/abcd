@@ -1,0 +1,85 @@
+{
+ "ticker": "FLS",
+ "cik": 30625,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   1213000000,
+   "10-Q",
+   "2026-10-28",
+   "0000030625-26-000026"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   994000000,
+   "10-Q",
+   "2025-10-28",
+   "0000030625-25-000072"
+  ],
+  "growth": 0.22032193158953728
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   0,
+   "10-Q",
+   "2026-10-28",
+   "0000030625-26-000026"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   0,
+   "10-Q",
+   "2026-10-28",
+   "0000030625-26-000026"
+  ],
+  "growth": null
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   154606000,
+   "10-Q",
+   "2026-10-28",
+   "0000030625-26-000026"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   79272000,
+   "10-Q",
+   "2026-10-28",
+   "0000030625-26-000026"
+  ],
+  "growth": 0.9503229387425574
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/30625/000003062526000026/fls-20260930.htm"
+ },
+ "backlog_hits": [
+  "D, respectively. The deductibility of goodwill for tax purposes is still being   11   evaluated. The intangible assets have been assigned a useful life on a preliminary basis. Trademarks have an expected indefinite life, customer relationships have an expected useful life between 5 and 10 years and backlog has an expected useful life of one year. In total, amortizable intangible assets have a weighted average useful life of approximately 8 years.   Subsequent to June 30, 2026, the revenues and expenses of TVD have been included in our condensed consolidated statement of income. The TVD acquisition generated sales of approximately $62.3 million for the period from July 1, 2026 to September 30, 2026 ",
+  "ur portfolio of products and services through the addition of MOGAS's valve products. The goodwill related to this acquisition is recorded in the FCD segment and is expected to be fully deductible for tax purposes. The trademark is an indefinite-lived intangible. Existing customer relationships and backlog have expected weighted average useful lives of 10 years and one year , respectively. In total, amortizable intangible assets have a weighted average useful life of approximately eight years . We recorded an indemnification asset and corresponding liability of $ 7.5 million related to legal matters that existed pre-acquisition and were unresolved at the date of acquisition, for which the seller ag",
+  "d $2.2 million of transaction costs related to the PMV Divestiture for the three and nine months ended September 30, 2026, respectively, which are included within SG&A in our condensed consolidated statements of income.   13   3. REVENUE RECOGNITION   The majority of our revenues relate to customer orders that typically contain a single commitment of goods or services which have lead times under a year. More complex contracts with our customers typically have longer lead times and multiple commitments of goods and services, including any combination of designing, developing, manufacturing, modifying, installing and commissioning of flow management equipment and providing services and parts related",
+  "nto pricing decisions to minimize the economic impact of this uncertainty to our business. While we will continue to monitor and manage macroeconomic trends and uncertainties, including inflationary and recessionary pressures resulting from the ongoing tariffs and geopolitical climate, our existing backlog, improved execution and acquisitions activity, provide a solid revenue base for 2026.   As of September 30, 2026, we have cash and cash equivalents of $742.1 million and $827.0 million of borrowings available under our Third Amended and Restated Credit Agreement. On April 15, 2026, we entered into the Thir d Amended and Restated Credit Agreement, which includes a $1,000 million Revolving Credit F",
+  "ility associated with our 2023 Realignment Programs. Our 2023 Realignment Programs are substantially completed.   (3) Includes within FCD a $5.3 million gain from the sale and leaseback of a certain facility associated with our 2025 Realignment Programs.   Consolidated Results   Bookings, Sales and Backlog   Three Months Ended September 30, |   (Amounts in millions) | 2026 | 2025 |   Bookings | $ | 1,383.5 | $ | 1,213.0 |   Sales | 1,237.8 | 1,174.4 |   Nine Months Ended September 30, |   (Amounts in millions) | 2026 | 2025 |   Bookings | $ | 3,872.5 | $ | 3,511.2 |   Sales | 3,475.2 | 3,507.1 |   41   We revised the end market categories for bookings during the first quarter of 2025 to better refl",
+  "from year-to-date bookings. Bookings for the three months ended September 30, 2026 increased by $170.5 million, or 14.1%, as compared with the same period in 2025. The increase included negative currency effects of approximately $2.5 million. The increased bookings were driven by increased customer orders of $148.6 million in the energy industry and $42.3 million in the power generation industry, partially offset by decreased orders of $33.5 million in general industries and $0.1 million in the chemical industry. The increase in customer bookings was driven by original equipment and aftermarket bookings.   Bookings for the nine months ended September 30, 2026 increased by $361.3 million, or 10.3%,",
+  " The increase included currency benefits of approximately $54.6 million. The increased bookings were driven by increased customer orders of $280.9 million in the energy industry, $66.0 million in the power generation industry and $23.0 million in the chemical industry, partially offset by decreased orders of $11.9 million in general industries. The increase in customer bookings was driven by original equipment and aftermarket bookings.   Sales for the three months ended September 30, 2026 increased by $63.4 million, or 5.4%, as compared to the same period in 2025. The increase included negative currency effects of approximately $1.4 million. The increased sales were driven by aftermarket sales. Cu",
+  "ng export sales from the United States, were approximately 61% and 63% of total sales for the nine-months ended September 30, 2026 and 2025, respectively. Aftermarket sales represented approximately 56% of total sales, as compared with approximately 53% of total sales for the same period in 2025.   Backlog represents the aggregate value of booked but uncompleted customer orders and is influenced primarily by bookings, sales, cancellations and currency effects. Backlog of $3.5 billion at September 30, 2026 increased by $604.0 million, or 21%, as compared to December 31, 2025. Currency effects provided an increase of approximately $19.6 million (currency effects on backlog are calculated using the ch",
+  "arkets.   Bookings for the three months ended September 30, 2026 increased by $120.6 million, or 14.7%, as compared to the same period in 2025. The increase included negative currency effects of approximately $0.6 million. The increase in customer bookings was primarily driven by increased customer orders of $95.5 million in the energy industry, $38.4 million in the chemical industry and $29.2 million in the power generation industry, partially offset by decreased customer orders of $52.6 million in general industries. Customer bookings increased by $72.7 million into the Middle East, $30.1 million into North America, $25.9 million into Asia Pacific and $20.6 million into Africa, partially offset ",
+  "pment bookings.   Bookings for the nine months ended September 30, 2026 increased by $251.5 million, or 10.5%, as compared to the same period in 2025. The increase included currency benefits of approximately $45.9 million. The increase in customer bookings was primarily driven by increased customer orders of $237.2 million in the energy industry and $47.8 million in the chemical industry, partially offset by decreased customer orders of $37.5 million in general industries and $3.6 million in the power generation industry. Customer bookings increased $140.1 million into North America, $89.3 million into the Middle East, $37.4 million into Asia Pacific, $19.4 million into Latin America and $9.5 mill",
+  "crease in gross profit, partially offset by the $32.3 million increase in SG&A. The increase also includes the impact of the $27.7 million gain on remeasurement of our previously held equity interest in FAMCO recorded during the second quarter of 2026 and included in net earnings from affiliates.   Backlog of $2.4 billion at September 30, 2026 increased by $332.2 million, or 16.0%, as compared to December 31, 2025. Currency effects provided a decrease of approximately $16.0 million.   Flow Control Division Segment Results   FCD designs, manufactures and distributes a broad portfolio of engineered-to-order and configured-to-order isolation valves, control valves, valve automation products and relate",
+  "tion of end markets.   Bookings for the three months ended September 30, 2026 increased by $50.1 million, or 12.6%, as compared with the same period in 2025. Bookings included negative currency effects of approximately $1.9 million. The increase in customer bookings was driven by increased customer orders of $53.1 million in the energy industry, $19.1 million in general industries and $13.1 million in the power generation industry, partially offset by decreased customer orders of $38.5 million in the chemical industry. Increased customer bookings were driven by increased orders of $76.4 million into North America, $9.8 million into Asia Pacific, $4.8 million into the Middle East and $0.5 million i",
+  "termarket bookings.   Bookings for the nine months ended September 30, 2026 increased by $109.9 million, or 9.8%, as compared with the same period in 2025. Bookings included currency benefits of approximately $8.8 million. The increase in customer bookings was primarily driven by increased customer orders of $69.7 million in the power generation industry, $43.7 million in the energy industry and $25.6 million in general industries, partially offset by decreased customer orders of $24.8 million in the chemical industry. Increased customer bookings were driven by increased orders of $93.9 million into North America, $65.2 million into Asia Pacific and $0.9 million into Africa, partially offset by de",
+  "4.9%, as compared with the same period in 2025. The decrease included negative currency effects of approximately $8.9 million. The decrease was due to the $25.7 million decrease in gross profit and the $19.3 million increase in SG&A, partially offset by the $16.2 million gain on sale of business.   Backlog of $1.1 billion at September 30, 2026 increased by $276.2 million, or 33.3%, as compared to December 31, 2025. Currency effects provided a decrease of approximately $4 million.   LIQUIDITY AND CAPITAL RESOURCES   Cash Flow Analysis   Nine Months Ended September 30, |   (Amounts in millions) | 2026 | 2025 |   Net cash flows provided by operating activities | $ | 230.3 | $ | 506.1 |   Net cash flow"
+ ]
+}

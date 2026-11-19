@@ -1,0 +1,75 @@
+{
+ "ticker": "AVAV",
+ "cik": 1368622,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-08-01",
+   1457822000,
+   "10-Q",
+   "2026-09-10",
+   "0001104659-26-106423"
+  ],
+  "prior": [
+   null,
+   "2025-08-02",
+   1066423000,
+   "10-Q",
+   "2025-09-10",
+   "0001558370-25-011973"
+  ],
+  "growth": 0.36702040372347566
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-08-01",
+   480490000,
+   "10-Q",
+   "2026-09-10",
+   "0001104659-26-106423"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-08-02",
+   454676000,
+   "10-Q",
+   "2026-09-10",
+   "0001104659-26-106423"
+  ],
+  "growth": 0.05677449436521842
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-08-01",
+   -10871000,
+   "10-Q",
+   "2026-09-10",
+   "0001104659-26-106423"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-08-02",
+   -69272000,
+   "10-Q",
+   "2026-09-10",
+   "0001104659-26-106423"
+  ],
+  "growth": -0.8430679062247373
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-10",
+  "period": "2026-08-01",
+  "url": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106423/avav-20260801x10q.htm"
+ },
+ "backlog_hits": [
+  "), or time and materials (\u201cT&M\u201d). The Company considers all such contracts to be within the scope of Accounting Standards Codification Topic 606, Revenue from Contracts with Customers (\u201cASC 606\u201d).  \u200b   Performance Obligations   \u200b   On August 1, 2026, the Company had approximately $ 1,457,822,000 of remaining performance obligations under fully funded contracts with its customers, which the Company also refers to as funded backlog. The Company currently expects to recognize approximately 78 % of the remaining performance obligations as revenue in fiscal 2027 and the remaining 22 % in fiscal 2028 or beyond.  \u200b   9  Table of Contents   Revenue by Category   \u200b   The following tables present the Company\u2019s revenue disaggregated ",
+  ",   | \u200b   | April 30,   | \u200b   |   \u200b   | \u200b \u200b \u200b   | 2026   | \u200b \u200b \u200b   | 2026   | \u200b   |   Technology  | \u200b   | $  | 585,806   | \u200b   | $  | 585,970   | \u200b   |   Licenses  | \u200b   | \u200b   | 1,008   | \u200b   | \u200b   | 1,008   | \u200b   |   Customer relationships  | \u200b   | \u200b   | 618,658   | \u200b   | \u200b   | 618,730   | \u200b   |   Backlog  | \u200b   | \u200b   | 58,097   | \u200b   | \u200b   | 58,131   | \u200b   |   In-process research and development  | \u200b   | \u200b   | 550   | \u200b   | \u200b   | 550   | \u200b   |   Non-compete agreements  | \u200b   | \u200b   | 3,320   | \u200b   | \u200b   | 3,320   | \u200b   |   Trademarks and tradenames  | \u200b   | \u200b   | 3,668   | \u200b   | \u200b   | 3,668   | \u200b   |   Other  | \u200b   | \u200b   | 146   | \u200b   | \u200b   | 146   | \u200b   |   Intangibles, gross  | \u200b   | \u200b   | 1,271",
+  "poses.  \u200b   The following table summarizes the valuation of the fair value of intangible assets acquired (in thousands):  \u200b   \u200b   | \u200b   | \u200b   | \u200b   |   \u200b   | \u200b   | Fair Value   | Estimated Useful Life  |   \u200b   | \u200b   | \u200b   | Years  |   Fair value of intangible assets acquired:  | \u200b   | \u200b   | \u200b   |   Backlog  | $  | 49,900   | 1 - 2   |   Customer relationships  | \u200b   | 499,500   | 4 - 9   |   Developed technology  | \u200b   | 480,400   | 4 - 10   |   Intangible assets acquired  | $  | 1,029,800   | \u200b   |   \u200b   26  Table of Contents   BlueHalo Supplemental Pro Forma Information (unaudited)   \u200b   BlueHalo revenue and loss from operations for the twelve months ended April 30, 2026 since its acquisition on ",
+  "ost of sales was primarily due to a decrease of approximately $30 million due to the decrease in sales volume and approximately $5 million decrease in intangible amortization expense, partially offset by approximately $7 million due to mix shift to a higher proportion of lower margin services.  \u200b   Backlog   \u200b   Consistent with ASC 606, we define funded backlog as remaining performance obligations under firm orders for which funding is currently appropriated to us under a customer contract. As of August 1, 2026, our funded backlog was approximately $1,457.8 million, as compared to $1,183.0 million as of April 30, 2026.   \u200b   In addition to our funded backlog, we also had unfunded backlog of $1,366."
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "VRT",
+ "cik": 1674101,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   4312800000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067893"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2675800000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067893"
+  ],
+  "growth": 0.6117796546827117
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   983800000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067893"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   516700000,
+   "10-Q",
+   "2026-10-28",
+   "0001628280-26-067893"
+  ],
+  "growth": 0.904006193148829
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-28",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm"
+ },
+ "backlog_hits": [
+  "2,137 shares of Company Class A common stock and the exercise of options and same day sale of up to 36,662 shares of Company Class A common stock. The Ryan 10b5-1 Plan will remain in effect until the earlier of (1) September 3, 2027 ; (2) the first date on which all trades have been executed or all orders relating to such trades have expired; or (3) upon written notice by Mr. Ryan or the broker to terminate or modify the Ryan 10b5-1 Plan subject to and in compliance with the Company's insider trading policy and applicable securities laws.   During the fiscal quarter covered by this Quarterly Report on Form 10-Q, Anand Sanghi , President AMER and an officer of the Company, adopted a \"Rule 10b5-1 tr"
+ ]
+}

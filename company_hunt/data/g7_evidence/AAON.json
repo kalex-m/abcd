@@ -1,0 +1,56 @@
+{
+ "ticker": "AAON",
+ "cik": 824142,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   707430000,
+   "10-Q",
+   "2026-11-09",
+   "0000824142-26-000088"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   384238000,
+   "10-Q",
+   "2026-11-09",
+   "0000824142-26-000088"
+  ],
+  "growth": 0.8411245113705568
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   99980000,
+   "10-Q",
+   "2026-11-09",
+   "0000824142-26-000088"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   43595000,
+   "10-Q",
+   "2026-11-09",
+   "0000824142-26-000088"
+  ],
+  "growth": 1.2933822686087852
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-09",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm"
+ },
+ "backlog_hits": [
+  "t parts |   AAON Coil Products | AAON / BASX | Condensing units, air handling products, data center cooling solutions, and geothermal/water-source heat pumps |   BASX | BASX | Data center cooling solutions, cleanroom products, and air handling products   |   The following table shows our historical backlog levels:   September 30, 2026 | December 31, 2025 | September 30, 2025 |   (in thousands) |   AAON-branded Products | $ | 499,341 | $ | 526,350 | $ | 423,316 |   BASX-branded Products | 1,355,152 | 1,302,145 | 896,824 |   Total Backlog | $ | 1,854,493 | $ | 1,828,495 | $ | 1,320,140 |   At September 30, 2026, our consolidated backlog is $1,854.5 million, an increase of 40.5%, or $534.4 million, as",
+  "ur BASX-branded products. BASX-branded products increased 218.3%, or $272.4 million when compared to the three months ended September 30, 2025. Net sales of AAON-branded products also increased 19.6%, to $310 million for the three months ended September 30, 2026. This growth is driven by the robust backlog and increased production throughput from our capacity investment and operational improvements.   34   \u2022 As a percent of sales, SG&A has declined from 16.5% for the three months ended September 30, 2025 to 12.5% for the three months ended September 30, 2026, demonstrating strong operating leverage and disciplined cost management.   \u2022 We have a strong balance sheet with a leverage ratio of 1.0 and ",
+  "lculated as a percentage of total net sales.   2 Presented after intercompany eliminations.   Total net sales increased $323.2 million, or 84.1%. AAON Oklahoma had net sales of $283.5 million, an increase of 18.7% compared to the same period in the prior year. This increase was driven by the strong backlog entering the quarter and a successful ramp up of production. Sales were up 174.2% at AAON Coil Products, primarily driven by growth in BASX-branded products of $119.0 million for a large order for liquid cooling products for data centers. BASX net sales were up 207.4% to $231.3 million due to the continued demand for data center solutions and increasing production out of our Memphis facility.   G",
+  "oss profit margin decreased to 26.7% of sales from 27.8%. AAON Oklahoma\u2019s decrease in gross profit margin is driven by the additional overhead from our Memphis plant. Memphis is part of AAON Oklahoma, building intercompany sales for the BASX segment at cost. As such, the sales and gross profit from orders completed in Memphis are reflected in the BASX segment, but the additional overhead cost of running the plant is reflected in the AAON Oklahoma segment. Memphis contributed $20.7 million and $4.5 million in cost of sales to the AAON Oklahoma segment for the three months ended September 30, 2026 and 2025, respectively. AAON Coil Products gross profit margin increased to 25.8% from 11.0% as a resul",
+  "esented after intercompany eliminations.   37   Total net sales increased $824.2 million, or 81.0%, driven by growth across all segments. AAON Oklahoma saw significant improvement with an increase of $204.0 million in net sales driven by increased production out of the Tulsa facility and a stronger backlog heading into 2026. AAON-branded products were impacted in 2025 due to the change in refrigerant, a lack of coils from AAON Coil Products and the ability to hire additional personnel. The $223.8 million increase in net sales for AAON Coil Products is due to sales of BASX-branded products for liquid cooling data center orders. Additionally, AAON Coil Products was impacted in 2025 by disruption caus"
+ ]
+}

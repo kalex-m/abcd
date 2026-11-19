@@ -1,0 +1,52 @@
+{
+ "ticker": "SCCO",
+ "cik": 1001838,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   4696600000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120639"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   3377300000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120639"
+  ],
+  "growth": 0.3906374914872828
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2815100000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120639"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1768800000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120639"
+  ],
+  "growth": 0.5915309814563545
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926120639/scco-20260930x10q.htm"
+ },
+ "backlog_hits": [
+  "ompany has invested $884.3 million in project execution and committed $1,101 million to cover diverse activities, acquisitions and related contracts. Large-scale earthworks have concluded, and 18.9 million metric tonnes of material have been transferred to the La Tapada stripping deposit. Most work orders for the project\u2019s primary equipment have been issued. Purchase orders for the leaching process have been placed to secure the main equipment\u2014 which will be outfitted with cutting-edge technology\u2014as well as secondary equipment and materials.  \u200b   On the energy supply front, work is advancing at the main electrical sub-stations, and the 220 kV transmission line is in its final stage of construction"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "CAT",
+ "cik": 18230,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   49400000000,
+   "10-Q",
+   "2026-11-04",
+   "0000018230-26-000057"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   22500000000,
+   "10-Q",
+   "2025-11-03",
+   "0000018230-25-000048"
+  ],
+  "growth": 1.1955555555555555
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   20682000000,
+   "10-Q",
+   "2026-11-04",
+   "0000018230-26-000057"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   17638000000,
+   "10-Q",
+   "2026-11-04",
+   "0000018230-26-000057"
+  ],
+  "growth": 0.17258192538836603
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   4214000000,
+   "10-Q",
+   "2026-11-04",
+   "0000018230-26-000057"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   3052000000,
+   "10-Q",
+   "2026-11-04",
+   "0000018230-26-000057"
+  ],
+  "growth": 0.3807339449541285
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm"
+ },
+ "backlog_hits": [
+  " outlook. We continue to expect sales and revenues growth in the mid-to-high teens for 2026 as compared to 2025. We expect strong growth in sales of equipment to end users across our three primary segments, driven by healthy end markets; strong order rates across our three primary segments, driving backlog growth; increased output from our capacity expansion plans, which remain on schedule; and strong services revenues growth.   Excluding IEEPA tariff recoveries of about $520 million, we continue to expect full-year 2026 tariff costs of around $2.2 billion. Our outlook does not include any additional IEEPA tariff recoveries in the fourth quarter of 2026.   In 2026 as compared to 2025, we expect the",
+  "to-market adjustment as of the measurement date, December 31, 2026. It is difficult to predict the December 31, 2026 adjustment amount, as it will be dependent primarily on changes in discount rates during 2026, and actual returns on plan assets differing from our expected returns for 2026.   Order Backlog   At the end of the third quarter of 2026, the dollar amount of backlog believed to be firm was approximately $78.1 billion, about $6.0 billion higher than the second quarter of 2026. The order backlog increased across the three primary segments, with the largest increase in Power & Energy. Of the total backlog at September 30, 2026, approximately $32.6 billion was not expected to be filled in th"
+ ]
+}

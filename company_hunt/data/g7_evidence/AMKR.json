@@ -1,0 +1,53 @@
+{
+ "ticker": "AMKR",
+ "cik": 1047127,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1990557000,
+   "10-Q",
+   "2026-10-27",
+   "0001047127-26-000052"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1986968000,
+   "10-Q",
+   "2026-10-27",
+   "0001047127-26-000052"
+  ],
+  "growth": 0.0018062696530594113
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   224711000,
+   "10-Q",
+   "2026-10-27",
+   "0001047127-26-000052"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   158927000,
+   "10-Q",
+   "2026-10-27",
+   "0001047127-26-000052"
+  ],
+  "growth": 0.41392589050318707
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-27",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000052/amkr-20260930.htm"
+ },
+ "backlog_hits": [
+  "ce of our products sold to customers in the automotive end-market could decline despite continued growth in such end-market. Lower sales to customers in the automotive end-market may have a material adverse effect on our business and results of operations.   The loss of certain customers or reduced orders or pricing from existing customers may have a material adverse effect on our operations and financial results.   We have derived and expect to continue to derive a large portion of our revenues from a small group of customers during any particular period due in part to the concentration of market share in the semiconductor industry. Our ten largest customers accounted for, in the aggregate, 72% o",
+  "8 of Regulation S-K promulgated under the Securities Act, which is intended to satisfy the affirmative defense of Rule 10b5-1(c). Mr. Engel\u2019s Rule 10b5-1 trading arrangement will terminate on the earliest of: (a) May 5, 2027 ; (b) the first date on which all trades have been executed or all trading orders relating to such trades have expired; and (c) the date on which Mr. Engel gives notice to terminate his Rule 10b5-1 trading arrangement. 6,000 shares of our common stock are to be sold under Mr. Engel\u2019s Rule 10b5-1 trading arrangement.   -57-   Table of Contents   Item 6. Exhibits   Incorporated by Reference | Included Herewith |   Exhibit Number | Exhibit Description | Form | Period Ending | Exh"
+ ]
+}

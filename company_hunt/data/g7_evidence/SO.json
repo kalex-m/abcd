@@ -1,0 +1,65 @@
+{
+ "ticker": "SO",
+ "cik": 92122,
+ "rpo": {
+  "latest": [
+   null,
+   "2018-12-31",
+   487000000,
+   "10-K",
+   "2019-02-20",
+   "0000092122-19-000006"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   8397000000,
+   "10-Q",
+   "2026-04-30",
+   "0000092122-26-000034"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   7775000000,
+   "10-Q",
+   "2026-04-30",
+   "0000092122-26-000034"
+  ],
+  "growth": 0.08000000000000007
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-01-01",
+   "2026-03-31",
+   2018000000,
+   "10-Q",
+   "2026-04-30",
+   "0000092122-26-000034"
+  ],
+  "prior": [
+   "2025-01-01",
+   "2025-03-31",
+   2010000000,
+   "10-Q",
+   "2026-04-30",
+   "0000092122-26-000034"
+  ],
+  "growth": 0.003980099502487455
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/92122/000009212226000069/so-20260930.htm"
+ },
+ "backlog_hits": [
+  "ely, for Southern Company, $ 2 million and $ 19 million, respectively, for Georgia Power, and immaterial for the other Registrants. Contract liabilities are primarily classified as current on the balance sheets as the corresponding revenues are generally expected to be recognized within one year.   Remaining Performance Obligations   Southern Company's subsidiaries may enter into long-term contracts with customers in which revenues are recognized as performance obligations are satisfied over the contract term. For the traditional electric operating companies and Southern Power, these contracts primarily relate to PPAs whereby electricity and generation capacity are provided to a customer. The revenue recognized for the del"
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "HPE",
+ "cik": 1645590,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-07-31",
+   10900000000,
+   "10-Q",
+   "2026-09-03",
+   "0001645590-26-000080"
+  ],
+  "prior": [
+   null,
+   "2025-07-31",
+   10100000000,
+   "10-Q",
+   "2025-09-04",
+   "0001645590-25-000101"
+  ],
+  "growth": 0.07920792079207928
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-07-31",
+   12213000000,
+   "10-Q",
+   "2026-09-03",
+   "0001645590-26-000080"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-07-31",
+   9136000000,
+   "10-Q",
+   "2026-09-03",
+   "0001645590-26-000080"
+  ],
+  "growth": 0.3367994746059544
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-05-01",
+   "2026-07-31",
+   1393000000,
+   "10-Q",
+   "2026-09-03",
+   "0001645590-26-000080"
+  ],
+  "prior": [
+   "2025-05-01",
+   "2025-07-31",
+   247000000,
+   "10-Q",
+   "2026-09-03",
+   "0001645590-26-000080"
+  ],
+  "growth": 4.6396761133603235
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-03",
+  "period": "2026-07-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm"
+ },
+ "backlog_hits": [
+  "on-current | Other non-current liabilities | 5,359 | 4,980 |   Total deferred revenue | $ | 10,920 | $ | 10,338 |   For the nine months ended July 31, 2026, approximately $ 4.8 billion of revenue was recognized relating to contract liabilities recorded as of October 31, 2025.   Revenue allocated to remaining performance obligations represents contract work that has not yet been performed and does not include contracts where the customer is not committed. Remaining performance obligations estimates are subject to change and are affected by several factors, including contract terminations, changes in the scope of contracts, adjustments for revenue that has not materialized and adjustments for currency. As of July 31, 2026, t",
+  "ls for approximately $ 386 million (plus interest). On April 20, 2012, the Commissioner issued an order on the spare parts-related notice affirming duties and penalties against HP India and certain of the named individuals for approximately $ 17 million. HP India filed appeals of the Commissioner\u2019s orders before the Customs Tribunal. The Customs Department filed cross-appeals before the Customs Tribunal. On October 27, 2014, the Customs Tribunal commenced hearings on the cross-appeals of the Commissioner's orders. The Customs Tribunal rejected HP India's request to return the matter to the Commissioner on procedural grounds. After multiple delays and postponements over the last decade, the Customs",
+  "ndings, and eliminated all individual penalties. The revised duty, interest and penalty amounts will be determined through a damage ruling by the Customs Authority. That ruling is expected no earlier than September 2026 and could be issued significantly later. The DRI is expected to appeal the 2026 Orders to the India Supreme Court. HP India has filed its own appeal. Pursuant to the terms of the 2015 Separation and Distribution Agreement, HPE is financially responsible for 43% of HP India\u2019s liability in this matter.   37   Table of Content   HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES   Notes to Condensed Consolidated Financial Statements (Continued)   (Unaudited)   ECT Proceedings . In Ja",
+  "tanding. DPO is calculated by dividing ending accounts payable by a 90-day average of cost of goods sold. Compared to the corresponding three-month period in fiscal 2025, the increase in DPO in the current period was primarily due to higher purchases to secure strategic component supply and fulfill backlog.   Investing Activities   For the nine months ended July 31, 2026, net cash used in investing activities decreased by $13.4 billion, as compared to the corresponding period in fiscal 2025. The decrease was primarily due to payments made in connection with the Juniper Networks acquisition, net of cash acquired of $12.3 billion in the prior-year period and proceeds from sale of equity interests in "
+ ]
+}

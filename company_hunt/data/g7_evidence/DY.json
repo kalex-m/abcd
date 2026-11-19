@@ -1,0 +1,38 @@
+{
+ "ticker": "DY",
+ "cik": 67215,
+ "rev_q": {
+  "latest": [
+   "2026-05-03",
+   "2026-08-01",
+   2005907000,
+   "10-Q",
+   "2026-08-27",
+   "0000067215-26-000043"
+  ],
+  "prior": [
+   "2025-04-27",
+   "2025-07-26",
+   1377944000,
+   "10-Q",
+   "2026-08-27",
+   "0000067215-26-000043"
+  ],
+  "growth": 0.4557246158044159
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-27",
+  "period": "2026-08-01",
+  "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000043/dy-20260801.htm"
+ },
+ "backlog_hits": [
+  "|   Customer relationships | 13.4 | $ | 1,121,217 | $ | 356,215 | $ | 765,002 | $ | 1,032,417 | $ | 306,094 | $ | 726,323 |   Trade names, finite | 13.7 | 54,080 | 11,801 | 42,279 | 54,080 | 10,178 | 43,902 |   Trade name, indefinite | Indefinite | 4,700 | \u2014 | 4,700 | 4,700 | \u2014 | 4,700 |   Contract backlog | 1.1 | 232,300 | 108,911 | 123,389 | 192,900 | 41,903 | 150,997 |   Non-compete agreements | 1.3 | 75 | 56 | 19 | 75 | 49 | 26 |   $ | 1,412,372 | $ | 476,983 | $ | 935,389 | $ | 1,284,172 | $ | 358,224 | $ | 925,948 |   18   Table of Contents   Amortization of our customer relationship intangibles and our backlog intangibles are recognized on an accelerated basis as a function of the expected e",
+  "Other accrued liabilities consisted of the following (dollars in thousands):   August 1, 2026 | January 31, 2026 |   Accrued employee benefit and incentive plan costs | 97,676 | 117,515 |   Accrued payroll and related taxes | 73,566 | 49,653 |   Accrued construction costs and other accrued purchase orders | 70,235 | 47,931 |   Accrued interest payable | 34,701 | 10,070 |   Other current liabilities | 49,276 | 31,312 |   Other accrued liabilities | $ | 325,454 | $ | 256,481 |   21   Table of Contents   14. Debt   The following table summarizes the net carrying value of our outstanding indebtedness (dollars in thousands):   August 1, 2026 | January 31, 2026 |   Credit Agreement - Term Loan A Facilit",
+  "| % | $ | 1,377.9 | 100.0 | % | $ | 3,177.8 | 80.0 | % | $ | 2,636.6 | 100.0 | % |   Building Systems | 397.5 | 19.8 | % | \u2014 | \u2014 | % | 792.9 | 20.0 | % | \u2014 | \u2014 | % |   Total contract revenues | $ | 2,005.9 | 100.0 | % | $ | 1,377.9 | 100.0 | % | $ | 3,970.7 | 100.0 | % | $ | 2,636.6 | 100.0 | % |   Remaining Performance Obligations   Master service agreements and other contractual agreements with customers contain customer-specified service requirements, such as discrete pricing for individual tasks and firm orders under fixed price contracts which have not yet started or been fully completed. In most cases, our customers are not contractually committed to procure specific volumes of services under these agreements.   Serv",
+  "expense resulting from the application of acquisition accounting for the acquired businesses, which resulted in $48.1 million and $94.0 million of amortization expense for the three and six months ended August 1, 2026 associated with finite-lived intangible assets related to customer relationships, backlog and trade names identified during the preliminary purchase price allocation. We expect these non-cash charges to continue to impact segment operating results in future periods as the economic value of the acquired intangibles is realized.   Non-GAAP Adjusted EBITDA. The increase in Non-GAAP Adjusted EBITDA for the three and six months ended August 1, 2026 compared to the three and six months ende",
+  "redit collateralize obligations to our insurance carriers in connection with the settlement of potential claims. In connection with these collateral obligations, we had $53.6 million outstanding standby letters of credit issued under our Credit Agreement as of August 1, 2026 and January 31, 2026.   Backlog. Backlog is not a measure defined by United States generally accepted accounting principles (\u201cGAAP\u201d) and should be considered in addition to, but not as a substitute for, GAAP results. Participants in our industry often disclose a calculation of their backlog; however, our methodology for determining backlog may not be comparable to the methodologies used by others. We utilize our calculation of ",
+  " under existing contractual   42   Table of Contents   relationships with our customers. We believe our backlog disclosures will assist investors in better understanding this estimate of the services to be performed pursuant to awards by our customers under existing contractual relationships.   Our backlog is an estimate of the uncompleted portion of services to be performed under contractual agreements with our customers and totaled $12.242 billion and $9.542 billion at August 1, 2026 and January 31, 2026, respectively. We expect to complete 52.9% of the August 1, 2026 total backlog during the next twelve months (dollars in millions).   August 1, 2026 | January 31, 2026 |   Total Backlog | Next 12"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "ticker": "CRH",
+ "cik": 849395,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   3280000000,
+   "10-Q",
+   "2026-10-29",
+   "0000849395-26-000013"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   3592000000,
+   "10-Q",
+   "2025-11-05",
+   "0001628280-25-049574"
+  ],
+  "growth": -0.0868596881959911
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   11396000000,
+   "10-Q",
+   "2026-10-29",
+   "0000849395-26-000013"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   11069000000,
+   "10-Q",
+   "2026-10-29",
+   "0000849395-26-000013"
+  ],
+  "growth": 0.029541964043725777
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1896000000,
+   "10-Q",
+   "2026-10-29",
+   "0000849395-26-000013"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2081000000,
+   "10-Q",
+   "2026-10-29",
+   "0000849395-26-000013"
+  ],
+  "growth": -0.08889956751561745
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/849395/000084939526000013/crh-20260930.htm"
+ },
+ "backlog_hits": [
+  " and acceptance by customers, are generally expected to be collected within one year. The Company applies the practical expedient and does not adjust any of its transaction prices for the time value of money.   On September 30, 2026, the Company had $ 3,280 million of transaction price allocated to remaining performance obligations. The majority of open contracts as of September 30, 2026 are expected to close and revenues to be recognized within 12 months of the balance sheet date.   3. Assets held for sale and divestitures   On May 8, 2026, the Company divested its lawn and garden operations. On May 29, 2026, the Company divested its construction accessories operations. For the nine months ended September 30, 2026, total "
+ ]
+}

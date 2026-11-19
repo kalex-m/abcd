@@ -1,0 +1,53 @@
+{
+ "ticker": "WWD",
+ "cik": 108312,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-06-30",
+   4117859000,
+   "10-Q",
+   "2026-07-30",
+   "0001193125-26-325790"
+  ],
+  "prior": [
+   null,
+   "2025-06-30",
+   3146145000,
+   "10-Q",
+   "2025-08-01",
+   "0000950170-25-101257"
+  ],
+  "growth": 0.3088586190401268
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   1109705000,
+   "10-Q",
+   "2026-07-30",
+   "0001193125-26-325790"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   915446000,
+   "10-Q",
+   "2026-07-30",
+   "0001193125-26-325790"
+  ],
+  "growth": 0.21220148430382557
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-07-30",
+  "period": "2026-06-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/108312/000119312526325790/wwd-20260630.htm"
+ },
+ "backlog_hits": [
+  "in the three months and $ 52,725 in the nine months ended June 30, 2026 from contract liabilities balances recorded as of October 1, 2025, compared to $ 5,157 in the three months and $ 26,275 in the nine months ended June 30, 2025 from contract liabilities balances recorded as of October 1, 2024.   Remaining performance obligations   Remaining performance obligations related to the aggregate amount of the total contract transaction price of firm orders for which the performance obligation has not yet been recognized in revenue as of June 30, 2026 were $ 4,117,859 , compared to $ 3,195,156 as of September 30, 2025 , the majority of which related to Woodward\u2019s Aerospace segment in both periods. Woodward expects to recognize "
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "VMC",
+ "cik": 1396009,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2184600000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068102"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2291500000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068102"
+  ],
+  "growth": -0.04665066550294572
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   524600000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068102"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   543200000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068102"
+  ],
+  "growth": -0.034241531664212066
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1396009/000162828026068102/vmc-20260930.htm"
+ },
+ "backlog_hits": [
+  "in Note 7 , our standby letters of credit totaled $ 16.1 million as of September 30, 2026.   As described in Note 9 , our asset retirement obligations totaled $ 496.1 million as of September 30, 2026.   Litigation and Environmental Matters   We are subject to occasional governmental proceedings and orders pertaining to occupational safety and health or to protection of the environment, such as proceedings or orders relating to noise abatement, air emissions or water discharges. As part of our continuing program of stewardship in safety, health and environmental matters, we have been able to resolve such proceedings and to comply with such orders without any material adverse effects on our business"
+ ]
+}

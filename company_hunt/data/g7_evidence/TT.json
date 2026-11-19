@@ -1,0 +1,53 @@
+{
+ "ticker": "TT",
+ "cik": 1466258,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   6759700000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068122"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   5742500000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068122"
+  ],
+  "growth": 0.1771353939921636
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1343100000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068122"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1165300000,
+   "10-Q",
+   "2026-10-29",
+   "0001628280-26-068122"
+  ],
+  "growth": 0.15257873508967656
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1466258/000162828026068122/tt-20260930.htm"
+ },
+ "backlog_hits": [
+  "s acquired and liabilities assumed based on their estimated fair values at the acquisition date.   The preliminary allocation of the purchase price resulted in the recognition of identifiable intangible assets of $ 315.0 million, primarily related to customer relationships, developed technology and backlog. Net tangible liabilities assumed, inclusive of deferred taxes, totaled $ 140.8 million. The excess of the purchase price over the fair value of identifiable net assets acquired resulted in goodwill of $ 405.1 million, which is attributable primarily to anticipated synergies, assembled workforce, and the expansion of Stellar Energy\u2019s data center solutions portfolio. The goodwill for this acquisit",
+  ".2 | $ | 3,563.5 |   Total Segment depreciation and amortization | ( 82.7 ) | ( 83.0 ) | ( 259.9 ) | ( 269.7 ) |   Total Segment other income/(expense), net | ( 0.4 ) | 11.5 | 1.7 | 22.8 |   Total Segment Adjusted Operating Income | 1,453.7 | 1,240.1 | 3,657.0 | 3,316.6 |   Amortization of acquired backlog intangible asset | ( 16.3 ) | \u2014 | ( 38.1 ) | \u2014 |   Restructuring costs | ( 3.6 ) | ( 16.3 ) | ( 14.0 ) | ( 17.6 ) |   Non-cash adjustment for contingent consideration | \u2014 | \u2014 | \u2014 | 61.2 |   Non-cash gain from acquisition of a previously held investment | \u2014 | \u2014 | 22.6 | \u2014 |   Unallocated corporate expenses | ( 90.7 ) | ( 58.5 ) | ( 261.4 ) | ( 211.8 ) |   Interest expense | ( 52.4 ) | ( 55.6 ) | ("
+ ]
+}

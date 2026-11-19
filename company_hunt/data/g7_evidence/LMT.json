@@ -1,0 +1,74 @@
+{
+ "ticker": "LMT",
+ "cik": 936468,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-27",
+   292000000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066928"
+  ],
+  "prior": [
+   null,
+   "2025-09-28",
+   179100000000,
+   "10-Q",
+   "2025-10-21",
+   "0001628280-25-045693"
+  ],
+  "growth": 0.6303740926856505
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   20711000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066928"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   18609000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066928"
+  ],
+  "growth": 0.11295609651244032
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-06-29",
+   "2026-09-27",
+   2443000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066928"
+  ],
+  "prior": [
+   "2025-06-30",
+   "2025-09-28",
+   2280000000,
+   "10-Q",
+   "2026-10-22",
+   "0001628280-26-066928"
+  ],
+  "growth": 0.07149122807017538
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-22",
+  "period": "2026-09-27",
+  "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm"
+ },
+ "backlog_hits": [
+  "al future principal payments amount to $ 750 million. We and Boeing expect to provide additional financial support to ULA to support its liquidity or ongoing operations and could incur impairment and operating losses if the Vulcan Centaur rocket does not perform consistent with ULA\u2019s assumptions.   Backlog   Backlog (i.e., unfulfilled or remaining performance obligations) represents the sales we expect to recognize for our products and services for which control has not yet transferred to the customer. It is converted into sales in future periods as work is performed or deliveries are made. For our cost-reimbursable and fixed-priced-incentive contracts, the estimated consideration we expect to rece",
+  "sly reviewed throughout the contract period. In determining the estimated consideration, we consider the risks related to the technical, schedule and cost impacts to complete the contract and an estimate of any variable consideration. Periodically, we review these risks and may increase or decrease backlog accordingly. As the risks on such contracts are successfully retired, the estimated consideration from customers may be reduced, resulting in a reduction of backlog without a corresponding recognition of sales. As of September 27, 2026, our ending backlog was $ 292.0 billion. The increase in backlog of $ 61.6 billion for the   12   Table of Contents   Lockheed Martin Corporation   Notes to Consol",
+  "on on the C-130 program.   Additionally, during the quarter ended September 27, 2026 , we delivered 43 F-35 aircraft. Since the program inception through September 27, 2026, we delivered 1,387 production F-35 aircraft, including 989 F-35A variants, 255 F-35B variants and 143 F-35C variants, and our backlog as of that date was 274 aircraft. We remain in negotiations with the U.S. Government on the production contracts for F-35 lots 20 and higher. Our costs incurred began to exceed the current contractual authorization and funding on the Lot 20 advance acquisition contract during the third quarter of 2026. Without additional contractual authorization and funding from the U.S. Government, our results "
+ ]
+}

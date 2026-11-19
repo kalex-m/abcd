@@ -1,0 +1,73 @@
+{
+ "ticker": "TXT",
+ "cik": 217346,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-10-03",
+   19000000000,
+   "10-Q",
+   "2026-10-29",
+   "0000217346-26-000044"
+  ],
+  "prior": [
+   null,
+   "2025-09-27",
+   19100000000,
+   "10-Q",
+   "2025-10-23",
+   "0000217346-25-000077"
+  ],
+  "growth": -0.005235602094240788
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-05",
+   "2026-10-03",
+   3751000000,
+   "10-Q",
+   "2026-10-29",
+   "0000217346-26-000044"
+  ],
+  "prior": [
+   "2025-06-29",
+   "2025-09-27",
+   3602000000,
+   "10-Q",
+   "2026-10-29",
+   "0000217346-26-000044"
+  ],
+  "growth": 0.04136590782898386
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2011-04-03",
+   "2011-07-02",
+   196000000,
+   "10-Q",
+   "2011-07-29",
+   "0000950123-11-070043"
+  ],
+  "prior": [
+   "2010-04-04",
+   "2010-07-03",
+   161000000,
+   "10-Q",
+   "2011-07-29",
+   "0000950123-11-070043"
+  ],
+  "growth": 0.21739130434782616
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-10-03",
+  "url": "https://www.sec.gov/Archives/edgar/data/217346/000021734626000044/txt-20261003.htm"
+ },
+ "backlog_hits": [
+  "Geographic location: |   United States | $ | 3,033 | $ | 2,324 | $ | 850 | $ | 1,249 | $ | 17 | $ | 7,473 |   Europe | 359 | 84 | 32 | 479 | 1 | 955 |   Other international | 825 | 617 | 51 | 664 | 39 | 2,196 |   Total revenues | $ | 4,217 | $ | 3,025 | $ | 933 | $ | 2,392 | $ | 57 | $ | 10,624 |   Remaining Performance Obligations   Our remaining performance obligations, which is the equivalent of our backlog, represent the expected transaction price allocated to our contracts that we expect to recognize as revenues in future periods when we perform under the contracts. These remaining obligations exclude unexercised contract options and potential orders under ordering-type contracts such as Indefinite Delivery, Indefinit",
+  "marily those that affected tax deductions for foreign-derived intangible income and research and development credits. In the first nine months of 2025, our effective tax rate was lower than the U.S. federal statutory rate, primarily due to the favorable impact of research and development credits.   Backlog   Our backlog is summarized below:   (In millions) | October 3, 2026 | January 3, 2026 |   Textron Aviation | $ | 7,995 | $ | 7,724 |   Bell | 7,562 | 7,795 |   Textron Systems | 3,491 | 3,304 |   Total backlog | $ | 19,048 | $ | 18,823 |   Segment Analysis   We operate in, and report financial information for, the following five operating segments: Textron Aviation, Bell, Textron Systems, Indust"
+ ]
+}

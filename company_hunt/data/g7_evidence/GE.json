@@ -1,0 +1,78 @@
+{
+ "ticker": "GE",
+ "cik": 40545,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   212084000000,
+   "10-Q",
+   "2026-10-20",
+   "0000040545-26-000064"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   176285000000,
+   "10-Q",
+   "2025-10-21",
+   "0000040545-25-000132"
+  ],
+  "growth": 0.20307456675270164
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   14118000000,
+   "10-Q",
+   "2026-10-20",
+   "0000040545-26-000064"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   12181000000,
+   "10-Q",
+   "2026-10-20",
+   "0000040545-26-000064"
+  ],
+  "growth": 0.15901814300960515
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2014-04-01",
+   "2014-06-30",
+   5869000000,
+   "10-Q",
+   "2014-07-31",
+   "0000040545-14-000034"
+  ],
+  "prior": [
+   "2013-04-01",
+   "2013-06-30",
+   5628000000,
+   "10-Q",
+   "2014-07-31",
+   "0000040545-14-000034"
+  ],
+  "growth": 0.04282160625444198
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-20",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm"
+ },
+ "backlog_hits": [
+  ".   Profit was $7.8 billion, an increase of $0.7 billion and profit margin was 19.6%, a decrease of 200 basis points. Operating profit* was $8.3 billion, an increase of $1.5 billion and operating profit margin* was 22.0%, a decrease of 30 basis points. Adjusted EPS* was $6.13, an increase of 28%.   Remaining performance obligation (RPO) is unfilled customer orders for products and product services (expected life of contract sales for product services) excluding any purchase order that provides the customer with the ability to cancel or terminate without incurring a substantive penalty. See Note 23 for further information.   RPO | September 30, 2026 | December 31, 2025 |   Equipment | $ | 33,337 | $ | 27,534 |   Services | ",
+  "163,029 |   Total RPO | $ | 212,084 | $ | 190,564 |   As of September 30, 2026 , RPO increased $21.5 billion, or 11%, from December 31, 2025, primarily at CES, as a result of commercial actions and increases to existing long-term service agreements, and at DPT, driven by Defense & Systems equipment orders outpacing revenue recognized.   *Non-GAAP Financial Measure   2026 3Q FORM 10-Q 5   SEGMENT OPERATIONS   COMMERCIAL ENGINES & SERVICES . We are in frequent communication with our airline, airframe and maintenance, repair and overhaul (MRO) customers about the outlook for commercial air travel, new aircraft production, fleet retirements and after-market services, including shop visit and spare par",
+  "r engines and services, while commercial air travel departures were slightly up.   In the nine months ended September 30, 2026, we announced significant new deals with several major customers. United Airlines and Delta Airlines selected our GENx engines to power their widebody Boeing 787 Dreamliner orders. American Airlines and Copa Airlines selected LEAP engines for their narrowbody orders. Ryanair signed a long-term material services agreement to support their entire fleet of about 2,000 CFM56 and LEAP engines powering its Boeing 737 aircraft. IndiGo agreed to a historical Memorandum of Understanding (MOU) for more than 1,000 LEAP-1A engines, the largest LEAP agreement, to power its Airbus A320n",
+  "nd mix.   RPO | September 30, 2026 | December 31, 2025 |   Equipment | $ | 23,137 | $ | 17,762 |   Services | 8,294 | 8,094 |   Total RPO | $ | 31,431 | $ | 25,856 |   As of September 30, 2026 , RPO increased $5.6 billion, or 22%, from December 31, 2025, primarily due to increases in equipment from orders outpacing revenue recognized.   CORPORATE & OTHER. Corporate & Other revenue includes our run-off insurance operations revenue and the elimination of intercompany activities. Corporate & Other operating profit includes Corporate functions and operations costs, certain costs of our principal retirement plans, significant, higher-cost restructuring programs, separation costs, profit (loss) of our r",
+  "ash flow* from our operating businesses, and access to capital markets. If needed, we can also draw from short-term borrowing facilities, including revolving credit facilities. Cash generation can be subject to variability based on many factors, including receipt of down payments on large equipment orders, timing of billings on long-term contracts, timing of customer allowances and market conditions. At September 30, 2026, our sources of liquidity of $10.3 billion included cash, cash equivalents and restricted cash of $8.8 billion and time deposits with maturities greater than three months classified as All other current assets of $1.5 billion. Of these amounts, $6.6 billion was held in the U.S. a",
+  "echnology and information related to individual sites and worker exposure lawsuits. Total reserves related to environmental remediation and worker exposure claims were $ 2,222 million and $ 2,129 million as of September 30, 2026 and December 31, 2025 , respectively.   NOTE 23. SEGMENT INFORMATION & REMAINING PERFORMANCE OBLIGATION. We have two reportable segments and three operating segments. Operating segments are aggregated into a reportable segment if the operating segments have similar quantitative economic characteristics and if the operating segments are similar in the following qualitative characteristics: (i) nature of products and services; (ii) nature of production processes; (iii) type or class of customer for t",
+  "ble to common shareholders | ( 124 ) | ( 17 ) | ( 188 ) | 14 |   Net income (loss) attributable to common shareholders | $ | 2,288 | $ | 2,157 | $ | 6,562 | $ | 6,163 |   (a) Other segment expenses (income) primarily includes equity method income, interest income and licensing and royalty income.   REMAINING PERFORMANCE OBLIGATION. As of September 30, 2026, the aggregate amount of the contracted revenue allocated to our unsatisfied (or partially unsatisfied) performance obligations was $ 212,084 million. We expect to recognize revenue as we satisfy our remaining performance obligations as follows: (1) equipment-related remaining performance obligation of $ 33,337 million, of which 32 %, 55 % and 92 % is expected to be sati"
+ ]
+}

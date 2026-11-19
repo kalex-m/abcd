@@ -1,0 +1,76 @@
+{
+ "ticker": "CIEN",
+ "cik": 936395,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-08-01",
+   2500000000,
+   "10-Q",
+   "2026-09-03",
+   "0001628280-26-060361"
+  ],
+  "prior": [
+   null,
+   "2025-08-02",
+   2000000000,
+   "10-Q",
+   "2025-09-04",
+   "0000936395-25-000041"
+  ],
+  "growth": 0.25
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-05-03",
+   "2026-08-01",
+   1671129000,
+   "10-Q",
+   "2026-09-03",
+   "0001628280-26-060361"
+  ],
+  "prior": [
+   "2025-05-04",
+   "2025-08-02",
+   1219385000,
+   "10-Q",
+   "2026-09-03",
+   "0001628280-26-060361"
+  ],
+  "growth": 0.3704687198874843
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-05-03",
+   "2026-08-01",
+   301179000,
+   "10-Q",
+   "2026-09-03",
+   "0001628280-26-060361"
+  ],
+  "prior": [
+   "2025-05-04",
+   "2025-08-02",
+   73535000,
+   "10-Q",
+   "2026-09-03",
+   "0001628280-26-060361"
+  ],
+  "growth": 3.095723125042497
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-03",
+  "period": "2026-08-01",
+  "url": "https://www.sec.gov/Archives/edgar/data/936395/000162828026060361/cien-20260801.htm"
+ },
+ "backlog_hits": [
+  " transfer of control has occurred, but Ciena has not yet invoiced the customer. Contract assets are included in prepaid expenses and other in the Condensed Consolidated Balance Sheets.   Contract liabilities consist of deferred revenue and represent advanced payments against non-cancelable customer orders received prior to revenue recognition. Ciena recognized approximately $ 174.3 million and $ 134.6 million of revenue during the first nine months of fiscal 2026 and 2025, respectively, that was included in the deferred revenue balance as of November 1, 2025 and November 2, 2024, respectively. Revenue recognized due to changes in transaction price from performance obligations satisfied or partiall",
+  "and (ii) other long-term assets. The amortization expense associated with these costs was $ 28.1 million and $ 26.0 million during the first nine months of fiscal 2026 and 2025, respectively, and was included in selling and marketing expense on the Condensed Consolidated Statements of Operations.   Remaining Performance Obligations   Remaining Performance Obligations (\u201cRPO\u201d) are comprised of non-cancelable customer purchase orders for products and services that are awaiting transfer of control for revenue recognition under the applicable contract terms. The timing of fulfillment of remaining performance obligations can be impacted by supply conditions. As of August 1, 2026, the aggregate amount of RPO was $ 2.5 billion. Th",
+  "that may involve contractual indemnification obligations on the part of Ciena. Ciena does not expect that the ultimate costs to resolve such matters will have a material effect on its results of operations, financial position, or cash flows.   Purchase Order Obligations   Ciena has certain advanced orders for supply of certain long lead time components. As of August 1, 2026, Ciena had $ 3.3 billion in outstanding purchase order commitments to contract manufacturers and component suppliers for inventory. In certain instances, Ciena is permitted to cancel, reschedule or adjust a portion of these orders.   (21) SUBSEQUENT EVENTS   Stock Repurchase Program   From the end of the third quarter of fiscal",
+  "s to cloud providers grow, we are seeing a small number of those customers become a larger portion of our business across multiple revenue segments. Our revenue increased by 37% to $1.7 billion in the third quarter of fiscal 2026 as compared to $1.2 billion in the third quarter of fiscal 2025, with orders for our products and services significantly exceeding our revenue. This dynamic, together with an industry-wide constrained supply environment, has resulted in historically high backlog. As part of our efforts to secure both long-term supply and demand, we have, and are seeking to continue to, enter into multi-year supply agreements with certain of our suppliers, some of which involve firm purcha",
+  " of Part II of our 2025 Annual Report.   Purchase Order Obligations. As of August 1, 2026 , we had $3.3 billion in outstanding purchase order commitments to our contract manufacturers and component suppliers for inventory. In certain instances, we are permitted to cancel, reschedule or adjust these orders. Consequently, only a portion of this amount relates to firm, non-cancelable and unconditional obligations.   Critical Accounting Policies and Estimates   Our critical accounting policies and estimates have not changed materially since November 1, 2025. For a discussion of our critical accounting policies and estimates, see \u201c Critical Accounting Policies and Estimates \u201d in Item 7 of Part II of ou"
+ ]
+}

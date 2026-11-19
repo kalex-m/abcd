@@ -1,0 +1,56 @@
+{
+ "ticker": "APH",
+ "cik": 820313,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   10229700000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120646"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   6194400000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120646"
+  ],
+  "growth": 0.6514432390546301
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3020800000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120646"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1702300000,
+   "10-Q",
+   "2026-10-30",
+   "0001104659-26-120646"
+  ],
+  "growth": 0.774540327791811
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/820313/000110465926120646/aph-20260930x10q.htm"
+ },
+ "backlog_hits": [
+  " and Net income from CommScope during this period were $ 3,683.3 and $ 471.4 , respectively. Net income excludes interest expense and external transaction costs related to the acquisition and includes $ 179.0 ($ 137.1 after-tax) of non-cash amortization related to the value associated with acquired backlog and acquisition-related inventory step-up discussed below.   \u200b   Preliminary Allocation of Purchase Price   \u200b   The purchase price for the CommScope acquisition was allocated to the tangible and identifiable intangible assets acquired and liabilities assumed of CommScope based upon their estimated fair values. The excess purchase price over the fair value of the underlying net assets acquired was",
+  "ilities assumed  | \u200b   |   | 1,781.2   |   \u200b   | \u200b   | \u200b   | \u200b   |   Net assets acquired   |   | $  | 10,734.7   |   \u200b   The $ 3,289.0 of acquired intangible assets is comprised of $ 1,449.0 , $ 1,248.0 , $ 545.0 and $ 47.0 assigned to proprietary technology, customer relationships, trade names and backlog, respectively, all of which are subject to amortization. These finite-lived acquired intangible assets have a total weighted average useful life of approximately 16 years . The proprietary technology, customer relationships, trade names and backlog have a weighted average useful life of 14 years , 16 years , 23 years and 0.5 years, respectively. These finite-lived intangible assets will be amorti",
+  "s under the U.S. Commercial Paper Program, or a combination thereof.   \u200b   As of September 30, 2026, the 2025 Acquisitions resulted in the recognition of $ 2,144.1 of goodwill and $ 1,203.0 of definite-lived intangible assets, comprised of customer relationships, proprietary technology and acquired backlog, with the remainder of the purchase price being allocated to other identifiable assets acquired and liabilities assumed. These definite-lived intangible assets are being amortized based upon the underlying pattern of economic benefit as reflected by the future net cash inflows, with the acquired customer relationships having useful lives ranging from 10 to 18 years , the proprietary technology ha",
+  "hnology  | 14   | \u200b   |   | 2,412.5   | \u200b   |   | 358.9   | \u200b   | \u200b   | 2,053.6   | \u200b   |   | 963.9   | \u200b   |   | 230.2   | \u200b   | \u200b   | 733.7   |   Trade names (1)  | 23   | \u200b   |   | 556.3   | \u200b   | \u200b   | 21.6   | \u200b   | \u200b   | 534.7   | \u200b   | \u200b   | 11.3   | \u200b   | \u200b   | 2.2   | \u200b   | \u200b   | 9.1   |   Backlog and other (1)  | 1   | \u200b   |   | 284.9   | \u200b   |   | 251.9   | \u200b   | \u200b   | 33.0   | \u200b   |   | 205.1   | \u200b   |   | 181.7   | \u200b   | \u200b   | 23.4   |   Total intangible assets (definite-lived)  | 14   | \u200b   | \u200b   | 6,488.0   | \u200b   | \u200b   | 1,413.1   | \u200b   | \u200b   | 5,074.9   | \u200b   | \u200b   | 3,021.5   | \u200b   | \u200b   | 1,049.2   | \u200b   | \u200b   | 1,972.3   |   \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b",
+  " | \u200b   | 100.1   |   Total  | \u200b   | $  | 347.8   | \u200b   | $  | 227.7   | \u200b   | $  | 1,175.0   | \u200b   | $  | 673.4   |   \u200b   \u200b   For the nine months ended September 30, 2026, depreciation and amortization expense in Corporate / Other includes (i) $ 70.4 related to the non-cash amortization of acquired backlog resulting from the CommScope and Trexon acquisitions, which is included in Acquisition-related expenses in the Condensed Consolidated Statements of Income, and (ii) $ 132.0 of non-cash amortization of acquisition-related inventory step-up costs associated with the CommScope acquisition, which is included in Cost of sales in the Condensed Consolidated Statements of Income, as discussed in Note 11 "
+ ]
+}

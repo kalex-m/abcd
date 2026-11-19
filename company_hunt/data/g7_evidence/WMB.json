@@ -1,0 +1,72 @@
+{
+ "ticker": "WMB",
+ "cik": 107263,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-06-30",
+   30735000000,
+   "10-Q",
+   "2026-08-03",
+   "0000107263-26-000026"
+  ],
+  "prior": [
+   null,
+   "2025-06-30",
+   32060000000,
+   "10-Q",
+   "2025-08-04",
+   "0000107263-25-000123"
+  ],
+  "growth": -0.041328758577666824
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   3053000000,
+   "10-Q",
+   "2026-08-03",
+   "0000107263-26-000026"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   2781000000,
+   "10-Q",
+   "2026-08-03",
+   "0000107263-26-000026"
+  ],
+  "growth": 0.09780654440848613
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   1182000000,
+   "10-Q",
+   "2026-08-03",
+   "0000107263-26-000026"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   945000000,
+   "10-Q",
+   "2026-08-03",
+   "0000107263-26-000026"
+  ],
+  "growth": 0.2507936507936508
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-02",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000036/wmb-20260930.htm"
+ },
+ "backlog_hits": [
+  "r which the renewal has not been exercised and exclude contracts with customers for which the underlying facilities have not received FERC authorization to be placed into service. Consideration received prior to September 30, 2026, that will be recognized in future periods is also excluded from its remaining performance obligations and is instead reflected in contract liabilities.   The following table presents the transaction price allocated to the remaining performance obligations under certain contracts as of September 30, 2026:   Remaining Performance Obligations |   Williams | Transco | NWP |   (Millions) |   2026 ( three months )   | $ | 1,202 | $ | 761 | $ | 105 |   2027 ( one year )   | 4,720 | 2,934 | 419 |   2028"
+ ]
+}

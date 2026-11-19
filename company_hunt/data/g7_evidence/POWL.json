@@ -1,0 +1,83 @@
+{
+ "ticker": "POWL",
+ "cik": 80420,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   2700000000,
+   "10-K",
+   "2026-11-17",
+   "0000080420-26-000143"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   1400000000,
+   "10-K",
+   "2025-11-19",
+   "0000080420-25-000152"
+  ],
+  "growth": 0.9285714285714286
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   396707000,
+   "10-K",
+   "2026-11-17",
+   "0000080420-26-000143"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   297983000,
+   "10-K",
+   "2026-11-17",
+   "0000080420-26-000143"
+  ],
+  "growth": 0.33130749069577803
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   64076000,
+   "10-Q",
+   "2026-08-04",
+   "0000080420-26-000107"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   60124000,
+   "10-Q",
+   "2026-08-04",
+   "0000080420-26-000107"
+  ],
+  "growth": 0.06573082296587063
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-17",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/80420/000008042026000143/powl-20260930.htm"
+ },
+ "backlog_hits": [
+  "rmed. Our contracts may have an early termination for convenience clause at the discretion of our customers; however, most of these contracts typically provide for the reimbursement of our costs incurred and a reasonable margin in the event of such early termination. Our methodology for determining backlog may not be comparable to the methodology used by other companies.   Our backlog increased by $1.3 billion to $2.7 billion at September 30, 2026, compared to $1.4 billion at September 30, 2025. We anticipate that approximately $1.3 billion of Fiscal 2026 ending backlog will be recognized as revenue during our fiscal year ending September 30, 2027. Backlog may not be indicative of future operating ",
+  "eholder of record as of the close of trading on March 20, 2026 (the Record Date) received, after the close of trading on April 2, 2026, two additional shares for every one share held on the Record Date. Trading began on a split-adjusted basis at market open on April 6, 2026.   Market Overview   Our backlog increased to $2.7 billion as of September 30, 2026, with approximately $1.3 billion expected to be recognized as revenue during our fiscal year ending September 30, 2027. During Fiscal 2026, commercial activity remained favorable across most of our end markets, with particularly strong demand in the commercial and other industrial, oil and gas (excluding petrochemical), and electric utility marke",
+  "tomers with greater visibility. Customer relationships in these markets are increasingly strategic and consultative, with opportunities ranging from discrete project engagements to broader infrastructure planning arrangements.   During Fiscal 2026, bookings totaled $2.6 billion, including nine mega orders across diverse end markets, demonstrating continued customer investment and strong market activity. We remain encouraged by the outlook for both the data center and electric utility end markets and the durability of the current investment cycles. Notwithstanding this momentum, we continue to monitor macroeconomic conditions and geopolitical developments that could affect customer spending behavio",
+  "he petrochemical market is entering the early stages of a cyclical recovery following an extended period of reduced capital investment activity. As a result of these dynamics, order activity remained strong throughout Fiscal 2026, with total bookings of nearly $1.0 billion, including three mega LNG orders and one mega petrochemical project. Beyond traditional crude oil refining and other oil and gas downstream operations, we have broadened our participation in end markets supporting the energy transition, including hydrogen production, carbon capture, and alternative fuels, such as biofuels and sustainable aviation fuel, reflecting growing demand for cleaner energy solutions.   Electric utility ma",
+  " increasing demand for cloud computing and artificial intelligence applications. During Fiscal 2026, we were awarded over $900 million in data center infrastructure projects, including a mega order valued at greater than $400 million secured during the third fiscal quarter and three additional mega orders secured in Fiscal 2026, each exceeding $75 million in contract value. Commercial activity in this market sector during Fiscal 2026 reflects the continued investment in data center infrastructure, cloud computing and artificial intelligence, and we are also observing increased activity across other industrial end markets.   Business Environment   The markets in which we participate are capital-int",
+  "Partially offsetting these increases, revenue from the petrochemical market decreased 42%, or $63.0 million, to $88.2 million, while revenue from the light rail traction power market decreased 11%, or $4.6 million, to $36.7 million in Fiscal 2026. These declines were primarily attributable to lower backlog levels, including the impact of completing a large petrochemical order secured in Fiscal 2023. Revenue from all other markets combined increased 9%, or $4.3 million, to $52.4 million in Fiscal 2026. For additional information on the markets we serve, see \u201cMarkets\u201d in Part I, Item 1 and \u201cMarket Overview\u201d in Part II, Item 7 of this Annual Report.   Gross profit increased 21%, or $68.6 million, to $",
+  " or $6.04 per diluted share, compared to net income of $180.7 million, or $4.95 per diluted share, in Fiscal 2025. The increase in net income was primarily driven by higher gross profit, partially offset by higher selling, general and administrative expenses and research and development expenses.   Backlog   Order backlog, which represents our remaining unsatisfied performance obligations, reflects the estimated transaction price for goods and services for which we have a material right but for which work has not yet been performed. Order backlog at September 30, 2026 totaled $2.7 billion, representing a 96% increase from $1.4 billion backlog at September 30, 2025. This increase was mainly driven b",
+  " contract that there are multiple performance obligations, we allocate the transaction price to each performance obligation using our best estimate of the standalone selling price of each distinct good or service in the contract.   Remaining unsatisfied performance obligations, which we refer to as backlog, represent the estimated transaction price for goods and services for which we have a material right, but work has not been performed. As of September 30, 2026, we had backlog of $ 2.7 billion, of which approximately $ 1.3 billion is expected to be recognized as revenue within the next twelve months . Backlog may not be indicative of future operating results as orders may be canceled or modified ",
+  "30, 2026 |   Weighted Average Remaining Useful Lives in Years | Gross Carrying Value | Accumulated Amortization | Net Carrying Value |   Customer relationships | 11 | $ | 2,172 | $ | ( 204 ) | $ | 1,968 |   Technologies | 4 | 3,477 | ( 670 ) | 2,807 |   Trademarks | 9 | 468 | ( 52 ) | 416 |   Order backlog | 0 | 54 | ( 54 ) | \u2014 |   Total intangible assets | $ | 6,171 | $ | ( 980 ) | $ | 5,191 |   54   September 30, 2025 |   Weighted Average Remaining Useful Lives in Years | Gross Carrying Value | Accumulated Amortization | Net Carrying Value |   Customer relationships | 12 | $ | 2,202 | $ | ( 23 ) | $ | 2,179 |   Technologies | 5 | 3,518 | ( 76 ) | 3,442 |   Trademarks | 10 | 475 | ( 6 ) | 469 |   ",
+  "nd $ 0.1 million in Fiscal 2026 and Fiscal 2025, respectively.   Net carrying value of intangible assets attributable to the Remsdaq acquisition was $ 4.7 million and $ 5.6 million at September 30, 2026 and 2025, respectively, consisting of customer relationships, technologies, trademarks and order backlog.   We have an additional technology intangible asset of $ 0.5 million associated with an intellectual property acquired in December 2023 that has not yet been subject to amortization.   As of September 30, 2026, the estimated future amortization expense of intangible assets is as follows (in thousands):   Year Ending September 30: |   2027 | $ | 923 |   2028 | 923 |   2029 | 923 |   2030 | 849 | ",
+  " liquidated damage claims of $ 5.5 million, which could possibly increase to $ 6.6 million under certain circumstances. Based on our actual or projected failure to meet these various contractual commitments, $ 4.9 million has been recorded as a reduction to revenue. We will attempt to obtain change orders or contract extensions, or to accelerate project completion, which may resolve the potential for any unrecorded liquidated damage claims. Should we fail to achieve relief on some or all of these contractual obligations, we could be required to pay additional liquidated damages, which could negatively impact our future operating results.   I. Income Taxes   The components of the income tax provisi",
+  "for income tax purposes and calculated as the excess of the consideration transferred over the net assets recognized and represents the anticipated synergies of acquiring Remsdaq. Other intangible assets of approximately $ 5.8 million include customer relationships, technology, trademarks and order backlog, as follows (in thousands) at the acquisition date:   Intangible Assets Identified | Fair Value | Useful Life |   Customer relationships | $ | 2,211 | 12 |   Technology | 3,030 | 5 |   Trademarks | 477 | 10 |   Order backlog | 55 | 1 |   Total | $ | 5,773 |   We engaged an independent third-party valuation specialist to assist with the fair value measurement of the intangible assets acquired thro"
+ ]
+}

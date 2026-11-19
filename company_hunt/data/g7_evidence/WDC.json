@@ -1,0 +1,72 @@
+{
+ "ticker": "WDC",
+ "cik": 106040,
+ "rpo": {
+  "latest": [
+   null,
+   "2022-12-30",
+   17000000,
+   "10-Q",
+   "2023-02-03",
+   "0000106040-23-000010"
+  ],
+  "prior": [
+   null,
+   "2021-12-31",
+   51000000,
+   "10-Q",
+   "2022-02-03",
+   "0000106040-22-000018"
+  ],
+  "growth": -0.6666666666666667
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   4381000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066933"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-10-03",
+   2818000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066933"
+  ],
+  "growth": 0.5546486870120653
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-04",
+   "2026-10-02",
+   2046000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066933"
+  ],
+  "prior": [
+   "2025-06-28",
+   "2025-10-03",
+   792000000,
+   "10-Q",
+   "2026-10-23",
+   "0001628280-26-066933"
+  ],
+  "growth": 1.5833333333333335
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-23",
+  "period": "2026-10-02",
+  "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066933/wdc-20261002.htm"
+ },
+ "backlog_hits": [
+  " |   October 2, 2026 | July 3, 2026 |   (in millions) |   Intercompany revenue | $ | 2,374 | $ | 7,458 |   Net intercompany interest expense | 21 | 33 |   Intercompany dividend income | 44 | 94 |   Purchase Obligations and Other Commitments   In the normal course of business, we enter into purchase orders with suppliers for the purchase of components used to manufacture our products. These purchase orders generally cover forecasted component supplies needed for production during the next quarter, are recorded as a liability upon transfer of the components, and generally may be changed or canceled at any time prior to shipment of the components. We also enter into long-term agreements with supplier"
+ ]
+}

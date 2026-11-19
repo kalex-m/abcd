@@ -1,0 +1,79 @@
+{
+ "ticker": "FLR",
+ "cik": 1124198,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   33327000000,
+   "10-Q",
+   "2026-11-06",
+   "0001124198-26-000078"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   26900000000,
+   "10-Q",
+   "2025-11-07",
+   "0001124198-25-000073"
+  ],
+  "growth": 0.23892193308550191
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3720000000,
+   "10-Q",
+   "2026-11-06",
+   "0001124198-26-000078"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   3368000000,
+   "10-Q",
+   "2026-11-06",
+   "0001124198-26-000078"
+  ],
+  "growth": 0.10451306413301653
+ },
+ "rev_tag": "Revenues",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   225000000,
+   "10-Q",
+   "2026-11-06",
+   "0001124198-26-000078"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   -496000000,
+   "10-Q",
+   "2026-11-06",
+   "0001124198-26-000078"
+  ],
+  "growth": -1.4536290322580645
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-06",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1124198/000112419826000078/flr-20260930.htm"
+ },
+ "backlog_hits": [
+  "ications and hearings, in August 2025, the Court generally accepted the recommendations of the Panel. In December 2025, we made a payment to Santos of $ 649 million, net of GST, in accordance   14   Table of Contents   FLUOR CORPORATION   NOTES TO FINANCIAL STATEMENTS   UNAUDITED   with the Court\u2019s orders. Santos\u2019s legal fees will be assessed in a separate process. After allowing for committed insurance proceeds and reserves, we recognized a reduction to revenue of $ 643 million reflecting the net estimated impact of the judgment. Discussions with our insurers are ongoing and, if successful, may further reduce the ultimate obligation. We have appealed the Court's decision to the Queensland Court o",
+  "Mission Solutions | 1,165 | 1,271 | 3,725 | 1,798 |   Other | \u2014 | \u2014 | \u2014 | \u2014 |   Total new awards | $ | 10,872 | $ | 3,253 | $ | 19,664 | $ | 10,829 |   New awards related to projects located outside of the U.S. | 85% | 30% | 66% | 22% |   (in millions)   | September 30, 2026 | December 31, 2025 |   Backlog (4)   |   Urban Solutions | $ | 19,172 | $ | 18,746 |   Energy Solutions | 10,679 | 4,601 |   Mission Solutions | 4,454 | 2,189 |   Other | \u2014 | \u2014 |   Total backlog | $ | 34,305 | $ | 25,536 |   Backlog related to projects located outside of the U.S. | 56% | 40% |   Backlog related to reimbursable projects | 69% | 81% |   (1) In addition to the measurements under GAAP, we measure our performance b",
+  "r performance.   (3) There was no tax benefit (expense) attributable to equity method earnings in the 2026 Quarter. The tax benefit (expense) attributable to equity method earnings was $18 million, $230 million and $(454) million in the 2026 Period, 2025 Quarter and 2025 Period, respectively.   (4) Backlog at September 30, 2026 increased compared to backlog at December 31, 2025 due to several large awards booked during the 2026 Period including LNG Canada Phase 2 and a multi-year, EPC contract for a uranium enrichment facility. Backlog may include significant estimated amounts of third-party, subcontracted, CFM and pass-through costs. We do not report new awards or backlog for projects related to o",
+  " venture project. Comparatively, segment profit in the 2025 Period included cost growth on 3 infrastructure projects totaling $54 million related to subcontractor design errors, price escalation and schedule impacts.   New awards increased during the 2026 Quarter and included 2 large mining awards. Backlog as of September 30, 2026 increased compared to backlog at December 31, 2025 due to the new award activity in the 2026 Period. Our staffing business does not report new awards or backlog.   Energy Solutions   Revenue increased during the 2026 Quarter primarily due to the reversal of previously recognized revenue in the 2025 Quarter for a court ruling related to the long-completed Santos project. R",
+  "in the 2025 Quarter and 2025 Period included the reversal of previously recognized revenue of $653 million for a court ruling on the long-completed Santos project.   New awards in the 2026 Quarter significantly increased primarily due to the LNG Canada Phase 2 award, which also drove an increase in backlog for the 2026 Period.   Mission Solutions   Revenue declined slightly during the 2026 Quarter and 2026 Period largely due to a reduction in overall services volume within our portfolio of DOE projects as well as for natural disaster relief services, offset by contributions from our nuclear portfolio. During the 2026 and 2025 Quarters, at-cost revenue for Mission Solutions was approximately $80 mil",
+  "ected an additional reserve of $28 million resulting from an adverse ruling on a long-standing claim on a project completed in 2019.   New awards decreased during the 2026 Quarter compared to the 2025 Quarter. New awards in the 2026 Quarter included the extension of the Savannah River DOE contract. Backlog included $900 million and $1.0 billion of unfunded government contracts as of September 30, 2026, and December 31, 2025, respectively. Unfunded backlog reflects our estimate of future revenue under awarded government contracts for which funding has not yet been appropriated. We do not report new awards or backlog for projects related to our equity method investments even though these awards may b",
+  "d lines of credit. As of September 30, 2026, letters of credit totaling $716 million were outstanding under uncommitted lines of credit including letters of credit totaling $60 million for two lump-sum projects in Kuwait that are substantially complete except for the resolution of unapproved change orders and extension of time claims. Letters of credit are ordinarily provided to indemnify our clients if we fail to perform our obligations under our contracts. Surety bonds may be used as an alternative to letters of credit.   Guarantees   The maximum potential amount of future payments that we could be required to make under outstanding performance guarantees, which represents the remaining cost of ",
+  "nges in Internal Control over Financial Reporting   There were no changes to our ICFR that occurred during the period covered by this report that have materially affected, or are reasonably likely to materially affect, our ICFR.   23   Table of Contents   FLUOR CORPORATION   CHANGES IN CONSOLIDATED BACKLOG   UNAUDITED   3ME September 30, |   (in millions) | 2026 | 2025 |   Backlog, July 1 | $ | 26,891 | $ | 28,205 |   New awards | 10,872 | 3,253 |   Adjustments and cancellations, net | 231 | 143 |   Work performed | (3,689) | (3,365) |   Backlog, September 30 | $ | 34,305 | $ | 28,236 |   9ME September 30, |   (in millions) | 2026 | 2025 |   Backlog, January 1 | $ | 25,536 | $ | 28,484 |   New awar"
+ ]
+}

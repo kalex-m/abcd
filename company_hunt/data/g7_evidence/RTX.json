@@ -1,0 +1,76 @@
+{
+ "ticker": "RTX",
+ "cik": 101829,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   340000000000,
+   "10-Q",
+   "2026-10-20",
+   "0000101829-26-000031"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   251000000000,
+   "10-Q",
+   "2025-10-21",
+   "0000101829-25-000042"
+  ],
+  "growth": 0.3545816733067728
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   24965000000,
+   "10-Q",
+   "2026-10-20",
+   "0000101829-26-000031"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   22478000000,
+   "10-Q",
+   "2026-10-20",
+   "0000101829-26-000031"
+  ],
+  "growth": 0.11064151614912365
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   3337000000,
+   "10-Q",
+   "2026-10-20",
+   "0000101829-26-000031"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2523000000,
+   "10-Q",
+   "2026-10-20",
+   "0000101829-26-000031"
+  ],
+  "growth": 0.3226317875544986
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-20",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/101829/000010182926000031/rtx-20260930.htm"
+ },
+ "backlog_hits": [
+  "se letters of credit agreements and surety bonds totaled $ 4.2 billion as of September 30, 2026.   Offset / Industrial Participation Obligations. We have entered into industrial cooperation agreements, sometimes in the form of either offset agreements or ICIP agreements, as a condition to obtaining orders for our products and services from certain customers in foreign countries. At September 30, 2026, the aggregate amount of these agreements, both agreed to and anticipated to be agreed to, had an outstanding notional value of approximately $ 13 billion. These agreements are designed to return economic value to the foreign country by requiring us to engage in activities supporting local defense or ",
+  "eptember 30, 2026 and 2025 are as follows:   (dollars in millions) | 2026 | 2025 |   Fixed-price | $ | 13,966 | $ | 11,685 |   Cost-type | 9,166 | 8,585 |   Consolidated net sales | 23,132 | 20,270 |   Inter-segment sales | 113 | 116 |   Business segment sales | $ | 23,245 | $ | 20,386 |   Note 19: Remaining Performance Obligations (RPO)   RPO represents the aggregate amount of total contract transaction price that is unsatisfied or partially unsatisfied. Total RPO was approximately $ 340 billion as of September 30, 2026. Of the total RPO as of September 30, 2026, we expect approximately 25 % will be recognized as revenue over the next 12 months. Approximately 40 % of our RPO relates to long-term commercial aerospace maint",
+  " determinations. The Act also includes $25.4 billion in funding to enhance DoW resources for munitions and supply chain resiliency. As a leading munitions manufacturer, RTX is strategically situated to play a key role in supporting this initiative.   The President has also issued multiple executive orders, including one intended to reform the DoW\u2019s defense acquisition processes and promote expedited and streamlined acquisitions. Following issuance of those orders, the Secretary of War issued a memorandum and released the DoW\u2019s Acquisition Transformation Strategy, which is aligned with the executive orders and seeks to overhaul the existing defense acquisition system through process changes that pr",
+  "uarter Ended September 30, | Nine Months Ended September 30, |   (dollars in millions) | 2026 | 2025 | 2026 | 2025 |   Total net EAC adjustments | $ | 48 | $ | (35) | $ | (180) | $ | (310) |   Significant EAC adjustments, when they occur, are discussed in each business segment\u2019s discussion below.   Backlog and Bookings. Total backlog was $340 billion and $268 billion as of September 30, 2026 and December 31, 2025, respectively. Total backlog includes commercial backlog of $176 billion and $161 billion as of September 30, 2026 and December 31, 2025, respectively and defense backlog of $164 billion and $107 billion as of September 30, 2026 and December 31, 2025, respectively.   We believe bookings ar",
+  "cussed above. The favorable change in mix and other performance was primarily driven by increased production on Patriot programs including the timing of contract awards received in the second quarter of 2026. The favorable change in net EAC adjustments was spread across numerous programs.   Defense Backlog and Bookings \u2013 Backlog was $130 billion as of September 30, 2026 and $75 billion as of December 31, 2025. In the quarter ended September 30, 2026, Raytheon recorded $52 billion in defense bookings. In addition to a number of smaller individual bookings, Raytheon booked $23 billion to provide Tomahawk for the U.S. Navy, $14.3 billion to provide AMRAAM to the U.S. Air Force, $3.1 billion to provide"
+ ]
+}

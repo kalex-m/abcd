@@ -1,0 +1,62 @@
+{
+ "ticker": "TPC",
+ "cik": 77543,
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1720256000,
+   "10-Q",
+   "2026-11-04",
+   "0000077543-26-000220"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1415360000,
+   "10-Q",
+   "2026-11-04",
+   "0000077543-26-000220"
+  ],
+  "growth": 0.21541939859823644
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   125419000,
+   "10-Q",
+   "2026-11-04",
+   "0000077543-26-000220"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   40094000,
+   "10-Q",
+   "2026-11-04",
+   "0000077543-26-000220"
+  ],
+  "growth": 2.1281239088142865
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-04",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000220/tpc-20260930.htm"
+ },
+ "backlog_hits": [
+  "ively impacted by $ 23.6 million and $ 26.6 million during the three and nine months ended September 30, 2025, respectively, due to performance obligations satisfied (or partially satisfied) in prior periods. Refer to Note 19, Business Segments , for additional details on significant adjustments.   Remaining Performance Obligations   Remaining performance obligations represent the transaction price of firm orders for which work has not been performed and exclude unexercised contract options. As of September 30, 2026, the aggregate amounts of the transaction prices allocated to the remaining performance obligations of the Company\u2019s construction contracts were $ 9.7 billion, $ 5.3 billion and $ 2.4 billion for the Civil, Bui",
+  "ts and liabilities on the Condensed Consolidated Balance Sheets consisted of the following:   (in thousands) | As of September 30, 2026 | As of December 31, 2025 |   Contract Assets: |   Costs and estimated earnings in excess of billings: |   Claims | $ | 319,986 | $ | 324,727 |   Unapproved change orders | 367,930 | 402,060 |   Other unbilled costs and profits | 79,516 | 92,412 |   Total costs and estimated earnings in excess of billings | $ | 767,432 | $ | 819,199 |   Contract Liabilities: |   Billings in excess of costs and estimated earnings | $ | 2,044,207 | $ | 1,838,610 |   Costs and estimated earnings in excess of billings represent the excess of contract costs and profits (or contract rev",
+  " 117,600 | $ | \u2014 | $ | ( 67,190 ) | $ | 50,410 | Indefinite |   Trade names (amortizable) | 69,250 | ( 34,274 ) | ( 23,232 ) | 11,744 | 20 years |   Contractor license | 6,000 | \u2014 | ( 6,000 ) | \u2014 | N/A |   Customer relationships | 39,800 | ( 23,155 ) | ( 16,645 ) | \u2014 | N/A |   Construction contract backlog | 149,290 | ( 149,290 ) | \u2014 | \u2014 | N/A |   Total | $ | 381,940 | $ | ( 206,719 ) | $ | ( 113,067 ) | $ | 62,154 |   As of December 31, 2025 | Weighted-Average Amortization Period |   (in thousands) | Cost | Accumulated Amortization | Accumulated   Impairment Charge   | Carrying Value |   Trade names (non-amortizable) | $ | 117,600 | $ | \u2014 | $ | ( 67,190 ) | $ | 50,410 | Indefinite |   Trade names ",
+  "favorable adjustment in the first quarter of $ 16.4 million ($ 12.3 million attributable to the Company and $ 8.9 million after tax, or $ 0.17 per diluted share) on a Civil segment mass-transit project in California primarily due to changes in estimates resulting from ongoing negotiations of change orders with the owner (which have since been resolved) and with subcontractors, as well as other temporary impacts related to unapproved change orders.   (c) Depreciation and amortization is included in income (loss) from construction operations.   (d) During the nine months ended September 30, 2025, the Company\u2019s income (loss) from construction operations was impacted by favorable adjustments in the se",
+  "several years and supported by strong public funding and demand, has allowed the Company to differentiate itself and deliver compelling proposals that align with the customer\u2019s goals and expectations. The Company expects that this environment will continue for the foreseeable future.   Consolidated backlog as of September 30, 2026 was $20.4 billion, up compared to $19.9 billion at the end of the second quarter of 2026, and down 6% compared to $21.6 billion at the end of the third quarter of 2025. As of September 30, 2026, the mix of backlog by segment was approximately 49% for Civil, 35% for Building and 16% for Specialty Contractors. The quality of the Company\u2019s backlog remains exceptional and inc",
+  "rable contractual terms and substantial scope of work remaining.   The following table presents the Company\u2019s backlog by business segment, reflecting changes from December 31, 2025 to September 30, 2026:   (in millions) | Backlog at   December 31, 2025   | New   Awards (a)   | Revenue  Recognized | Backlog at   September 30, 2026 (b)   |   Civil | $ | 10,153.7 | $ | 2,260.6 | $ | (2,407.4) | $ | 10,006.9 |   Building | 7,333.4 | 1,422.7 | (1,573.1) | 7,183.0 |   Specialty Contractors | 3,072.7 | 857.0 | (766.3) | 3,163.4 |   Total | $ | 20,559.8 | $ | 4,540.3 | $ | (4,746.8) | $ | 20,353.3 |   ____________________________________________________________________________________________________   (a)",
+  "roject execution activities. The improvement for the first nine months of 2026 was partially offset by an unfavorable adjustment of $16.4 million in the first quarter of 2026 on a mass-transit project in California, primarily due to changes in estimates resulting from ongoing negotiations of change orders with the owner and subcontractors, as well as other temporary impacts related to unapproved change orders. Subsequently, the change orders with the owner were successfully negotiated and are expected to result in significant future cash collections in the near term. The increase was also partially offset by the absence of a prior-year favorable adjustment of $28.0 million related to the settlemen",
+  "lion; and $89 million of additional funding for several mass-transit projects in California. Notably, the nine-month period of 2025 included two major new awards, both in New York: the $1.87 billion Midtown Bus Terminal Replacement - Phase 1 project and the $1.18 billion Manhattan Tunnel project.   Backlog for the Civil segment was $10.0 billion as of September 30, 2026 compared to $10.5 billion as of September 30, 2025 . The segment continues to experience strong demand reflected in a large, multi-year pipeline of prospective projects, and supported by substantial anticipated funding from various voter-approved state and local transportation measures, the Bipartisan Infrastructure Law, and by publ",
+  "l federal government projects that totaled $577 million and $108 million of additional funding for a hospitality and gaming project in Oklahoma. Notably, the third-quarter and nine-month periods of 2025 included the award of the $960 million UCSF Benioff Children\u2019s Hospital project in California.   Backlog for the Building segment was $7.2 billion as of September 30, 2026 compared to $7.9 billion as of September 30, 2025. The Building segment continues to experience strong customer demand as reflected by a large volume of prospective projects across various end markets, including healthcare, education, transportation, industrial/manufacturing, and hospitality and gaming. In addition, there are cert",
+  " $464.7 million and $1.0 billion for the same periods in 2025. New awards and contract adjustments for the third quarter of 2026 include the Specialty Contractors segment\u2019s electrical and mechanical scope of work booked as part of the additional work for the Civil segment project discussed above.   Backlog for the Specialty Contractors segment was $3.2 billion as of September 30, 2026, consistent with the level as of September 30, 2025. The Specialty Contractors segment continues to be primarily focused on servicing the Company\u2019s current and prospective large Civil and Building segment projects, particularly in the Northeast and California. Approximately two-thirds of the segment\u2019s backlog represen",
+  "se in cash flow from operating activities for the first nine months of 2026 compared to 2025 was primarily due to the record earnings in 2026. The record cash flow and strong earnings growth in 2026 demonstrate the robust cash generation and earnings potential embedded in the Company\u2019s high-quality backlog. The Company anticipates continued strong cash generation as current projects progress and new projects are awarded.   Net cash used in investing activities du ring the first nine months of 2026 was $157.3 million primarily due to the acquisition of property and equipment for projects (i.e., capital expenditures) totaling $91.3 million and net cash used in investment transactions of $71.1 million"
+ ]
+}

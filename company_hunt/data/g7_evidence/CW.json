@@ -1,0 +1,79 @@
+{
+ "ticker": "CW",
+ "cik": 26324,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   4600000000,
+   "10-Q",
+   "2026-11-05",
+   "0001628280-26-070951"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   3900000000,
+   "10-Q",
+   "2025-11-06",
+   "0001628280-25-050106"
+  ],
+  "growth": 0.17948717948717952
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   952590000,
+   "10-Q",
+   "2026-11-05",
+   "0001628280-26-070951"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   869170000,
+   "10-Q",
+   "2026-11-05",
+   "0001628280-26-070951"
+  ],
+  "growth": 0.09597662137441465
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   187922000,
+   "10-Q",
+   "2026-11-05",
+   "0001628280-26-070951"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   166251000,
+   "10-Q",
+   "2026-11-05",
+   "0001628280-26-070951"
+  ],
+  "growth": 0.13035109563250757
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-05",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/26324/000162828026070951/cw-20260930.htm"
+ },
+ "backlog_hits": [
+  "oint-in-time for the three and nine months ended September 30, 2026 and 2025:   Three Months Ended | Nine Months Ended |   September 30, | September 30, |   2026 | 2025 | 2026 | 2025 |   Over-time | 52 | % | 52 | % | 52 | % | 52 | % |   Point-in-time | 48 | % | 48 | % | 48 | % | 48 | % |   Contract backlog represents the remaining performance obligations that have not yet been recognized as revenue. Backlog includes deferred revenue and amounts that will be invoiced and recognized as revenue in future periods. Total backlog was approximately $ 4.6 billion as of September 30, 2026, of which the Corporation expects to recognize approximately 90 % as net sales over the next 36 months . The remainder w",
+  "amounts billed to customers, unbilled charges on long-term contracts consisting of amounts recognized as sales but not billed, and other receivables. Substantially all amounts of unbilled receivables are expected to be billed and collected within one year. The amount of claims and unapproved change orders within our receivables balances are immaterial.   The composition of receivables is as follows:   (In thousands) | September 30, 2026 | December 31, 2025 |   Billed receivables: |   Trade and other receivables | $ | 598,366 | $ | 526,320 |   Unbilled receivables (contract assets): |   Recoverable costs and estimated earnings not billed, net of progress payments | 458,706 | 412,410 |   Total Recei",
+  "ributed to decreases in the British Pound and Canadian dollar.   \u2022 Net earnings increased $71 million, pr imarily due to higher operating income as well as higher other income, net, from an unrealized gain recognized during the current period on equity securities held for investment purposes.   New orders in the third quarter increased $135 million from the comparable prior year period, due to increases across all segments. New orders in the Aerospace & Industrial segment benefited from increased demand for actuation products on commercial aerospace equipment, as well as increases for industrial vehicle and industrial automation products within our commercial markets. New orders in the Defense Ele",
+  "nse equipment. In the Naval & Power segment, new orders increased primarily due to the timing of naval defense orders.   Page 22   CURTISS-WRIGHT CORPORATION and SUBSIDIARIES   PART I - ITEM 2   MANAGEMENT\u2019S DISCUSSION and ANALYSIS of   FINANCIAL CONDITION and RESULTS OF OPERATIONS, continued   New orders during the nine months ended September 30, 2026 increased $379 million from the comparable prior year period, due to increases across all segments. New orders in the Aerospace & Industrial segment benefited from increased demand for actuation products on aerospace defense and ground defense equipment, as well as increases for industrial vehicle products within our commercial markets. New orders i",
+  "emand for commercial nuclear and process products. Changes in new orders by segment are discussed in further detail in the \"Results by Business Segment\" section below.   RESULTS BY BUSINESS SEGMENT   Aerospace & Industrial   The following tables summarize sales, operating income and margin, and new orders within the Aerospace & Industrial segment.   Three Months Ended | Nine Months Ended |   September 30, | September 30, |   (In thousands) | 2026 | 2025 | % change | 2026 | 2025 | % change |   Sales | $ | 281,750 | $ | 247,985 | 14% | $ | 804,434 | $ | 714,369 | 13% |   Operating income | 53,397 | 45,439 | 18% | 140,899 | 114,367 | 23% |   Operating margin | 19.0 | % | 18.3 | % | 70 bps | 17.5 | % ",
+  "and operating margin increased 150 basis points to 17.5%, primarily due to favorable overhead absorption on higher sales, the benefits of the Company's restructuring initiatives, and favorable product mix. These increases were partially offset by higher investment in research and development.   New orders in the third quarter increased $21 million primarily due to increased demand for actuation products on commercial aerospace equipment, as well as increases for industrial vehicle and industrial automation products within our commercial markets.   New orders during the nine months ended September 30, 2026 increased $122 million primarily due to increased demand for actuation products on aerospace ",
+  "ing income during the nine months ended September 30, 2026 increased $1 million , or 1% , to $211 million , while operating margin decreased 10 basis points from the prior year period to 27.7%, as favorable overhead absorption on higher sales was essentially offset by unfavorable product mix.   New orders in the third quarter increased $67 million primarily due to strong demand for aerospace defense and ground defense equipment.   New orders during the nine months ended September 30, 2026 increased $218 million primarily due to strong demand for ground defense equipment, including turret technologies and tactical communications products.   Naval & Power   The following tables summarize sales, oper",
+  "erating income during the nine months ended September 30, 2026 increased $47 million, or 29% , to $207 million, and operating margin increased 220 basis points from the prior year period to 16.9%, primarily due to favorable overhead absorption on higher sales as well as favorable product mix.   New orders in the third quarter increased $47 million primarily due to the timing of naval defense orders.   New orders during the nine months ended September 30, 2026 increased $39 million primarily due to an increase in demand for commercial nuclear and process products.   SUPPLEMENTARY INFORMATION   The table below depicts sales by end market and customer type, as it helps provide an enhanced understandi"
+ ]
+}
