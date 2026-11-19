@@ -266,7 +266,12 @@ function setupRecordApi(engine: Engine, built: BuiltSystems): void {
     for (let y = 0; y < 36; y += 3) col.push(buf[(y * 64 + 32) * 4]);
     return col;
   };
-  window.__renderAudio = async (start: number, end: number) => built.audio.renderOffline(start, end);
+  let audioB64 = '';
+  window.__renderAudio = async (start: number, end: number) => {
+    audioB64 = await built.audio.renderOffline(start, end);
+    return String(Math.ceil(audioB64.length / 8_000_000));
+  };
+  (window as unknown as Record<string, unknown>).__audioChunk = (i: number) => audioB64.slice(i * 8_000_000, (i + 1) * 8_000_000);
   window.__info = () => ({
     duration: engine.shots.duration, shots: engine.shots.defs.map((d, i) => ({ id: d.id, name: d.name, start: engine.shots.startOf(i), duration: d.duration })),
     events: engine.traj.events, renderer: engine.renderer.info.render, memory: engine.renderer.info.memory, errors,
