@@ -40,7 +40,7 @@ CFG = {
  "SPGI": dict(alias={"commodityinsights": "energy", "platts": "energy"}, drop=["engineeringsolutions"], skip=["2022:marketintelligence", "2022:energy", "2022p:marketintelligence", "2023p:marketintelligence"]),
  "MSCI": dict(prf=["msci:OperatingSegmentProfitability"], alias={"esgandclimate": "sustainabilityandclimate", "allotherprivateassets": "privateassets"}),
  "FDS": dict(), "BRK-B": dict(rev=["us-gaap:Revenues"], drop=["insurancecorporateandother"], prf=["us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest", "us-gaap:OperatingIncomeLoss"], fin=1),
- "HIG": dict(drop=["reportablesegmentaggregationbeforeotheroperating"], rev=["us-gaap:Revenues", "hig:Earnedpremiumsandfeeincome"], prf=["us-gaap:NetIncomeLoss"], alias={"groupbenefits": "employeebenefits", "pccommerciallines": "pcbusinessinsurance", "pcpersonallines": "pcpersonalinsurance"}, drop=["propertycasualtyotheroperations"], fin=1),
+ "HIG": dict(rev=["us-gaap:Revenues", "hig:Earnedpremiumsandfeeincome"], prf=["us-gaap:NetIncomeLoss"], alias={"groupbenefits": "employeebenefits", "pccommerciallines": "pcbusinessinsurance", "pcpersonallines": "pcpersonalinsurance"}, drop=["propertycasualtyotheroperations", "reportablesegmentaggregationbeforeotheroperating"], fin=1),
  "MET": dict(rev=["us-gaap:Revenues"], prf=["us-gaap:OperatingIncomeLoss", "met:AdjustedEarnings"], fin=1),
  "AFL": dict(rev=["us-gaap:Revenues"], prf=["us-gaap:OperatingIncomeLoss"], fin=1),
  "CB":  dict(skip=["2022:life", "2023:life"], rev=["us-gaap:PremiumsEarnedNet"], prf=["cb:SegmentUnderwritingIncomeLossandNetInvestmentIncomeLoss", "us-gaap:UnderwritingIncomeLoss"],
@@ -145,19 +145,31 @@ def build(pf, skip_years=(), skip_pairs=()):
             segs = pf[f][2]
             if sum(1 for s in segs.values() if y in s) >= 2:
                 level[y] = {c: s[y] for c, s in segs.items() if y in s}; lvl_src[y] = pf[f][0]; break
-    growth, totg, dlev, srcs, prior = {}, {}, {}, {}, {}
+    growth, totg, dlev, srcs, prior, sk_prior = {}, {}, {}, {}, {}, {}
     for y0, y1 in zip(years, years[1:]):
         if y1 - y0 != 1 or y1 in skip_years: continue
         for f in reversed(filings):
             segs = pf[f][2]
             both = {c: (s[y0], s[y1]) for c, s in segs.items() if y0 in s and y1 in s and (y1, c) not in skip_pairs}
+            sk = {c: s[y0] for c, s in segs.items() if y0 in s and y1 in s and (y1, c) in skip_pairs}
             if len(both) >= 2:
                 growth[y1] = {c: (b / a - 1) if a > 0 else np.nan for c, (a, b) in both.items()}
                 dlev[y1] = {c: b - a for c, (a, b) in both.items()}
                 prior[y1] = {c: a for c, (a, b) in both.items()}
-                s0, s1 = sum(a for a, b in both.values()), sum(b for a, b in both.values())
-                totg[y1] = s1 / s0 - 1 if s0 > 0 else np.nan
+                sk_prior[y1] = sk
                 srcs[y1] = pf[f][0]; break
+    # total growth per year on the prior-year mix; a skipped (acquisition/divestiture) segment-year is imputed at that
+    # segment's median clean growth when it has >= 3 clean years, else at 0% (flat), so a purchase neither inflates nor drops out
+    gdf = pd.DataFrame(growth).T
+    for y in growth:
+        num = sum(prior[y][c] * (1 + g) for c, g in growth[y].items() if not np.isnan(g) and prior[y][c] > 0)
+        den = sum(prior[y][c] for c, g in growth[y].items() if not np.isnan(g) and prior[y][c] > 0)
+        for c, a in sk_prior.get(y, {}).items():
+            if a <= 0: continue
+            clean = gdf[c].dropna() if c in gdf.columns else pd.Series(dtype=float)
+            gi = float(clean.median()) if len(clean) >= 3 else 0.0
+            num += a * (1 + gi); den += a
+        totg[y] = num / den - 1 if den > 0 else np.nan
     return years, level, lvl_src, growth, totg, dlev, prior, srcs
 
 def corr_stats(growth, min_obs=4):
