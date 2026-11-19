@@ -11,3 +11,10 @@ Pipeline (`scripts/`, run in order):
 6. `build_report.py` -> `render_html.py`.
 
 Pick rule: gates (FCF & revenue stable, capital to survive, not shrinking while peers grow) -> normal industry: most brute-force wins; depressed industry: best survival-tree score (backtest: +2.8%/yr vs industry, 62% hit, n=29; cheapest -1.9%/yr).
+
+## Bargain or Trap (depressed valuations in depressed industries)
+Report: `report/bargain-or-trap.html`. Pipeline: `yf_long.py` (monthly prices from 2009) -> `valhist.py` (monthly point-in-time valuation
+history, yields vs own 10y) -> `bt_value.py` + `bt_value_eval.py` (16 start dates 2017-2024, 24m forward, log excess vs industry)
+-> `value_now.py` -> `build_value_page.py`.
+Finding: in depressed industries the deeper the discount to own history, the worse the next 2 years (+4.3%/yr survivor+quality at any
+price -> -3.1%/yr when forced into the cheapest 10%); cheap + fails a survival gate = -2.7%/yr, beat peers 39%.

@@ -1,0 +1,311 @@
+<title>Bargain or Trap</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: ledger column. Thesis numbers -> what the past says -> board (bargain vs best bet vs traps) -> map -> industry folder -> elsewhere */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#0f1722; --ink2:#465263; --muted:#7a8597; --line:#dbe1ea; --rail:#0f1722;
+  --accent:#1c5cab; --accent-ink:#ffffff; --accent-soft:#e3eefc;
+  --pos:#2a78d6; --neg:#e34948; --neutral:#c4ccd7; --band:#d6e3f5;
+  --good:#0a7d0a; --bad:#c43333; --trap:#d03b3b; --trap-bg:#fbe4e4; --warn-bg:#fde9df; --warn-ink:#9a3b12;
+  --f-disp:"IBM Plex Sans Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-ink:#06121f; --accent-soft:#16304f;
+  --pos:#3987e5; --neg:#e66767; --neutral:#3a4452; --band:#1d3657;
+  --good:#3fbf3f; --bad:#ec6a6a; --trap:#ec6a6a; --trap-bg:#3a1c1c; --warn-bg:#3a2216; --warn-ink:#f2a27f; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0e1218; --surface:#161c25; --ink:#eef2f7; --ink2:#b3bccb; --muted:#8792a3; --line:#2a3340; --rail:#c9d3e0;
+  --accent:#5598e7; --accent-ink:#06121f; --accent-soft:#16304f;
+  --pos:#3987e5; --neg:#e66767; --neutral:#3a4452; --band:#1d3657;
+  --good:#3fbf3f; --bad:#ec6a6a; --trap:#ec6a6a; --trap-bg:#3a1c1c; --warn-bg:#3a2216; --warn-ink:#f2a27f; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-disp);text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(36px,6.5vw,60px);font-weight:700;line-height:1}
+h2{font-size:26px;font-weight:700}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.muted{color:var(--muted)}
+section{padding-block:34px}
+section+section{border-top:1px solid var(--line)}
+.shead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;margin-bottom:16px}
+.shead p{margin:0;color:var(--muted);font-size:13px;max-width:60ch}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button{font:inherit;color:inherit}
+.top{padding-block:40px 30px;background:var(--surface);border-bottom:1px solid var(--line)}
+.lede{font-size:17px;color:var(--ink2);max-width:64ch;margin:14px 0 22px}
+.tiles{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.tile{border:1px solid var(--line);border-radius:6px;padding:12px 14px;background:var(--bg)}
+.tile b{display:block;font-family:var(--f-disp);font-size:34px;line-height:1}
+.tile span{font-size:12.5px;color:var(--ink2)}
+.tile.trap b{color:var(--trap)} .tile.star b{color:var(--accent)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:16px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px}
+.panel h3{font-size:17px;font-weight:600;margin-bottom:12px}
+.brow{display:grid;grid-template-columns:minmax(150px,200px) 1fr 54px 64px;gap:8px;align-items:center;font-size:13px;min-height:28px}
+.brow .trk{position:relative;height:16px}
+.brow .trk .z{position:absolute;top:-6px;bottom:-6px;width:1px;background:var(--ink2)}
+.brow .trk i{position:absolute;top:2px;height:12px;border-radius:2px}
+.brow .v{text-align:right;font-family:var(--f-mono);font-size:12.5px}
+.brow .h{text-align:right;font-family:var(--f-mono);font-size:11.5px;color:var(--muted)}
+.brow.hl .lb{font-weight:600}
+.note{font-size:12px;color:var(--muted);margin:10px 0 0}
+/* board */
+.board{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.brd{display:grid;grid-template-columns:minmax(0,1.5fr) 70px minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr);gap:10px;align-items:center;padding:9px 14px;border-top:1px solid var(--line);font-size:13.5px}
+.brd.hd{border-top:0;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:var(--bg)}
+.brd .ind{cursor:pointer;min-width:0}
+.brd .ind:hover{color:var(--accent)}
+.brd .ind small{display:block;color:var(--muted);font-size:11.5px}
+.tk{all:unset;cursor:pointer;font-family:var(--f-mono);font-size:12.5px;font-weight:500;padding:2px 7px;border-radius:3px;border:1px solid var(--line);display:inline-block;margin:1px 2px 1px 0}
+.tk:focus-visible{outline:2px solid var(--accent)}
+.tk.bar{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tk.best{border-color:var(--accent);color:var(--accent)}
+.tk.trap{border-color:var(--trap);color:var(--trap);background:var(--trap-bg)}
+.tk.none{border-style:dashed;color:var(--muted);cursor:default}
+.star{color:var(--accent);font-weight:700}
+.rel3{font-family:var(--f-mono);font-size:12px;color:var(--warn-ink)}
+/* map */
+.mapwrap{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px}
+.maptools{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;font-size:12.5px;color:var(--ink2);margin-bottom:6px}
+.maptools select{font:inherit;font-size:13px;padding:5px 8px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink);max-width:100%}
+.lg{display:inline-flex;align-items:center;gap:6px}
+svg text{fill:var(--ink2);font-family:var(--f-body)}
+/* detail */
+.dhead{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+.dnav{display:flex;gap:6px;align-items:center;min-width:0;max-width:100%}
+.dnav select{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink);min-width:0;width:min(380px,calc(100vw - 140px))}
+.nbtn{border:1px solid var(--line);background:var(--surface);border-radius:4px;padding:6px 10px;cursor:pointer}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:14px 0 18px}
+.why div{font-size:13.5px;color:var(--ink2)}
+.why b{display:block;font-family:var(--f-disp);font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.vs-sector{font-family:var(--f-disp);font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0}
+.vs-title{font-family:var(--f-disp);font-weight:700;font-size:30px;line-height:1.1}
+.vs-body{border-top:2px solid var(--rail);border-right:2px solid var(--rail);border-top-right-radius:64px;padding:12px 26px 6px 0}
+.ch{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(170px,240px) 120px 92px 110px;gap:12px;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding-bottom:4px}
+.co{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(170px,240px) 120px 92px 110px;gap:4px 12px;align-items:center;padding:10px 0;position:relative}
+.co.pk{background:var(--accent-soft);margin:0 -10px;padding:10px;border-radius:6px}
+.co.tr{background:var(--trap-bg);margin:0 -10px;padding:10px;border-radius:6px}
+.co .t{font-family:var(--f-disp);font-weight:700;font-size:21px;line-height:1}
+.co .nm{display:block;font-size:12.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badge{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 6px;border-radius:3px;margin-left:6px;vertical-align:3px}
+.badge.bar{background:var(--accent);color:var(--accent-ink)} .badge.best{border:1px solid var(--accent);color:var(--accent)} .badge.trap{background:var(--trap);color:var(--surface)}
+.vlab{font-size:11.5px;color:var(--ink2);margin-top:2px}
+.vlab b{font-family:var(--f-mono);font-weight:500;color:var(--ink)}
+.pct{font-family:var(--f-mono);font-size:13px}
+.pct small{display:block;font-size:11px;color:var(--muted);font-family:var(--f-body)}
+.sq .bar{display:block;height:6px;border-radius:3px;background:var(--bg);overflow:hidden;margin-top:3px;border:1px solid var(--line)}
+.sq .bar i{display:block;height:100%;background:var(--accent)}
+.gates{display:flex;gap:3px;margin-top:5px}
+.g{font-size:11px;font-weight:600;width:18px;height:18px;display:inline-grid;place-items:center;border-radius:3px;border:1px solid currentColor}
+.g.y{color:var(--good)} .g.n{color:var(--bad)}
+.vsep{font-family:var(--f-disp);font-size:12px;color:var(--muted);line-height:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chipc{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 12px;min-width:150px}
+.chipc b{font-family:var(--f-disp);font-size:18px}
+.chipc span{display:block;font-size:12px;color:var(--ink2)}
+footer{padding-block:28px 40px;font-size:12.5px;color:var(--ink2);border-top:1px solid var(--line)}
+footer a{color:var(--accent)}
+#tip{position:fixed;z-index:50;pointer-events:none;background:var(--ink);color:var(--bg);font-size:12px;line-height:1.4;padding:6px 9px;border-radius:4px;max-width:290px;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+@media (max-width:900px){ .tiles{grid-template-columns:repeat(3,minmax(0,1fr))} }
+@media (max-width:760px){
+  .brd{grid-template-columns:minmax(0,1fr) minmax(0,1fr)} .brd.hd{display:none}
+  .brd .ind{grid-column:1 / -1} .brd .r3{display:none}
+  .ch{display:none}
+  .co,.co.pk,.co.tr{grid-template-columns:minmax(0,1fr) 92px}
+  .co .vb{grid-column:1 / -1} .co .sp{display:none} .co .sq{grid-column:1 / -1}
+  .vs-body{padding-right:16px;border-top-right-radius:40px}
+}
+@media (max-width:520px){ .tiles{grid-template-columns:repeat(2,minmax(0,1fr))} .brow{grid-template-columns:minmax(110px,140px) 1fr 50px} .brow .h{display:none} }
+</style>
+
+<header class="top"><div class="wrap">
+  <p class="eyebrow" id="hdr"></p>
+  <h1 style="margin-top:8px">Bargain or Trap</h1>
+  <p class="lede" id="lede"></p>
+  <div class="tiles" id="tiles"></div>
+</div></header>
+
+<main>
+<section id="past"><div class="wrap">
+  <div class="shead"><h2>What the past says</h2><p id="past-sub"></p></div>
+  <div class="grid2" id="past-panels"></div>
+</div></section>
+
+<section id="board-sec"><div class="wrap">
+  <div class="shead"><h2>Every depressed industry</h2><p><span class="tk bar" style="cursor:default">Bargain</span> cheap vs own 10y history, no pricier than peers, passes every gate · <span class="tk best" style="cursor:default">Best bet</span> strongest survivor + quality, any price · <span class="star">&#9733;</span> same name · <span class="tk trap" style="cursor:default">Trap</span> cheap but fails a gate</p></div>
+  <div class="board" id="board"></div>
+</div></section>
+
+<section id="map-sec"><div class="wrap">
+  <div class="shead"><h2>The map</h2><p>Right = cheaper than its own 10-year valuation history. Up = stronger survivor + quality inside its industry.</p></div>
+  <div class="mapwrap">
+    <div class="maptools">
+      <label for="map-ind">Highlight</label><select id="map-ind"><option value="">All 19 industries</option></select>
+      <span class="lg"><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="5" fill="var(--accent)"/></svg>Bargain</span>
+      <span class="lg"><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="4.5" fill="none" stroke="var(--accent)" stroke-width="2"/></svg>Best bet</span>
+      <span class="lg"><svg width="12" height="12" aria-hidden="true"><path d="M2 2L10 10M10 2L2 10" stroke="var(--trap)" stroke-width="2.4"/></svg>Trap</span>
+      <span class="lg"><svg width="12" height="12" aria-hidden="true"><circle cx="6" cy="6" r="3.5" fill="var(--neutral)"/></svg>Other</span>
+    </div>
+    <svg id="map" viewBox="0 0 1000 560" role="img" aria-label="Scatter of companies by cheapness versus own history and survivor plus quality score" style="width:100%;height:auto;display:block"></svg>
+  </div>
+</div></section>
+
+<section id="detail"><div class="wrap">
+  <div class="dhead">
+    <div><p class="vs-sector" id="d-sec"></p><h3 class="vs-title" id="d-title"></h3></div>
+    <div class="dnav"><button class="nbtn" id="prev" aria-label="Previous industry">&larr;</button><label for="d-select" style="position:absolute;left:-9999px">Industry</label><select id="d-select"></select><button class="nbtn" id="next" aria-label="Next industry">&rarr;</button></div>
+  </div>
+  <div class="why" id="d-why"></div>
+  <div class="vs-body">
+    <div class="ch" aria-hidden="true"><span>Company · sorted cheapest first</span><span id="ch-key">Valuation vs own 10y range</span><span>10y history</span><span>Cheapness</span><span>Survivor + quality</span></div>
+    <div id="d-list"></div>
+  </div>
+</div></section>
+
+<section id="else"><div class="wrap">
+  <div class="shead"><h2>Also cheap vs its own history, outside the depressed list</h2><p>Passes every gate, cheaper than 85% of its own last 10 years.</p></div>
+  <div class="chips" id="others"></div>
+</div></section>
+</main>
+<footer><div class="wrap" id="foot"></div></footer>
+<div id="tip" hidden></div>
+
+<script id="data" type="application/json">/*DATA*/</script>
+<script>
+(function(){
+const D = JSON.parse(document.getElementById('data').textContent), M = D.meta, I = D.inds;
+const $ = s => document.querySelector(s);
+const esc = s => String(s==null?'':s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const pct = (v,d=0,s=false) => v==null ? '–' : (s && v>0 ? '+' : '') + (v*100).toFixed(d) + '%';
+const pp = v => v==null ? '–' : (v>0?'+':'') + Math.round(v*100) + ' pp';
+const mx = v => v==null ? 'n/m' : (v>=100 ? v.toFixed(0) : v.toFixed(1)) + 'x';
+const usd = b => b==null ? '–' : b>=1000 ? '$'+(b/1000).toFixed(1)+'T' : b>=10 ? '$'+b.toFixed(0)+'B' : '$'+b.toFixed(1)+'B';
+const slug = s => 'ind-' + s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const dt = s => new Date(s+'T00:00:00').toLocaleDateString('en-US',{day:'numeric',month:'short',year:'numeric'});
+const nConv = I.filter(i=>i.conv).length;
+
+$('#hdr').textContent = `Valuation screen · ${dt(M.asof)} · SEC EDGAR XBRL + yFinance`;
+$('#lede').textContent = `${M.n_dep} industries trail the S&P 500 by more than 25 points over 3 years. Each of their ${M.n_cos} companies is priced against its own 10-year valuation history (point-in-time filings × prices), then tested: bargain, best bet, or trap.`;
+$('#tiles').innerHTML = [[M.n_dep,'depressed industries'],[M.n_cos,'companies priced vs own history'],[M.n_cheap,'cheaper than 70% of their own 10 years'],[M.n_trap,'traps: cheap, but fail a survival gate','trap'],[nConv,'cheap AND strongest in industry','star']]
+  .map(([n,l,c]) => `<div class="tile ${c||''}"><b>${n}</b><span>${l}</span></div>`).join('');
+
+/* tooltip */
+const tip = $('#tip');
+function show(el,x,y){ tip.innerHTML = el.getAttribute('data-tip'); tip.hidden=false; const r=tip.getBoundingClientRect(); let L=x+14,T=y+14; if(L+r.width>innerWidth-8)L=x-r.width-14; if(T+r.height>innerHeight-8)T=y-r.height-14; tip.style.left=Math.max(8,L)+'px'; tip.style.top=Math.max(8,T)+'px'; }
+document.addEventListener('pointerover', e => { const el=e.target.closest('[data-tip]'); if(el) show(el,e.clientX,e.clientY); });
+document.addEventListener('pointermove', e => { const el=e.target.closest('[data-tip]'); if(el) show(el,e.clientX,e.clientY); else tip.hidden=true; });
+document.addEventListener('focusin', e => { const el=e.target.closest('[data-tip]'); if(el){ const r=el.getBoundingClientRect(); show(el,r.left,r.bottom); } });
+document.addEventListener('focusout', () => tip.hidden=true);
+addEventListener('scroll', () => tip.hidden=true, {passive:true});
+
+/* what the past says */
+function bars(rows, lo, hi){
+  const X = v => ((Math.max(lo,Math.min(hi,v))-lo)/(hi-lo))*100, z = X(0);
+  return rows.map(r => { const a=Math.min(X(r.v),z), w=Math.abs(X(r.v)-z);
+    return `<div class="brow${r.hl?' hl':''}" data-tip="${esc(r.tip)}"><span class="lb">${esc(r.l)}</span><span class="trk"><span class="z" style="left:${z}%"></span><i style="left:${a}%;width:${Math.max(.8,w)}%;background:${r.v>=0?'var(--pos)':'var(--neg)'}"></i></span><span class="v">${r.v>=0?'+':''}${(r.v*100).toFixed(1)}%</span><span class="h">beat ${Math.round(r.hit*100)}%</span></div>`; }).join('');
+}
+const lab = {0:'Any price', 0.5:'Cheaper than 50% of own 10y', 0.6:'… than 60%', 0.7:'… than 70%', 0.8:'… than 80%', 0.9:'… than 90%'};
+const ladder = M.ladder.map(r => ({l: lab[r.thr], v: r.lexc, hit: r.hit, hl: r.thr===0, tip: `Pick = best survivor + quality among companies passing every gate${r.thr? ' AND cheaper than '+Math.round(r.thr*100)+'% of their own 10-year history':''}.<br>${r.n} industry-periods · ${(r.lexc*100).toFixed(1)}%/yr vs industry · beat industry median ${Math.round(r.hit*100)}%`}));
+const sq = M.bt.dep['Survival + quality'];
+const buck = M.buckets.map(b => ({l: b.l, v: b.lexc, hit: b.hit, tip: `${b.l}: every company in that bucket, ${b.n} observations. ${(b.lexc*100).toFixed(1)}%/yr vs industry average, beat median ${Math.round(b.hit*100)}%`}))
+  .concat([{l:'Survivor + quality pick', v: sq.lexc, hit: sq.hit, hl:true, tip:`One pick per industry, passes every gate, any valuation. ${sq.n} picks. ${(sq.lexc*100).toFixed(1)}%/yr, beat median ${Math.round(sq.hit*100)}%`}]);
+const S = M.bt.search;
+$('#past-sub').textContent = `Same screen re-run point-in-time on ${M.bt.asof.length} start dates (${M.bt.asof[0]} to ${M.bt.asof[M.bt.asof.length-1]}), ${M.bt.n_dep} depressed industry-periods, 24-month total return vs the industry average, per year.`;
+$('#past-panels').innerHTML = `
+  <div class="panel"><h3>The deeper the discount, the worse the next 2 years</h3>${bars(ladder,-0.04,0.05)}<p class="note">Requiring a bigger discount to the company's own history steadily lowered results. Price alone told you the market already knew.</p></div>
+  <div class="panel"><h3>Cheap with a weak balance sheet is the trap</h3>${bars(buck,-0.04,0.05)}<p class="note">Tuning signal weights on 2017–20 (best ${(S.is_best*100).toFixed(1)}%/yr) then testing 2021–24 gave ${(S.oos_of_is_best*100).toFixed(1)}%/yr. Overfit, so no tuned weights are used.</p></div>`;
+
+/* board */
+const chip = (t, cls, ind) => t ? `<button class="tk ${cls}" data-ind="${esc(ind)}" data-t="${esc(t)}">${esc(t)}</button>` : `<span class="tk none">none</span>`;
+$('#board').innerHTML = `<div class="brd hd"><span>Industry</span><span>3y vs S&amp;P</span><span>Bargain</span><span>Best bet</span><span>Traps</span></div>` +
+  I.map(i => { const traps = i.cos.filter(c=>c.trap).map(c=>chip(c.t,'trap',i.ind)).join('') || '<span class="muted" style="font-size:12px">none</span>';
+    return `<div class="brd"><span class="ind" data-ind="${esc(i.ind)}" role="button" tabindex="0">${i.conv?'<span class="star" aria-label="conviction">&#9733;</span> ':''}${esc(i.ind)}<small>${esc((i.why||{}).verdict||'')}</small></span><span class="rel3 r3">${pp(i.rel3)}</span><span>${chip(i.bargain,'bar',i.ind)}</span><span>${chip(i.best,'best',i.ind)}</span><span>${traps}</span></div>`; }).join('');
+$('#board').addEventListener('click', e => { const el = e.target.closest('[data-ind]'); if (el) select(el.dataset.ind, true); });
+$('#board').addEventListener('keydown', e => { if ((e.key==='Enter'||e.key===' ') && e.target.matches('.ind')) { e.preventDefault(); select(e.target.dataset.ind, true); } });
+
+/* map */
+const allc = I.flatMap(i => i.cos.map(c => ({...c, ind:i.ind, isB: c.t===i.bargain, isBest: c.t===i.best})));
+const ms = $('#map-ind'); I.forEach(i => { const o=document.createElement('option'); o.value=i.ind; o.textContent=i.ind; ms.appendChild(o); });
+function drawMap(hl){
+  const W=1000,H=560,L=56,R=20,T=18,B=48, X=v=>L+v*(W-L-R), Y=v=>T+(1-v)*(H-T-B);
+  let s = `<rect x="${X(.7)}" y="${T}" width="${X(1)-X(.7)}" height="${H-T-B}" fill="var(--accent-soft)" opacity=".55"/>`;
+  for (const v of [0,.25,.5,.75,1]) s += `<line x1="${X(v)}" x2="${X(v)}" y1="${T}" y2="${H-B}" stroke="var(--line)"/><text x="${X(v)}" y="${H-B+18}" text-anchor="middle" font-size="12">${v*100}</text><line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${L-8}" y="${Y(v)+4}" text-anchor="end" font-size="12">${v*100}</text>`;
+  s += `<text x="${(L+W-R)/2}" y="${H-8}" text-anchor="middle" font-size="12.5">Cheapness vs own 10-year history (percentile) →</text><text transform="translate(16 ${(T+H-B)/2}) rotate(-90)" text-anchor="middle" font-size="12.5">Survivor + quality rank in industry →</text>`;
+  s += `<text x="${X(.985)}" y="${T+18}" text-anchor="end" font-size="13" font-weight="600" style="fill:var(--accent)">Cheap &amp; strong</text><text x="${X(.985)}" y="${H-B-10}" text-anchor="end" font-size="13" font-weight="600" style="fill:var(--trap)">Trap zone</text>`;
+  const order = [...allc].sort((a,b) => (a.isB||a.isBest||a.trap) - (b.isB||b.isBest||b.trap) || (b.isB - a.isB));
+  const placed = []; const free = (x,y,w) => !placed.some(p => Math.abs(p[1]-y) < 13 && x < p[0]+p[2]+4 && p[0] < x+w+4);
+  for (const c of order){ if (c.own==null) continue;
+    const x=X(c.own), y=Y(c.sq), dim = hl && c.ind!==hl ? .15 : 1;
+    const k=c.key; const tipT = `<b>${esc(c.t)}</b> ${esc(c.n)} · ${esc(c.ind)}<br>Cheaper than ${Math.round(c.own*100)}% of its own 10y · ${k&&k.now?mx(k.now)+' vs '+mx(k.med)+' median':'losses: n/m'}<br>Survivor + quality rank ${Math.round(c.sq*100)} · gates ${c.gok?'all pass':'FAIL'}${c.trap?' · TRAP':''}`;
+    let mark;
+    if (c.trap) mark = `<path d="M${x-6} ${y-6}L${x+6} ${y+6}M${x+6} ${y-6}L${x-6} ${y+6}" stroke="var(--trap)" stroke-width="2.6" fill="none"/>`;
+    else if (c.isB) mark = `<circle cx="${x}" cy="${y}" r="7" fill="var(--accent)" stroke="var(--surface)" stroke-width="2"/>` + (c.isBest ? `<circle cx="${x}" cy="${y}" r="11" fill="none" stroke="var(--accent)" stroke-width="2"/>` : '');
+    else if (c.isBest) mark = `<circle cx="${x}" cy="${y}" r="7" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.4"/>`;
+    else mark = `<circle cx="${x}" cy="${y}" r="4.5" fill="var(--neutral)" stroke="var(--surface)" stroke-width="1.5"/>`;
+    let lbl = '';
+    if (((c.isB||c.isBest||c.trap) && !hl) || (hl && c.ind===hl)) { const w = c.t.length*7.2, lx = x+10 > W-R-w ? x-10-w : x+10;
+      if (free(lx, y, w)) { placed.push([lx, y, w]); lbl = `<text x="${lx}" y="${y+4}" font-size="11.5" style="fill:var(--ink)">${esc(c.t)}</text>`; } }
+    s += `<g opacity="${dim}" data-tip="${tipT}" tabindex="-1"><circle cx="${x}" cy="${y}" r="13" fill="transparent"/>${mark}${lbl}</g>`; }
+  $('#map').innerHTML = s;
+}
+ms.onchange = () => drawMap(ms.value); drawMap('');
+
+/* detail */
+const sel = $('#d-select'); I.forEach(i => { const o=document.createElement('option'); o.value=i.ind; o.textContent=`${i.ind}${i.conv?'  ★':''}`; sel.appendChild(o); });
+let cur = null;
+sel.onchange = () => select(sel.value, false);
+$('#prev').onclick = () => step(-1); $('#next').onclick = () => step(1);
+function step(d){ const k=I.findIndex(i=>i.ind===cur); select(I[(k+d+I.length)%I.length].ind,false); }
+function vband(k){
+  if (!k) return '<span class="muted" style="font-size:12px">short history</span>';
+  const lo=-0.7, hi=1.0, X=v=>((Math.max(lo,Math.min(hi,v))-lo)/(hi-lo))*100;
+  const dot = k.rel==null ? '' : `<circle cx="${X(k.rel)*2.2}" cy="11" r="5.5" fill="${k.rel<0?'var(--accent)':'var(--ink2)'}" stroke="var(--surface)" stroke-width="1.5"/>`;
+  return `<svg viewBox="0 0 220 22" width="100%" height="22" aria-hidden="true"><rect x="0" y="9" width="220" height="4" rx="2" fill="var(--bg)"/><rect x="${X(k.p10)*2.2}" y="5" width="${Math.max(2,(X(k.p90)-X(k.p10))*2.2)}" height="12" rx="3" fill="var(--band)"/><line x1="${X(0)*2.2}" x2="${X(0)*2.2}" y1="2" y2="20" stroke="var(--ink2)" stroke-width="1.5"/>${dot}</svg>`;
+}
+function spark(k){
+  if (!k || !k.s) return '';
+  const v = k.s.map(x => x==null ? null : Math.min(x, k.med*4)); const ok=v.filter(x=>x!=null); if (ok.length<4) return '';
+  const lo=Math.min(...ok), hi=Math.max(...ok), n=v.length, X=i=>i/(n-1)*116+2, Y=x=>34-((x-lo)/((hi-lo)||1))*30;
+  let d='', pen=false; v.forEach((x,i)=>{ if(x==null){pen=false;return;} d+=(pen?'L':'M')+X(i).toFixed(1)+' '+Y(x).toFixed(1); pen=true; });
+  const last=v[n-1]; const my=Y(Math.min(k.med,hi));
+  return `<svg viewBox="0 0 120 38" width="120" height="38" aria-hidden="true"><line x1="2" x2="118" y1="${my}" y2="${my}" stroke="var(--line)" stroke-dasharray="3 3"/><path d="${d}" fill="none" stroke="var(--ink2)" stroke-width="1.5"/>${last!=null?`<circle cx="${X(n-1)}" cy="${Y(last)}" r="3.2" fill="var(--accent)"/>`:''}</svg>`;
+}
+function gtxt(g){ const nm={stable:'FCF &amp; revenue stable',survive:'Capital to survive',share:'Not losing share'}; return Object.entries(g).map(([k,v])=>`${v[0]?'&#10003;':'&#10007;'} ${nm[k]||k}: ${esc(v[1])}`).join('<br>'); }
+function select(ind, scroll){
+  const i = I.find(x=>x.ind===ind) || I[0]; cur=i.ind; sel.value=i.ind;
+  $('#d-sec').textContent = i.sec; $('#d-title').textContent = i.ind + (i.conv ? ' ★' : '');
+  const w = i.why || {};
+  $('#d-why').innerHTML = `<div><b>Why depressed</b>${esc(w.econ||'')}</div><div><b>Cycle or disruption?</b>${esc(w.verdict||'')} · 3y ${pp(i.rel3)} vs S&amp;P · 1y ${pp(i.rel1)}</div><div><b>Verdict</b>${i.bargain ? `Bargain: <b style="display:inline;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink)">${esc(i.bargain)}</b>` : 'No bargain passes every gate.'} · Best bet: <b style="display:inline;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink)">${esc(i.best)}</b>${i.conv?' · same name ★':''}</div>`;
+  $('#ch-key').textContent = (i.cos[0]||{}).keyl ? `${i.cos[0].keyl} vs own 10y` : 'Valuation vs own 10y range';
+  $('#d-list').innerHTML = i.cos.map((c,j) => {
+    const cls = c.t===i.bargain ? 'pk' : c.trap ? 'tr' : '';
+    const badges = (c.t===i.bargain?'<span class="badge bar">Bargain</span>':'') + (c.t===i.best?'<span class="badge best">Best bet</span>':'') + (c.trap?'<span class="badge trap">Trap</span>':'');
+    const k = c.key, gates = ['stable','survive','share'].filter(g=>c.g[g]).map(g=>`<span class="g ${c.g[g][0]?'y':'n'}">${c.g[g][0]?'&#10003;':'&#10007;'}</span>`).join('');
+    const oth = c.oth.filter(o=>o[1]).map(o=>`${esc(o[0])} ${mx(o[1].now)} vs ${mx(o[1].med)}`).join(' · ');
+    return `<div class="co ${cls}">
+      <span><span class="t">${esc(c.t)}</span>${badges}<span class="nm">${esc(c.n)} · ${usd(c.mc)} · ${pct(c.dd5,0)} from 5y high</span><span class="gates" data-tip="${gtxt(c.g)}">${gates}</span></span>
+      <span class="vb" data-tip="${esc(c.keyl)}: now ${k?mx(k.now):'n/m'}, own 10y median ${k?mx(k.med):'–'}; band = 10th–90th percentile of its own history${oth?'<br>'+oth:''}">${vband(k)}<div class="vlab"><b>${k?mx(k.now):'n/m'}</b> vs ${k?mx(k.med):'–'} median${k&&k.rel!=null?` (${pct(k.rel,0,true)})`:''}</div></span>
+      <span class="sp" data-tip="${esc(c.keyl)} each quarter, last 10 years; dashed = own median">${spark(k)}</span>
+      <span class="pct" data-tip="Cheaper than ${c.own==null?'–':Math.round(c.own*100)+'%'} of its own last 10 years (avg of EV/sales, EV/5y EBIT, P/5y FCF, P/E or bank equivalents). Back to own median = ${pct(c.up,0,true)}">${c.own==null?'–':Math.round(c.own*100)}<small>upside to median ${pct(c.up,0,true)}</small></span>
+      <span class="sq" data-tip="Average industry rank of the Survival pillar and brute-force quality wins">${Math.round(c.sq*100)}<span class="bar"><i style="width:${Math.max(3,c.sq*100)}%"></i></span></span>
+    </div>` + (j < i.cos.length-1 ? '<div class="vsep">vs.</div>' : ''); }).join('');
+  try { history.replaceState(null,'','#'+slug(i.ind)); } catch(e){}
+  if (scroll) $('#detail').scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth', block:'start'});
+}
+$('#others').innerHTML = D.others.map(o => `<div class="chipc" data-tip="${esc(o.keyl)} ${o.rel==null?'':pct(o.rel,0,true)+' vs own median'} · upside to median ${pct(o.up,0,true)}"><b>${esc(o.t)}</b> <span>${esc(o.n)} · ${esc(o.ind)}</span><span class="mono">cheaper than ${Math.round(o.own*100)}% of own 10y</span></div>`).join('');
+$('#foot').innerHTML = `<p style="margin:0 0 8px"><b>How cheapness is measured.</b> Each month since 2009: market cap from yFinance split-adjusted price × SEC share count; fundamentals from the latest 10-K/20-F already filed on that date. Valuations stored as yields (sales/EV, 5y-avg EBIT/EV, 5y-avg FCF/price, earnings/price; banks and insurers use earnings and book; REITs use operating cash flow; autos skip EV because of captive finance arms). Cheapness = percentile of today inside the company's own last 10 years.</p>
+<p style="margin:0 0 8px"><b>Gates</b> (your survival tree): FCF &amp; revenue stable, capital to survive (net debt/EBITDA, interest cover; TCE and HTM losses for banks), not shrinking while the industry grows. <b>Depressed</b> = industry's equal-weight 3-year total return trails the S&amp;P 500 by more than 25 points.</p>
+<p style="margin:0"><b>Limits.</b> Today's large caps only (survivorship bias). History is 10-K based, so recent quarters lag. Sources: SEC EDGAR XBRL company facts, yFinance. No FMP, no analyst targets. Research output, not investment advice. Companion page: <a href="https://claude.ai/artifact/SciT7cPWEWLNzLVneJigN8" target="_blank" rel="noopener">Industry Champions</a>.</p>`;
+const h=(location.hash||'').slice(1), hit=I.find(i=>slug(i.ind)===h);
+select(hit?hit.ind:(I.find(i=>i.conv)||I[0]).ind, false);
+addEventListener('hashchange', () => { const k=I.find(i=>slug(i.ind)===location.hash.slice(1)); if(k&&k.ind!==cur) select(k.ind,false); });
+})();
+</script>
