@@ -15,6 +15,7 @@
     "audio-check": "node scripts/audio-check.mjs",
     "shots": "node scripts/shots.mjs",
     "record": "node scripts/record.mjs",
+    "reel": "node scripts/reel.mjs",
     "lint": "eslint src scripts tests",
     "format": "prettier --write ."
   },

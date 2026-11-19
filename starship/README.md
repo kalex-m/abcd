@@ -22,6 +22,7 @@ reported on the start screen, but rendering always uses the WebGL2 path (see `DE
 | Command | What it does |
 |---|---|
 | `npm run record -- --res 3840x2160 --fps 60 --out out/starship.mp4` | Deterministic capture: steps the clock by exactly 1/fps, accumulates 8 jittered sub-frames per frame (true shutter motion blur + AA), pipes PNGs to ffmpeg (H.264 High, CRF 14, preset slow, yuv420p, BT.709, `+faststart`) and muxes the offline-rendered soundtrack (AAC 320k). Options: `--shot N`, `--start s --end s`, `--fps 24`, `--prores` (ProRes 422 HQ `.mov`), `--preset low/high/ultra`, `--sub N`, `--no-audio`. |
+| `npm run reel` | ~33 s highlight reel (one excerpt per shot, hard cuts) at 640×360 / 24 fps with the soundtrack → `out/reel.mp4`. Options `--res`, `--fps`, `--preset`, `--segments "a:b,c:d"` (cinematic seconds). |
 | `npm run shots` | Headless screenshot harness: renders every entry of `shots.json` (`{name, t, camera}`) to `out/shots/`. Options `--only a,b`, `--w`, `--h`, `--preset`, `--dbg scene\|composite\|combine\|fx\|depth`. |
 | `npm run physics-check` | Section 5.3 acceptance test of the ascent model (altitude/Mach/max-q/MECO), plus the full event table. |
 | `npm test` | Unit tests: physics acceptance, USSA-76 anchors, booster catch accuracy, timeline monotonicity, engine layout counts and bell clearance, NaN checks of puff/wind/trajectory fields. |
