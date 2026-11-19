@@ -1,0 +1,67 @@
+{
+ "ticker": "AME",
+ "cik": 1037868,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   767700000,
+   "10-Q",
+   "2026-11-03",
+   "0001037868-26-000196"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2220306000,
+   "10-Q",
+   "2026-11-03",
+   "0001037868-26-000196"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1892641000,
+   "10-Q",
+   "2026-11-03",
+   "0001037868-26-000196"
+  ],
+  "growth": 0.17312580674306433
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   584949000,
+   "10-Q",
+   "2026-11-03",
+   "0001037868-26-000196"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   488380000,
+   "10-Q",
+   "2026-11-03",
+   "0001037868-26-000196"
+  ],
+  "growth": 0.19773332241287522
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1037868/000103786826000196/ame-20260930.htm"
+ },
+ "backlog_hits": [
+  "ponent of Other current assets in the consolidated balance sheet. At September 30, 2026 and December 31, 2025, $ 43.4 million and $ 52.7 million of Customer advanced payments (contract liabilities), respectively, were recorded in Other long-term liabilities in the consolidated balance sheets.   The remaining performance obligations not expected to be completed within one year as of September 30, 2026 and December 31, 2025 were $ 767.7 million and $ 627.4 million, respectively. Remaining performance obligations represent the transaction price of firm, non-cancelable orders, with expected delivery dates to customers greater than one year from the balance sheet date, for which the performance obligation is unsatisfied or part",
+  "7.8% of net sales, an increase of $154.8 million or 17.1%, compared with international sales of $906.1 million or 47.9% of net sales for the third quarter of 2025. The increase in international sales was primarily driven by higher demand in Asia, as well as contributions from recent acquisitions.   Orders for the third quarter of 2026 were a record $2,650.6 million, an increase of $682.8 million or 34.7%, compared with $1,967.8 million for the third quarter of 2025. The increase in orders for the third quarter of 2026 was due to a 17% increase in organic orders and an 18% increase from acquisitions. The Company's backlog of unfilled orders at September 30, 2026 was a record $4,540.5 million, an in",
+  "n increase of $394.6 million or 15.5%, compared with international sales of $2,553.6 million or 47.3% of net sales for the first nine months of 2025. The increase in international sales was primarily driven by increased demand in Asia and Europe, as well as contributions from recent acquisitions.   Orders for the first nine months of 2026 were $7,152.1 million, an increase of $1,606.4 million or 29.0%, compared with $5,545.7 million for the first nine months of 2025. The increase in orders for the first nine months of 2026 was due to a 21% organic order increase, a 9% increase from acquisitions, partially offset by a 1% unfavorable effect of foreign currency translation.   Cost of sales for the fi"
+ ]
+}

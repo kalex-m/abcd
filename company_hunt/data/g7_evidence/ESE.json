@@ -1,0 +1,75 @@
+{
+ "ticker": "ESE",
+ "cik": 866706,
+ "rpo": {
+  "latest": [
+   null,
+   "2023-06-30",
+   705400000,
+   "10-Q",
+   "2023-08-09",
+   "0001410578-23-001616"
+  ],
+  "prior": [
+   null,
+   "2022-06-30",
+   706800000,
+   "10-Q",
+   "2022-08-09",
+   "0001410578-22-002168"
+  ],
+  "growth": -0.0019807583474815704
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   339027000,
+   "10-Q",
+   "2026-08-10",
+   "0001104659-26-093266"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   296344000,
+   "10-Q",
+   "2026-08-10",
+   "0001104659-26-093266"
+  ],
+  "growth": 0.14403193585832685
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2025-10-01",
+   "2025-12-31",
+   38358000,
+   "10-Q",
+   "2026-02-09",
+   "0001104659-26-011932"
+  ],
+  "prior": [
+   "2024-10-01",
+   "2024-12-31",
+   28054000,
+   "10-Q",
+   "2026-02-09",
+   "0001104659-26-011932"
+  ],
+  "growth": 0.3672916518143581
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-08-10",
+  "period": "2026-06-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/866706/000110465926093266/ese-20260630x10q.htm"
+ },
+ "backlog_hits": [
+  "ntracts that the Company expects to recognize as revenue in future periods when the Company performs under the contracts. These remaining obligations include amounts that have been formally appropriated under contracts with the U.S. Government, and exclude unexercised contract options and potential orders under ordering-type contracts such as Indefinite Delivery, Indefinite Quantity contracts. At June 30, 2026, the Company had $ 1,540.5 million in remaining performance obligations of which the Company expects to recognize revenues of approximately 59 % in the next twelve months .  Contract assets, contract liabilities and accounts receivable   Assets and liabilities related to contracts with custo",
+  "e first nine months of 2025 was due to a $27.2 million increase in sales from the segment\u2019s U.S. operations, a $4.3 million increase from the segment\u2019s European operations for the reasons mentioned above, partially offset by a $1.9 million decrease in sales from the segment\u2019s Asian operations.  22  ORDERS AND BACKLOG  Backlog was $1,540.5 million at June 30, 2026 compared with $1,133.6 million at September 30, 2025. The Company received new orders totaling $409.5 million in the third quarter of 2026 compared to $749.1 million in the third quarter of 2025. Of the new orders received in the third quarter of 2026, $195.6 million related to A&D products, $126.9 million related to USG products, and $87",
+  ".0 million related to Test products. Of the new orders received in the third quarter of 2025, $582.4 million related to A&D products (including $364.2 million of Maritime acquired backlog), $105.5 million related to USG products, and $61.2 million related to Test products.  The Company received new orders totaling $1,344.9 million in the first nine months of 2026 compared to $1,243.9 million in the first nine months of 2025. Of the new orders received in the first nine months of 2026, $761.8 million related to A&D products, $326.9 million related to USG products, and $256.2 million related to Test products. Of the new orders received in the first nine months of 2025, $753.7 million related to A&D ",
+  "t September 30, 2025. Inventories increased $22.7 million during this period due to a $14.9 million increase within the A&D segment, and a $9.2 million increase within the USG segment; both increases due to higher work-in-process and raw materials inventories due to timing of manufacturing existing orders, partially offset by a $1.4 million decrease within the Test segment. Contract assets increased $36.9 million primarily within the A&D segment (Maritime) due to timing. Contract liabilities increased $71.5 million primarily within the A&D segment (Globe and Maritime) due to timing of payments received from customers.   Net cash provided by operating activities from continuing operations was $193."
+ ]
+}

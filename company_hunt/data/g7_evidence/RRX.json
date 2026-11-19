@@ -1,0 +1,65 @@
+{
+ "ticker": "RRX",
+ "cik": 82811,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   812600000,
+   "10-Q",
+   "2026-11-03",
+   "0000082811-26-000238"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   1588000000,
+   "10-Q",
+   "2026-11-03",
+   "0000082811-26-000238"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1497000000,
+   "10-Q",
+   "2026-11-03",
+   "0000082811-26-000238"
+  ],
+  "growth": 0.06078824315297271
+ },
+ "rev_tag": "RevenueFromContractWithCustomerIncludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   81400000,
+   "10-Q",
+   "2026-11-03",
+   "0000082811-26-000238"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   174400000,
+   "10-Q",
+   "2026-11-03",
+   "0000082811-26-000238"
+  ],
+  "growth": -0.533256880733945
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-11-03",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/82811/000008281126000238/rbc-20260930.htm"
+ },
+ "backlog_hits": [
+  "For the nine months ended September 30, 2026, the company recognized revenue of $ 26.2 million from contract liabilities which existed as of December 31, 2025. Contract assets and contract liabilities were not material as of September 30, 2025 and December 31, 2024.   Transaction Price Allocated to Remaining Performance Obligations   As of September 30, 2026, we estimated that approximately $ 812.6 million in revenue is expected to be recognized in the future related to performance obligations that are unsatisfied (or partially unsatisfied), with 9.3 % expected to be recognized in the remainder of 2026, 74.8 % in 2027, and 15.9 % thereafter. These amounts exclude revenue allocated to remaining performance obligations for c"
+ ]
+}

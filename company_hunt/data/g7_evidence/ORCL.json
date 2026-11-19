@@ -1,0 +1,74 @@
+{
+ "ticker": "ORCL",
+ "cik": 1341439,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-08-31",
+   664000000000,
+   "10-Q",
+   "2026-09-11",
+   "0001193125-26-389274"
+  ],
+  "prior": [
+   null,
+   "2025-08-31",
+   455300000000,
+   "10-Q",
+   "2025-09-10",
+   "0001193125-25-200095"
+  ],
+  "growth": 0.4583790907094223
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-06-01",
+   "2026-08-31",
+   19345000000,
+   "10-Q",
+   "2026-09-11",
+   "0001193125-26-389274"
+  ],
+  "prior": [
+   "2025-06-01",
+   "2025-08-31",
+   14926000000,
+   "10-Q",
+   "2026-09-11",
+   "0001193125-26-389274"
+  ],
+  "growth": 0.2960605654562509
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-06-01",
+   "2026-08-31",
+   6728000000,
+   "10-Q",
+   "2026-09-11",
+   "0001193125-26-389274"
+  ],
+  "prior": [
+   "2025-06-01",
+   "2025-08-31",
+   4277000000,
+   "10-Q",
+   "2026-09-11",
+   "0001193125-26-389274"
+  ],
+  "growth": 0.5730652326397008
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-09-11",
+  "period": "2026-08-31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+ },
+ "backlog_hits": [
+  "ust 31, 2026 .   Cash, Cash Equivalents and Restricted Cash   Restricted cash as of August 31, 2026 was $ 2.6 billion and was included within prepaid expenses and other current assets as presented within our condensed consolidated balance sheets. Restricted cash as of May 31, 2026 was immaterial.   Remaining Performance Obligations from Contracts with Customers   Trade receivables, net of allowances for credit losses, and deferred revenues are reported net of related uncollected deferred revenues in our condensed consolidated balance sheets as of August 31, 2026 and May 31, 2026. The revenues recognized during the three months ended August 31, 2026 and 2025 that were included in the opening deferred revenues balances as of",
+  "atisfied in prior periods and impairment losses recognized on our receivables were immaterial in each of the three months ended August 31, 2026 and 2025.   6   Table of Contents   ORACLE CORPORATION   NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS\u2014(Continued)   August 31, 2026   (Unaudited)   Remaining performance obligations were $ 664 billion as of August 31, 2026 , of which we expect to recognize approximately 13 % as revenues over the next twelve months , 37 % over the subsequent month 13 to month 36 , 34 % over the subsequent month 37 to month 60 and the remainder thereafter. We have elected the optional exemption to not disclose the variable consideration for contracts in which the variable consideration expect",
+  "e next twelve months. Thereafter, we expect that our existing sources of liquidity, together with potential access to additional financing, will continue to be sufficient for the foreseeable future. Further, we have flexibility in managing the timing of certain discretionary capital expenditures.   Remaining Performance Obligations from Contracts with Customers   Remaining performance obligations were $664 billion and $455 billion as of August 31, 2026 and 2025, respectively. The increase in remaining performance obligations as of August 31, 2026 in comparison to August 31, 2025 was primarily attributable to certain significant cloud contracts that were entered into during the period. For more information about our remaini"
+ ]
+}

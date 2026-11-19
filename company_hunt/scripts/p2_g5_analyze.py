@@ -121,8 +121,22 @@ def per_filing(facts_all, tags, cfg):
                 break
     return out
 
-def build(pf):
-    """levels on newest basis per year; growth per pair from the newest filing reporting both years."""
+def parse_skip(cfg, profit=False):
+    """skip entries: int year (whole year, revenue and profit), "YYYY:seg" (that segment-year, revenue and profit),
+    "YYYYp:seg" (profit only). Used for acquisition/divestiture years, so growth is closer to like-for-like."""
+    years, pairs = set(), set()
+    for e in cfg.get("skip", []):
+        if isinstance(e, int): years.add(e); continue
+        y, c = e.split(":")
+        if y.endswith("p"):
+            if profit: pairs.add((int(y[:-1]), c))
+        else:
+            pairs.add((int(y), c))
+    return years, pairs
+
+def build(pf, skip_years=(), skip_pairs=()):
+    """levels on newest basis per year; growth per pair from the newest filing reporting both years.
+    Skipped years/segment-years are left out of growth AND of that year's total growth (remaining segments only)."""
     filings = sorted(pf.keys())
     years = sorted({fy for f in filings for s in pf[f][2].values() for fy in s})
     level, lvl_src = {}, {}
@@ -133,10 +147,10 @@ def build(pf):
                 level[y] = {c: s[y] for c, s in segs.items() if y in s}; lvl_src[y] = pf[f][0]; break
     growth, totg, dlev, srcs, prior = {}, {}, {}, {}, {}
     for y0, y1 in zip(years, years[1:]):
-        if y1 - y0 != 1: continue
+        if y1 - y0 != 1 or y1 in skip_years: continue
         for f in reversed(filings):
             segs = pf[f][2]
-            both = {c: (s[y0], s[y1]) for c, s in segs.items() if y0 in s and y1 in s}
+            both = {c: (s[y0], s[y1]) for c, s in segs.items() if y0 in s and y1 in s and (y1, c) not in skip_pairs}
             if len(both) >= 2:
                 growth[y1] = {c: (b / a - 1) if a > 0 else np.nan for c, (a, b) in both.items()}
                 dlev[y1] = {c: b - a for c, (a, b) in both.items()}
@@ -155,52 +169,76 @@ def corr_stats(growth, min_obs=4):
             cs.append((a, b, float(x[a].corr(x[b])), len(x)))
     return df, cs
 
+def offset_ratio(growth, prior, min_obs=3):
+    """Year-by-year diversification ratio that survives re-segmentations.
+    e_it = segment growth minus that segment's own average growth (its 'wave'); w_it = prior-year revenue share.
+    num_t = sum w e (the wave left in the total), den_t = sum w |e| (the wave if every segment swung the same way).
+    ratio = sqrt(sum num^2) / sqrt(sum den^2): 1 = waves line up, 0 = waves cancel. amp = rms of den (size of the waves)."""
+    gdf = pd.DataFrame(growth).T.sort_index()
+    ok = [c for c in gdf.columns if gdf[c].notna().sum() >= min_obs]
+    if not ok: return np.nan, np.nan, 0
+    mu = gdf[ok].mean()
+    nums, dens = [], []
+    for y in gdf.index:
+        cs = [c for c in ok if not np.isnan(gdf.at[y, c]) and c in prior.get(y, {})]
+        if len(cs) < 2: continue
+        tw = sum(prior[y][c] for c in cs)
+        if tw <= 0: continue
+        e = {c: gdf.at[y, c] - mu[c] for c in cs}
+        nums.append(sum(prior[y][c] / tw * e[c] for c in cs)); dens.append(sum(prior[y][c] / tw * abs(e[c]) for c in cs))
+    if len(nums) < 3 or sum(d * d for d in dens) == 0: return np.nan, np.nan, len(nums)
+    return float(math.sqrt(sum(n * n for n in nums)) / math.sqrt(sum(d * d for d in dens))), float(math.sqrt(np.mean([d * d for d in dens]))), len(nums)
+
+STRESS = (2020, 2022, 2023)
+
 def analyze(t):
     d = json.load(open(f"{D}/{t}.json"))
     cfg = CFG.get(t, {})
     fa = d.get("facts_all", [])
-    res = dict(ticker=t, docs=d["docs"])
+    res = dict(ticker=t, docs=d["docs"], skip=cfg.get("skip", []))
     rp = per_filing(fa, cfg.get("rev", REV_DEFAULT), cfg)
     pp = per_filing(fa, cfg.get("prf", PRF_DEFAULT), cfg)
     if not rp:
         res["status"] = "no_segments"; return res
-    years, level, lsrc, growth, totg, dlev, prior, gsrc = build(rp)
-    res.update(rev_tags=sorted({v[1] for v in rp.values()}), years=years, level=level, growth=growth, totg=totg)
+    sy, sp = parse_skip(cfg)
+    years, level, lsrc, growth, totg, dlev, prior, gsrc = build(rp, sy, sp)
+    res.update(rev_tags=sorted({v[1] for v in rp.values()}), years=years, level=level, growth=growth, totg=totg, prior=prior)
     gdf, cs = corr_stats(growth)
     res["pairs"] = cs
-    # size-weighted mean of pairwise correlations (weights = product of average shares)
     lv = pd.DataFrame(level).T
     share = (lv.div(lv.sum(axis=1), axis=0)).mean()
     res["avg_share"] = share.to_dict()
+    res["n_segments_latest"] = int(len(level[max(level)])) if level else 0
     if cs:
         res["mean_corr"] = float(np.mean([c for _, _, c, _ in cs]))
         w = [share.get(a, 0) * share.get(b, 0) for a, b, _, _ in cs]
         res["wmean_corr"] = float(np.average([c for _, _, c, _ in cs], weights=w)) if sum(w) > 0 else np.nan
     else:
         res["mean_corr"] = res["wmean_corr"] = np.nan
-    # diversification ratio: sd(total seg growth) / sum(w_i * sd(g_i)) over years with growth for the big segments
+    res["div_ratio"], res["wave_amp"], res["n_dr_obs"] = offset_ratio(growth, prior)
     tg = pd.Series(totg).dropna()
-    sds = gdf.std()
-    denom = sum(share.get(c, 0) * sds.get(c, np.nan) for c in gdf.columns if not np.isnan(sds.get(c, np.nan)))
-    res["div_ratio"] = float(tg.std() / denom) if len(tg) >= 3 and denom and denom > 0 else np.nan
     res["n_obs"] = int(len(tg))
-    # worst total year and weak segment
+    res["tot_growth_sd"] = float(tg.std()) if len(tg) >= 3 else np.nan
     if len(tg):
         wy = int(tg.idxmin()); res["worst_seg_total_year"] = wy; res["worst_seg_total_yoy"] = float(tg.min())
         g = {c: v for c, v in growth[wy].items() if not np.isnan(v)}
         ws = min(g, key=g.get); p = prior[wy]
-        res["weak_seg"] = ws; res["weak_seg_g"] = g[ws]; res["weak_share"] = p[ws] / sum(p.values())
-        # biggest single segment fall anywhere, and its share
+        res["weak_seg"] = ws; res["weak_seg_g"] = g[ws]; res["weak_seg_share_worstyr"] = p[ws] / sum(p.values())
         allf = [(growth[y][c], y, c) for y in growth for c in growth[y] if not np.isnan(growth[y][c])]
         mg = min(allf); res["max_fall"] = dict(g=mg[0], year=mg[1], seg=mg[2], share=prior[mg[1]][mg[2]] / sum(prior[mg[1]].values()))
-    # stress years: spread among segments with >=10% share
-    for y in (2020, 2022, 2023):
+    # weak share: revenue share (prior year) of segments that shrank, in each named slowdown year; mean over years present
+    ws = {}
+    for y in STRESS:
         if y in growth:
-            g = {c: v for c, v in growth[y].items() if not np.isnan(v) and prior[y][c] / sum(prior[y].values()) >= 0.10}
+            p = prior[y]; tot = sum(p.values())
+            ws[y] = sum(p[c] for c, v in growth[y].items() if not np.isnan(v) and v < 0) / tot if tot > 0 else np.nan
+            g = {c: v for c, v in growth[y].items() if not np.isnan(v) and p[c] / tot >= 0.10}
             if len(g) >= 2: res[f"spread_{y}"] = (min(g.values()), max(g.values()))
-    # profit
+    res["shrink_share_by_year"] = ws
+    res["weak_share"] = float(np.mean(list(ws.values()))) if ws else np.nan
     if pp:
-        py, plevel, plsrc, pgrowth, ptotg, pdlev, pprior, pgsrc = build(pp)
+        psy, psp = parse_skip(cfg, profit=True)
+        py, plevel, plsrc, pgrowth, ptotg, pdlev, pprior, pgsrc = build(pp, psy, psp)
         res.update(prf_tags=sorted({v[1] for v in pp.values()}), plevel=plevel, ptotg=ptotg)
         pt = pd.Series(ptotg).dropna()
         if len(pt): res["worst_prf_yoy"] = float(pt.min()); res["worst_prf_year"] = int(pt.idxmin())
@@ -210,7 +248,7 @@ def analyze(t):
             x = ddf[[a, b]].dropna()
             if len(x) >= 4 and x[a].std() > 0 and x[b].std() > 0: pcs.append((a, b, float(x[a].corr(x[b])), len(x)))
         res["ppairs"] = pcs
-        res["mean_pcorr"] = float(np.mean([c for *_, c, _ in [(a, b, c, n) for a, b, c, n in pcs]])) if pcs else np.nan
+        res["mean_pcorr"] = float(np.mean([c for _, _, c, _ in pcs])) if pcs else np.nan
     res["src_urls"] = sorted({v[0] for v in rp.values()} | ({v[0] for v in pp.values()} if pp else set()))
     res["status"] = "ok"
     return res
@@ -239,7 +277,7 @@ if __name__ == "__main__":
         gd = pd.DataFrame(r["growth"]).T.sort_index()
         print("growth:\n" + (gd * 100).round(1).to_string())
         print("tot seg growth:", {k: round(v * 100, 1) for k, v in r["totg"].items() if v == v})
-        print(f"mean_corr={r['mean_corr']:.2f} wmean={r['wmean_corr']:.2f} divratio={r['div_ratio']:.2f} weak={r.get('weak_seg')} {r.get('weak_seg_g', 0)*100:.1f}% share={r.get('weak_share', 0):.2f} worst_tot={r.get('worst_seg_total_year')} {r.get('worst_seg_total_yoy', 0)*100:.1f}%")
+        print(f"mean_corr={r['mean_corr']} wmean={r['wmean_corr']} offset_ratio={r['div_ratio']} amp={r['wave_amp']} shrink_share={r.get('weak_share')} worst_tot={r.get('worst_seg_total_year')} {r.get('worst_seg_total_yoy', 0)*100:.1f}%")
         if "plevel" in r:
             print("profit:\n" + (pd.DataFrame(r["plevel"]).T.sort_index() / 1e6).round(0).to_string())
             print(f"worst_prf={r.get('worst_prf_year')} {r.get('worst_prf_yoy', 0)*100:.1f}% mean_pcorr={r.get('mean_pcorr')}")

@@ -1,0 +1,72 @@
+{
+ "ticker": "ROK",
+ "cik": 1024478,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   1370000000,
+   "10-K",
+   "2026-11-12",
+   "0001024478-26-000048"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   1415000,
+   "10-K",
+   "2025-11-12",
+   "0001024478-25-000116"
+  ],
+  "growth": 967.1978798586572
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   2313000000,
+   "10-Q",
+   "2026-08-04",
+   "0001024478-26-000030"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   2144000000,
+   "10-Q",
+   "2026-08-04",
+   "0001024478-26-000030"
+  ],
+  "growth": 0.0788246268656716
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-04-01",
+   "2026-06-30",
+   550000000,
+   "10-Q",
+   "2026-08-04",
+   "0001024478-26-000030"
+  ],
+  "prior": [
+   "2025-04-01",
+   "2025-06-30",
+   454000000,
+   "10-Q",
+   "2026-08-04",
+   "0001024478-26-000030"
+  ],
+  "growth": 0.21145374449339216
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-12",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1024478/000102447826000048/rok-20260930.htm"
+ },
+ "backlog_hits": [
+  "  Unfulfilled Performance Obligations   As of September 30, 2026, we expect to recognize approximately $ 1,370 million of revenue in future periods from unfulfilled performance obligations from existing contracts with customers. We expect to recognize revenue of approximately $ 785 million from our remaining performance obligations over the next 12 months with the remaining balance recognized thereafter.   We have applied the practical expedient to exclude the value of remaining performance obligations for (i) contracts with an original term of one year or less and (ii) contracts for which we recognize revenue in proportion to the amount we have the right to invoice for services performed. The amounts above also do not inc"
+ ]
+}

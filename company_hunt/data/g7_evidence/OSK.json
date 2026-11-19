@@ -1,0 +1,77 @@
+{
+ "ticker": "OSK",
+ "cik": 775158,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   11800000000,
+   "10-Q",
+   "2026-10-29",
+   "0001193125-26-437287"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   12400000000,
+   "10-Q",
+   "2025-10-29",
+   "0001193125-25-256137"
+  ],
+  "growth": -0.048387096774193505
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2841600000,
+   "10-Q",
+   "2026-10-29",
+   "0001193125-26-437287"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2688600000,
+   "10-Q",
+   "2026-10-29",
+   "0001193125-26-437287"
+  ],
+  "growth": 0.05690694041508593
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   197100000,
+   "10-Q",
+   "2026-10-29",
+   "0001193125-26-437287"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   260400000,
+   "10-Q",
+   "2026-10-29",
+   "0001193125-26-437287"
+  ],
+  "growth": -0.2430875576036866
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-29",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/775158/000119312526437287/osk-20260930.htm"
+ },
+ "backlog_hits": [
+  "   |   |   48.9   |   |   |   |   52.2   |   |   Costs for anticipated contracts   |   |   |   \u2014   |   |   |   |   1.2   |   |   Deferred contract costs   |   |   $   |   783.2   |   |   |   $   |   825.5   |   |   The Company estimates that deferred contract costs exceed future profits on existing orders by approximately $ 85 million at September 30, 2026.   Changes in the Company\u2019s deferred contract costs were as follows (in millions):   |   |   Three Months Ended September 30,   |   |   |   Nine Months Ended September 30,   |   |   |   |   2026   |   |   |   2025   |   |   |   2026   |   |   |   2025   |   |   Balance at beginning of period   |   |   $   |   796.9   |   |   |   $   |   841.0   ",
+  "42.6   |   |   |   $   |   39.3   |   |   Other non-current liabilities   |   |   |   83.8   |   |   |   |   71.1   |   |   |   |   $   |   126.4   |   |   |   $   |   110.4   |   |   12   Table of Contents   OSHKOSH CORPORATION   NOTES TO CONDENSED CONSOLIDATED FINANCIAL STATEMENTS   (Unaudited)   Remaining Performance Obligations   As of September 30, 2026, the Company had unsatisfied performance obligations for contracts with an original duration greater than one year totaling $ 11.8 billion , of which $ 1.1 billion is expected to be satisfied and recognized in revenue in the remaining three months of 2026, $ 5.6 billion is expected to be satisfied and recognized in revenue in 2027 and $ 5.1 billion is expected to be sa",
+  " shares during the third quarter of 2026 for $82 million, bringing share repurchases for the first nine months of 2026 to $221 million. Share repurchases during the previous twelve months benefited earnings per share during the third quarter of 2026 by $0.08 compared to the third quarter of 2025.   Orders in the Access segment in the third quarter of 2026 of $2.0 billion were robust, resulting in a book-to-bill ratio of 1.5. Orders in the third quarter of 2026 included receipt of 2027 annual purchase orders from select national rental companies. Orders brought Access segment backlog to $2.7 billion at September 30, 2026.   The Vocational segment continued initiatives to modernize municipal fire ap",
+  "Report on Form 10-K for the year ended December 31, 2025 have not materially changed since that report was filed.   New Accounting Pronouncements   See Note 2 of the Notes to Condensed Consolidated Financial Statements for a discussion of the impact of new accounting pronouncements.   Customers and Backlog   Sales to the U.S. government comprised approximately 13% of the Company\u2019s net sales in the first nine months of 2026. No other single customer accounted for more than 10% of the Company\u2019s net sales for this period. A substantial majority of the Company\u2019s net sales are derived from the fulfillment of customer orders that are received prior to commencing production.   The Company\u2019s backlog at Sep",
+  "llion at September 30, 2026 compared to $721 million at September 30, 2025 due in part to the receipt of 2027 orders from select national rental companies, which the Company believes is coming from strong demand for construction equipment to support data centers and megaprojects. Vocational segment backlog increased 5.3% to $6.7 billion at September 30, 2026 compared to $6.4 billion at September 30, 2025 due to improved demand   38   Table of Contents   for airport products. Unit backlog for municipal fire apparatus as of September 30, 2026 was down 0.7% compared to September 30, 2025. Unit backlog for refuse and recycling collection vehicles as of September 30, 2026 was down 10.3% compared to Sept",
+  "nsport segment backlog decreased 12.8% to $5.6 billion at September 30, 2026 compared to $6.5 billion at September 30, 2025, primarily reflecting NGDV production.   Backlog represents the dollar amount of revenues that the Company anticipates from customer contracts that have been awarded. Reported backlog includes the original contract amount and any contract modifications that have been agreed upon. Reported backlog excludes purchase options, orders for which definitive contracts have not been executed and any potential future contract modifications. Backlog is comprised of fixed and variable priced contracts that may be canceled, modified or otherwise changed in the future. As a result, backlog "
+ ]
+}

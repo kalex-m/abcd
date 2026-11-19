@@ -1,0 +1,70 @@
+{
+ "ticker": "IR",
+ "cik": 1699150,
+ "rpo": {
+  "latest": [
+   null,
+   "2018-09-30",
+   168000000,
+   "10-Q",
+   "2018-10-29",
+   "0001140361-18-041472"
+  ],
+  "prior": null,
+  "growth": null
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2064900000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068577"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   1955000000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068577"
+  ],
+  "growth": 0.05621483375959069
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   782500000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068577"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   375500000,
+   "10-Q",
+   "2026-10-30",
+   "0001628280-26-068577"
+  ],
+  "growth": 1.0838881491344874
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-30",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/1699150/000162828026068577/iri-20260930.htm"
+ },
+ "backlog_hits": [
+  "pects to recognize revenue in the future related to unsatisfied (or partially satisfied) performance obligations of $ 971.2 million in the next twelve months and $ 900.1 million in periods thereafter. The performance obligations that are unsatisfied (or partially satisfied) are primarily related to orders for goods or services that were placed prior to the end of the reporting period and have not been delivered to the customer, on-going work on ETO contracts where revenue is recognized over time and service contracts with an original duration greater than one year.   Contract Balances   The following table provides the contract balances as of September 30, 2026 and December 31, 2025 presented in t",
+  " 2026 and 2025, respectively, and excludes $3.4 million and $3.8 million for the nine month periods ended September 30, 2026 and 2025.   (b) Represents $105.2 million and $92.3 million of amortization of intangible assets arising from acquisitions (customer relationships, technology, tradenames and backlog) and $2.2 million and $2.6 million of amortization of non-acquisition related intangible assets, in each case, for the three month periods ended September 30, 2026 and 2025, respectively.   Represents $310.8 million and $270.4 million of amortization of intangible assets arising from acquisitions (customer relationships, technology, tradenames and backlog) and $6.7 million and $7.4 million of amo",
+  "d EBITDA as a percentage of Segment Revenues) for each of our Segments.   45   Table of Contents   Industrial Technologies and Services Segment Results   For the Three Month Period Ended September 30, | Percent Change |   (In millions, except percentages) | 2026 | 2025 | 2026 vs. 2025   |   Segment Orders | $ | 1,897.5 | $ | 1,522.2 | 24.7 | % |   Segment Revenues | $ | 1,620.0 | $ | 1,540.5 | 5.2 | % |   Segment Adjusted EBITDA | $ | 475.7 | $ | 447.5 | 6.3 | % |   Segment Margin | 29.4 | % | 29.0 | % | 40 | bps |   Segment Orders for the three month period ended September 30, 2026 were $1,897.5 million, an increase of $375.3 million, or 24.7%, compared to $1,522.2 million in the same three month",
+  "itions of $4.6 million or 1.0%, and the favorable impact of foreign currencies of $1.5 million or 0.3%, partially offset by higher selling and administrative costs of $6.5 million or 1.5%.   For the Nine Month Period Ended September 30, | Percent Change |   2026 | 2025 | 2026 vs. 2025   |   Segment Orders | $ | 5,076.1 | $ | 4,570.1 | 11.1 | % |   Segment Revenues | $ | 4,686.6 | $ | 4,384.2 | 6.9 | % |   Segment Adjusted EBITDA | $ | 1,295.7 | $ | 1,263.8 | 2.5 | % |   Segment Margin | 27.6 | % | 28.8 | % | (120) | bps |   Segment Orders for the nine month period ended September 30, 2026 were $5,076.1 million, an increase of $506.0 million, or 11.1%, compared to $4,570.1 million in the same nine ",
+  "iff refunds of $33.7 million) and higher selling and administrative costs of $1.3 million or 0.1%.   Precision and Science Technologies Segment Results   For the Three Month Period Ended September 30, | Percent Change |   (In millions, except percentages) | 2026 | 2025 | 2026 vs. 2025   |   Segment Orders | $ | 447.6 | $ | 420.1 | 6.5 | % |   Segment Revenues | $ | 444.9 | $ | 414.5 | 7.3 | % |   Segment Adjusted EBITDA | $ | 152.5 | $ | 127.6 | 19.5 | % |   Segment Margin | 34.3 | % | 30.8 | % | 350 | bps |   Segment Orders for the three month period ended September 30, 2026 were $447.6 million, an increase of $27.5 million, or 6.5%, compared to $420.1 million in the same three month period in 20",
+  "tions of $2.7 million or 2.1%, and lower selling and administrative costs of $0.5 million or 0.4%, partially offset by the unfavorable impact of foreign currencies of $0.5 million or 0.4%.   For the Nine Month Period Ended September 30, | Percent Change |   2026 | 2025 | 2026 vs. 2025   |   Segment Orders | $ | 1,289.9 | $ | 1,194.1 | 8.0 | % |   Segment Revenues | $ | 1,274.3 | $ | 1,175.5 | 8.4 | % |   Segment Adjusted EBITDA | $ | 408.9 | $ | 350.6 | 16.6 | % |   Segment Margin | 32.1 | % | 29.8 | % | 230 | bps |   Segment Orders for the nine month period ended September 30, 2026 were $1,289.9 million, an increase of $95.8 million, or 8.0%, compared to $1,194.1 million in the same nine month pe"
+ ]
+}

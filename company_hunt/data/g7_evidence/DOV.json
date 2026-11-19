@@ -1,0 +1,72 @@
+{
+ "ticker": "DOV",
+ "cik": 29905,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   348332000,
+   "10-Q",
+   "2026-10-22",
+   "0000029905-26-000033"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   333272000,
+   "10-Q",
+   "2025-10-23",
+   "0000029905-25-000034"
+  ],
+  "growth": 0.04518831464989548
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   2233839000,
+   "10-Q",
+   "2026-10-22",
+   "0000029905-26-000033"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   2077841000,
+   "10-Q",
+   "2026-10-22",
+   "0000029905-26-000033"
+  ],
+  "growth": 0.07507696690940269
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   419188000,
+   "10-Q",
+   "2026-10-22",
+   "0000029905-26-000033"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   377153000,
+   "10-Q",
+   "2026-10-22",
+   "0000029905-26-000033"
+  ],
+  "growth": 0.11145344197182583
+ },
+ "latest_report": {
+  "form": "10-Q",
+  "filed": "2026-10-22",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/29905/000002990526000033/dov-20260930.htm"
+ },
+ "backlog_hits": [
+  "n decreased to 16.7% from 18.6% in the prior year comparable quarter.   Bookings in the third quarter of 2026 increased 43.1% from the prior year comparable quarter. The bookings increase was primarily driven by demand strength in retail refrigeration and heat exchangers, including longer lead-time orders. Segment book-to-bill was 1.23.   Nine Months Ended September 30, 2026 Compared to the Nine Months Ended September 30, 2025   Climate & Sustainability Technologies segment revenue increased $175.0 million, or 14.9%, compared to the nine months ended September 30, 2025, reflecting organic revenue growth of 13.7%, and a favorable foreign currency translation impact of 1.2%. The organic revenue grow"
+ ]
+}

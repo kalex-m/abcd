@@ -1,0 +1,57 @@
+{
+ "ticker": "EMR",
+ "cik": 32604,
+ "rpo": {
+  "latest": [
+   null,
+   "2026-09-30",
+   9600000000,
+   "10-K",
+   "2026-11-09",
+   "0000032604-26-000054"
+  ],
+  "prior": [
+   null,
+   "2025-09-30",
+   8600000000,
+   "10-K",
+   "2025-11-10",
+   "0000032604-25-000087"
+  ],
+  "growth": 0.11627906976744184
+ },
+ "rpo_tag": "RevenueRemainingPerformanceObligation",
+ "rev_q": {
+  "latest": [
+   "2026-07-01",
+   "2026-09-30",
+   5201000000,
+   "10-K",
+   "2026-11-09",
+   "0000032604-26-000054"
+  ],
+  "prior": [
+   "2025-07-01",
+   "2025-09-30",
+   4855000000,
+   "10-K",
+   "2026-11-09",
+   "0000032604-26-000054"
+  ],
+  "growth": 0.07126673532440786
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-09",
+  "period": "2026-09-30",
+  "url": "https://www.sec.gov/Archives/edgar/data/32604/000003260426000054/emr-20260930.htm"
+ },
+ "backlog_hits": [
+  "wed and their duration is dependent upon national laws and trademark use. While this proprietary intellectual property portfolio is important to the Company in the aggregate, management does not regard any of its segments as being dependent on any single patent, trademark registration or license.   BACKLOG   The Company\u2019s estimated consolidated order backlog was $9.6 billion and $8.6 billion at September 30, 2026 and 2025 . Approximately 70 percent of the Company\u2019s consolidated backlog is expected to be recogniz ed as revenue over the next 12 months, with the remainder substantially over the subsequent two years thereafter. Backlog by business group at September 30, 2026 and 2025 follows (dollars i",
+  "nterest in Vertiv.   OTHER DEDUCTIONS, NET   Other deductions, net were $1,009 in 2026, a decrease of $265 compared with 2025, due to a $174 decrease in acquisition/divestiture fees and related costs primarily associated with the AspenTech acquisition in the prior year and lower amortization due to backlog amortization of $65 in the prior year related to the AspenTech acquisition. The impact of the pension and OPEB mark-to-market adjustment was income of $2 in 2026 compared to expense of $34 in 2025.   Other deductions, net were $1,274 in 2025, a decrease of $149 compared with 2024, reflecting lower intangibles amortization of $193 (including $136 of backlog amortization in the prior year related t",
+  "were satisfied in previous periods, including cumulative catchup adjustments on the Company's long-term contracts, was not material. Capitalized amounts related to incremental costs to obtain customer contracts and costs to fulfill contracts are immaterial.   As of September 30, 2026, the Company's backlog relating to unsatisfied (or partially unsatisfied) performance obligations in contracts with its customers was approximately $ 9.6 billion. The Company expects to recognize approximately 70 percent of its remaining performance obligations as revenue over the next 12 months, with the remainder substantially over the subsequent two years thereafter.   See Note 20 for additional information about th",
+  "sideration | $ | 8,653 |   The estimated intangible assets attributable to the transaction are comprised of the following (in millions) :   Amount | Estimated Weighted Average Life (Years) |   Developed technology | $ | 1,570 | 9 |   Customer relationships | 3,360 | 15 |   Trade names | 210 | 9 |   Backlog | 135 | 1 |   Total | $ | 5,275 |   Results of operations for the year ended September 30, 2024 attributable to the NI acquisition include sales of $ 1,464 and a net loss of $ 537 . The net loss included the impact of inventory step-up amortization, intangibles amortization, retention bonuses, stock compensation expense and restructuring.   46   Pro Forma Financial Information   The following una",
+  "fees and related costs | 96 | 214 | 40 |   Foreign currency transaction losses | 105 | 92 | 73 |   Pension and OPEB mark-to-market adjustment | ( 111 ) | 34 | ( 2 ) |   Other | 28 | ( 86 ) | ( 105 ) |   Total | $ | 1,423 | 1,274 | 1,009 |   The decline in intangibles amortization in 2026 was due to backlog amortization of $ 65 in the prior year related to the AspenTech acquisition, while the decline in 2025 was primarily due to backlog amortization of $ 136 recognized in 2024 related to the NI acquisition. The higher acquisition/divestiture costs in 2025 are primarily related to the AspenTech transaction. Pension and OPEB mark-to-market adjustments reflect the Company's recognition of actuarial gai"
+ ]
+}

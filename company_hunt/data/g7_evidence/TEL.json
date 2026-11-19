@@ -1,0 +1,52 @@
+{
+ "ticker": "TEL",
+ "cik": 1385157,
+ "rev_q": {
+  "latest": [
+   "2026-03-28",
+   "2026-06-26",
+   5160000000,
+   "10-Q",
+   "2026-07-24",
+   "0001104659-26-086509"
+  ],
+  "prior": [
+   "2025-03-29",
+   "2025-06-27",
+   4534000000,
+   "10-Q",
+   "2026-07-24",
+   "0001104659-26-086509"
+  ],
+  "growth": 0.13806793118659022
+ },
+ "rev_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+ "oi_q": {
+  "latest": [
+   "2026-03-28",
+   "2026-06-26",
+   981000000,
+   "10-Q",
+   "2026-07-24",
+   "0001104659-26-086509"
+  ],
+  "prior": [
+   "2025-03-29",
+   "2025-06-27",
+   857000000,
+   "10-Q",
+   "2026-07-24",
+   "0001104659-26-086509"
+  ],
+  "growth": 0.14469078179696626
+ },
+ "latest_report": {
+  "form": "10-K",
+  "filed": "2026-11-09",
+  "period": "2026-09-25",
+  "url": "https://www.sec.gov/Archives/edgar/data/1385157/000110465926124497/tel-20260925x10k.htm"
+ },
+ "backlog_hits": [
+  "ically been the strongest in the first fiscal quarter in Asia whereas European production typically declines in the fourth fiscal quarter. Also, our sales in the energy market typically increase in the third and fourth fiscal quarters as customer activity increases.  3  Table of Contents   Customer orders and demand may fluctuate as a result of economic and market conditions. Backlog by reportable segment was as follows:  \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   | \u200b   |   \u200b   | \u200b   | Fiscal Year End   |   |   \u200b   | \u200b \u200b \u200b  | 2026   | \u200b \u200b \u200b  | 2025   | \u200b \u200b \u200b  |   \u200b   |   | (in millions)   | \u200b   |   Transportation Solutions  | \u200b   | $  | 2,724   | \u200b   | $  | 2,278   | \u200b   |   Industrial Solutions  | \u200b"
+ ]
+}
