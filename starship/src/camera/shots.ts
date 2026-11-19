@@ -226,11 +226,11 @@ export class ShotList {
           const tm = m - 0.12;
           const mid = h.boosterPoint(tm, 62);
           const ang = (128 + 3 * l) * DEG;
-          const dist = 150 + 10 * smoothstep(0, 35, l);
-          const off = new THREE.Vector3(Math.sin(ang) * dist, -22 + 10 * smoothstep(0, 35, l), -Math.cos(ang) * dist);
+          const dist = 170 + 40 * smoothstep(0, 35, l);
+          const off = new THREE.Vector3(Math.sin(ang) * dist, -55 + 25 * smoothstep(0, 35, l), -Math.cos(ang) * dist);
           const pos = mid.clone().add(off);
-          const tgt = h.boosterPoint(m, 58);
-          const focal = lerp(50, 35, smootherstep(4, 30, l));
+          const tgt = h.boosterPoint(m, 12);
+          const focal = lerp(42, 30, smootherstep(4, 30, l));
           return pose({
             position: pos, target: tgt, focal, fStop: 4, focusDistance: pos.distanceTo(tgt), evComp: -0.3,
             shake: { gain: 0.45, handheld: true, close: 0.3, thrustNorm: 0.35, distance: 150, impulses: [] }, shakeTime: l + 500,
@@ -277,10 +277,11 @@ export class ShotList {
         id: '9', name: 'Booster flip and boostback', duration: 25, warp: [[0, 165], [25, 200]],
         pose: (l, m, h) => {
           const c = h.boosterPoint(m, 36);
-          const pos = c.clone().addScaledVector(SIDE, 120 + 30 * smoothstep(0, 25, l)).add(new THREE.Vector3(0, 22, 0)).addScaledVector(DOWNRANGE, 40);
-          const focal = lerp(24, 42, smootherstep(2, 22, l));
+          // slightly below the booster looking out towards the horizon: Earth curvature in frame
+          const pos = c.clone().addScaledVector(SIDE, 125 + 35 * smoothstep(0, 25, l)).add(new THREE.Vector3(0, -40, 0)).addScaledVector(DOWNRANGE, -30);
+          const focal = lerp(26, 40, smootherstep(2, 22, l));
           return pose({
-            position: pos, target: c.clone().addScaledVector(DOWNRANGE, 8), focal, fStop: 5.6, focusDistance: pos.distanceTo(c), evComp: -0.3,
+            position: pos, target: c.clone().add(new THREE.Vector3(0, 8, 0)), focal, fStop: 5.6, focusDistance: pos.distanceTo(c), evComp: -0.3,
             shake: { gain: 0.3, handheld: true, close: 0.2, thrustNorm: 0.3, distance: 120, impulses: [] }, shakeTime: l + 800,
             shadowFocus: c, shadowExtent: 110, envProbe: c, heat: 0.3,
           });
@@ -291,10 +292,12 @@ export class ShotList {
         pose: (l, m, h) => {
           const sp = h.shipBase(m);
           const v = h.shipVel(m).normalize();
-          const back = lerp(5000, 13000, easeOutQuad(l / 20));
+          const back = lerp(2500, 12000, easeOutQuad(l / 20));
           const upL = sp.clone().add(new THREE.Vector3(0, 6_371_000, 0)).normalize();
-          const pos = sp.clone().addScaledVector(v, -back).addScaledVector(SIDE, back * 0.35).addScaledVector(upL, back * 0.08);
-          const tgt = sp.clone().addScaledVector(v, -back * 0.25).addScaledVector(upL, -back * 0.22);
+          // to the south of the ship, slightly ahead and above: ship + trailing plume fan against the dark
+          // upper atmosphere with the curved limb low in frame
+          const pos = sp.clone().addScaledVector(SIDE, back).addScaledVector(v, back * 0.25).addScaledVector(upL, back * 0.18);
+          const tgt = sp.clone().addScaledVector(v, -back * 0.18).addScaledVector(upL, -back * 0.12);
           return pose({
             position: pos, target: tgt, focal: 35, fStop: 8, focusDistance: back, evComp: -0.2, up: upL,
             shake: { gain: 0.15, handheld: true, close: 0, thrustNorm: 0, distance: 1000, impulses: [] }, shakeTime: l + 900,

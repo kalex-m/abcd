@@ -59,8 +59,8 @@ bool puffAt(float i, float N, float T, out vec3 pos, out float R, out vec4 dens)
     R0 = 3.0 + 2.5 * h1.z; kR = 1.4; rho = 0.32; tauD = 28.0; heat0 = 0.0; steamF = 1.0; sootF = 0.0;
   } else if (u < 0.36) { // ignition steam balloon (T-8.2 .. T0)
     t0 = -8.0; t1 = 0.0; pw = 0.8;
-    r0 = 2.0 + 7.0 * h0.z; u0 = 22.0 + 38.0 * h1.x; tauR = 2.6 + 1.6 * h1.w; H = 25.0 + 200.0 * pow(h1.y, 1.6); tauH = 12.0 + 10.0 * h2.x;
-    R0 = 7.0 + 7.0 * h1.z; kR = 6.0; rho = 1.0; tauD = 160.0; heat0 = 1.0; steamF = 0.78; sootF = 0.1;
+    r0 = 2.0 + 7.0 * h0.z; u0 = 12.0 + 26.0 * h1.x; tauR = 2.6 + 1.6 * h1.w; H = 25.0 + 200.0 * pow(h1.y, 1.6); tauH = 12.0 + 10.0 * h2.x;
+    R0 = 7.0 + 7.0 * h1.z; kR = 6.0; rho = 1.0; tauD = 160.0; heat0 = 0.6; steamF = 0.88; sootF = 0.04;
   } else if (u < 0.86) { // liftoff mushroom, dust ring and column
     float col = step(0.72, h2.y);
     t0 = mix(0.0, 3.0, col); t1 = 12.0; pw = 1.6;
@@ -69,7 +69,7 @@ bool puffAt(float i, float N, float T, out vec3 pos, out float R, out vec4 dens)
     tauR = 3.0 + 2.5 * h1.w;
     H = mix(120.0 + 520.0 * pow(h1.y, 1.2), 300.0 + 400.0 * h1.y, col);
     tauH = mix(11.0 + 11.0 * h2.x, 9.0 + 6.0 * h2.x, col);
-    R0 = 10.0 + 8.0 * h1.z; kR = 8.0; rho = 1.15; tauD = 170.0; heat0 = 0.8; steamF = 0.62; sootF = 0.22;
+    R0 = 10.0 + 8.0 * h1.z; kR = 8.0; rho = 1.15; tauD = 170.0; heat0 = 0.5; steamF = 0.76; sootF = 0.1;
   } else { // climb-out wash
     t0 = 10.0; t1 = 28.0; pw = 1.2;
     r0 = 5.0 + 25.0 * h0.z; u0 = 10.0 + 15.0 * h1.x; tauR = 4.0; H = 80.0 + 300.0 * h1.y; tauH = 15.0;
@@ -201,7 +201,7 @@ export function puffBounds(T: number, N: number): PuffBounds {
     const u = (i + 0.5) / N;
     let t0: number, t1: number, pw: number, r0: number, u0: number, tauR: number, H: number, tauH: number, R0: number, kR: number;
     if (u < 0.07) { t0 = CONFIG.deluge.preflowT; t1 = -8.5; pw = 1; r0 = 9 + 6 * h0[2]; u0 = 2 + 4 * h1[0]; tauR = 4; H = 5 + 12 * h1[1]; tauH = 6; R0 = 3 + 2.5 * h1[2]; kR = 1.4; }
-    else if (u < 0.36) { t0 = -8; t1 = 0; pw = 0.8; r0 = 2 + 7 * h0[2]; u0 = 22 + 38 * h1[0]; tauR = 2.6 + 1.6 * h1[3]; H = 25 + 200 * Math.pow(h1[1], 1.6); tauH = 12 + 10 * h2[0]; R0 = 7 + 7 * h1[2]; kR = 6; }
+    else if (u < 0.36) { t0 = -8; t1 = 0; pw = 0.8; r0 = 2 + 7 * h0[2]; u0 = 12 + 26 * h1[0]; tauR = 2.6 + 1.6 * h1[3]; H = 25 + 200 * Math.pow(h1[1], 1.6); tauH = 12 + 10 * h2[0]; R0 = 7 + 7 * h1[2]; kR = 6; }
     else if (u < 0.86) {
       const col = h2[1] >= 0.72 ? 1 : 0;
       t0 = col ? 3 : 0; t1 = 12; pw = 1.6; r0 = col ? 1 + 6 * h0[2] : 3 + 12 * h0[2]; u0 = col ? 4 + 10 * h1[0] : 40 + 45 * h1[0]; tauR = 3 + 2.5 * h1[3];

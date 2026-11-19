@@ -241,6 +241,11 @@ export class Engine {
     SHARED.uMission.value = mission;
     SHARED.uSunDirW.value.copy(sunDir);
     SHARED.uSunColor.value.copy(sunColor);
+    // sky irradiance / pi (scene units), dimming in the thin upper atmosphere
+    const el = s.elevation;
+    const skyK = (0.004 + 0.05 * smoothstep(-8, 25, el)) * (1 - smoothstep(15_000, 60_000, camAltM) * 0.85);
+    SHARED.uAmbient.value.set(0.55, 0.68, 0.95).multiplyScalar(E * skyK);
+    SHARED.uAmbientGround.value.set(0.35, 0.3, 0.24).multiplyScalar(E * skyK * 0.4);
     SHARED.uCamPosW.value.copy(this.camera.position);
     SHARED.uOrigin.value.copy(this.origin);
     SHARED.uGroundY.value = -CONFIG.site.olmHeight;
