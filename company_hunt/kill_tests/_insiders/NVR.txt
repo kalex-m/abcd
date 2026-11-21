@@ -1,0 +1,20 @@
+# NVR INC: 92 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+SAVILLE PAUL C | Executive Chairman | S | 13,550 | $95,123,238 | 17
+Malzahn Daniel David | Chief Financial Officer | S | 4,885 | $34,023,007 | 8
+Kelpy Matthew B. | VP, Chief Accounting Officer | S | 3,250 | $26,973,662 | 12
+ECKERT THOMAS D | Director | S | 2,943 | $23,506,996 | 5
+Ross Susan Williamson | Director | S | 1,245 | $9,630,761 | 7
+PREISER DAVID A | Director | S | 750 | $6,118,765 | 2
+ROSIER WILLIAM GRADY | Director | S | 600 | $4,599,378 | 1
+Bredow Eugene James | Chief Executive Officer | S | 500 | $3,762,500 | 2
+Jung Alexandra A | Director | S | 250 | $2,028,075 | 2
+FESTA ALFRED E | Director | S | 148 | $1,270,721 | 1
+Martinez Melquiades R. | Director | S | 125 | $1,046,596 | 1
+Oliver George | Director | P | 63 | $405,185 | 1
+DeVito Michael J | Director | P | 25 | $172,647 | 2
+# open-market BUYS detail (3):
+2025-11-03 DeVito Michael J (Director) 14 sh @ $7,068.05
+2026-04-24 DeVito Michael J (Director) 11 sh @ $6,699.50
+2026-08-07 Oliver George (Director) 63 sh @ $6,431.51
+# TOTAL buys $577,832 | sells $208,083,699 | net $-207,505,866
