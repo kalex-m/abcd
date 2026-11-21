@@ -1,0 +1,7 @@
+company,layer,status,source_url,date_accessed,note
+AYI,A,done,https://www.sec.gov/Archives/edgar/data/1144215/000114421526000052/ayi-20260831.htm,2026-11-21,"10-K FY2026 deep read; FY2022-25 10-Ks via segment XBRL + FY2023 risk-factor diff; 8 earnings EX-99.1; DEF 14A 2025-12-11; 13G; Forms 4 3y; 8-Ks 2026-09-29 and 2026-11-20 (new $400M DDTL for Project Sentinel); FTS red-flag phrases clean; 10-Q MD&A trends taken from earnings releases (partial)"
+AYI,B,fallback,https://finviz.com/news/407708/acuity-announces-agreement-to-acquire-parameter-technologies,2026-11-21,"IR site unreachable; no EX-99.2 supplements on EDGAR; Parameter $675M deal terms from WebSearch snippets (press release reprints, Inside Lighting)"
+AYI,C,fallback,https://www.fool.com/earnings/call-transcripts/2026/10/01/acuity-ayi-q4-2026-earnings-call-transcript/,2026-11-21,"Q4 FY2026 call read on fool.com; Q3 FY2026 and Q4 FY2025 fool.com URLs did not resolve; earlier calls not read"
+AYI,D,done,https://www.perplexity.ai/finance/AYI,2026-11-21,"overview page fetched; confirmed 2026-11-20 -3.1% move and DDTL linked to Parameter"
+AYI,E,done,yfinance,2026-11-21,"price $326.51 (2026-11-18), $310.49 (2026-11-20); short 3.8%; institutions 98.6%; institutional holders"
+AYI,F,empty,,2026-11-21,"only routine HSR for Parameter acquisition; no sector docket"
