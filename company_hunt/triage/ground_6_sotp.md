@@ -177,3 +177,97 @@ Hidden asset: RMB276.6bn ($41.3bn) of cash and investments plus AI Cloud (+94% y
 Baidu reported RMB276.6bn ($41.3bn) of cash and investments at 30 Sep 2026 against roughly RMB100bn ($15bn) of loans and notes, so net cash and investments of about $26bn exceed the $23.6bn market cap before counting any business at all. Inside sits AI Cloud Infra revenue of RMB8.2bn in Q3-2026, up 94% year on year with GPU cloud up 191%, plus the Kunlunxin chip unit and Apollo Go in 30 cities. Haircut the cash pile 15%, put the general business at 4x EBITDA, give the AI options nothing, and the SOTP is about $31bn, a 35% gap. The traps are real: the cash is onshore RMB that management is spending on AI capex (FY2025 free cash flow was -$2.2bn), and search advertising is shrinking. But the first-ever dividend promised before end-2026 is a concrete step toward handing some of that cash back.
 
 Sources: https://www.sec.gov/Archives/edgar/data/1329099/000119312526462286/d767848dex991.htm (6-K EX-99.1 Q3-2026 results, 2026-11-16); yfinance BIDU, IQ close 2026-11-18; triage/metrics.csv (FY2025 FCF)
+
+## F: Ford Motor Company (KEEP (mid))
+
+Hidden asset: Ford Pro (commercial vehicles, software and service; 2026 EBIT guide ~$7.0bn) and Ford Credit, buried under Model e losses (segment + captive finance). Market cap $45.0bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Ford Pro** | 6x 2026 EBIT guide $7.0bn (9M-2026 $5.07bn, down from $5.61bn) | 42.0 |
+| **Ford Credit** | 6x after-tax 2026 EBT guide $2.8bn x 0.79 | 13.3 |
+| Ford Blue | 3x 2026 EBIT guide $5.5bn | 16.5 |
+| Ford Model e | -3x 2026 EBIT loss guide -$4.0bn | -12.0 |
+| Corporate other | -5x ~$0.6bn/yr (9M-2026 -$477m) | -3.0 |
+| less net debt | Company debt excl. Ford Credit $23.7bn - Company cash $25.3bn (30 Sep 2026); pensions ignored | 1.6 |
+| **conservative SOTP** | | **58.4** |
+| market cap | yfinance 2026-11-18 | 45.0 |
+| **gap** | SOTP / mcap - 1 | **+30%** |
+
+Ford guides 2026 to Ford Pro EBIT of about $7.0bn, Ford Blue $5.5bn, Ford Credit EBT $2.8bn and a Model e loss of about $4.0bn (10-Q, Q3 2026), and it holds $25.3bn of Company cash against $23.7bn of Company debt. Pro at 6x EBIT is $42bn, already 93% of Ford's $45bn market cap; adding Credit at 6x after-tax earnings and Blue at 3x, and charging Model e at minus three years of losses, gives about $59bn, a 30% gap. But Pro is not a separate company: it builds Super Duty and Transit in the same plants as Blue, and its EBIT has fallen from about $9bn in 2024 to the $7bn guided this year. A real profit pool the headline numbers drown out, with no route to separate it.
+
+Sources: https://www.sec.gov/Archives/edgar/data/37996/000003799626000191/f-20260930.htm (10-Q Q3 2026, segment note and outlook); yfinance F close 2026-11-18
+
+## THC: Tenet Healthcare Corporation (KEEP (low-mid))
+
+Hidden asset: USPI ambulatory surgery business (Ambulatory Care segment) inside a hospital operator (segment). Market cap $21.6bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **USPI / Ambulatory Care** | 12x ~$2.1bn annual Adjusted EBITDA (9M-2026 $1,563m, +8%) | 25.2 |
+| Hospital Operations | 6.5x ~$3.0bn annual Adjusted EBITDA (9M-2026 $2,258m; excludes $1.47bn one-off contract termination revenue) | 19.5 |
+| Noncontrolling interests (mostly USPI partners) | -12x ~$0.85bn annual NCI earnings (9M-2026 $642m) | -10.2 |
+| less net debt | long-term debt $13.24bn - cash $2.67bn (30 Sep 2026) | -10.6 |
+| **conservative SOTP** | | **23.9** |
+| market cap | yfinance 2026-11-18 | 21.6 |
+| **gap** | SOTP / mcap - 1 | **+11%** |
+
+Tenet's Ambulatory Care segment (USPI) produced $1,563m of Adjusted EBITDA in 9M-2026, up 8%, at a much higher margin than the hospitals' $2,258m, and surgery-center businesses change hands at mid-teens EBITDA multiples. Put USPI at 12x, hospitals at 6.5x, and subtract both $10.6bn of net debt and the minority partners' share (NCI earnings $642m in nine months, capitalised at 12x), and I get about $24bn against a $21.6bn market cap, an 11% gap. At 15x for USPI the gap rises to about 40%, but that is not the conservative case. Management's lever is buybacks, not a spin, and the minority partners quietly take a large slice of the hidden asset. Worth a look, not a table-pounder.
+
+Sources: https://www.sec.gov/Archives/edgar/data/70318/000007031826000050/thc-20260930.htm (10-Q Q3 2026, segment note); yfinance THC close 2026-11-18
+
+## HAS: Hasbro, Inc. (DROP (priced))
+
+Hidden asset: Wizards of the Coast and Digital Gaming (Magic, D&D, licensed digital games) inside a toy company (segment). Market cap $16.6bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Wizards of the Coast and Digital Gaming** | 12x ~$1.25bn annual segment operating profit (9M-2026 $935m on $2.23bn revenue, 42% margin) | 15.0 |
+| Consumer Products | 8x ~$0.22bn annual (9M-2026 $112m) | 1.8 |
+| Entertainment | 8x ~$0.05bn | 0.4 |
+| Corporate and other | -8x ~$0.15bn | -1.2 |
+| less net debt | debt $3.53bn - cash $0.85bn - ST investments $0.58bn (27 Sep 2026) | -2.1 |
+| **conservative SOTP** | | **13.9** |
+| market cap | yfinance 2026-11-18 | 16.6 |
+| **gap** | SOTP / mcap - 1 | **-16%** |
+
+Wizards of the Coast earned $935m of segment operating profit on $2.23bn of revenue in 9M-2026, a 42% margin, against $112m for the far larger toy business (10-Q, Q3 2026). That is exactly the Ground 6 shape, but the market found it: Hasbro is up 62% in a year to $16.6bn. Put Wizards at 12x a ~$1.25bn year, toys at 8x, and subtract $2.1bn of net debt and corporate cost, and the SOTP is about $14bn, below the market cap. The hidden room has been opened. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/46080/000004608026000065/has-20260927.htm (10-Q Q3 2026); yfinance HAS close 2026-11-18
+
+## ECHO: EchoStar Corporation (DROP (priced))
+
+Hidden asset: ~261.8m SpaceX Class A shares receivable at the spectrum closing (targeted 30 Nov 2027), plus AT&T sale cash (private stake (pending) + cash). Market cap $28.2bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **SpaceX shares, at the deal price** | 261.8m x $42.40 (post 5:1 split) = $11.1bn; not yet received | 11.1 |
+| Cash and marketable securities | $13.44bn + $0.53bn (30 Sep 2026) | 14.0 |
+| Deferred tax liability | -$3.61bn on the spectrum gains | -3.6 |
+| Remaining operations (Boost, Hughes) | zero; DISH DBS and DISH Wireless filers deconsolidated in Chapter 11 | 0.0 |
+| less net debt | the ~$9.6bn of Seller Notes are repaid by SpaceX out of the purchase price at closing, so excluded | -0.0 |
+| **conservative SOTP** | | **21.5** |
+| market cap | yfinance 2026-11-18 | 28.2 |
+| **gap** | SOTP / mcap - 1 | **-24%** |
+
+EchoStar sold spectrum to AT&T for cash and to SpaceX for up to $11bn of SpaceX stock, about 261.8m shares at a deal value of $42.40 after SpaceX's 5-for-1 split, with the final closing targeted for 30 Nov 2027 (10-Q, Q3 2026). It holds $14.0bn of cash and securities, owes $3.6bn of deferred tax, and its Seller Notes are paid off by SpaceX from the price. At the contract value the SOTP is about $21.5bn against a $28.2bn market cap, so the market already values the SpaceX shares near $67 each, roughly 1.6x the deal price. This is the most visible hidden asset in the market, not an overlooked one. Drop for Ground 6.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1415404/000110465926121675/sats-20260930x10q.htm (10-Q Q3 2026, Note 1 SpaceX Transactions); yfinance ECHO close 2026-11-18
+
+## CCJ: Cameco Corporation (DROP (priced))
+
+Hidden asset: 49% of Westinghouse Electric (with Brookfield), equity-accounted (private stake). Market cap $27.2bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Westinghouse 49%** | 15x 2026 share-of-adjusted-EBITDA guide US$370-430m (=$6.0bn EV share) less ~$2.2bn share of Westinghouse debt (approx., not verified) | 3.8 |
+| Uranium segment | 12x ~C$1.0bn adjusted EBITDA (approx.) x 0.6995 | 8.4 |
+| Fuel Services | 10x ~C$0.16bn x 0.6995 | 1.1 |
+| less net debt | total debt C$1.0bn - cash C$0.86bn (30 Sep 2026) | -0.1 |
+| **conservative SOTP** | | **13.2** |
+| market cap | yfinance 2026-11-18 | 27.2 |
+| **gap** | SOTP / mcap - 1 | **-51%** |
+
+Cameco guides its 49% share of Westinghouse's 2026 adjusted EBITDA to US$370-430m (Q3-2026 MD&A), which puts the whole of Westinghouse at roughly $0.8bn of EBITDA. Even at 15x, Cameco's share net of an estimated slice of Westinghouse debt is about $4bn, and the uranium and fuel businesses at 10-12x EBITDA add under $10bn, so the conservative SOTP is about $13bn against a $27.2bn market cap. Using the $30bn IPO-trigger value from the US-government deal for all of Westinghouse still leaves the SOTP short of the price. The market already prices both Westinghouse and a strong uranium price. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1009001/000119312526439858/d106072dex992.htm (6-K EX-99.2 Q3-2026 MD&A, 2026); yfinance CCJ, CADUSD close 2026-11-18

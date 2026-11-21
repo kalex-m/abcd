@@ -1,0 +1,13 @@
+# COPART INC: 67 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+ADAIR A JAYSON | Executive Chairman | S | 1,100,000 | $66,517,228 | 3
+TRYFOROS THOMAS N | Director | S | 697,150 | $35,691,560 | 4
+Englander Daniel J | Director | S | 720,000 | $35,467,575 | 4
+Blunt Matt | Director | S | 150,000 | $7,989,000 | 2
+COHAN STEVEN D | Director | S | 100,000 | $6,001,000 | 2
+MEEKS JAMES E | Director | S | 100,000 | $5,400,000 | 1
+JOHNSON WILLIS J | Chairman of the Board | S | 100,765 | $5,021,120 | 1
+Liaw Jeffrey | Chief Executive Officer | S | 127,466 | $4,931,510 | 11
+Morefield Diane M | Director | S | 50,000 | $2,293,500 | 2
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $169,312,493 | net $-169,312,493

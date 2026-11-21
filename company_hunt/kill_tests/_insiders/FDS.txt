@@ -1,0 +1,25 @@
+# FACTSET RESEARCH SYSTEMS INC: 135 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Snow Frederick Philip | Chief Executive Officer | S | 60,000 | $26,845,200 | 20
+Ellis Christopher R | EVP, Initiatives & P'ships | S | 30,849 | $13,950,860 | 8
+Stern Rachel Rebecca | EVP, Chief Legal Officer | S | 15,462 | $7,312,330 | 3
+Robie Robert J. | EVP,  Institutional Buyside | S | 12,864 | $5,899,735 | 4
+Skoko Goran | EVP, Dealmakers & Wealth | S | 11,821 | $5,140,620 | 5
+MCGONIGLE JAMES J | Director | S | 8,335 | $3,791,776 | 7
+SIEGEL LAURIE | Director | S | 5,410 | $2,090,981 | 5
+Frank Malcolm | Director | S | 5,410 | $2,059,934 | 4
+Stepp Katherine M | Chief Technology Officer (CTO) | S | 3,797 | $1,662,221 | 6
+Moskoff Gregory T | MD,Controller and CAO | S | 3,193 | $1,402,548 | 7
+ABRAMS ROBIN ANN | Director | S | 2,375 | $999,186 | 1
+Costigan John | Chief Data Officer | S | 1,622 | $780,174 | 2
+Harding Catrina | Chief People Officer | S | 453 | $184,806 | 1
+Skoko Goran | EVP, Chief Revenue Officer | P | 500 | $126,465 | 1
+Shan Helen L. | EVP, Chief Financial Officer | P | 370 | $101,928 | 1
+McLoughlin Christopher | Chief Legal Officer | P | 338 | $100,001 | 2
+Eilam Barak | Director | S | 1 | $283 | 1
+# open-market BUYS detail (4):
+2025-09-23 McLoughlin Christopher (Chief Legal Officer) 3 sh @ $297.66
+2025-09-23 McLoughlin Christopher (Chief Legal Officer) 335 sh @ $296.18
+2025-10-06 Shan Helen L. (EVP, Chief Financial Officer) 370 sh @ $275.48
+2025-11-06 Skoko Goran (EVP, Chief Revenue Officer) 500 sh @ $252.93
+# TOTAL buys $328,393 | sells $72,120,654 | net $-71,792,260
