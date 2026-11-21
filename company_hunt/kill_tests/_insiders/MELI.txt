@@ -1,0 +1,13 @@
+# MERCADOLIBRE INC: 32 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Dubugras Henrique Vasoncelos | Director | S | 845 | $1,713,778 | 1
+Aguzin Alejandro Nicolas | Director | P | 600 | $993,556 | 2
+Tolda Stelleo |  | S | 246 | $503,778 | 1
+Melamud Marcelo | SVP - Chief Accounting Officer | P | 182 | $300,079 | 2
+Calemzuk Emiliano | Director | S | 95 | $190,481 | 2
+# open-market BUYS detail (4):
+2026-02-27 Melamud Marcelo (SVP - Chief Accounting Officer) 57 sh @ $1,755.77
+2026-05-22 Aguzin Alejandro Nicolas (Director) 95 sh @ $1,655.01
+2026-05-22 Aguzin Alejandro Nicolas (Director) 505 sh @ $1,656.10
+2026-06-11 Melamud Marcelo (SVP - Chief Accounting Officer) 125 sh @ $1,604.62
+# TOTAL buys $1,293,635 | sells $2,408,037 | net $-1,114,402

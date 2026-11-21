@@ -1,0 +1,24 @@
+# INTUIT INC.: 353 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+COOK SCOTT D | Founder | S | 788,705 | $501,447,722 | 223
+COOK SCOTT D | Director | S | 494,365 | $327,541,897 | 99
+Goodarzi Sasan K | CEO, President and Director | S | 217,562 | $137,848,331 | 54
+FENNELL LAURA A | EVP, People and Places | S | 147,234 | $99,673,578 | 56
+COOK SCOTT D | Chair of the Exec. Committee | S | 164,748 | $98,242,553 | 40
+Goodarzi Sasan K | CEO, President, and Director | S | 93,641 | $53,283,722 | 19
+Tessel Marianna | EVP, GBSG | S | 41,714 | $30,550,866 | 4
+McLean Kerry J | EVP, Gen. Counsel & Corp. Sec. | S | 44,920 | $30,329,752 | 20
+Aujla Sandeep | EVP and CFO | S | 33,503 | $23,281,969 | 21
+Balazs Alex G. | EVP, Chief Technology Officer | S | 33,336 | $22,075,660 | 13
+Notarainni Mark P. | EVP, Consumer Group | S | 17,334 | $11,371,446 | 43
+DALZELL RICHARD L |  | S | 5,853 | $3,092,711 | 23
+Burton Eve B |  | S | 4,690 | $2,963,000 | 2
+Hotz Lauren D | SVP, Chief Accounting Officer | S | 4,469 | $2,833,213 | 6
+McLean Kerry J | EVP, Gen. Counsel & Corp.Sec. | S | 3,692 | $2,450,892 | 1
+Vazquez Raul | Director | S | 1,631 | $1,015,978 | 1
+PRABHU VASANT M | Director | P | 1,750 | $541,665 | 2
+COOK SCOTT D |  | S | 529 | $351,780 | 1
+# open-market BUYS detail (2):
+2026-05-22 PRABHU VASANT M (Director) 1,250 sh @ $309.45
+2026-05-26 PRABHU VASANT M (Director) 500 sh @ $309.71
+# TOTAL buys $541,665 | sells $1,348,355,069 | net $-1,347,813,404

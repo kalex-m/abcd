@@ -271,3 +271,151 @@ Hidden asset: 49% of Westinghouse Electric (with Brookfield), equity-accounted (
 Cameco guides its 49% share of Westinghouse's 2026 adjusted EBITDA to US$370-430m (Q3-2026 MD&A), which puts the whole of Westinghouse at roughly $0.8bn of EBITDA. Even at 15x, Cameco's share net of an estimated slice of Westinghouse debt is about $4bn, and the uranium and fuel businesses at 10-12x EBITDA add under $10bn, so the conservative SOTP is about $13bn against a $27.2bn market cap. Using the $30bn IPO-trigger value from the US-government deal for all of Westinghouse still leaves the SOTP short of the price. The market already prices both Westinghouse and a strong uranium price. Drop.
 
 Sources: https://www.sec.gov/Archives/edgar/data/1009001/000119312526439858/d106072dex992.htm (6-K EX-99.2 Q3-2026 MD&A, 2026); yfinance CCJ, CADUSD close 2026-11-18
+
+## LVS: Las Vegas Sands Corp. (DROP (no gap))
+
+Hidden asset: 75.56% of Sands China (HKEX: 1928) plus 100% of Marina Bay Sands (listed stake + segment). Market cap $24.6bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Sands China 75.56% at market** | HK$84.4bn x 0.1275 x 75.56% | 8.1 |
+| Marina Bay Sands | 9x ~$2.75bn annual adjusted property EBITDA (9M-2026 $2,067m) | 24.8 |
+| Corporate expense | -8x ~$0.33bn/yr (approx.) | -2.6 |
+| less net debt | consolidated net debt $11.0bn (metrics.csv) less ~$5.6bn sitting inside Sands China (approx., not verified) | -5.4 |
+| **conservative SOTP** | | **24.9** |
+| market cap | yfinance 2026-11-18 | 24.6 |
+| **gap** | SOTP / mcap - 1 | **+1%** |
+
+Las Vegas Sands owns 75.56% of Sands China ($8.1bn at the Hong Kong price) and all of Marina Bay Sands, which earned $2,067m of adjusted property EBITDA in 9M-2026 while Macau slipped to $1,592m. At 9x for MBS and with parent net debt of roughly $5.4bn after removing Sands China's own borrowings, the SOTP is about $25bn, the same as the $24.6bn market cap. MBS at 12x would add about $8bn, but that is a bull case for an asset that needs billions of expansion capex. No conservative gap. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1300514/000130051426000103/lvs-20260930.htm (10-Q Q3 2026); yfinance 1928.HK, LVS, HKDUSD close 2026-11-18; triage/metrics.csv
+
+## FMX: Fomento Economico Mexicano (FEMSA) (DROP (priced))
+
+Hidden asset: ~47% of Coca-Cola FEMSA (NYSE: KOF) inside the OXXO retail group (listed stake). Market cap $43.5bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Coca-Cola FEMSA ~47.2% at market** | KOF mcap $25.05bn x 47.2% (stake % from prior filings, not re-verified) | 11.8 |
+| OXXO and other ex-KOF businesses | 8x ex-KOF LTM adjusted EBITDA ~MXN74bn (ND/EBITDA 1.19x on MXN95.2bn; KOF dividends removed, approx.) | 31.3 |
+| less net debt | ex-KOF net debt incl. MXN110.8bn lease liabilities, MXN95.2bn (30 Sep 2026) | -5.0 |
+| **conservative SOTP** | | **38.1** |
+| market cap | yfinance 2026-11-18 | 43.5 |
+| **gap** | SOTP / mcap - 1 | **-12%** |
+
+FEMSA's ~47% of Coca-Cola FEMSA is worth about $11.8bn at the NYSE price, 27% of FEMSA's $43.5bn market cap. Ex-KOF, FEMSA reports MXN95.2bn of net debt including leases at 1.19x LTM adjusted EBITDA (3Q-2026 release), implying roughly MXN74bn of EBITDA from OXXO and the smaller units once KOF dividends are removed. At 8x that EBITDA the SOTP is about $38bn, 12% below the market cap: investors already pay more than a conservative multiple for OXXO. The bottler stake is a well-lit room. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1061736/000110465926119381/tm2628435d1_ex99-1.htm (6-K EX-99.1 3Q-2026 results, 2026-10-28); yfinance KOF, FMX, MXNUSD close 2026-11-18
+
+## BN: Brookfield Corporation (DROP (no conservative gap))
+
+Hidden asset: 74% of Brookfield Asset Management (listed) plus listed stakes in BIP (27%), BEP (47%), BBUC (70%) (listed stakes). Market cap $87.7bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **BAM 74% at market** | BAM mcap $80.5bn x 74% | 59.6 |
+| **BIP group 27%** | BIP $33.9bn + BIPC $5.3bn = $39.2bn x 27% | 10.6 |
+| **BEP group 47%** | $20.9bn x 47% | 9.8 |
+| **BBUC 70%** | $5.67bn x 70% | 4.0 |
+| Wealth Solutions operations (ex its BAM and BBUC shares) | 8x ~$1.4bn DE (approx., not verified) | 11.0 |
+| Real estate (BPG) and other | well below book; $8bn placeholder (not verified) | 8.0 |
+| Preferred equity | -$4.09bn | -4.1 |
+| less net debt | corporate borrowings $16.06bn (30 Sep 2026); corporate cash not netted | -16.1 |
+| **conservative SOTP** | | **82.8** |
+| market cap | yfinance 2026-11-18 | 87.7 |
+| **gap** | SOTP / mcap - 1 | **-6%** |
+
+Brookfield Corporation holds 74% of BAM ($59.6bn at market), 27% of the BIP group, 47% of the BEP group and 70% of BBUC (Q3-2026 interim report), together about $84bn against an $87.7bn market cap. Add rough values for the insurance operations and the real estate book, and subtract $16.1bn of corporate borrowings and $4.1bn of preferred equity, and the SOTP lands near $83bn, slightly under the price. Management's own plan value is far higher, but it leans on carried interest and growth I would not put in a conservative case. A famous discount that, measured strictly, is not there today. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1001085/000100108526000030/a2026-q3bninterimreport.htm (6-K Q3-2026 interim report, 2026-11-16); yfinance BAM, BIP, BIPC, BEP, BBUC close 2026-11-18/20
+
+## HMC: Honda Motor Co., Ltd. (KEEP (high gap))
+
+Hidden asset: The world's largest motorcycle business (H1 FY3/27 operating profit JPY439bn, +19%) and Honda Financial Services, inside a car maker earning ~nothing on autos (segment + captive finance). Market cap $43.7bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Motorcycle business** | 10x annualised H1 FY3/27 operating profit JPY439.0bn x2 = JPY878bn ($5.5bn) | 54.9 |
+| **Financial Services** | 6x annualised pre-tax operating profit JPY210.9bn x2 = JPY422bn ($2.6bn) | 15.8 |
+| Automobile business | H1 auto profit ~JPY-6bn by difference (consolidated JPY648.7bn - segments); full-year guide JPY780bn implies H2 EV losses; valued at -$5bn | -5.0 |
+| Power products and other | H1 profit JPY4.4bn; nil | 0.0 |
+| less net debt | industrial net cash JPY448bn per metrics.csv (yfinance-filled, approx.); equity-method JV stakes ignored | 2.8 |
+| **conservative SOTP** | | **68.5** |
+| market cap | yfinance 2026-11-18 | 43.7 |
+| **gap** | SOTP / mcap - 1 | **+57%** |
+
+Honda's motorcycle business made JPY439.0bn of operating profit in the six months to Sep-2026, up 19.2%, and Financial Services made JPY210.9bn, against consolidated operating profit of JPY648.7bn (6-K, Nov 2026). Take those numbers at face value and the car business, Honda's headline product, earned roughly nothing in the half, and the full-year guide of JPY780bn implies EV losses ahead. Motorcycles at 10x annualised operating profit are worth about $55bn, more than Honda's entire $43.7bn market cap, and that multiple is a fraction of what listed Indian two-wheeler makers fetch. Even after charging $5bn for the autos and valuing the finance arm at 6x pre-tax, the SOTP is about $69bn, a 57% gap. The risk is that car losses keep burning motorcycle cash and nobody at Honda wants to separate the two. The cleanest hidden-segment case on this list.
+
+Sources: https://www.sec.gov/Archives/edgar/data/715153/000119312526456637/d178380d6k.htm (6-K H1 FY3/27 results MD&A, Nov-2026); https://www.sec.gov/Archives/edgar/data/715153/000119312526454310/d164844d6k.htm (6-K earnings summary with FY forecast and share data); yfinance HMC, JPYUSD close 2026-11-18; triage/metrics.csv
+
+## DAL: Delta Air Lines, Inc. (DROP (trap: inseparable))
+
+Hidden asset: SkyMiles loyalty program and the American Express co-brand contract (data/loyalty asset). Market cap $55.8bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **SkyMiles** | 3x annualised cash sales from marketing agreements ($6.8bn in 9M-2026 -> ~$9.2bn/yr); the 2020 appraisal was ~4.7x | 27.6 |
+| Airline ex-loyalty | 6x ~$1.5bn pre-tax left after stripping a ~50% loyalty margin from ~$6bn group pre-tax (approx.) | 9.0 |
+| less net debt | metrics.csv net debt (leases excluded) | -8.3 |
+| **conservative SOTP** | | **28.3** |
+| market cap | yfinance 2026-11-18 | 55.8 |
+| **gap** | SOTP / mcap - 1 | **-49%** |
+
+Delta sold $6.8bn of miles to partners in 9M-2026, mostly to American Express, up 13% from $6.0bn (10-Q, Q3 2026). That stream is why loyalty programs were appraised at more than their airlines in 2020. But a mile is only worth something if Delta keeps flying, so the asset cannot be separated, and if you value SkyMiles at 3x cash sales and the airline on what is left, the SOTP is about $28bn net of debt against a $55.8bn market cap. The market already pays for the Amex contract and then some. UAL and AAL have the same structure and the same problem. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/27904/000002790426000038/dal-20260930.htm (10-Q Q3 2026, loyalty note); yfinance DAL close 2026-11-18; triage/metrics.csv
+
+## Screened but not given a full SOTP (one-line parts check)
+
+These were tested against the Ground 6 definition and dropped on a quick parts check, or could not be built from what is filed. Values use yfinance closes of 2026-11-18 and the filings named; stake percentages marked "approx." were not re-verified in this run.
+
+| ticker | hidden asset tested | quick parts check | why dropped |
+|---|---|---|---|
+| WDC | 19.9% Sandisk stake retained at the 2025 split | Sandisk is now a $110bn company, but WDC's 10-Q for the quarter to 2 Oct 2026 (filed 2026-10-23) no longer mentions a Sandisk holding | Already disposed of; the room is empty |
+| STLA | ~21% of Leapmotor (approx.) | HK$43.7bn x 0.1275 x 21% = ~$1.2bn vs $10.3bn market cap (11%) | Too small next to Stellantis's own losses (stock -64% in a year) |
+| WYNN | ~71% of Wynn Macau (10-Q) | HK$21.2bn x 0.1275 x 71% = $1.9bn vs $8.5bn cap, with $10.7bn consolidated debt | Same debt logic as MGM; stake is small |
+| TCOM | stakes in Tongcheng, MakeMyTrip and others | Q3-2026 results not out until 2 Dec 2026; Q2 showed a RMB5.2bn SAMR penalty and contra-revenue | A cheap-after-penalty question (Ground 1), not a hidden room |
+| BABA | 33% of Ant Group, Alibaba Cloud | Sept-quarter results not yet filed on EDGAR at the run date | Not examined: could not verify current numbers |
+| MUFG | ~22-23% of Morgan Stanley (approx.) | MS $283bn x ~22.5% = ~$64bn vs $226bn cap; MUFG ex-MS trades near 10x its remaining earnings | Visible equity-method stake; no gap |
+| BTI | ~23% of ITC (approx.) | ITC INR3.77tn x 0.01072 x ~23% = ~$9.3bn vs $125.6bn cap (7%) | Too small; already being sold down to fund buybacks |
+| ALB | 49% of Windfield (Greenbushes lithium mine) | IGO trades at A$3.59bn for a ~25% look-through plus other assets, implying ~$4bn for ALB's 49% vs a $10.1bn cap | Rest of ALB at plain multiples brings the parts to about the market cap |
+| GM | GM Financial captive finance | 2026 EBIT-adjusted guide $14.5-15.5bn; Automotive cash and securities $23.1bn (10-Q Q3 2026); GMF at 6x after-tax plus auto at 4x is about the $69bn cap | No gap |
+| KHC | split into two companies | Q3-2026 10-Q says separation work is paused; segments are geographic, no fast-growing line | Unlock withdrawn; nothing hidden |
+| FISV | Clover inside a processor | Clover revenue is not broken out in the Q3-2026 10-Q | Could not build a segment SOTP from filings |
+| PAG | 28.9% of Penske Transportation Solutions (10-Q) | Equity-method share of a freight-cyclical lessor; worth roughly a fifth of PAG at generous multiples | Not big enough, and PAG already trades near 15x earnings |
+| SRE | 80% of Oncor; Sempra Infrastructure stake sale to KKR | Regulated, fully disclosed; the KKR deal already marked SI Partners | Not hidden |
+| GHC | marketable equities $1.07bn at fair value (cost $0.26bn) plus pension surplus | 20% of the $5.27bn cap in securities alone | Budget ran out before a segment-by-segment build; worth a later look |
+| UAL, AAL | MileagePlus, AAdvantage | Same structure as DAL | Same trap: the program cannot leave the airline |
+| KO, MO, CME, ADM, SEIC | bottler/Monster stakes; AB InBev stake; 27% of S&P Dow Jones Indices; ~22% of Wilmar; 38.7% of LSV | Each is under ~15% of the parent's market cap (Wilmar S$18.2bn x 22% x 0.7755 = ~$3.1bn vs ADM $32.3bn) | Real but too small to move the SOTP |
+| OXY, FANG, NXST, MOS, TM, CMCSA, PYPL, HON | WES and Viper stakes; Food Network JV; Ma'aden shares; Toyota cross-holdings; Versant spin; Venmo; post-spin Honeywell | not built | Lower priority under the run budget; NXST's Food Network stake looks like a value trap (declining cable network) |
+
+Quant flags from `ground_6_full.csv` that are normal operating structures, not hidden assets: midstream general partners and their JVs (PAGP, PAA, KMI, MPLX, OKE, WMB, DTM, KNTK, AM, SOBO, EQT), utilities whose "investments" are nuclear decommissioning trusts (EIX, ETR, DTE, D), REITs with property JVs (VNO, REG, KIM, FR, PLD), alternative asset managers' fund stakes (ARES, BX, HLNE, STEP, AMG, BAM), insurer portfolios (CVS), auto suppliers' and industrials' small JVs (MGA, APTV, LEA, CNH, CMI, CARR, JCI, APG, WWD, GE, MMM, VMI, AWI), and one-off accounting artifacts (HPE equity income from the sold H3C stake; DKNG, TAL, ZM, SBUX, THC flags). None was carried forward.
+
+## Names on Alex's list or under research (flagged, not ranked)
+
+| ticker | does it fit Ground 6? | reading |
+|---|---|---|
+| GOOGL | Yes in shape (Waymo/Other Bets, stakes in Anthropic and SpaceX, Cloud inside an ad company) | Not rebuilt here because Alex is researching it; at Alphabet's size even generous private marks on the AI and space stakes are a few percent of the market cap, so the case rests on Cloud and Waymo, not on a stake discount |
+| META | Inverse shape: Reality Labs losses hide how much Family of Apps earns | Not a stake or separable-asset story; belongs in Alex's own work |
+| UBER | Holds listed and private equity stakes carried at fair value | Visible in the 10-Q and small relative to a $140bn cap; does not fit |
+| SPGI | S&P Dow Jones Indices is the best asset inside a plainer name | The Mobility unit (CARFAX) is already spun off; the remaining indices business is disclosed as a segment; unlock has largely happened |
+| INTU | Credit Karma inside a tax/accounting software name | Reported as its own segment; not hidden |
+| AZN, JPM, UNP | No hidden-room structure found (UNP's land is operating real estate tied to the network) | Do not fit |
+
+## Final ranking (written to `triage/ground_6.csv`)
+
+| rank | ticker | conservative SOTP gap | hidden asset | why this rank |
+|---:|---|---:|---|---|
+| 1 | HMC | +57% | Motorcycles (JPY878bn annualised operating profit) + Honda Financial Services | Best asset quality, largest gap, and the gap rests on segment profit Honda reports, not on a market price that can fall; heavy buybacks |
+| 2 | BIDU | +35% | $41.3bn of cash and investments + AI Cloud (+94%) | Gap is mostly cash; first-ever dividend promised before end-2026 is a real unlock step |
+| 3 | JD | +57% | Listed JDL/JD Health/JD Industrials + a ~$8bn/yr retail profit masked by New Businesses losses | Gap as big as Honda's but rests on a 6x multiple and on New Businesses losses shrinking; acquisitive (CECONOMY) and China-regulated |
+| 4 | F | +30% | Ford Pro (2026 EBIT guide ~$7.0bn) + Ford Credit | Real profit pool, but cannot be separated and Pro EBIT is falling |
+| 5 | NWSA | +12% | 62.0% of REA Group | High-quality listed stake, thin taxed gap, no unlock intent |
+| 6 | THC | +11% | USPI ambulatory surgery | High-quality segment, but minority partners take a big slice |
+| 7-11 | L, EQH, LVS, BIO, BN | +5% to -6% | CNA; AllianceBernstein; Sands China/MBS; Sartorius; BAM and the Brookfield LPs | Watch list: real hidden-room structures where the conservative gap is already closed; they matter only if the price falls 10-20% |
+
+I stopped at 11 rather than 25 because only six of the 19 full SOTPs clear a 10% conservative gap, and padding the list with negative-gap names would misstate the ground.
+
+## Why this list looks like this
+
+I built full conservative SOTPs for 19 companies and quick parts checks for about 25 more, and the result is that the famous hidden rooms of the US market are mostly open: the median conservative gap across the 19 is -1%, and only six clear +10%. The classic holding-company structures price close to their parts once you tax the stakes and use plain multiples: Loews +5% (CNA ~92% worth $12.1bn, parent net cash $2.6bn), Equitable +2% (AB stake $6.4bn), Las Vegas Sands +1% (Sands China 75.56% worth $8.1bn), Bio-Rad -1% (Sartorius $6.6bn pre-tax but $1.4bn of tax on a near-zero basis), Brookfield -6% (BAM 74% worth $59.6bn, but $16.1bn of corporate borrowings and $4.1bn of preferreds), FEMSA -12%. The visible-and-already-priced cases are worse: EchoStar's SpaceX receivable is worth $11.1bn at the contract price, yet the market cap implies about 1.6x that; Cameco's Westinghouse share is $370-430m of EBITDA and the stock needs more than the $30bn IPO-trigger value to make sense; Hasbro's Wizards earns 42% margins but the stock is up 62% in a year; MPC's $37bn MPLX stake sits beside boom refining EBITDA ($17.9bn in nine months) that the price already capitalises. Two traps showed up exactly as the brief warned: MGM's stakes look large against an $8.5bn cap until $23.9bn of lease liabilities are counted (-48%), and Delta's SkyMiles stream ($6.8bn of partner cash sales in nine months) cannot leave the airline and is already paid for (-49%). The real gaps sit where a profitable business is drowned by a loss-making headline: Honda's motorcycles (JPY439bn of operating profit in one half, worth more than the whole $43.7bn company at 10x) behind a car business that earned roughly nothing, Baidu's $26bn of net cash and investments behind a shrinking search business, JD's ~$8bn retail profit and $17bn of listed subsidiaries behind food-delivery losses, and Ford Pro's ~$7bn of EBIT behind a $4bn Model e loss. None of the four has a management that has said it will separate the hidden asset, so the gaps are paid for with patience, buybacks and, in Baidu's case, a first dividend. The hidden room in late 2026 is not in the holding companies everyone already discounts; it is in large Asian and industrial companies whose best segment is buried under a loss-making headline business, and Honda is the cleanest example.

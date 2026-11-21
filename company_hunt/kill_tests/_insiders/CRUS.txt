@@ -1,0 +1,19 @@
+# CIRRUS LOGIC, INC.: 118 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Baumgartner Jeffrey W | EVP, R&D | S | 53,583 | $6,971,415 | 14
+THOMAS SCOTT | EVP, General Counsel | S | 29,304 | $4,039,425 | 6
+Forsyth John | CEO | S | 26,806 | $3,799,131 | 2
+Brannan Andrew | EVP, Worldwide Sales | S | 17,022 | $2,285,699 | 5
+Dougherty Justin E | SVP, Global Operations | S | 17,483 | $2,074,980 | 7
+THOMAS SCOTT | Sr VP, General Counsel | S | 16,749 | $1,868,884 | 2
+Brannan Andrew | VP, Worldwide Sales | S | 15,574 | $1,844,380 | 6
+Tupman David J. | Director | S | 15,346 | $1,784,574 | 2
+Dougherty Justin E | EVP, Global Operations | S | 10,380 | $1,313,382 | 4
+Alberty Carl Jackson | EVP, MSP | S | 8,648 | $1,035,694 | 4
+Baumgartner Jeffrey W | VP, R&D | S | 5,542 | $560,019 | 1
+DAVERN ALEXANDER M | Director | S | 4,000 | $520,475 | 4
+Grode Denise | EVP, CHRO | S | 4,410 | $509,857 | 2
+Alberty Carl Jackson | VP, MSP | S | 3,033 | $372,374 | 2
+Nathamuni Venkatesh | Chief Financial Officer | S | 1,500 | $140,005 | 3
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $29,120,294 | net $-29,120,294

@@ -1,0 +1,16 @@
+# Owens Corning: 334 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Smith Gunner | President, Roofing | S | 27,704 | $4,876,024 | 5
+Sandri Marcio A | President, Composites | S | 21,909 | $3,714,812 | 4
+Fister Todd W | EVP & Chief Financial Officer | S | 15,869 | $2,839,920 | 3
+Mendez-Andino Jose | EVP, Chief R&D Officer | S | 8,029 | $1,414,002 | 6
+Chambers Brian | Chair, President and CEO | S | 9,100 | $1,397,487 | 1
+Del Monaco Nicolas | President, Insulation | S | 5,173 | $926,004 | 2
+Russell Paula | EVP, Chief HR Officer | S | 3,765 | $609,930 | 1
+Beredo Gina A. | EVP, GC and Secretary | S | 3,125 | $573,406 | 1
+Marcon Rachel Barthelemy | President,  Doors | S | 2,957 | $411,484 | 3
+Doerfler Mari | Vice President and Controller | S | 2,957 | $392,619 | 4
+Ball Christopher O | President, Doors | S | 2,113 | $349,617 | 1
+MORRIS W HOWARD | Director | S | 1,313 | $213,059 | 3
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $17,718,363 | net $-17,718,363

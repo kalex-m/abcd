@@ -1,0 +1,15 @@
+# Booking Holdings Inc.: 133 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Fogel Glenn D | CEO AND PRESIDENT | S | 42,903 | $113,128,555 | 539
+MILLONES PETER J | EXECUTIVE VP, GENERAL COUNSEL | S | 162,550 | $28,504,912 | 18
+Pisano Paulo | CHIEF HUMAN RESOURCES OFFICER | S | 10,365 | $13,749,672 | 16
+GOULDEN DAVID I | CHIEF FINANCIAL OFFICER | S | 2,550 | $9,125,924 | 57
+Steenbergen Ewout L | CHIEF FINANCIAL OFFICER | S | 20,000 | $4,220,516 | 5
+D'Emic Susana | SVP, CAO & CONTROLLER | S | 858 | $3,101,414 | 3
+MYLOD ROBERT J JR |  | S | 7,160 | $2,222,530 | 36
+Read Nicholas |  | S | 449 | $1,393,912 | 1
+Vojvodich Radakovich Lynn |  | S | 276 | $981,065 | 8
+WITTMAN VANESSA AMES |  | S | 2,700 | $906,752 | 8
+Quinlan Larry |  | S | 128 | $710,330 | 54
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $178,045,582 | net $-178,045,582

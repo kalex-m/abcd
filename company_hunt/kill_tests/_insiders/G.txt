@@ -1,0 +1,18 @@
+# Genpact LTD: 136 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Mehta Piyush | Senior Vice President and CHRO | S | 358,902 | $15,649,605 | 5
+Tyagarajan N. V. | Director | S | 111,880 | $6,100,816 | 3
+Kalra Balkrishan | President and CEO | S | 111,000 | $4,825,756 | 8
+Dewan Sameer | Senior Vice President | S | 76,669 | $3,303,846 | 5
+White Heather | SVP & Chief Legal Officer | S | 69,084 | $3,086,643 | 7
+Nanduru Anil | Senior Vice President | S | 63,248 | $2,470,898 | 5
+Stein Kathryn Vanpelt | Senior Vice President | S | 57,336 | $1,998,149 | 2
+Vashisht Riju | Senior Vice President | S | 41,555 | $1,911,663 | 3
+Weiner Michael Hal | Chief Financial Officer | S | 19,265 | $800,123 | 2
+Lindstrom Carol | Director | S | 12,824 | $618,331 | 4
+Klunk Donald J | Chief Accounting Officer | S | 9,934 | $465,067 | 6
+Franklin Tamara | Director | S | 2,750 | $125,538 | 1
+Gangestad Nicholas C | Director | P | 2,000 | $87,940 | 1
+# open-market BUYS detail (1):
+2025-05-13 Gangestad Nicholas C (Director) 2,000 sh @ $43.97
+# TOTAL buys $87,940 | sells $41,356,434 | net $-41,268,494

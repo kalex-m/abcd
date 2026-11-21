@@ -60,3 +60,8 @@ Run date: 2026-11-19 (UTC). Working folder: `company_hunt/`.
 - G5 (batch 8): advance TXT, ABT, PEP (PEP low conviction). PRICED_IN: JPM, BAC, C, BNY, RJF, HIG, MET, ICE, MCO, JNJ. MKC = DATA_ARTIFACT (Reverse Morris Trust with Unilever Foods). ACGL HURT but N (forward P/E above own median).
 - JPM (Alex's holding) = PRICED_IN: 15x vs 10x own 10y median P/E, 2.9x tangible book at ~20% ROTCE, Q3 2026 net buybacks cut to $664M. Note: the batch-8 prompt framed JPM leadingly ("probably PRICED_IN if 15x vs 10x"); the verdict rests on the agent's own cited figures, but the framing is logged as a bias risk.
 - Batch 7 also found: Jensen Huang resigned as NVIDIA CEO on 2026-11-12 (from news; kill test must confirm via 8-K Item 5.02).
+
+## Phase 4 batch 2 result (2026-11-21)
+- 11 tested, 1 survives: AYI (quality 7, mispricing clarity 3; near-zero net debt, ROIC-linked pay, 6 analysts, trades at its own 10y median multiples). Failures: CE (2,3,5,10), APTV (2,5,6,7,10), EDU (7,8,10), FDS (10), FIS (3,5,6,10), G (3 unverified + 10), ADBE (5,10), MELI (4,10), MGM (2,3,10), FUTU (7,8,10).
+- Surprise: gate 10 failed for 10 of 11. The HURT names are well-covered bear cases (ADBE 33 analysts; FDS short 12.6%; MGM short 17.4%), so a thesis on them would be "the market is wrong about what it studied", which the brief rejects. MELI's and FUTU's screen FCF yields were customer-money flows (deposits funding loans; client cash), not owner cash.
+- Data gap: Form 4 pulls for G, ADBE, MGM timed out under concurrent EDGAR load; marked "not verified" in those files.

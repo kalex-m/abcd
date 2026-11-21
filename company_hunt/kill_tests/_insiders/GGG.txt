@@ -1,0 +1,25 @@
+# GRACO INC: 206 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+JOHNSON DALE D | Chief Comm Development Officer | S | 63,510 | $5,950,595 | 1
+O'Shea Peter J | President, WW LED, Pres SCA | S | 41,495 | $3,695,144 | 4
+Rothe Christian E | President, Industrial Division | S | 40,000 | $3,611,552 | 4
+Chambers Caroline M | President, EMEA | S | 32,280 | $2,874,672 | 3
+Etchart Eric | Director | S | 32,462 | $2,741,912 | 8
+GILLIGAN J KEVIN | Director | S | 30,870 | $2,652,482 | 3
+Merengo Claudio | Pres, Global Powder Division | S | 23,542 | $2,049,577 | 2
+Merengo Claudio | President, WW Powder Division | S | 18,264 | $1,644,242 | 3
+SHEAHAN MARK W | President and CEO | S | 12,884 | $1,074,139 | 1
+O'Shea Peter J | Pres, Global Industrial Divis | S | 8,820 | $777,007 | 1
+Wordell Angela F | Executive VP, Operations | S | 6,483 | $568,208 | 2
+White Timothy R | Pres., Worldwide Process Div | S | 5,395 | $485,332 | 2
+FERAGEN JODY H | Director | S | 5,036 | $464,770 | 1
+Schoenrock Kathryn L | EVP, Chief Information Officer | S | 3,750 | $333,641 | 2
+Thompson David J | Pres, Global Contractor Divis | S | 3,588 | $309,393 | 1
+Thompson David J | President, Worldwide CED | S | 3,216 | $284,005 | 1
+Wordell Angela F | EVP, Chief Op and Supply Chain | S | 2,832 | $263,993 | 1
+White Timothy R | Pres, Expansion Division | S | 1,469 | $133,233 | 1
+Gargano Anthony J | President, Asia Pacific | S | 1,395 | $122,760 | 1
+Simon Andrea Helen | Director | P | 1,240 | $99,857 | 1
+# open-market BUYS detail (1):
+2026-04-27 Simon Andrea Helen (Director) 1,240 sh @ $80.53
+# TOTAL buys $99,857 | sells $30,036,658 | net $-29,936,801

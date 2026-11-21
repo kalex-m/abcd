@@ -1,0 +1,14 @@
+# ACUITY INC. (DE): 63 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+ASHE NEIL | President & CEO | S | 43,464 | $13,888,459 | 28
+GOLDMAN BARRY R | SVP & General Counsel | S | 25,321 | $8,245,798 | 15
+HOLCOM KAREN J | SVP & Chief Financial Officer | S | 22,795 | $6,663,957 | 5
+MILLS DIANNE S | SVP & Chief HR Officer | S | 6,000 | $1,350,663 | 3
+O'Shaughnessy Laura | Director | P | 1,073 | $305,049 | 2
+Leibman Maya | Director | P | 400 | $107,548 | 2
+# open-market BUYS detail (4):
+2024-04-25 Leibman Maya (Director) 200 sh @ $248.91
+2026-04-08 O'Shaughnessy Laura (Director) 1,000 sh @ $282.98
+2026-04-30 Leibman Maya (Director) 200 sh @ $288.83
+2026-10-16 O'Shaughnessy Laura (Director) 73 sh @ $302.32
+# TOTAL buys $412,597 | sells $30,148,878 | net $-29,736,280

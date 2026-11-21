@@ -6,3 +6,7 @@ DECK done
 EDU done
 AMP done
 FDS done
+OC done
+AYI done
+GGG done
+FIS done
