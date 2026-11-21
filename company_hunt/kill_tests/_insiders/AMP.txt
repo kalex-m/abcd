@@ -1,0 +1,18 @@
+# AMERIPRISE FINANCIAL INC: 197 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+CRACCHIOLO JAMES M | CHAIRMAN AND CEO | S | 159,190 | $65,922,115 | 25
+Berman Walter Stanley | EXECUTIVE VP AND CFO | S | 54,422 | $26,681,054 | 10
+TRUSCOTT WILLIAM F | CEO, GLOBAL ASSET MANAGEMENT | S | 54,202 | $24,893,503 | 6
+Sweeney Joseph Edward | PRES-AWM PRODUCTS & SERVICES | S | 30,717 | $14,431,946 | 7
+Williams William Jerryl | Pres, Wealth Mgmt Advisor Grp | S | 16,104 | $8,667,768 | 5
+Alvero Gumer | PRESIDENT-INSURANCE&ANNUITIES | S | 9,480 | $4,756,637 | 5
+Sharpe Robert Francis JR |  | S | 10,200 | $4,513,469 | 6
+Davies William | EXECUTIVE VP, GLOBAL CIO | S | 8,700 | $3,846,009 | 1
+Smyth Gerard P. | EVP & Hd. of Tech. & Serv. Del | S | 6,255 | $2,955,607 | 1
+Smyth Gerard P. | EVP TECHNOLOGY AND CIO | S | 4,440 | $1,811,169 | 2
+McGraw Deirdre Davey | EVP Mktg, Strat. & Comms. | S | 2,400 | $1,339,867 | 1
+MELLOH HEATHER J. | EVP AND GENERAL COUNSEL | S | 1,500 | $768,502 | 1
+Brockman Dawn M. | SVP AND CONTROLLER | S | 1,046 | $557,102 | 3
+Smyth Gerard P. | EVP & CIO | S | 974 | $252,782 | 1
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $161,397,531 | net $-161,397,531

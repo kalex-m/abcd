@@ -1,0 +1,21 @@
+# DECKERS OUTDOOR CORP: 224 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Powers David | President & CEO | S | 46,912 | $40,422,950 | 5
+Stefano Caroti | Chief Commercial Officer | S | 19,725 | $15,521,484 | 2
+Powers David | Director | S | 60,912 | $12,978,088 | 7
+Garcia Thomas | Chief Administrative Officer | S | 22,000 | $7,454,480 | 2
+Fasching Steven J. | Chief Financial Officer | S | 23,000 | $7,295,381 | 3
+Stewart Bonita C. | Director | S | 17,500 | $5,882,301 | 4
+Stefano Caroti | President & CEO | S | 29,274 | $5,609,795 | 2
+Shanahan Lauri M | Director | S | 8,354 | $3,593,593 | 2
+DEVINE MICHAEL F III | Director | S | 2,000 | $2,154,000 | 1
+Ogbechie Angela | Chief Supply Chain Officer | S | 9,448 | $1,405,338 | 9
+Davis Cindy L | Director | S | 1,579 | $1,316,649 | 1
+Spangenberg Anne | President, Fashion Lifestyle | S | 7,945 | $1,195,111 | 2
+Ellerker Marco | President, Global Marketplace | S | 5,667 | $992,858 | 1
+Ibrahim Maha Saleh | Director | S | 1,450 | $428,710 | 15
+Davis Cindy L | Director | P | 1,825 | $200,319 | 1
+Spring-Green Robin | President, Hoka | S | 347 | $39,482 | 1
+# open-market BUYS detail (1):
+2025-06-06 Davis Cindy L (Director) 1,825 sh @ $109.76
+# TOTAL buys $200,319 | sells $106,290,219 | net $-106,089,900

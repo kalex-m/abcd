@@ -2,3 +2,6 @@ CTVA done
 CE done
 NTES done
 APTV done
+DECK done
+EDU done
+AMP done

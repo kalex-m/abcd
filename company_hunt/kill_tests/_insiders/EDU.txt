@@ -1,0 +1,6 @@
+# New Oriental Education & Technology Group Inc.: 9 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Zhou Chenggang | Director | S | 70,000 | $3,971,443 | 2
+Zhuge Yue | Director | S | 2,170 | $128,909 | 4
+# open-market BUYS detail (0):
+# TOTAL buys $0 | sells $4,100,353 | net $-4,100,353

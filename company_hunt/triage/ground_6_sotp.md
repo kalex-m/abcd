@@ -158,3 +158,22 @@ Hidden asset: Listed subsidiaries JD Logistics (~64%), JD Health (~67%), JD Indu
 JD's market cap is $33.7bn. Its share of three Hong Kong-listed subsidiaries is about $17bn at market (JD Logistics ~64%, JD Health ~67%, JD Industrials ~75%), and JD Retail, which includes Health and Industrials, earned RMB15.1bn of operating income in Q3-2026 alone, or roughly $8bn a year. The headline numbers are drowned by New Businesses (food delivery, Jingxi, overseas) losses. Put JD Retail at 6x operating income, take out the minorities, charge two years of New Businesses losses, and credit only half of the $23bn consolidated net cash, and I still get about $54bn, 60% above the market. The catch is that management is buying (CECONOMY for EUR1.34bn this month) rather than unlocking, and China regulation already shows up as a SAMR fine in the release. A big conservative gap with a weak unlock path.
 
 Sources: https://www.sec.gov/Archives/edgar/data/1549802/000119312526464688/d179042dex991.htm (6-K EX-99.1 Q3-2026 results, 2026-11-17); https://www.sec.gov/Archives/edgar/data/1549802/000119312526456897/d114554dex991.htm (6-K CECONOMY completion, 2026-11-12); yfinance JD, 2618.HK, 6618.HK, 7618.HK close 2026-11-18
+
+## BIDU: Baidu, Inc. (KEEP (high gap))
+
+Hidden asset: RMB276.6bn ($41.3bn) of cash and investments plus AI Cloud (+94% y/y), Kunlunxin chips and Apollo Go inside a shrinking search-ad business (cash/investments + fast-growing segment). Market cap $23.6bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Cash and investments, 15% haircut** | total cash and investments RMB276.6bn = $41.25bn (30 Sep 2026) x 85% | 35.1 |
+| Baidu General Business (search ads + AI Cloud) | 4x ~RMB19bn adjusted EBITDA (15% margin on ~RMB32bn/qtr revenue, approx.) | 11.4 |
+| iQIYI ~45% | at $0.57bn market cap | 0.3 |
+| **Kunlunxin, Apollo Go** | zero in the conservative case | 0.0 |
+| less net debt | loans, notes and converts ~RMB100bn ($15.0bn) at 30 Sep 2026 (sum of balance-sheet lines, approx.) | -15.0 |
+| **conservative SOTP** | | **31.7** |
+| market cap | yfinance 2026-11-18 | 23.6 |
+| **gap** | SOTP / mcap - 1 | **+35%** |
+
+Baidu reported RMB276.6bn ($41.3bn) of cash and investments at 30 Sep 2026 against roughly RMB100bn ($15bn) of loans and notes, so net cash and investments of about $26bn exceed the $23.6bn market cap before counting any business at all. Inside sits AI Cloud Infra revenue of RMB8.2bn in Q3-2026, up 94% year on year with GPU cloud up 191%, plus the Kunlunxin chip unit and Apollo Go in 30 cities. Haircut the cash pile 15%, put the general business at 4x EBITDA, give the AI options nothing, and the SOTP is about $31bn, a 35% gap. The traps are real: the cash is onshore RMB that management is spending on AI capex (FY2025 free cash flow was -$2.2bn), and search advertising is shrinking. But the first-ever dividend promised before end-2026 is a concrete step toward handing some of that cash back.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1329099/000119312526462286/d767848dex991.htm (6-K EX-99.1 Q3-2026 results, 2026-11-16); yfinance BIDU, IQ close 2026-11-18; triage/metrics.csv (FY2025 FCF)

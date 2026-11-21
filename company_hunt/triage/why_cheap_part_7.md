@@ -1,0 +1,50 @@
+# Why is it cheap? Batch 7
+
+## J (Jacobs Solutions Inc.): PRICED_IN, advance N
+
+Not mispriced: it trades at its own EV/EBIT history and the growth that looks like a tide is mostly pass-through and acquired revenue. Backlog is $28.9B, up 27% (Q3 FY26 release, 2026-08-04), but adjusted net revenue grew only about 8% against gross revenue +34%, so much of the growth is pass-through cost and acquisitions. FY2025 operating margin was 7.2% vs a 4.4% ten-year median, a real improvement, yet EV/EBIT is 24.3 vs 24.7 median and the stock is up 42% in three years with only 5% over the last year. The 64x trailing P/E is a GAAP distortion (FY25 net income $0.29B), not a signal. Not verified: the FY2026 10-K, due after this check. Verdict: priced in, reject.
+
+## EQIX (Equinix, Inc.): PRICED_IN, advance N
+
+The AI landlord leg is real and growing, but the stock already sits above its own history on cash measures and spends more than it earns. Q3 2026 revenue +11% to $2.571B, operating income +27% to $600M, record annualized gross bookings $533M (+35%), guidance raised for the third quarter running (8-K 2026-10-28); RPO $15.9B, +25%. Against that, 2025 capex of $4.31B exceeded operating cash flow of $3.91B (free cash flow -$0.40B), debt is $22.8B, and EV/EBIT is 66 vs a 50 ten-year median. The P/E of 76 vs 96 median looks cheap only because REIT depreciation inflates earnings. Demand is not the question; the price already assumes it. Verdict: priced in, reject.
+
+## LHX (L3Harris Technologies, Inc.): HURT, advance Y
+
+The stock lost about a third of its multiple on a CEO removal, a delayed missile-unit IPO and a defense-sector pullback while orders hit a record. Q3 2026 (8-K 2026-10-29): orders $19.3B, book-to-bill 3.2x (Missile Solutions 11.8x), record backlog $53.2B, revenue +7% (+9% organic), operating margin 13.0% (+200bps), free cash flow $1.3B, FY26 GAAP EPS guidance raised to $12.25-12.35. That puts the stock at about 21x current-year GAAP EPS vs a 24.6x ten-year median; the screen's 31.8x uses stale FY2024 earnings. Search leads (not primary sources) say the slide from the March high of about $379 came from a CEO ouster, a delayed missile-business IPO in July and a sector pullback, and that most of the drop was multiple, not earnings. The discount to history is modest (about 15%), so the case rests on the rocket-motor bottleneck (THAAD $6.3B and PAC-3 $4.7B propulsion awards) and on leadership settling. Verdict: hurt, advance.
+
+## BWXT (BWX Technologies, Inc.): PRICED_IN, advance N
+
+The stock has halved from its high but is still priced above its own history for sole-source naval nuclear work that earns cost-plus margins. Q3 2026 (8-K 2026-11-02): revenue $953M (+10%), adjusted EBITDA +19%, free cash flow $150M (+59%), 2026 non-GAAP EPS guidance $4.72-4.77, preliminary 2027 outlook of high-single-digit revenue growth. At $117.93 that is about 25x non-GAAP guidance and 33x trailing GAAP vs a 22x median; EV/EBIT is 30 vs 19. Search leads attribute the fall to a derating from roughly 54x forward earnings, index-removal selling and AI-linked sentiment, not to a break in the business. The business is fine; the discount is not there yet. Verdict: priced in, reject.
+
+## LMT (Lockheed Martin Corporation): PRICED_IN, advance N
+
+Record backlog is visible to everyone and the stock trades well above its own multiple history on mid-single-digit long-run growth. Q3 2026 (8-K 2026-10-22): sales +11% to $20.7B, EPS $7.97 (+15%), free cash flow $3.0B, backlog a record $292.0B including $52.5B for PAC-3 interceptors, guidance raised for the second straight quarter. Nine-month EPS of $22.36 implies roughly 19-20x current-year earnings vs a 15x ten-year median, and the ten-year revenue CAGR is 6.4% (3-year 4.4%). Margin of 10.3% in 2025 is below the 12.9% median, so earnings could recover, but the multiple already pays for the rearmament shift. Verdict: priced in, reject.
+
+## GVA (Granite Construction Incorporated): UNSEEN, advance Y
+
+Reported GAAP earnings are depressed by a one-off convertible-note settlement while adjusted profit, margins and backlog are all at records, and only 6 analysts cover it. Q3 2026 (8-K 2026-10-29): revenue +23% to $1.77B, adjusted EPS $3.81 vs $2.70, adjusted EBITDA +32% to $283M, committed and awarded projects a record $7.5B, 2029 targets of 10-12% organic revenue growth. GAAP net income fell to $3M because of $162M of non-operating charges from cash-settling 3.75% convertible notes, which is why the trailing P/E of 28 looks ordinary; forward P/E is 14.5. Operating margin of 6.4% in 2025 is triple the 2.2% median (Q3 2026 about 12.7% per the Ground 7 sheet). Short interest is 13.9% and the stock is 23% off its high after a 170% three-year run. Risks: public-works bidding limits pricing, and the federal highway bill timing; whether the margin step-up is durable is the open question. Verdict: unseen, advance.
+
+## CAT (Caterpillar Inc.): PRICED_IN, advance N
+
+Even after the stock fell by almost half as the AI-power trade unwound, it trades above its own history on peak margins. Q3 2026 (8-K 2026-10-29): sales +17% to $20.7B (volume +$2.2B, price +$663M), operating margin 20.4% vs 17.3%, adjusted EPS $7.20 vs $4.95, record backlog; Power & Energy sales +18%. The stock is 47% below its 3-year high; search leads describe selling of data-center-power names (Vertiv, Quanta, CAT) in September to November. On run-rate EPS of about $28 the multiple is roughly 20x vs a 16x ten-year median, on a 20% operating margin that is a cyclical peak for a machinery maker. Power generation was about 15% of 2025 sales, so the shift is real but not the whole company. Verdict: priced in, reject.
+
+## NVT (nVent Electric plc): PRICED_IN, advance N
+
+The growth is real (44% organic) but the stock is above its own history on EV/EBIT and cash flow even after a 40% drop from its high. Q3 2026 (8-K 2026-10-30): sales $1.5B, +44% reported and organic, adjusted EPS $1.52 (+67%), free cash flow $268M, full-year organic growth guided to 38-39% and adjusted EPS to $5.36-5.39 (about 20x), about 30 points of growth from new products. Against that, EV/EBIT is 30.5 vs 23.5 median, P/FCF 47.8 vs 17.8, and free cash flow yield 2%. The forward P/E of 15.6 is below the 17.6 median, but it rests on AI data-center orders continuing at a record pace; the market has already sold the group once (-40%) and still charges a premium on cash. Verdict: priced in, reject.
+
+## CRS (Carpenter Technology Corporation): HURT, advance Y
+
+The stock fell about 20% on a one-quarter revenue miss from planned maintenance downtime and flat near-term guidance, while bookings and pricing power are intact. Q1 FY27 (8-K 2026-10-22): operating income $196.4M (+28% yoy, -5% sequentially), Specialty Alloys margin 37.7%, aerospace structural and distribution bookings +49% yoy, FY27 operating income guidance held at $850-880M. Q1 revenue of about $798M missed a $831M consensus per a search lead (not verified in a filing), and Q2 guidance of $192-197M implies the second half must step up about 20% per quarter to hit the full-year range, which is an execution risk. At about $14.0B EV the stock is about 16x guided operating income, but history is distorted because margin tripled (22.5% vs 7.8% median) on pricing in a tight alloy supply; if supply loosens, margin falls. Demand is intact; the debate is how long peak margins last. Verdict: hurt, advance.
+
+## TMUS (T-Mobile US, Inc.): HURT, advance Y
+
+The stock is down 38% on slowing account growth, higher churn from a rate-plan change and a switch away from reporting phone net adds, while earnings and cash flow keep rising. Q3 2026 (8-K 2026-10-28): postpaid net account additions 274K, account churn 1.09%, ARPA $155.73 (+4%), service revenue +6% to $19.4B, core adjusted EBITDA +11%, EPS $3.22 (+34%), adjusted free cash flow $5.1B (+5%), operating cash flow guidance raised at the midpoint. Search leads say shares fell after Q2 on a soft Q3 guide and temporary churn from plan modernization, and that the company dropped postpaid phone net adds as a headline metric. Deutsche Telekom holds a controlling stake, net debt is about $113B, and part of the EPS growth is buybacks (shares -10% in three years). Risk I could not verify: phone-line churn trend and competitor promotions. The market is pricing a peak-growth carrier; the filings show healthy economics. Verdict: hurt, advance.
+
+## NVDA (NVIDIA Corporation): HURT, advance Y
+
+The market is pricing an AI-spending peak and a founder-CEO exit on November 12 against a business growing 103% a year. Q3 FY27 (8-K 2026-11-17): revenue $115.8B (+103% yoy, +20% qoq), data center $107.6B, gross margin 74.8%, GAAP EPS $2.70, Q4 revenue guided to $130B with no China data-center compute assumed, $150B added to the buyback. Jensen Huang resigned as CEO and director on 2026-11-12 (8-K), with CFO Colette Kress interim CEO; a search lead says shares fell about 13% that day. At $150.96 the stock is about 14x annualized Q3 EPS vs a 50x ten-year median (the card's 30x uses FY2025 earnings). The risk is not today's numbers but whether hyperscaler capex and customer concentration hold and whether the company keeps its execution without its founder. Not verified: exact trailing-twelve-month EPS. Verdict: hurt, advance.
+
+## PHM (PulteGroup, Inc.): HURT, advance N
+
+A real housing-demand squeeze from rising mortgage rates, but the stock has not de-rated: it trades above its own P/E median on earnings that are falling. Q3 2026 (8-K 2026-10-22): EPS $2.53 vs $2.96, closings -9% to 6,876, home sale revenue -9% to $3.9B, gross margin 24.8%, net new orders 6,208, backlog units +4%, $350M buybacks. Management says the rapid rise in rates, inflation and global unrest have pushed buyers to the sidelines. The cycle is hurting, demand is not structurally lost, and the business is high quality (60% move-up and active-adult buyers), but at 10.4x earnings vs an 8.2x median and a stock only 15% below its high, the price does not yet reflect a trough. Hurt, yes; cheap, no. Verdict: hurt, reject.
+
