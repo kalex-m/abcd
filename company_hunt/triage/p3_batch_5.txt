@@ -1,0 +1,16 @@
+BABA|G1|Alibaba Group Holding Limited|Internet Retail
+MELI|G1|MercadoLibre, Inc.|Internet Retail
+CHH|G3|Choice Hotels International, Inc.|Lodging
+NVR|G4|NVR, Inc.|Residential Construction
+MGM|G2|MGM Resorts International|Resorts & Casinos
+CZR|G2|Caesars Entertainment, Inc.|Resorts & Casinos
+YUM|G3|Yum! Brands, Inc.|Restaurants
+BKNG|G4|Booking Holdings Inc.|Travel Services
+FUTU|G1,G3|Futu Holdings Limited|Capital Markets
+MKTX|G1,G3|MarketAxess Holdings Inc.|Capital Markets
+SF|G4|Stifel Financial Corp.|Capital Markets
+CPRT|G1,G3|Copart, Inc.|Specialty Business Services
+PAYX|G3|Paychex, Inc.|Software - Application
+QLYS|G3|Qualys, Inc.|Software - Infrastructure
+CHKP|G3,G4|Check Point Software Technologies Ltd.|Software - Infrastructure
+FISV|G1|Fiserv, Inc.|nan
