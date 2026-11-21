@@ -1,0 +1,283 @@
+<title>The Deep Company Hunt</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a night field. A shrinking set of rings for the funnel, then seven glyph "rooms", one per ground, each holding its finalists drawn in that ground's own picture. Single dark look, by choice. */
+:root{
+  --bg:#141414; --panel:#1b1b1a; --line:#2c2b29; --fg:#ece9e2; --mute:#9c978d;
+  --hurt:#e07b5a; --hurt-bg:#6e2f1f;
+  --boring:#5fc59a; --boring-bg:#1f4a3b;
+  --unseen:#8f86f0; --unseen-bg:#2e2a6b;
+  --display:"Syne", "Space Grotesk", system-ui, sans-serif;
+  --body:"Inter", system-ui, -apple-system, Segoe UI, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:15px/1.55 var(--body);margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 80px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:64px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(34px,6vw,64px);font-weight:800;line-height:1.02}
+h2{font-size:clamp(22px,3vw,30px);font-weight:700}
+h3{font-size:18px;font-weight:700}
+p{margin:0;max-width:64ch}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.lede{font-size:18px;color:var(--fg)}
+.lede b{color:var(--boring)}
+/* funnel */
+.funnel{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:32px;align-items:center}
+@media (max-width:760px){.funnel{grid-template-columns:1fr}}
+.funnel svg{width:100%;height:auto;max-width:460px}
+.steps{display:grid;gap:14px}
+.step{display:grid;grid-template-columns:88px 1fr;gap:14px;align-items:baseline;border-top:1px solid var(--line);padding-top:12px}
+.step .n{font:700 28px var(--display)}
+.step span{color:var(--mute);font-size:14px}
+/* grounds */
+.grounds{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.room{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:22px;display:grid;gap:14px;align-content:start;min-width:0}
+.room header{display:flex;gap:14px;align-items:center}
+.room header svg{flex:0 0 56px}
+.room .sub{color:var(--mute);font-size:13px}
+.room.empty{opacity:.62}
+.room .pic{width:100%;height:auto}
+.tag{display:inline-block;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;padding:3px 8px;border-radius:3px}
+.t-hurt{background:var(--hurt-bg);color:var(--hurt)} .t-boring{background:var(--boring-bg);color:var(--boring)} .t-unseen{background:var(--unseen-bg);color:var(--unseen)}
+.note{font-size:13.5px;color:var(--fg)}
+.note em{color:var(--mute);font-style:normal}
+/* ranges */
+.ranges{display:grid;gap:18px}
+.r{display:grid;grid-template-columns:120px minmax(0,1fr) 150px;gap:16px;align-items:center}
+@media (max-width:640px){.r{grid-template-columns:1fr}.r .act{text-align:left}}
+.r .tk{font:700 20px var(--display)}
+.r .tk small{display:block;font:400 12px var(--body);color:var(--mute)}
+.r .act{font-size:13px;color:var(--mute);text-align:right}
+.r .act b{color:var(--fg);font-weight:600}
+.r svg{width:100%;height:46px}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--mute)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+/* rejects + risks */
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.list{display:grid;gap:12px}
+.list div{border-left:2px solid var(--line);padding-left:12px}
+.list b{font-family:var(--display);font-size:16px}
+.list span{display:block;color:var(--mute);font-size:13.5px}
+footer{color:var(--mute);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:no-preference){ .needle{transition:transform .9s ease} }
+</style>
+
+<div class="wrap">
+
+<section style="display:grid;gap:18px">
+  <div class="eyebrow">Hunt run 2026-11-19 → 21 · prices 2026-11-18 · SEC EDGAR + yfinance</div>
+  <h1>The Deep<br>Company Hunt</h1>
+  <p class="lede">1,254 famous companies went in. The market turned out to be right about almost every cheap one. <b>One name trades meaningfully below its worth: Ameriprise.</b> Five more go on a watch list with prices that would make them buys.</p>
+</section>
+
+<section class="funnel" aria-label="How the field narrowed">
+  <svg viewBox="0 0 400 400" role="img" aria-label="Concentric rings shrinking from 1,254 to 1">
+    <circle cx="200" cy="200" r="190" fill="none" stroke="#2c2b29" stroke-width="1"/>
+    <circle cx="200" cy="200" r="190" fill="#1b1b1a"/>
+    <circle cx="200" cy="200" r="128" fill="#20201f" stroke="#3a3936"/>
+    <circle cx="200" cy="200" r="78" fill="#1f4a3b" fill-opacity=".45" stroke="#5fc59a" stroke-opacity=".5"/>
+    <circle cx="200" cy="200" r="34" fill="#1f4a3b" stroke="#5fc59a"/>
+    <circle cx="200" cy="200" r="9" fill="#5fc59a"/>
+    <text x="200" y="36" text-anchor="middle" fill="#9c978d" font-family="JetBrains Mono" font-size="12">1,254 universe</text>
+    <text x="200" y="96" text-anchor="middle" fill="#9c978d" font-family="JetBrains Mono" font-size="12">140 examined</text>
+    <text x="200" y="146" text-anchor="middle" fill="#ece9e2" font-family="JetBrains Mono" font-size="12">44 kill-tested</text>
+    <text x="200" y="182" text-anchor="middle" fill="#5fc59a" font-family="JetBrains Mono" font-size="12">6 survive</text>
+    <text x="200" y="232" text-anchor="middle" fill="#5fc59a" font-family="JetBrains Mono" font-size="12">1 cheap</text>
+  </svg>
+  <div class="steps">
+    <div class="step"><div class="n mono">140</div><span>names that looked cheap or high-quality. 59 were already fully priced; 23 were shrinking for real.</span></div>
+    <div class="step"><div class="n mono">44</div><span>earned a ten-gate kill test. The gate that killed most: the bear case was already the most-studied fact about the stock.</span></div>
+    <div class="step"><div class="n mono">6</div><span>survived. Every one scored 3/10 on "how clearly is this mispriced".</span></div>
+    <div class="step"><div class="n mono">1</div><span>sits below a conservative fair value by more than 10%: AMP, at +14%.</span></div>
+  </div>
+</section>
+
+<section style="display:grid;gap:22px">
+  <div style="display:grid;gap:8px"><div class="eyebrow">The seven grounds</div><h2>Where each survivor lives</h2></div>
+  <div class="legend"><span><i style="background:var(--hurt)"></i>market sees it as hurt</span><span><i style="background:var(--boring)"></i>boring</span><span><i style="background:var(--unseen)"></i>unseen</span></div>
+  <div class="grounds">
+
+    <!-- G1 Bruised Essential: pillar with crack -->
+    <article class="room">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#6e2f1f" stroke="#e07b5a" stroke-width="1"/><path d="M17 15h22M20 15v27h16V15M27 20l-3 6 5 3-3 6" fill="none" stroke="#e07b5a" stroke-width="2"/></svg>
+        <div><h3>The bruised essential</h3><div class="sub">Critical, battered, model intact</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 120" role="img" aria-label="A pillar with a widening crack labelled SW">
+        <rect x="120" y="10" width="60" height="100" fill="#1b1b1a" stroke="#e07b5a" stroke-opacity=".6"/>
+        <rect x="108" y="6" width="84" height="8" fill="#e07b5a" fill-opacity=".35"/>
+        <path d="M150 18 L140 44 L158 58 L142 86 L152 108" fill="none" stroke="#e07b5a" stroke-width="3"/>
+        <text x="196" y="64" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="18">SW</text>
+        <text x="196" y="82" fill="#9c978d" font-family="JetBrains Mono" font-size="11">−11% · downgraded</text>
+      </svg>
+      <p class="note"><span class="tag t-hurt">hurt</span> Smurfit Westrock: dividends ran about 3x free cash flow over nine months, funded with new debt, under a DOJ containerboard probe. The crack is in the model too. <em>Avoid.</em></p>
+    </article>
+
+    <!-- G2 Mid-rebuild -->
+    <article class="room">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#6e2f1f" stroke="#e07b5a"/><rect x="16" y="16" width="24" height="10" fill="none" stroke="#e07b5a" stroke-dasharray="3 2"/><rect x="16" y="29" width="24" height="11" fill="none" stroke="#e07b5a" stroke-width="2"/></svg>
+        <div><h3>The mid-rebuild</h3><div class="sub">Inside shifting, numbers not yet</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 120" role="img" aria-label="A building half dashed, half solid, labelled MBGL">
+        <rect x="70" y="20" width="160" height="40" fill="none" stroke="#e07b5a" stroke-dasharray="6 5" stroke-opacity=".7"/>
+        <rect x="70" y="64" width="160" height="40" fill="#6e2f1f" fill-opacity=".5" stroke="#e07b5a"/>
+        <text x="84" y="46" fill="#9c978d" font-family="JetBrains Mono" font-size="11">one-off stand-up costs</text>
+        <text x="84" y="90" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="16">MBGL · CARFAX</text>
+      </svg>
+      <p class="note"><span class="tag t-boring">boring</span> Spun out of S&amp;P Global in 2026; about $100M of stand-up costs should fade. Also lives on the toll road below.</p>
+    </article>
+
+    <!-- G3 Toll road -->
+    <article class="room">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#1f4a3b" stroke="#5fc59a"/><path d="M22 14l-5 28M34 14l5 28M15 26h26" fill="none" stroke="#5fc59a" stroke-width="2"/></svg>
+        <div><h3>The toll road</h3><div class="sub">Every flow pays it a fee</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 120" role="img" aria-label="Two toll gates, CARFAX barrier half open, Graco barrier down">
+        <path d="M0 100 H300" stroke="#2c2b29" stroke-width="18"/>
+        <path d="M0 100 H300" stroke="#5fc59a" stroke-opacity=".35" stroke-dasharray="10 10"/>
+        <rect x="60" y="40" width="10" height="52" fill="#1f4a3b" stroke="#5fc59a"/>
+        <line x1="70" y1="48" x2="128" y2="30" stroke="#5fc59a" stroke-width="4"/>
+        <text x="58" y="30" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="15">MBGL</text>
+        <text x="58" y="18" fill="#5fc59a" font-family="JetBrains Mono" font-size="11">+11% · watch</text>
+        <rect x="190" y="40" width="10" height="52" fill="#1f4a3b" stroke="#5fc59a"/>
+        <line x1="200" y1="56" x2="270" y2="56" stroke="#9c978d" stroke-width="4"/>
+        <text x="188" y="30" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="15">GGG</text>
+        <text x="188" y="18" fill="#9c978d" font-family="JetBrains Mono" font-size="11">−11% · priced in</text>
+      </svg>
+      <p class="note"><span class="tag t-hurt">hurt</span> Graco's toll is intact but traffic stalled (about 1% organic growth a year since 2022). <span class="tag t-boring">boring</span> CARFAX is a 49%-margin toll on used-car sales. <em>Visa, Mastercard, SPGI, MSCI: real tolls, fully priced.</em></p>
+    </article>
+
+    <!-- G4 Quiet vault: dial needle = margin of safety -->
+    <article class="room">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#1f4a3b" stroke="#5fc59a"/><rect x="16" y="16" width="24" height="24" rx="4" fill="none" stroke="#5fc59a" stroke-width="2"/><circle cx="28" cy="28" r="6" fill="none" stroke="#5fc59a" stroke-width="2"/><path d="M28 28l4-4" stroke="#5fc59a" stroke-width="2"/></svg>
+        <div><h3>The quiet vault</h3><div class="sub">War chest nobody is watching</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 130" role="img" aria-label="Two vault dials; AMP needle at +14 percent, AYI at minus 2 percent">
+        <g transform="translate(80 72)">
+          <circle r="48" fill="#1b1b1a" stroke="#5fc59a"/>
+          <path d="M-40 0 A40 40 0 0 1 40 0" fill="none" stroke="#2c2b29" stroke-width="8"/>
+          <path d="M0 -40 A40 40 0 0 1 40 0" fill="none" stroke="#5fc59a" stroke-opacity=".5" stroke-width="8"/>
+          <line class="needle" x1="0" y1="0" x2="0" y2="-36" stroke="#ece9e2" stroke-width="3" transform="rotate(25)"/>
+          <circle r="5" fill="#5fc59a"/>
+          <text y="24" text-anchor="middle" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="16">AMP</text>
+          <text y="40" text-anchor="middle" fill="#5fc59a" font-family="JetBrains Mono" font-size="11">+14%</text>
+        </g>
+        <g transform="translate(220 72)">
+          <circle r="48" fill="#1b1b1a" stroke="#5fc59a" stroke-opacity=".5"/>
+          <path d="M-40 0 A40 40 0 0 1 40 0" fill="none" stroke="#2c2b29" stroke-width="8"/>
+          <path d="M0 -40 A40 40 0 0 1 40 0" fill="none" stroke="#5fc59a" stroke-opacity=".25" stroke-width="8"/>
+          <line class="needle" x1="0" y1="0" x2="0" y2="-36" stroke="#9c978d" stroke-width="3" transform="rotate(-4)"/>
+          <circle r="5" fill="#9c978d"/>
+          <text y="24" text-anchor="middle" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="16">AYI</text>
+          <text y="40" text-anchor="middle" fill="#9c978d" font-family="JetBrains Mono" font-size="11">−2%</text>
+        </g>
+      </svg>
+      <p class="note"><span class="tag t-boring">boring</span> The needle points at margin of safety; straight up is fair value. Ameriprise retires about 7% of its shares a year and is priced as if its cash will shrink. Acuity sits at fair value.</p>
+    </article>
+
+    <!-- G5 Many-weathers -->
+    <article class="room">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#1f4a3b" stroke="#5fc59a"/><path d="M12 32c4-10 8 10 12 0s8-10 12 0 6 6 8 2" fill="none" stroke="#5fc59a" stroke-width="1.5"/><path d="M12 40L44 18" stroke="#5fc59a" stroke-width="2.5"/></svg>
+        <div><h3>The many-weathers</h3><div class="sub">Streams that offset each other</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 120" role="img" aria-label="Wavy segment lines around a rising line that dips in 2020, labelled TXT">
+        <path d="M10 70 C40 40,60 100,90 70 S140 40,170 70 S230 100,290 60" fill="none" stroke="#5fc59a" stroke-opacity=".45"/>
+        <path d="M10 80 C40 100,60 50,90 80 S140 100,170 70 S230 50,290 75" fill="none" stroke="#8f86f0" stroke-opacity=".45"/>
+        <path d="M10 95 L70 80 L95 108 L130 70 L200 58 L290 40" fill="none" stroke="#ece9e2" stroke-width="2.5"/>
+        <text x="86" y="120" fill="#e07b5a" font-family="JetBrains Mono" font-size="10">2020: profit −41%</text>
+        <text x="232" y="32" fill="#ece9e2" font-family="Syne" font-weight="700" font-size="16">TXT</text>
+      </svg>
+      <p class="note"><span class="tag t-boring">boring</span> 17 of 89 multi-segment firms really offset each other, but in revenue, not profit. Textron's line still broke in 2020. JPM is the model, at 15x vs a 10x history: priced in. <em>TXT −7%, watch below $65.</em></p>
+    </article>
+
+    <!-- G6 Hidden room: empty -->
+    <article class="room empty">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#2e2a6b" stroke="#8f86f0"/><rect x="16" y="16" width="24" height="24" rx="3" fill="none" stroke="#8f86f0" stroke-width="2"/><rect x="24" y="24" width="8" height="8" fill="#8f86f0"/></svg>
+        <div><h3>The hidden room</h3><div class="sub">Best part buried inside the name</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 110" role="img" aria-label="An empty inner room; Honda's motorcycle room is visible to everyone">
+        <rect x="60" y="10" width="180" height="90" fill="none" stroke="#8f86f0" stroke-opacity=".5"/>
+        <rect x="120" y="38" width="60" height="34" fill="none" stroke="#8f86f0" stroke-dasharray="4 4"/>
+        <text x="150" y="59" text-anchor="middle" fill="#9c978d" font-family="JetBrains Mono" font-size="11">empty</text>
+      </svg>
+      <p class="note"><span class="tag t-unseen">unseen</span> 19 conservative sum-of-the-parts. Honda's motorcycles are worth more than all of Honda, but every analyst already says so. <em>No finalist.</em></p>
+    </article>
+
+    <!-- G7 Tide supplier: empty -->
+    <article class="room empty">
+      <header>
+        <svg viewBox="0 0 56 56"><circle cx="28" cy="28" r="27" fill="#2e2a6b" stroke="#8f86f0"/><path d="M12 36c6-18 12-18 16 0s10 12 16-6" fill="none" stroke="#8f86f0" stroke-width="2"/><circle cx="17" cy="24" r="3" fill="#8f86f0"/></svg>
+        <div><h3>The tide supplier</h3><div class="sub">Sells what a whole shift needs</div></div>
+      </header>
+      <svg class="pic" viewBox="0 0 300 110" role="img" aria-label="A high tide wave with crowded names at the crest">
+        <path d="M0 90 C60 90,90 20,150 20 S240 90,300 90" fill="#2e2a6b" fill-opacity=".35" stroke="#8f86f0"/>
+        <text x="150" y="14" text-anchor="middle" fill="#9c978d" font-family="JetBrains Mono" font-size="10">LITE +1,143% · CLS +765% · CRDO +576%</text>
+        <text x="150" y="70" text-anchor="middle" fill="#ece9e2" font-family="JetBrains Mono" font-size="11">capex $497B, +93%</text>
+      </svg>
+      <p class="note"><span class="tag t-unseen">unseen</span> Five real shifts (AI data centers, grid, contractors, defense, gas/LNG). Their suppliers are either priced or overstretched. <em>No finalist.</em></p>
+    </article>
+
+  </div>
+</section>
+
+<section style="display:grid;gap:22px">
+  <div style="display:grid;gap:8px"><div class="eyebrow">Price against my fair-value range</div><h2>The six survivors</h2></div>
+  <div class="legend"><span><i style="background:#5fc59a"></i>fair-value range</span><span><i style="background:#ece9e2"></i>price 2026-11-18</span><span><i style="background:#e07b5a"></i>price above midpoint</span></div>
+  <div class="ranges" id="ranges"></div>
+</section>
+
+<section class="two">
+  <div style="display:grid;gap:14px">
+    <h2>Closest rejects</h2>
+    <div class="list">
+      <div><b>HMC</b><span>Motorcycles + finance are worth more than all of Honda. Failed: everyone already says it.</span></div>
+      <div><b>CPRT</b><span>Salvage-auction toll, de-rated from 32x to 20x. Failed: open DOJ money-laundering-controls probe.</span></div>
+      <div><b>NVR</b><span>Quality 8. Failed: the most-covered bear case in housing, and not cheap on forward earnings.</span></div>
+      <div><b>FDS</b><span>Retention held through FY26. Failed: short interest 12.6%, the AI fear is fully studied.</span></div>
+      <div><b>CRS</b><span>Down 56% on a flat guide. Failed: everyone saw the reason.</span></div>
+    </div>
+  </div>
+  <div style="display:grid;gap:14px">
+    <h2>Three risks across the list</h2>
+    <div class="list">
+      <div><b>Market level</b><span>AMP's earnings ride asset values near a cyclical high, the same way JPM rides credit.</span></div>
+      <div><b>Leverage creeping in</b><span>Graco, Acuity and CARFAX all added debt after Q3 2026. None is a war chest now.</span></div>
+      <div><b>Unsized legal exposure</b><span>SW (DOJ containerboard), CPRT (DOJ), ABT (formula litigation) can't be sized, so they fail.</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Detail lives in the files: FINAL_REPORT.md, scoreboard.csv, METHOD_AND_LIMITS.md, dossiers/, kill_tests/, redteam/. Sources: SEC EDGAR filings and XBRL (data.sec.gov), yfinance market data; company IR sites were unreachable, and EDGAR exhibits were used instead.
+</footer>
+</div>
+
+<script>
+const F=[["AMP","Ameriprise",501.42,480,680,580,"Small position"],["MBGL","CARFAX",23.93,22,31,27,"Watch · buy below $19-20"],["AYI","Acuity",326.51,280,370,320,"Watch · re-look at $250"],["TXT","Textron",82.79,65,90,77,"Watch · re-look below $65"],["GGG","Graco",71.61,55,75,64,"Priced in · watch at $50"],["SW","Smurfit Westrock",40.33,30,46,38,"Downgraded · avoid"]];
+const box=document.getElementById("ranges");
+for(const [t,n,p,lo,hi,mid,act] of F){
+  const min=lo*0.8,max=hi*1.08,X=v=>20+(v-min)/(max-min)*560;
+  const above=p>mid, col=above?"#e07b5a":"#ece9e2", mos=Math.round((mid/p-1)*100);
+  const row=document.createElement("div");row.className="r";
+  row.innerHTML=`<div class="tk">${t}<small>${n}</small></div>
+  <svg viewBox="0 0 600 46" preserveAspectRatio="none" role="img" aria-label="${t}: price ${p} vs fair range ${lo}-${hi}">
+    <line x1="20" y1="23" x2="580" y2="23" stroke="#2c2b29" stroke-width="2"/>
+    <rect x="${X(lo)}" y="15" width="${X(hi)-X(lo)}" height="16" rx="8" fill="#1f4a3b" stroke="#5fc59a" stroke-opacity=".6"/>
+    <line x1="${X(mid)}" y1="11" x2="${X(mid)}" y2="35" stroke="#5fc59a" stroke-width="2"/>
+    <circle cx="${X(p)}" cy="23" r="7" fill="${col}"/>
+  </svg>
+  <div class="act"><b class="mono">${mos>0?"+":""}${mos}%</b> to midpoint · $${mid}<br>${act}</div>`;
+  box.appendChild(row);
+}
+</script>
