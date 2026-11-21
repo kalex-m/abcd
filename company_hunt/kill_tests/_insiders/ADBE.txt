@@ -1,0 +1,21 @@
+# ADOBE INC.: 241 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+NARAYEN SHANTANU | Chair and CEO | S | 282,000 | $95,397,194 | 29
+Belsky Scott | Chief Strategy Officer & EVP | S | 15,935 | $8,068,999 | 11
+Durn Daniel | EVP & CFO | S | 12,482 | $5,957,820 | 5
+Rao Dana | EVP, Gen. Counsel & Secretary | S | 6,765 | $3,555,075 | 1
+Wadhwani David | President, Digital Media | S | 6,099 | $3,487,226 | 1
+Ricks David A |  | P | 12,250 | $2,944,076 | 2
+Garfield Mark S. | SVP & CAO | S | 3,492 | $1,842,856 | 12
+Forusz Jillian | SVP & CAO | S | 2,792 | $995,602 | 6
+Durn Daniel | EVP & CFO | P | 1,300 | $507,758 | 2
+Banse Amy | Director | S | 606 | $333,300 | 1
+Chakravarthy Anil | President, DX | S | 100 | $47,100 | 1
+Banse Amy | Director | P | 15 | $8,505 | 1
+# open-market BUYS detail (5):
+2024-01-05 Banse Amy (Director) 15 sh @ $567.03
+2025-01-28 Ricks David A () 2,250 sh @ $443.98
+2025-03-20 Durn Daniel (EVP & CFO) 310 sh @ $391.35
+2025-03-20 Durn Daniel (EVP & CFO) 990 sh @ $390.34
+2026-06-25 Ricks David A () 10,000 sh @ $194.51
+# TOTAL buys $3,460,339 | sells $119,685,173 | net $-116,224,834

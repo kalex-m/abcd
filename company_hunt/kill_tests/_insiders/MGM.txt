@@ -1,0 +1,26 @@
+# MGM Resorts International: 169 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+IAC Inc. |  | P | 2,098,748 | $77,108,052 | 3
+Meister Keith A. | Director | P | 1,745,592 | $51,740,827 | 3
+Meister Keith A. | Director | S | 1,075,800 | $41,964,426 | 10
+SALEM PAUL J | Director | P | 147,500 | $4,986,090 | 1
+McManus John | CHIEF LEGAL ADMIN OFC AND SECY | S | 80,000 | $3,051,682 | 3
+SANDERS COREY IAN | CHIEF OPERATING OFFICER | S | 70,000 | $2,721,630 | 2
+HORNBUCKLE WILLIAM | CEO AND PRESIDENT | P | 58,900 | $1,986,444 | 1
+Halkyard Jonathan S | CHIEF FINANCIAL OFFICER | P | 20,000 | $661,700 | 2
+TAYLOR DANIEL J | Director | S | 16,280 | $618,546 | 3
+Meinert Todd | SVP & Chief Accounting Officer | S | 6,000 | $227,041 | 1
+HERMAN ALEXIS | Director | S | 4,344 | $180,276 | 1
+JAMMET MARY CHRIS | Director | S | 4,344 | $178,582 | 1
+# open-market BUYS detail (10):
+2024-08-05 HORNBUCKLE WILLIAM (CEO AND PRESIDENT) 58,900 sh @ $33.73
+2024-08-05 Halkyard Jonathan S (CHIEF FINANCIAL OFFICER) 10,000 sh @ $34.00
+2024-08-05 SALEM PAUL J (Director) 147,500 sh @ $33.80
+2025-03-06 Halkyard Jonathan S (CHIEF FINANCIAL OFFICER) 10,000 sh @ $32.17
+2025-12-05 IAC Inc. () 1,098,748 sh @ $36.30
+2026-03-23 IAC Inc. () 550,000 sh @ $37.30
+2026-03-24 IAC Inc. () 450,000 sh @ $37.13
+2026-10-30 Meister Keith A. (Director) 233,998 sh @ $28.92
+2026-10-30 Meister Keith A. (Director) 1,504,076 sh @ $29.75
+2026-11-02 Meister Keith A. (Director) 7,518 sh @ $30.24
+# TOTAL buys $136,483,114 | sells $48,942,183 | net $87,540,930

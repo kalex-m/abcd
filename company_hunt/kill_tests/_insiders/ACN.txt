@@ -1,0 +1,31 @@
+# Accenture plc: 729 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Sweet Julie Spellman | Chair and CEO | S | 90,438 | $28,275,082 | 85
+Unruch Joel | General Counsel/Corp Secretary | S | 42,730 | $12,528,074 | 35
+Walsh John F | Chief Operating Officer | S | 18,000 | $6,238,472 | 12
+Ollagnier Jean-Marc | CEO EMEA | S | 18,750 | $6,173,605 | 20
+McClure Kathleen R | Chief Financial Officer | S | 17,011 | $5,804,815 | 24
+Shook Ellyn | Chief Leadership & HR Officer | S | 15,000 | $5,044,303 | 13
+Sekido Ryoji | Co-CEO Asia Pacific | S | 13,235 | $3,821,692 | 15
+Egawa Atsushi | Co-CEO Asia Pacific | S | 14,872 | $3,563,044 | 5
+Sharma Manish | CEO-The Americas | S | 9,273 | $3,383,802 | 15
+Burgum Melissa A | Chief Accounting Officer | S | 9,601 | $3,123,559 | 24
+Sweet Julie Spellman | Chair and CEO | P | 12,200 | $3,001,041 | 2
+Sharma Manish | Chief Strategy & Services Ofcr | S | 9,731 | $2,536,953 | 9
+PELISSON Gilles |  | S | 7,288 | $2,244,878 | 1
+Sharma Manish | CEO-North America | S | 4,436 | $1,550,352 | 10
+Macchi Mauro | Chief Executive Officer-EMEA | S | 4,500 | $1,439,812 | 19
+Framil Leonardo | CEO-Growth Markets | S | 4,000 | $1,227,528 | 8
+Walsh John F | CEO-The Americas | S | 4,000 | $1,105,033 | 9
+Ardila Jaime |  | S | 3,000 | $1,059,542 | 2
+Beatty Angela | Chief Leadership & HR Officer | S | 2,381 | $830,514 | 19
+Park Angie Y | Chief Financial Officer | S | 1,935 | $620,703 | 4
+Hogan Catherine Kiernan | Chief Operating Officer | S | 2,680 | $599,378 | 11
+Clifford Katherine Lee | Chief Leadership & HR Officer | S | 1,536 | $424,059 | 14
+Price Paula A |  | P | 800 | $199,848 | 1
+Price Paula A |  | S | 551 | $190,291 | 1
+# open-market BUYS detail (3):
+2026-10-26 Price Paula A () 800 sh @ $249.81
+2026-10-26 Sweet Julie Spellman (Chair and CEO) 2,100 sh @ $245.11
+2026-10-26 Sweet Julie Spellman (Chair and CEO) 10,100 sh @ $246.17
+# TOTAL buys $3,200,889 | sells $91,785,489 | net $-88,584,600
