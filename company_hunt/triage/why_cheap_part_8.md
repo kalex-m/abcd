@@ -30,3 +30,15 @@ Arch is a great underwriter caught in the part of the cycle where prices for pro
 
 MetLife's reported earnings are noisy because the accounting runs interest-rate hedges and market-risk benefits through net income (Q3 2026 net income $3.67 a share, adjusted $2.78, with a $698M derivative swing), which is why the screen sees 19.8x GAAP earnings against an 11.5x median. On adjusted earnings the multiple is closer to 9x, and the business is in strong shape: highest quarterly adjusted EPS in company history, revenue up in all six segments, adjusted ROE 19.6%, 17% of shares retired in three years. That is a fair-to-good business at a fair price, up 36% in a year and 3% below its high; I could not verify a ten-year adjusted-earnings multiple history to prove a discount, and nothing visible suggests one. Every segment feeds off the same rates and credit-spread machine, so the offset is thin. Verdict: priced in; the screen's multiple is a quirk and the corrected number is no bargain. Reject.
 
+## ICE (Intercontinental Exchange, Inc.): PRICED_IN, advance N
+
+ICE is a clean example of segments that really do offset (mortgage technology fell 20% in 2022 while exchanges rose 9%, and total revenue never fell), but the market pays for that already. Q3 2026 was the best third quarter in its history, with revenue +15%, operating income +20% and adjusted EPS +18%. The stock is at 29x trailing earnings against a 26x median and 25x free cash flow against 22x, so there is no discount. The balance sheet carries $26B of debt and a pending MarketAxess deal that management says it will deleverage after, and the mortgage offset was bought through acquisitions, so only two clean years of it exist. Verdict: priced in, reject.
+
+## MCO (Moody's Corporation): PRICED_IN, advance N
+
+Moody's two segments move against each other (ratings -28% in 2022 while analytics +15%), but ratings are the larger one, so the offset only dampens the swing. Q3 2026 was quiet: revenue +1% (+3% organic), ratings transactional revenue -5%, analytics recurring revenue +8%, adjusted EPS +6%, with full-year guidance of $16.50-17.00 reaffirmed. The stock is 10% below its high and at 33.8x earnings versus a 34.1x median, with a 5% annual share count shrink; I see no gap between price and substance, and any AI worry on the analytics side would need to show up in the 8% recurring-revenue growth first. Verdict: priced in, reject.
+
+## JNJ (Johnson & Johnson): PRICED_IN, advance N
+
+J&J is the safe pick and the market is paying for safety: after a 39% rise in a year the stock trades at 24.5x earnings and 33x free cash flow against 20x and 17x ten-year medians. The business is healthy (Q3 2026 sales +5.9%, 2026 guidance raised, new robotics and oncology approvals) but adjusted earnings per share is guided up only about 3% for 2026, and reported Q3 EPS of $0.09 carries a one-time talc litigation charge. Pharma and medtech did offset in 2020 (medtech -12%, pharma +8%), yet with only two segments left and Stelara patent loss ahead, the cushion is thin. Nothing is hidden; the price already reflects quality. Verdict: priced in, reject.
+
