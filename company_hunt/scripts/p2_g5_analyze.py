@@ -77,7 +77,7 @@ CFG = {
  "CBOE": dict(rev=["us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax"], alias={"europeanequities": "europeandasiapacific"}, drop=["digital"]),
  "NDAQ": dict(drop=["financialtechnologyincludingppa"]),
  "LH": dict(rev=["us-gaap:Revenues", "lh:SegmentRevenues"], alias={"biopharmalaboratoryservices": "drugdevelopment"}),
- "ACGL": dict(rev=["us-gaap:PremiumsEarnedNet"], prf=["acgl:UnderwritingIncomeLossSegment"], drop=["underwritingsegments"], fin=1),
+ "ACGL": dict(rev=["us-gaap:PremiumsEarnedNet"], prf=["acgl:UnderwritingIncomeLossSegment"], drop=["underwritingsegments", "underwriting"], fin=1),
  "WRB": dict(rev=["us-gaap:Revenues"], prf=["us-gaap:IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"], fin=1),
  "TDY": dict(skip=["2021:digitalimaging", "2022:digitalimaging"]),
  "ROP": dict(prf=["rop:SegmentOperatingProfit"]),
@@ -267,7 +267,7 @@ def analyze(t):
 
 if __name__ == "__main__":
     import glob
-    ts = sys.argv[1:] or sorted(os.path.basename(f)[:-5] for f in glob.glob(f"{D}/*.json") if not f.endswith("results.json"))
+    ts = sys.argv[1:] or sorted(os.path.basename(f)[:-5] for f in glob.glob(f"{D}/*.json") if not f.endswith("results.json") and "judgments" not in f)
     out = {}
     for t in ts:
         try: out[t] = analyze(t)

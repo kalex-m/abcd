@@ -37,6 +37,7 @@ DUR_USD = [
  "RestructuringCharges","GoodwillImpairmentLoss","AssetImpairmentCharges","ProceedsFromDivestitureOfBusinesses",
  "ProceedsFromIssuanceOfCommonStock","IncomeLossFromEquityMethodInvestments","SellingGeneralAndAdministrativeExpense",
  "PaymentsToDevelopSoftware","PaymentsForSoftware",
+ "PaymentsToAcquireOilAndGasPropertyAndEquipment","PaymentsToAcquireOilAndGasProperty","PaymentsToExploreAndDevelopOilAndGasProperties",
 ]
 DUR_SH = ["WeightedAverageNumberOfDilutedSharesOutstanding","WeightedAverageNumberOfShareOutstandingBasicAndDiluted","WeightedAverageNumberOfSharesOutstandingBasic"]
 DUR_EPS = ["EarningsPerShareDiluted"]

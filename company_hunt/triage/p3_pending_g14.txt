@@ -1,0 +1,3 @@
+TMUS|G2|T-Mobile US, Inc.|Telecom Services
+NVDA|G3|NVIDIA Corporation|Semiconductors
+PHM|G4|PulteGroup, Inc.|Residential Construction

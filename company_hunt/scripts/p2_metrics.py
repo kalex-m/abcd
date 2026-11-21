@@ -39,6 +39,7 @@ TAGS = {
  "ni": ["NetIncomeLoss","ProfitLoss"], "pbt": ["IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest"],
  "tax": ["IncomeTaxExpenseBenefit"], "int": ["InterestExpense","InterestExpenseNonoperating","InterestExpenseDebt"],
  "ocf": ["NetCashProvidedByUsedInOperatingActivities"], "capex": ["PaymentsToAcquirePropertyPlantAndEquipment","PaymentsToAcquireProductiveAssets"],
+ "capog": ["PaymentsToAcquireOilAndGasPropertyAndEquipment","PaymentsToExploreAndDevelopOilAndGasProperties","PaymentsToAcquireOilAndGasProperty"],
  "sbc": ["ShareBasedCompensation","AllocatedShareBasedCompensationExpense"], "bb": ["PaymentsForRepurchaseOfCommonStock"],
  "div": ["PaymentsOfDividendsCommonStock","PaymentsOfDividends"], "da": ["DepreciationDepletionAndAmortization","DepreciationAndAmortization","DepreciationAmortizationAndAccretionNet"],
  "acq": ["PaymentsToAcquireBusinessesNetOfCashAcquired"], "rnd": ["ResearchAndDevelopmentExpense"], "sga": ["SellingGeneralAndAdministrativeExpense"],
@@ -122,6 +123,8 @@ for _, u in U.iterrows():
     # capex = PP&E + capitalized software (cross-check vs yfinance showed software capex missing for FICO, NICE, FIS, MKTX)
     for y in list(S["ocf"]):
         if S["capsw"].get(y): S["capex"][y] = (S["capex"].get(y) or 0) + S["capsw"][y]
+        # oil & gas drilling capex sits under its own tags (Phase 3 found EOG's FCF overstated); add when PP&E capex is small vs it
+        if S["capog"].get(y) and S["capog"][y] > (S["capex"].get(y) or 0): S["capex"][y] = (S["capex"].get(y) or 0) + S["capog"][y]
     S["fcf"] = {y: S["ocf"][y] - (S["capex"].get(y) or 0) for y in S["ocf"]}
     S["ends"] = ends
     series[cik] = {"ticker": tk, "S": {k: v for k, v in S.items()}, "B": B, "latest_bs": latest_bs}
@@ -252,7 +255,26 @@ for _, u in U.iterrows():
 M = pd.DataFrame(rows)
 # debt/cash cross-check vs yfinance (EDGAR tag coverage gaps: GM, F, OMC, CME...). Fill only when EDGAR is missing or < 50% of yfinance.
 INFO = json.load(open(f"{ROOT}/data/yf/info.json"))
+S_DA = {}
+for _, rr in M.iterrows():
+    if pd.notna(rr.get("last_fy")) and rr["cik"] in series:
+        S_DA[rr["cik"]] = series[rr["cik"]]["S"].get("da", {}).get(int(rr["last_fy"]))
 M["debt_src"] = "edgar"
+# capex guard: EDGAR capex missing/zero while D&A says the company has real fixed assets -> yfinance implied capex (OCF - FCF, TTM)
+M["capex_src"] = "edgar"
+for i, r in M.iterrows():
+    inf = INFO.get(r["ticker"]) or {}
+    da = (S_DA.get(r["cik"]) or 0)
+    if r.get("has_xbrl") == 1 and (pd.isna(r["capex"]) or r["capex"] == 0) and r["rev"] and da > 0.01 * r["rev"]:
+        if inf.get("operatingCashflow") and inf.get("freeCashflow") is not None:
+            cx = inf["operatingCashflow"] - inf["freeCashflow"]
+            if cx > 0:
+                M.at[i, "capex"] = cx; M.at[i, "fcf"] = r["ocf"] - cx; M.at[i, "fcf_sbc"] = r["ocf"] - cx - (r["sbc"] or 0)
+                M.at[i, "capex_src"] = "yf_implied_ttm"
+                mc_ = U.loc[U["ticker"] == r["ticker"], "mcap"].iloc[0]
+                if mc_:
+                    M.at[i, "fcf_yield"] = M.at[i, "fcf"] / mc_; M.at[i, "fcf_sbc_yield"] = M.at[i, "fcf_sbc"] / mc_
+                M.at[i, "capex_rev"] = cx / r["rev"]; M.at[i, "fcf_margin"] = M.at[i, "fcf"] / r["rev"]
 for i, r in M.iterrows():
     yd = (INFO.get(r["ticker"]) or {}).get("totalDebt"); yc = (INFO.get(r["ticker"]) or {}).get("totalCash")
     if r.get("has_xbrl") != 1: continue
