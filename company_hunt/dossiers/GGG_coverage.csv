@@ -1,0 +1,7 @@
+company,layer,status,source_url,date_accessed,note
+GGG,A,done,https://www.sec.gov/Archives/edgar/data/42888/000004288826000145/ggg-20260925.htm,2026-11-21,"10-K FY21-FY25 grepped; Q3-26 10-Q read; 8 quarters via XBRL quarterly facts; Q4-only earnings 8-Ks (EX-99.1 2026-01-26); DEF 14A 2026 read; Forms 4 3y; 13G list; FTS 5 phrases clean; ASR 8-K 2026-11-10"
+GGG,B,fallback,https://www.sec.gov/Archives/edgar/data/42888/000004288826000019/ggg01262026exhibit991q4.htm,2026-11-21,IR site unreachable; EX-99.1 releases used; no EX-99.2 supplements filed
+GGG,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/22/graco-ggg-q3-2026-earnings-call-transcript/,2026-11-21,"2 calls read in full (Q3 2026, Q3 2025 at fool.com/.../2026/01/26/graco-ggg-q3-2025-...); Q4-25, Q1-26, Q2-26 not read - below 4-call floor"
+GGG,D,unreachable,scripts/pplx.js,2026-11-21,Perplexity returned cookie banner only; no data
+GGG,E,done,yfinance,2026-11-21,"price history to 2026-11-19, short 4.7% of float, institutional holders 2026-09-30"
+GGG,F,empty,n/a,2026-11-21,no pending regulatory review; tariff refunds noted from 10-Q
