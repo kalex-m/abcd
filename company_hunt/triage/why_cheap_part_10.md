@@ -1,0 +1,10 @@
+# Phase 3, batch 10 (second pass: spin-offs and low-attention names): why is it cheap? (checked 2026-11-21)
+
+## MBGL (Mobility Global, Inc.): BORING, advance Y
+
+Mobility Global is the CARFAX and Polk data business S&P Global spun out on 2026-07-01. Q3 revenue grew 7.4% to $478M at a 41% adjusted EBITDA margin and $186M of free cash flow, and the company loaded about $2B of debt onto itself to pay S&P a dividend, leaving net debt near 2x EBITDA. At about 11x EBITDA and 14x forward earnings it sits below Equifax (12.8x, 18.7x), Verisk (19.5x, 23.2x) and S&P Global (17.1x), which is a real but not dramatic discount, and with the stock up 14% since the spin there is no panic to buy into. The forced-selling story is over (S&P holders got one share per share and the first quarter reported fine), a senior officer bought $0.98M in August, and the $800M buyback is about 11% of the market cap. The open question is whether AI-built vehicle data erodes CARFAX's moat, and nothing in Q3 shows it. Verdict: a decent, modestly discounted compounder worth a closer look on the AI question, advance.
+
+## HONA (Honeywell Aerospace Inc.): HURT, advance Y
+
+Honeywell Aerospace trades at 18x forward earnings and 15x EBIT against 20-33x for GE, Howmet, RTX and TransDigm, 41% below its high, because its first standalone quarter came with a guidance cut. The cause is specific: a few precision casting and forging suppliers cannot ship enough, so scarce parts go to new-aircraft lines and the higher-margin aftermarket loses sales. Demand shows no damage: backlog is $19.3B (+12%), orders +9%, and Q3 earnings and second-half cash guidance were raised after the cut. A director put $1M in on the day of the cut, and the spin dynamics (index and Honeywell holders dumping, a class action) explain selling that is not about the business. What would make it wrong is a supply problem that lasts years or margin damage from the mix shift; management says 2027 should improve and I could not verify supplier capacity independently. Verdict: hurt, not broken, advance.
+
