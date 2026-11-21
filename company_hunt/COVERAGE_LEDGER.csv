@@ -1,1 +1,37 @@
 company,layer,status,source_url,date_accessed,note
+AMP,A,done,https://www.sec.gov/Archives/edgar/data/820027/000082002726000054/amp-20260930.htm,2026-11-21,"Partial depth: Q3-26 10-Q read (equity, AFS, debt, reg capital, liquidity, contingencies); FY25 10-K grepped (sub dividends, RBC, leases, subsequent events); FY22 10-K risk factors diffed; 10-K/A 2026-03-12 checked (typo only); 8 EX-99 releases parsed; 2026 DEF 14A read; Forms 4 3y; holders; 5 FTS phrases. FY21/23/24 10-Ks and 2024/2025 proxies not individually grepped"
+AMP,B,fallback,https://www.sec.gov/Archives/edgar/data/820027/000082002726000050/q32026er.htm,2026-11-21,IR site unreachable; EX-99 releases used; no EX-99.2 supplements/slides filed; excess capital and holdco liquidity taken from call transcripts
+AMP,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/29/ameriprise-amp-q3-2026-earnings-call-transcript/,2026-11-21,Q3-26 call read in full incl. Q&A; Q4-25 call (fool.com/.../2026/01/29/ameriprise-amp-q4-2025-...) keyword-searched; Q1-26 and Q2-26 not read - below 4-call floor
+AMP,D,unreachable,scripts/pplx.js,2026-11-21,Cloudflare bot check (challenges.cloudflare.com unreachable); no data
+AMP,E,done,yfinance,2026-11-21,"price to 2026-11-20 ($480.29), 3y quarterly closes, short 4.27% of float, institutional holders 2026-09-30"
+AMP,F,empty,,2026-11-21,no pending deal or regulatory review
+AYI,A,done,https://www.sec.gov/Archives/edgar/data/1144215/000114421526000052/ayi-20260831.htm,2026-11-21,10-K FY2026 deep read; FY2022-25 10-Ks via segment XBRL + FY2023 risk-factor diff; 8 earnings EX-99.1; DEF 14A 2025-12-11; 13G; Forms 4 3y; 8-Ks 2026-09-29 and 2026-11-20 (new $400M DDTL for Project Sentinel); FTS red-flag phrases clean; 10-Q MD&A trends taken from earnings releases (partial)
+AYI,B,fallback,https://finviz.com/news/407708/acuity-announces-agreement-to-acquire-parameter-technologies,2026-11-21,"IR site unreachable; no EX-99.2 supplements on EDGAR; Parameter $675M deal terms from WebSearch snippets (press release reprints, Inside Lighting)"
+AYI,C,fallback,https://www.fool.com/earnings/call-transcripts/2026/10/01/acuity-ayi-q4-2026-earnings-call-transcript/,2026-11-21,Q4 FY2026 call read on fool.com; Q3 FY2026 and Q4 FY2025 fool.com URLs did not resolve; earlier calls not read
+AYI,D,done,https://www.perplexity.ai/finance/AYI,2026-11-21,overview page fetched; confirmed 2026-11-20 -3.1% move and DDTL linked to Parameter
+AYI,E,done,yfinance,2026-11-21,"price $326.51 (2026-11-18), $310.49 (2026-11-20); short 3.8%; institutions 98.6%; institutional holders"
+AYI,F,empty,,2026-11-21,only routine HSR for Parameter acquisition; no sector docket
+GGG,A,done,https://www.sec.gov/Archives/edgar/data/42888/000004288826000145/ggg-20260925.htm,2026-11-21,10-K FY21-FY25 grepped; Q3-26 10-Q read; 8 quarters via XBRL quarterly facts; Q4-only earnings 8-Ks (EX-99.1 2026-01-26); DEF 14A 2026 read; Forms 4 3y; 13G list; FTS 5 phrases clean; ASR 8-K 2026-11-10
+GGG,B,fallback,https://www.sec.gov/Archives/edgar/data/42888/000004288826000019/ggg01262026exhibit991q4.htm,2026-11-21,IR site unreachable; EX-99.1 releases used; no EX-99.2 supplements filed
+GGG,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/22/graco-ggg-q3-2026-earnings-call-transcript/,2026-11-21,"2 calls read in full (Q3 2026, Q3 2025 at fool.com/.../2026/01/26/graco-ggg-q3-2025-...); Q4-25, Q1-26, Q2-26 not read - below 4-call floor"
+GGG,D,unreachable,scripts/pplx.js,2026-11-21,Perplexity returned cookie banner only; no data
+GGG,E,done,yfinance,2026-11-21,"price history to 2026-11-19, short 4.7% of float, institutional holders 2026-09-30"
+GGG,F,empty,,2026-11-21,no pending regulatory review; tariff refunds noted from 10-Q
+TXT,A,done,https://www.sec.gov/Archives/edgar/data/0000217346/000021734626000044/txt-20261003.htm,2026-11-21,"FY25 10-K (risk factors, pension), FY22 10-K risk factors, FY21 10-K segments read; FY23/FY24 via XBRL segments only; Q3-26 and Q2-26 10-Q grepped; 8 quarters via XBRL facts; Q3-26/Q3-25 EX-99.1; DEF 14A 2026 only (2024/2025 not read); Forms 4 3y; 13G list; 8-Ks 2026-11-18 (Industrial sale, impairment, 35M buyback) and 2026-11-04 (notes); FTS 5 phrases clean"
+TXT,B,fallback,https://www.sec.gov/Archives/edgar/data/217346/000021734626000009/a043026pressrelease.htm,2026-11-21,IR site unreachable; EX-99.1 releases and EX-99.2 separation release used; EX-99.3 investor deck not read
+TXT,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/29/textron-txt-q3-2027-earnings-call-transcript/,2026-11-21,"3 calls read: Q3-26, Q1-26 (fool.com/.../2026/04/30/textron-txt-q1-2026-...), Q4-25 (.../2026/01/28/textron-txt-q4-2025-...); Q2-26 and Q3-25 not found - below 4-call floor"
+TXT,D,done,https://www.perplexity.ai/finance/TXT,2026-11-21,quote page only (52w range 71.87-101.57; fwd P/E 11.36); lead only
+TXT,E,done,yfinance,2026-11-21,"price to 2026-11-20 ($79.62), short 5.0% of float, institutions 94%, top holders 2026-09-30"
+TXT,F,done,https://www.sec.gov/Archives/edgar/data/217346/000110465926129345/tm2629751d1_8k.htm,2026-11-21,HSR/foreign approvals for Industrial sale (close H1 2027); FY27 appropriations for MV-75 from 10-Q; no docket search needed
+MBGL,A,done,https://www.sec.gov/Archives/edgar/data/2090312/000110465926066592/tm2528763d9_ex99-1.htm,2026-11-21,"Form 10 info statement, Q3 2026 10-Q, Q2/Q3 2026 earnings 8-Ks, spin 8-K, 5.02 8-K, S-4/424B3 note exchange, 4 13Gs, Forms 4, FTS red flags; no 10-K/proxy exists (spun 2026-07-01); SPGI 10-K segment XBRL 2022-2025 used for history; 2021 not verified"
+MBGL,B,fallback,https://www.sec.gov/Archives/edgar/data/2090312/000209031226000013/exhibit992.htm,2026-11-21,IR site unreachable; used EX-99.2 FY2025 quarterly data and EX-99.1 releases on EDGAR; diffed SPGI segment vs Form 10 carve-out
+MBGL,C,done,https://www.fool.com/earnings/call-transcripts/2026/11/13/mobility-mbgl-q3-2026-earnings-call-transcript/,2026-11-21,Q3 2026 call read on fool.com; Q2 2026 call only via WebSearch snippet (nasdaq.com 403); only two calls exist
+MBGL,D,done,scripts/pplx.js,2026-11-21,Perplexity profile returned; leads only (stale market cap)
+MBGL,E,done,yfinance,2026-11-21,"price history, peer EV/EBITDA, institutional holders, short interest 12.65M shares"
+MBGL,F,empty,,2026-11-21,no pending deal or regulatory review
+SW,A,done,https://www.sec.gov/Archives/edgar/data/2005951/000162828026069766/smur-20260930.htm,2026-11-21,"FY25+FY24 10-Ks (only SW 10-Ks; WestRock history via XBRL), Q3-26 10-Q full on contingencies/debt, 7 of 8 earnings releases, DEF 14A 2026"
+SW,B,fallback,https://www.sec.gov/Archives/edgar/data/2005951/000110465926012986/tm265780d1_ex99-4.htm,2026-11-21,IR site unreachable; Medium-Term Plan deck EX-99.4 and releases used
+SW,C,fallback,https://www.fool.com/earnings/call-transcripts/2026/10/28/smurfit-westrock-sw-q3-2026-earnings-call-transcript/,2026-11-21,1 of 4 calls found; below floor
+SW,D,done,https://www.perplexity.ai/finance/SW,2026-11-21,overview page only; leads confirmed on EDGAR
+SW,E,done,yfinance,2026-11-21,prices to 2026-11-20; short interest; holders 2026-09-30
+SW,F,fallback,https://www.sec.gov/Archives/edgar/data/2005951/000162828026069766/smur-20260930.htm,2026-11-21,DOJ subpoena and class action from 10-Q + WebSearch; PACER unreachable
