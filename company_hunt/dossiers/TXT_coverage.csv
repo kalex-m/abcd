@@ -1,0 +1,7 @@
+company,layer,status,source_url,date_accessed,note
+TXT,A,done,https://www.sec.gov/Archives/edgar/data/0000217346/000021734626000044/txt-20261003.htm,2026-11-21,"FY25 10-K (risk factors, pension), FY22 10-K risk factors, FY21 10-K segments read; FY23/FY24 via XBRL segments only; Q3-26 and Q2-26 10-Q grepped; 8 quarters via XBRL facts; Q3-26/Q3-25 EX-99.1; DEF 14A 2026 only (2024/2025 not read); Forms 4 3y; 13G list; 8-Ks 2026-11-18 (Industrial sale, impairment, 35M buyback) and 2026-11-04 (notes); FTS 5 phrases clean"
+TXT,B,fallback,https://www.sec.gov/Archives/edgar/data/217346/000021734626000009/a043026pressrelease.htm,2026-11-21,IR site unreachable; EX-99.1 releases and EX-99.2 separation release used; EX-99.3 investor deck not read
+TXT,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/29/textron-txt-q3-2027-earnings-call-transcript/,2026-11-21,"3 calls read: Q3-26, Q1-26 (fool.com/.../2026/04/30/textron-txt-q1-2026-...), Q4-25 (.../2026/01/28/textron-txt-q4-2025-...); Q2-26 and Q3-25 not found - below 4-call floor"
+TXT,D,done,https://www.perplexity.ai/finance/TXT,2026-11-21,quote page only (52w range 71.87-101.57; fwd P/E 11.36); lead only
+TXT,E,done,yfinance,2026-11-21,"price to 2026-11-20 ($79.62), short 5.0% of float, institutions 94%, top holders 2026-09-30"
+TXT,F,done,https://www.sec.gov/Archives/edgar/data/217346/000110465926129345/tm2629751d1_8k.htm,2026-11-21,HSR/foreign approvals for Industrial sale (close H1 2027); FY27 appropriations for MV-75 from 10-Q; no docket search needed

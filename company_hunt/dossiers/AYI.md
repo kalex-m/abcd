@@ -94,7 +94,7 @@ There is no war chest and no burden. After Parameter, Acuity carries roughly 1x 
 - Six analysts cover the stock and short interest is 3.8%.
 - 10-year revenue CAGR is only 3.5%, but FCF per share compounded 19%/yr over five years. Driver: margin expansion from 12.7% (10y median operating margin) to 15.4%, plus a 14.8% share-count cut.
 - Diluted shares went from 43M (FY2017) to 29.7M outstanding on 2026-10-20 (10-K cover).
-- This is a vault. The test is whether it is cheap, and at 18.2x trailing GAAP P/E against a 10-year median of 18.2x, and EV/EBIT of 13.7x against 13.6x, it is not.
+- This is a vault. The test is whether it is cheap, and at 18.2x trailing GAAP P/E on market cap / net income (19.2x price / diluted EPS) against a 10-year median of 18.2x, and EV/EBIT of 13.7x against 13.6x, it is not.
 
 **G6 hidden room: conservative SOTP** (FY2026, $M; adjusted EBITDA = adjusted operating profit + depreciation; SBC charged at corporate):
 

@@ -10,7 +10,7 @@
 
 Run date 2026-11-21. Main sources: Form 10 information statement (EX-99.1 to 10-12B/A, filed 2026-05-27): https://www.sec.gov/Archives/edgar/data/2090312/000110465926066592/tm2528763d9_ex99-1.htm ; Q3 2026 10-Q (filed 2026-11-12): https://www.sec.gov/Archives/edgar/data/2090312/000209031226000035/mbgl-20260930.htm ; Q3 2026 earnings release EX-99.1 (2026-11-12): https://www.sec.gov/Archives/edgar/data/2090312/000209031226000034/mbgl-20260930x8kexx991.htm ; FY2025 quarterly data EX-99.2 (2026-08-07): https://www.sec.gov/Archives/edgar/data/2090312/000209031226000013/exhibit992.htm ; S&P Global 10-K segment XBRL 2022-2025 (`segments SPGI 5`); Q3 2026 call transcript (fool.com): https://www.fool.com/earnings/call-transcripts/2026/11/13/mobility-mbgl-q3-2026-earnings-call-transcript/
 
-Two corrections to the kill test: nine-month 2026 free cash flow was $363M vs $361M a year earlier (Q3 release, Exhibit 3), not $461M vs $412M; and the insider buyer Mark Peek is an independent director and Audit Committee chair (8-K 2026-07-02), not a CFO-level officer. Neither changes the verdict, but the first one matters for the cash story (see section 3).
+One correction and one clarification to the kill test: the kill test's $461M vs $412M are the correct Form 10 full-year 2025 and 2024 free cash flow figures, but nine-month 2026 free cash flow was only $363M vs $361M a year earlier (Q3 release, Exhibit 3); and the insider buyer Mark Peek is an independent director and Audit Committee chair (8-K 2026-07-02), not a CFO-level officer. Neither changes the verdict, but the first one matters for the cash story (see section 3).
 
 ## 1. The one-paragraph truth
 
@@ -27,7 +27,7 @@ Leadership is the S&P Global Mobility team carried over. CEO William (Bill) Eage
 | Year | Revenue (SPGI segment, 10-K XBRL) | Revenue (MBGL carve-out, Form 10) | CARFAX rev | B2B rev | Adj. EBITDA (Form 10/8-K) | Margin | CARFAX seg. adj. EBITDA (margin) | B2B seg. adj. EBITDA (margin) | FCF (EDGAR) |
 |---|---|---|---|---|---|---|---|---|---|
 | 2022 | 1,142 (10 months; IHS Markit merger closed 2022-02-28) | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a |
-| 2023 | 1,484 | 1,485 | 928 | 557 | 598 | 40% | adj. op. profit 400 | adj. op. profit 181 | 380 |
+| 2023 | 1,484 | 1,485 | 928 | 557 | 598 | 40% | adj. op. profit 400 | adj. op. profit 181 | 375 |
 | 2024 | 1,609 | 1,613 | 1,039 (+12%) | 574 (+3%) | 658 | 41% | 476 (46%) | 203 (35%) | 410 |
 | 2025 | 1,747 | 1,750 | 1,142 (+10%) | 608 (+6%) | 711 | 41% | 536 (47%) | 197 (32%) | 460 |
 | 9M 2025 | | 1,304 | 855 | 449 | 548 | 42% | 418 | 145 | 361 |
@@ -68,7 +68,7 @@ The notes have no maturity before 2029, carry only incurrence-type covenants (li
 
 **G2 Mid-Rebuild.** The rebuild is a separation, not a turnaround: (1) systems migration off S&P Global within 18 months of 2026-07-01; (2) about $100M of one-time stand-up spend through 2027; (3) standalone costs already in the Q3 base (B2B margin down 550bp, CARFAX at 49% after allocation); (4) a reversed dealer go-to-market change in June 2026 now showing three quarters of acceleration at CARFAX U.S.; (5) a stated 2027 focus on B2B margins. The rebuild signal that would matter, B2B margin recovery toward 32-35%, has not shown up yet.
 
-**Rough SOTP (my assumptions).** CARFAX 2026 segment adjusted EBITDA about $595M (9M $446M plus a Q4 at the 9M rate) at 13x (Equifax 12.8x, Copart 13.1x; no premium for the brand) = $7.7B; B2B about $195M at 9x (below TransUnion's 11.9x for a slower, lower-margin business) = $1.8B; corporate costs are now allocated to segments (Q3 corporate adjusted EBITDA only -$4M), so I take no separate deduction. EV $9.5B less net debt $1.72B = $7.8B, or $26.4 per share. At 15x / 10x it is $30.5. Takeaway: the toll is real in CARFAX, the rebuild is real but administrative, and neither ground produces a deep discount at $23.93.
+**Rough SOTP (my assumptions).** CARFAX 2026 segment adjusted EBITDA about $595M (9M $446M plus a Q4 at the 9M rate) at 13x (Equifax 12.8x, Copart 13.1x; no premium for the brand) = $7.7B; B2B about $195M at 9x (below TransUnion's 11.9x for a slower, lower-margin business) = $1.8B; corporate costs are now allocated to segments (Q3 corporate adjusted EBITDA only -$4M), so I take no separate deduction. EV $9.5B less net debt $1.72B = $7.8B, or $26.4 per share. At 15x / 10x it is $31.05. Takeaway: the toll is real in CARFAX, the rebuild is real but administrative, and neither ground produces a deep discount at $23.93.
 
 ## 6. What the market is pricing
 
@@ -85,7 +85,7 @@ Reverse DCF with `scripts/valuation.py` (2026-11-21): starting unlevered owner c
 | DCF bear at 8% | same | $22.41 | -6% |
 | EPV (no growth) | normalized EBIT $0.72B x (1-26%) / 9% | $14.31 | -40% |
 | Peer EV/EBITDA | 11x / 13x / 15x 2027E adj. EBITDA about $790M, net debt $1.70B | $23.7 / $29.1 / $34.4 | -1% / +22% / +44% |
-| SOTP | CARFAX 13-15x, B2B 9-10x (section 5) | $26.4-30.5 | +10% / +27% |
+| SOTP | CARFAX 13-15x, B2B 9-10x (section 5) | $26.4-31.1 | +10% / +27% |
 | DDM | $0.24 growing 7% at 9% | $12.84 | not meaningful: payout is about 16% of FCF; cash goes to buybacks |
 
 Peer multiples (yfinance, 2026-11-21, trailing EV/EBITDA): Equifax 12.8x, TransUnion 11.9x, Copart 13.1x, FICO 15.2x, S&P Global 17.1x, Verisk 19.5x, Thomson Reuters 19.8x, Moody's 21.4x, CarGurus 10.3x; MBGL 11.7x. Sensitivity (value per share, base starting cash, rows discount rate, columns growth in years 1-5): at 8%: 22 (0%), 27 (3%), 34 (6%), 41 (9%); at 9%: 18, 22, 27, 34; at 10%: 15, 19, 23, 28; at 11%: 12, 16, 19, 24. The two assumptions that matter most are the discount rate (one point moves value about $6) and whether per-share cash growth is 3% or 6% (about $5). I do not lean on EPV: it gives no credit for 7% growth on near-zero capital, which is the whole point of the business; it is the floor if growth stops. Fair value $22-31, midpoint $27, which gives an 11% margin of safety to the midpoint at $23.93 and a negative margin at the low end. Takeaway: fairly valued to modestly cheap, with an 11% gap to the midpoint, well short of the 30%+ discount this hunt asks for.
