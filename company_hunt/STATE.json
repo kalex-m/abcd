@@ -1,16 +1,16 @@
 {
  "run_started_utc": "2026-11-19T09:40:00Z",
- "phase": "2_and_3_in_parallel",
+ "phase": "complete",
  "phase_status": {
   "0": "done",
   "1": "done",
-  "2": "in_progress (G1-G4 done by script; G5/G6/G7 sub-agents running)",
-  "3": "in_progress (batches 1-4 relaunched after restart)",
-  "4": "pending",
-  "5": "pending",
-  "6": "pending",
-  "7": "pending",
-  "8": "pending"
+  "2": "done",
+  "3": "done",
+  "4": "done",
+  "5": "done",
+  "6": "done",
+  "7": "done",
+  "8": "done"
  },
  "counters": {
   "edgar_tickers": 10398,
@@ -22,7 +22,15 @@
   "g2_eligible": 516,
   "g3_eligible": 97,
   "g4_eligible": 60,
-  "g1_4_unique_triage": 77
+  "g1_4_unique_triage": 77,
+  "phase3_classified": 140,
+  "phase3_advance": 44,
+  "kill_tested": 44,
+  "kill_survivors": 6,
+  "dossiers": 6,
+  "verifications": 6,
+  "redteams": 6,
+  "actionable": 1
  },
  "companies": {},
  "notes": "Resume from the phase marked in_progress. Scripts in company_hunt/scripts. Raw data cache in company_hunt/data. Container restart at ~12:40Z killed agents; relaunched with resumable outputs.",
@@ -30,5 +38,17 @@
   "Phase 1 output universe/universe.csv; Phase 2 metrics triage/metrics.csv (scripts/p2_metrics.py, p2_yf_merge.py, p2_grounds.py)",
   "G5/G6/G7 lists come from sub-agents: triage/ground_5.csv, ground_6.csv, ground_7.csv (+ .md notes). If missing, re-spawn per RUNLOG.",
   "Phase 3 batches triage/p3_batch_1..4.txt -> triage/why_cheap_part_N.csv; G5-G7 names get batches 5+ after those lists land."
- ]
+ ],
+ "final": {
+  "ranked": [
+   "AMP",
+   "MBGL",
+   "AYI",
+   "TXT",
+   "GGG",
+   "SW"
+  ],
+  "actionable": "AMP",
+  "files": "final/"
+ }
 }
