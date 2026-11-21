@@ -84,3 +84,77 @@ Hidden asset: 68.3% economic interest in AllianceBernstein (199.3m AB Units + GP
 Equitable holds 199.3m AB Units plus the 1% GP interest, a 68.3% economic interest in AllianceBernstein (10-Q, 30 Sep 2026), worth $6.4bn at the AB Holding unit price against a $14.2bn market cap. The rest earns real money: Retirement $1,230m and Wealth Management $193m of operating earnings in 9M-2026, less $318m of corporate drag. At 6x for the insurer, 12x for wealth and a 10% tax haircut on AB, the parts sum to about $14.6bn, within 2% of the market price. The AB stake is visible, not hidden, and management is buying more of it rather than unlocking it. Drop.
 
 Sources: https://www.sec.gov/Archives/edgar/data/1333986/000133398626000060/eqh-20260930.htm (10-Q Q3 2026); yfinance AB, EQH close 2026-11-18
+
+## MPC: Marathon Petroleum Corporation (DROP (priced, boom earnings))
+
+Hidden asset: ~647m MPLX common units (~64%) plus the MPLX general partner (listed stake). Market cap $101.8bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **MPLX 647m units at market, 15% tax haircut** | 647m x $57.38 = $37.1bn pre-tax; pays MPC ~$3.1bn/yr | 31.5 |
+| Refining & Marketing | 5x mid-cycle EBITDA $6.0bn (9M-2026 actual $17.9bn is a boom, not a base) | 30.0 |
+| Renewable Diesel | ~1.5x annualised 9M-2026 EBITDA $0.55bn | 1.0 |
+| Corporate costs | -5x ~$0.8bn/yr (approx.) | -4.0 |
+| less net debt | MPC ex-MPLX: debt $32.9bn - MPLX $26.6bn = $6.3bn; cash+ST inv $13.6bn - MPLX cash $1.3bn = $12.3bn (net cash) | 6.0 |
+| **conservative SOTP** | | **64.6** |
+| market cap | yfinance 2026-11-18 | 101.8 |
+| **gap** | SOTP / mcap - 1 | **-37%** |
+
+MPC owns about 647m MPLX units, worth $37.1bn at market (MPC's own 10-Q prints $36.5bn at the 30 Sep price), plus the GP, and after the 2026 refining boom MPC itself sits on about $6bn of net cash outside MPLX. But Refining & Marketing earned $17.9bn of segment EBITDA in nine months of 2026 against $4.1bn a year earlier, so any SOTP depends on what you call normal. At a mid-cycle $6bn R&M EBITDA and 5x, plus MPLX less a tax haircut, I get about $65bn against a $101.8bn market cap. The MPLX stake is the opposite of hidden and the market is pricing boom margins. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1510295/000151029526000071/mpc-20260930.htm (10-Q Q3 2026); yfinance MPLX, MPC close 2026-11-18
+
+## AR: Antero Resources Corporation (DROP (no gap))
+
+Hidden asset: Equity-method stake in Antero Midstream (fair value $2.8bn at 30 Sep 2026) (listed stake). Market cap $11.3bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **Antero Midstream stake at market less 21% tax on gain** | fair value $2.8bn (10-Q) vs carrying $0.35bn | 2.3 |
+| Exploration & production | 6x FY2025 operating cash flow $1.63bn (incl. AM dividends) | 9.8 |
+| less net debt | metrics.csv net debt (latest balance sheet) | -2.8 |
+| **conservative SOTP** | | **9.3** |
+| market cap | yfinance 2026-11-18 | 11.3 |
+| **gap** | SOTP / mcap - 1 | **-17%** |
+
+Antero Resources carries its Antero Midstream stake at $348m under equity-method accounting, but its own 10-Q footnotes the market value at $2.8bn (30 Sep 2026), a quarter of AR's $11.3bn market cap. That gap between book and market looks like a hidden asset on a screen, but anyone who reads the footnote sees it. Taxing the gain and putting the E&P business at 6x FY2025 operating cash flow ($1.63bn) gives about $9.5bn less $2.8bn net debt, well under the market cap, which is pricing higher gas. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1433270/000110465926119637/ar-20260930x10q.htm (10-Q Q3 2026, investment note); triage/metrics.csv; yfinance AR, AM close 2026-11-18
+
+## MGM: MGM Resorts International (DROP (lease trap))
+
+Hidden asset: ~56% of MGM China (HKEX: 2282) and 50% of BetMGM (listed stake + JV). Market cap $8.5bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **MGM China ~56% at market** | HK$39.9bn x 0.1275 x 56% | 2.9 |
+| **BetMGM 50%** | ~1x MGM's half of revenue (approx.); $25m first distribution in 2026 | 1.5 |
+| Las Vegas Strip + Regional, after leases | 7.5x annualised 9M-2026 EBITDAR $3.73bn = $28.0bn less $23.9bn operating lease liabilities (VICI etc.) | 4.1 |
+| Corporate expense | approx. -$0.5bn/yr x 5 | -2.5 |
+| less net debt | debt ex-MGM China $3.37bn less ~$1.8bn non-China cash (China cash split not disclosed; approx.) | -1.6 |
+| **conservative SOTP** | | **4.4** |
+| market cap | yfinance 2026-11-18 | 8.5 |
+| **gap** | SOTP / mcap - 1 | **-48%** |
+
+MGM looks like a classic hidden-room case on a screen: an $8.5bn market cap holding about 56% of MGM China ($2.9bn at market) and half of BetMGM. The trap is the lease stack: MGM sold its real estate and now carries $23.9bn of operating lease liabilities (30 Sep 2026). Capitalise the Strip and regional EBITDAR ($3.73bn annualised, Strip down 5% year on year) at 7.5x and the equity left after leases is only about $4bn; add the stakes, subtract corporate cost and parent net debt and the SOTP is roughly half the market cap. The hidden assets are real but small next to the rent. Drop.
+
+Sources: https://www.sec.gov/Archives/edgar/data/789570/000078957026000107/mgm-20260930.htm (10-Q Q3 2026); yfinance 2282.HK, MGM, HKDUSD close 2026-11-18
+
+## JD: JD.com, Inc. (KEEP (high gap, high trap))
+
+Hidden asset: Listed subsidiaries JD Logistics (~64%), JD Health (~67%), JD Industrials, plus a profitable JD Retail core masked by New Businesses losses (listed stakes + segment). Market cap $33.7bn.
+
+| part | basis | value $bn |
+|---|---|---:|
+| **JD Logistics ~64% at market** | HK$58.3bn x 0.1275 x 64% | 4.8 |
+| JD Retail incl. JD Health and JD Industrials | 6x ~RMB55bn annual operating income (Q3-2026 RMB15.1bn) = $8.3bn x 6 | 49.6 |
+| less minorities in JD Health (~33%) and JD Industrials (~25%) | at HK market prices | -5.5 |
+| New Businesses (food delivery, Jingxi, overseas) | -2 years of ~$3.7bn annual losses (approx.) | -7.4 |
+| less net debt | half of consolidated net cash: cash+ST inv RMB214.7bn ($32.0bn) - debt RMB60.2bn ($9.0bn); half haircut because payables fund it and part sits in listed subs | 11.5 |
+| **conservative SOTP** | | **53.0** |
+| market cap | yfinance 2026-11-18 | 33.7 |
+| **gap** | SOTP / mcap - 1 | **+57%** |
+
+JD's market cap is $33.7bn. Its share of three Hong Kong-listed subsidiaries is about $17bn at market (JD Logistics ~64%, JD Health ~67%, JD Industrials ~75%), and JD Retail, which includes Health and Industrials, earned RMB15.1bn of operating income in Q3-2026 alone, or roughly $8bn a year. The headline numbers are drowned by New Businesses (food delivery, Jingxi, overseas) losses. Put JD Retail at 6x operating income, take out the minorities, charge two years of New Businesses losses, and credit only half of the $23bn consolidated net cash, and I still get about $54bn, 60% above the market. The catch is that management is buying (CECONOMY for EUR1.34bn this month) rather than unlocking, and China regulation already shows up as a SAMR fine in the release. A big conservative gap with a weak unlock path.
+
+Sources: https://www.sec.gov/Archives/edgar/data/1549802/000119312526464688/d179042dex991.htm (6-K EX-99.1 Q3-2026 results, 2026-11-17); https://www.sec.gov/Archives/edgar/data/1549802/000119312526456897/d114554dex991.htm (6-K CECONOMY completion, 2026-11-12); yfinance JD, 2618.HK, 6618.HK, 7618.HK close 2026-11-18

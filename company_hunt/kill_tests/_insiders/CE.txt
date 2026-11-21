@@ -1,0 +1,36 @@
+# Celanese Corp: 158 Form 4 filings since 2023-11-22
+# open-market summary (P=buy, S=sell): name | title | code | shares | $value | n
+Richardson Scott A | EVP & COO | S | 13,350 | $1,837,131 | 4
+Sutton Scott McDougald | Director | P | 9,450 | $488,906 | 2
+Murray Mark Christopher | SVP - Acetyls | P | 8,599 | $481,048 | 5
+Kyrish Chuck | SVP & CFO | P | 7,300 | $309,848 | 4
+Kelly Thomas Francis | SVP, EM | P | 1,400 | $219,373 | 1
+Richardson Scott A | CEO & President | P | 3,800 | $158,042 | 1
+MOORTHY GANESH | Director | P | 3,000 | $148,902 | 3
+GALANTE EDWARD G |  | P | 2,400 | $99,053 | 1
+Kissire Deborah J. |  | P | 1,000 | $54,280 | 1
+Go Timothy | Director | P | 1,039 | $48,053 | 2
+Duffie Ashley B | SVP & GC | P | 600 | $27,360 | 1
+# open-market BUYS detail (21):
+2024-03-08 Murray Mark Christopher (SVP - Acetyls) 597 sh @ $156.43
+2024-03-14 Kelly Thomas Francis (SVP, EM) 1,400 sh @ $156.69
+2025-03-07 Kissire Deborah J. () 1,000 sh @ $54.28
+2025-03-07 MOORTHY GANESH (Director) 1,000 sh @ $54.67
+2025-03-07 Murray Mark Christopher (SVP - Acetyls) 2,353 sh @ $54.45
+2025-03-07 Sutton Scott McDougald (Director) 7,450 sh @ $54.65
+2025-03-12 MOORTHY GANESH (Director) 1,000 sh @ $53.29
+2025-05-23 Murray Mark Christopher (SVP - Acetyls) 1,479 sh @ $52.18
+2025-08-14 GALANTE EDWARD G () 2,400 sh @ $41.27
+2025-08-14 MOORTHY GANESH (Director) 1,000 sh @ $40.94
+2025-08-14 Murray Mark Christopher (SVP - Acetyls) 2,017 sh @ $41.83
+2025-08-14 Sutton Scott McDougald (Director) 2,000 sh @ $40.89
+2025-09-08 Go Timothy (Director) 500 sh @ $46.33
+2025-09-08 Go Timothy (Director) 539 sh @ $46.17
+2025-12-09 Kyrish Chuck (SVP & CFO) 5,000 sh @ $41.03
+2025-12-10 Richardson Scott A (CEO & President) 3,800 sh @ $41.59
+2026-08-11 Duffie Ashley B (SVP & GC) 600 sh @ $45.60
+2026-08-11 Murray Mark Christopher (SVP - Acetyls) 2,153 sh @ $45.52
+2026-08-14 Kyrish Chuck (SVP & CFO) 100 sh @ $45.51
+2026-08-14 Kyrish Chuck (SVP & CFO) 800 sh @ $45.51
+2026-08-14 Kyrish Chuck (SVP & CFO) 1,400 sh @ $45.53
+# TOTAL buys $2,034,864 | sells $1,837,131 | net $197,733

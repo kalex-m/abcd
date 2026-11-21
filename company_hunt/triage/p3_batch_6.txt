@@ -1,0 +1,13 @@
+BKR|G7|Baker Hughes Company|Oil & Gas Equipment & Services
+HUBB|G7|Hubbell Incorporated|Electrical Equipment & Parts
+EME|G7|EMCOR Group, Inc.|Engineering & Construction
+HII|G7|Huntington Ingalls Industries, Inc.|Aerospace & Defense
+GD|G7|General Dynamics Corporation|Aerospace & Defense
+DY|G7|Dycom Industries, Inc.|Engineering & Construction
+TT|G7|Trane Technologies plc|Building Products & Equipment
+ETN|G7|Eaton Corporation plc|Specialty Industrial Machinery
+LNG|G7|Cheniere Energy, Inc.|Oil & Gas Midstream
+NOC|G7|Northrop Grumman Corporation|Aerospace & Defense
+RTX|G5,G7|RTX Corporation|Aerospace & Defense
+KMI|G7|Kinder Morgan, Inc.|Oil & Gas Midstream
+CMI|G7|Cummins Inc.|Specialty Industrial Machinery

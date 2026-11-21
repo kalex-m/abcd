@@ -1,0 +1,12 @@
+J|G7|Jacobs Solutions Inc.|Engineering & Construction
+EQIX|G7|Equinix, Inc.|REIT - Specialty
+LHX|G7|L3Harris Technologies, Inc.|Aerospace & Defense
+BWXT|G7|BWX Technologies, Inc.|Aerospace & Defense
+LMT|G7|Lockheed Martin Corporation|Aerospace & Defense
+GVA|G7|Granite Construction Incorporated|Engineering & Construction
+CAT|G7|Caterpillar Inc.|Farm & Heavy Construction Machinery
+NVT|G7|nVent Electric plc|Electrical Equipment & Parts
+CRS|G7|Carpenter Technology Corporation|Metal Fabrication
+TMUS|G2|T-Mobile US, Inc.|Telecom Services
+NVDA|G3|NVIDIA Corporation|Semiconductors
+PHM|G4|PulteGroup, Inc.|Residential Construction

@@ -1,0 +1,15 @@
+RJF|G5|Raymond James Financial, Inc.|Asset Management
+BNY|G5|The Bank of New York Mellon Corporation|Banks - Diversified
+HIG|G5|The Hartford Insurance Group, Inc.|Insurance - Diversified
+JPM|G5|JPMorgan Chase & Co.|Banks - Diversified
+ICE|G5|Intercontinental Exchange, Inc.|Financial Data & Stock Exchanges
+BAC|G5|Bank of America Corporation|Banks - Diversified
+ACGL|G5|Arch Capital Group Ltd.|Insurance - Diversified
+JNJ|G5|Johnson & Johnson|Drug Manufacturers - General
+TXT|G5|Textron Inc.|Aerospace & Defense
+PEP|G5|PepsiCo, Inc.|Beverages - Non-Alcoholic
+MCO|G5|Moody's Corporation|Financial Data & Stock Exchanges
+C|G5|Citigroup Inc.|Banks - Diversified
+ABT|G5|Abbott Laboratories|Medical Devices
+MET|G5|MetLife, Inc.|Insurance - Life
+MKC|G5|McCormick & Company, Incorporated|Packaged Foods
