@@ -1,0 +1,11 @@
+HMC|G6|Honda Motor Co., Ltd.|Auto Manufacturers
+BIDU|G6|Baidu, Inc.|Internet Content & Information
+JD|G6|JD.com, Inc.|Internet Retail
+F|G6|Ford Motor Company|Auto Manufacturers
+NWSA|G6|News Corporation|Entertainment
+THC|G6|Tenet Healthcare Corporation|Medical Care Facilities
+L|G6|Loews Corporation|Insurance - Property & Casualty
+EQH|G6|Equitable Holdings, Inc.|Asset Management
+LVS|G6|Las Vegas Sands Corp.|Resorts & Casinos
+BIO|G6|Bio-Rad Laboratories, Inc.|Medical Devices
+BN|G6|Brookfield Corporation|Asset Management

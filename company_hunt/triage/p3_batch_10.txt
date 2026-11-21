@@ -1,0 +1,14 @@
+MBGL|G3,G2 (CARFAX spin from S&P Global)|Mobility Global, Inc.|Software - Infrastructure
+HONA|G1,G2 (Honeywell Aerospace spin)|Honeywell Aerospace Inc.|Aerospace & Defense
+AMRZ|G1,G2 (Holcim North America spin)|Amrize Ltd|Building Materials
+FDXF|G1,G2 (FedEx Freight spin)|FedEx Freight Holding Company, Inc.|Integrated Freight & Logistics
+SW|G1 (packaging merger)|Smurfit Westrock Plc|Packaging & Containers
+SOLV|G2 (3M Health Care spin)|Solventum Corporation|Medical Instruments & Supplies
+HLN|G4,G5 (Haleon, 5 analysts)|Haleon plc|Drug Manufacturers - Specialty & Generic
+BIRK|G1 (brand)|Birkenstock Holding plc|Footwear & Accessories
+MKL|G5,G6 (insurance + Markel Ventures + portfolio)|Markel Group Inc.|Insurance - Property & Casualty
+CINF|G5,G6 (insurer with large equity portfolio)|Cincinnati Financial Corporation|Insurance - Property & Casualty
+RYAAY|G4 (net-cash airline)|Ryanair Holdings plc|Airlines
+VYLR|G2,G7 (Corteva seed spin, Pioneer)|Vylor Inc.|Shell Companies
+DVA|G1 (dialysis, 7 analysts)|DaVita Inc.|Medical Care Facilities
+INGM|G4 (Ingram Micro re-IPO, 7x fwd)|Ingram Micro Holding Corporation|Information Technology Services
