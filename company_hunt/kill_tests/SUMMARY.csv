@@ -1,0 +1,45 @@
+ticker,verdict
+ABT,FAIL (8) | quality score 7 | mispricing clarity 3
+ACN,FAIL (10) | quality score 8 | mispricing clarity 3
+ADBE,"FAIL (5, 10; gate 8 unverified) | quality score 8 | mispricing clarity 4"
+AMP,SURVIVE | quality score 8 | mispricing clarity 3
+AMRZ,FAIL (6) | quality score 7 | mispricing clarity 3
+APTV,"FAIL (2, 5, 6, 7, 10) | quality score 5 | mispricing clarity 3"
+AYI,SURVIVE | quality score 7 | mispricing clarity 3
+BIRK,"FAIL (6, 10) | quality score 6 | mispricing clarity 3"
+BKNG,"FAIL (3,8,10) | quality score 8 | mispricing clarity 3"
+BKR,"FAIL (3, 10) | quality score 6 | mispricing clarity 3"
+CE,"FAIL (2, 3, 5, 10; gate 4 unverified) | quality score 4 | mispricing clarity 3"
+CMI,"FAIL (5, 10) | quality score 7 | mispricing clarity 3"
+CPRT,FAIL (8; 1 unverified) | quality score 8 | mispricing clarity 4
+CRS,FAIL (10; 5 unverified) | quality score 8 | mispricing clarity 4
+CRUS,FAIL (7) | quality score 6 | mispricing clarity 3
+CTVA,"FAIL (2,3,8,10; 4,5 unverified) | quality score 5 | mispricing clarity 3"
+DECK,FAIL (10) | quality score 7 | mispricing clarity 3
+DVA,"FAIL (7, 10) | quality score 6 | mispricing clarity 3"
+DY,"FAIL (2, 3, 7, 10; 4, 5, 8 unverified) | quality score 4 | mispricing clarity 3"
+EDU,"FAIL (7, 8, 10; gate 3 unverified) | quality score 5 | mispricing clarity 3"
+FDS,FAIL (10; gate 8 unverified) | quality score 7 | mispricing clarity 4
+FIS,"FAIL (3, 5, 6, 10; gate 4 unverified) | quality score 4 | mispricing clarity 3"
+FUTU,"FAIL (7, 8, 10; gates 3, 4 unverified) | quality score 5 | mispricing clarity 3"
+G,"FAIL (1, 4, 6 unverified; 10) | quality score 6 | mispricing clarity 5"
+GGG,SURVIVE | quality score 8 | mispricing clarity 3
+GVA,"FAIL (3, 6; 5, 8 unverified) | quality score 6 | mispricing clarity 5"
+HII,"FAIL (3, 5, 10) | quality score 5 | mispricing clarity 3"
+HLN,FAIL (10) | quality score 6 | mispricing clarity 3
+HMC,FAIL (10) | quality score 6 | mispricing clarity 3
+HONA,"FAIL (4, 10) | quality score 7 | mispricing clarity 3"
+INTU,"FAIL (3,8,9,10; 1 unverified) | quality score 7 | mispricing clarity 3"
+JD,"FAIL (5, 8, 10) | quality score 5 | mispricing clarity 3"
+LHX,"FAIL (3, 5, 10) | quality score 6 | mispricing clarity 3"
+MBGL,SURVIVE | quality score 7 | mispricing clarity 3
+MELI,"FAIL (4, 10; gates 3, 8 unverified) | quality score 7 | mispricing clarity 2"
+MGM,"FAIL (2, 3, 10; gate 8 unverified) | quality score 5 | mispricing clarity 3"
+NTES,FAIL (8; 5 unverified) | quality score 8 | mispricing clarity 4
+NVDA,"FAIL (3, 5, 7, 8, 10) | quality score 8 | mispricing clarity 2"
+NVR,FAIL (10) | quality score 8 | mispricing clarity 2
+OC,"FAIL (3,5,7) | quality score 5 | mispricing clarity 3"
+PEP,FAIL (10) | quality score 6 | mispricing clarity 2
+SW,SURVIVE | quality score 5 | mispricing clarity 3
+TMUS,"FAIL (3, 10) | quality score 7 | mispricing clarity 3"
+TXT,SURVIVE | quality score 6 | mispricing clarity 3

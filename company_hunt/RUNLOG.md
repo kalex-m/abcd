@@ -74,3 +74,9 @@ Run date: 2026-11-19 (UTC). Working folder: `company_hunt/`.
 - Kill tests done 31/32 (ACN pending). SURVIVE: AMP, AYI, GGG. FAIL: ADBE, APTV, BKNG, BKR, CE, CMI, CPRT, CRS, CRUS, CTVA, DECK, DY, EDU, FDS, FIS, FUTU, G, GVA, HII, INTU, LHX, MELI, MGM, NTES, NVDA, NVR, OC, TMUS. Most common failing gates: 10 (bear case fully studied) and 3 (war chest not real after netting).
 - Survivors far below the 25 floor, so the brief's iteration loop applies. Widening = the second pass (spin-offs and low-attention names that the history-based screen missed) plus G6. Not widening further by loosening gates: an empty result is allowed and the default is rejection.
 - Budget: all remaining agents on Sonnet, max 3 at once.
+
+## Phase 4 checkpoint (2026-11-21)
+- 44 kill tests (`kill_tests/SUMMARY.csv`). SURVIVE (6): AMP (G4), AYI (G4), GGG (G3), TXT (G5), SW (G1), MBGL (G3/G2, CARFAX spin). Every survivor scored 3/10 on mispricing clarity: they are sound businesses at roughly fair prices, not clear mispricings.
+- Kill tests corrected Phase 3 in places: HONA net debt is $14.3B (10-Q), not ~0; AMRZ has an open material weakness (gate 6) despite $70.2M of insider buying; JD's RMB215bn cash includes ~RMB88bn supplier float; MELI/FUTU "FCF" is customer money.
+- Survivors (6) far below the 40-60 target and the 25 floor. Iteration done: second pass on spin-offs/low-attention (14 names) + G6 (11) yielded 1 survivor (MBGL). Not loosening the gates further: the brief makes rejection the default and allows empty grounds. Grounds with no survivor: G6 Hidden Room, G7 Tide Supplier (all shifts' suppliers either priced or failed on balance sheet/gate 10). G1, G2, G5 have one each.
+- Decision: dossiers on all 6 survivors (below the 20-24 the brief wanted, because only 6 survived; padding with failed names would break the kill test). Closest rejects taken from high-quality single-gate failures: FDS, DECK, NVR, CRS, CPRT, NTES, HMC, ACN, CRUS.
