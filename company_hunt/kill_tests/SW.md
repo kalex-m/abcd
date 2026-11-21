@@ -1,0 +1,30 @@
+# SW: Smurfit Westrock plc (grounds: G1) | kill test 2026-11-21
+Phase 3 class: HURT | price $40.33 (2026-11-18) | mcap $21.15B
+
+| # | Gate | Result | Evidence (numbers, dates, source) |
+|---|------|--------|-----------------------------------|
+| 1 | Relevance | PASS | Corrugated boxes ship consumer goods, food and e-commerce; no substitute at scale, and the paper is recycled. Customers are mostly fast-moving consumer goods (10-K filed 2026-02-27). Demand follows GDP, not a decline curve. Clean organic trend is not available: revenue $13.5B (2022) to $31.2B (2025) is the 2024 merger, not growth. Q3 2026 converting volumes were weaker than planned (Phase 3 row, 8-K 2026-10-28). Needed, but a cyclical commodity, not a grower. |
+| 2 | Moat | PASS (weak) | Scale (largest corrugated producer), integration from forest and mills to boxes, plants close to customers. But returns say the moat is thin: GM 19.4%, operating margin 5.5% vs 8.4% 10y median, ROIC 4.1% (5y avg 6.9%). Q3 2026 adjusted EBITDA margin 14.8% vs 16.3% a year ago. Paper is priced by the cycle; the advantage is cost position and density, not pricing power. |
+| 3 | Balance sheet | PASS (leveraged, no war chest) | Cash $723M vs total debt $14.05B at 2026-09-30 (current portion $842M up from $346M; 10-Q filed 2026-11-04). Net debt $13.3B plus operating leases (about $1.05B right-of-use asset at 2025-12-31; liability not extracted from 10-Q) and asbestos (insured, company expects no material effect). Pension: prepaid asset $712M vs liabilities $668M, roughly neutral. Net debt about 2.8x the $4.7B guided 2026 EBITDA. Liquidity is real ($4.6B undrawn facilities at 2025-12-31, 4.5 year average maturity). Not a war chest: this is a levered business. Debt stress not visible; interest $519M for nine months. |
+| 4 | Cash quality | PASS (flag) | OCF/NI 5y 2.73 (capital-heavy, depreciation large). 2025 OCF $3.39B, capex $2.19B, FCF $1.20B, SBC $0.14B, FCF-SBC $1.06B; dividends $0.90B leave about $0.3B. Nine-month 2026 OCF fell (Q3 $874M vs $1,133M). The company uses supply-chain finance, monetization of receivables and three receivables securitization programs (10-K liquidity section), which lifts operating cash flow; size not netted. Receivables up $4.27B to $4.95B in nine months. |
+| 5 | Management | PASS (weak) | CEO Tony Smurfit; combination with WestRock done July 2024 and synergies delivered; 3y impairments $0.28B, 5y acquisitions $0.85B (merger itself was stock). Buybacks near zero ($0.03B/yr), so no price-chasing record. Pay (DEF 14A filed 2026-03-11): annual bonus on adjusted EBITDA 35%, free cash flow 35%; PSUs on relative TSR 40%, cumulative EPS 30%, return on capital employed 30%. That is a sound design. Insiders (3y): sold $10.6M, one director bought $0.6M at $39.21 (2025-05-06); CEO sold $2.1M and $4.3M. |
+| 6 | Accounting | PASS (explained) | No 4.01/4.02 in 5 years. A material weakness was reported after the merger (Smurfit Kappa processes not previously under SOX; IT and review-evidence controls); the 10-K filed 2026-02-27 says it was remediated at 2025-12-31 with KPMG clean opinion. Adjusted EBITDA $4.9B (2025) vs GAAP operating income $1.72B; the add-backs are depreciation and merger and restructuring costs, which will keep appearing for two more years. |
+| 7 | Concentration | PASS | No customer above 10% of net sales (10-K); no country other than the U.S. above 10%. |
+| 8 | Regulatory/legal | UNVERIFIED | A U.S. antitrust class action (filed 2025-07-29, N.D. Illinois) accuses ten containerboard makers of fixing prices and seeks treble damages. The motion to dismiss was denied on 2026-09-04 (10-Q Note, filed 2026-11-04). Smurfit Westrock plc was dismissed without prejudice, but two operating subsidiaries remain. Damages are not quantified anywhere in the filings and no accrual is stated; I cannot size it. Also a $469M ICSID award against Venezuela (an asset, uncollected). |
+| 9 | Dilution | PASS (explained) | Diluted shares 261M (2022) to 526M (2025): the WestRock stock merger, not drift. Since the merger the count is flat (treasury re-issuance small). SBC $0.14B, 0.45% of revenue, 12% of FCF. |
+| 10 | Nobody cares | PASS | 15 analysts, 5.3% short, no 13D activist (only 13G passive filings through 2026-08). The bear case (freight and energy cost, weak volumes) is ordinary and the stock is up 24% over one year. Not a crowded fight, but not neglected either. |
+
+## War chest netting (10-Q, 2026-09-30)
+| item | $B | source |
+|---|---|---|
+| Cash and equivalents | +0.72 | 10-Q balance sheet |
+| Total debt (current 0.84 + non-current 13.21; includes finance leases 0.54) | -14.05 | 10-Q Note on debt |
+| Operating leases (ROU asset proxy at 2025-12-31) | -1.05 | 10-K Note 13 |
+| Pension net (prepaid 0.71 vs liability 0.67) | about 0 | 10-Q |
+| Antitrust class action | not quantified | 10-Q |
+| Net after netting | about -14.4 | |
+
+## Reading
+Smurfit Westrock is the largest corrugated packaging company in the world and is cheap on 2026 earnings because $700M of unplanned freight and energy cost, weak converting volumes and a guidance cut to $4.7B EBITDA have hit before its price increases arrive in 2027. The financial gates mostly hold: no customer above 10%, a sound pay design (return on capital, EPS and relative TSR), a remediated post-merger control weakness, and dilution that is just the merger. What stops it being a good find is the economics: operating margin 5.5% against an 8.4% median, ROIC 4.1%, net debt about 2.8x EBITDA, capex that consumes 65% of operating cash flow and dividends that take most of the rest, so the 5.7% FCF yield is thinner than it looks. The antitrust price-fixing class action survived a motion to dismiss on 2026-09-04 and the damages cannot be sized from the filings. Whether 2027 pricing sticks is a cycle bet on a low-return commodity, not a mispriced franchise. Takeaway: survives the gates on a technicality, but the case is a cycle recovery with leverage and an unsized lawsuit, not a bargain.
+
+VERDICT: SURVIVE | quality score 5 | mispricing clarity 3
