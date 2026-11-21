@@ -148,3 +148,145 @@ Over the last five years total segment pretax grew every year except 2020, and p
 3. The advisor-recruiting war could raise the 57% payout to advisors.
 
 A 20% earnings reset in a bear market, like 2020's -14% pretax, with -3% growth thereafter, gives $386 (scenario below). The market is pricing roughly a midpoint between "flat forever" and "bear reset", which I read as modestly too pessimistic for a business still growing wrap assets 12% and returning 9% a year.
+
+## 7. Your own valuation
+
+All per-share values use 87.0M shares and are compared with $501.42 (2026-11-18). Source: `scripts/valuation.py` (run 2026-11-21) plus a custom residual-income model. I did not use the kit's RI, because it assumes 50% retention, which is wrong for a 90%+ payer.
+
+| Method | Key assumptions | Value/sh | vs price |
+|---|---|---|---|
+| Zero-growth owner cash | $4.0B flat, r 10% | $460 | -8% |
+| Earnings power value | TTM pretax adjusted operating about $5.37B (AWM 3,805 + AM 1,148 + RPS 790 - Corp ~370), 21% tax, r 10% | $488 | -3% |
+| DCF bear | earnings reset -20%, then -3%/yr for 5 years, fading to 3% | $386 | -23% |
+| DCF base | +6%/yr years 1-5, fading to 3% | $799 | +59% |
+| DCF bull | +10%/yr, +5% reset | $1,046 | +109% |
+| Residual income, bear | book ex-AOCI $7.54B, ROE fades 50% to 30%, book +3%/yr, r 10% | $398 | -21% |
+| Residual income, middle | ROE fades 50% to 40%, book +4%/yr | $521 | +4% |
+| Residual income, base | ROE 50% flat, book +5%/yr | $664 | +32% |
+| Capital-return yield | 9.0% TTM payout yield + 3-4% long-run growth = about 12-13% expected return vs 10% required | about $600-650 equivalent | +20-30% |
+| DDM (dividend only) | $6.80 dividend, +7%, r 10% | $243 | not meaningful: dividends are 15% of distributions |
+
+**Sensitivity (DCF, value/sh; rows = discount rate, columns = owner-cash growth years 1-5):**
+
+| r \ g | -2% | 0% | 3% | 6% | 9% |
+|---|---|---|---|---|---|
+| 8% | 704 | 793 | 947 | 1,129 | 1,343 |
+| 9% | 591 | 664 | 789 | 937 | 1,110 |
+| 10% | 511 | 572 | 677 | 799 | 943 |
+| 11% | 450 | 503 | 592 | 697 | 819 |
+
+**The assumption that matters most is whether $4.0B is a normal or a peak level of owner cash.** I weight it as about 10-15% above a through-cycle level: markets are near highs, and rate spread is about a fifth of AWM pretax. That is why I anchor the range on the middle RI, EPV and a haircut base DCF rather than the $799 headline.
+
+**Fair value: $480-680, midpoint about $580.** The low end is EPV and the RI fade case. The high end is RI at constant ROE, equal to the base DCF on owner cash about 15% lower. Margin of safety at the midpoint is +14% vs $501.42 and +17% vs $480.29 (2026-11-20). There is none at the bottom of the range. That is a decent but not compelling discount for a business whose earnings fall 15-25% in an equity bear market.
+
+## 8. The thesis in one sentence, and why the market is not seeing it
+
+**Thesis:** at 10-11x earnings, Ameriprise is priced as if its owner cash will shrink. Yet the advice business that now makes two-thirds of profit grew wrap assets 12% and advisor productivity 13% in the latest year, and the company retires about 7% of its shares a year with a fully funded $5.5B buyback (12.6% of market cap). So per-share value compounds at about 12% a year even with no re-rating.
+
+**Why the market is not seeing it:** it is seeing it. It discounts it, for visible reasons: market beta, rate-spread dependence, AM outflows and recruiting headlines. The only thing I think the market under-weights is the mix shift. Core (non-spread) distribution earnings grew more than 20% and became the majority of AWM profit (Q3-26 ER). That makes the earnings less rate-dependent than the 2023 "cash-sweep stock" label implies. This is a fact, but a modest one, and it does not count as an information edge.
+
+## 9. The industry picture
+
+US wealth management is consolidating around platforms that combine advice, custody, banking and technology, while advisors become more mobile and better paid. Private-equity-backed RIAs and independent broker-dealers are offering recruiting packages that Ameriprise's CFO says need "seven, eight-year paybacks" (Q3-26 call). Higher short rates "fuel" those packages because the bidders capitalise future cash-sweep income. Active asset management is losing share to passive, ETFs, models and private markets. Columbia Threadneedle's outflows ($9.3B in Q3 2026) and its pivot into ETFs, SMAs, models ($2.4B of inflows in those vehicles in Q3), alternatives and a Hamilton Lane collaboration reflect that. Fee-based wrap accounts keep growing; Ameriprise's grew $79B in a year to $729B.
+
+Winners are firms with scale technology, an attached bank and organic client acquisition. Ameriprise has all three, at a smaller scale than the largest platforms. Losers are subscale active managers and firms that over-pay for recruits at the top of the rate cycle. Ameriprise sits in the middle: a strong, planning-led, mostly organic AWM franchise attached to a mid-sized active manager on the wrong side of the trend. It wins on the advice side and is slowly losing on the manufacturing side. The bank-channel wins (Huntington, Cadence) offset the Comerica loss of about $19B of assets after the Fifth Third deal.
+
+## 10. Regulatory docket
+
+No pending deal or review. The FY25 10-K and Q3-26 10-Q show only ordinary-course regulatory inquiries. The Rule 15c3-3 daily reserve computation, effective 2026-06-30, is operational. The industry cash-sweep litigation is not disclosed as an Ameriprise matter. Layer F is empty.
+
+## 11. Disclosure diffs
+
+**Risk factors, FY25 10-K vs FY22 10-K (Item 1A, about 80k characters each, keyword counts):**
+- Added or grown:
+  - "generative" AI: 0 to 2 mentions.
+  - climate: 5 to 9.
+  - "succession": 0 to 2.
+  - "structured" (structured annuities): 1 to 3.
+- Removed or shrunk:
+  - pandemic/COVID: 13 to 2.
+  - fiduciary/DOL rule: 1 to 0.
+  - Basel/capital framework: 3 to 0.
+  - "recruit": 4 to 1.
+
+The recruiting risk shrank in the risk factors just as it became the main topic on the calls. That is a disclosure lag worth noting.
+
+**Restated series.** The FY25 10-K segment series is consistent with what the earnings releases reported. RPS before 2023 was restated for LDTI, so 2019-2022 insurance figures are not comparable with later years. I did not run a full original-vs-restated diff for every year (partial).
+
+**Amendments.** A 10-K/A was filed 2026-03-12 solely to correct the as-of date in the auditor's internal-control opinion, a typo. No restatement and no clawback flag.
+
+**Guidance language.**
+- AM G&A expected "flat excluding Seligman and other performance fee compensation" (Q3-26 ER).
+- Operating tax rate 20-22% for 2026.
+- AWM margins "stable on current levels" (Q3-26 call, answer to Evercore).
+
+Management avoids numeric earnings guidance as it always has.
+
+**Full-text searches 2021-2026.**
+- "strategic review" 0 hits; "customer concentration" 0 hits.
+- "going concern": 3 hits, all in credit-agreement exhibits.
+- "material weakness": boilerplate in the auditor's report only.
+- "impairment": routine investment and goodwill language.
+
+## 12. Insider and ownership behaviour
+
+**Form 4s, 2023-11-22 to 2026-11-19 (`insiders AMP 3`):** zero open-market buys and $161.4M of sales.
+- Cracchiolo sold 159,190 shares for $65.9M, average about $414.
+- Berman sold 54,422 for $26.7M, about $490.
+- Truscott (asset management CEO) sold 54,202 for $24.9M, about $459.
+- Sweeney sold $14.4M, Williams $8.7M, director Sharpe $4.5M.
+
+On 2026-03-02 Cracchiolo still held 86,666 shares, 200,844 exercisable options and 194,821 deferred units, about $240M of exposure at $501 (2026 proxy). Steady selling by a 21-year team is not a bearish signal. Still, there is no confirming insider buy at any price, including the 2026 low near $422.
+
+**Holders.** Vanguard holds 14.3% and BlackRock 10.1% (2026 proxy, based on their 13G/As). The EDGAR `holders` listing is dominated by 13G filings Ameriprise itself makes as an asset manager, and no new 5% holder or 13D on AMP appears. 13F changes at 2026-09-30 (yfinance):
+- FMR +54%, AQR +20%, Morgan Stanley +11%.
+- Aristotle -7%.
+- Norges -15% (June).
+
+Institutions own 92.6%. Short interest is 4.3% of float, 2.75M shares.
+
+Takeaway: index-dominated, quietly accumulated by some quant and active funds in Q3, sold steadily by insiders.
+
+## 13. Catalysts and timeline
+
+1. **Late January 2027, Q4 2026 results.** The first full quarter after the Huntington onboarding (258 advisors, about $28B of assets moving through early 2027). Watch the first ex-Comerica-free flow print and the experienced-advisor recruiting count.
+2. **Late February / March 2027, FY26 10-K with RiverSource Life's statutory RBC.** Capital fell from $2.73B to $2.38B in nine months, so watch the ratio.
+3. **Through 2028-09-30, the $5.5B buyback.** At $480 this retires about 11.5M shares, roughly 13% of the count.
+4. **Mid-2027, Cadence-related advisors** (29 advisors, about $4B).
+5. **CEO succession at some point.** Cracchiolo is 67. A credible internal successor announcement would remove an overhang. An outsider or an abrupt exit would add one.
+
+**Slow case, if no catalyst ever comes.** A 9% capital-return yield plus 3-4% underlying growth compounds per-share value at about 12% a year at a constant multiple. That is the realistic return path; re-rating is a bonus.
+
+## 14. What would make this thesis wrong
+
+Sell or send back to the kill test if any of these appear:
+- **Organic flows.** AWM organic client flows ex-Comerica below a 2% annualised rate, against "the 4% range" now (Q3-26 call), for two consecutive quarters.
+- **Advisor count and retention.** Advisor count down more than 2% year on year, or management dropping the "high 90s" retention claim.
+- **Recruiting cost.** Distribution expense rising above 58% of AWM net revenue (56.7% in Q3 2026), which would mean the recruiting war is being paid for.
+- **AWM margin** below 27% for two quarters (29.3% now).
+- **Payout.** Capital return below 75% of operating earnings for two quarters, or a pause in buybacks. That would signal capital is needed at the subsidiaries.
+- **Insurer capital.** RiverSource Life actual capital below $2.0B, or below 4x the company action level, at a year-end filing.
+- **Rate damage.** AOCI worse than -$4.0B, or GAAP debt-to-capital above 45%, from further rate rises.
+- **Asset management.** Net outflows above $10B a quarter for four quarters together with an AM pretax margin below 38%. That would mean AM profit is finally following its assets down.
+- **Cash sweep balances** below $24B, against $27.0B now, excluding seasonal Q3 lows.
+
+## 15. Coverage statement
+
+| Layer | Status | What that means for confidence |
+|---|---|---|
+| A (EDGAR) | Partial | Done: Q3-26 10-Q read in depth (equity, AFS, debt, regulatory capital, liquidity, contingencies); FY25 10-K grepped (subsidiary dividends, RBC, leases, subsequent events, parent-only cash flow); FY22 10-K risk factors diffed; 10-K/A checked; 8 quarterly EX-99 releases parsed; 2026 proxy read; Forms 4 for 3 years; holders; 5 full-text searches. Not done: FY21/FY23/FY24 10-Ks and the 2024/2025 proxies were not individually grepped; earlier 10-Qs covered only through the releases. |
+| B (company IR) | Fallback | IR site unreachable. EX-99 releases used; no EX-99.2 supplement or slide deck is filed on EDGAR, so the "excess capital" and "holding-company liquidity" figures come from call transcripts. |
+| C (transcripts) | Partial | Q3 2026 call read in full including Q&A. Q4 2025 call keyword-searched. Q1 and Q2 2026 not read, which is below the 4-call floor. |
+| D (Perplexity) | Unreachable | Cloudflare bot check. |
+| E (market data) | Done | yfinance on 2026-11-20: price, 3-year quarterly closes, short interest, institutional holders. |
+| F (regulatory docket) | Empty | No pending review. |
+
+## 16. Confidence score
+
+**6/10.** The numbers are clean: adjusted earnings roughly equal GAAP over the TTM, subsidiary dividends convert about 95%, and there is no accounting smoke. The valuation spread is wide but centred above the price.
+
+The two biggest unknowns:
+1. **Through-cycle owner cash.** How much of today's $4.2B of adjusted earnings survives a 25% equity drawdown combined with falling short rates. I estimate 15-25% downside, but the 2026 rate hikes make the spread component harder to normalise.
+2. **The recruiting war.** Whether the advisor-recruiting and retention fight forces a structural rise in the advisor payout. Management denied a broad retention programme twice on 2026-10-29, but recruits are flat and the press reports were not refuted with numbers.
+
+Verdict: a fair-to-modestly-cheap compounder, not a discovery. It belongs on a watch list for a purchase near $430 or lower, which is the 52-week low area and gives a 25% margin to the midpoint, rather than as a high-conviction buy at $480-500.

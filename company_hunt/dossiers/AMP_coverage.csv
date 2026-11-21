@@ -1,0 +1,7 @@
+company,layer,status,source_url,date_accessed,note
+AMP,A,done,https://www.sec.gov/Archives/edgar/data/820027/000082002726000054/amp-20260930.htm,2026-11-21,"Partial depth: Q3-26 10-Q read (equity, AFS, debt, reg capital, liquidity, contingencies); FY25 10-K grepped (sub dividends, RBC, leases, subsequent events); FY22 10-K risk factors diffed; 10-K/A 2026-03-12 checked (typo only); 8 EX-99 releases parsed; 2026 DEF 14A read; Forms 4 3y; holders; 5 FTS phrases. FY21/23/24 10-Ks and 2024/2025 proxies not individually grepped"
+AMP,B,fallback,https://www.sec.gov/Archives/edgar/data/820027/000082002726000050/q32026er.htm,2026-11-21,IR site unreachable; EX-99 releases used; no EX-99.2 supplements/slides filed; excess capital and holdco liquidity taken from call transcripts
+AMP,C,done,https://www.fool.com/earnings/call-transcripts/2026/10/29/ameriprise-amp-q3-2026-earnings-call-transcript/,2026-11-21,"Q3-26 call read in full incl. Q&A; Q4-25 call (fool.com/.../2026/01/29/ameriprise-amp-q4-2025-...) keyword-searched; Q1-26 and Q2-26 not read - below 4-call floor"
+AMP,D,unreachable,scripts/pplx.js,2026-11-21,Cloudflare bot check (challenges.cloudflare.com unreachable); no data
+AMP,E,done,yfinance,2026-11-21,"price to 2026-11-20 ($480.29), 3y quarterly closes, short 4.27% of float, institutional holders 2026-09-30"
+AMP,F,empty,n/a,2026-11-21,no pending deal or regulatory review
