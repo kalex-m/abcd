@@ -101,3 +101,68 @@ Automotive data is consolidating into a few owners of hard-to-rebuild records: C
 ## 10. Regulatory docket
 
 No pending deal or regulatory review. Rules to watch, none with an active proposal I found: the Driver's Privacy Protection Act and state equivalents (DMV data access), and the FTC CARS Rule (vacated by the Fifth Circuit in January 2025, per my knowledge; I did not re-verify its current status in this run). Layer F not applicable.
+
+## 11. Disclosure diffs
+
+There is no 10-K yet and no prior-year risk factors to diff; the 10-Q for Q3 2026 refers back to the Form 10 risk factors without listing changes (10-Q Part II Item 1A). What I could diff:
+
+| What | Earlier | Later | Reading |
+|---|---|---|---|
+| 2025 revenue | $1,747M (S&P Global 10-K XBRL, Mobility segment, filed 2026-02-11) | $1,750M (Form 10 carve-out, 2026-05-27) | immaterial |
+| 2025 operating profit | $378M (S&P Global segment) | $339M (carve-out) | carve-out bears about $39M of allocated corporate cost; 2023: $260M vs $239M; 2024: $312M vs $298M. The S&P Global segment figure overstated standalone profit by 7-12% a year |
+| Segment cost allocation | as originally reported | "refined" in 2025 and all periods restated (Form 10 MD&A) | consolidated totals unchanged; the CARFAX/B2B split before 2025 is a recast |
+| Segment margins | Q3 2025: B2B 34% adj. EBITDA margin | Q3 2026: 27% (-550bp); CARFAX 49% | standalone costs pushed mainly onto B2B |
+| FY2026 adj. EBITDA guide | $745-760M (2026-08-07) | $750-760M (2026-11-12) | low end raised $5M; revenue guide unchanged at $1,870-1,885M |
+| GAAP tax rate guide | 28-31% | 32% | higher cash and book taxes than first signalled |
+| Dealer go-to-market | late 2025: bundled "lifetime package" with new sales incentives | June 2026: back to a-la-carte (CEO, Q3 call) | the one strategic reversal in the record; three quarters of CARFAX U.S. acceleration since |
+| Pay | S&P Global EPS + CARFAX U.S. EBITA PSUs (Form 10) | first MBGL grants: time-vested retention RSUs (8-K 2026-10-23) | no per-share or ROIC metric seen yet |
+
+Red-flag full-text searches across MBGL filings since 2026-01-01 (10-Q, 8-K, Form 10, S-4): "going concern" 0 hits, "material weakness" 0, "strategic review" 0, "customer concentration" 0, "impairment" 3 hits, all in the Form 10 and its exhibits (accounting-policy and lease-impairment language, no goodwill impairment). The S-4 and 424B3 filed 2026-11-12 to 2026-11-19 are a routine registered exchange offer for the three note series (expires 2026-12-18), not an M&A filing (https://www.sec.gov/Archives/edgar/data/2090312/000110465926130155/tm2627758-7_424b3.htm). Takeaway: the only material diff is that standalone economics are worse than S&P Global's segment presentation suggested, by about $40M of operating profit a year plus about $111M of interest and $85M of extra cash tax.
+
+## 12. Insider and ownership behaviour
+
+| Who | What | When | Price | Source |
+|---|---|---|---|---|
+| Mark S. Peek, director, Audit chair | open-market buy, 50,000 shares, $0.98M | 2026-08-11 to 08-13 | $19.50-19.87 | Form 4 (`insiders MBGL 3`), https://www.sec.gov/Archives/edgar/data/2090312/000118475426000010/xslF345X06/wk-form4_1786654758.xml |
+| Officers | eight Form 4s filed 2026-09-02/03 for 2026-09-01; no open-market buy or sell codes | 2026-09-01 | n/a | Form 4 index (grants/conversions) |
+| All insiders | open-market sales | 2026-07-01 to 2026-11-21 | none | `insiders` |
+
+Holders filing 13G: BlackRock 11.3% (33.55M shares, 13G 2026-08-06); Eagle Capital Management 8.18% (24.11M, 13G 2026-11-16, an active long-only value manager); Vanguard Portfolio Management 5.77% (17.04M) and Vanguard Capital Management 5.45% (16.08M) (13Gs 2026-10-30). yfinance top holders at 2026-09-30 also show Boston Partners, Madison Avenue Partners, State Street, Goldman Sachs, Gates Capital and Morgan Stanley; institutions hold 93% and insiders 0.6% (yfinance 2026-11-21). Short interest 12.65M shares, about 4.3% of the 295.1M shares outstanding (yfinance, report date not given). No 13D, no activist. Takeaway: one director bought a meaningful amount near $19.50, nobody has sold, and a known value manager built an 8% stake; supportive but not conviction-level insider evidence (management itself has not bought).
+
+## 13. Catalysts and timeline
+
+- **Before 2026-12-31:** buyback starts ("before the end of 2026", release 2026-11-12). $350-450M through 2027 is 5-6% of the market cap at $23.93.
+- **2026-12-14:** second $0.06 dividend; **2026-12-15:** first coupon on the notes (about $60M); **2026-12-18:** note exchange offer expires.
+- **About February 2027:** first 10-K and first full-year 2027 guide. The number to watch is the 2027 adjusted EBITDA margin (CFO has pre-signalled about 39.5%, i.e. 2025's 41% less 150bp) and CARFAX growth staying at or above 8%.
+- **April 2027:** first proxy, which will show the standalone pay design ahead of the 2027-05-18 annual meeting.
+- **By about January 2028:** systems migration off S&P Global complete (18 months from the spin); one-time costs end; this is when FCF per share should step up.
+- **Slow-compounding case with no catalyst:** about $1.47 of FCF per share in 2027, 6% per-share growth from revenue at 6-7% plus 2-3% a year of share shrink, plus a 1% dividend, is roughly an 8-10% annual return at a constant 11.7x multiple. That is acceptable, not exceptional.
+
+Takeaway: the catalysts are routine (buyback, first 10-K, migration end); the slow-compounding return is about 8-10% a year.
+
+## 14. What would make this thesis wrong
+
+Sell or reject if any of these show up:
+1. CARFAX organic constant-currency growth below 5% for two consecutive quarters (Q3 2026: 7.9%).
+2. 2027 adjusted EBITDA margin guided or delivered below 38.5% (signalled about 39.5%), which would mean standalone costs or data-supplier fees are worse than disclosed.
+3. B2B organic growth below 3% with segment adjusted EBITDA margin below 27% for two quarters (Q3 2026: 6.5% and 27%).
+4. Net leverage above 3.0x trailing adjusted EBITDA (2026-09-30: 2.2x), whether from debt-funded buybacks or an acquisition.
+5. An acquisition above $500M before migration is finished, or the buyback paused while leverage is below 2.5x.
+6. Loss or non-renewal of a major data feed (DMV or service-shop aggregator) disclosed in an 8-K or 10-Q, or a jump in data-acquisition costs in operating-related expenses above 30% of revenue (9M 2026: 27%).
+7. The first proxy shows long-term pay tied only to absolute EBITDA/revenue with no per-share, FCF-per-share or return-on-capital metric.
+8. Evidence that AI agents or marketplaces are displacing the report: CARFAX transactional (non-subscription) revenue turning negative year over year (Q3 2026: +9%).
+
+## 15. Coverage statement
+
+- **Layer A (EDGAR): done, with structural gaps.** Read: Form 10 information statement (business, risk factors, MD&A, segment and non-GAAP tables, executive pay), Q3 2026 10-Q (debt, revolver, related-party agreements, subsequent events, legal, Item 1A), both standalone earnings 8-Ks (Q2 and Q3 2026 EX-99.1, Q2 EX-99.2), the spin 8-K (2026-07-02), the 5.02 8-K (2026-10-23), the S-4/424B3 note exchange, all four 13Gs, Forms 4 since the spin, and red-flag full-text searches. Five years of 10-Ks, eight 10-Qs, eight earnings 8-Ks and three proxies do not exist (spun 2026-07-01); I used S&P Global's 10-K segment XBRL (2022-2025) for history. IHS Markit-era 2021 data not verified.
+- **Layer B (company IR): fallback.** IR site unreachable; used EX-99.2 FY2025 quarterly data file and the earnings releases on EDGAR. Restated-series diff done between S&P Global's segment and the Form 10 carve-out.
+- **Layer C (transcripts): done for Q3 2026 (fool.com, full Q&A partly read); Q2 2026 call only via a WebSearch snippet (nasdaq.com 403).** Only two calls exist.
+- **Layer D (Perplexity Finance): done (pplx.js returned a company profile; leads only, its $5.8B market cap is stale).**
+- **Layer E (market data): done** (yfinance price history, peers, holders, short interest, 2026-11-21).
+- **Layer F (regulatory docket): not applicable**; no pending deal or review.
+
+What this means: the current-state picture is solid. The track record, management's capital-allocation behaviour and pay design cannot be tested yet, and that caps confidence.
+
+## 16. Confidence score: 5/10
+
+The numbers are clean and the CARFAX franchise is clearly good, but at $23.93 the price sits inside my $22-31 range with an 11% margin to the midpoint, after a 40% move since 2026-09-30. Two biggest unknowns: (1) **standalone steady-state economics**: whether the 2027 margin lands near 39.5% and the one-time stand-up costs really stop by early 2028, since my $1.47 of 2027 FCF per share depends on both; (2) **management's capital-allocation behaviour and pay design**: the first proxy (April 2027) and the first year of buybacks will show whether this team buys stock on price discipline or spends the cash on B2B acquisitions. On Alex's SPGI watchlist overlap: MBGL is now economically separate from S&P Global (the only remaining link is the Tax Matters Agreement indemnity and transition services through about 2028), so owning both would not double the exposure. Verdict for the hunt: a good business at a fair price, with no deep discount. Keep it on a watchlist with a buy-below level around $19-20 (a 25-30% discount to the $27 midpoint), which is where the stock traded for most of August-October 2026.

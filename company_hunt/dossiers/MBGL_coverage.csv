@@ -1,0 +1,7 @@
+company,layer,status,source_url,date_accessed,note
+MBGL,A,done,https://www.sec.gov/Archives/edgar/data/2090312/000110465926066592/tm2528763d9_ex99-1.htm,2026-11-21,"Form 10 info statement, Q3 2026 10-Q, Q2/Q3 2026 earnings 8-Ks, spin 8-K, 5.02 8-K, S-4/424B3 note exchange, 4 13Gs, Forms 4, FTS red flags; no 10-K/proxy exists (spun 2026-07-01); SPGI 10-K segment XBRL 2022-2025 used for history; 2021 not verified"
+MBGL,B,fallback,https://www.sec.gov/Archives/edgar/data/2090312/000209031226000013/exhibit992.htm,2026-11-21,"IR site unreachable; used EX-99.2 FY2025 quarterly data and EX-99.1 releases on EDGAR; diffed SPGI segment vs Form 10 carve-out"
+MBGL,C,done,https://www.fool.com/earnings/call-transcripts/2026/11/13/mobility-mbgl-q3-2026-earnings-call-transcript/,2026-11-21,"Q3 2026 call read on fool.com; Q2 2026 call only via WebSearch snippet (nasdaq.com 403); only two calls exist"
+MBGL,D,done,scripts/pplx.js,2026-11-21,"Perplexity profile returned; leads only (stale market cap)"
+MBGL,E,done,yfinance,2026-11-21,"price history, peer EV/EBITDA, institutional holders, short interest 12.65M shares"
+MBGL,F,empty,n/a,2026-11-21,"no pending deal or regulatory review"
