@@ -41,7 +41,7 @@ Run 2026-11-19 to 2026-11-21. Prices are 2026-11-18 closes. Full chronology in `
 - **Insider data:** some Form 4 pulls timed out under concurrent EDGAR load (G, ADBE, MGM); foreign private issuers file none.
 - **Segment correlations (G5):** 5-7 annual points, with no real credit bust in the window. They are clues, not proof.
 - **A leading prompt:** the Phase 3 batch-8 prompt suggested JPM was "probably PRICED_IN". The verdict rests on the agent's own figures (15x vs 10x median, 2.9x tangible book), but the framing is a bias risk.
-- **Verification:** GGG, AYI and MBGL were verified (93 numbers, 9 minor mismatches, all fixed in the dossiers). AMP, TXT and SW status is in `dossiers/*_verification.md`; see RUNLOG for any that were not completed.
+- **Verification:** all six dossiers verified by an independent agent (177 numbers re-derived from EDGAR/yfinance/valuation.py; 15 mismatches, all minor definitional or rounding issues, all fixed in the dossiers; TXT passed clean). Unverifiable items are listed in each `dossiers/*_verification.md` (e.g. AYI's Parameter deal price, SW's analyst target).
 - **No FMP data was used anywhere.** The FMP connector was present in the session and was never called.
 
 ## Assumptions that drive the answer
