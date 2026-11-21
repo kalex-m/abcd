@@ -96,6 +96,7 @@ for t, r in R.items():
     demo = [y for y in an.STRESS if r.get(f"spread_{y}") and r[f"spread_{y}"][0] <= -0.02 and r[f"spread_{y}"][1] > 0
             and r[f"spread_{y}"][1] - r[f"spread_{y}"][0] >= 0.08]
     if t == "HON": status = "dropped: offsetting segments separated (Solstice 2025, Honeywell Aerospace 2026)"
+    elif t == "ROP": status = "dropped: its only slowdown offset (2020) came from industrial segments sold in 2022"
     elif basis in ("geo", "vertical", "channel"): status = "dropped: one product split by map/channel/vertical"
     elif thin: status = "dropped: thin sample"
     elif sev >= 2: status = "dropped: one hidden common driver (the trap)"
