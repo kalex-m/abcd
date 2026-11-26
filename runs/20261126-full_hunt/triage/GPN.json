@@ -1,0 +1,196 @@
+{
+ "ticker": "GPN",
+ "name": "Global Payments",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Global Payments signs merchants of all sizes in 175+ countries and runs their card acceptance, software and related services. Since 2026-01-09 it owns Worldpay and no longer owns Issuer Solutions (sold to FIS), so it is a pure merchant-commerce company.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 adjusted net revenue $3,182M: SMB $1,548M (49%), Enterprise $836M (26%), Platforms $625M (20%), Other $173M (5%, shrinking 17% on noncore attrition). Issuer Solutions now zero.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Merchants from small shops to multinationals plus referral partners (banks, ISOs, software platforms); 10-K risk factors say loss of referral partners can lose merchants. No single-customer share found in the 10-K or 10-Q (nothing_found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Operates in 175+ countries; SMB growth split between Americas (+$181M in Q3) and rest of world (+$112M), both mostly from Worldpay. A EUR 800M net investment hedge exists. Exact US vs non-US revenue split not pulled from the tagged note.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Take-rate on card volume (percent of sale plus per-transaction fees) plus software subscriptions; merchants pay every transaction, so mostly recurring. Network fees are largely passed through; GAAP vs adjusted revenue gap in Q3 was $124M of gross-up items.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Big fixed platform cost, so margin expands as volume grows: adjusted operating margin 42.5% in Q3 (+220bp normalized). Capex 9M 2026 $729M vs $450M a year ago (about 7.6% of GAAP revenue). 9M operating cash flow only $213M vs $2,141M (taxes on the Issuer sale, integration spend, interest). Guidance held at 4-5% normalized growth, EPS $13.60-13.80 (hit-rate on new guide unproven, one quarter reaffirmed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: (1) Visa/Mastercard registration and network fees, a two-supplier chokepoint, mostly passed to merchants (industry tag: regulation, consumer_spending_nominal, inflation); (2) sponsor/clearing banks for settlement, replaceable but a single point of failure if lost (10-K risk factor); (3) debt funding, $22.5B at 4.50x covenant, interest cost $266M in Q3 vs $142M a year ago, cannot be passed on (tags: rates, hy_spreads, both worsening); (4) FIS transition services both ways until Worldpay and Issuer separation is done; (5) technology/cloud vendors and staff (tag: wages), not passed on. Net: network costs pass through, interest and labour do not.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale (Worldpay plus Global Payments across 175+ countries), merchant distribution through banks and software partners, and switching costs of embedded terminals and software. What is different now: one combined integration/transformation program through 2028, synergy target raised to $650M run-rate by end-2028 (was lower), plus >$650M of transformation operating income benefit by 1H 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Merchants and consumers rarely know the name; the card sits behind the shop. Merchants would notice a switch but the brand carries no price premium. No marketing-spend line found separately.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Fiserv/Clover, Adyen, Stripe, Block, Shift4, Toast, JPM Payments. Normalized net revenue growth just over 4% in Q3 vs Fiserv organic flat and FIS pro forma +3.7% (payments industry key numbers); GPN looks stable to slightly ahead of Fiserv, not clearly gaining share.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Guide is 4-5% normalized, which is acquired scale plus cost synergy more than demand growth. Upside is $650M synergies and the transformation program; reported GAAP revenue +64% in Q3 is almost all Worldpay. Enterprise and Platforms (Worldpay) gives software and embedded-payments room, but organic growth is mid-single digit.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "Total debt $22.5B vs cash $5.6B: net debt about $17.0B, about 3.0x my estimate of adjusted EBITDA (about $5.65B; my calculation). Equity returned $1.4B YTD (buybacks $1.24B at prices well above the $61 low). 9M free cash flow after capex was negative ($213M less $729M) on one-off tax and integration items. Insiders own under 1% (1.58M shares, 17 people). Pay rewards adjusted net revenue (40%), adjusted operating margin (40%) and transformation benefit (20%), all non-GAAP.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Merchant acquiring is essential and gaining volume, but commoditized: AI/agent commerce and software-led rivals pressure take rates, and a 4.5x leverage covenant plus a multi-year integration leave less room for error. Key people: CEO Bready and CFO Whipple lead the combined program.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000008/gpn-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "No 4.01 or 4.02 8-K in 3 years, no NT filings, no material weakness found, auditor clean. But non-GAAP is heavy: Q3 earnings adjustments $1,107M vs GAAP operating income $246M; ex-amortization (754.5M) cash-type adjustments were $353M (acquisition/integration $222M, transformation $51M, severance $63M), 26% of adjusted operating income. SEC comment letters Aug-Dec 2024 on MD&A price/volume quantification for FY2023 10-K (corresponded, closed by Jan 2025 letter; content not read). 5.02 8-Ks in 2025-26 are officer changes, not read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Overheat: nominal volume inflated, float income, but debt interest rises with a hiking Fed (interest +87% y/y in Q3) and a strong dollar cuts translated revenue. Slowdown (markets pricing): volume slows to real spending (flat in Oct), HY spreads widening raises refinancing cost on $22.5B debt. Not a defensive in either.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Exposed to interchange rules (Reg II cap vacated 2026-10-26, Visa/Mastercard settlement pending, Credit Card Competition Act in committee), network rules, and EU/UK payment rules via Worldpay. No GPN-specific docket found. GTCR 13D may become a take-private process needing board engagement.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000119312526470458/primary_doc.xml",
+   "as_of": "2026-11-20"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "At $96.03 (2026-11-25): market cap $25.4B, EV about $43.2B (my calc: net debt $17.0B plus minorities $0.8B). 7.0x 2026 adjusted EPS guide ($13.70 mid), about 7.6x my adjusted EBITDA estimate; FIS 9.3x EBITDA, PayPal 8.0x, Visa 24.7x (yFinance). Reverse DCF (10% rate, 3% terminal, 10 years): if owner FCF after integration cash costs is about $2.7B (my estimate), the price needs about 4.1%/yr FCF growth; if integration costs vanish ($3.7B), about 0%. Company's own FCF (OCF less capex, incl. Issuer Solutions) 2023 $1.89B, 2025 $2.04B, about 3.9%/yr. So not demanding on adjusted numbers, but the cushion depends on adjusted FCF being real; 9M reported FCF is negative.",
+   "source": "https://finance.yahoo.com/quote/GPN",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and EV/EBITDA near 7.6x leaves some cushion, but I found no clear market mistake and the cash flow is not yet proven after Worldpay; the 13D is a possibility, not a proposal.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Fiserv organic growth flat and FIS pro forma +3.7% (guide cut), so merchant/processor organic growth is weak across the group; GPN normalized +4% fits that, it does not contradict the Overheat/Slowdown read. Q3 interest expense $266M vs $142M confirms rising funding costs for levered processors.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+   "as_of": "2026-11-05"
+  }
+ ],
+ "facts_for_deep_dive": {
+  "price_moves": "Close 85.72 (2026-10-29) to 96.84 (2026-10-30), +13%, before Q3 results; 100.23 (11-11) to 88.19 (11-12), -12%. No GPN 8-K filed between 2026-11-05 and 2026-11-20; cause not found in filings (nothing_found). 13D day 2026-11-20: 83.52 to 91.83 (+10%). 6-month change 72.79 (2026-05-26) to 96.03 = +32%.",
+  "gtcr_13d": "Filed 2026-11-20, 43,268,041 shares = 16.35% (on 264,635,810 shares). Item 4: evaluating strategic transactions that may involve a potential proposal for additional or all shares; no proposal made, no price, premium or financing named, no binding obligation until definitive documents. Item 6 Shareholders Agreement (2026-01-09): lock-up 35% released at 12 months (2027-01-09), 15% at 15 months, the rest at 18 months; standstill bars buying more voting securities while GTCR holds over 5%, subject to unnamed exceptions; also information and preemptive rights; registration rights. GTCR stake worth about $4.2B (my calculation).",
+  "worldpay_deal": "Closed 2026-01-09. Total purchase consideration $16.98B: to GTCR 42.8M GPN shares ($3.37B at $78.69) plus $6.05B cash; to FIS, Issuer Solutions valued $15.09B less $7.52B cash received. Goodwill now $27.0B, other intangibles $18.6B; acquired-intangible amortization $2.26B in 9M.",
+  "growth": "Q3 adjusted net revenue +31% reported, over +4% normalized; GAAP op income $246M vs $774M (prior year included $344M disposition gain and Issuer Solutions). Nine-month GAAP income from continuing ops -$33M pre-equity income; EPS from continuing ops -$0.07.",
+  "debt": "Total debt $22.54B (current $1.46B); cash $5.57B; revolver $1.54B, term loan $1.0B, commercial paper $0.70B, converts $1.48B (2029) and $1.98B (2031). Income taxes payable $1.24B (up from $0.12B) mostly owed on the sale gain, my reading. Covenant 4.50x; in compliance.",
+  "synergies": "Worldpay run-rate synergy target raised to $650M by year-end 2028; transformation benefit >$650M by 1H 2027; integration and separation expenses through 2028. Q3 acquisition/integration/separation $222M plus transformation $51M plus severance $63M."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 96.03,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/GPN"
+ },
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "presentation": "Q3 8-K 2026-11-05 has only EX-99.1; slides live on the IR site and were not fetched (EX-99.2 request 504).",
+  "ir_fact_sheet": "IR site not fetched.",
+  "10-Q": "Q3 2026 read in depth; Q1, Q2 2026 and Q3 2025 10-Qs not read, only listed. XBRL companyfacts used for 2020-2025 cash flow.",
+  "red_flag_scan": "8-K item scan 2023-11 to 2026-11 and CORRESP/UPLOAD list done; 2024 CORRESP read in part, 5.02 8-Ks not opened. No GPN 8-K on 2026-11-12 found.",
+  "10-K": "FY2025 10-K read selectively (cash flow, risk factors, audit matters)."
+ },
+ "complete": true
+}
