@@ -1,0 +1,194 @@
+{
+ "ticker": "GBX",
+ "name": "Greenbrier Companies",
+ "industry": "railroads",
+ "as_of": "2026-11-26",
+ "company_type": "Cyclical",
+ "business_model": "Project / contract",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 3,
+   "evidence": "Builds freight railcars in North America (Mexico-heavy), Europe and Brazil (60% of Greenbrier-Maxion), maintains/refits cars, and rents out an owned fleet of 20,900 railcars. Two plain sentences; model is clear but half cyclical build, half rental.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 3,
+   "evidence": "FY26 revenue $2,461M (-24%): railcar sales $1,908M (78%), maintenance $358M (15%), leasing and fleet management $195M (8%). Leasing earned $139M of operating profit vs manufacturing $121M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Railroads, lessors, shippers. One customer was ~12% of FY26 revenue (13% of manufacturing); two were 14% and 12% in FY25. Backlog units 14,000 worth $2.1B, 9% Brazil.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 2,
+   "evidence": "~10,000 employees, about half in Mexico; ~5,000 union members, mainly Mexico and Europe. Plants in US, Mexico, Poland, Romania, Brazil (60% JV). Euro/zloty/peso hedged only in part. Revenue-by-country split not extracted; no figure given here.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Sell cars to others or build them for its own lease fleet. Recurring revenue (leasing ex-syndication) is small: leasing segment revenue $195M, 8% of total; fleet grew 22.9% to 20,900 cars at 98% utilization. Margins on manufacturing 9.2% gross in Q4.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 2,
+   "evidence": "Operating margin 5.8% FY26 (143.6/2,461) and 4.3% in Q4 on 31.9% fewer deliveries: high operating leverage. CFO only $39.6M in FY26 (inventories +$107M, cars held for syndication +$97M). FY27 guide 7.0-7.5% margin on $2.8-3.2B revenue; guidance hit rate not assessed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 2,
+   "evidence": "Inputs: steel, couplers, wheels, axles, brakes; top 10 suppliers are 44% of purchases, top one 14%; customers often specify component suppliers. April 2026 Section 232 expansion to tank cars and components 'materially' raised US tank-car prices; CBP ruled (May, affirmed Sept 2026) Greenbrier evaded AD/CVD on couplers, loss range $0-110M; competitor AD/CVD petition on Mexican tank cars filed Sep 30, 2026. Pass-through works in part via escalators but tariff uncertainty delayed tank-car orders. Signal tags: steel, tariffs, railcar cost, rates, dollar. Single point of failure: Mexico plants and USMCA.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "One of the two largest North American railcar builders; vertical integration (wheels, parts, Mexican component insourcing), integrated lease-and-build with a 20,900-car fleet and syndication. No sign of switching-cost moat in manufacturing; differently now: pushing recurring leasing and programmatic restoration (~2,200 cars).",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 1,
+   "evidence": "B2B railcar maker; no consumer awareness. Customers are a few dozen large buyers; marketing spend not disclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Trinity (the other top-two builder), FreightCar America, specialty builders; Greenbrier says it kept strong share in a down year. Backlog fell 16,600 to 14,000 units y/y (first sequential rise since FY24); Q4 orders 3,400 units vs 3,600 deliveries.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "FY27 guide: industry deliveries 26,000-28,000, revenue $2.8-3.2B, EPS $2.75-3.75 vs $2.60 core FY26. Management says inquiries rose with rail traffic and diesel prices. Lease fleet capex $225-275M net. Runway tied to the build cycle turning; no multi-year target set at an investor day was found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "FY26 CFO $39.6M, capex $279M, asset sales $193M: net FCF -$47M (FY25 +$63M; FY24 +$6M). Debt $1,837M (recourse $772M, non-recourse $1,066M) vs cash $235M. Returned $56M (div $42.6M + buyback $13.4M). Insiders 2.35%. Pay: EBITDA 40%, ROIC 30%, relative TSR 30%. CEO Tekorius retires Jan 6, 2027. ROIC vs cost of capital not computed from filings; likely below 10% target at trough.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526463448/d228055ddef14a.htm",
+   "as_of": "2026-11-16"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Railcars stay needed; cycle swings are large (FY26 earnings -61%, revenue -24%). Disruption risk low, policy risk high: Mexican output exposed to tariffs, AD/CVD and USMCA. Leasing adds floor. Key-person risk: CEO transition plus new Atlas-nominated director via cooperation agreement.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 2,
+   "evidence": "No 4.01/4.02, no NT filings, KPMG clean opinion and effective internal controls, one critical audit matter (purchase invoices). But CBP evasion finding on couplers with up to $110M exposure (not accrued: range 0 to 110), a Superfund liability, non-GAAP adjustments small ($4M). 2024 SEC comment letter (CORRESP Feb/Mar 2024) on the FY23 10-K: outcome file not reviewed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Boom +, overheat 0 (orders strengthen on rail traffic, but steel/tariff and rates squeeze), stagflation - (costs up, orders delayed), slowdown - (orders weaken, lessor financing costlier). Rate sensitivity: ~$1.1B non-recourse debt, swapped to fixed nearly 100%. Dollar: euro/zloty and peso exposure. Input costs: steel and tariffs.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 1,
+   "evidence": "Pending: CBP coupler AD/CVD case at Court of International Trade (appealed Oct 2026); Commerce/ITC AD/CVD petition on Mexican tank cars (Sep 30, 2026); Section 232 on tank cars and components (April 2026); USMCA review uncertain. Portland Harbor Superfund PRP (cost share undetermined).",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431954/gbx-20260831.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "$38.20 (down from 52w high $59.19), market cap $1.19B, EV ~$2.94B incl. $1.84B debt. Reverse DCF at 10%, 3% terminal: on a normalized owner FCF of ~$140M (my estimate: core net income 83 + after-tax interest ~57 + D&A 130 - maintenance capex assumed equal to D&A) price needs ~8% a year growth for 10 years; on $100M it needs ~12%. Reported FCF is negative so no clean own-history growth rate. P/E 14.7x FY26 core, 11.8x FY27 guide midpoint ($3.25); EV/core EBITDA 9.8x; P/B 0.75x. Own 5-year multiple range and peer P/E not pulled; GATX flagged at top of its price/book range (6.5B cap, $186).",
+   "source": "https://finance.yahoo.com/quote/GBX",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is C (thin 5.8% margin, negative net FCF, tariff/customs legal tail of up to $110M); cheap at 0.75x book but no clear mistake yet.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "lead_answer": "Leasing shift is real but small: leasing is 8% of revenue yet $139M of operating profit versus $121M from manufacturing, and the fleet grew 22.9% at 98% utilization. The build cycle is more likely bottoming than turning down: backlog rose sequentially for the first time since FY24 (14,000 units, Q4 orders 3,400 vs 3,600 deliveries) and FY27 guidance has revenue +14-30% and margin 7.0-7.5%. A slowdown (the regime markets are pricing) and tariffs/AD-CVD on Mexican output are the risks. Catalysts to watch: fiscal Q1 FY27 results (early Jan 2027), CIT ruling on couplers, Commerce preliminary AD/CVD on Mexican tank cars.",
+ "feedback": [
+  {
+   "note": "Greenbrier says rail traffic increases and elevated diesel prices have boosted railcar inquiries early in FY27 (confirms rail-demand side of regime; overheat). Tariff uncertainty delayed tank-car orders, a policy not macro delay.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "note": "Industry deliveries guided 26,000-28,000 for FY27, up from the below-25,000 Trinity guide for 2026 cited in the industry file; supports cycle bottoming rather than slowdown in orders so far.",
+   "source": "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "as_of": "2026-10-26"
+  }
+ ],
+ "price_used": {
+  "price": 38.2,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/GBX"
+ },
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "nothing_found",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Last four 10-Qs listed on EDGAR (Jan, Apr, Jul 2026 plus FY26 10-K covering Q4) but not read separately; FY26 10-K and Q4 release used for numbers.",
+  "presentation": "No EX-99.2 in the Oct 26 8-K; IR deck not fetched.",
+  "ir_fact_sheet": "investors.gbrx.com homepage reachable (HTTP 200) but no fact sheet or investor-day deck was located in this pass; targets set at an investor day not verified.",
+  "red_flag_scan": "EDGAR 8-K item scan 2023-11 to now: only 5.02 and 1.01 (Atlas cooperation agreement, Oct 24 2026); no 4.01/4.02, no NT. 2024 SEC UPLOAD/CORRESP letters on FY23 10-K exist; their content was not reviewed beyond the extension request.",
+  "price": "yFinance last price; own 5-year multiple range and peer multiples not pulled."
+ },
+ "complete": true
+}
