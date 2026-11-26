@@ -1,0 +1,190 @@
+{
+  "ticker": "AFRM",
+  "name": "Affirm Holdings",
+  "industry": "payments",
+  "company_type": "Fast grower",
+  "business_model": "Spread / balance sheet",
+  "reads": [
+    {
+      "n": 1,
+      "name": "What they do",
+      "score": 4,
+      "evidence": "Buy-now-pay-later lender and payment network: shoppers finance purchases at checkout (or with the Affirm Card), merchants pay fees, Affirm earns interest and sells loans. FQ1'27 GMV $14.4B, +34%.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 2,
+      "name": "What they sell",
+      "score": 4,
+      "evidence": "FQ1'27 revenue $1,262M: interest income $658M (52%), merchant network about $393M (31%, derived), gain on loan sales $162M (13%), servicing $48M (4%). Card GMV $3.3B (+117%) is 23% of GMV.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071153/afrm-20260930.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 3,
+      "name": "Who buys",
+      "score": 3,
+      "evidence": "28.7M active consumers (+19%), 621K merchants. Amazon is 20% of GMV (21% a year ago); top five partners 40% (44%). Concentration is easing but still high.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071153/afrm-20260930.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 4,
+      "name": "Where they operate",
+      "score": 3,
+      "evidence": "US is 96.5% of FY26 revenue ($4,112M of $4,261M), Canada 3.4%. UK launched late FQ1 and is not a material FY27 contributor. Little currency risk, all consumer credit risk is American.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059279/afrm-20260630.htm",
+      "as_of": "2026-08-27"
+    },
+    {
+      "n": 5,
+      "name": "Money model",
+      "score": 3,
+      "evidence": "Revenue 8.79% of GMV; revenue less transaction costs (RLTC) 4.30% of GMV, $617M (+36%). Loans last about 5 months; paid per purchase by merchants plus borrower interest. Part fee, part lending spread, so it is credit-cycle sensitive. Explainable in two sentences.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 6,
+      "name": "Operations",
+      "score": 4,
+      "evidence": "GAAP operating margin 14.8% vs 6.8% a year ago; adjusted 30.1%. Costs are mostly variable per transaction (transaction costs 4.5% of GMV). FY26 operating cash flow $1,231M, capex $238M. FQ1 beat the top of its RLTC range (4.30% vs 3.75-4.0%); guides FY27 GMV above $65.25B.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 7,
+      "name": "Supply chain",
+      "score": 3,
+      "evidence": "Critical input is funding, not goods: capacity $31.7B (ABS, forward-flow buyers such as insurers and asset managers, bank warehouse lines), supporting over $70B of annual GMV. Funding cost 6.0% (-69bp y/y, +27bp q/q); more than 70% of on-balance-sheet funding is fixed-cost. Single points of failure: ABS and forward-flow investor appetite, originating bank partners (e.g. Cross River). Cost pass-through: partial; short loans (about 5 months) let it reprice, and revenue/GMV rose 11bp while funding costs rose, but a funding shock hits RLTC first. Signal tags: rates, hy_spreads, consumer_spending_nominal.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 8,
+      "name": "Edge",
+      "score": 4,
+      "evidence": "Underwriting data on 56M transactions a quarter; new transformer-based credit model lifted conversion 3.4% with credit losses flat; no late fees; 6.0M cardholders (+112%); merchant network of 621K. Doing differently now: Card, agentic-commerce integrations, Affirm Edge pilot in H1 2027.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 9,
+      "name": "Everyday brand",
+      "score": 4,
+      "evidence": "7.3 transactions per active consumer a year, 28.7M actives, Card attach about 21%. Sales and marketing $87M, 6.9% of FQ1 revenue. Well known at checkout, but would-notice-if-it-vanished is lower than a card network.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071153/afrm-20260930.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 10,
+      "name": "Rivals and share",
+      "score": 3,
+      "evidence": "Rivals: PayPal, Klarna, card issuers, bank instalment plans. GMV +34% vs Visa payments volume +9% (Jul-Sep) says Affirm is gaining share against cards; competitor BNPL volumes not pulled in this read.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 11,
+      "name": "Growth runway",
+      "score": 4,
+      "evidence": "FY27 guide: GMV above $65.25B (about +30%); stated goal of $100B network. Drivers: Card (+117%), UK/Canada, long-tail merchants via software partners. Revenue less transaction costs has grown over 30% for 12 straight quarters.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 12,
+      "name": "Cash and leaders",
+      "score": 3,
+      "evidence": "FY26 operating cash flow $1,231M less capex $238M less SBC $305M = about $690M owner FCF (loan growth sits in investing). Corporate net cash $1.9B (liquidity $3.0B vs $1.1B convertibles). Equity $5.75B vs $9.1B of asset-backed debt. No buybacks. Insiders hold 2.8% of shares but 46% of voting power (founder-controlled). Pay (PSUs) is tied to RLTC and adjusted operating income growth, which exclude SBC.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026067042/afrm-20261021.htm",
+      "as_of": "2026-10-23"
+    },
+    {
+      "n": 13,
+      "name": "Durability",
+      "score": 4,
+      "evidence": "Gaining relevance (actives +19%, merchants +48%). Threats: a credit downturn or funding-market shut, Amazon at 20% of GMV (agreement extended Nov 2025, benefit period set to nine years), regulation of BNPL, founder as key person. Not a Zoom-type fade.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071153/afrm-20260930.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 14,
+      "name": "Red flags",
+      "score": 4,
+      "evidence": "No 4.01/4.02 items, no NT filings, controls effective, no material weakness. Watch items: credit loss allowance is the critical audit matter; SEC staff comment letter Mar 2026 asked for more MD&A detail (accepted, routine); FY26 net income $1.93B includes about $1.5B non-cash tax benefit; adjusted operating income ($380M) is double GAAP ($187M) because SBC and warrant expense are excluded.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059279/afrm-20260630.htm",
+      "as_of": "2026-08-27"
+    },
+    {
+      "n": 15,
+      "name": "Regime fit",
+      "score": 2,
+      "evidence": "Overheat: volume is nominal-boosted but funding cost creeps up (+27bp q/q). Stagflation and slowdown: real spend flat, charge-offs rise, spread widening makes ABS and forward-flow costlier. 30+ day delinquency (ex-Peloton and Pay-in-X) 2.9%, +35bp q/q, +9bp y/y; allowance 6.3% of loans (5.9%). Falling rates would help funding.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    },
+    {
+      "n": 16,
+      "name": "Rules and politics",
+      "score": 3,
+      "evidence": "Subject to CFPB oversight as facilitator, servicer and originator of consumer credit; bank-partner (originator) model. No pending deal or docket found in this read. Risk-factor detail not worked beyond the 10-K regulatory section.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026059279/afrm-20260630.htm",
+      "as_of": "2026-08-27"
+    },
+    {
+      "n": 17,
+      "name": "Price",
+      "score": 3,
+      "evidence": "Price $60.52, equity value about $21.3B diluted; corporate EV about $19.5B after net cash. Reverse DCF: on owner FCF of $690M (after SBC), price needs about 12% a year for 10 years at 10% discount and 3% terminal growth; owner FCF grew from $12M (FY23 OCF) to $1.2B OCF (FY26) so history clears it, but a credit turn would hit this base. P/E on FQ1 annualised GAAP EPS about 32x. yFinance trailing P/E 10.5 is inflated by the tax benefit and not used. 5-year own range and peer multiples: nothing usable (losses until FY25; peers PYPL fwd P/E about 9.8, SYF about 6.6 are different models). Cushion is thin, not absent.",
+      "source": "https://finance.yahoo.com/quote/AFRM",
+      "as_of": "2026-11-26"
+    }
+  ],
+  "business_quality": "B",
+  "attractiveness_now": "medium",
+  "regime_grid": {
+    "boom": "+",
+    "overheat": "0",
+    "stagflation": "-",
+    "slowdown": "-"
+  },
+  "status": "watch",
+  "status_reason": "Quality B and growth strong, but the price leaves only a thin cushion in a regime where funding spreads are widening and delinquencies are rising, and no clear market mistake is identifiable yet.",
+  "the_mistake": null,
+  "what_makes_market_notice": null,
+  "what_would_change": "Candidate mistake to test: market prices a funding/credit shock (stock -33% from its 52-week high of $90.44) while funding capacity ($31.7B, over 70% fixed cost) and vintage loss curves (about 3.5% monthly-loan, under 1% Pay-in-4) are on plan. Becomes survivor if FQ2'27 (early Feb 2027, date unconfirmed) shows delinquency stable, funding cost flat and ABS spreads holding while price stays near $60.",
+  "feedback": [
+    {
+      "note": "Affirm's funding cost rose 27bp q/q after benchmark rates rose, with fixed-cost funding cushioning it; guide assumes short-term rates rise in FY27. Confirms the late-Overheat, hawkish-Fed read; delinquencies up 35bp q/q is an early sign of consumer strain consistent with flat real spending.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+      "as_of": "2026-11-05"
+    }
+  ],
+  "coverage": {
+    "10-K": "covered",
+    "10-Q": "covered",
+    "earnings_release": "covered",
+    "presentation": "nothing_found",
+    "ir_fact_sheet": "nothing_found",
+    "def14a": "covered",
+    "red_flag_scan": "covered",
+    "price": "covered"
+  },
+  "coverage_notes": {
+    "10-Q": "Latest 10-Q (Sep 30, 2026) read in full text; earlier three quarters via XBRL annual/companyfacts only.",
+    "earnings_release": "8-K EX-99.1 is the FQ1'27 shareholder letter; read in full.",
+    "presentation": "No separate deck fetched; IR site not opened in this run.",
+    "ir_fact_sheet": "None fetched; the shareholder letter carries the supplemental metrics.",
+    "red_flag_scan": "8-K items, NT forms and CORRESP/UPLOAD scanned from EDGAR submissions; no 4.01/4.02 or NT; one SEC comment letter exchange Mar 2026 (CORRESP https://www.sec.gov/Archives/edgar/data/1820953/000162828026019756/filename1.htm).",
+    "price": "yFinance only; IBKR not used. Peer multiples limited."
+  },
+  "as_of": "2026-11-26",
+  "price_used": {
+    "price": 60.52,
+    "as_of": "2026-11-26",
+    "source": "https://finance.yahoo.com/quote/AFRM"
+  },
+  "complete": true
+}
