@@ -1,0 +1,234 @@
+{
+ "ticker": "JBHT",
+ "name": "J.B. Hunt Transport Services",
+ "industry": "railroads",
+ "company_type": "Cyclical",
+ "business_model": "Other (asset-based intermodal and truckload logistics; rail-linehaul reseller plus contract trucking)",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "J.B. Hunt is one of the largest US truck, intermodal and logistics firms: it owns about 124,000 containers and 104,000 chassis, hauls containers over BNSF and Norfolk Southern rails and does the truck legs itself. Money comes from moving other people's freight.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $3,677M: Intermodal $1,828M (50%), Dedicated $960M (26%), Integrated Capacity Solutions (brokerage) $434M (12%), Truckload $261M (7%), Final Mile $200M (5%). Fuel surcharge $671M is inside these lines.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Top 10 customers were 33% of 2025 revenue (35% in 2024); one customer was 8% (13% in 2023) and buys from all five segments. Intermodal, brokerage and Truckload typically have no long-term contracts. Customers are not named.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Serves the US, Canada and Mexico, but the filings give no revenue split by country (nothing_found); only 0.45% of employees are in Mexico and Canada, so currency risk is small and the business is overwhelmingly US.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926007732/jbht20260304_def14a.htm",
+   "as_of": "2026-03-11"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Hybrid, not one clean model: intermodal resells rail linehaul and adds its own container and truck leg; Dedicated is multi-year contracts with price escalators and about 96% retention; brokerage and Truckload are spot-linked. Group operating margin 6.7% in Q3 2026 vs 7.9% a year ago because pass-through fuel and rail cost swell revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Asset-heavy: gross property $9.5B, depreciation 5.0% of revenue, capex $393M gross over nine months of 2026 vs $596M. Net capex cut to $291M (9 months) from $491M, which flatters free cash flow. Insurance, driver pay and medical claims are rising (Dedicated operating income -22%). No numeric guidance given beyond a 24% tax rate, so guidance hit rate is nothing_found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926033365/jbht20260930_10q.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: (a) rail linehaul, with the majority of intermodal on BNSF and Norfolk Southern under contracts whose terms are not disclosed, a single point of failure for half the revenue; (b) diesel, no hedges, weekly fuel surcharges pass most through (surcharge $671M vs fuel expense $260M in Q3, though rail fuel cost also rides in purchased transportation, which rose to 47.8% of revenue from 43.6%); (c) drivers, insurance and medical, which are not fully passed on; (d) tractors from unnamed primary suppliers with trade-in agreements. Tied to signal tags: oil/diesel, wages, tariffs, rail rates. Can pass fuel on with a short lag; cannot fully pass labour and insurance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Largest intermodal-by-container fleet, containers and chassis built as matched pairs, own drayage, and the J.B. Hunt 360 marketplace. Doing differently now: cost-to-serve and network-balance push, so container use rose to 114,394 units from 104,573 on a fleet down 0.7% (usage about 92% of fleet vs 84%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Well-known trucking name on trailers and in Fortune 500 supply chains, but a business-to-business service people would not miss at the checkout. Marketing spend per revenue dollar is not disclosed (nothing_found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Competes with Hub Group, Schneider, Knight-Swift, truckers and the railroads' own intermodal. Nine-month intermodal loads +7.2% (1,700,506 vs 1,586,889) vs AAR US intermodal +5.1% year to date, a small share gain; transcontinental loads only +1% in Q3, Eastern +18%. Different measures, so treat as a pointer.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Road-to-rail conversion in the Eastern network (+18% loads), brokerage turning profitable (operating income $9.6M vs loss $0.8M, gross margin 14.3%). Against that: Final Mile shrinking (stops -10%, operating income -76%) and Dedicated trucks only +1%. Intermodal revenue per load ex fuel up just 2%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "2025 operating cash $1,678M, free cash flow about $1.10B (operating cash less net capex $575M); trailing-12-month about $1.12B; debt $1.12B vs $1.60B a year ago; net debt about 0.7x EBITDA; return on invested capital about 14-15% (my calculation). 2025 buybacks $923M plus $171M dividends, about equal to FCF. Directors and officers hold 2.5%, founder-family holder 19.4%. Pay uses relative ROIC and operating-income growth.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926007732/jbht20260304_def14a.htm",
+   "as_of": "2026-03-11"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "A 40-year-old rail-truck partnership with a real network moat; trucks-to-rail conversion is a long trend. Threats: dependence on two railroads (and the UP-NS merger reshaping them), rail-run intermodal, rising auto-liability claims, cyclical freight. Not losing relevance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filings, clean internal-control opinion from PwC, no material weakness in the 10-K and 10-Q. Minor: a 2024 SEC comment on proxy peer-group disclosure (resolved Oct 2024), six late Section 16 reports in the 2026 proxy, one director with 217,028 shares pledged ($3.3M loan), $14.4M intangible impairment on a BNSF Logistics acquisition.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926007732/jbht20260304_def14a.htm",
+   "as_of": "2026-03-11"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: fuel surcharge and rail cost pass through in dollars, tight trucks lift brokerage and Truckload rates, but Q3 operating income rose only 2% on 20% revenue. Slowdown: loads, container use and rates fall, fuel falls and helps cost. Rate sensitivity low (debt $1.12B, 4.85% variable). Dollar low. Fuel risk is timing only.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "The UP-NS merger is pending at the STB (FD 36873): comments on whether responsive applications are complete are due 2026-11-27 and replies 2026-12-01; JBHT's own filing could not be retrieved (unreachable: STB filings table loads by script). Both railroads carrying most of its intermodal are in that deal. Also regulated as a motor carrier; tariffs named in risk factors; independent-contractor status risk named.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926033365/jbht20260930_10q.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "At $227.92 (2026-11-25 close): market cap $21.2B, enterprise value about $22.4B. Reverse DCF at 10% discount and 3% terminal growth needs about 6.5% a year of free-cash-flow growth for 10 years from the $1.17B trailing level, or about 9.3% from a normalised $0.95B (capex was cut). Own history: operating income grew about 3.9% a year 2020-2025 and EPS about 5.2%. P/E about 32x trailing EPS $7.09 vs about 19-31x in 2022-2025 (calculated on average price); EV/EBITDA about 13.3x. Shares are 24% under the 52-week high of $299.76 but not cheap on earnings.",
+   "source": "https://finance.yahoo.com/quote/JBHT",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Good business (quality B) but the price leaves no cushion: about 32x trailing earnings and a reverse DCF needing 6.5-9% a year free-cash-flow growth, with Q3 profit up only 3% on 20% revenue growth.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "brief_question_answer": "The intermodal recovery is real but is not being under-read: Q3 Intermodal operating income +18% (nine months +31%) came from loads +8% and container use +9% on a flat fleet, while revenue per load excluding fuel rose only 2%, and the 18% Eastern-network growth is truck-to-rail conversion in a tight truck market. Transcontinental, import-linked loads rose 1%, so a January import dip (NRF) hits the part of the network not yet growing. Group margin fell to 6.7% because Dedicated (-22%) and Final Mile (-76%) are absorbing cost. The stock at $227.92 already pays for the recovery; no mispricing found either way.",
+ "feedback": [
+  {
+   "note": "Eastern network intermodal loads +18% on road-to-rail conversion and 'strong demand throughout the quarter' supports hard-data Overheat; transcontinental loads only +1% fits the NRF import turn.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "note": "Brokerage revenue per load +29% and Truckload revenue per load +29% (ex fuel) show trucking capacity is tight, consistent with the tight-truck tailwind for rail intermodal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "note": "Fuel surcharge revenue +74% ($671M vs $386M) against fuel expense +59%; purchased transportation rose to 47.8% of revenue from 43.6%: pass-through lifts dollars but dilutes margin percent, as in the rails.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "note": "Cost inflation (driver pay, group medical, insurance claims) is not passed through quickly: Dedicated operating income -22%, Final Mile -76%. Supports Overheat cost squeeze for contract trucking.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "as_of": "2026-10-15"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read in full text; Q1 and Q2 2026 and Q3 2025 via earnings releases and XBRL company facts, not read line by line.",
+  "presentation": "JBHT furnishes no EX-99.2 deck; investor.jbhunt.com lists only the release PDF and webcast for Q3 2026.",
+  "ir_fact_sheet": "investor.jbhunt.com showed no fact sheet or supplemental data page.",
+  "red_flag_scan": "EDGAR submissions scanned 2023-11 to 2026-11 for 8-K items 4.01/4.02/5.02/1.01/2.05/2.06/3.01, NT 10-K/10-Q, CORRESP, UPLOAD. Found: 5.02 CFO change Aug 2025, one 2024 proxy comment letter. Nothing else.",
+  "stb_docket": "unreachable: the STB FD 36873 filings table loads by script and J.B. Hunt's filing could not be retrieved; schedule dates from stb.gov. Its public opposition to the UP-NS merger is therefore not verified here.",
+  "bnsf_terms": "nothing_found: BNSF and NS agreement terms are not disclosed in the 10-K or 10-Qs.",
+  "guidance": "nothing_found: no numeric guidance beyond tax rate and no stated cost-savings target in the 2025-26 releases read.",
+  "ibkr": "not used (triage step)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 227.92,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/JBHT"
+ },
+ "key_numbers": {
+  "q3_2026": {
+   "intermodal_loads": 585582,
+   "intermodal_rev_per_load": 3121,
+   "intermodal_op_income_m": 147.5,
+   "dedicated_op_income_m": 81.7,
+   "icS_op_income_m": 9.6,
+   "final_mile_op_income_m": 1.6,
+   "truckload_op_income_m": 7.0,
+   "container_usage_vs_fleet": "114,394 of 124,180 (92%) vs 104,573 of 125,105 (84%)"
+  },
+  "ttm": {
+   "eps": 7.09,
+   "op_income_m": 960,
+   "ebitda_m": 1683,
+   "fcf_m": 1119,
+   "ev_m": 22362,
+   "pe": 32.1,
+   "ev_ebitda": 13.3,
+   "fcf_yield_pct": 5.3
+  },
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+   "https://www.sec.gov/Archives/edgar/data/728535/000143774926033365/jbht20260930_10q.htm",
+   "https://www.sec.gov/Archives/edgar/data/728535/000143774926005294/jbht20251231_10k.htm"
+  ]
+ },
+ "complete": true
+}
