@@ -1,0 +1,198 @@
+{
+ "ticker": "CPAY",
+ "name": "Corpay, Inc. (formerly FLEETCOR)",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Corpay calls itself the Global Spend Management Company: it sells fuel cards, B2B payables and cross-border payments, and lodging payments to businesses.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $1,382M: Vehicle Payments 42%, Corporate Payments 41% (35% a year ago), Lodging 9%, Other 7%. Corporate Payments revenue +41% reported (+18% organic); Vehicle +8%; Lodging +3%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Businesses of all sizes (fleets, corporates, hotels/travel). No single-customer concentration found in the Q3 release or 10-Q text read; late fees and finance charges ~3% of 9M revenue, float ~3%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "9M 2026 revenue: US 44% (50% a year ago), Brazil 16%, UK 15%, Other 24%. More than half is foreign, so a strong dollar cuts translated revenue (dollar +4.8% in 3m).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Fees and interchange as a percent of spend (fuel cards, payables, FX margin) plus small float and late-fee income; recurring in nature because customers re-buy fuel/payments, but not subscription. Corporate Payments EBITDA margin 57.4% in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "High operating leverage: Q3 adjusted EBITDA $793.8M (+17%) on revenue +18%. 9M capex $143M vs operating cash flow $716M (capex about 3.6% of revenue). Management hit/raised guidance: Q3 revenue and EPS 'ahead of expectations', FY26 outlook raised to $5.35B revenue, $28.00 adj EPS at midpoint.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: retail fuel merchants/networks (diffuse, tag: oil, inflation), bank funding (revolver $2.76B drawn, securitization $2.3B; tag: rates, hy_spreads), FX dealers/partners for cross-border (tag: dollar). Fuel revenue is partly percent of price: guide assumes $4.90/gal for rest of 2026 and flat fuel spreads, so oil -18% in a month is a headwind to Vehicle (42% of revenue). Interest expense guide $435-455M cannot be passed on to customers; fuel price and FX effects are only partly passed through. No single point of failure named in what was read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and acquiring-side network in fuel cards, cross-border FX with hedging expertise, distribution of corporate payments (AvidXchange stake, Alpha acquired Oct 2025). Doing differently now: rotating to corporate payments and a $1.1B minority stake in BILL with option to buy 100% (in 2030).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000066/ex991billacquisitionnovemb.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "B2B brand; end users (drivers, hotel bookers) do not choose it. Not an everyday consumer brand; customers would notice but could switch cards. No marketing-per-revenue figure read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals in fuel cards and payables include WEX, Fleet-related bank cards and AvidXchange/BILL-type platforms. Organic growth 11% in five of last six quarters points to share gains or market growth; no independent share data read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Corporate Payments organic +18% in Q3 and now 41% of revenue; BILL (SMB payables, accountant distribution) widens the runway. Vehicle +8% reported and sensitive to fuel price.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000066/ex991billacquisitionnovemb.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "2025 operating cash flow $1,500M less capex $201M = $1.30B FCF (vs $1.39B in 2020; flat, noisy). Total debt $11.23B vs unrestricted cash $3.07B at 9/30/26; $1.85B buybacks YTD (5.25M shares). Pay: ~90% of NEO pay in stock, incentive tied to published guidance (DEF 14A). Insider ownership % not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Payments for fleets, hotels and corporate payables are ongoing needs; Corporate Payments is gaining relevance. Risk: EV adoption shrinks fuel-card base over time; key-person risk on CEO Ron Clarke (also chairman).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "No 8-K Item 4.01/4.02 or NT filing in the 40 most recent filings (Jun 2024 to Nov 2026). FTC case: Eleventh Circuit affirmed liability Jan 2026; proposed consent order agreed Jul 1 2026, $100M charge booked, still needs FTC Commissioners and court approval. Non-GAAP gap: Q3 adj EPS $7.54 vs GAAP $5.66.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: fuel price tailwind and float income (+) but dollar up (-). Slowdown: freight, travel and spend volumes soften, credit losses rise; cross-border and Corporate Payments steadier. Stagflation: fuel pass-through helps, volumes and credit hurt. Boom: positive.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "FTC consent order pending approval (extra redress possible if changed); CFPB/AML and foreign regulators across Brazil/UK named in risk text; BILL deal needs shareholder and regulatory approval, expected close first half 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000059/cpay-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $454.33 (11/25 close, 52w range $281-$480), market cap $29.1B, EV ~$37.2B using $11.2B debt less $3.1B cash. Reverse DCF (10% rate, 3% terminal): owner FCF of ~$2.0B (adj net income + after-tax interest - capex) must grow ~6% a year for 10 years; equity-only version (~$1.65B) needs ~5.5%. Revenue grew 13.6% a year 2020-2025 but FCF was flat (2020 $1.39B to 2025 $1.30B). About 16.2x 2026 adj EPS guide ($28). Own 5-year multiple range and peer multiples not computed.",
+   "source": "https://finance.yahoo.com/quote/CPAY ; https://data.sec.gov/api/xbrl/companyfacts/CIK0001175454.json",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B and growth is strong, but the stock is up ~62% from its low to near the 52-week high, no clear misread is left, and the FTC consent order and BILL deal are still open.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Corpay guides to $4.90/gal US fuel for the rest of 2026 and flat fuel spreads; Brent fell about 18% in a month, a headwind to the Vehicle segment (42% of revenue) if pump prices follow.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04",
+   "direction": "contradicts overheat fuel tailwind if oil keeps falling"
+  },
+  {
+   "fact": "Corporate Payments organic revenue +18% and 11% organic overall in Q3, with no sign of a spending slowdown in B2B payments volume yet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04",
+   "direction": "confirms hard-data Overheat"
+  }
+ ],
+ "coverage": {
+  "10-K": "unreachable",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K located (filed 2026-02-27) but not read; Q3 10-Q, XBRL companyfacts used instead",
+  "10-Q": "Q3 2026 10-Q read; Q1, Q2 and prior-year 10-Qs not read, only XBRL annual facts",
+  "presentation": "supplemental deck and IR site not retrieved",
+  "ir_fact_sheet": "IR site not retrieved",
+  "def14a": "2026 proxy read for pay design only; insider ownership table not extracted",
+  "red_flag_scan": "8-K item list for the 40 most recent filings only (back to Jun 2024); CORRESP/UPLOAD not found in that list, not searched further; 10-K material weakness text not read",
+  "price": "yFinance quote 2026-11-25 close; no IBKR check at triage; own 5y multiple and peer multiples not computed",
+  "other": "Organic growth by segment: only Corporate Payments (+18%) found; Vehicle and Lodging organic and fuel/FX sensitivity numbers not read. BILL: $1.1B for ~1/3 stake at $63.25/share ($6.0B value), option to buy 100% in 2030, close 1H 2027; debt maturity wall not found: $2.86B current notes plus $2.3B securitization against $3.07B cash"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 454.33,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/CPAY"
+ },
+ "complete": true
+}
