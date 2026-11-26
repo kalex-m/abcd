@@ -1,0 +1,198 @@
+{
+ "ticker": "HBAN",
+ "name": "Huntington Bancshares",
+ "industry": "banks",
+ "company_type": "Cyclical",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Top-10 US regional bank, $288B assets, ~1,400 branches in 21 states (Midwest, now Texas and the South); takes deposits, lends, sells payments, wealth and capital-markets services.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $2,791M: net interest income $2,069M (74%), fees $722M (26%: payments $211M, wealth $131M, deposit/loan fees $124M, capital markets $122M, mortgage $45M). Loans $188B avg: C&I $90.9B, CRE $23.1B, consumer $68.7B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Diffuse: ~$188B of loans split commercial $119.7B and consumer $68.7B; no single-customer concentration disclosed; CRE is 12% of loans, office only 1% ($2.65B). Texas is 30% of CRE.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000090/hban-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US only, 21 states; no FX exposure. Footprint just doubled via Veritex (closed 2025-10-20) and Cadence (2026-02-01): Texas, Mississippi, Southeast; integration risk in unfamiliar markets.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000114036125039391/ef20057752_ex99-1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread bank: NIM 3.25% (+4bp QoQ, +12bp YoY), cost of deposits 1.90%, ~74% of revenue from spread, ~26% fees. Explainable in two sentences; recurring deposit base $223.8B avg, $40.2B non-interest-bearing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Efficiency ratio 61.2% (57.4% a year ago) due to integration; adjusted expense flat QoQ at $1,655M; acquisition costs $117M in Q3. Management cut guidance in Sept 2026: FY27 EPS target now $1.75-1.83, NIM and loan-growth outlook lowered (guidance partly missed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs are deposits and wholesale funding, not goods. Deposits $223.8B avg, diffuse retail/commercial, 38% demand; time deposits fell to $23.8B (-11% QoQ). Tags: fed_funds, 2y, real_spending (deposit cost 1.90%, +2bp QoQ), hy_spreads (wholesale funding; HY OAS 3.72% widening), regulation (CET1 10.1%). Partial pass-through: loan yield 5.84% flat QoQ while deposit cost rose; management says deposit competition intensified and 'higher for longer' rates raise costs. No single point of failure; borrowings down 16% QoQ.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm ; /home/user/abcd/runs/20261126-full_hunt/industries/banks.json (value_chain, signal tags fed_funds, 2y, real_spending, hy_spreads, regulation)",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Scale in 21 states, #1 in Mississippi, top-10 in Dallas/Houston; 'Fair Play' consumer products; commercial verticals and fee build-out (fee income ~+32% in 2026 incl. deals). Cost synergies $435M run-rate (Cadence $365M by 4Q26) said ahead of plan. Not a unique moat; competes with larger banks.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Household-name regional bank in the Midwest with $40B of non-interest-bearing deposits and ~1,400 branches, but a new brand in Texas/South (Cadence conversion Q2 2026). Marketing $54M in Q3, +42% QoQ. People would notice locally but it is not a pricing-power brand.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: PNC, USB, FITB, KEY, RF, CFG, TFC. Organic average loan growth 4Q24-2Q26 +7.6% CAGR vs peer median +3.1%; deposits +4.1% vs +0.5% (management's own S&P data, ex-M&A). But Q3 average loans -0.4% QoQ (CRE -4%, auto -2%): share gain is slowing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Texas/Southeast entry (fastest-growing metros), revenue synergies $75M+ in FY26, fee businesses (capital markets, wealth, payments). FY26 loan growth ~36% but nearly all acquired; FY27 loan growth now ~6-8% (revised from higher).",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "ROTCE 14.6% GAAP / 16.6% adjusted vs ~10% cost of equity; $409M buybacks YTD (~25M shares near $16), more planned ($1.3-1.4B FY27). But shares +28.6% to 2.015B in 2026 and TBV/share $9.47 vs $9.89 at year-end 2025. Director Torgow bought 12,700 shares at $15.735 (~$200k) on 2026-10-27 (open market, verified). Rollins also bought but his reported $19.43 price is off market; other director entries are grants; the Nov entries are gifts. Pay metrics not studied in depth. Bank FCF not used.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; https://www.sec.gov/Archives/edgar/data/49196/000122520826008552/xslF345X06/doc4.xml",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Deposit-funded lending is essential and not being displaced; stablecoins and fintech are named as a risk. Scale-up through mergers adds execution risk. CEO Steinour long-tenured; new President Standridge from 2026-09-08; SEVP Houston retires 2026-12-31.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000015/hban-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "Auditor PwC, clean ICFR opinion in 10-K (FY2025); no 4.01/4.02 or NT filings in 2025-26 scan; only CORRESP/UPLOAD were S-4 comment letters (Jul-Dec 2025) tied to the deals. Adjusted-vs-GAAP gap large: adjusted EPS $0.38 vs GAAP $0.33 (acquisition costs $117M). NPAs $1,722M, up 107% YoY (partly acquired); NCO 0.31% vs 0.22%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000090/hban-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: NIM up 12bp YoY but expansion 'moderating', deposit cost +2bp. A hike raises deposit cost, and AOCI loss widened to $2,974M from $1,908M at year-end (about $1.48 per share, 16% of TBV). Slowdown: credit-sensitive (C&I $90.9B, CRE $23.1B, NPAs rising, ACL ratio down to 1.75% from 1.86%), though falling long yields would repair AOCI. Stagflation bad.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000090/hban-20260930.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Standard bank regulation; capital rules said to be easing (see industry map). CET1 10.1% (adjusted for AOCI 8.9%), TCE 6.9%. No pending deal docket: Cadence and Veritex closed. Elevated scrutiny on mergers has eased.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; /home/user/abcd/runs/20261126-full_hunt/industries/banks.json (value_chain, signal tags fed_funds, 2y, real_spending, hy_spreads, regulation)",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $14.88 (2026-11-25), TBV $9.47: P/TBV 1.57x. At 10% cost of equity and 3% growth that implies ROTCE ~14.0% (0% growth: 15.7%). Actual ROTCE 14.6% GAAP, 16.6% adjusted, guided ~17% FY26 and 17-18% FY27: thin cushion on GAAP, modest on adjusted. P/E 12.3x trailing GAAP EPS $1.21, ~9.7x FY26E adjusted $1.53. Own year-end P/TBV 2021-25: 1.46-1.83x (approximate TBV from XBRL). Peers: CFG 1.73x (ROTCE 15.1%), USB 2.00x (18.5%). Year range $14.23-19.46.",
+   "source": "https://finance.yahoo.com/quote/HBAN ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex992.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and a modest cushion (P/TBV 1.57x implies ~14% ROTCE vs 14.6% GAAP / 16.6% adjusted), but no clear market mistake: the 'fast loan growth' is mostly acquired and organic loan growth turned down in Q3 as guidance was cut.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Management says higher short-term rates and intensified industry deposit competition are raising deposit costs; Fed-funds path since Jan repriced sharply higher; CRE paydowns and auto spread compression lowered loan growth.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16",
+   "effect": "confirms Overheat hard-data read and the deposit-cost squeeze"
+  },
+  {
+   "fact": "Industry H.8 loan growth accelerating (7.4% YoY at 2Q26 per HBAN deck) while HBAN's own Q3 average loans fell 0.4% QoQ.",
+   "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000077/hbanbarxpresentation_vf.htm",
+   "as_of": "2026-09-16",
+   "effect": "HBAN is not riding the industry loan upswing in Q3"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: auditor, ICFR, risk factors; segment detail not studied.",
+  "10-Q": "Q3 2026 10-Q read in depth; the other three quarters via the 8-K supplement trends (5 quarters of data), not the filings themselves.",
+  "def14a": "2026 proxy read only for key metrics; ownership table and pay design not read in detail; Form 4 insider trades checked directly.",
+  "ir_fact_sheet": "Quarterly financial supplement is EX-99.2 of the Q3 8-K (covered); separate IR-site fact sheet not fetched.",
+  "presentation": "Q3 call slides not on EDGAR; used Sept 16 2026 Barclays deck (EX-99.1) for guidance and the Oct 2025 Cadence announcement.",
+  "red_flag_scan": "Form 8-K list 2025-26 and CORRESP/UPLOAD checked; no 4.01/4.02/NT. Items 5.02 in Sept 2026 were a new President and an SEVP retirement.",
+  "acquisitions": "Veritex closed 2025-10-20 (~$1.7B consideration, goodwill $450M). Cadence closed 2026-02-01: 2.475 HBAN shares per Cadence share, 462M shares issued, $8.3B consideration at close ($7.4B at announcement), announced as 10% EPS accretive, mildly dilutive to regulatory capital, 7% TBV-per-share dilutive with a three-year earn-back. Outcome: TBV/share $9.89 (Dec 2025) to $9.47 (Sep 2026), -4.2% incl. AOCI; GAAP EPS fell to $0.33 from $0.41 on 38% more shares. Janney and TM Capital also bought (terms not read).",
+  "price": "yFinance last close 2026-11-25 $14.88; peer TBV from their Q3 releases (TFC and KEY TBV not extracted). Regional-bank 3-month fall: HBAN -11.8% since 2026-08-26 (16.87 to 14.88)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 14.88,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/HBAN"
+ },
+ "complete": true
+}

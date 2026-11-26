@@ -1,0 +1,195 @@
+{
+ "ticker": "TFC",
+ "name": "Truist Financial",
+ "industry": "banks",
+ "company_type": "Turnaround",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Truist Bank (chartered 1872, Charlotte) is one of the 10 largest US commercial banks: 1,927 branches at 2025 year-end, spread lender plus wealth and capital markets; assets $550B average Q3 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Two segments. 2025 net income: Wholesale Banking $4.10B, Consumer and Small Business Banking $2.53B, Other/Treasury/Corporate -$1.32B (total $5.31B). Q3 2026 adjusted revenue $5.30B: NII $3.66B, adjusted fees $1.60B (wealth $407M record, card and treasury $347M, IB and trading $324M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Diversified: C&I loans $167.3B (about 51% of loans), no industry above about 10% except finance and insurance; consumer $122B average (mortgage $57B, indirect auto $21B, other consumer $33B); CRE $25.9B. Deposits $413.2B, 25% noninterest-bearing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000129/tfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US only, concentrated in the Southeast and Mid-Atlantic (some Canada facilities). C&I: Florida 11.2%, Texas 10.1%, New York 7.7%. No FX exposure disclosed as material (not found as a risk).",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000129/tfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Spread/balance-sheet bank. NII $3.66B plus about 30% of adjusted revenue from fees. NIM 3.00% (+2bp QoQ, flat yoy), below HBAN 3.25% and RF 3.68%. Rate sensitivity described as relatively neutral. Q4 NII guide $3.65-3.70B including -$125M from RAC sale and +$40M from securities repositioning.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Adjusted efficiency ratio about 57.8% (my calc: $3,065M / $5,304M) vs JPM 54%, USB 55.9%, RF 56.2%. Adjusted expense +1.7% yoy; Q4 guide expense up 2.5%. Guidance hit rate: 15% ROTCE goal for 2027 set but not yet delivered (2025 ROTCE 12.7%, Q3 adjusted 14.6%); one-year record too short to score.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm ; https://www.sec.gov/Archives/edgar/data/92230/000119312526107144/d12240ddef14a.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are deposits, wholesale funding, capital and technology. Deposits $413.2B (Q3 cost 1.59%, +3bp QoQ; same signal as HBAN +2bp, KEY +3bp) tagged fed_funds/2y/real_spending; borrowings down 8.3% on average, long-term debt cost 4.73% (hy_spreads tag; HY OAS 3.72% widening but TFC funds mostly with deposits); CET1 10.7% (regulation tag); processing vendors in-house/outsourced, professional fees +5.5% yoy (wages, software_capex tags). No single supplier point; main chokepoint is cheap deposits. Pass-through: deposit beta limited (cost 1.59% vs asset yield 4.91%), loan spreads fell yoy; asset yields reprice with a lag (swap book $110B receive-fixed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; runs/20261126-full_hunt/industries/banks.json (value_chain, key_numbers)",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Scale (top-10 US bank, $413B deposits), 1,927 branches, wealth record quarter. Differently now: new CEO (ex-Fiserv, ex-PNC) is shrinking low-return books (RAC auto sold $5.5B; LightStream $7.7B to Carlyle, closing Q4), repositioning $8.6B AFS securities from 2.67% yield to 5.60% reinvestment. No evident cost or share advantage over USB/PNC yet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Retail bank brand in the Southeast with 1.9k branches and 71% digital transactions, but regional and brand formed by the 2019 BB&T-SunTrust merger; no evidence of pricing power over rivals (deposit cost 1.59%). Marketing $83M a quarter (about 2% of revenue).",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Losing balance-sheet share against the industry: TFC end-of-period loans $323.9B, -1.8% QoQ (-1.1% average) while US bank loans grew 6.2% annualized in Q3 (H.8). Deposits +3.6% yoy average is a positive. Rivals: PNC, USB, FITB, WFC, BAC, HBAN.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; runs/20261126-full_hunt/industries/banks.json (value_chain, key_numbers)",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Growth is being deliberately cut first: loan run-off ($2.7B strategic run-off in the quarter) and sales of RAC and LightStream shrink loans by about $13B. Runway is wealth management (+8.8% yoy), C&I (51% of book) and Southeast deposits; no new market. Core loan growth only $0.8B in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "2025 ROTCE 12.7% vs 10% cost of equity (thin spread). Q3 returned $1.8B ($1.2B buybacks at about $48 = 1.5x TBV, $629M dividends); $6.5B authorisation left; Q4 buyback about $1B; TBVPS fell 4.5% QoQ to $31.90. CEO Lyons open-market bought 21,000 shares 2026-09-17 at $48.3608 and 25,000 on 2026-10-28 at $48.362 (code P), holds 46,000 shares (about $2.2M). Pay rewards 3-year adjusted EPS (50%), ROTCE (25%), relative TSR (25%); 2025 say-on-pay got only about 59% support.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000119312526107144/d12240ddef14a.htm ; https://www.sec.gov/Archives/edgar/data/92230/000153457426000016/f4_a1eus000009zbhvma2-live.xml ; https://www.sec.gov/Archives/edgar/data/92230/000153457426000018/f4_a1eus00000anuuzmad-live.xml",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Deposit franchise is durable; relevance not at risk. Concerns: management turnover (CEO changed 2026-09-01; CSBB head leaving 2026-12-31), a third balance-sheet reset since 2024 ($6.7B securities loss in 2024, $1.4B in Q3 2026), 2023 goodwill write-down. Key-person risk on new CEO plan.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000119312526270320/d118981d8k.htm",
+   "as_of": "2026-06-15"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean on formal flags: no 8-K Item 4.01 or 4.02 and no NT filing found in the filings list since 2024; PwC unqualified opinion on 2025 statements with ACL as the critical audit matter; no material weakness; one 2024 SEC comment letter on C&I disclosure, answered 2024-04-30. Yellow: heavy non-GAAP adjustments (Q3 reported EPS $0.56 vs adjusted $1.16) and repeated restructuring charges.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000030/tfc-20251231.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223024000021/filename1.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: neutral (NIM 3.00%, rate position near neutral, shrinking loans offset repricing). Slowdown: credit exposure moderate (NCO 0.38% ex-RAC, NPL 0.40%, office CRE $2.26B plus $0.16B construction, about 0.7% of loans) and falling long yields help the AFS book. Stagflation: weaker. Dollar: no FX. Rates: AOCI -$8.27B pre-repositioning pain, 5.60% reinvest rate helps if the Fed hikes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000129/tfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "No pending merger or regulatory docket found; LightStream sale to Carlyle is the only pending deal (closing Q4 2026). Capital rule easing in industry notes would help; Basel and liquidity ratios fine (LCR 110%, CET1 10.7%). Regulatory costs $61M a quarter, +90% yoy.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Bank method, price $47.89 / TBVPS $31.90 = 1.50x. At 10% cost of equity and 3% terminal growth, 1.50x implies a sustained ROTCE of about 13.5% (13.0% at 4% growth). Actual: 2025 12.7%; Q3 2026 adjusted 14.6%; Q2 15.4%; goal 15% in 2027. At 14.6% fair P/TBV is 1.66x ($53); at 12.7% it is 1.39x ($44). Cushion is modest and depends on ROTCE reaching 14%+. Own history at year-end: 2.30x (2021), 2.39x (2022), 1.45x (2024), 1.47x (2025); 2023 not extracted; now at low end. Peers (my calc from XBRL, preferred stock not netted for PNC and USB so their multiples are understated): PNC about 1.8x, USB about 1.9x, FITB 2.3x, HBAN 1.6x. Reverse DCF not used (bank).",
+   "source": "https://finance.yahoo.com/quote/TFC ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is C (ROTCE near cost of equity, repeated resets, shrinking loans), and the price (1.50x TBV, implies about 13.5% ROTCE) leaves only a modest cushion; no kill-switch rule holds.",
+ "the_mistake": "Partial only: reported Q3 EPS $0.56 and ROTCE 7.2% look broken, but adjusted is $1.16 and 14.6%, and the $581M reserve release is mechanical (RAC loans sold; adjusted provision $328M vs $312M ex-RAC charge-offs), so it does not flatter adjusted earnings. Price already implies about 13.5% ROTCE, so the gap to 14.6% is small; this is not a clear misreading.",
+ "what_makes_market_notice": "LightStream sale closing (guided Q4 2026) and Q4 results (date not yet announced; January 2027 by past pattern); proof that Q4 NCO ratio lands near the 0.45% guide and ROTCE holds above 14%.",
+ "feedback": [
+  {
+   "regime_signal": "Credit widening / reserve builds elsewhere",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "TFC released reserves but only because RAC loans were sold ($581M); underlying provision $328M roughly equals NCOs ex-RAC $312M, and Q4 NCO guide is about 0.45% (above the 0.38% ex-RAC Q3), so no sign of release into a credit turn, and no sign of stress either.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm"
+  },
+  {
+   "regime_signal": "Deposit costs rising with a hiking Fed",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Cost of total deposits 1.59%, +3bp QoQ (1.55%, 1.56% in prior two quarters; 1.84% a year ago); interest checking up 6.4% average QoQ while noninterest-bearing fell 0.6%, mix shifting to costlier deposits.",
+   "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex993-earningsdeck3q26.htm"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 read in full for CRE, C&I, capital, buybacks; Q1, Q2 and prior-year Q3 used only through the earnings release comparatives and XBRL, not read in MD&A text.",
+  "ir_fact_sheet": "ir.truist.com not fetched; the Quarterly Performance Summary (ex992) was not read; earnings release and deck used instead.",
+  "red_flag_scan": "Used EDGAR submissions list (8-K items, NT, CORRESP/UPLOAD since Nov 2023). The 2024 UPLOAD letter is a PDF that did not parse; the CORRESP response was read.",
+  "price": "yFinance, last close 2026-11-25 $47.89 (Nov 26 market closed). Year-end P/TBV points use raw closes; 2023 TBVPS not extracted so no full 5-year range. Peer P/TBV is approximate.",
+  "other": "Q3 2025 to Q2 2026 NIM and ROTCE trends taken from the Q3 release and deck, not re-checked in each 10-Q. Call transcript not read (outside brief)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 47.89,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/TFC"
+ },
+ "complete": true
+}
