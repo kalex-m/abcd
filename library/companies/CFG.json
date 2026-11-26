@@ -1,0 +1,200 @@
+{
+ "ticker": "CFG",
+ "name": "Citizens Financial Group",
+ "industry": "banks",
+ "company_type": "Cyclical",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Providence-based regional bank, $234.5B assets: takes deposits ($185.2B) and lends ($148.2B) to consumers, small businesses and mid-sized companies through 1,000+ branches in 14 states plus DC; also wealth, cards and a growing Private Bank.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $2,322M: net interest income $1,675M (72%), fees $647M (28%: capital markets $149M, service charges $120M, wealth $109M record, card $90M, letters of credit/loan fees $54M, FX/derivatives $49M, mortgage $35M). FY2025 segments: Consumer Banking revenue $6,224M, Commercial Banking $2,773M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Diffuse. Loans $148.2B: commercial $77.2B (C&I $53.9B, 36% of loans, about 84% investment-grade equivalent; CRE $23.3B, 16%) and retail $71.0B. Leveraged loans only ~1.2% of loans. No single-customer concentration disclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US only: 14 states and DC (New England, Mid-Atlantic, Midwest) plus national digital deposits, education and point-of-sale loans. No material FX exposure found (FX is client hedging fees, $49M). Regional concentration in the Northeast; NYC Metro and West Coast/Florida private-bank offices are expansions.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread bank: 72% of Q3 revenue from net interest (NIM 3.19%, total deposit cost 1.66%) and 28% from fees. Two sentences: it pays depositors less than it earns on loans and securities, and adds fees from wealth, capital markets and cards. Deposits stable at $185.2B (about 33% non-interest-bearing); loan-to-deposit 80.0%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 60.0% (63.0% a year ago); positive operating leverage 5.3% YoY; expenses $1,393M flat QoQ; 17,609 FTEs. Bank costs are mostly people and fixed (operating leverage works both ways); capex not material. Reimagine the Bank targets ~$100M run-rate savings by YE2026, ~$225M YE2027, ~$450M+ YE2028 (about 50 of 50+ initiatives; 35+ launched). Guidance hit rate not formally tested: NIM rose 3.00% to 3.19% over four quarters, in line with the path shown.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are deposits (cost +3bp QoQ to 1.66%; Private Bank deposits $18.5B, +4% QoQ), wholesale funding (FHLB advances $7.6B vs $14M a year ago; long-term borrowings up $7.2B YoY) and regulatory capital. Suppliers: households/businesses (diffuse), FHLB, bond investors; no single point of failure, but funding mix has shifted to costlier wholesale. Passes costs on partly: slightly asset sensitive (~1% NII per 100bp gradual move), with receive-fixed swaps hedging lower rates through 2027. Signal tags: fed_funds, 2y (deposit cost), hy_spreads (wholesale issuance), real_spending (loan demand), regulation (AOCI/capital). Hike path raises deposit cost faster than fixed-rate assets reprice; spread widening raises debt cost.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Mid-size franchise without a dominant moat; edge is being built: Private Bank earns ROE >25% and added $0.16 of Q3 EPS (11%), revenue $188M vs $120M a year ago, client assets $12.4B, 12 advisor teams added since launch, 10 offices open and 6+ more planned 2027; plus NYC Metro, NExT deposit program, payments. Different right now: Private Bank buildout and terminating legacy swaps. The brief's 'hired from First Republic' detail was not verified in the filings read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Retail bank brand inside its 14-state footprint (1,000+ branches, 3,100 ATMs, ~$71B retail loans) but not a national everyday brand; customers would notice but could switch. Pricing power over rivals not evidenced; marketing spend per revenue dollar not found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "10-K peers: Comerica, Fifth Third, Huntington, KeyCorp, M&T, PNC, Regions, Truist, U.S. Bancorp. CFG loans +5% YoY and deposits +3% YoY, below the industry's ~7-9% loan and ~9.6% deposit growth (H.8). 2025 TSR 2nd among its regional peer group. Gaining share in Private Bank; losing in consumer deposits (Q3 consumer deposits down).",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm ; https://www.federalreserve.gov/releases/h8/current/default.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Private Bank loans $11.7B, up from $5.9B a year ago, and deposits $18.5B; Wealth fees +17% YoY; expansion offices planned 1H27-2H27; NIM guided to 3.30-3.50% by 4Q27 from 3.19%; Non-Core auto/education runoff down to ~$1.4B average from $3.3B a year ago frees capital for higher-return loans. Core loans +7% YoY. Much of this is already visible in results.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 15.1% in Q3 (9-month 13.73%; FY2025 11.2%) vs ~10% cost of equity. Capital returned $322M in Q3 ($197M dividends, $125M buybacks at avg $70.76, now above the $61.76 price); dividend +13% to $0.52; new buyback capacity $1.95B (~$200M planned Q4); shares 431.5M to 421.2M (-2.4% YoY). CET1 10.5%. TBV/share $35.78, -2.6% YoY and -6.6% QoQ (AOCI -$3.37). Pay: PSUs score on ROTCE and EPS with a +/-20% relative-TSR modifier. Form 4 scan Aug-Nov 2026: only grants and tax withholding, no meaningful open-market buys (one 30-share purchase). Insider ownership % not extracted. Bank FCF not used.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000064/cfg-20260309.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Deposit-funded lending is not being displaced, and the bank is not losing relevance, but deposits are shifting to higher-cost products (savings -9% YoY, money market +6%), and wholesale funding is rising. Disruption/competition: larger banks, fintech, stablecoins (generic risk). Key-person: Chairman and CEO Van Saun, with a new CFO (Banerjee, Aug 2025) and new commercial head (Oct 2025). Rule-change risk: CET1 falls to 8.7% if AOCI opt-out is removed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994425000135/cfg-20251007.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "Clean. 8-K Item 4.01 on 2026-10-30 is a planned auditor change (Deloitte to PwC, effective after the FY2026 audit) with no disagreements or reportable events and no adverse opinions; no 4.02; no NT filings; no CORRESP/UPLOAD letters since 2021 in the submissions list; Deloitte's FY2025 ICFR opinion unqualified; one critical audit matter (allowance for credit losses). 'Underlying' equals reported for 2025. Series G preferred redeemed Oct 6 2026. Watch: auditor change mid-transition.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000119312526441754/d184921d8k.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000028/cfg-20251231.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: asset-sensitive (~1% NII per 100bp), NIM rising, but a hike lifts deposit costs (+3bp QoQ) and AOCI fell $3.37/share of TBV in Q3 as long yields rose (10y ~4.85-5.0%). Slowdown: credit-sensitive (NCOs 37bp, ACL 1.47%, lower than HBAN's 1.75%; CRE $23.3B, of which general office $1.9B at 7.6% reserve), but falling long yields would repair TBV and swaps hedge lower rates through 2027. Stagflation bad; boom good. Sensitive to rates, mildly to the dollar (none), input costs (funding).",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Standard bank supervision. Capital rules: CET1 10.5% reported but 8.7% if the AOCI opt-out were removed (about +60bp accretion expected by YE2028 as ~$1.1B of losses burn off). Q3 10-Q legal proceedings and any pending dockets not read in depth; no merger or other regulatory docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $61.76 (2026-11-25), TBV/share $35.78: P/TBV 1.73x. At 10% cost of equity and 3% growth that implies ROTCE ~15.1% (17.3% at 0% growth), equal to Q3 actual 15.1%, so the price already pays for today's recovered return. If the 16-18% target is met by end-2027, fair P/TBV is 1.86-2.14x ($66-77, +8% to +24% on today's TBV); at 13.9% (Q2 level) it is 1.56x ($56); at 12% it is 1.29x ($46). P/E 12.5x trailing EPS $4.96 (10.9x Q3 annualised $5.64). Own year-end P/TBV 2021-25 approx 1.14, 1.22, 0.98, 1.29, 1.49x (equity less preferred less goodwill; other intangibles ignored), so 1.73x is above the 5-year range; own year-end P/E 7.5-14.7x. Peers: HBAN 1.57x (ROTCE 14.6%), USB 2.00x (18.5%). Stock -11.7% since 8/26 but still +9% on the year.",
+   "source": "https://finance.yahoo.com/quote/CFG ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/q326financialsupplement.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B with a real ROTCE recovery (11.75% to 15.1% in four quarters, targets 16-18% by end-2027), but the price (1.73x TBV, above its own 5-year range) already pays for today's 15.1%, so there is no cushion and no clear market mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answer_to_question": "No: the ROTCE recovery is not under-priced. P/TBV 1.73x implies 15.1% ROTCE, exactly the Q3 actual; the market is already capitalising the recovery. Upside needs the 16-18% target delivered (swap drag nearly gone, NIM 3.30-3.50% by 4Q27, Reimagine savings): about +8% to +24% on today's TBV. Downside is larger if credit turns (12% ROTCE implies ~$46). Unlike Citi at 1.12x TBV, CFG is not priced on trough returns.",
+ "swap_repricing_schedule": "Terminated-swap drag on NII per the Q3 deck (my reading of the chart): -$457M 2024, -$230M 2025, ~-$40M 2026, ~-$3M 2027: most of the tailwind is already in the numbers; remaining NIM lift to 3.30-3.50% comes from fixed-rate asset repricing and mix, with the deck's own range for the macro/balance-sheet component of -3 to +14bp.",
+ "feedback": [
+  {
+   "fact": "Total deposit costs +3bp QoQ to 1.66% and interest-bearing deposit costs +5bp to 2.13%; FHLB advances rose to $7.6B from $5.8B in one quarter; management assumes a 10-year Treasury ~5.00% through 2027 and calls the balance sheet slightly asset sensitive.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+   "as_of": "2026-10-16",
+   "effect": "confirms the Overheat hard-data read and the deposit-cost squeeze; also shows long yields (AOCI) hurt TBV (-6.6% QoQ)"
+  },
+  {
+   "fact": "Credit 'broadly favorable': NCO 37bp stable, nonaccruals 0.99%, ACL 1.47%; CRE commercial loans -18% YoY in nonaccrual; but commercial loans -2% QoQ on CRE paydowns and lower line utilisation.",
+   "source": "https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16",
+   "effect": "no sign yet of the credit stress that HY spreads (3.72%, widening) imply; contradicts a Slowdown call in the bank's own book"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 61.76,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/CFG"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: business, segments, auditor/CAM/ICFR, peers; risk factors not compared year over year.",
+  "10-Q": "Q3 2026 10-Q listed; numbers taken from XBRL companyfacts (EPS, net income Q1-Q3 2026) and the Q3 8-K exhibits, MD&A text not read; Q1 and Q2 10-Qs not read directly.",
+  "earnings_release": "Q3 2026 EX-99.1 read in depth.",
+  "presentation": "Q3 2026 EX-99.2 deck read for targets, NIM path, swap schedule, AOCI, Private Bank, Non-Core, credit.",
+  "ir_fact_sheet": "EX-99.3 financial supplement used for ROTCE and TBV five-quarter series; IR-site fact sheet not fetched. The swap schedule figures are parsed from deck text and the column mapping is my inference.",
+  "def14a": "2026 proxy read for pay metrics (ROTCE/EPS PSUs, TSR modifier) and FY2025 ROTCE; ownership table (insider %) not extracted.",
+  "red_flag_scan": "Submissions list checked for 8-K items 4.01/4.02/5.02, NT, CORRESP/UPLOAD (last in 2021), Form 4 Aug-Nov 2026; 5.02s in 2025 were CFO and commercial-head appointments.",
+  "price": "yFinance last close 2026-11-25 $61.76; shares from 10-Q cover; own-history P/TBV approximated from XBRL year-end equity, preferred and goodwill; peers' P/TBV taken from the HBAN triage file (not re-derived). IBKR not used at triage."
+ },
+ "complete": true
+}
