@@ -1,0 +1,212 @@
+{
+ "ticker": "MTB",
+ "name": "M&T Bank Corporation",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Buffalo-based regional bank (M&T Bank, Wilmington Trust): takes deposits ($167.5B) and lends ($144.8B) from Maine to Virginia and DC, plus wealth, trust and institutional services; $220.5B assets. Two sentences explain it.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "3Q26 revenue $2,536M: net interest income $1,793M (71%), fees $743M (29%; trust $230M, mortgage banking $152M, deposit fees $109M, card $90M). Net income by segment: Retail $372M, Commercial $231M, Institutional Services & Wealth $115M, All Other $57M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Loans: C&I $66.4B (46%), consumer $27.5B, residential $25.3B, CRE $25.6B (17.7%). No single borrower disclosed as large; biggest single-name link is Bayview (sub-servicing $179.6B of loans for it, $762M lent). A $213M rise in criticized C&I came from one auto-leasing borrower in 3Q26.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Domestic only, Northeast and Mid-Atlantic: 47% of staff in New York; NY residential loans $6.7B, Mid-Atlantic $8.2B, New England $6.9B. No FX exposure, but one-region credit and house-price risk.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000010/mtb-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread bank: 71% of revenue is net interest income (NIM 3.65%); customers pay through loan spreads (loan yield 5.86%) and recurring trust, deposit, card and servicing fees. Efficiency ratio 54.4%. ROTCE 17.3%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 54.4% (52.8% prior quarter); expenses +2% YoY vs revenue +1%; technology spend up (outside data processing +25% YoY). Q4 guide: NII $1.83-1.85B vs $1.805B in Q3, fees $710-730M, expenses $1.39-1.41B, charge-offs 35-40bp. Q3 NIM was described as 'as expected'; guidance track record over several years not tested.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: deposits ($167.5B; total deposit cost 1.52% vs 1.42% in Q2, +10bp; spot noninterest-bearing $44.8B vs $48.3B at June), wholesale (FHLB-NY short-term avg $5.2B, long-term borrowings $14.0B), capital (CET1 10.16% vs 10.99% a year ago). Uninsured deposits $78.1B (47% of deposits) is the single point of failure, covered by liquidity of ~121% of uninsured. Signal tags: fed_funds, 2y, hy_spreads, real_spending, regulation. Pass-through: partly; loan yields fell to 5.86% (6.15% a year ago) and deposit cost rose, so NIM slipped 5bp to 3.65%, with Q4 NIM guided mid-3.60s after one more rate rise.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Local relationship banking with a long credit record (management cites 15-17% ROTCE across 2020-25 and credit outperformance through cycles), a Wilmington Trust fee franchise (trust income +6% YoY), and a sub-servicing business that added $62.9B of loans in June 2026 (Bayview). Doing differently now: enterprise AI platform and a new general ledger platform.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Well known in its regions (branches Maine to Virginia) but a regional name, not a national everyday brand; advertising $29M a quarter is about 1.1% of revenue. People would notice if it vanished locally, deposits are sticky (26.8% noninterest-bearing).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Competes with PNC, Citizens, KeyCorp, Truist, big banks. Period-end loans +6% YoY and C&I +7%; deposits +2%. New England regions lead growth per the deck. No market-share table found, so gaining or losing is not shown.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Loans guided to $145-146B average in Q4 (+2% on Q3) with CRE +7% QoQ (multifamily, health, industrial). The June 2026 Basel III proposal would add about 90bp (+10-20bp) to CET1 at June, which is spare capital for buybacks. TBV/share target 8% a year; TBV/share was flat YoY ($115.88 vs $115.31). Not a fast grower.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 17.29% (3Q26) vs a 10% cost of equity. Buybacks: $323M in Q3 (1.3M shares, about $248 each, about 2.1x TBV) after $465M in Q2; 2025 buyback $2.6B and share count 164.3M (Feb 2025) to 149.0M (Feb 2026). CET1 10.16%, guided 10.0-10.25%. Insiders own under 1% (666k shares for 23 people); pay is tied to ROTCE and ROTA (DEF 14A).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Founded 1856, not losing relevance. Risks: CRE concentration 137% of Tier 1 + allowance (124% at Dec 2025), 47% uninsured deposits, one-region exposure. Offsetting: CRE criticized loans fell from 14.8% to 9.8% of CRE since December; downside scenario in the 10-Q assumes CRE prices -17% and unemployment 8.1%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean on formal flags: no 8-K 4.01/4.02, no NT filing, no CORRESP/UPLOAD since 2021, auditor PwC, internal controls effective, one critical audit matter (allowance model adjustments). But: related-party income from Bayview (20% of BLG: $31M in Q3, $111M in 9M26; sub-servicing fees $93M in Q3; $902M lending commitments), Tricolor suit against Wilmington Trust (unquantified, 'not expected to be material'), and a Q3 reclassification of other income lines (8-K 2026-09-28).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: loan growth, low charge-offs. Overheat +: NII guided up with a Q4 rate rise, but deposit cost +10bp QoQ and AOCI -$588M in Q3. Stagflation -: CRE refinancing, deposit costs, AOCI. Slowdown -: charge-offs 35-40bp guided and rising, CRE criticized $2.5B, reserve on CRE just cut to 1.50% from 2.02%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Stress capital buffer 2.7%; June 2026 Basel III proposal would lift CET1 about 90bp at June (deck); FDIC special assessment largely paid ($194M total). Tariff and energy-cost review of borrowers in retail, wholesale, manufacturing and food service noted in the 10-Q. No pending deal or merger docket.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "$215.50 (2026-11-25 close) / TBV $115.88 = 1.86x. At 10% cost of equity and 3% growth, 1.86x implies a sustained ROTCE of about 16.0% (15.2% at 4% growth), against 17.3% in Q3 and about 16.6% over four quarters (my calc: net operating income less $42M/qtr preferred, over average tangible equity): cushion 0.6-1.3 points, thin. Fair P/TBV: 2.04x ($236) at 17.3%, 1.94x ($225) at 16.6%, 1.71x ($198) at 15%. P/E 11.2x trailing (EPS $19.16). Own year-end P/TBV 2021-25 about 1.71, 1.67, 1.40, 1.71, 1.72x (approximate TBV from XBRL; 2025 reported), so today is above the five-year range; year-end P/E 11.1, 12.6, 8.7, 12.8, 11.9. Peers: PNC 2.05x (ROTCE 18.3%), USB 2.00x (18.5%), HBAN 1.57x (14.6%), TFC 1.50x (14.6%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and ROTCE 17.3%, but 1.86x tangible book (above its own 2021-25 range) needs about 16.0% ROTCE for ever, so the cushion is about 1 point, and I found no clear mistake: CRE is not being over-discounted.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answers": {
+  "cre_over_discounted_or_real_risk": "Neither extreme. CRE is $25.6B (17.7% of loans): multifamily $7.3B, retail $4.3B, industrial $3.5B, construction $3.3B, office $3.1B (2.1% of loans, 22.8% criticized, $151M nonaccrual), health $1.8B, hotel $1.7B. Criticized CRE fell from $3,454M (14.8%) at Dec 2025 to $2,496M (9.8%); weighted-average LTV 55%. But the CRE allowance was cut from 2.02% to 1.50% of CRE ($383M vs $472M at Dec) as the model's year-1 CRE price assumption moved from -2.8% to +0.8%, CRE concentration rose to 137% of Tier 1 + allowance (124% in Dec), and CRE is the fastest-growing book (+$1.6B average QoQ). The stock is at 1.86x TBV, above its own year-end range, so the market is not discounting CRE; the thin reserve is a risk, not a bargain.",
+  "credit_overall": "Net charge-offs 0.35% (0.23% Q2, 0.42% a year ago), nonaccrual 0.90% (1.11%), allowance 1.51% of loans (1.59%), Q4 charge-offs guided 35-40bp. Criticized C&I +$213M QoQ mostly one auto-leasing borrower (named in the deck, not by name).",
+  "capital_and_buyback": "CET1 10.16% (10.99% a year ago), guided 10.0-10.25%; TCE/TA 7.85% (-94bp YoY); buyback $323M Q3 vs $465M Q2; shares -9% in the year to Feb 2026.",
+  "nii_and_deposits": "NII $1,793M flat QoQ; NIM 3.65% (-5bp); total deposit cost 1.52% (+10bp QoQ; 1.72% a year ago); Q4 NII guided $1.83-1.85B and NIM mid-3.60s including one more rate rise.",
+  "wilmington_trust": "Institutional Services & Wealth: revenue $379M (-7% YoY), net income $115M (-19% YoY) in 3Q26 on lower net interest income (-$19M) and a 2025 sale of an institutional subsidiary; trust and investment services income overall +6% YoY. Tricolor suit against Wilmington Trust N.A. as custodian is unquantified."
+ },
+ "feedback": [
+  {
+   "fact": "Total deposit cost rose to 1.52% from 1.42% (interest-bearing 2.05% from 1.95%, +10bp QoQ) while noninterest-bearing spot deposits fell $3.5B QoQ; Q4 guidance assumes one more rate increase.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000060/mtb-20260930.htm",
+   "as_of": "2026-09-30",
+   "direction": "confirms Overheat with hiking bias; funding costs rising"
+  },
+  {
+   "fact": "Criticized C&I loans +$213M QoQ, mainly one auto-leasing company; CRE criticized +$32M QoQ after -$958M since December.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30",
+   "direction": "mixed: CRE stress easing, isolated C&I credit stress; consistent with the early HY-spread widening"
+  },
+  {
+   "fact": "AOCI fell $588M in Q3 as rates rose; M&T moved $8.3B of mortgage securities to held-to-maturity in July.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+   "as_of": "2026-09-30",
+   "direction": "long-rate sensitivity; helped if 10y keeps falling from its highs"
+  }
+ ],
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 215.5,
+  "as_of": "2026-11-25 close (quote pulled 2026-11-26)",
+  "source": "https://finance.yahoo.com/quote/MTB"
+ },
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: business, employees, auditor report and critical audit matter, internal-control opinion; risk-factor text and year-over-year diff not read.",
+  "10-Q": "Q3 2026 10-Q read for credit tables, CRE and C&I criticized tables, segments, Bayview note, legal note; Q1, Q2 and Q3 2025 10-Qs not read separately, their numbers taken from the five-quarter tables in the Q3 release and deck.",
+  "earnings_release": "3Q26 EX-99.1 read; earlier releases not read.",
+  "presentation": "3Q26 EX-99.2 read in full, including 4Q26 outlook and non-GAAP reconciliations.",
+  "ir_fact_sheet": "No separate fact sheet or IR-site page was fetched (ir.mtb.com not tried); release and deck used instead.",
+  "def14a": "2026-03-10 DEF 14A: pay metrics and ownership table read in headline form only; pay-versus-performance table not read.",
+  "red_flag_scan": "EDGAR submissions list (back to 2020): no 8-K Items 4.01/4.02, no NT filings, no 10-K/A; CORRESP/UPLOAD last seen 2021 (subjects not read); 8-K 5.02 on 2026-06-16 (new director) and 2024-06-26 (not read).",
+  "price": "yFinance quote and history; no IBKR check at triage. Own 5-year P/TBV is approximate (year-end price over XBRL equity less preferred, goodwill and intangibles, over cover-page share counts); 2025 uses reported TBV $117.45. Peer multiples from sibling triage files, not recomputed.",
+  "other": "Trailing-four-quarter ROTCE (16.6%) is my arithmetic, not a company figure. Segment 'Institutional Services & Wealth' YoY change computed from the 10-Q segment note. CRE reserve (allowance) figures from the 10-Q allowance table."
+ },
+ "complete": true
+}
