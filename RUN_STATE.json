@@ -1,9 +1,100 @@
 {
-  "run_id": null,
-  "mode": null,
-  "status": "idle",
-  "heartbeat": null,
-  "current_wave": null,
-  "tasks": [],
-  "notes": []
+  "run_id": "20261126-full_hunt",
+  "mode": "full_hunt",
+  "status": "running",
+  "heartbeat": "2026-11-26T08:57:48+00:00",
+  "current_wave": 1,
+  "started": "2026-11-26T08:56:36+00:00",
+  "tasks": [
+    {
+      "id": "w1-macro",
+      "wave": 1,
+      "agent": "macro-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/macro.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/macro.json"
+      ],
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T08:57:48+00:00"
+    },
+    {
+      "id": "w1-markets",
+      "wave": 1,
+      "agent": "markets-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/markets.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/markets.json"
+      ],
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T08:57:48+00:00"
+    },
+    {
+      "id": "w1-policy-events",
+      "wave": 1,
+      "agent": "policy-events-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/policy-events.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/policy-events.json"
+      ],
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T08:57:48+00:00"
+    },
+    {
+      "id": "w1-price-action",
+      "wave": 1,
+      "agent": "price-action-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/price-action.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/price-action.json"
+      ],
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T08:57:48+00:00"
+    },
+    {
+      "id": "w1-divergence",
+      "wave": 1,
+      "agent": "divergence-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/divergence.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/divergence.json"
+      ],
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T08:57:48+00:00"
+    },
+    {
+      "id": "w1-behaviour-change",
+      "wave": 1,
+      "agent": "behaviour-change-scanner",
+      "input": {},
+      "output": "runs/20261126-full_hunt/wave1/behaviour-change.md",
+      "extra_outputs": [
+        "runs/20261126-full_hunt/leads/behaviour-change.json"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    }
+  ],
+  "notes": [
+    "config.industries empty -> Step 2 proposes industries and pauses for Alex",
+    "edgar_contact_email still placeholder",
+    "ibkr: unavailable",
+    "FRED/BLS API unreachable at bootstrap"
+  ]
 }
