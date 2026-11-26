@@ -1,0 +1,188 @@
+{
+ "ticker": "GATX",
+ "name": "GATX Corporation",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Other (railcar leasing: long-lived assets rented out, with a spread over funding cost)",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Leases long-lived railcars (about 199,100 in North America, 36,700 Europe, 12,900 India), plus aircraft spare engines via a 50% Rolls-Royce joint venture (475 engines) and tank containers; rent is paid monthly under 1-10 year leases.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 segment profit: Rail North America $121.3M, Rail International $35.9M, Engine Leasing $51.4M (incl. affiliates), Other $3.0M; lease revenue is $514.2M of $598.0M revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Rail North America: no customer above 5% of lease revenue, top ten about 25%; Europe is more concentrated (top customer about 17%, top ten about 47%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Assets excl. cash $16.9B at 9/30/26: Rail North America $12.0B (71%), Rail International $2.7B, Engine Leasing $1.8B; Europe and India add euro and rupee exposure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread model: lease rent minus depreciation, maintenance and interest; 9M 2026 lease revenue $1,541M vs interest $438M. Average remaining NA lease term about 43 months (12/31/25); Q3 renewal term 52 months, down from 60 a year ago.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Capital intensive: 2025 operating cash flow $648M vs portfolio investment $1,317M, funded by debt. Net gains on asset sales were $172M of 9M 2026 pre-tax income $280M (about 60%), so earnings are lumpy. FY2026 guidance ($9.90-$10.30 EPS) now expected to be modestly exceeded.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000096/gmt-20260930.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: new railcars (Trinity under a 2022 agreement for 15,000 cars through 2028, plus Greenbrier, National Steel Car, FreightCar America; Goek Yapi for Europe), steel behind those cars, Rolls-Royce engines and JV partner, and capital markets. Signal tags 'steel, tariffs, railcar cost' and 'rates, lessor financing': builder backlog 25,326 cars and limited supply support lease rates; steel cost passes to GATX in new-car prices, while GATX passes it on only through renewals (LPI +12.4%). Rolls-Royce reliance and Trinity are single points of failure; funding cost is the live pressure: new notes at 5.90-5.95% vs 4.78% average debt cost at 12/31/25.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and maintenance network: the 'Wells Fargo' deal added about 101,000 cars for $4.2B via a joint venture with Brookfield (GATX 30% at close, manager of the fleet, option to buy up to 100%); utilization 98.4% and renewal success 86.1%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000096/gmt-20260930.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 1,
+   "evidence": "Business-to-business lessor with no consumer brand; customers (shippers, railroads) would notice a loss but it is not an everyday name.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals: Union Tank Car, CIT Rail, Trinity Leasing, American Industrial Transport; the Wells Fargo purchase roughly doubled the North American fleet (100,593 to 196,233 cars in Q1 2026), so share rose.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Investment volume $4.89B year to date (mostly acquisition); Q3 only $171.7M. RRPF investment near $1.0B year to date. Organic growth is limited by supply and returns; option to buy up more of GABX.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "Net debt and leases $11.68B, recourse leverage 3.3x equity; 2025 ROE 12.8% GAAP; buybacks only $65M in 2025; dividend $0.66 a quarter. Insiders own 1.9%; pay rewards non-GAAP net income, three-year LTI-adjusted ROE and cumulative investment volume. Free cash flow is negative by design (growth funded by debt).",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000110465926027377/gatx-20260424xdef14a.htm",
+   "as_of": "2026-03-13"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 5,
+   "evidence": "Essential assets with long lives (leases renewed at +12.4% on average), attrition of industry fleet and limited new supply; dividend paid uninterrupted since 1919. Risks: customers buying not leasing, rail traffic drop, tank-car obsolescence, rate rise.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01/4.02, no NT filings, auditor EY with effective internal control (FY2025); one SEC comment letter on the FY2022 10-K closed in 2023 (older than 3 years). Non-GAAP adjustments are small ($319.8M adjusted vs $333.3M GAAP 2025). Watch item: gains on sales are about 60% of 9M pre-tax income.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: full fleets and rising renewal rates help, but funding cost is rising (Fed leaning to hike; new 10-year notes 5.95%) against a debt book at 4.78% average, so spread narrows as debt rolls ($653M due 2026, $855M 2027, $3.66B 2030). Slowdown: leases are contracted, but LPI is slowing (22.8% to 12.4%), term shortening (60 to 52 months), and sale gains and builder orders would weaken. Dollar: Europe and India translated into dollars.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "No pending regulatory docket found for GATX; exposure is to tank-car safety rules, tariffs on steel and railcars, and STB rail rules (UP-NS merger FD 36873 is an industry factor, not a GATX docket).",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000018/gmt-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $186.28 (close 2026-11-25): market cap $6.5B, 2.33x book (book $79.80) vs about 1.7-2.2x at year-ends 2021-2025 (my calculation), P/E 17.3 trailing vs about 16-24x, EV/EBITDA 14.5, dividend yield 1.4%. Reverse DCF on owner earnings of $370M (2026E, about NI): needs 5.4% a year growth for 10 years at 10% discount and 3% terminal; if sale gains normalize to $300M it needs 8.2%. Own history: net income CAGR 17% 2020-25 (trough start, acquisition), operating cash flow CAGR 8.2%. Peers: TRN P/B 2.13, GBX 0.75, WAB 4.26.",
+   "source": "https://finance.yahoo.com/quote/GATX",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B but the stock sits at 2.33x book, the top of its 5-year range, and about 60% of 9M pre-tax income is sale gains, so there is no clear cushion or mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "GATX CEO: rail traffic stable or modestly growing, industry fleet attrition continues, new railcar supply limited; LPI +12.4%, utilization 98.4%, renewal success 86.1%, builder backlog 25,326 cars. This supports the regime sensitivity read that lessors gain from full fleets in Overheat; but LPI has slowed from 22.8% a year ago and renewal term shortened from 60 to 52 months, an early sign of the Slowdown the market prices.",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm",
+   "as_of": "2026-10-29"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively with XBRL facts; Q1, Q2 10-Qs not read line by line.",
+  "presentation": "No EX-99.2 deck found in the 8-Ks; the earnings release supplemental pages were used. IR site not fetched.",
+  "ir_fact_sheet": "IR site gatx.com not fetched; supplemental statistics are in the EX-99.1 release.",
+  "red_flag_scan": "8-K item scan, NT, CORRESP/UPLOAD done via EDGAR submissions; 2023 comment letter PDF contents not read (company reply read only by header).",
+  "price": "yFinance last close 2026-11-25; multiples from yFinance info, 5-year P/B is my calculation from year-end price and equity with approximate share counts."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 186.28,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/GATX"
+ },
+ "complete": true
+}

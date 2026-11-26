@@ -1,0 +1,193 @@
+{
+ "ticker": "GS",
+ "name": "Goldman Sachs",
+ "industry": "banks",
+ "company_type": "Cyclical",
+ "business_model": "Other (investment banking, trading and wealth fees on top of a balance sheet)",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Global investment bank and asset/wealth manager: advises, underwrites, trades and finances for institutions, and manages $4.10T of client assets. Q3 2026 net revenue $18.7B, net earnings $5.3B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 net revenue by segment: Global Banking & Markets $13,458M (72%), Asset & Wealth Management $5,051M (27%), Platform Solutions $170M (1%). GBM: equities $6.4B, FICC $3.5B, IB fees $3.2B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Institutions, corporates, sponsors, funds and wealthy households; no single-customer concentration disclosed. Wealth client assets about $2.1T; deposits $568B (consumer $230B, private bank $105B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "FY2025 net revenue Americas 63%, EMEA 24%, Asia 13% (total $58.3B). Currency exposure is trading-book and hedged; nothing found on a single-country concentration.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Fees plus trading plus balance-sheet spread. My split of YTD net revenue $56.2B: about 42% durable (AWM management fees $10.0B, equities financing $9.2B, FICC financing $3.5B, transaction banking ~$1.0B); about 58% episodic (IB $9.5B, intermediation $18.5B, incentive fees, investments).",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Pay and transaction costs flex with revenue (compensation $16.6B, transaction-based $8.6B YTD) so costs fall with revenue; efficiency ratio 59.4% YTD. Capex-light; guidance-hit-rate not published (nothing found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are funding, capital and talent, not goods. Funding: deposits $568B (brokered CDs $52B, sweeps $42B) plus $352B unsecured long-term debt; suppliers are institutional investors, depositors and money funds, diffuse. Chokepoints: CET1 12.4% vs 11.4% requirement (3.4% SCB + 3.5% G-SIB); Apple Card partner being transitioned out. Signal tags: hy_spreads and fed_funds (wider HY 3.72% raises issuance cost and hits leveraged-finance underwriting; GS #2 in leveraged lending), regulation (capital), wages and software_capex (compensation and tech spend). Pass-through: fees and spreads reprice with market; funding cost increases are largely passed to clients in financing books, not guaranteed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Scale and relationships: #1 in announced and completed M&A and equity offerings, #2 leveraged lending, #3 HY (Q3 2026). Differently now: alternatives push (AUS $491B, target $750B), record equities financing, bolt-on buys NEOS and LCN.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Institutional brand, not an everyday consumer one; the consumer arm (Apple Card) is being wound down. Would be noticed by markets if it vanished, not by households.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals JPM, MS, BAC, C. Equities revenue +72% y/y and #1 M&A suggest share gains; JPM CIB revenue +14% y/y in Q3 shows the whole group is strong, so part of the gain is the cycle.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Alternatives AUS $491B (Q3 fundraising $37B, $122B YTD) toward a $750B target; long-term AUS net inflows $97B in Q3 (35th straight quarter); alts fees +43% y/y. Not priced if it scales, but fee-based stream is only about 27% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "YTD ROTE 22.4% vs about 10% cost of equity. Q3 returned $4.49B ($3.0B buybacks at about $1,030 a share, roughly 3x TBV; $1.49B dividends); shares 307.1M to 295.6M since 4Q25. CEO owns 143,146 shares (about $115M); variable pay is 100% performance share units tied to ROTE/TSR targets. Bank, so free cash flow not meaningful.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000119312526117433/gs-20260319.htm",
+   "as_of": "2026-03-02"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Franchise is durable; earnings are not. Net income swung $21.6B (2021), $11.3B, $8.5B, $14.3B, $17.2B (2025). Key-person: Solomon and Waldron. Disruption risk: AI and private credit competition for lending; nothing found of relevance loss.",
+   "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Items 4.01 or 4.02, no NT filings, no material weakness (PwC unqualified ICFR opinion, auditor since 1922). One SEC 10-K comment letter June 2024 on segment wording, answered 2024-06-24 and closed. Watch: Apple Card held-for-sale markdowns; Q3 provision $368M from wholesale loan impairments.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000091/gs-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: strong (record equities financing, IB up 40% YTD). Boom: strong. Stagflation: volatility lifts trading, IB and credit weaken. Slowdown: weak (IB backlog already fell q/q; wholesale impairments rising; HY OAS 3.72% widest of 2026). Rate/dollar sensitivity modest; NII $3.77B is under 20% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Capital rules proposed Mar 2026 would modestly cut requirements (no final rule found); SCB 3.4% held until 2027 and SCB effective date moves to Jan 1; G-SIB surcharge 3.5%. No pending deal docket. Apple Card transition to another issuer announced Dec 2025.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/gs-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $801.03 vs TBV/share $341.43 = 2.35x. At a 10% cost of equity and 3% growth that implies a sustainable ROTCE of about 19.5% (18.1% at 4% growth). Actual: Q3 20.5%, YTD 22.4%, but FY2025 16.0% and my 5-year ROE on common equity (2021-25) 21%, 10%, 8%, 12%, 15%, average about 13%. Year-end P/TBV range 2021-25 about 1.0x to 2.5x (my calculation, goodwill only deducted). P/E about 10.8x on annualized YTD EPS $55.56, 15x on FY2025. Peer: JPM 2.81x TBV at 20% ROTCE; MS not pulled. Price still assumes peak-level returns persist; no cushion.",
+   "source": "https://finance.yahoo.com/quote/GS",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B but 2.35x TBV needs about 19.5% ROTCE forever against a 13% five-year average ROE; the market is fading a cyclical high, not misreading it, so no cushion and no mistake yet.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "GS investment-banking backlog fell q/q (advisory); FICC -24% q/q, equities -13% q/q; provision $368M (+261% q/q) on wholesale loans. Confirms the Slowdown-turn risk in credit-sensitive lines.",
+   "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "fact": "JPM Q3 2026: CIB revenue +14% y/y, markets and IB fees both up; reported ROTCE 20%. Confirms hard-data strength in trading and banking through September.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-09-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively (capital, Apple Card, Level 3); Q1 and Q2 10-Qs and XBRL annual series used only for history, not read in full.",
+  "ir_fact_sheet": "goldmansachs.com financial supplement returned HTTP 403.",
+  "red_flag_scan": "Submissions index scanned back to Nov 2023 (3 years): only 5.02 items, one 10-K/A (2024-02-28) not opened, 2024-25 comment letters (one 10-K review, one S-3 acceleration).",
+  "price": "yFinance last price 801.03 (close of 2026-11-25); P/TBV history uses goodwill-only TBV approximation; MS P/TBV not pulled.",
+  "private_credit_marks": "On-balance-sheet alternatives $24.3B (loans 5.3, debt 7.0, equity 10.7); Q3 AWM investments revenue $50M with net debt markdowns; Level 3 assets $20.9B (Sep 2026). No explicit private-credit loss figure found."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 801.03,
+  "as_of": "2026-11-25 close",
+  "source": "https://finance.yahoo.com/quote/GS"
+ },
+ "complete": true
+}
