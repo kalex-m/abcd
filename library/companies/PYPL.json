@@ -1,0 +1,202 @@
+{
+ "ticker": "PYPL",
+ "name": "PayPal Holdings",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Runs a two-sided digital wallet network (PayPal, Venmo) plus unbranded card processing (Braintree). It earns fees on payment volume: $1.79T of volume in 2025, $487B in 3Q'26.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000024/pypl-20251231.htm",
+   "as_of": "2026-02-03"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Transaction revenues $7.71B of $8.58B net revenue (90%) in 3Q'26; other value-added services (interest on balances, credit, partners) $873M (10%). Venmo revenue about $1.7B in 2025, up about 20%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Consumers (440M active accounts, +0.6% y/y) and merchants of all sizes. No top-customer share is disclosed; large merchants get co-marketing incentives booked against revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "42% of 3Q'26 net revenue from customers outside the US (44% a year earlier); 35% of volume outside the US. Dollar up 4.8% in 3 months is a translation headwind ahead; 3Q'26 was 2% reported vs 1% currency-neutral.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Fee on volume, so recurring in nature. But take rate is slipping: transaction margin dollars $3,950M on $487.1B volume = 0.81%, vs 0.85% a year earlier ($3,871M on $458.1B), as mix shifts to low-margin Braintree.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Transaction expense is 49.5% of revenue ($4,248M of $8,584M) and grew 4.6% against revenue +2%. Capex $852M in 2025 (2.6% of revenue), so asset-light. Restructuring $255M in 3Q'26. Guidance: raised FY26 non-GAAP EPS to about $5.60 (from about $5.38 in July) but Feb 2026 admitted execution gaps.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: Visa/Mastercard network and bank fees (processors may pass fee increases on to PayPal, 10-K risk factor), bank funding rails, data centres (migrating to cloud through 2028), BNPL funding via loan sales ($18.2B sold). Single points: the two networks; FCA is probing PayPal's Visa/Mastercard contract terms. Pass-through is partial: transaction expense rose faster than revenue and merchant incentives are netted from revenue. Signal tags: rates (lower rates cut interest on balances; OVAS -2% in 3Q), dollar (42% non-US revenue), hy_spreads (BNPL funding), regulation (interchange/network fees).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Network of 440M accounts and 6.8B transactions in the quarter; Venmo is a distinct US habit. Doing differently now: selling BNPL receivables, a bank partner revenue share (+$90M 9M), PYUSD stablecoin. But the edge in branded checkout is contested (see read 10).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Would be noticed if gone: 60.8 payments per active account per year (+6%), 6.8B transactions in 3Q'26 (+7%). Sales and marketing $508M = 5.9% of revenue, modest for a consumer brand.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Management said execution 'has not been where it needs to be, particularly in branded checkout' (Feb 2026), and by Q2 said branded checkout 'further stabilized'. Revenue from PayPal-branded products fell about $240M in 3Q'26 while Braintree rose about $270M. No quantified branded-checkout growth figure is in the filings reached.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000021/pypl4q-25earningsrelease.htm",
+   "as_of": "2026-02-03"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Venmo revenue +$100M y/y in 3Q'26, loan portfolio income rising, Braintree volume up. Total volume +6% in 3Q'26 but transaction margin dollars only +2%, so growth is not yet converting.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "2025 operating cash flow $6.4B, FCF $5.6B (adjusted $6.4B); 3Q'26 FCF $1.4B. Cash and investments $15.1B vs debt $13.5B. Buybacks $6.0B over 12 months (117M shares); share count 1,171M (Jan 2021) to 831M (Oct 2026). 2026 buyback prices about $45-54 per share, below 2021-24 levels. Pay rewards transaction margin dollars and non-GAAP operating income (annual) and relative TSR vs S&P 500 (3-year). New CEO from HP (March 2026); CFO leaves Feb 2027. Insider ownership table not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "ZOOM TEST: not failed, not passed. Against 'losing relevance': 440M accounts, transactions +7%, transactions per account +6%, volume +9% for nine months, volume 2025 $1.79T. For it: active accounts +0.6% over a year (438M to 440M), management concedes branded checkout execution problems, PayPal-branded revenue is falling on mix and merchant incentives, and GAAP operating income fell 8% in 3Q'26. Verdict: a large, still-used network whose monetisation of its own brand is eroding, not a vanishing product. Key-person risk: CEO and CFO both new within 12 months.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean: no Item 4.01/4.02 8-Ks, no NT filings, no material weakness found in 3 years scanned. Cautions: three SEC comment letters in May-Aug 2025 on revenue disaggregation (closed with company replies); securities class actions (Darcy, filed Feb 2026, alleges concealed branded-checkout problems; Norfolk, Apr 2026); CFPB CIDs; FY26 non-GAAP adjustments about $570M; critical audit matter on consumer loan allowance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: e-commerce volume. Overheat 0: nominal volume up, interest on balances helps, strong dollar hurts 42% non-US revenue. Stagflation -: discretionary volume and take rate squeezed. Slowdown -: volume slows, consumer credit losses (transaction and credit losses $386M in 3Q) rise, though lower rates only trim float income.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Open: CFPB civil investigative demands on Reg E and PayPal Credit; UK FCA Competition Act investigation into PayPal's Visa/Mastercard terms (notice March 2026); several shareholder suits; Hawaii consumer-protection suit.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "Price $57.81, EV about $46.4B (market cap $48.0B less $1.6B net cash). EV/EBITDA 6.6x on 2025 EBITDA $7.0B; P/E about 10.3x on FY26 non-GAAP guide ($5.60), 11.4x GAAP ($5.07). Own year-end GAAP P/E: 53x (2021), 34x, 16x, 21x, 11x (2025). Peers trailing GAAP P/E: MA 40x, GPN 17x, FISV 9x. Reverse DCF at 10%/3%: price implies owner FCF (FCF less stock pay, $4.6B) shrinking 2.2% a year for 10 years (5.0% a year on reported FCF $5.6B); own 2020-25 FCF growth was +0.8% a year. Cushion is real; it assumes decline.",
+   "source": "https://finance.yahoo.com/quote/PYPL",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and a real price cushion (about 12% FCF yield), but branded-checkout share trend is unquantified and the 2% transaction-margin growth does not yet show the turn; evidence incomplete.",
+ "the_mistake": "Candidate, not yet proven: the market prices PayPal as a shrinking franchise (owner FCF down about 2% a year for a decade) while volume, transactions per account, Venmo and Braintree are growing and FCF funds a 29% share count cut in under 6 years. It treats Braintree-driven margin dilution as permanent loss of the branded wallet.",
+ "what_makes_market_notice": "Q4'26 results and 2027 outlook (early Feb 2027, date not confirmed) showing branded-checkout stabilisation in numbers; new CFO starts Feb 3, 2027. Transaction margin dollars growth moving above volume growth would be the proof.",
+ "feedback": [
+  {
+   "fact": "Card-volume data have not turned: PayPal volume +6% (+7% currency-neutral) and transactions +7% in 3Q'26",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms Overheat hard data; real-spending softness not visible in payments volume yet"
+  },
+  {
+   "fact": "Interest on customer balances fell on lower rates (other value-added services revenue -2% y/y in 3Q'26)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000088/pypl-20260930.htm",
+   "as_of": "2026-09-30",
+   "effect": "rates effect on float income; a Fed hike would help this line"
+  },
+  {
+   "fact": "Revenue +2% reported vs +1% currency-neutral in 3Q'26; 42% of revenue non-US",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+   "as_of": "2026-10-27",
+   "effect": "answers lead L-20261126-markets-7: dollar was a small tailwind in 3Q; the 3-month dollar rise is a headwind to come"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "presentation": "Earnings decks are not attached to the 8-K on EDGAR; IR site page reached was a navigation shell with no figures. Branded checkout growth is therefore not quantified.",
+  "ir_fact_sheet": "investor.pypl.com returned no fact-sheet content.",
+  "10-Q": "3Q'26 10-Q read in text; 1Q and 2Q 10-Qs via 8-K earnings releases and XBRL facts only.",
+  "def14a": "Pay design read; beneficial-ownership table for officers and directors as a group not extracted.",
+  "red_flag_scan": "Filing list 2022-02 to 2026-11-24 scanned for Items 4.01/4.02, NT forms, CORRESP/UPLOAD; two 2025 CORRESP letters read, UPLOAD PDFs not opened.",
+  "price": "Peer P/Es are trailing GAAP from XBRL (distorted by impairments for FISV and FIS); V EPS unavailable. Q1'26 FCF not retrieved."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 57.81,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/PYPL"
+ },
+ "complete": true
+}
