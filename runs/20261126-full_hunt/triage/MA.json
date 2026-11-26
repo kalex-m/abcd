@@ -1,0 +1,192 @@
+{
+ "ticker": "MA",
+ "name": "Mastercard",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Runs the Mastercard card network (routes and settles payments between banks, merchants and cardholders) and sells fraud, data, cyber and other services on top. 3.8B cards issued; GDV $3.0T in Q3 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 2026 net revenue $9.81B: payment network $5.75B (59%), value-added services and solutions $4.06B (41%, +19% y/y). Network gross assessments: domestic $3.2B, cross-border $3.8B, transaction processing $4.8B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Customers are issuing banks and acquirers, not consumers; rebates and incentives to them were $6.37B in Q3, 53% of gross network revenue (39% of gross revenue incl. services), up 18% y/y. Large issuers hold bargaining power; each deal renewal can reset economics. Customer concentration table not re-read in this pass.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Global: worldwide-less-US GDV +8% vs US +6% in Q3. Functional currencies USD, EUR, GBP, BRL; YTD net revenue +15% reported vs +13% currency-neutral, so FX has been a tailwind that a stronger dollar (+4.8% 3m) reverses.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 5,
+   "evidence": "Fees on volume, cross-border volume and transactions switched, plus service subscriptions; asset-light, no credit risk on cards. Rebates netted from revenue. Q3 operating margin 59.8% GAAP (60.5% adjusted).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 5,
+   "evidence": "Mostly fixed cost base: net revenue +14% vs adjusted opex +12% in Q3, margin up 0.7pt. Capex plus capitalised software 9M 2026 $1.14B vs $0.93B (about 4% of revenue). Prepaid expenses (customer incentive payments) rose $4.7B in 9M. Guidance hit rate not tested.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Few physical inputs: own data centres/cloud, engineering and security labour, and bank/settlement partners; no single-supplier chokepoint found in this pass. Industry tags: regulation, consumer_spending_nominal, inflation, dollar, wages. Cost pass-through: network fees are priced on volume, so inflation lifts nominal volume (inflation passes through automatically) while labour cost is not passed on (adjusted opex +12%). Dollar tag: cross-border revenue is measured in constant dollars, so a stronger dollar shrinks translated revenue. The real exposure is the customer side: rebates rising faster than revenue (+18%).",
+   "source": "runs/20261126-full_hunt/industries/payments.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Two-network duopoly with Visa, 3.8B cards, switching costs for banks, scale. Doing differently now: services (fraud, data, cyber) now 41% of Q3 net revenue, agentic commerce, and the BVNK stablecoin infrastructure buy (net assets acquired $1.56B on 2026-08-03).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "Brand on 3.8B cards; used on every swipe; consumers would notice if it vanished. Pricing power shown: 'pricing' is cited as a driver of both network and services growth in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Visa is the main rival (Jul-Sep payments volume +9%, cross-border +14%); Mastercard Q3 GDV +7%, cross-border +11%, so it is growing a little slower than Visa on volume but faster on services. Also AmEx, Discover and real-time bank-to-bank rails. Share trend vs Visa roughly flat to slightly down on volume.",
+   "source": "runs/20261126-full_hunt/industries/payments.json",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 5,
+   "evidence": "Services +19% (+20% YTD) and growing as a share; cross-border +11% local; switched transactions +9%; cash-to-card and B2B still open. Runway is well known and priced (see read 17).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 5,
+   "evidence": "FY2025 operating cash flow $17.6B; est. FCF about $16.4B after capex ($489M) and capitalised software; LTM FCF about $15.4B (est.). 9M 2026 buybacks $11.9B at average $520.64 plus dividends: roughly 100%+ of FCF returned. Debt $23.9B vs cash $10.1B. Insiders each under 1%. Pay scored on adjusted EPS, net revenue (2025 bonus 145% of target). 9M OCF fell 6% on incentive prepayments and litigation settlement cash.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 5,
+   "evidence": "Gaining relevance (more electronic spend, services added). Risks: regulation, interchange litigation, bank-to-bank/real-time and stablecoin rails, issuer concentration. CEO Miebach in place; CFO rotated Aug 2026 in an orderly handover.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filings, no CORRESP/UPLOAD comment letters since Feb 2023 (outside 3 years). 5.02 items in 2026 are orderly CFO/controller rotations. Litigation: Block and Intuit opt-out claims seek over $5B single damages; accrued litigation fell to $262M from $800M. Adjusted vs GAAP gap small (EPS $5.31 vs $5.28).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat 0/+ (nominal volume inflated, float; but dollar +4.8% hurts translation and cross-border); Slowdown 0 (cross-border and travel soften first, but networks fall least); Stagflation 0; Boom +. Q3 GDV +7% local vs +9% purchase volume. Real spend flat in October: nominal volume growth is partly price. Rates: no credit book, mild debt cost.",
+   "source": "runs/20261126-full_hunt/industries/payments.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Live exposure: interchange class actions (Second Circuit appeal on damages class release, Sept 2026), Block/Intuit opt-outs, Credit Card Competition Act, Durbin cap vacated by Eighth Circuit (Oct 26, from brief; not found in the 10-Q text). Cap lift or routing mandates would shift who keeps the spread. Cuts both ways: a vacated debit cap helps issuers, not the network directly.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000124/ma-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $659.97, EV about $588B. Reverse DCF at 10% discount, 3% terminal, LTM FCF about $15.4B needs about 16% FCF growth for 10 years; own FCF growth 2021-25 about 17-18% a year (2020 base is Covid-low). Trailing P/E 34.5 and forward 28.5 vs MA year-end range 33-40 (2021-25); Visa 34.4/24.8, AmEx 17.6, PayPal 11.0. FCF yield about 2.7%. Price sits near 52-week high ($681.99). Services stream is priced in.",
+   "source": "https://finance.yahoo.com/quote/MA",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Excellent business, but today's price needs about 16% FCF growth for 10 years, matching its best run, so there is no cushion and no mispricing.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "note": "Mastercard Q3: cross-border +11% local (10% USD), GDV +7%, services +19%, no sign yet of a spending slowdown in card data; Visa Jul-Sep payments volume +9%, cross-border +14%. Hard data confirm Overheat for card volume; the real-spend weakness is not visible in network volume yet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 659.97,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/MA"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K listed and cited; text not re-read beyond XBRL series (revenue, OCF, capex, buybacks) and 10-Q notes",
+  "10-Q": "Q3 2026 10-Q read in full text; Q1/Q2 10-Qs only via year-to-date figures",
+  "presentation": "IR deck not fetched this pass",
+  "ir_fact_sheet": "not fetched; IR site not queried",
+  "def14a": "2026 proxy skimmed: pay metrics and insider ownership under 1%",
+  "red_flag_scan": "EDGAR submissions scanned: no 4.01/4.02/NT; CORRESP last 2023-02",
+  "price": "yFinance quote and info 2026-11-26; Visa/AmEx/PayPal multiples from the same",
+  "Eighth_Circuit_Durbin": "Oct 26 ruling comes from the brief, not independently verified; Q3 10-Q text has no Durbin mention",
+  "FCF": "LTM FCF is an estimate: OCF less capex less capitalised software (XBRL tag for full-year capitalised software not found; 9M figures used)"
+ },
+ "complete": true
+}
