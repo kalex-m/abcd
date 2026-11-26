@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T09:29:46+00:00",
+  "heartbeat": "2026-11-26T09:29:59+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -637,10 +637,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/V.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:27:04+00:00"
+      "updated": "2026-11-26T09:29:59+00:00"
     },
     {
       "id": "w4-MA",
@@ -860,6 +860,7 @@
     "FRED/BLS API unreachable at bootstrap",
     "Step 2: regime=overheat (low-medium) with slowdown transition risk; awaiting industry choice",
     "Industries chosen by Alex: railroads, banks, payments",
-    "Lead corrections from mappers: regionals were down 4-11% over 3m, not up (divergence-6); BAC NI fell on a $1.2B settlement; FIS fall has a filed cause (Nov 4 guide cut); Fiserv ticker is FISV; BNY ticker is BNY"
+    "Lead corrections from mappers: regionals were down 4-11% over 3m, not up (divergence-6); BAC NI fell on a $1.2B settlement; FIS fall has a filed cause (Nov 4 guide cut); Fiserv ticker is FISV; BNY ticker is BNY",
+    "Correction (CNI triage): CN will not oppose UP-NS after a 2026-07-22 settlement; CN Teamsters and Steelworkers contracts expire 2026-12-31"
   ]
 }

@@ -1,0 +1,196 @@
+{
+ "ticker": "V",
+ "name": "Visa Inc.",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Visa runs the world's largest card payments network: it routes and settles transactions between banks, merchants and consumers and charges small fees on volume, transactions and cross-border use; it does not lend or carry credit risk. 281.3B transactions processed in FY26.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "FY26 net revenue $45.9B: service revenue $19.9B, data processing $23.4B, international transaction $15.3B, other $5.7B, less client incentives $18.3B. Value-added services $14.2B (about 31% of net revenue, from $10.9B). One segment.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Banks (issuers), acquirers and merchants. 10-K says a significant portion of net revenue is concentrated among the largest clients, who can issue non-Visa cards on short notice; no named top client percentage found. Client incentives rise 16% as the price of keeping them.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "FY26 net revenue US $17.4B (38%), international $28.5B (62%, +17% vs US +11%). 34,800 staff in 90 countries, 65% outside US. Currency risk is mainly translation and constant-dollar volume: FX added about 1 point to FY26 revenue growth (14% constant vs 15% reported); a stronger dollar reverses that.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 5,
+   "evidence": "Toll road: fees on payments volume (service), transaction count (data processing), cross-border volume (FX fees) plus services, net of incentives paid to banks. Net revenue yield on nominal payments volume about 0.30% in FY26 vs 0.29% in FY25 (net revenue $45.9B / $15.34T nominal payments volume, 12 months to June 2026; my calculation from 10-K tables). Incentives are 28.5% of gross revenue (up from 28.3%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 5,
+   "evidence": "Asset-light: capex $1.67B = 3.6% of net revenue; GAAP operating margin 61% ($28.1B on $45.9B). Operating expenses +11% GAAP and +16% non-GAAP in FY26 (personnel, marketing), so margin is not expanding on cost control; $563M severance in FY26. Revenue +15% vs +11% prior year, beating a FY25 base.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "No physical inputs. Critical inputs: (1) data centres, telecom links and software run mostly in-house with redundancy (10-K item 1), single points of failure are a major outage or cyber event; (2) engineering and security talent (personnel cost the main driver of opex +11%, not passed through); (3) issuing bank and merchant relationships, which are the real 'supply' and are bought with client incentives ($18.3B); (4) cross-border liquidity and FX (diffuse dealers). Linked to industry signal tags: dollar and travel_airlines (cross-border translation hit), wages (not passed on), regulation (interchange/network fees set by Visa, so it sets its own prices but regulators cap them), inflation and consumer_spending_nominal (pass-through is automatic because fees are percent of sale). Cost pass-through: strong, fees rise with prices.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Two-sided network effect: 355B Visa-brand transactions in FY26. Over 60% of ecommerce transactions tokenised. Differently now: value-added services up 30% to $14.2B, Visa Direct and A2A flows, agentic commerce (Visa Intelligent Commerce), stablecoin settlement work; $2.4B BioCatch fraud-intelligence deal (announced 2026-08-03, close by Mar 2027).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "Used daily by consumers worldwide, 973M transactions a day. Would be noticed instantly if it vanished. Consumers rarely choose the network, banks do, so pricing power is exercised on banks and merchants through rules and fees, and Visa also spends heavily on marketing (cited as a main driver of opex growth).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Mastercard (Q3 2026 GDV +7% local currency, cross-border +11%, net revenue +14%), AmEx, Discover (Capital One), UnionPay, plus A2A schemes. Visa FY26 payments volume +9% constant dollar, cross-border ex intra-Europe +12%, Q4 +14%. Share broadly stable; Visa's growth is on par or slightly ahead of Mastercard. US debit is where DOJ attacks its share position.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Cash and cheque conversion to cards, ecommerce, cross-border (+13% FY26), value-added services (+30%), new flows (B2B, Visa Direct). Q4 net revenue +13% (decelerating from FY +15%); Q4 payments volume +9%. Runway is long but the FY26 rate is the best in 15 years excluding recovery (CEO comment), which is hard to extend.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 5,
+   "evidence": "FY26 operating cash flow $23.7B, capex $1.67B, FCF $22.1B (FCF after stock comp $0.93B = $21.1B). Returned $25.6B (buybacks $20.5B at average $335/share, dividends $5.1B) = 116% of FCF; $24.4B authorised left. Net debt about $7.9B (debt $22.1B vs cash and investments $14.2B). Dividend +16% to $0.78. Pay: annual EPS goal plus relative TSR in performance shares (DEF 14A 2025-12-08); CEO granted a $50M performance option 2026-11-18 with price hurdles of $500/$550/$600 (8-K 5.02). Insider ownership table not read.",
+   "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403161.json",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Gaining relevance: processed transactions +9%, tokens and agentic commerce build on the card rails. Threats are regulation and substitution: stablecoins and A2A (RTP, Pix-type schemes, 10-K names stablecoins as a competing B2B and cross-border route), debit routing rules, interchange caps and the DOJ case. Disruption risk is real but slow; Visa is investing as a validator and in stablecoin settlement, and 10-K counts them as new flows on its rails. Key-person risk not assessed beyond CEO option grant.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "Clean: ICFR effective, KPMG unqualified opinion, no 4.01/4.02/NT filings, no material weakness found in 10-K. Flags: litigation accrual is the auditor's critical audit matter (opt-out merchant claims, $623M accrual); SEC staff comment letters 2026-03-31 and 2026-04-15 on FY25 10-K (non-GAAP prominence, MD&A volume discussion), resolved by promising future wording changes (CORRESP 2026-04-13); recurring legal special items ($1.7B in FY26) inflate the gap between GAAP and non-GAAP; two shareholder-proposal PX14A6G filings Jan 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +, overheat + (nominal volume inflated: US nominal payments +8% on prices around 3.8% PCE means real US growth near 4% by my arithmetic, and nominal fees follow price), stagflation 0 (nominal ok, mix shifts, regulators push on fees), slowdown 0 (networks fall least, cross-border and travel soften first; no credit risk). Sensitivities: dollar up 4.8% in 3m trims translated revenue and cross-border; rates matter little to earnings but matter to a 25x forward multiple; oil -18% neutral. 10y at 4.85% pushes valuation, not earnings.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "DOJ v. Visa (SDNY, filed 2024-09-24, debit monopolisation; motion to dismiss denied 2025-06-23; justice.gov case page last updated 2025-07-07 lists no trial date; live PACER docket not reachable, status via 10-K Note 20 and justice.gov). Interchange MDL 1720: Damages Class settlement final; injunctive relief class amended settlement signed 2025-11-10, preliminary approval 2026-06-09, final approval motion filed 2026-07-15 (pending); opt-out merchant cases continue, accrual $623M, total accrued litigation $990M; US escrow $628M after $3.64B paid out in FY26 (just above the accrual). Reg II: 10-K cites conflicting federal court decisions that could lower the debit cap (the brief's Eighth Circuit vacatur of Oct 26 could not be independently verified here). CCCA reintroduced, 'unclear it will advance'. Also EU IFR, Illinois law, Brazil, UK PSR.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 1,
+   "evidence": "Price $424.39 (2026-11-25 close), market cap $792B, EV about $800B; 52-week range $293.89-$442.23, so near the high; trailing P/E 34.4x GAAP, 24.8x forward (yfinance), EV/EBITDA 24.7x. Reverse DCF (10% discount, 3% terminal, 10 years): owner FCF of $22.1B must grow about 15.2% a year (15.7% after stock comp) to justify EV; its own last-5-year FCF growth is about 8.7% a year (FY21 $14.5B to FY26 $22.1B), last-year revenue growth 15%, GAAP NI 5-year CAGR about 14%. FY26 FCF was depressed by $3.9B legal payments; adding that back still needs roughly 13%+. Mastercard 34.5x trailing, 25.6x EV/EBITDA; AmEx 17.6x; PayPal 11.0x. Own 5-year multiple range not sourced (no EPS series in XBRL); FY-end price on FY26 GAAP EPS was 29x. No cushion: price needs near-best-ever growth for a decade.",
+   "source": "https://finance.yahoo.com/quote/V",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality A, but the price needs about 15% a year owner-cash-flow growth for 10 years against about 9% history, and no clear market misreading to exploit.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "text": "Mastercard Q3 2026: GDV +7% local currency, cross-border +11%, net revenue +14%: confirms volumes still strong and no sign of slowdown in the card data; real-spending weakness is not yet showing in network volumes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "text": "Visa: FX added about 1 point to FY26 revenue growth, so the dollar's 4.8% rise reverses a tailwind; Q4 net revenue +13% on both nominal and constant-dollar basis.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "as_of": "2026-10-27"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Last 4 filings are three FY26 10-Qs plus FY26 10-K; numbers via XBRL companyfacts and 10-K text, 10-Q MD&A text not read line by line.",
+  "presentation": "investor.visa.com blocked by captcha, no slide deck read.",
+  "ir_fact_sheet": "investor.visa.com unreachable (captcha); supplemental operating data not read.",
+  "def14a": "FY25 proxy (2025-12-08) read for pay design only; insider ownership table not extracted; 2026 proxy not yet filed.",
+  "red_flag_scan": "8-K item scan and UPLOAD/CORRESP list done; UPLOAD PDFs not parsed, CORRESP 2026-04-13 read.",
+  "price": "yfinance quote, last close 2026-11-25.",
+  "DOJ_docket": "CourtListener returned 403 and PACER not accessed; DOJ case page and 10-K Note 20 used instead.",
+  "Eighth_Circuit": "Oct 26 vacatur of Fed debit cap not verified from primary source here; 10-K only says conflicting decisions."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 424.39,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/V"
+ },
+ "complete": true
+}
