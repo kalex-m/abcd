@@ -1,0 +1,193 @@
+{
+ "ticker": "JKHY",
+ "name": "Jack Henry & Associates",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Subscription / recurring",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Sells core-banking, payments and digital software and processing to US community banks and credit unions; serves 7,200+ institutions, about 5,600 of them non-core clients; international under 1% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "FY26 revenue $2,544M: cloud $816M, product delivery and services $295M, on-premise support $337M, processing $1,096M (43%). Segments: Core, Payments, Complementary, Corporate Services; Core is only $768M (+4.8%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 5,
+   "evidence": "Banks and credit unions; no client over 10% flagged and customers are diffuse; core clients up to $55B assets; average core bank client $1.42B assets.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "US almost entirely; revenue outside the US under 1%, so negligible currency exposure (a dollar rise does not hurt it); exposure is to US community-bank health.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 5,
+   "evidence": "Software, hosting and processing paid per account with 6-year core contracts and minimum payments; processing is 42.3% of Q1 FY27 revenue (+10.7%) and hosting +11.7%; clients pay monthly. Explained in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Q1 FY27 GAAP operating margin 29.5% (28.5% a year ago); R&D 6.5% of revenue; FY26 capex plus capitalised software $251M (~10% of revenue); deferred revenue $333M (customers pay ahead); met or beat guidance in the last two quarters per CEO; margin guide 24.1-24.3% non-GAAP FY27 vs 23.9% FY26 (tough first-half comps).",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Inputs are mostly people (wage inflation named as a risk) plus cloud, licences and infrastructure; Q1 cost of revenue rose on personnel, cloud and AI costs. Private-cloud data centres run in multiple locations; image processing from two sites and statement printing from three centres, a modest chokepoint. Passes costs through multi-year per-account pricing, though repricing waits for renewals. Signal tags: wages (labour cost), rates (client budgets and settlement float income), tariffs/oil negligible.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Switching costs: a core conversion is a multi-year project; record 58 competitive core wins in FY26 including 14 banks above $1B assets; faster payments revenue +43.8% and digital +13.3% in Q1; cloud migration lifting hosting +11.7%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000057/jkhy-20260630xex99pressrel.htm",
+   "as_of": "2026-08-18"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Invisible to consumers; used daily by bank customers but under the bank's brand; reorder happens at contract renewal. Scored low because there is no consumer brand pricing power.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Named rivals: FIS, Fiserv, Corelation, Finastra. 58 competitive core wins in FY26 is a record; those rivals now show FIS pro forma growth 3.7% and Fiserv organic flat (industry file), versus Jack Henry non-GAAP +7.2%. Core segment non-GAAP growth only 4.9% in Q1; cores are a share-gain story but a slow one.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000057/jkhy-20260630xex99pressrel.htm",
+   "as_of": "2026-08-18"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Guide FY27 non-GAAP revenue +6.6-7.4% with margin up. Payments segment +8.3% and complementary +8.4% non-GAAP in Q1. Bank count shrinking 3% a year (FDIC) caps new accounts; assets per client rising.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "FY26 operating cash flow $762M; free cash flow after capex and capitalised software about $507M (my calc); FY26 buybacks $448M at $152 avg; dividends $170M; ROIC 23.2% (company figure); debt $85M vs cash $25M. FY26 cash flow was helped by a $126M deferred-tax swing. Insider ownership and pay metrics not assessed in this pass.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000057/jkhy-20260630xex99pressrel.htm",
+   "as_of": "2026-08-18"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Sticky mission-critical systems and gaining relevance as cloud and faster payments scale. Risks: bank consolidation, deconversions (revenue from clients leaving: $17.9M in Q1 vs $8.6M, a rising trend but billed as termination fees), AI-driven cost pressure, hiring costs.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "No 8-K Item 4.01 or 4.02 in the last 80 8-Ks; no NT filings or SEC comment letters since 2015; PwC clean opinion with one critical audit matter (revenue variable consideration); no material weakness. Non-GAAP only strips deconversion fees and an acquisition (about 3% of operating income).",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: wage costs rise, higher rates lift settlement float income but raise bank deposit costs. Slowdown: recurring contracts hold, defensive. Stagflation: defensive subscription core holds per industry file. Dollar: no exposure. Boom: bank tech budgets loosen but growth is already steady.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Regulated indirectly via bank examiners (clients' vendor oversight); no pending deal or docket found; cyber incident risk is the main regulatory tail. Nothing pending in filings checked.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000067/jkhy-20260630.htm",
+   "as_of": "2026-08-28"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "At $182.08 (up from $140-153 buyback prices), market cap $12.7B, EV about $12.7B, P/E about 26x FY26 EPS and 24x FY27 guide midpoint $7.49, FCF yield about 4.0%. Reverse DCF at 10% and 3% terminal: needs about 10% a year FCF growth for 10 years (11.5% if FCF is normalised to $460M), versus last-5-year FCF growth of about 10% a year (FY21 ~$311M to FY26 ~$507M) and a revenue guide of 7%. No cushion. Own 5-year multiple range and peer P/Es not computed in this pass.",
+   "source": "https://finance.yahoo.com/quote/JKHY",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "0",
+  "overheat": "0",
+  "stagflation": "+",
+  "slowdown": "+"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and a real share-gainer, but the price already assumes about 10% a year FCF growth for 10 years, matching its past, so there is no cushion and no clear mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "note": "Jack Henry says bank tech spending is strong and its pipeline is robust (Q1 FY27), a defensive contradiction of the Slowdown fear; no sign of bank budget cuts yet. Client deconversion fees doubled to $17.9M in Q1 from $8.6M, consistent with bank M&A.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm",
+   "as_of": "2026-11-03"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "nothing_found",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q1 FY27 10-Q (filed 2026-11-06) plus XBRL companyfacts for annual series; only the latest 10-Q text skimmed, prior three not read separately.",
+  "presentation": "No EX-99.2 attached to the 8-Ks; IR site not fetched.",
+  "ir_fact_sheet": "IR site not fetched in this pass.",
+  "def14a": "DEF 14A (2026-10-02) not read; only the 8-K annual meeting vote seen, so insider ownership and pay metrics are unassessed.",
+  "price": "yFinance last close; IBKR not checked in triage. Peer and own-history multiples not computed.",
+  "other": "Core-client count and sales detail beyond 58 wins not extracted; FCF is my calculation from XBRL (OCF - capex - capitalised and purchased software).",
+  "sources_extra": [
+   "https://data.sec.gov/api/xbrl/companyfacts/CIK0000779152.json",
+   "https://www.sec.gov/Archives/edgar/data/779152/000077915226000098/jkhy-20260930.htm"
+  ]
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 182.08,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/JKHY"
+ },
+ "complete": true
+}
