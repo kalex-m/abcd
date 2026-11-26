@@ -1,0 +1,270 @@
+[
+ {
+  "lead_id": "L-20261126-macro-1",
+  "agent": "macro",
+  "signal": "Factory and goods activity is running hot (ISM manufacturing 55.5, production at a 5-year high) while Q3 GDP was revised up to 4.3%.",
+  "evidence": [
+   {
+    "fact": "ISM manufacturing PMI 55.5 in Oct vs 54.5 in Sep; production index 59.0, highest since Nov 2021; supplier deliveries 59.1 (slower)",
+    "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+    "as_of": "2026-11-02"
+   },
+   {
+    "fact": "Q3 real GDP +4.3% annualized, revised up from 3.4%",
+    "source": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Transportation and warehousing +25k jobs in Oct, +104k since Feb",
+    "source": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "as_of": "2026-11-06"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "railroads",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "trucking",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Freight-linked businesses get volume from strong goods output; hot supplier-delivery times mean tight capacity, which supports pricing.",
+  "ask_next": "Do carload, intermodal and truck volumes and pricing confirm the ISM strength, or is it inventory build ahead of price rises?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-macro-2",
+  "agent": "macro",
+  "signal": "Fed is set to keep raising rates into a weak housing sector; minutes say mortgage activity fell and housing is weak.",
+  "evidence": [
+   {
+    "fact": "Minutes: residential mortgage activity declined further amid the sharp rise in mortgage rates; housing and other interest-sensitive sectors weak",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   },
+   {
+    "fact": "Almost all participants see further hikes as appropriate; Dec 8-9 meeting; SEP median 2026 funds rate 4.1 vs 3.875 midpoint now",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm",
+    "as_of": "2026-09-16"
+   },
+   {
+    "fact": "10y Treasury 4.85% on 2026-11-25, down from 5.15% on Nov 13 but above 4.31% in April",
+    "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "homebuilders",
+    "link": "financing",
+    "direction": "hurts"
+   },
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Builders and mortgage lenders face high borrowing costs for buyers; a late-November drop in long yields is the first relief.",
+  "ask_next": "How much of the Nov 18-25 fall in 10-year yield feeds into mortgage rates, and do builder orders and incentives show it?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-macro-3",
+  "agent": "macro",
+  "signal": "Bank shares fell sharply in the Oct meeting window on slower loan growth and commercial real estate worries, while risky-credit spreads widened.",
+  "evidence": [
+   {
+    "fact": "Bank equity prices fell sharply on slower loan growth and CRE exposures; speculative-grade spreads widened, data-centre financed high-yield worst",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   },
+   {
+    "fact": "Lending standards in the Oct Senior Loan Officer survey were slightly easier than historical medians; card delinquencies elevated",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "hurts"
+   },
+   {
+    "industry": "software",
+    "link": "financing",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Credit stress looks selective (AI-linked borrowers, leveraged software, CRE), not broad. Banks with CRE or card exposure are the squeezed ones; diversified lenders less so.",
+  "ask_next": "Which large banks show CRE, card and data-centre lending exposure in their latest 10-Q, and are reserves building?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-macro-4",
+  "agent": "macro",
+  "signal": "PCE inflation (3.3% core) now runs well above CPI (core 2.6%), and the Fed ties price pressure to AI-buildout demand for tech goods.",
+  "evidence": [
+   {
+    "fact": "Core PCE +3.3% y/y, headline 3.8% y/y in Oct",
+    "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Core CPI +2.6% y/y in Sep",
+    "source": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+    "as_of": "2026-10-14"
+   },
+   {
+    "fact": "Minutes: many participants say AI-buildout demand strains supply and raises tech goods prices; unusual CPI-PCE discrepancy",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "semiconductors",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "software",
+    "link": "competition",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Suppliers of AI hardware have pricing power while buildout continues; Fed says a slowdown in AI spending would ease inflation, a risk for the same suppliers.",
+  "ask_next": "Do chip and equipment makers show rising average selling prices and backlog, and how exposed are they to a funding pullback?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "low"
+ },
+ {
+  "lead_id": "L-20261126-macro-5",
+  "agent": "macro",
+  "signal": "Energy remains the loudest CPI item: gasoline +37% y/y, fuel oil +74% y/y (Sep), and ISM prices indexes above 70.",
+  "evidence": [
+   {
+    "fact": "Gasoline +37.4% y/y in Oct; energy +0.7% m/m after +5.2% in Sep",
+    "source": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "as_of": "2026-11-10"
+   },
+   {
+    "fact": "Fuel oil +74.2% y/y in Sep",
+    "source": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+    "as_of": "2026-10-14"
+   },
+   {
+    "fact": "ISM prices: manufacturing 75.2, services 73.0",
+    "source": "https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/october/",
+    "as_of": "2026-11-02"
+   },
+   {
+    "fact": "Minutes: refined fuel supply constraints; diesel costs straining agriculture",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "airlines",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "trucking",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "oil-gas",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Fuel buyers pay far more; whether they pass it on decides who is squeezed. Producers and refiners gain.",
+  "ask_next": "Which airlines and truckers show fuel cost pass-through (fares, surcharges) versus margin loss in their latest filings?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-macro-6",
+  "agent": "macro",
+  "signal": "Nominal spending is inflated by fuel prices while real consumer spending stalled in October.",
+  "evidence": [
+   {
+    "fact": "Retail sales +6.8% y/y nominal; gas stations +30.3% y/y; ex-gas only +0.1% m/m",
+    "source": "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    "as_of": "2026-11-17"
+   },
+   {
+    "fact": "Real PCE about 0.0% in Oct; saving rate 4.1%",
+    "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "payments",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "staples",
+    "link": "customer demand",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Card networks earn on nominal dollars, so inflation lifts volumes even if real spending is flat; household budgets for necessities are under strain.",
+  "ask_next": "Do network and processor volume growth figures in the latest filings track nominal sales, and is the mix shifting to debit or low-ticket?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-macro-7",
+  "agent": "macro",
+  "signal": "Long yields are falling while the Fed leans toward a December hike: market and Fed disagree.",
+  "evidence": [
+   {
+    "fact": "2y 4.80% to 4.61%, 10y 5.07% to 4.85% from Nov 18 to Nov 25; 3m bill 4.34% above funds ceiling 4.00%",
+    "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Minutes: a couple of participants would consider more than 25bp if inflation data are unfavorable",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+    "as_of": "2026-11-18"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "utilities",
+    "link": "financing",
+    "direction": "helps"
+   },
+   {
+    "industry": "homebuilders",
+    "link": "financing",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "If the yield drop holds, rate-sensitive, debt-heavy groups get relief; if the Fed hikes anyway it reverses.",
+  "ask_next": "What changed on Nov 19-20 to move yields (check Fed speeches, Treasury, EIA)? Does it persist after the Dec 4 jobs report?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "low"
+ }
+]
