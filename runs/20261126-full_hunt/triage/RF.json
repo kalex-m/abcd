@@ -1,0 +1,213 @@
+{
+ "ticker": "RF",
+ "name": "Regions Financial",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Regions Financial is a Birmingham-based bank holding company ($163B assets, 1,246 branches) that takes deposits and lends to consumers and businesses across the South, Midwest and Texas, and also sells wealth, treasury and capital-markets services. Money model explained in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Three segments (Consumer Bank, Corporate Bank, Wealth Management). Q3 revenue $1,973M: net interest income $1,298M (66%), fees $675M (34%): service charges $171M, wealth $146M, card $126M, capital markets $107M, mortgage $32M. Segment revenue split not extracted; deposit split by segment used instead.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Loans $99.8B: business 68% (C&I $52.4B, investor real estate $10.2B, owner-occupied CRE $5.4B), consumer 32% (home mortgage $19.4B, home equity $5.5B). Deposits $129.5B: consumer $81.0B, corporate $39.3B, wealth $7.4B. No single-customer concentration disclosed; investor real estate is 44% multifamily, 7% data centers, 6% office.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000073/rf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "All US, no FX exposure. 1,247 branches at year-end 2025: Florida 270, Tennessee 194, Alabama 184, Georgia 117, Mississippi 97, Texas 85, Louisiana 79. 10-K names concentration in the South, Midwest and Texas as a risk.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread bank: net interest margin 3.68% (Q3), NII $1,298M. Non-interest-bearing deposits $40.8B are 31% of deposits; total deposit cost 1.17% (1.39% a year earlier). Loans/deposits 77.1%. Fees 34% of revenue add a second stream. Not a stronghold like JPM: fee mix is mid-size.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibitx992.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 56.2% (adj. 55.8%); FY26 adjusted expense guided +1.5-3.5% against NII +2.5-4%, aiming for positive operating leverage. Guidance record: NCO guide 40-50bp 'toward the lower end', fee income guide 3-5% 'toward the lower end' (a trim). Bank: no inventory or working-capital cycle; branch network and technology build are the fixed-cost base.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Inputs are deposits ($129.5B; consumer $81.0B; corporate $39.3B; wholesale/brokered 'other' only $1.8B), wholesale funding (short-term borrowings $4.5B, long-term $6.0B, up from $0.75B and $4.1B at year-end 2025) and capital (CET1 10.8%). Suppliers are local households and firms: no concentrated supplier; one soft spot is a few large commercial clients moving balances off balance sheet (~$16B held in off-balance-sheet products). FHLB availability fell to $6.9B from $10.2B a year ago; total liquidity $64B, ~170% of uninsured deposits. Pass-through: management expects a terminal rising-rate deposit beta in the mid/high 30s%; interest-bearing deposit cost 1.70% (+1bp QoQ, -31bp YoY) vs peers +2-3bp QoQ. Asset side reprices: new fixed-rate asset yields ~100bp above maturing; but NII +200bp gradual adds only $67M because of hedges. Signal tags: fed_funds, 2y, real_spending, hy_spreads (industry map).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000073/rf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Low-cost sticky deposits: total deposit cost 1.17% and 31% non-interest-bearing; a net asset-swap hedge book ($18.9B net) mutes rate swings; record Treasury Management and capital-markets revenue. New: building a cloud deposit platform, bought Frazier Lanier (July 2026). Company says it has the best return on tangible equity in its peer group five years running (company claim, own peer set; not independently checked).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000027/rf-20260323.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Regional bank brand, #1 in regional-bank website satisfaction in 6 of 7 years (J.D. Power, company-cited), 1,246 branches, 2.75M mobile users. Would customers notice if gone: locally yes, nationally no. Marketing $29M a quarter, about 1.5% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: JPM, BAC, WFC, Truist, Truist, Fifth Third, Synovus, Hancock Whitney. Ending loans +3.9% YoY vs US bank loans +8.9% annualised in October (H.8, per industry map); total deposits -0.6% YoY. Consumer deposits +1.6% YoY. Looks like share loss on loans, but FDIC market-share data not pulled.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm ; runs/20261126-full_hunt/industries/banks.json (key_numbers)",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Guidance is modest: FY26 average loans and deposits up low single digits, NII +2.5-4%. Pipelines +19% YoY, commitments +6%; new commercial logos +34% YTD; Q4 NIM guided ~3.70%; AFS securities AOCI of $1.9B burns down to $1.2B by YE2028 (capital release). Fixed-rate asset repricing helps NII, but this is already in guidance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "Reported return on average tangible equity 21.3% (adj. 21.7%), but the denominator is cut by $3.2B of AOCI losses; my estimate excluding AOCI ~17.5% (annualised Q3 net income to common $2,444M / ~$13.95B); 2025 adjusted ROATCE ex-AOCI was 15.4% (proxy). CET1 10.8% vs 9.25-9.75% operating range. Buybacks: 19M shares for $555M YTD (avg ~$29), share count 885M to 850M in a year (-4%); dividend raised 13% to $0.30; payout 41.8%. Insiders: no open-market purchases in 2026; four small Form 4 sales (largest 36,000 shares at $28.78 on 2026-01-26). Pay: long-term awards are 64% of CEO target pay, tied to adjusted ROATCE ex-AOCI. CFO changed Mar 2026; CAO retires Jan 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibitx992.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000027/rf-20260323.htm",
+   "as_of": "2026-11-17"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Deposit-funded lending is essential and not being displaced; relevance risk is slow (stablecoins and fintech deposit competition, named in risk factors). Not gaining relevance either: deposits -0.6% YoY. Key-person: CEO Turner (Chairman, President, CEO); two senior officers changed in 2026 (new CFO from inside; CAO retiring).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "EY clean opinion; sole critical audit matter is the loan-loss allowance; no 8-K Item 4.01/4.02, no NT filing, no CORRESP/UPLOAD letters in the recent filing list; disclosure controls effective. Minor: recurring securities-repositioning losses ($15M Q3, $40M Q2), adj. vs GAAP EPS gap small ($0.73 vs $0.71), legal settlement costs raised professional fees $7M QoQ. Portfolios of interest: business offices ($773M, $134M non-performing) and trucking.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000019/rf-20251231.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000073/rf-20260930.htm",
+   "as_of": "2026-11-09"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Built to be neutral: gradual +200bp adds only $67M of NII over 12 months (about 1.3%), -100bp costs $52M. So a Fed hike helps little. Boom +: loan growth and fees. Overheat 0: hedged, deposits reprice at mid/high-30s beta. Stagflation -: credit and funding costs. Slowdown 0: credit loss risk (NCO 29bp now, 40-50bp FY guide), but falling long yields repair $3.2B AOCI.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000073/rf-20260930.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Basel III endgame expected to put AOCI into capital but cut risk weights: estimated pro-forma CET1 ~10% vs 9.25-9.75% range. No pending deal, docket or enforcement item found; legal contingencies are routine per 10-Q note 12.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000073/rf-20260930.htm",
+   "as_of": "2026-10-16"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $27.78 (2026-11-25) / tangible book $12.65 = 2.20x. Ex-AOCI tangible book $16.41: 1.69x. At 10% cost of equity and 3% growth, 1.69x (ex-AOCI) implies ROTCE ~14.8% (0% growth: 16.9%); 2.20x on AOCI-inclusive book implies 18.4%. Actual: ~17.5% ex-AOCI (my estimate), 21.3% reported. Cushion ~2.7 points, thin at 0% growth. P/E 10.9x trailing GAAP EPS $2.55 (9.8x annualised Q3 $0.71); dividend yield 4.3%. Own year-end 2025 P/TBV 1.91x ($26.32/$13.75), so it has re-rated up; 5-year range not extracted. Peers (sibling files): HBAN 1.57x, TFC 1.50x, WFC 1.82x, USB 2.00x (1.65x ex-AOCI), PNC 2.05x. RF is priced at the top of the regionals. 52-week range $24.72-$32.47.",
+   "source": "https://finance.yahoo.com/quote/RF ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibitx992.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and credit improving, but the price (2.20x tangible book, top of the regional peer group) already pays for a ~17-18% return on tangible equity and rate sensitivity is hedged to neutral, so there is no identifiable mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answer_to_lead_question": "Is the deposit franchise worth more in a hiking regime than the price says? No evidence of that. Deposit costs are low (total 1.17%, down 22bp YoY, interest-bearing +1bp QoQ vs peers +2-3bp) but management hedged to a neutral rate position: +200bp gradual adds only $67M of NII, and it expects a mid/high-30s% terminal beta, not a low one. The margin advantage already shows in NIM 3.68% and the price has re-rated from 1.91x to 2.20x tangible book since year-end 2025. Possible upside not yet a mistake: $3.2B AOCI losses accrete back over time (to $1.2B by YE2028) and Basel endgame lifts CET1 to ~10%, both disclosed by the company.",
+ "feedback": [
+  {
+   "fact": "Regions says rising interest rates in Q3 raised unrealized securities losses: AOCI loss widened to $3,197M from $1,922M; tangible book/share fell to $12.65 from $13.78 in one quarter.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibitx992.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms long yields rose through Q3 (consistent with 10y peak 5.07%); a Slowdown turn with falling long yields would reverse it"
+  },
+  {
+   "fact": "Management says client sentiment is constructive, consumer credit fundamentals are healthy, employment conditions supportive, and consumer spending patterns consistent with recent trends; commercial pipelines +19% YoY.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm",
+   "as_of": "2026-10-16",
+   "effect": "contradicts a near-term Slowdown in this bank's customer base through September; matches the hard-data Overheat read, not the credit-spread signal"
+  },
+  {
+   "fact": "4Q26 guidance (NII +1-2%, NIM ~3.70%) assumes a December Fed hike and stable long rates.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit993.htm",
+   "as_of": "2026-10-16",
+   "effect": "confirms a December hike is the base case in bank planning; hedges make the NII effect small"
+  },
+  {
+   "fact": "Total deposit cost 1.17% (1.18% Q2, 1.39% a year ago); interest-bearing 1.70% (+1bp QoQ).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibitx992.htm",
+   "as_of": "2026-09-30",
+   "effect": "deposit-cost drift is smaller than the +2-3bp at TFC, HBAN, KEY, COF in the industry map (definitions may differ); supports low-beta franchise, but it is already in the margin"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: auditor opinion, critical audit matter, business/branches, deposits by segment. Segment revenue table and risk-factor text not read in full.",
+  "10-Q": "Q3 2026 10-Q read selectively (rate-sensitivity table 19, portfolios of interest, investor real estate, buybacks, legal note). Other three quarters used via the 5-quarter trend in the Q3 financial supplement, not the filings.",
+  "earnings_release": "Q3 2026 EX-99.1 read.",
+  "presentation": "Q3 deck is EX-99.3 on EDGAR; text extracted, chart images not read, so some chart values (hedge book detail) come from text only.",
+  "ir_fact_sheet": "Quarterly financial supplement (EX-99.2) covered; separate ir.regions.com fact sheet not fetched.",
+  "def14a": "2026 proxy searched for pay mix, LTIP metric and pay-versus-performance table; ownership table and director holdings not read; insider trades checked directly through Form 4 XML (63 Form 4s filed in 2026).",
+  "red_flag_scan": "EDGAR submissions list scanned 2023-11 to 2026-11: no 8-K Items 4.01/4.02, no NT 10-K/10-Q, no CORRESP/UPLOAD; Item 5.02 on 2026-01-12 (CFO change) and 2026-08-11 (CAO retiring).",
+  "price": "yFinance last close 2026-11-25 $27.78; shares 848.8M. Own 5-year P/TBV not extracted (preferred and share count XBRL missing for earlier years); only year-end 2025 computed from the release. Peer multiples taken from sibling triage files, not recomputed.",
+  "deposit_beta": "No cumulative beta published for the cycle; only the forward 'terminal rising-rate beta mid/high 30s%'. I did not compute a historical beta.",
+  "peer_deposit_cost": "Industry map labels HBAN/TFC/KEY figures as cost of total deposits, which may mean interest-bearing; RF total 1.17% vs interest-bearing 1.70%. Direct peer ranking is unverified."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 27.78,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/RF"
+ },
+ "complete": true
+}
