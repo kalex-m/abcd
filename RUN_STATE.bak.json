@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T13:53:00+00:00",
+  "heartbeat": "2026-11-26T13:53:31+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -385,10 +385,10 @@
         "industry": "banks"
       },
       "output": "runs/20261126-full_hunt/triage/COF.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T13:50:41+00:00"
+      "updated": "2026-11-26T13:53:31+00:00"
     },
     {
       "id": "w4-SCHW",
@@ -861,6 +861,7 @@
     "Step 2: regime=overheat (low-medium) with slowdown transition risk; awaiting industry choice",
     "Industries chosen by Alex: railroads, banks, payments",
     "Lead corrections from mappers: regionals were down 4-11% over 3m, not up (divergence-6); BAC NI fell on a $1.2B settlement; FIS fall has a filed cause (Nov 4 guide cut); Fiserv ticker is FISV; BNY ticker is BNY",
-    "Correction (CNI triage): CN will not oppose UP-NS after a 2026-07-22 settlement; CN Teamsters and Steelworkers contracts expire 2026-12-31"
+    "Correction (CNI triage): CN will not oppose UP-NS after a 2026-07-22 settlement; CN Teamsters and Steelworkers contracts expire 2026-12-31",
+    "Borderline for main-thread review after Wave 4: SCHW (A, mistake identified, P/E at 5-yr low but P/TBV shows no cushion; P/TBV is a weak lens for a brokerage with TDA goodwill; earnings partly cyclical). FIS (B, price implies decline, but organic slowdown unexplained)."
   ]
 }

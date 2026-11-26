@@ -1,0 +1,199 @@
+{
+ "ticker": "COF",
+ "name": "Capital One Financial",
+ "industry": "banks",
+ "company_type": "Cyclical",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Lends mostly through credit cards (74% of Q3 net revenue), plus auto loans and bank deposits; since May 2025 it also owns the Discover, PULSE and Diners Club payment networks.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 net revenue $16.3B: Credit Card 74%, Consumer Banking 20%, Commercial Banking 6%. Net interest income $12.9B (79% of revenue), non-interest income $3.5B. Network volume $190.9B in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Mostly US consumers and small business: $276.4B card loans, $94.0B consumer banking (auto $92.9B), $92.1B commercial. No single-customer concentration disclosed; the risk is large merchants on Discover/PULSE that could demand lower fees (10-K risk factor).",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Overwhelmingly US; UK (Capital One Europe plc) and a Canadian branch run card businesses, and network services are offered globally. Revenue by country and currency exposure not broken out in the pages read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread lender: earns interest on card and auto loans, pays little on deposits (2.94% on interest-bearing). NIM 8.41% (+40bp QoQ). 79% of revenue is net interest income, 21% fees and interchange. Plus network fees as owner of Discover.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Efficiency ratio 54.2% (adjusted 48.8%); marketing $1.6B in Q3 (about 10% of revenue). Credit losses are the big variable cost: NCOs $3.1B (2.73% rate). Integration spend $338M Discover + $47M Brex in Q3 ($2.4B cumulative Discover). No synergy target or delivery figure found in the 10-K, 10-Q or earnings release.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs are money and rails, not goods. Deposits $480.7B (signal tags fed_funds, 2y: rate +3bp QoQ to 2.94%); wholesale funding and securitisation (senior notes $36.3B, borrowings $49.8B; tag hy_spreads, HY OAS 3.72% widening); regulatory capital (CET1 13.8% vs 9.0% minimum; tag regulation); merchant acceptance for Discover/PULSE (single point of failure; 10-K names Reg II interchange cap as the threat to network synergies). Pass-through: card pricing reprices with rates and NIM rose 40bp, so cost increases are largely passed on; deposit beta not published. Technology vendors: nothing found in pages read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm ; https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale in card (domestic card loans $260B), data-driven underwriting, direct-bank deposits, and now its own network: Global Payment Network volume $190.9B in Q3 (+25% YoY). Different now: legacy Capital One debit cards reissued onto the network (10-K: substantially complete), plus Brex business cards ($4.5B deal).",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Household name in cards and auto loans; marketing $4.75B in 9M 2026 = 10.0% of revenue. Customers would notice if it vanished, but cards are easy to switch; pricing power shows in 17.75% card revenue margin.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals: JPM/Chase, Citi, AXP, SYF, Visa, Mastercard. Q3 purchase volume $254.7B (+11% YoY) and loans +4% YoY; peer share data not compared in detail. Quarter-on-quarter purchase volume was flat ($253.8B to $254.7B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Loans $462.5B (+4% YoY, +1% QoQ). Levers: network volume (+25% YoY), debit migration, Brex, auto +11% YTD. Network synergy value is not quantified in filings read, and the 10-K says a Reg II cap on three-party debit would remove most of it.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "CET1 13.8% (vs 9.0% required; 14.4% a year ago). Bought back $2.6B in Q3 at $209.63 average ($7.9B in 9M; $6.2B left on $16B plan), about 15% above today's $182.52; shares 601.5M vs 635.7M. TBV/share $102.72, down 2% YoY as AOCI loss widened to $10.0B. Founder-CEO Fairbank. Pay design and insider ownership table in 2026 proxy not read in detail.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000119312526124131/d701179ddef14a.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Not losing relevance: purchase volume +11%, network volume +25%. Risks: credit cycle, Reg II/interchange rules, Discover merchant acceptance, key-person (Fairbank, founder). 9M GAAP ROTCE 17.0%; Q4 2025 was 9.7% (Discover charges), showing the swing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "No 4.01/4.02/NT filings and no material weakness (EY clean ICFR opinion FY2025). But: inherited CFPB order (to Dec 2030) and Fed order (Apr 2025) from Discover card misclassification, SEC investigation of that matter, shareholder suit, savings-account class action and NY AG suit. Adjusted EPS $6.69 vs GAAP $5.61 (19% gap, mostly deal amortisation $483M and integration $385M pre-tax).",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: loan growth, low losses. Overheat 0: NIM up and credit benign but deposit costs rising (+3bp QoQ) with Fed leaning to hike. Stagflation -: squeezed borrowers. Slowdown -: card losses and reserve builds; HY OAS 3.72% (+105bp since August) while reserve coverage fell to 4.92% from 5.21%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000160/ex991october2026creditmetr.htm",
+   "as_of": "2026-10-31"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Inherited consent orders (CFPB, Fed) bind COF; interchange antitrust settlement final hearing was set for Nov 16 2026 (outcome not checked); Reg II debit cap is the key network risk. The brief says the Eighth Circuit vacated the cap on Oct 26; I did not verify that in a primary source.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000152/cof-20260930.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000024/cof-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $182.52 (2026-11-25), TBV $102.72: P/TBV 1.78x. At 10% cost of equity and 3% growth that implies ROTCE 15.5% (0% growth: 17.8%). Actual ROTCE: Q3 21.1%, 9M 17.0% GAAP, FY2025 adjusted 18.5%; but Q1 2026 12.2%, Q4 2025 9.7%. Cushion is thin on GAAP, modest on adjusted. P/E 11.2x TTM GAAP EPS $16.35 (8.8x TTM adjusted $20.78). Own year-end P/TBV approx 1.0-2.2x (2025 2.21x exact; earlier years estimated from XBRL). Peers: JPM 2.81x (ROTCE 20%), SYF 1.61x (ROTCE 25.2%). Year range $174.24-259.64.",
+   "source": "https://finance.yahoo.com/quote/COF ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm ; https://www.sec.gov/Archives/edgar/data/927628/000119312526124131/d701179ddef14a.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B but the cushion is thin (P/TBV 1.78x implies 15.5% ROTCE vs 17.0% 9M GAAP, which includes a $225M reserve release) and the 'network value' mistake is unproven: no synergy target or network revenue figure is disclosed in the filings read, and the Reg II ruling is unverified.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Domestic card 30+ day delinquency 3.87% in Oct 2026 (Oct 2025 3.99% per industry file); Q3 total 30+ delinquency 3.41% vs 3.50% a year earlier; Q3 NCO rate 2.73% vs 3.16%. Q3 delinquency rose 27bp QoQ (seasonal). Allowance coverage fell to 4.92% from 5.21% a year ago with a $225M release.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000160/ex991october2026creditmetr.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+   "as_of": "2026-10-31",
+   "effect": "Credit is benign in the data, contradicting the Slowdown pricing in markets; supports late-Overheat hard-data read, but reserve release plus HY OAS 3.72% leaves less buffer if the turn comes."
+  },
+  {
+   "fact": "Interest-bearing deposit rate 2.94% (+3bp QoQ); NIM 8.41% (+40bp); Q3 purchase volume $254.7B, flat QoQ and +11% YoY.",
+   "source": "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex992q32026earningsrelease.htm",
+   "as_of": "2026-09-30",
+   "effect": "Confirms rising deposit costs but strong pricing; spending flat QoQ is consistent with flat real consumer spending in October."
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: auditor and ICFR report, risk factors on network synergies and Reg II, business description. Segment and geography detail not read in full.",
+  "10-Q": "Q3 2026 10-Q read selectively (MD&A highlights, segments, repurchases, legal note, Brex note). Q2, Q1 and Q4 2025 data taken from the 5-quarter tables in the Q3 financial supplement, not from the filings.",
+  "earnings_release": "Q3 2026 release (EX-99.1) and financial supplement (EX-99.2) read; adjusted EPS reconciliation included.",
+  "presentation": "Earnings slide deck not found among the Oct 20 8-K exhibits I opened; the Nov 10 8-K (Item 7.01) exhibit was not located. Discover synergy targets and debit-migration progress beyond the 10-K statement were therefore not found.",
+  "ir_fact_sheet": "Financial supplement is EX-99.2 of the Q3 8-K (covered); separate IR-site fact sheet not fetched.",
+  "def14a": "2026 proxy read only for FY2025 ROTCE and adjusted metrics and ownership section; pay design and insider ownership table not studied. Form 4 trades not checked.",
+  "red_flag_scan": "EDGAR 8-K list Nov 2025 to Nov 2026 shows no Items 4.01, 4.02 or NT filings; 5.02 filings Nov 2025, Feb 2026, Apr 2026 not read. CORRESP/UPLOAD letters exist in 2024-Jan 2025; content not read, none found since.",
+  "price": "yFinance last close 2026-11-25 $182.52. SYF and JPM TBV and ROTCE from their Q3 releases; AXP TBV not extracted. Own historical P/TBV approximated from XBRL equity minus goodwill, intangibles and preferred for 2020-24.",
+  "unverified_context": "Eighth Circuit ruling on Oct 26 and Berkshire stake cut come from the brief, not from a primary source I read."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 182.52,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/COF"
+ },
+ "complete": true
+}
