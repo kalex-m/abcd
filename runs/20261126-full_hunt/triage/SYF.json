@@ -1,0 +1,199 @@
+{
+ "ticker": "SYF",
+ "name": "Synchrony Financial",
+ "industry": "banks",
+ "company_type": "Cyclical",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Consumer lender that issues private-label and co-brand credit cards and installment loans for retailers, digital platforms and health providers (CareCredit), funded mostly by online deposits (83% of $100.0B funding); makes money on interest and fees, shares part with partners.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Loan receivables $103.3B by platform: Home & Auto $30.9B, Digital $29.1B, Diversified & Value $21.2B, Health & Wellness $15.6B, Lifestyle $6.6B; credit cards plus Pay Later installment products; Q3 purchase volume $49.7B (+8%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "68.3M average active accounts (flat), consumers across super-prime to non-prime. Partner concentration: top 5 programs (Amazon, Lowe's, PayPal, Sam's Club, TJX) = 54% of interest and fees and 52% of receivables; Lowe's, PayPal and Sam's Club each >10%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Substantially all revenue is in the US, so no currency risk but full exposure to the US consumer and US rules.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread/balance sheet: net interest margin 15.50% (-12bp), net interest income $4.8B in Q3 (+2%); retailer share arrangements (RSA) of $1.1B paid to partners (4.3% of average loans, target band 4.0-4.5%) rise and fall with program profit. Balances revolve monthly; late fees $558M vs $592M a year ago.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 35.9% vs 32.6% (other expense +10% on operational losses, technology, marketing); mostly variable costs plus provision. Loan book funded by deposits so no working-capital float issue. FY26 guide: EPS ~$9.50, net charge-offs under 5.5%, mid-single-digit loan growth; guidance raised/held in Q3; 9M EPS $7.52 vs $7.22.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-20"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs are funds, partners and technology. Deposits $83.0B (83% of funding, 3.8% cost 9M), securitisation 9%, unsecured notes 8%; Fiserv is the single provider of core deposit platform and processing through Dec 2030 (single point of failure); partners supply the customers. Signal tags: fed_funds/2y (deposit cost: CDs avg 1 year maturity, so funding reprices slower than loans), hy_spreads (securitisation and unsecured cost; Q3 interest-bearing liability cost already -19bp on lower benchmark rates), real_spending (purchase volume). Pass-through: card APRs are mostly variable and RSA absorbs part of losses; late-fee income cannot be raised (CFPB rule vacated Apr 2025 but pricing politics remain).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Embedded point-of-sale distribution and multi-year partner contracts (five largest relationships over 14 years; Lowe's 46 years; Amazon extended 2025), data on 68M accounts, RSA aligns partner incentives. Doing differently now: Walmart/OnePay exclusive card launched Sep 2025; co-brand cards $37.5B (+22%); Venmo, CareCredit Pay Later, Stripe and OpenAI agentic-commerce tie-ins.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-20"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Cardholders see Lowe's, Amazon, PayPal, CareCredit, not Synchrony, so brand is borrowed; usage is frequent (purchase volume $200B annualised, payment rate 16.9%). People would notice the partners' cards vanishing, not the issuer. Marketing is a rising cost line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Capital One, Citi, Bread Financial, Barclays, JPM. Wins: Walmart/OnePay, Lowe's commercial portfolio ($0.7B bought Apr 2026), 40+ partner adds/renewals in 9M. Loan growth 3% y/y with Lifestyle -1%; Capital One bought Discover so network competition is rising (not verified from a primary source in this read).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Mid-single-digit receivables growth guided; purchase volume +8% on all five platforms, co-brand +23%; CareCredit/Pay Later and Walmart ramp are the new legs. Payment rate up 60bp y/y slows balance growth; active accounts flat.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm",
+   "as_of": "2026-10-20"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 25.2% Q3 (24.3% 9M; 25.7% a year ago), ROA 2.9%; CET1 12.9% vs 14.3% as buybacks ($2.9B in 9M, $4.6B left) outran retention; dividend raised to $0.34; share count 388M (2024) to 347M (2025) to ~311M. Pay: annual bonus 60% on PPNR less charge-offs, LTI on EPS growth and ROE with TSR modifier. Insiders hold about 1.2M shares (about 0.4%). Price paid for buybacks not computed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000017/synchronyfinancialproxy202.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Not losing relevance (spend record, Gen Z/Millennial growth) but exposed to partner loss or renegotiation (3 partners >10% of fees), BNPL/agentic commerce changing where credit is offered, and price-cap politics; key-person risk low. 2023 ROTCE (~18% approx.) shows earnings fall but stay profitable in a bad credit year.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "No 8-K Items 4.01 or 4.02, no NT filings in 8-K list Nov 2023 to Nov 2026; KPMG clean opinion on statements and ICFR, no material weakness; only critical audit matter is the allowance for credit losses. Non-GAAP limited to TBV/ROTCE.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +; overheat 0 (funding costs and inflation squeeze lower-income users, but yields and spend hold); stagflation -; slowdown - (charge-offs and reserve builds). Rate sensitivity: deposit repricing lags; CDs average ~1 year. Dollar: none. Input cost: funding spread.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "CFPB late-fee rule vacated Apr 2025, but company still cites constraints on credit pricing as a risk; $100B+ asset rules apply; Mar 2026 capital proposals would cut retail risk weights 10% but add AOCI to CET1; SCB 2.5% fixed until 2028 test. No pending deal or docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000043/syf-20260930.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "Price $68.73 (2026-11-25) vs TBV $42.79 = P/TBV 1.61x. At 10% cost of equity and 3% growth that implies ROTCE 14.2% (0% growth: 16.1%) vs actual 25.2% Q3, 24.3% 9M. P/E 7.2x on TTM EPS $9.58; 7.2x on FY26 guide ~$9.50. Own year-end P/TBV approx 1.2x (2022-23) to 2.0x (2025), 1.9x (2021) (estimates from XBRL equity less preferred and goodwill). Peers: COF 1.78x, JPM 2.81x. Shares are -22% from the 52-week high $88.77.",
+   "source": "https://finance.yahoo.com/quote/SYF ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000006/syf-20251231.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "survived",
+ "status_reason": "Quality B; price implies 14% ROTCE against 24-25% earned (and about 18% in 2023's bad credit year); credit is improving y/y; close call because EPS fell 6% in Q3 and a Slowdown would hit charge-offs.",
+ "the_mistake": "The market prices Synchrony as a late-cycle card casualty (shares -22% from the high, P/TBV 1.61x) while delinquency (4.4% Oct vs 4.5%) and charge-offs (4.4% Oct vs 5.0%) are better than a year ago, reserves are 10.0% of loans, and partners share losses through the RSA. The Q3 EPS dip (-6%) is a reserve build against a prior-year release, not worse credit.",
+ "what_makes_market_notice": "Monthly credit 8-K for November (~Dec 10, 2026, date inferred from the Nov 10 pattern), Q4 results and 2027 outlook (late Jan 2027, inferred from Jan 27, 2026 pattern), and continued buybacks ($4.6B authorised, about 21% of market cap).",
+ "feedback": [
+  {
+   "fact": "Oct 2026 30+ delinquency 4.4% vs 4.5% a year ago; net charge-off rate 4.4% vs 5.0%; Q3 charge-offs 4.79% vs 5.16%; allowance 10.01% of loans vs 10.35%; management says delinquency follows normal seasonality.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000045/creditstatsfinancialtables.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm",
+   "as_of": "2026-10-31",
+   "effect": "Confirms the hard-data read that consumer credit is benign; contradicts the Slowdown pricing in HY spreads (3.72%). Low-income stress not visible yet."
+  },
+  {
+   "fact": "Q3 purchase volume $49.7B (+8%), all five platforms up; out-of-partner spend up double digits in electronics, entertainment, gas stations, discount stores; Home & Auto and Diversified & Value cite higher gas prices as a lift; payment rate 16.9% (+60bp).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm",
+   "as_of": "2026-09-30",
+   "effect": "Nominal spend strong while real consumer spending was flat in October: part of the lift is inflation and fuel prices (consistent with Overheat); higher payment rate slows balance growth."
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K searched by keyword (partners, risk factors, auditor, CAM, ICFR); not read in full. Geography and top-customer text from business section.",
+  "10-Q": "Only the Q3 2026 10-Q read (partner developments, funding, capital, EPS). Q1, Q2 and Q4 2025 numbers came from the 5-quarter tables in the Q3 financial supplement, not the filings. Debt maturity ladder table and legal-proceedings note not read.",
+  "earnings_release": "Q3 2026 EX-99.1 and financial tables (EX-99.2) read; Nov 10 monthly credit 8-K read.",
+  "presentation": "Q3 2026 slide deck (EX-99.3) read as text; charts as images not viewed; no call transcript read (deep dive).",
+  "ir_fact_sheet": "Financial data supplement used as the fact sheet; separate IR-site fact sheet not fetched.",
+  "def14a": "2026 proxy: pay plan design and ownership group total read by keyword; Form 4 trades not checked.",
+  "red_flag_scan": "8-K item list Nov 2023 to Nov 2026 checked (no 4.01/4.02/NT; 5.02 filings Jun 2026 and Sep 2025 not opened). No CORRESP/UPLOAD letters returned by the EDGAR helper for any period; helper may not index them, so treat as nothing_found not proof.",
+  "price": "yFinance last close 2026-11-25 $68.73 (52-week range $63.08-$88.77). IBKR not used at triage. Own P/TBV history is approximated from XBRL (intangibles ignored before 2025). COF and JPM P/TBV taken from the COF triage file (COF 1.78x, JPM 2.81x) not independently recomputed.",
+  "unverified_context": "Capital One-Discover effect on competition not verified from a primary source. Late-fee rule status taken from SYF's own filings (vacated April 2025). Dates of Dec and Jan catalysts are inferred from prior filing pattern."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 68.73,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/SYF"
+ },
+ "complete": true
+}
