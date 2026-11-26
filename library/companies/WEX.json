@@ -1,0 +1,199 @@
+{
+ "ticker": "WEX",
+ "name": "WEX Inc.",
+ "industry": "payments",
+ "company_type": "Cyclical",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "WEX sells payment and software tools to businesses: fuel cards for fleets, health-benefit accounts (HSAs and similar), and B2B virtual-card payments. It earns a cut of spending, late fees, interest on cash it holds, and software fees.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "FY2025 revenue $2,660.8M: Mobility (fleet cards) $1,386.0M (52%), Benefits $797.4M (30%), Corporate Payments $477.4M (18%). FY2025 segment adjusted operating income: Mobility $541.1M, Benefits $341.6M, Corporate Payments $213.3M (Benefits is 31% of the $1,095.9M total).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Mobility serves more than 600,000 customers (many small fleets; credit risk is real). Corporate Payments customers include large online travel agencies (OTAs), but the 10-K gives no top-customer percentage and says one legacy non-travel customer cut volume in 2025 (purchase volume -10%). No customer is disclosed above 10% of revenue (nothing found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "2025 pre-tax income: US $332.8M, foreign $87.4M (foreign was $143.0M in 2023, so the foreign share is shrinking). Operations in Europe, Australia and Singapore per tax note. Q3 2026 FX added only $0.8M to revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Mobility: percent of fuel spend (net processing rate 1.14% in Q3 vs 1.33%) plus late fees ($95.0M in Q3, +41%) and finance fees. Benefits: SaaS accounts (22.1M) plus HSA custodial cash earning 4.97% yield on $5.3B average. Corporate Payments: interchange on virtual cards (net rate 0.46%). Explainable in two sentences, but about half of revenue moves with fuel price and rates.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Adjusted operating margin 42.6% in Q3 (39.5% a year ago); fuel prices added about 3 points to Mobility margin because costs do not move with fuel. Capex $140.6M in 2025 (5.3% of revenue). Receivables are paid out before customers pay (accounts receivable $5.34B vs $3.36B at year-end), funded by deposits. Guidance: FY2026 revenue guide raised from $2.86-2.90B to $2.97-2.99B and adjusted EPS from $19.68-20.08 to $21.28-21.48, mostly on fuel.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000043/wex-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: (a) the fuel itself (price set at the pump; WEX does not hedge: 'we currently do not utilize fuel hedging derivatives'), (b) merchant networks (BP long-term US commercial card agreement; Visa/Mastercard rules for open-loop), (c) funding: HSA deposits ($6.2B short-term deposits), FHLB advances $1.425B at 4.03%, credit agreement $2.99B plus $550M 6.5% notes. Chokepoints: WEX Bank (Utah industrial bank charter) funds receivables; Visa/Mastercard. Pass-through: fuel-price rises raise revenue (Q3 +$57.3M) but the net processing rate fell 1.33% to 1.14%, and operating interest rises with fuel price; credit costs are only partly passed on via late fees. Signal tags: oil, inflation, rates, hy_spreads, dollar, travel_airlines. Oil down 18% in a month works against it; the Q4 guide assumes $4.81/gal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000043/wex-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Closed-loop fleet network with its own bank (low-cost deposit funding), an HSA platform holding about $5.4B in custodial cash and 22.1M SaaS accounts, and deep data on fleet fuel buying. Doing differently now: signed BP for its US commercial card book, 10-4 app for independent truckers, pushing embedded payments beyond travel.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "A B2B brand known to fleet managers and benefits administrators, not households. People would notice a loss only through employers or fleets. Pricing power shows in late-fee and finance-fee rates, not in a consumer brand.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Closest rival Corpay: Q3 organic revenue +11% and adjusted EPS +32%, versus WEX Mobility payment-processing transactions +1.7% (revenue +20.6% is fuel-driven). WEX Corporate Payments adjusted operating income fell from $277.2M (2023) to $213.3M (2025). Share looks flat to slightly losing outside fuel price.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "HSA custodial cash grew 11% (avg $5.3B) but SaaS accounts only +2.8%. Corporate Payments Q3 purchase volume +6.3% after -10% in 2025; embedded payments beyond travel is early. Benefits is the scaling piece (segment adjusted operating income $241.8M in 2023 to $341.6M in 2025), partly priced in via a low multiple.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "Adjusted free cash flow $510.6M (2023), $562.0M (2024), $638.0M (2025), $502.8M in nine months of 2026; stock-based pay is $103.5M a year on top. Leverage 2.7x (3.1x in March). Bought back $799.8M in 2025 and about $275M since July; diluted shares 36.2M to 34.6M. Equity fell from $1.65B (2022) to $1.15B. CEO owns about 0.9% of shares (2025 proxy). Pay: 60% adjusted EPS, 40% adjusted revenue, plus stock-price units (adjusted EPS excludes amortization and stock pay).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910825000073/wex-20250417.htm",
+   "as_of": "2025-04-17"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Fuel is shrinking long-term as vehicles electrify (risk factor), but WEX is building EV charging payments and Benefits is durable. Corporate Payments lost a legacy customer and its profit is falling. Not losing relevance (Zoom test passed); cyclical on fuel and rates.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filing since 2019, no CORRESP/UPLOAD letters found in the filing index, internal control over financial reporting effective and audited by Deloitte (one critical audit matter: revenue). Q3 10-Q: no material legal proceedings. Caution: 2025 adjusted EPS $16.10 vs GAAP $8.47 (adds back $5.34 amortization and $2.88 stock pay). Activist fight in 2026 was about governance, not accounting.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000010/wex-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +, Overheat + (fuel +43% y/y at $4.85 a gallon, HSA yield 4.97%), Stagflation 0 (fuel and rates help, credit losses and travel hurt), Slowdown - (lower fuel, lower rates, softer travel and trucking all hit at once). The three streams are not offsetting: they all follow nominal growth. Mobility credit losses guided to 17-22 bp in Q4 vs 11.7 bp in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "WEX Bank is a bank-regulated Utah industrial bank; HSA yield passes through partner contracts with caps. Q3 10-Q reports no material legal proceedings and none contemplated by governments. No pending deal or regulatory docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000043/wex-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "At $184.32 (market cap $6.06B; corporate net debt about $2.95B, EV about $9.0B): 8.6x 2026 adjusted EPS guide midpoint ($21.38), 11.4x 2025 adjusted EPS, about 7.5x my EBITDA estimate (leverage 2.7x implies about $1.1-1.3B). Reverse DCF on equity (10% rate, 3% terminal, 10 years): on 2025 owner FCF of $534M (adjusted FCF $638M less stock pay $104M, fuel at $3.32) the price implies about -0.6% a year; on a 2026 base of about $590M, about -2% a year. Own last-two-year adjusted FCF growth about 12% a year (2023-25). Own multiple: 13.1x (2023), 11.5x (2024), 9.3x (2025) at year-end prices. Peers: Corpay 16.2x 2026 adjusted EPS guide ($28.00 midpoint); FIS 4.7x; Global Payments 7.0x. Cushion holds even if the fuel windfall fades; 2026 earnings are not clean.",
+   "source": "https://finance.yahoo.com/quote/WEX",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "survived",
+ "status_reason": "Quality B and the price implies flat-to-falling owner cash flow for ten years even on fuel-normal 2025 numbers; fuel and rate windfall plus a falling Slowdown risk keep attractiveness at medium.",
+ "the_mistake": "The market treats WEX as a levered fuel-price bet and prices all of it at 8.6x. But Benefits (31% of 2025 segment profit, growing about 11% a year) and buybacks (diluted shares down 4% in a year) do not depend on fuel, and the price implies flat-to-falling owner cash flow even at 2025 fuel prices ($3.32 a gallon).",
+ "what_makes_market_notice": "Q4 2026 results and first 2027 guidance (about early February 2027, inferred from the 2026-02-04 release date) showing growth ex-fuel, continued buybacks, leverage under 2.7x, and a board now with an Impactive designee and a separate chair. Falling fuel prices before that could hurt first.",
+ "feedback": [
+  {
+   "note": "Confirms the Overheat read on fuel: average US fuel price $4.85 per gallon in Q3 vs $3.38 (+43%), adding $57.3M to revenue. But the Q4 guide assumes $4.81 from the Oct 19 futures curve; Brent has since fallen about 18%, so the fuel tailwind is the first thing to unwind if the market read (Slowdown) is right.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "note": "Mixed on travel and trucking: Corporate Payments purchase volume +6.3% y/y in Q3 and no travel weakness reported, but Mobility payment-processing transactions only +1.7%. Lower HSA yield (4.97% vs 5.13%) despite a Fed hiking bias shows rate benefit is lagged, not immediate.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "note": "Activism: Impactive Capital (7.5% holder in March 2025) ran a proxy fight (DEFC14A April 2026) and settled on May 3, 2026: three new directors, one Impactive designee, chair and CEO roles to be split, standstill until about 30 days before the 2027 nomination deadline.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1309108/000121390026051676/ea0288872-8k_wex.htm",
+   "as_of": "2026-05-04"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively (debt note, segment MD&A, legal); Q1 and Q2 10-Qs not read line by line, numbers via the Q3 release and XBRL annual facts.",
+  "presentation": "Q3 earnings supplemental (EX-99.2 or IR site) not fetched this pass; guidance assumptions taken from the EX-99.1 release.",
+  "ir_fact_sheet": "WEX IR fact sheet not fetched this pass (IR site not queried); left for deep dive.",
+  "def14a": "Latest definitive proxy in the EDGAR index is the 2025 DEF 14A (2025-04-17). The 2026 contested-proxy documents (DEFC14A, DEFA14A) exist; pay and ownership read from the 2025 proxy, and the May 2026 cooperation 8-K.",
+  "red_flag_scan": "EDGAR submissions index for 8-K items, NT, CORRESP/UPLOAD since 2023: no 4.01, 4.02, NT 10-K/Q (last 2019) or comment letters found. 8-K 5.02 on 2026-01-12 was two director retirements, no disagreement.",
+  "price": "yFinance last close 2026-11-25 (US market closed 2026-11-26). IBKR not used at triage."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 184.32,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/WEX"
+ },
+ "complete": true
+}
