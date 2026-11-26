@@ -441,10 +441,10 @@
         "industry": "banks"
       },
       "output": "runs/20261126-full_hunt/triage/PNC.json",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T13:53:00+00:00"
     },
     {
       "id": "w4-JPM",
