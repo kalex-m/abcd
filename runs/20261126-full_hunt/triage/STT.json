@@ -1,0 +1,213 @@
+{
+ "ticker": "STT",
+ "name": "State Street Corporation",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Custody bank: holds and administers $59.2T of client assets (AUC/A) and runs $6.3T of investment funds (SSGA, SPDR ETFs); adds FX, securities lending and Charles River front-office software.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "3Q26 revenue $4,004M: servicing fees $1,492M, management fees $797M, FX trading $427M, securities finance $151M, software $175M, other fees $98M, net interest income $864M; fees are 78% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Asset owners, asset managers, insurers and pensions; 3Q26 wins $429B AUC/A mostly asset owners and managers. Some clients are competitors; 10-K gives no top-client percentage (nothing disclosed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Non-US activities were $5,936M of $13,944M 2025 revenue (42.6%) and $95.7B of assets; dollar up 4.8% in 3 months hits translated fees, though NII is asset-sensitive in other currencies (+$285M per +100bp).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll road on assets: servicing 10bp-ish of AUC/A (3Q26 annualised $1,492M x4 / $59.2T = 10.1bp vs 10.5bp a year ago) plus management fees (~50.6bp of AUM vs 48.8bp), plus spread on $271B of client deposits. Two-sentence model holds; revenue is market-linked, not contractual.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Operating leverage 531bp and pre-tax margin 34.6% (up 3.5 pts), expenses +8% vs revenue +13%; but half of costs are pay ($1,251M of $2,620M), capex $1,055M in 2025, and fees fall with markets while costs do not. Guidance raised in Oct (fees +13-14%, NII +15-16%, expenses +8-8.5%); outlook assumed equity markets flat from mid-Oct.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt3q26earningspresentat.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: skilled labour (48% of costs), technology and cloud vendors plus market-data and sub-custodian networks (supplier names and concentration not disclosed in the 10-K sections read), and client deposits as funding. Single point of failure: platform/operational outage, which the 10-K lists as a risk. Pass-through: fees are basis points on assets so inflation in costs is only recovered via repricing; the 10-K says pricing pressure is significant in custody and index management. Signal tags: equity levels and VIX (fees), fed_funds and 2y (NII +100bp = +$354M), dollar (translation, FX trading), wages (comp).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and switching costs: $59.2T custody book plus $2.98T AUC/A and $332M of servicing fees still to be installed; Charles River software ARR $442M (+8%), 3Q26 first Wealth Services mandate built on an existing Charles River client; SPDR ETF franchise (SPY inflows $68B ETF net in 3Q).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt3q26earningspresentat.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Not a household name; SPDR (SPY, gold ETFs) is known to investors, but nobody outside finance would notice the custody business vanish. Management fee rate ~50bp of AUM vs low-cost index rivals; no consumer marketing line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: BNY, JPMorgan, Northern Trust (custody); BlackRock, Vanguard (index funds). Servicing fee wins $68M in 3Q26; AUM +16% roughly tracks markets; Reported share data nothing found. Servicing fee rate slipped from 10.5bp to 10.1bp.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Install backlog $332M servicing fees; ARR +8%; Wealth Services entry; pending Santander CACEIS Latam purchase (subject to regulators); target ~$1B run-rate transformation benefit by 2029 (~$750M savings, ~$250M revenue). Software services revenue only +5% YoY, slower than ARR.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/stt3q26earningspresentat.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 25.1% (2025 about 18% on quoted averages) vs 10% cost of equity; CET1 11.0% (-0.3 pt YoY); $1.9B returned YTD (69% payout); common shares 288.7M to 272.8M in six quarters. Pay (DEF 14A) rewards three-year pre-tax margin and fee growth with ROE as a downward modifier. Insider ownership percentage not extracted. FCF not meaningful for a bank.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/exhibit992-3q26earningsrel.htm",
+   "as_of": "2026-10-14"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Custody is regulated, sticky and scale-driven; risks are fee compression in custody and index funds and being a service provider to competitors. Not losing relevance: AUC/A +15% YoY. Key-person risk modest (CEO O'Hanley; new Alpha president and COO named Sept 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filing, no CORRESP/UPLOAD in the filings list; auditor EY since 1972, one critical audit matter (servicing fee revenue), no material weakness. Soft flags: interim controller since Sept 2025 and a new CAO from Aug 2026; notable items in 2025 and 1Q26 (none in 3Q26).",
+   "source": "https://data.sec.gov/submissions/CIK0000093751.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: good (asset-sensitive NII, fees up with markets). Slowdown: fees fall with equities, NII falls (-100bp = -$345M), offset by FX volatility and deposit inflows. 3Q26 FX volumes +31% in volatility. Markets fell about 7% since quarter-end while FY outlook assumed flat markets: 4Q fee risk.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000600/stt-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Capital rules: CET1 11.0% with Basel/SCB set by the Fed; named in state AG antitrust litigation over coal/ESG; Santander CACEIS Latam purchase pending regulatory approvals. No dedicated docket pulled (deep dive item).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000124/stt-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $162.03 vs TBV/share $59.69 = 2.71x. At 10% cost of equity and 3% growth that implies lasting ROTCE of about 22% (20.3% at 4% growth) vs actual 25.1% in 3Q26 but about 18% for 2025, so cushion is thin and rests on a cycle-high ROTCE. P/E 13.2x on TTM EPS $12.25 vs year-end 2020-25 range 9.6x-13.4x (top of range). Peers: JPM 2.81x P/TBV and 13.3x P/E, BAC 1.67x, WFC 1.82x, GS 2.35x.",
+   "source": "https://finance.yahoo.com/quote/STT",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and clean books, but at 2.71x TBV and 13.2x earnings the price assumes about 22% lasting ROTCE against about 18% last year and 25% now, and no clear mistake exists.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "text": "Servicing, management fees and FX volumes at records (FX client volume +31%, AUC/A +15%) confirm the hard-data Overheat read through Sept 30; the FY outlook assumed equity markets flat from mid-October, so the ~7% fall since is not in guidance (4Q fee risk).",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000592/a3q26earningspressrelease.htm",
+   "as_of": "2026-10-14",
+   "effect": "confirms overheat in hard data; markets signal slowdown risk"
+  },
+  {
+   "text": "NII is asset-sensitive: +100bp parallel = +$354M, -100bp = -$345M over 12 months; average deposits $271B stable. A Fed hike helps, a slowdown with cuts hurts.",
+   "source": "https://www.sec.gov/Archives/edgar/data/93751/000009375126000600/stt-20260930.htm",
+   "as_of": "2026-09-30",
+   "effect": "neutral-to-positive in Overheat"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively (business, risk factors, audit report, notes 24-26); supplier names, top-client concentration and insider ownership percent not extracted.",
+  "10-Q": "3Q26 10-Q read for NII sensitivity; 1Q26 and 2Q26 numbers taken from the 3Q26 earnings addendum five-quarter tables and XBRL facts rather than the filings themselves.",
+  "ir_fact_sheet": "No separate fact sheet fetched; earnings addendum used instead.",
+  "red_flag_scan": "EDGAR submissions list scanned for 4.01, 4.02, NT 10-K/10-Q, CORRESP, UPLOAD, 5.02: only 5.02 items found (executive appointments); no full-text search of the legal note done.",
+  "price": "yFinance quote 2026-11-26 (last close 2026-11-25); P/E history uses dividend-adjusted closes, slightly understating old multiples. Peer multiples copied from sibling triage files (JPM, BAC, WFC, GS), not recomputed. 1-year-old EPS: year-end EPS from XBRL annual diluted EPS."
+ },
+ "valuation_detail": {
+  "tbv_per_share": 59.69,
+  "p_tbv": 2.71,
+  "implied_rotce_g3": 0.22,
+  "implied_rotce_g4": 0.203,
+  "rotce_3q26": 0.251,
+  "rotce_2025_approx": 0.179,
+  "fair_p_tbv_at_25_1": 3.16,
+  "fair_value_at_25_1": 188,
+  "fair_p_tbv_at_18": 2.14,
+  "fair_value_at_18": 128,
+  "ttm_eps": 12.25,
+  "pe_ttm": 13.2,
+  "pe_year_end_range_2020_2025": [
+   9.6,
+   13.4
+  ]
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 162.03,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/STT"
+ },
+ "complete": true
+}

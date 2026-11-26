@@ -1,0 +1,201 @@
+{
+ "ticker": "BNY",
+ "name": "BNY (The Bank of New York Mellon Corporation)",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Custody and clearing bank: keeps and services client assets, clears trades, moves payments, manages collateral, and runs Pershing and an asset manager. AUC/A (assets under custody and/or administration) $63.4T.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 revenue $5,676M: Securities Services $2,820M (asset servicing, issuer services), Market and Wealth Services $1,984M (wealth, payments, clearance and collateral), Investment and Wealth Management $857M. Fees 72% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Customers are banks, asset managers, corporates, issuers, broker-dealers and wealth clients; average deposits $311B. No single-customer concentration disclosed in the documents read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Non-US revenue 36% of total (Q3). About 25% of average deposits are non-dollar, about half of that in euros. A stronger dollar cut AUC/A and AUM growth.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 5,
+   "evidence": "Toll road: fees on assets held, trades cleared, payments moved. Fee revenue 72% of revenue; net interest income $1,423M (28%) from client deposits. Explainable in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Q3 revenue +12%, expense +8%, operating leverage 389bp year on year; pre-tax margin 38.5% (up 2.1 points yoy but down from 39.8% in Q2). Over 3/4 of expense growth is revenue-related. Guidance hit rate: nothing_found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex993_quarterlyupdatepre.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical input is client cash and collateral (tags: fed_funds, 2y, real_spending, dollar). Average deposits $311B, -1% QoQ, noninterest-bearing $53B (-3% QoQ); NIM 1.43% (-2bp QoQ) with deposit margin compression. Pass-through is partial: NII +15% yoy as securities reinvest higher, but lower deposits cut it 2% QoQ. 36% non-US revenue means dollar moves change fee translation. Tech and market-utility vendors not itemised in the documents read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and switching costs: $63.4T AUC/A, 1,670 depositary receipt programs, $15.4T debt serviced, 8.8M active clearing accounts. Doing differently: platform operating model, Wealth Solutions net new assets $48B (Q3) vs $3B a year ago.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex993_quarterlyupdatepre.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Business-to-business; the public rarely uses it directly. It would be missed by markets, not households.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Competes with other custody banks, clearing firms and technology providers (named generically in the 10-K). Share data nothing_found; growth above peers is only indirect: Issuer Services fees +43%, Asset Servicing +12% yoy.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000033/bk-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Clearance and collateral fees +17% yoy (average collateral $8.3T vs $7.3T); Issuer Services (Corporate Trust) +43%; average loans +19% to $86.8B. Stablecoin or tokenisation revenue: nothing_found (only GENIUS Act rules the firm is assessing, and digital asset custody listed as a service).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex993_quarterlyupdatepre.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 29.0% Q3 (29.9% YTD) vs about 10% cost of equity; 86% payout YTD; $937M buyback in Q3, new $10B authorisation (Apr 2026); diluted shares -4% yoy. Tier 1 leverage 5.7% (6.1% a year ago) and CET1 10.9% are thin. Pay: PSUs 70% adjusted ROTCE, 30% relative TSR. Insider ownership percent not found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000119312526092500/d52987ddef14a.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Embedded in market plumbing, rising relevance (Issuer Services, collateral). Risks: fee base follows market values (AUC 40% equity, 60% fixed income), deposits are rate-sensitive, key-person tie to CEO Robin Vince's retention award, AI adoption risk cited in the 10-Q.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filings, no material weakness found in 2022 to 2026 filing list. Non-GAAP gap small (adjusted EPS $2.37 vs $2.34). SEC comment letter on FY2022 10-K closed Oct 2023; 2024 letters are an S-3 matter (PDFs not read). Only 8-K 5.02 items are board appointments.",
+   "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1390777&type=8-K",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: fees follow asset values. Overheat +: NII +15% yoy with higher rates. Stagflation -: stocks and bonds both fall, so AUC and fees drop. Slowdown 0: falling rates cut NII, but volume, FX and collateral fees and flight-to-quality deposits help. Dollar up 4.8% trims AUC/A translation.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Capital and liquidity rules (SLR 6.0%, LCR 111%); proposals to ease bank burdens under review. GENIUS Act: Fed proposals (Sept 24, 2026) on stablecoin reserve safekeeping and OCC final rule (Oct 21, 2026), BNY assessing. No pending deal docket.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "P/TBV 4.57x ($147.16 / $32.22 tangible book per share at Sept 30). At 10% cost of equity and 3% growth that implies a lasting ROTCE of about 35% (31% at 4% growth), vs actual 29.0% Q3, 29.9% YTD, 26% FY25. Fair P/TBV at 29.9% is 3.8x (about $124, -16%). P/E 16.3x on TTM EPS $9.05 vs own year-end P/E 12.3x (2021), 14.2x, 12.5x, 12.7x, 15.4x (2025); peers JPM 13.3x, MS 13.3x, SCHW 16.0x. Rich vs own history, no cushion.",
+   "source": "https://finance.yahoo.com/quote/BNY ; https://www.sec.gov/Archives/edgar/data/1390777/000139077726000120/bk-20260930.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Strong toll-road business with delivered operating leverage, but the price implies a 35% ROTCE against 29% earned, and P/E is above its own 5-year range, so no cushion.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "findings": {
+  "fees_by_platform_q3": "Asset Servicing $1,264M (+12% yoy), Issuer Services $449M (+43%), Wealth Solutions $554M (+7%), Payments and Trade $232M (+8%), Clearance and Collateral $464M (+17%), Investment Management $802M (+3%)",
+  "margin_and_rotce": "Pre-tax margin 38.5% (Q2 39.8%, Q3 2025 36.4%); ROTCE 29.0% (Q2 31.3%, 25.6% a year ago); FY25 35% margin, 26% ROTCE. Medium-term targets are referred to but their figures were not found in the documents read.",
+  "auca_trend": "AUC/A $63.4T, +10% yoy, +1% QoQ; AUM $2.2T, +2% yoy, -2% QoQ with Q3 net outflows $12B",
+  "deposits_nii": "Average deposits $311B (+4% yoy, -1% QoQ); NII $1,423M (+15% yoy, -2% QoQ); NIM 1.43%. NII guidance: nothing_found in release or presentation.",
+  "operating_leverage": "389bp yoy in Q3 (revenue +12%, expense +8%); 507bp in 2025 (DEF 14A). Sequential operating leverage -184bp in Q3, and Securities Services margin fell to 35.8% from 39.3%.",
+  "buybacks": "Q3 $937M repurchases plus $436M dividends; YTD payout 86%; buying at about 4.5x tangible book. Shares down 3.5% yoy at 672.9M. Tier 1 leverage fell to 5.7% from 6.0% at Dec 2025.",
+  "stablecoin_tokenisation": "nothing_found as revenue; regulatory implementation only (GENIUS Act, Fed Sept 24 and OCC Oct 21 2026)",
+  "share_price_context": "Price up 33% over the year from $108.96 (Sep 30 2025) to $144.63 (Sep 30 2026); 3-year TSR +178% per DEF 14A, so the turnaround is already visible in the price",
+  "routed_lead": "No routed lead in routing.json named BNY",
+  "red_flags": "none found"
+ },
+ "feedback": [
+  {
+   "note": "Q3 results support Overheat: NII +15% yoy, record fee growth with trading and FX activity; FX revenue -16% QoQ and AUC/A trimmed by the stronger dollar, consistent with the dollar read. Deposits -1% QoQ is the first sign of the funding squeeze if the Fed hikes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+   "as_of": "2026-09-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively (business, competition, XBRL facts); no stablecoin or concentration text found",
+  "10-Q": "Q3 2026 10-Q read in full text search; earlier three 10-Qs via financial supplement trends and companyfacts only",
+  "ir_fact_sheet": "no separate fact sheet fetched; financial supplement (EX-99.2) used instead",
+  "def14a": "pay design and TSR read; insider ownership table not located",
+  "red_flag_scan": "8-K item list 2022-2026 checked; 2024 UPLOAD and 2023 UPLOAD PDFs not readable as text",
+  "price": "yFinance close 2026-11-25; IBKR not used at triage"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 147.16,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/BNY"
+ },
+ "complete": true
+}
