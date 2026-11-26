@@ -1,0 +1,298 @@
+[
+ {
+  "lead_id": "L-20261126-divergence-1",
+  "agent": "divergence",
+  "signal": "Caterpillar is down 34% in 3 months (-49% from its 2026-06-30 high) while sales, operating profit and cash flow all grew year over year.",
+  "evidence": [
+   {
+    "fact": "Price 543.7 on 2026-11-25 vs about 809 on 2026-09-30 and a 1,060 high on 2026-06-30 (3m -34%, 6m -40%).",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Q3 2026 sales $20.7B vs $17.6B (+17%); operating profit margin 20.4% vs 17.3%; record backlog stated in the release.",
+    "source": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm",
+    "as_of": "2026-10-29"
+   },
+   {
+    "fact": "XBRL discrete quarters: operating income $4,214M vs $3,052M (+38%); operating cash flow $4,352M vs $3,737M; capex $697M vs $658M; free cash flow up 19%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm (10-Q acc 0000018230-26-000057)",
+    "as_of": "2026-11-04"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "railroads",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "trucking",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "A heavy-equipment maker with record backlog is priced as if orders will fall. Either the market sees a cycle peak or an AI/data-center power trade unwinding; the filings show neither yet.",
+  "ask_next": "What is the stated backlog and order trend in the 10-Q, how much of the 2026 run-up (about 570 to 1,060) was a power-generation/AI-capex theme, and does Deere (DE, +22% 6m) tell a different story?",
+  "tickers_named": [
+   "CAT",
+   "DE"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-2",
+  "agent": "divergence",
+  "signal": "Datadog is down 30% in 3 months after a quarter with 35% revenue growth, its first sizeable GAAP operating profit and rising cash flow.",
+  "evidence": [
+   {
+    "fact": "Price 158.2 on 2026-11-25 vs 266 on 2026-10-29 and 293 high on 2026-10-09 (3m -30%).",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Q3 2026 revenue $1.20B (+35%); GAAP operating income $75M vs -$6M a year ago; operating cash flow $290M, free cash flow $251M.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026069792/ex-991x20260930x8k.htm",
+    "as_of": "2026-11-04"
+   },
+   {
+    "fact": "XBRL discrete quarters: operating cash flow $290M vs $251M, capex $11M vs $17M.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1561550/000162828026070292/ddog-20260930.htm (10-Q acc 0001628280-26-070292)",
+    "as_of": "2026-11-04"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "competition",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Software was sold as a group (see INTU, NOW, ADBE) on seat-compression fears. Datadog is usage-priced, not seat-priced, so the fear fits it poorly. The market may not be separating the two.",
+  "ask_next": "Is Datadog revenue priced per host/usage (not per seat) per the 10-K, and what did the stock do in the 3 days after 2026-11-04?",
+  "tickers_named": [
+   "DDOG",
+   "INTU",
+   "NOW",
+   "ADBE",
+   "CRM"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-3",
+  "agent": "divergence",
+  "signal": "Intuit is down 21% in 3 months and 59% from its Dec 2025 high even though revenue, operating income and cash flow keep growing and the quarter beat guidance.",
+  "evidence": [
+   {
+    "fact": "Price 271.7 on 2026-11-25 vs 667 high on 2025-12-26 (3m -21%, from-high -59%).",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Q1 FY27 (Oct quarter) revenue +12% to $4.4B, above top of guidance; agreement to sell Mailchimp (revenue -1%) to Bending Spoons.",
+    "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/fy27q1earningspressrelease.htm",
+    "as_of": "2026-11-19"
+   },
+   {
+    "fact": "XBRL: operating income $868M vs $534M (+63%); operating cash flow $1,062M vs $637M; capex $75M vs $38M.",
+    "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm (10-Q acc 0000896878-26-000045)",
+    "as_of": "2026-11-19"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "competition",
+    "direction": "hurts"
+   },
+   {
+    "industry": "payments",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Tax and small-business accounting software priced for AI disruption while the filings show growth. Watch for whether the market fear is about consumer tax filing being displaced by AI agents.",
+  "ask_next": "Read the 10-Q risk factors and the Q1 call-free release text for any consumer TurboTax unit or customer-count decline; is the 59% fall from the high a multiple reset only?",
+  "tickers_named": [
+   "INTU"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-4",
+  "agent": "divergence",
+  "signal": "Nvidia fell from 214 to 149 (about -30%) around a quarter with revenue +103% because its founder-CEO resigned on 2026-11-11 and was reinstated on 2026-11-22.",
+  "evidence": [
+   {
+    "fact": "Price 214 on 2026-10-29, 126 low on 2026-11-20, 149 on 2026-11-25.",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Q3 FY27 revenue $115.8B (+103% YoY, +20% QoQ); operating income $77.5B vs $36.0B; $28.1B returned to holders; buyback authority up $150B.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+    "as_of": "2026-11-17"
+   },
+   {
+    "fact": "8-K Item 5.02: CEO resigned 2026-11-11, CFO Kress interim; board reinstated the founder CEO 2026-11-22.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm and https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+    "as_of": "2026-11-23"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "semiconductors",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Price is fighting a clearly strong quarter, but there is a named governance shock, so this is not 'nobody cares'. Fundamentals XBRL (10-Q for the October quarter) is not filed yet; the facts here are from the release.",
+  "ask_next": "Why did the CEO resign and return (read the full 8-K and any 8-K/A), and does the October-quarter 10-Q show anything the release did not?",
+  "tickers_named": [
+   "NVDA"
+  ],
+  "confidence": "low",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-5",
+  "agent": "divergence",
+  "signal": "FIS is down 31% in 3 months to 27.6 (-58% from its January high), but the fundamentals gap is smaller than the headline: 27% revenue growth is mostly an acquisition; organic (pro forma) growth is 3.7%.",
+  "evidence": [
+   {
+    "fact": "Price 27.6 on 2026-11-25 vs 65.5 high on 2026-01-08 (3m -31%).",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Q3 2026 GAAP revenue +27% to $3.5B but pro forma revenue +3.7%; adjusted EPS +6.6%; free cash flow $862M (+8%); 2026 free cash flow guide $2.15-2.25B.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+    "as_of": "2026-11-04"
+   },
+   {
+    "fact": "XBRL: operating income $660M vs $457M; operating cash flow up about 24%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm (10-Q acc 0001136893-26-000063)",
+    "as_of": "2026-11-04"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "payments",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "banks",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "A bank-processing rail that is cash generative but whose reported growth is bought, not organic. The price drop may be about debt/deal risk, which the headline XBRL numbers hide.",
+  "ask_next": "From the 10-Q balance sheet and debt note, what is net debt and interest cost after the acquisition, and what drives organic growth near 3-4%?",
+  "tickers_named": [
+   "FIS",
+   "GPN",
+   "V",
+   "MA"
+  ],
+  "confidence": "low",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-6",
+  "agent": "divergence",
+  "signal": "Capital-markets and card banks are being sold while their earnings rise; regional/consumer banks are up. GS, MS, SCHW, COF, BAC all fell 14-23% in 3 months with improving operating results.",
+  "evidence": [
+   {
+    "fact": "3m price change: GS -23%, MS -21%, BAC -22%, COF -16%, SCHW -14%; 6m: GS -19%, MS -16% vs WFC +8%, USB +9%, PNC +2%.",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "GS pre-tax earnings $7,003M vs $5,392M (+30%) in the September quarter; quarterly cash-flow figures are noisy for banks and not used.",
+    "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000532/ (10-Q acc 0000886982-26-000532)",
+    "as_of": "2026-11-04"
+   },
+   {
+    "fact": "MS 10-Q for the September quarter; pre-tax +7% YoY on revenue +5%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000293/ms-20260930.htm",
+    "as_of": "2026-11-05"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Not a uniform bank sell-off. The split could be a rate-path or trading-revenue peak worry, but the filings show no earnings deterioration yet. JPM and C XBRL were stale or sparse in this screen, so not scored.",
+  "ask_next": "Break down GS/MS/BAC revenue by trading vs fee vs net interest income; which line is the market discounting? Pull JPM and C separately.",
+  "tickers_named": [
+   "GS",
+   "MS",
+   "BAC",
+   "COF",
+   "SCHW",
+   "WFC",
+   "USB",
+   "PNC"
+  ],
+  "confidence": "low",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-divergence-7",
+  "agent": "divergence",
+  "signal": "WARNING (reverse): homebuilders PHM, TOL and DHI are up 7-14% over 6 months while their revenue is falling 3-10% and operating profit is down; GPN is up 32% over 6 months while operating profit fell.",
+  "evidence": [
+   {
+    "fact": "6m price: PHM +14%, TOL +11%, DHI +7%, GPN +32%.",
+    "source": "yFinance daily close history (scripts/lib/prices.py)",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "PHM revenue -10% YoY in each of the last two quarters; free cash flow down 33% in the September quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/822416/000082241626000043/phm-20260930.htm (10-Q acc 0000822416-26-000043)",
+    "as_of": "2026-10-22"
+   },
+   {
+    "fact": "TOL revenue -10%, operating income -26% (July quarter); DHI revenue -3%, operating income -16%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/794170/000079417026000102/tol-20260731.htm and https://www.sec.gov/Archives/edgar/data/882184/000088218426000157/dhi-20260930.htm",
+    "as_of": "2026-11-18"
+   },
+   {
+    "fact": "GPN revenue +64% (acquisition) but operating income -68% and free cash flow negative in the September quarter.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm (10-Q acc 0001123360-26-000093)",
+    "as_of": "2026-11-05"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "homebuilders",
+    "link": "customer demand",
+    "direction": "hurts"
+   },
+   {
+    "industry": "payments",
+    "link": "competition",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Price is ahead of weak numbers. For homebuilders this may be a bet on the rate turn (the Berkshire view) rather than current results; the Taylor Morrison deal may also be lifting peers (unverified). Do not treat the bounce as proof of recovery.",
+  "ask_next": "What are the net new orders, backlog and gross margin trend in the PHM/TOL/DHI filings, and what did mortgage rates do over the same window?",
+  "tickers_named": [
+   "PHM",
+   "TOL",
+   "DHI",
+   "LEN",
+   "GPN"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ }
+]
