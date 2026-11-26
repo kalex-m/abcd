@@ -1,0 +1,196 @@
+{
+ "ticker": "C",
+ "name": "Citigroup",
+ "industry": "banks",
+ "company_type": "Turnaround",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Global bank holding company: $1.5T deposits, $820B loans, $2.9T assets; five businesses (Services, Markets, Banking, Wealth, US Personal Banking) plus a shrinking All Other. Takes deposits, moves money across borders, trades, lends, advises.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "3Q26 revenue $23.8B: Services $6.6B (28%), Markets $6.1B (26%), US Consumer Cards $4.7B (20%), Wealth $3.3B (14%), Banking $1.7B (7%), All Other $1.4B (6%). NII $17.0B, 71% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Multinationals, banks and governments (Services, Markets, Banking) plus US card holders and affluent households. No single-customer concentration disclosed; nothing found on a top-customer figure. American Airlines co-brand card added in Q2 2026 (partner concentration in cards; partner payments raise costs).",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Most international US bank: only 31% of 226,000 staff are in the US; 70% of 2025 Services revenue is outside North America ($14.8B of $21.3B). Mexico exposure $80.8B (4.4% of Citi). Banamex 51% owned; Russia exited Jan 2026. Dollar +4.8% in 3m is a translation/earnings headwind and a stress factor for EM clients.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread plus fees plus trading. Services is a deposit-and-fee toll road: $1.04T average deposits, TTS $4.9B revenue (+16%), cross-border value $116B (+10%), AUC/A $35T. Markets and Banking are transaction-driven. Cards are spread plus interchange. 3Q26 NIM 2.43% (3Q25 2.40%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Efficiency ratio 58.5% (64.7% a year ago incl. Banamex charge); expenses -2% reported, +3% ex-notable; revenue +8% so operating leverage positive. Direct staff 217k vs 227k a year ago (-4%). Transformation spend about $3.3B in 2025, expected to decline over time. Provision $2.6B: net credit losses $2.2B flat, reserve build $369M (+$333M ACL). No guidance hit-rate series found in the filings read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d2.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Inputs: deposits ($1.5T, +9% yoy, driven by Services corporate operating cash, sticky but rate-sensitive), wholesale funding and market access (signal tags: hy_spreads, fed_funds), regulatory capital (CET1 12.8%, about 120bp above requirement), technology/data (transformation, 548 applications retired in 2025). Chokepoints: US-dollar clearing (47M instructions in 3Q) and global custody depend on Citi's own systems; the consent orders are a self-inflicted single point of failure. Pass-through: deposit spreads widened (Services NII +17%, Wealth NII +20%), but cost of interest expense avg 3.77% vs asset yield 5.54% and Fed hike would lift both; card partner payments and rewards rose (USCC non-interest revenue -$758M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Services is #1 globally by the company's own account: proprietary Worldlink/cross-border platforms, 90+ country presence and custody scale; RoTCE 31.2% on $34B of tangible equity (+620bp yoy). Differently now: simplification into five businesses, exits (Russia, Poland, Banamex stake sales), AI/tech investment pulled forward.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Citi card and Citigold are household names; 3Q26 US card spend $175B (+11%), co-brand deals with American Airlines and Costco. Consumer brand is mid-tier vs JPM/BAC; Citi is far more visible to corporates than to households. Marketing spend ratio not isolated in what was read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: JPM, BAC, HSBC, Standard Chartered, State Street/BNY (custody). Share gains evidenced in Banking ECM (revenue +77%, in the six largest deals) and Services AUC/A +16%; USCC new accounts -4%; Banking lending revenue -16%. Share data vs rivals not published in the sources read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Services revenue +15% with every driver up (cross-border +10%, commercial card spend +10%, AUC/A +16%); Wealth client investment assets $759B (+15%), net new investment assets $38B in 3Q (vs $19B); prime balances +40%. Market has the stock near 1.1x TBV versus these growth rates.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "3Q26 RoTCE 11.5% (Q2 13.0%, 3Q25 8.0%); FY2025 8.8%; YTD 2026 EPS $9.07 (+47% ex-notable). Returned $4.1B in 3Q ($3.0B buybacks, $1.1B dividends), 85% payout, CET1 12.8% vs 13.3% a year ago. FCF is not meaningful for a bank. Pay: PSU awards use RoTCE and TBVPS (DEF 14A). Insider ownership figure not extracted from the proxy; nothing found in the lines read. Buybacks at about 1.1x TBV are accretive only if RoTCE stays above about 11%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Not losing relevance: Services and cards are growing and the strategy is simplification. Risks: consent orders from 2020 still in force (OCC amendment terminated 2025-12-18; 2024 penalties $61M FRB and $75M OCC), OCC order bars significant acquisitions without approval; execution risk in a multiyear transformation 'not linear' by Citi's own words; key-person risk in CEO Fraser; ~$9B Banamex CTA loss to be booked in earnings at deconsolidation (early 2027).",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT 10-K/10-Q, no material weakness in the auditor report (it lists critical audit matters on Level 3 fair values only). 2.06 impairment 8-K 2025-09-24 (Banamex goodwill $726M). SEC comment letters on 2023 10-K (June/July 2024) asked for clearer consent-order disclosure; none newer found. Regulatory penalties 2024 above. Scan covered 2023-11 to 2026-11 via EDGAR submissions index.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000011/c-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: positive (NII, trading, capital markets; rising card losses a watch). Slowdown: card and EM credit exposure plus a reserve build already under way ($369M); Services deposits stay but spreads fall if rates drop. Stagflation: mixed. Dollar +4.8%: headwind to EM revenue and Banamex CTA, tailwind to cross-border volumes. Hike risk: unrealized AFS losses cited in CET1 (flat QoQ).",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Consent orders (FRB and OCC, Oct 2020) still require quarterly progress reports; OCC can block significant acquisitions. Capital relief: eSLR cut early-adopted 1 Jan 2026 (SLR minimum 4.0% vs 5.0%); FRB final rules 2026-09-30 to reduce SCB volatility. CET1 requirement about 11.6%. Tariff/EM exposure through client flows. No pending antitrust deal docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000083100126000056/c-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "$113.33 vs TBVPS $101.59 = 1.12x. At 10% cost of equity and 3% growth that price implies sustainable RoTCE of about 10.8% (11.2% at 0% growth). Actual: 3Q26 11.5%, 2026 YTD about 12.5% (my estimate from reported income to common), FY2025 8.8%, target 11-13% near-term then 14-15%. Fair P/TBV at 11.5% = 1.21x ($123, +9%); at 12.5% = 1.36x ($138, +22%); at FY25 8.8% = 0.83x ($84, -26%). P/E about 11x trailing reported EPS ($10.25) and about 9.4x annualised 2026 YTD EPS. Peers P/TBV: BAC 1.67x, WFC 1.82x, GS 2.35x, MS 3.10x. Citi's own 5-year P/TBV range: not computed (nothing sourced); proxy says stock only recently crossed above tangible book.",
+   "source": "https://finance.yahoo.com/quote/C",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Price asks only ~10.8% RoTCE vs 11.5% now, but quality is C until returns beat the 10% cost of equity for several quarters and the 2020 consent orders end; no kill-switch rule holds.",
+ "the_mistake": "The market prices Citi as one ~11%-return bank at 1.1x tangible book, while Services alone earns 31% on $34B of tangible equity and Banking, Cards and Wealth earn 14-22%. The drag is Markets (12.3%) and All Other (-$955M a quarter, mostly Banamex and legacy exits) that fall away as Banamex deconsolidates in early 2027.",
+ "what_makes_market_notice": "Banamex deconsolidation (expected early 2027, timing subject to change); Q4 results mid-January 2027 showing RoTCE at or above the 11-13% goal; any lifting of the 2020 FRB/OCC consent orders; 2027 stress-test SCB (FRB models finalized 2026-09-30).",
+ "feedback": [
+  {
+   "fact": "Services deposits $1.04T average (+16% yoy) and cross-border value +10%, USD clearing +5%: corporate cash flows still growing in 3Q26, consistent with overheat hard data.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms overheat read"
+  },
+  {
+   "fact": "Reserve build of $369M cited 'changes in the macroeconomic outlook', and USCC build of $208M after a $232M release in Q2; Markets revenue -13% QoQ.",
+   "source": "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+   "as_of": "2026-09-30",
+   "effect": "supports the market's slowdown lean (credit and trading softening)"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "3Q26 10-Q read in full text; 1Q/2Q26 10-Qs and 3Q25 not read separately, quarterly trend taken from the 3Q26 financial data supplement (5-quarter table, EX-99.2).",
+  "presentation": "Quarterly financial data supplement (EX-99.2) used; the earnings slide deck on citigroup.com was not fetched.",
+  "ir_fact_sheet": "The EX-99.2 supplement serves as the fact sheet; no separate IR fact sheet fetched.",
+  "def14a": "Pay metrics and RoTCE read; insider ownership table not extracted.",
+  "red_flag_scan": "8-K items, NT forms and CORRESP/UPLOAD scanned in EDGAR submissions for 2023-11-26 to 2026-11-26; comment-letter text read for the 2024 CORRESP only.",
+  "price": "yFinance only; no IBKR check at triage; 5-year P/TBV history not computed; FCF/EV-EBITDA not meaningful for a bank."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 113.33,
+  "as_of": "2026-11-26 (last close 2026-11-25)",
+  "source": "https://finance.yahoo.com/quote/C"
+ },
+ "complete": true
+}
