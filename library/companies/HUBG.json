@@ -1,0 +1,191 @@
+{
+ "ticker": "HUBG",
+ "name": "Hub Group",
+ "industry": "railroads",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 3,
+   "evidence": "Hub Group sells intermodal (container-on-train plus truck) freight moves, dedicated trucking and logistics services in North America; it books the move, buys rail and truck capacity, and keeps the spread. Last audited filing (FY2024 10-K) is now declared unreliable.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 3,
+   "evidence": "Two segments: ITS (intermodal and dedicated trucking) about $2.2B and Logistics (final mile, managed transportation, consolidation/fulfilment, brokerage) about $1.6B of roughly $3.7B FY2025 revenue (preliminary, unaudited). FY2024 revenue was $3.95B in the 10-K before restatement.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454dex991.htm",
+   "as_of": "2026-02-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Retail, consumer products, automotive and durables shippers. Top 10 customers were 44% of 2024 revenue; one customer exceeded 10% of revenue in each of 2022-2024.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "North America; 2023 purchase of a controlling stake in EASO (Mexico) adds cross-border intermodal. Geographic revenue split and currency exposure not re-checked in a restated filing; peso exposure is small but unquantified here.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Take-rate/spread model: resells rail and drayage capacity at a markup; revenue is mostly per-load and contract based, not subscription. Two-sentence explanation holds. Margin is thin (2024 operating income $140M on $3.95B, about 3.6%, pre-restatement) and the restatement hit purchased-transportation cost, the core cost line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 2,
+   "evidence": "Asset-light-ish: capex $51M in 2024 and about $45M in 2025 against D&A of $193M in 2024 (owns about 50,000 53-foot containers, 2,300 tractors). Costs are mostly purchased transportation (variable) but the company says H1 2026 was an operating loss before one-offs. Guidance hit rate is unreadable: FY2026 revenue outlook cut from $3.65-3.95B (Feb) to $3.6-3.8B (Sep).",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm",
+   "as_of": "2026-09-14"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 2,
+   "evidence": "Critical inputs: rail line-haul (10-K says it relies on contractual relationships with two railroads; supplier names not stated in the text read, mapper context names Union Pacific/CSX), drayage (about 73% own fleet and owner-operators in 2024), diesel, containers/tractors. Single point of failure is rail access and rate. H1 2026 higher fuel, rail and drayage costs hit results before rate increases began in Q3 2026, so pass-through lags (signal tags: oil/diesel, fuel surcharge lag, rail rates, wages). Tightening truck capacity is helping pricing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm",
+   "as_of": "2026-09-14"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Scale in marketing intermodal for the railroads (railroads have chosen to rely on marketers like Hub per the 10-K), GPS-tracked container fleet, drayage network. Edge is thin: shippers can switch marketers, and railroads could sell direct. New in 2026: cost-reduction and yield-management programmes and a new CEO.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Business-to-business freight marketer; consumers would not notice it vanishing. No marketing-spend disclosure read. Name known inside logistics only.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000095017025026866/hubg-20241231.htm",
+   "as_of": "2025-02-25"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Competes with J.B. Hunt, Schneider, rail-owned intermodal marketing and other 3PLs. Hub intermodal volume +1% in Q4 2025 and 'relatively stable' in H1 2026 while AAR industry intermodal ran +5.1% YTD to Nov 21 (rail data), which suggests flat-to-lost share (inference).",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm",
+   "as_of": "2026-09-14"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Truck-to-rail conversion in tightening capacity and Mexico cross-border are real; Q4 2025 Logistics demand was soft and brokerage volume fell 10% with revenue per load down 4%. Nothing scaling unpriced that can be verified.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526039396/d77454dex991.htm",
+   "as_of": "2026-02-05"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "Last reported (preliminary) 2025 operating cash flow about $194M, capex $45M, net debt about $116M at 2025 year-end; but June 30, 2026 net debt about $66M then $75M drawn on the revolver in Aug 2026. Buybacks $68M in 2024 and $14M in 2025. CFO departed May 2026 (interim CFO paid $125k a month), CEO swapped to David Yeager (73) in Sep 2026, and the Yeager family used majority voting control (Class B, about 61.7% of votes) on Oct 1, 2026 to remove 3 directors without cause. Pay is tied to EBITDA as a percent of gross margin, which relies on the same costs that were misstated.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000114036125012045/ny20037326x1_def14a.htm",
+   "as_of": "2025-04-03"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 2,
+   "evidence": "Intermodal remains relevant, but the company has lost control of its books, its CFO, a stable board and (possibly) its listing. Not a Zoom-type fade; the risk is execution and governance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526465632/d191442d8k.htm",
+   "as_of": "2026-11-17"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 1,
+   "evidence": "Two Item 4.02 non-reliance 8-Ks: Feb 5, 2026 (Q1-Q3 2025 misstated; purchased transportation and payables understated, $77M reduction recorded in those periods) and May 11/12, 2026 (audited FY2024 and FY2023 misstated; transactions 'prematurely or incorrectly recognized or not adequately supported'). NT 10-K (Mar 3), NT 10-Q (May 12, Aug 11, Nov 10). Company expects to conclude controls were ineffective for 2023, 2024 and 2025. 10-K for 2025 and three 2026 10-Qs unfiled. Nasdaq: staff delisting determination Sep 16, 2026; panel exception to Dec 31, 2026, hard limit Mar 12, 2027; new Q3 notice Nov 17. Lender deadline moved three times, now Jan 31, 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526218141/d146211d8k.htm",
+   "as_of": "2026-05-12"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Boom good (volume, operating leverage), overheat mixed (fuel/rail/drayage costs ran ahead of pricing in H1 2026), stagflation poor, slowdown poor (retail import volumes forecast down; thin margin on a fixed cost base; levered to retail). Sensitive to diesel, rail rates and the dollar via cross-border.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm",
+   "as_of": "2026-09-14"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "No specific pending regulatory docket read. Exposure is to rail rate and service regulation indirectly, trucking safety rules and tariffs on imports (volume). Nasdaq delisting process and SEC comment-letter status unknown; no CORRESP/UPLOAD letters found in the filing list since April 2024.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526465632/d191442d8k.htm",
+   "as_of": "2026-11-17"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 1,
+   "evidence": "Price $23.28 (2026-11-25 close basis), market cap about $1.42B, 52-week range $22.34 to $53.26, near the 5-year low (5-year close avg $38.87). Reverse DCF on enterprise value about $1.55B (cap plus about $141M net debt using $198M debt less $132M cash plus $75M revolver draw): if FCF base is the preliminary 2025 level of about $149M (OCF 194 less capex 45), price implies about -2% a year; if true FCF is lower, e.g. $100M, it implies about +4%, at $60M about +11%. H1 2026 was an operating loss and no audited FCF exists, so the base cannot be trusted and no cushion can be claimed. P/E and EV/EBITDA vs own history and peers: not computable on unreliable earnings.",
+   "source": "https://finance.yahoo.com/quote/HUBG",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "dropped",
+ "status_reason": "Kill switch 6.4.1: unresolved accounting red flags (two Item 4.02 non-reliance filings covering 2023-2025, controls ineffective, 10-K and three 10-Qs unfiled, Nasdaq delisting process live to Dec 31, 2026 / Mar 12, 2027 limit).",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Hub says H1 2026 results were hurt by higher fuel, rail and drayage costs before rate increases that began in Q3 2026, while tightening truck capacity supported over-the-road conversion to intermodal. Fits late Overheat cost squeeze plus intermodal strength seen in AAR data.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526391228/d137221dex991.htm",
+   "as_of": "2026-09-14"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "Latest 10-K is FY2024 (filed 2025-02-25) and is declared unreliable by the 2026-05-12 Item 4.02. FY2025 10-K not filed. Business facts used are descriptive only; all FY2024 numbers carry restatement risk.",
+  "10-Q": "Latest filed 10-Q is Q3 2025 (2025-11-05), declared unreliable (Item 4.02 2026-02-05). Q1, Q2, Q3 2026 10-Qs not filed (NT 10-Q on 2026-05-12, 2026-08-11, 2026-11-10). Q3 2026 numbers unavailable. Not read in detail.",
+  "earnings_release": "Only preliminary, unaudited releases exist: Feb 5, 2026 (FY2025 select) and Sep 14, 2026 (H1 2026 select). No full earnings release since Q3 2025.",
+  "presentation": "No investor presentation fetched; only a pre-recorded webcast noted in the Feb 2026 release.",
+  "ir_fact_sheet": "IR site investors.hubgroup.com not fetched (not in allow list/time-bounded); not checked.",
+  "def14a": "2025 proxy (filed 2025-04-03) read for control and pay metric; no 2026 proxy filed (annual meeting not held, no DEF 14A in 2026 filing list).",
+  "red_flag_scan": "Full 2024-2026 filing list scanned. 4.02: 2026-02-05, 2026-05-12. 4.01 auditor change: none found (EY still auditor as of May 2026). NT 10-K 2026-03-03; NT 10-Q 2026-05-12, 2026-08-11, 2026-11-10. 3.01 Nasdaq: 2026-03-19 notice, 2026-05/08 later notices, 2026-09-16 staff delisting determination, 2026-11-11 panel decision (exception to 2026-12-31, hard limit 2027-03-12), 2026-11-17 Q3 notice; company said it expects to file in Q4 2026 but cannot confirm Dec 31. 1.01: credit agreement waiver Mar 23 and amendments, filing deadline now Jan 31, 2027 (Nov 25). 5.02: CFO Beth left 2026-05-27, interim CFO Heeter ($125k/month), CFO-elect O'Donnell, David Yeager back as CEO 2026-09-13, 3 directors removed by family consent 2026-10-01. Material weakness: expected, not yet formally filed. CORRESP/UPLOAD: none in the listed window (Apr 2024 onward). No SEC investigation disclosure read; legal-proceedings note not read.",
+  "price": "yFinance quote pulled 2026-11-26 (last close basis 2026-11-25). Peer multiples not computed."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 23.28,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/HUBG"
+ },
+ "complete": true
+}
