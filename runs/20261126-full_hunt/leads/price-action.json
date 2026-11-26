@@ -1,0 +1,350 @@
+[
+ {
+  "lead_id": "L-20261126-price-action-1",
+  "agent": "price-action",
+  "signal": "Semiconductor stocks are in a deep slide: SMH is 17 points behind SPY over a month and NVDA hit a 52-week low on a 4.7x volume day.",
+  "evidence": [
+   {
+    "fact": "SMH 1m -24.3% (SPY -6.9%), 3m -26.3%, still +13.2% YTD",
+    "source": "https://finance.yahoo.com/quote/SMH/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "NVDA 1m -31.5%, 52-week low within last 10 days, 4.7x its 90-day average volume on 2026-11-23, 37.6% below high",
+    "source": "https://finance.yahoo.com/quote/NVDA/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "MU 1m -35.3%, INTC 1m -41.9%, AMD 1m -27.5%",
+    "source": "https://finance.yahoo.com/quote/MU/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "semiconductors",
+    "link": "customer demand",
+    "direction": "hurts"
+   },
+   {
+    "industry": "software",
+    "link": "customer demand",
+    "direction": "hurts"
+   },
+   {
+    "industry": "utilities",
+    "link": "customer demand",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "AI-chip suppliers are being repriced hard; if big customers are trimming spending, suppliers and power-hungry data-centre builders lose, and those customers' own costs fall.",
+  "ask_next": "In the latest NVDA, MU, AMD 10-Q/10-K and hyperscaler (MSFT, GOOGL, AMZN, META) 10-Qs: did capex guidance, purchase commitments, inventory days or customer-concentration disclosures change versus the prior quarter? Any 8-K on 2026-11-23?",
+  "tickers_named": [
+   "NVDA",
+   "MU",
+   "AMD",
+   "INTC",
+   "SMH"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-price-action-2",
+  "agent": "price-action",
+  "signal": "Software is down again: IGV trails SPY by 8 points over a month, and NOW fell 40% in a month, matching the prior-view seat-compression theme.",
+  "evidence": [
+   {
+    "fact": "IGV 1m -15.0% (rel -8.1), 3m -13.9%, YTD -7.4%",
+    "source": "https://finance.yahoo.com/quote/IGV/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "NOW 1m -40.5%, 46.9% below 52-week high",
+    "source": "https://finance.yahoo.com/quote/NOW/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "ADBE 1m -6.3%, 34.9% below high",
+    "source": "https://finance.yahoo.com/quote/ADBE/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "customer demand",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Subscription-software owners are losing, buyers of AI tools may gain; the move is large enough to check whether filings show real seat or renewal weakness.",
+  "ask_next": "In NOW, CRM, ADBE latest 10-Qs: remaining performance obligations (contracted future revenue) growth, net revenue retention, risk-factor language on AI agents reducing seats, and any change in billings guidance.",
+  "tickers_named": [
+   "NOW",
+   "CRM",
+   "ADBE",
+   "IGV"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-price-action-3",
+  "agent": "price-action",
+  "signal": "Payments names are splitting apart: FISV +26% and GPN +18% in a month while FIS hit a 52-week low (-22%).",
+  "evidence": [
+   {
+    "fact": "FISV 1m +26.1%, 3m +13.7%, still 14.4% below high (ticker was FI; FI returns no data, FISV used)",
+    "source": "https://finance.yahoo.com/quote/FISV/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "GPN 1m +17.9%, 3.3x volume on 2026-11-12",
+    "source": "https://finance.yahoo.com/quote/GPN/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "FIS 1m -22.4%, 52-week low, 57.8% below high",
+    "source": "https://finance.yahoo.com/quote/FIS/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "Payments basket (V MA AXP PYPL FISV FIS GPN) 1m +5.5%, rel +12.4",
+    "source": "https://finance.yahoo.com/quote/V/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "payments",
+    "link": "competition",
+    "direction": "helps"
+   },
+   {
+    "industry": "banks",
+    "link": "competition",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Same industry, opposite moves: something company-specific (deal, guidance, lost client) is likelier than a sector story. Processors with bank-core exposure (FIS) differ from card networks.",
+  "ask_next": "Pull 8-Ks for GPN (around 2026-11-12), FISV and FIS (around 2026-11-20): any acquisition, divestiture, guidance cut/raise, client loss or activist 13D. Compare latest 10-Q organic revenue growth and debt.",
+  "tickers_named": [
+   "FISV",
+   "GPN",
+   "FIS",
+   "V",
+   "MA"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-price-action-4",
+  "agent": "price-action",
+  "signal": "Homebuilders are rallying against the market: ITB +8.8% in a month (15.7 points ahead of SPY), contradicting the prior view of depressed builders.",
+  "evidence": [
+   {
+    "fact": "ITB 1m +8.8% (rel +15.7), 3m +3.7%, YTD +2.1%; XHB 1m +4.5%",
+    "source": "https://finance.yahoo.com/quote/ITB/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "PHM 1m +10.9%, TOL +8.8%, DHI +7.1%, LEN +2.6%; none at a 52-week high",
+    "source": "https://finance.yahoo.com/quote/PHM/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "NVR 52-week low within last 10 days, 25.7% below high",
+    "source": "https://finance.yahoo.com/quote/NVR/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "homebuilders",
+    "link": "financing",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Builders are up from low levels while the index falls; it may reflect rate hopes or a rotation to defensive domestic names, not better results. NVR is the exception.",
+  "ask_next": "In latest 10-Qs for DHI, LEN, PHM, TOL, NVR: orders, cancellation rate, incentives as % of price, gross margin trend, backlog. Verify against 30-year mortgage rate from Freddie Mac/Fed before trusting the rally.",
+  "tickers_named": [
+   "DHI",
+   "LEN",
+   "PHM",
+   "TOL",
+   "NVR",
+   "ITB"
+  ],
+  "strength": "one_lane",
+  "confidence": "low"
+ },
+ {
+  "lead_id": "L-20261126-price-action-5",
+  "agent": "price-action",
+  "signal": "Big capital-markets and card banks are lagging: GS, MS and COF are each 10 to 13 points behind XLF in a month.",
+  "evidence": [
+   {
+    "fact": "GS 1m -12.1% (vs XLF -13.3 rel), 30.1% below high, 2.2x volume 2026-11-20",
+    "source": "https://finance.yahoo.com/quote/GS/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "MS 1m -9.8%, COF 1m -9.9%; XLF itself +1.1%",
+    "source": "https://finance.yahoo.com/quote/MS/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "KBE 1m -3.0%, KRE -3.8%",
+    "source": "https://finance.yahoo.com/quote/KBE/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Within financials, trading and credit-card lenders are being sold while insurers (CB, PGR) and Berkshire hit 52-week highs; points to credit or deal-flow worry rather than a bank-wide rate story.",
+  "ask_next": "In latest 10-Qs: COF card charge-offs and delinquencies, reserve build; GS/MS investment-banking and trading revenue trend, any 8-K on 2026-11-20. Check Berkshire 13F for BAC/COF sales.",
+  "tickers_named": [
+   "GS",
+   "MS",
+   "COF",
+   "KBE",
+   "KRE"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-price-action-6",
+  "agent": "price-action",
+  "signal": "Energy leadership is cracking: XLE -10.7% and XOP -16% in a month, even though energy is still the best sector YTD (+36%).",
+  "evidence": [
+   {
+    "fact": "XLE 1m -10.7%, 3m -1.7%, YTD +36.1% (best of 11 sectors)",
+    "source": "https://finance.yahoo.com/quote/XLE/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "XOP 1m -16.0%, YTD +31.9%",
+    "source": "https://finance.yahoo.com/quote/XOP/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "XOM 1m -11.6%; CVX -6.8%",
+    "source": "https://finance.yahoo.com/quote/XOM/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "oil-gas",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "airlines",
+    "link": "input cost",
+    "direction": "helps"
+   },
+   {
+    "industry": "railroads",
+    "link": "input cost",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Oil producers are selling off; falling fuel prices help airlines and rails and hurt producers. Price alone does not say whether crude fell or demand worries grew.",
+  "ask_next": "Check EIA weekly petroleum data and Brent/WTI for the last 30 days (is the energy sell-off oil-led?), then E&P 10-Q hedging and capex guidance (XOM, CVX, COP, OXY, EOG).",
+  "tickers_named": [
+   "XOM",
+   "CVX",
+   "XOP",
+   "XLE"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-price-action-7",
+  "agent": "price-action",
+  "signal": "UnitedHealth fell 15.6% in a month with a 3.6x volume day on 2026-11-19, and CVS dropped 11%.",
+  "evidence": [
+   {
+    "fact": "UNH 1m -15.6%, 3.6x 90-day average volume on 2026-11-19, 20.2% below high",
+    "source": "https://finance.yahoo.com/quote/UNH/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "CVS 1m -11.1%, vs XLV +2.5%; HUM -1.8%",
+    "source": "https://finance.yahoo.com/quote/CVS/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "health-insurers",
+    "link": "regulation",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "One-off event (guidance, cost trend, regulation) is likely; health insurers are the outlier in a sector that is up.",
+  "ask_next": "Look for UNH 8-K around 2026-11-19 (guidance, medical cost ratio, DOJ/CMS item) and CVS/Aetna medical benefit ratio in the latest 10-Q.",
+  "tickers_named": [
+   "UNH",
+   "CVS",
+   "HUM"
+  ],
+  "strength": "one_lane",
+  "confidence": "low"
+ },
+ {
+  "lead_id": "L-20261126-price-action-8",
+  "agent": "price-action",
+  "signal": "Railroads held up while the market fell: rail basket +6.2 points vs SPY in a month and IYT +6.4 relative.",
+  "evidence": [
+   {
+    "fact": "Rail basket (UNP CSX NSC CP CNI) 1m -0.6% vs SPY -6.9%, 3m -1.8% vs -6.8%",
+    "source": "https://finance.yahoo.com/quote/UNP/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "IYT 1m -0.5%, 3m -5.1%",
+    "source": "https://finance.yahoo.com/quote/IYT/history/",
+    "as_of": "2026-11-25"
+   },
+   {
+    "fact": "CAT 1m -23.8%, 52-week low (industrial demand exposure)",
+    "source": "https://finance.yahoo.com/quote/CAT/history/",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "railroads",
+    "link": "customer demand",
+    "direction": "helps"
+   },
+   {
+    "industry": "trucking",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Relative strength is mostly a defensive rotation and cheaper fuel; no rail name is at a 52-week extreme, so this is a weak pointer.",
+  "ask_next": "Check AAR weekly carload and intermodal data for the last 8 weeks and rail 10-Q commentary (UNP, CSX, NSC) on volumes and fuel surcharge; confirm whether UNP-NSC merger docket (STB) is moving prices.",
+  "tickers_named": [
+   "UNP",
+   "CSX",
+   "NSC",
+   "CP",
+   "CNI",
+   "IYT"
+  ],
+  "strength": "one_lane",
+  "confidence": "low"
+ }
+]

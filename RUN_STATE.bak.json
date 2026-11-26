@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T08:56:36+00:00",
+  "heartbeat": "2026-11-26T08:57:48+00:00",
   "current_wave": 1,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -15,10 +15,10 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/macro.json"
       ],
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T08:57:48+00:00"
     },
     {
       "id": "w1-markets",
@@ -29,10 +29,10 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/markets.json"
       ],
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T08:57:48+00:00"
     },
     {
       "id": "w1-policy-events",
@@ -43,10 +43,10 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/policy-events.json"
       ],
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T08:57:48+00:00"
     },
     {
       "id": "w1-price-action",
@@ -57,10 +57,10 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/price-action.json"
       ],
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T08:57:48+00:00"
     },
     {
       "id": "w1-divergence",
@@ -71,10 +71,10 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/divergence.json"
       ],
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T08:57:48+00:00"
     },
     {
       "id": "w1-behaviour-change",
