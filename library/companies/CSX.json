@@ -1,0 +1,210 @@
+{
+ "ticker": "CSX",
+ "name": "CSX Corporation",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "CSX runs a Class I freight railroad of about 20,000 route miles in the eastern US, plus intermodal terminals, rail-to-truck transfer and a chemical trucking arm (Quality Carriers). It hauls other people's freight on track it owns.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+   "as_of": "2026-02-12"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $4,017M: merchandise $2,453M (61%; chemicals $790M is the largest line), intermodal $634M (16%), coal $537M (13%), trucking $227M (6%), other $166M (4%). Fuel surcharge $466M is inside these lines.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Broad base: chemicals 20% of Q3 revenue, ag/food 11%, autos 8%, metals 7%, forest 7%; intermodal sold through marketers. No top-customer percentage found in the 10-K text searched (nothing_found), so concentration is low or undisclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Eastern US network linking every major eastern metro (about two-thirds of US population), 70+ ports, about 250 short lines; revenue is in US dollars so little currency exposure. Cross-border and Canadian exposure is minor in the filings read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/pressrelease_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll-road model: rate per carload, container or ton on contracts, plus a fuel surcharge that passes diesel through (surcharge $466M vs fuel expense $451M in Q3). Two sentences explain it; recurring and repeat freight, paid after delivery.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+   "as_of": "2026-02-12"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "High fixed cost: Q3 operating ratio 60.9% (39.1% margin) but about 34.8% adjusted margin a year ago, so true gain is about 430bp, not 880bp. Capex $2,902M in 2025 (21% of revenue) falling to under $2.4B in 2026. Service worsened: Q3 dwell +12% (10.6h), trip-plan performance -12%, velocity -2%. Margin gain came from 1,351 fewer staff (-5.8%) and $73M lower purchased services.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Diesel is the key input: Q3 fuel $451M = 18.4% of opex (11.2% a year ago), locomotive price $4.24 vs $2.54 a gallon; commodity-bought, no single supplier named in CSX filings (tag: oil, diesel, fuel cost). Passed on by surcharge on a 2-month lag for non-intermodal freight: lag cost $36M in Q3 and $129M in 9M 2026 (tag: fuel surcharge lag); intermodal surcharge has no lag per the industry map; falling diesel reverses this in Q1 2027. Labour: about 16,900 union staff on national agreements (tags: wages, labour cost, union contracts); the industry map shows all 12 unions ratified to 2029 at +18.8% over five years, a limit on strike risk. Locomotives and track products come mainly from Wabtec, Progress Rail and L.B. Foster per the industry map (not named in CSX filings; steel and tariff tags). Single points of failure are physical: the Blue Ridge subdivision (Hurricane Helene; $440M rebuilt in 2025, reopened Sept 2025) and Baltimore's Howard Street Tunnel (2025 10-K says work there raised disruption costs $53M; current project status not found in the Q3 10-Q). Verdict: cost passes through but late; the real vulnerability is network resilience, not supplier concentration.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm ; /home/user/abcd/runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and a closed network no one can replicate; 250 short-line connections; rail-to-truck transfer. What is different now: new CEO Steve Angel (ex-Linde, since Sept 2025) is cutting cost, with an activist investor (Mantle Ridge's Paul Hilal) on the board; revenue per unit +7% in Q3 (intermodal +13%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Business-to-business, not a consumer brand, but an essential service people would notice if it stopped. Pricing is the proof: revenue per unit +7% in Q3 against an STB cost index (RCAF) up 8.9% for Q4. Marketing spend per revenue dollar not disclosed (nothing_found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Main rival is Norfolk Southern, which agreed to merge with Union Pacific (the 10-K names it). CSX Q3 volume +5% vs AAR US carloads +2.7% YTD and intermodal +5.1% YTD, so it is gaining on the average, but service metrics are worse than a year ago. A larger UP-NS would be a bigger competitor in the East.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Tight trucking is pushing freight to rail: domestic intermodal wins, Q3 intermodal volume +7%, export coal +7%. But merchandise volume is +3% and AAR carloads faded to +0.5% y/y in the week of Nov 21, while the AAR/NRF data point to softer imports from January. Not yet a big new segment.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF before dividends $2,648M in 9M 2026 (vs $1,066M); LTM about $3.4B. 9M buybacks $1,049M at an average $45.42 (Q3: $48.75 vs $33.07 a year earlier) plus $779M dividends = 69% of FCF. Net debt about $17.2B ($18.8B debt, $1.6B cash); interest $844M a year. Return on invested capital about 13% (my calculation) vs about 8% cost of capital. Management churn: CEO replaced Sept 2025, CFO Oct 2025, tech chief fired May 2026, COO retired Oct 2026. Insiders hold little (director Hilal 1.48M shares, CEO 123k). Pay rewards operating income, margin, trip-plan compliance and economic profit.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000040/csx-20260930.htm ; https://www.sec.gov/Archives/edgar/data/277948/000162828026021944/csx-20260326.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Nobody builds a new eastern rail network; relevance is stable. Threats: coal decline (revenue $1,900M in 2025 vs $2,484M in 2023), truck competition, a bigger UP-NS rival, and new-CEO key-person risk (Angel is 70).",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm",
+   "as_of": "2026-02-12"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filings, clean E&Y opinion and internal controls for 2025, one SEC comment letter in the last three years (March 2024, about the non-GAAP 'Economic Profit' reconciliation, answered by CSX 2024-03-25). Watch items: four senior executive exits in 14 months; $164M goodwill write-off in 2025 on the trucking arm (after $108M in 2024).",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794824000012/filename1.htm",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: volume and price are strong (Q3 revenue +12%, adjusted EPS +30%) but surcharges lag and pass-through revenue squeezes margin percent. Slowdown: volumes (intermodal, coal) fall, fuel costs fall at once while surcharges follow about two months later; costs flex down. Rates: debt $18.8B, 10y 4.85%. Dollar up hurts coal exports.",
+   "source": "/home/user/abcd/runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "CSX opposes the UP-NS merger (STB Finance Docket 36873). Per reporting on its Sept 14 filing, CSX asked for access to Kansas City over UP's St. Louis-Kansas City line (50% ownership and dispatch control of the East St. Louis-Kansas City line and Neff Yard), trackage rights over NS lines in Pennsylvania and New Jersey, and Norfolk port terminal access, and says the deal removes east-west competition. Schedule: comments due Nov 18, 2026; responses Feb 16, 2027; final briefs May 28, 2027; decision unlikely before about Aug 2027. I could not read CSX's Nov 18 filing itself (STB docket search is dynamic; condition details come from FreightWaves/Trains reporting). Outcome cuts both ways: deal approved without conditions leaves CSX facing a bigger rival; conditions would give CSX new western reach. CSX's 10-K only names the merger as a competition fact; the Q3 10-Q text has no merger discussion.",
+   "source": "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000006/csx-20251231.htm ; /home/user/abcd/runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "At $51.16 (close 2026-11-25; market cap $94.3B, EV about $111.5B) a reverse DCF at 10% discount, 3% terminal growth needs owner FCF to grow about 11.7% a year for 10 years from $3.37B LTM (equity basis; 11.6% on an EV basis). Own record: FCF fell from $2.64B (2020) to $1.71B (2025), about $3.3B in 2021-23, so about flat when normalised; operating income CAGR 2020-25 was +0.7%. Price needs 8.4% growth at $40 and 6.9% at $36. Multiples: trailing P/E 26.6x vs own year-end range 15-23x (2020-25, my calculation); EV/EBITDA 15.7x vs UNP 15.5x, NSC 15.3x; FCF yield 3.6%. Stock is +42% from $35.92 at end-2025.",
+   "source": "https://finance.yahoo.com/quote/CSX",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality B, but the price needs about 11.7% a year of FCF growth for 10 years against a flat record, leaves no cushion, and no market mistake is identifiable; borderline for dropped.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "watch_triggers": [
+  "Q4 results (about Jan 21, 2027): did the fuel-lag swing and service metrics (dwell, trip plan) hurt the margin",
+  "A price near $40 (needs about 8.4% FCF growth) would give a cushion",
+  "STB responses Feb 16, 2027 and decision after about Aug 2027 on UP-NS conditions",
+  "Whether Q3 dwell +12% and trip plan -12% recover under the new COO"
+ ],
+ "feedback": [
+  {
+   "regime_signal": "Overheat: rising growth and inflation",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "CSX Q3 revenue +12%, volume +5%, revenue per unit +7%, adjusted EPS +30%; STB Q4 cost index (RCAF) +8.9% q/q is being passed through.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf"
+  },
+  {
+   "regime_signal": "Cheaper fuel helps transport now (Brent -18% in a month)",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "CSX Q3 fuel expense +60% ($451M vs $281M); locomotive price $4.24 vs $2.54; surcharge on a two-month lag cost $36M in Q3 and $129M in 9M; relief shows in Q1 2027, not Q4.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+  },
+  {
+   "regime_signal": "Slowdown priced by markets",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "No slowdown in CSX volumes through Q3 (intermodal +7%, merchandise +3%); soft spots are fertilizer (-13%), domestic coal (-3%), and AAR carloads fading to +0.5% for the week of Nov 21.",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively (business, MD&A, debt, auditor, FCF). Customer concentration, Howard Street Tunnel status: nothing found in text.",
+  "10-Q": "Q3 2026 10-Q read selectively, with XBRL companyfacts for annual series. Q1 and Q2 10-Qs not read in text; Q3 year-to-date figures cover them. Howard Street Tunnel, Union Pacific, STB merger: no mention found in Q3 10-Q text.",
+  "earnings_release": "Q3 2026 8-K EX-99.1 and EX-99.2 (quarterly financial report) read.",
+  "presentation": "Earnings presentation is on investors.csx.com, which I did not fetch; the EX-99.2 quarterly financial report was used instead.",
+  "ir_fact_sheet": "No separate fact sheet found in EDGAR; IR site not fetched.",
+  "def14a": "2026 DEF 14A read for ownership, pay metrics, CEO terms. Ownership table: 5% holders cite old 13G dates (Vanguard 8.85%, BlackRock 7.2%, JPMorgan 5.5%).",
+  "red_flag_scan": "EDGAR 8-K item scan since 2022: no Item 4.01 or 4.02, no NT 10-K/10-Q. CORRESP/UPLOAD: March 2024 non-GAAP comment (resolved); April 2022 proxy-related letter (outside 3 years, headline only). 5.02 events: CEO 2025-09-28, CFO 2025-10-29, CDTO 2026-05-14, COO 2026-10-12.",
+  "price": "yFinance close 2026-11-25 $51.16; yFinance multiples for CSX, UNP, NSC. 5-year P/E range computed from year-end prices and EDGAR net income and diluted shares. STB docket FD 36873 could not be read directly (dynamic search); CSX's Nov 18 filing not read; condition details come from FreightWaves/Trains reporting of the Sept 14 filing."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 51.16,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/CSX"
+ },
+ "complete": true
+}

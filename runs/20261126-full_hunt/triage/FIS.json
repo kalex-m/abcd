@@ -1,0 +1,194 @@
+{
+ "ticker": "FIS",
+ "name": "Fidelity National Information Services",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Subscription / recurring",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Runs the core software and processing that banks, card issuers and capital-markets firms use to operate (accounts, card issuing, trading and risk). Revenue $3.45B in Q3 2026, 82% recurring ($2,831M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue mix: Banking Solutions $2,548M (74%, now incl. Total Issuing Solutions bought from Global Payments 2026-01-09), Capital Market Solutions $823M (24%), Corporate and Other $83M (2%, shrinking non-strategic units).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Banks, card issuers and capital-markets firms; no client was 10% or more of revenue in 2023-2025; clients are large and small banks, so bank consolidation is a stated risk.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "North America $2,686M of $3,454M Q3 revenue (78%); rest mainly UK, Canada, Germany, Australia, India, Ireland; no non-US country above 10%. Strong dollar trims reported revenue (10% GBP move = about $26M a quarter).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Multi-year recurring processing contracts billed on accounts and volumes; $23.5B of contracted future revenue (end 2025); 82% recurring in Q3; the rest is licences and services.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Adjusted EBITDA margin 42.9%, but heavy cash reinvestment: 9M capex and software $799M (7.9% of revenue) and $532M of integration and transformation cost. Guidance record: 2025 met all targets, 2026 cut in August (pro forma 5.1-5.7% to 4.5-5.0%) and again in November (to 3.1-3.6%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: cloud hosting and data centres, third-party software and hardware vendors, engineers and security staff, and debt capital. The filings name no single supplier and give no concentration (nothing found). It also runs its own data centres and private cloud. Single points of failure are outages or cyber events at FIS or a vendor; DORA has designated FIS a Critical Third-Party Provider in the EU. Can it pass costs on? Only partly: 10-Q says it has seen 'significant cost increases from vendors' and 'market conditions limit our ability to fully offset' them. Linked tags: wages (not passed on), rates and hy_spreads (interest expense $199M in Q3 vs $90M a year ago, borne by FIS), dollar (22% of revenue outside North America), regulation (DORA).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Switching costs: a bank's core system is hard to replace and is run under multi-year contracts. Scale after Total Issuing Solutions (Q3 Issuer revenue $662M). New: functional operating model, AI embedded in products, shift to more recurring revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Business-to-business and invisible to consumers, but banks would notice at once if it vanished. No pricing power evidence: filing says smaller and mid-size clients push on price at renewal. Marketing spend not separately disclosed (nothing found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Fiserv, Jack Henry, in-house bank IT, bank-owned vendors, fintech start-ups. FIS Banking pro forma +3.9% in Q3 vs Fiserv Financial segment +2% organic (industry map). Share looks roughly held, no contract win/loss list is disclosed (nothing found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Guide is 3.1-3.6% pro forma revenue growth and 2.9-3.6% pro forma EBITDA growth for 2026. Recurring growth slowed from 5.1% (Q2) to 2.5% (Q3). Upside levers: cross-selling issuing and banking, cost savings; but management says it is shifting toward more recurring revenue, with no quantified target.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF guide $2.15-2.25B (before Worldpay sale taxes; 9M reported FCF $1.38B after $477M of those taxes). Debt $20.8B vs 2026 adjusted EBITDA guide of about $5.6B = 3.7x gross (target 2.8x); weighted rate 3.9%; buybacks paused. Past buybacks were $4.0B in 2024 and $1.4B in 2025 at prices far above today's $27.64. Pay: 94.5% of CEO pay at risk; 2023 PSUs paid 50% of target. Insider ownership not found in the proxy text I searched.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Sticky core with $23.5B contracted revenue, but organic growth has slowed to about 3.7% and management cut its Banking projections during Q3; Banking goodwill ($19.9B) passed its test with only about 7% headroom. Risks: bank consolidation, AI and in-house builds, outages, leaders leaving (chief product technology officer and general counsel left in 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean on formal flags: no 8-K Item 4.01/4.02, no NT filings, no material weakness language found, last SEC comment letters (2024) were about constant-currency disclosure. But adjustments are large: 9M adjusted EPS $4.44 vs GAAP-excluding-Worldpay $1.43; $342M of 'enterprise transformation' cost excluded in 9M 2026 after $326M in 9M 2025; Q4 EPS guide implies a 14-18% y/y fall.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat is the weak spot (vendor cost inflation not fully passed on, interest up, dollar up); slowdown helps through lower rates but credit stress at bank clients is a risk; recurring contracts hold in stagflation. Leverage makes HY spread widening a live concern.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Subject to bank-regulator oversight of vendors, EU DORA critical-provider status, UK critical third-party rules and broker-dealer rules (SEC/FINRA). No pending merger or regulatory docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000013/fis-20251231.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "At $27.64 (market cap $14.2B, EV about $34.4B): P/E 4.7x 2026 adjusted EPS guide ($5.85 midpoint), EV/adjusted EBITDA 6.2x, FCF yield about 15% on $2.2B, dividend yield 6.4%. Reverse DCF at 10% discount and 3% terminal: on EV with $2.7B unlevered FCF (FCF $2.0B after stock pay plus about $0.7B after-tax interest) it needs only about +1% a year for 10 years; on equity with $2.0B owner FCF it prices a fall of about 7% a year. Own history: FCF rose 19% in 2025 ($1.36B to $1.62B); the five-year series is distorted by the Worldpay sale. Peers (yFinance): Fiserv forward P/E 7.5, Global Payments forward 5.9, Jack Henry 22.8. Stock is at its five-year low ($25.65 52-week low vs $68.37 high). Caveat: integration cash costs of about $0.5-0.7B a year sit inside FCF, so the estimate is conservative if they fade, but debt must still be repaid.",
+   "source": "https://finance.yahoo.com/quote/FIS",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "-",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B and the price leaves a large cushion, but the cause of the Q3 growth slowdown, client retention and win/loss data could not be confirmed (no call transcript or IR material), and leverage is 3.7x with 7% goodwill headroom in Banking.",
+ "the_mistake": "Possible: the market prices a sticky 82%-recurring bank-processing base with $23.5B of contracted revenue as if it were in permanent decline (reverse DCF on EV needs only about +1% a year). Not yet proven: the Q3 recurring growth drop from 5.1% to 2.5% is unexplained in the filings, so this stays a hypothesis.",
+ "what_makes_market_notice": "Q4 2026 results and 2027 outlook (expected February 2027, date not confirmed); proof of deleveraging toward 2.8x; the ongoing strategic portfolio review (a prepaid unit sold 2026-10-20 for over $100M); annual Banking goodwill test in Q4.",
+ "feedback": [
+  {
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "as_of": "2026-11-03",
+   "note": "Fiserv Q3 2026: Financial segment organic +2%, banking client attrition reported as improving; confirms bank-core growth is low single digit industry-wide rather than FIS-specific. Contradicts a 'FIS alone is broken' reading, does not confirm a rebound."
+  },
+  {
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+   "as_of": "2026-11-04",
+   "note": "FIS 10-Q: 'significant cost increases from vendors' that it cannot fully offset by pricing, which supports the Overheat cost-pressure read."
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "presentation": "investor.fisglobal.com does not resolve from this session (outside allowed network domains); the Nov 4 8-K carries only EX-99.1. Earnings call transcript not obtained, so the stated reasons for the guidance cut come only from the release and 10-Q (goodwill note: Banking projections reduced 'based on developments in the quarter').",
+  "ir_fact_sheet": "Same IR host unreachable.",
+  "10-Q": "Q3 2026 10-Q read in detail; Q1 and Q2 2026 and Q3 2025 10-Qs not read separately, Q2 2026 release used for the August guide.",
+  "def14a": "2026 proxy: pay design and 2025 FCF reconciliation read; insider ownership table not located in text search.",
+  "red_flag_scan": "EDGAR submissions scanned for 8-K 4.01/4.02/5.02, NT, CORRESP/UPLOAD (last 2024, non-GAAP constant currency). 2026 Items 5.02: new director Jan, CPTO and general counsel departures, one director not standing. Form 4 on 2026-11-10: one open-market buy of 1,800 shares at $29 (about $52k); the other two Form 4s were RSU vesting with tax withholding, not purchases.",
+  "price": "yFinance last close 2026-11-25 sourced as of 2026-11-26 quote; 5-year multiple range not derived (adjusted P/E history not available from yFinance); peers' multiples from yFinance."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 27.64,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/FIS"
+ },
+ "complete": true
+}
