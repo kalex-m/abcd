@@ -1,0 +1,201 @@
+{
+ "ticker": "CP",
+ "name": "Canadian Pacific Kansas City",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Owns the only freight railroad linking Canada, the US and Mexico: about 20,000 route miles and about 20,000 staff; it hauls bulk, merchandise and intermodal freight for a fee and sells nothing else. Two sentences, no ambiguity.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "2025 freight revenue mix: bulk 36% (grain 22%, coal 7%, potash 4%, fertilizer 3%), merchandise 46% (energy/chemicals 20%, metals/minerals/consumer 12%, autos 9%, forest 5%), intermodal 18%. Q3 2026 freight revenue C$4,139M, +15%; grain +29% to C$904M, intermodal +22% to C$815M, coal flat C$254M, potash +9% C$182M (9-month carloads -8% in Q3).",
+   "source": "https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "No single customer was over 10% of revenue in 2025, 2024 or 2023. Domestic intermodal is about 54% of intermodal revenue and 10% of freight revenue. Customer base is broad (grain shippers, miners, chemical makers, automakers, ocean carriers and retailers via intermodal).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "2025 revenue C$15,078M: Canada C$7,243M (48%), US C$5,124M (34%), Mexico C$2,711M (18%); Mexico holds C$11.3B of C$55.7B long-lived assets. By lane, cross-border is 41% of freight revenue (Canada to US 15%, US to Mexico 12%, US to Canada 6%, Mexico to US 5%, Mexico to Canada 2%, Canada to Mexico 1%), domestic 33%, global (ports) 26%. Reports in C$: a C$0.01 weaker C$ adds about C$78M revenue, C$45M costs, C$6M interest a year; Ps0.10 move is worth about C$7M revenue and C$9M cost (small). Heavy tariff/USMCA exposure by design.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-11-01"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll-road model: per-shipment freight rates under master service agreements plus fuel surcharges (C$1,483M of 2025 freight revenue), one operating segment. Revenue is mostly recurring contract/tariff freight, paid after delivery (receivables C$2,245M, about 49 days of Q3 revenue). Cross-check: Q3 freight revenue per RTM +fuel, FX and rates, not only volume.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "High fixed-cost network: 9-month D&A C$1,560M and wages C$2,125M against revenue C$12,084M. Q3 reported OR 64.8% (+130bp, fuel -170bp); core adjusted OR 61.9% vs 59.9% for 2025 and 60.7% Q3 2025. Capex C$3.1B in 2025 (21% of revenue), guided to about C$2.65B in 2026, so FCF is flattered by lower capex. Guidance record: 2025 core EPS +8% vs the 2023 target of double-digit EPS growth (missed); 2026 guide is low double-digit, 9-month core EPS C$3.57 vs C$3.28 (+9%), Q3 +16%.",
+   "source": "https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs and signal tags: (a) diesel (tags oil, diesel, fuel cost, fuel surcharge lag): Q3 fuel expense C$667M vs C$415M (+61%); the surcharge program lifted revenue C$244M against C$216M extra fuel cost, so operating income gained C$28M but OR lost 170bp; supplier is the open fuel market, fuel hedging not confirmed either way in the text read, no supplier named. (b) labour (wages, union contracts): about 75% unionised, 73 bargaining units; TCRC train and engine and traffic controller agreements run to 2027-12-31 at 3% a year after 2025 arbitration; 19 of 63 US units tentative; Mexico agreements annual (one expired 2026-06-30, status not found). (c) locomotives, rail, ties (tags steel, tariffs, capex, dollar): 10-K says it depends on a limited number of key suppliers, multi-year Tier 4 locomotive purchases (US$800M plan), supplier names not given. Single points of failure: the Mexican concession (expires 2047, 1.25% of revenue as duty), border gateways and ports, the one-line Mexico link. Cost pass-through: fuel yes with a lag, labour/steel only through rate increases.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm ; https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Only single-line rail network across the three countries (most western-Canada border crossings, 30+ ports, 30+ auto facilities); the network cannot be copied (it was created by the KCS deal, which the STB approved in 2023). Differently now: Meridian Speedway (Mexico-US Gulf corridor), Mexico grain unit trains (grain to Mexico lifted RTMs 23% in Q3), record Canadian grain, and lowest FRA accident rate among Class Is three years running.",
+   "source": "https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-11-01"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 1,
+   "evidence": "Business to business freight carrier; no consumer brand, no marketing spend line. Customers do notice if it vanished (single-line Mexico access), but there is no brand pricing power beyond network position.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals: CN in Canada, UP/BNSF/CSX/NSC in the US, trucks across the border. Q3 RTMs +6% and carloads +5% vs AAR US carloads +0.5% (week to Nov 21), so CPKC is gaining. It opposes UP-NS (advisory cost C$44M over 9 months); a merged UP-NS would be a stronger competitor for Mexico traffic.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm ; https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-11-21"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Management target 2024-2028: high-single-digit revenue growth, double-digit core EPS growth, ROIC back to double digits (not yet reported); 2026 guide mid-single-digit RTM growth. Mexico revenue C$2,711M in 2025 (+3% vs 2024, after +59% in 2023). Q3 shows mix: US and Canadian grain to Mexico up, but autos from the US Midwest and Mexico down. No dollar synergy target found in the filings or deck read.",
+   "source": "https://s21.q4cdn.com/736796105/files/doc_presentations/2026/11/CPKC-Investor-Presentation_Nov-2026_VF.pdf ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-11-01"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "2025 owner FCF (operating cash C$5,309M less capex C$3,102M) about C$2.2B vs net income C$4.1B. 9-month 2026: operating cash C$4,252M less capex C$2,053M = C$2.2B, but buybacks C$3,388M plus dividends C$644M, so debt rose C$2.7B (C$23.2B to C$25.8B). Net debt/EBITDA about 3.2x on my TTM vs 2.75x company target (about 3.0x at end 2025): re-levering, not deleveraging. Goodwill C$19.1B; ROIC not reported. Directors and officers hold about 2.7M share-equivalents (under 1%). PSUs pay 60% on free cash flow, 20% each on relative TSR; ROIC dropped from the PSU plan until integration is done.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm ; https://www.sec.gov/Archives/edgar/data/16875/000119312526173665/d172022d10ka.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Rail freight is not losing relevance and the cross-border network is hard to replicate; 50-year concession to 2047, renewable. Threats: Mexican government revoking the concession (listed risk), trade barriers, an enlarged UP-NS, a key-person tie to CEO Keith Creel, and an ongoing C$528M Mexican tax dispute now in ICSID arbitration (filed 2026-03-24).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean: Ernst & Young audit with one critical audit matter, no 4.02, no NT filings, no SEC comment letters since 2023, no auditor change since 2021. Watch: reported OR 64.8% vs core adjusted 61.9% (a 290bp gap from purchase-accounting amortisation, merger costs, Mexican tax items); C$94M CRA reassessment in Q3; Lac-Megantic and Remington claims (C$232M estimate for Remington at mid-2025).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: volume (RTM +6%) and surcharges help, percent margins squeezed (fuel -170bp OR); stronger US dollar adds to C$ revenue but also to US-dollar debt in C$ terms. Slowdown: trade-linked cross-border freight and intermodal soften, fuel falling helps costs after a two-month surcharge lag, but debt-funded buybacks leave less margin for error; interest cost already C$704M for 9 months (+9%). Stagflation is the worst case (volume weak, fuel high). Rates: all term debt fixed; new 30-year notes at 5.40-5.50%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Exposures: (1) tariffs/USMCA: 10-K says trade barriers could materially hurt volume, and 41% of freight revenue crosses a border; no USTR-specific CPKC statement found. (2) Mexico: concession risk and C$528M SAT 2014 assessment in ICSID arbitration. (3) UP-NS merger, STB FD 36873: CPKC is an opponent and booked C$17M in Q3 and C$44M over 9 months on STB analysis and advocacy; its own filings in the docket could not be retrieved (stb.gov docket page returned 404), so the stance rests on the 10-Q and the industry file. (4) Canada rail labour law.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000008/cp-20251231.htm ; https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf",
+   "as_of": "2026-11-18"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 1,
+   "evidence": "US$93.19 (2026-11-25), market cap US$81.0B (C$115B at 1.422), net debt C$25.4B, EV about C$141B. Reverse DCF (10% rate, 3% terminal): on TTM owner FCF of about C$2.9B (C$2.2B on 2025 FCF) it needs about 16% a year FCF growth for 10 years (20% on the 2025 base) vs about 0.5% a year 2021-2025 (C$2.16B to C$2.2B) and management's own double-digit EPS target; at 8% growth fair value is about US$50, at 10% about US$58. P/E about 30x TTM GAAP EPS (C$4.33; yFinance 29.9x) vs my year-end range 22-26x (2022-2025: 26.0, 24.4, 25.8, 22.3). EV/EBITDA about 17.8x on my TTM C$7.9B (yFinance 12.7x mixes currencies). Peers P/E (yFinance): CNI 22.0, UNP 23.3, CSX 26.6, NSC 27.4; EV/EBITDA UNP 15.5, CSX 15.7, NSC 15.3.",
+   "source": "https://finance.yahoo.com/quote/CP ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "dropped",
+ "status_reason": "Quality is B, but the price needs about 16% a year free cash flow growth for ten years (history about 0.5%, management's own target double-digit EPS), 30x earnings and debt-funded buybacks: the price assumes more than the business can plausibly deliver.",
+ "the_mistake": "The market is paying for KCS synergies and Mexico runway as if the Q3 headline (+15% revenue, core EPS +16%) were volume: RTMs grew 6%, the rest is fuel surcharge, FX and rates, reported OR rose 130bp, leverage went up (about 3.0x to 3.2x) as buybacks exceeded FCF, and Mexico autos volume fell; this is an over-pricing, not an under-pricing, so nothing to buy.",
+ "what_makes_market_notice": "Q4 2026 results and 2027 guidance (late January 2027; date not yet announced in sources read); Dec 8-9 FOMC; STB UP-NS conditions responses due 2027-02-16 (per industry file); any USTR/USMCA tariff action on Mexico trade.",
+ "feedback": [
+  {
+   "point": "CPKC's own Q3 filing: fuel surcharge revenue rose C$244M against C$216M higher fuel cost, so operating income gained C$28M but OR lost 170bp. Confirms the industry-file read that surcharges cover the fuel bill in dollars and squeeze percent margins.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "point": "Customer/lane signal supports the cross-border story partly: grain to Mexico lifted Q3 RTMs 23% on grain, while autos from the US Midwest and Mexico were lower.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16875/000001687526000033/cp-20260930.htm",
+   "as_of": "2026-10-28"
+  },
+  {
+   "point": "AAR: Mexico carloads and intermodal +5.9% YTD (industry file), consistent with CPKC volume but not independently re-read from AAR.",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-11-21"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "CPKC files 10-K and 10-Q with the SEC (not 40-F/6-K): FY2025 10-K filed 2026-02-26 read selectively (business, risks, labour, geography, FX, supplier risk, audit).",
+  "10-Q": "Q3 2026 10-Q read in detail (revenue by commodity, debt, FX/fuel sensitivities, contingencies). Q1/Q2 2026 and Q3 2025 figures taken from the Q3 release tables and XBRL companyfacts, not read as text.",
+  "earnings_release": "Q3 2026 8-K EX-99.1 (2026-10-28) read in full, including cash flow and non-GAAP tables.",
+  "presentation": "Investor Presentation Nov 2026 (investor.cpkcr.com PDF) read: guidance, long-term targets, lane mix, leverage target.",
+  "ir_fact_sheet": "2026 Investor Fact Book Data Supplement link found on the IR page but not fetched or read; no explicit synergy dollar target found in anything read.",
+  "def14a": "CPKC files a 10-K/A with Part III (pay, ownership) instead of a DEF 14A; 2026-04-23 filing read for PSU metrics and insider ownership.",
+  "red_flag_scan": "Submissions list scanned: no 4.02, no NT filings, no CORRESP/UPLOAD since 2023-04 (older letters not read); last 4.01 was 2021-11. STB docket FD 36873 CPKC filings unreachable (stb.gov page 404, no search tool); read 16 relies on the 10-Q advisory-cost note, the Farm Bureau filing and the industry file.",
+  "price": "yFinance quote, history and peer info; CAD figures converted at USDCAD 1.422; TTM figures and year-end P/E are my own calculations from XBRL/filings; yFinance EV/EBITDA for CP and CNI mixes currencies and was not used."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 93.19,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/CP"
+ },
+ "complete": true
+}
