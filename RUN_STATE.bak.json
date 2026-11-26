@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T09:26:36+00:00",
+  "heartbeat": "2026-11-26T09:26:47+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -217,10 +217,10 @@
         "industry": "railroads"
       },
       "output": "runs/20261126-full_hunt/triage/WAB.json",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T09:26:36+00:00"
     },
     {
       "id": "w4-GATX",
@@ -609,10 +609,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/FIS.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:23:40+00:00"
+      "updated": "2026-11-26T09:26:47+00:00"
     },
     {
       "id": "w4-FISV",
