@@ -1,0 +1,234 @@
+{
+ "ticker": "JPM",
+ "name": "JPMorgan Chase & Co.",
+ "industry": "banks",
+ "company_type": "Stronghold",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Largest US bank: takes deposits, lends, runs card, markets, investment banking, payments and asset management. Q3 managed revenue $50.9B, net income $15.3B, ROTCE 20%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 net revenue: CCB $21.2B (consumer banking, cards, home lending), CIB $22.7B (banking & payments $11.0B, markets & securities services $11.8B), AWM $6.9B, Corporate $0.1B. Segment ROE: CCB 36%, CIB 18%, AWM 45%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 5,
+   "evidence": "Mass consumer base plus corporates and institutions; no single customer dominates. CCB added 650k+ net new checking accounts; CIB is #1 in global IB fees (9.2% wallet share YTD); AWM AUM $5.2T. Top-customer concentration: nothing found in release.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Mostly US; CIB and AWM are global. Dollar +4.8% over 3m (regime) matters for non-US earnings. Revenue-by-region split not extracted from the 10-K; the legal note lists FX, Russia and India matters. Currency sensitivity not quantified here.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 5,
+   "evidence": "Spread plus fees plus trading: Q3 NII $27.1B (+13%), noninterest revenue $23.8B (+3%). FY26 NII guide about $106.2B; NII ex-Markets about $97.2B. Fees (card, asset management, IB, payments) offset rate swings. Two-sentence test passes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/a3q26_earningsxpresentat.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Managed overhead ratio 54% (Q2 47%, Q3'25 52%); expense $27.3B +12% y/y on pay and headcount; FY26 adjusted expense about $108.6B. Banks are people-heavy with high operating leverage to revenue. Guidance hit-rate not measured. Asset-light, no capex burden.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/a3q26_earningsxpresentat.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Critical inputs: deposits (avg $2.73T, +8% y/y; #1 US retail deposit share), wholesale funding (LT debt $460B), regulatory capital (CET1 $304B), card rails and technology, and front-office talent (expense +12% from pay and wage inflation). No single supplier; deposit cost is the key chokepoint. Passes rate changes through to loans quickly and to depositors with a lag (signal tags fed_funds, 2y, hy_spreads, regulation, labour). Wage cost pass-through is partial; HY spread widening raises own funding cost and hits IB and markets.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Scale and breadth: #1 retail deposits for six years, #1 global IB fees, #1 card sales volume; deposits 2.7T and cash/securities $1.5T. Doing differently: building front office (headcount up), retention awards to succession candidates ($20-30M each, June 2026), cut buybacks to $664M net in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "Chase is a daily-use brand: debit and credit card sales volume +10% y/y, active mobile customers +7%. Customers would notice if it vanished. Marketing spend rose y/y (release); marketing per revenue dollar not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals BAC, C, WFC, GS, MS. JPM Q3 revenue +8% y/y against BAC +3%; #1 in IB fees and retail deposits. Share trend inferred from rankings, not a time series.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "AWM client net inflows $263B in Q3, AWM loans +20% y/y, payments and securities services double-digit revenue growth, CIB deposits +10%. Already large (NII $106B), so growth is mid single digit to low double digit, mostly priced.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 20% (21% ex securities loss), YTD 24%; ROTCE FY25 20%; CET1 13.9% vs requirement 11.5% (about $52B above by my calculation: 2.4% x $2.18T RWA). Net payout LTM 61%. Pay: CEO variable pay 88% deferred, 100% PSUs; ROTCE is the company-selected pay measure. FY25 buybacks $31.6B. Bank cash flow is not comparable (operating cash flow -$148B in 2025 from trading balance sheet). Dimon share ownership not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Gaining relevance (deposits and AWM inflows growing). Risks: credit cycle (net reserve build $539M, mostly Wholesale), succession (CFO Barnum to hand to de Best after Q1 2027; Co-Presidents Petno and Rohrbaugh named June 2026; Lake retiring), regulation, rate swings. Key-person risk around Dimon is real but being managed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000407/jpm-20261117.htm",
+   "as_of": "2026-11-17"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "Q3 10-Q: disclosure controls effective, no change in internal control. No 8-K Items 4.01, 4.02, 1.05 or 3.01, no NT filings, no 10-K/A in Nov 2023 to Nov 2026 (my scan of EDGAR submissions). Legal: reasonably possible losses $0 to $1.3B above reserves. SEC comment letters: 3 UPLOAD/CORRESP pairs (2024, 2025, 2026); contents not read. $658M securities loss was labelled discretionary and disclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 4,
+   "evidence": "Overheat: NII up, deposit growth, fees high (+). Slowdown: reserve builds and lower IB and trading, but fees diversify (0 to +). Stagflation: funding cost, credit and securities-loss risk (0 to -). Boom: best case (+). Rate sensitivity: guidance has NII about $28B in Q4. Dollar and input-cost effects small.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/a3q26_earningsxpresentat.htm",
+   "as_of": "2026-10-13"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "GSIB surcharge 5.5% (effective 2028) would fall to 5.2% if re-proposal is adopted; the Basel III re-proposal alone would raise required CET1 about 6%, both together about 4% (firm estimates). Interchange, FX and Russia litigation open; legal range $0-1.3B. No deal-specific docket pending.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026069523/jpm-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $316.74 vs TBV/share $112.64 = 2.81x. At 10% cost of equity and 3% growth that needs a lasting ROTCE of about 22.7% (20.9% at 4% growth). Actual: Q3 20% (21% ex item), 9M26 24% (flattered by a $6.0B Corporate revenue quarter in Q2), FY25 20%. Fair P/TBV at 20.5% is 2.5x ($282, -11%); at 24% it is 3.0x ($338, +7%). P/E 13.3x on TTM EPS $23.85 vs year-end range 9.1x-15.8x (2020-25); year-end 2025 P/TBV 2.94x. Peers: BAC 1.67x, WFC 1.82x, GS 2.35x (sibling files). No cushion.",
+   "source": "https://finance.yahoo.com/quote/JPM",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality A, but 2.81x tangible book already assumes about 22.7% ROTCE against a 20-21% run rate, so no cushion; no clear market mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "stronghold_check": {
+  "verdict": "Confirmed by the numbers. Q3 segment ROE: CCB 36%, CIB 18%, AWM 45%. Streams offset: Q3 CIB net income fell 15% q/q ($8.2B) while AWM stayed $1.8B and CCB revenue rose 9% y/y; NII ex-Markets +6% offsets lower rates; Corporate was -$455M after the securities loss.",
+  "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+  "as_of": "2026-10-13"
+ },
+ "findings": [
+  {
+   "fact": "Securities loss: $658M pretax ($498M after tax, -$0.18 EPS) net investment securities losses in Treasury and CIO, labelled discretionary and a significant item; ex-item EPS $5.75, ROTCE 21%. Cause beyond 'discretionary' (likely balance-sheet repositioning) not stated in the release text read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "meaning": "One-off, not core earnings; EPS vs consensus not verified (analyst numbers excluded).",
+   "confidence": "high"
+  },
+  {
+   "fact": "Q3 EPS $5.57 vs Q2 $7.70: Q2 Corporate net revenue was $6.0B vs $0.1B in Q3; cause of the Q2 item not read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
+   "meaning": "Q2 flatters YTD ROTCE (24%), so use 20-21% as run rate.",
+   "confidence": "medium"
+  },
+  {
+   "fact": "Reserve build $539M (Q3'25: $810M), mostly Wholesale; net charge-offs $2.2B down $389M; card NCO 2.91%, FY26 card NCO guide about 3.2%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "meaning": "Cautious on wholesale credit while consumer credit is fine; matches HY widening.",
+   "confidence": "high"
+  },
+  {
+   "fact": "FY26 NII about $106.2B (YTD $78.2B + Q4 about $28B); adjusted expense about $108.6B; the slides carry a 2027 central-case column (preliminary). Prior-guide change not verified.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/a3q26_earningsxpresentat.htm",
+   "meaning": "NII near the earlier 'about $106B' view; expense growth (+12% y/y in Q3) is the offset.",
+   "confidence": "high"
+  },
+  {
+   "fact": "CET1 13.9% (Q2 14.2%, Q3'25 14.8%) vs 11.5% requirement; RWA up to $2.18T. Basel re-proposal raises required CET1 about 6%, GSIB re-proposal about 4% net.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/a3q26_earningsxpresentat.htm",
+   "meaning": "About $52B of excess capital by my calculation; ratio fell as loans grew 10%, so buybacks were cut (Q3 net $664M vs $31.6B in all 2025).",
+   "confidence": "medium"
+  },
+  {
+   "fact": "Succession: CFO Barnum to be succeeded by Bregje de Best after Q1 2027 reporting (8-K 2026-11-17); Petno and Rohrbaugh Co-Presidents (June 25, 2026); $20-30M retention awards to four executives; Dimon succession date not disclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000241/jpm-20260624.htm",
+   "meaning": "Orderly pipeline, but no CEO date.",
+   "confidence": "high"
+  }
+ ],
+ "feedback": [
+  {
+   "note": "JPM Q3 supports the Overheat hard-data read (loans +10% y/y, NII +13%) while the reserve build, lower buyback and CIB revenue -9% q/q fit the market's Slowdown lean; deposits growing 8%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+   "as_of": "2026-10-13"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K used through the DEF 14A summary and companyfacts; 10-K text not read line by line (geography, customer concentration, risk-factor diff not extracted).",
+  "10-Q": "Q3 10-Q read for capital, legal, regulatory and MD&A; Q1/Q2 only via XBRL facts and the Q3 supplement's 5-quarter table. Not all 4 read in full.",
+  "earnings_release": "Q3 EX-99.1 (2026-10-13) read; supplement EX-99.2 five-quarter tables searched.",
+  "presentation": "Q3 slides (8-K 7.01) read.",
+  "ir_fact_sheet": "The earnings supplement (EX-99.2) served as the fact sheet; no separate IR fact sheet fetched.",
+  "def14a": "2026 proxy searched for pay design and ROTCE; Dimon ownership percentage not extracted.",
+  "red_flag_scan": "8-K items, NT, 10-K/A, 10-Q/A scanned Nov 2023-Nov 2026 via EDGAR submissions; SEC letters (2024-2026) listed, not read (PDF).",
+  "price": "yFinance quote 2026-11-26 (last close 2026-11-25); IBKR not used."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 316.74,
+  "as_of": "2026-11-25 close (quote pulled 2026-11-26)",
+  "source": "https://finance.yahoo.com/quote/JPM"
+ },
+ "complete": true
+}
