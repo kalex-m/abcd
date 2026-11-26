@@ -1,0 +1,198 @@
+{
+ "ticker": "WU",
+ "name": "The Western Union Company",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Cross-border consumer money transfer and bill pay: Consumer Money Transfer (CMT) 85% of Q3 revenue ($857.2M of $1,009.3M), Consumer Services 15%; agents in 200+ countries, ~360,000 locations active in the last 12 months. Money model fits in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 revenue $1,009.3M (-2%): CMT $857.2M (-2%), Consumer Services $152.1M (-2% GAAP, +5% adjusted: bill pay and check cashing up, money orders and media network down). Branded Digital is 32% of CMT revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Mostly migrants sending money home, a fragmented base with no single big customer, but dependent on third-party agents and subagents the company has 'limited legal and practical control' over. No customer concentration figure disclosed (nothing_found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Q3 NA region revenue -7% (adj -6%), EU&CIS 0%, MEASA +6%; FY25 NA -11%, MEASA -20%. 2026 outlook assumes no change in immigration policy, FX or Argentina inflation. Strong dollar hurts translated revenue (EU&CIS FX drag -7% in Q1).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Take-rate per transfer (fee plus FX spread); CMT transactions 72.1M in Q3 (+2%) but revenue -2%, so revenue per transaction is falling as digital (45% of transactions, 32% of revenue) replaces retail. Not subscription; paid per transaction, little recurring lock-in.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Cost of services 66% of Q3 revenue (agent commissions, direct costs); SG&A +13%; Q3 GAAP operating margin 13% vs 20% a year ago (adjusted 18% vs 20%). Capex $130.3M in 9M26 vs $100.7M. Beyond efficiency program cost $37.3M in Q3. Float is small: settlement assets 3,284 = settlement obligations 3,284. Guidance hit rate: 2025 annual incentive paid 0% on revenue and EPS targets (adj revenue -4.7% vs -1% target; adj EPS $1.75 vs $1.80), so 2025 targets were missed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are not physical: (1) ~360k agent locations, long tail, no single agent disclosed as critical; (2) bank accounts and settlement banks (risk if banks de-risk agents); (3) FX and local payout partners; (4) licences (California DFPI suspended the Intermex approval 2026-08-13 and imposed conditions Western Union refused 2026-11-10). Pass-through: limited; the 10-Q says price changes follow competition, price cuts lower margins, rises cost volume. Signal tags: dollar (translation of non-USD revenue, FX gains/losses -$35.6M in 9M26), rates (CP at 4.1%, term loan 5.2%; float income small), wages (retail agent wages and commissions), tariffs (none direct). Lane A tags: dollar +4.8% 3m is a headwind.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Brand recognised in 200+ countries, 360k-location payout network, licences in many jurisdictions, advertising only ~3% of revenue. Doing differently: Beyond strategy (Nov 2025) with digital wallets, stablecoin/digital-asset network, AI in operations, voluntary retirement programme. Edge is eroding where it matters most: NA retail transactions -4% in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Globally known name, 'speed, reliability, trust' per its own 10-K; ~3% of revenue spent on advertising (4% in 2023/24). But pricing power is weak: revenue per transaction falls as it competes with digital rivals.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526061340/wu-20251231.htm",
+   "as_of": "2026-02-20"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Losing share in the US retail corridor: NA revenue -7% and transactions -4% in Q3, CMT retention down 17 bps in 2025. Branded Digital transactions +21% (revenue +8%) while Remitly revenue growth is about +21% (yfinance, context only; Remitly's own filing not read in this triage). Intermex not acquired.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 2,
+   "evidence": "Branded Digital +8% revenue, Consumer Services adjusted +5%, MEASA +6%; stablecoin/digital-asset network is early with no revenue disclosed (nothing_found). Group revenue still down 1% adjusted; 2026 outlook ex-Intermex -2% to -1% adjusted revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "Operating cash flow $321.2M in 9M26 vs $408.3M; capex $130.3M, so owner FCF ~$191M vs dividends $226.5M plus buybacks $65.7M paid. TTM FCF ~$276M vs dividend run rate ~$293M ($0.94 x 312M shares). Net debt about $1.8B (par debt $2,900M less $1,098M cash). Share count down to 312.0M from 315.7M. Insider ownership: no director/officer group figure extracted (BlackRock 11.7%). Pay: 2025 bonus paid 0% on revenue and EPS, max on new digital customers; say-on-pay got only 46% support in 2025. Company's reported 2025 'free cash flow' of $543.7M equals operating cash flow before capex.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 2,
+   "evidence": "ZOOM TEST: not losing relevance in the Zoom sense (total CMT transactions still +2%, Branded Digital transactions +21%, cross-border principal +1% constant currency, 360k active locations), but it is losing economics: revenue per transaction is shrinking, revenue is down 4% in 2025 and ~$1.5B below 2018 ($5.59B to $4.05B), operating cash flow fell from $877.5M (2020) to $543.7M (2025), about -9% a year. The money-transfer need is durable; Western Union's share of the profit from it is not. Key risks: digital rivals, a 1% US excise tax on cash remittances since 2026-01-01, immigration enforcement, bank de-risking.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT 10-K/10-Q, no material weakness found; clean auditor opinion. Flags: GAAP EPS $0.25 vs adjusted $0.42 in Q3 (Beyond programme, acquisition and Russia costs excluded); IMXI threatened litigation over the termination (8-K 2026-11-12); reasonably possible litigation loss about $30M above accruals; SEC comment letter on cash-flow 'other non-cash items' in Sept 2023 (only one in 3 years, closed); CLO retiring 2026-11-02.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526457046/d500072d8k.htm",
+   "as_of": "2026-11-12"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Overheat/late: strong dollar and higher rates are headwinds (translation, 4-5% funding cost on $2.9B debt), but nominal wage growth supports send volumes; slowdown hits migrant employment and send volumes; stagflation squeezes sender budgets and cuts into cash-heavy retail. Rate sensitivity: CP $399M at 4.1% floats; dollar: +4.8% in 3m reduces non-USD revenue; input cost: agent commissions.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "1% federal excise tax on cash-funded remittances in force since 2026-01-01 (OBBBA); Treasury/IRS proposed rules April 2026, not final in the 10-Q. California DFPI blocked the Intermex deal with conditions that 'would have required material changes' to the business model and agent relationships. Immigration policy assumed unchanged in outlook. Heavy AML and licensing regime.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "Price $6.35 (2026-11-25); equity $1.98B; reverse DCF at 10% discount and 3% terminal: TTM FCF ~$276M needs about -7% a year for 10 years to justify the equity value (EV basis about -4%), about the same pace as operating cash flow fell 2020-25 (-9% a year). So the price already assumes continued decline. Multiples: trailing P/E ~6.0, forward ~4.4, EV/EBITDA ~4.9 (yfinance); 5-year monthly closes averaged ~$9.0 (low $5.90); Remitly P/E ~13, PayPal ~11. Dividend yield 14.8% not covered by FCF.",
+   "source": "https://finance.yahoo.com/quote/WU",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Cheap (about 4x forward earnings, price assumes -7%/yr FCF decline) but quality is C, the dividend is not covered by free cash flow, and no mistake is identifiable.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "item": "Q3 CMT revenue -2% with transactions +2% and NA retail transactions -4%: consumer remittance volume is soft in the US corridor, consistent with flat real consumer spending; outlook assumes no immigration-policy change",
+   "direction": "confirms slowdown tilt",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447234/wu-ex99_1.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "item": "Strong dollar: FX translation and FX losses (-$35.6M in 9M26 vs +$25.5M gain) weigh on results",
+   "direction": "confirms dollar headwind",
+   "source": "https://www.sec.gov/Archives/edgar/data/1365135/000119312526447662/wu-20260930.htm",
+   "as_of": "2026-11-04"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively plus XBRL companyfacts; Q1 and Q2 10-Qs not opened separately (9M figures and the Q3 release's 3Q25-3Q26 statistics table used).",
+  "presentation": "IR site ir.westernunion.com not fetched in this triage (not on allow-list; webcast deck not in EDGAR index).",
+  "ir_fact_sheet": "not fetched; IR site not reached.",
+  "def14a": "2026 proxy read for pay, say-on-pay and 5% holders; director/officer group ownership percentage not extracted.",
+  "red_flag_scan": "8-K item list 2023-2026 (no 4.01/4.02; 5.02 = CLO retirement 2026-07-20), no NT filings, CORRESP/UPLOAD last 2023-09 (cash flow disclosure comment).",
+  "price": "yfinance WU close 2026-11-25 $6.35; Remitly/PayPal multiples from yfinance only (not primary). Remitly filings not read; digital comparison vs RELY is context only.",
+  "intermex": "Intermex deal terminated effective 2026-11-12 after California DFPI conditions; no break fee; IMXI threatens suit (8-K 2026-11-12). Original price about $500M cash.",
+  "debt": "Par debt $2,900M: CP $399M (rolls, backed by revolver), 4.75% 2029 $615M, 2.75% 2031 $300M, 6.2% 2036 $500M, 6.2% 2040 $250M, term loan $800M (2024 loan due Dec 2027 refinanced via 2026 delayed-draw loan; new maturity not confirmed), UK facility $36M. 1.35% notes due 2026 repaid. No near-term wall visible; cash $1,098M."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 6.35,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/WU"
+ },
+ "complete": true
+}
