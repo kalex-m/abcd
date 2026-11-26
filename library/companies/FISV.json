@@ -1,0 +1,200 @@
+{
+ "ticker": "FISV",
+ "name": "Fiserv, Inc. (Nasdaq: FISV; CIK 0000798354)",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform plus recurring bank-processing contracts",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Fiserv runs the back-end for banks (account processing, cards, digital banking) and takes card payments for merchants, mainly via the Clover point-of-sale; 2025 revenue $21.2B, operating income $5.8B, 80% of revenue is processing and services under multi-year contracts.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 3,
+   "evidence": "Q3 2026 revenue $5.20B: Merchant $2,521M (Small Business $1,713M, Enterprise $561M, Processing $247M), Financial $2,331M (Digital Payments $914M, Issuing $840M, Banking $577M), Corporate and Other $344M. Product (hardware) revenue $965M, down from $990M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Banks and credit unions (Financial) and small to large merchants plus ISVs, ISOs, bank alliances (Merchant). Many thousands of small clients, so no single-customer risk found in the sections read; 10-K top-customer percentage not located (nothing found). Dodge & Cox 9.3% and Vanguard 11.9% are shareholders, not customers.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "U.S. and Canada 84% of 2025 revenue, international 16% (EMEA, LATAM, APAC). Argentina and Brazil are the largest LATAM exposures; Argentine anticipation revenue fell $56M in Q3 as inflation and rates fell. Argentina remeasurement loss $14M in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Take-rate and account-fee model: percent of card volume plus per-account bank fees, 80% recurring processing and services; merchants pay monthly, banks sign multi-year contracts. Weak spot: Q3 Merchant organic -2% as hardware, data/analytics sales and Argentine anticipation income fell.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 2,
+   "evidence": "Heavy fixed cost base: adjusted operating margin fell to 31.2% from 37.0% on flat revenue (Q3 2026 vs Q3 2025), so operating leverage is working in reverse. Capex incl. capitalized software $1.44B in 9M 2026 (+9%), operating cash flow $3.09B (-25%). Guidance hit rate is poor: 2025 organic guide 10-12% in Feb 2025, cut to 3.5-4% in Oct 2025; 2026 guide 1-3% cut to -1% to 0% in Aug 2026 and EPS $8.00-8.30 cut to $7.20-7.40. Q3 2026 organic growth was flat and 9M was -3%, so the unchanged full-year range needs roughly +4% to +9% in Q4 (my calculation).",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: (1) card-network access and fees (Visa, Mastercard; two suppliers, mostly passed through to merchants; tags regulation, consumer_spending_nominal, inflation); (2) POS hardware bought from third-party vendors, not made in-house (10-K), hardware revenue now falling so partial pass-through only; (3) data centers and cloud (no concentration disclosed; single points of failure are outages, per risk factors); (4) debt funding of $27.1B at about $333M quarterly net interest (tags rates, hy_spreads), not passable to clients, comes out of margin; (5) engineering and operations labor (tag wages), not passed through; Project Elevate savings target raised to $1B from $500M. Strong dollar (tag dollar) trims 16% international revenue. No single input chokepoint, but the cost of debt and labor cannot be passed on and pricing power on hardware is weak.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Switching costs: banks rarely change core processors (Banking and Issuing 25% of segment revenue; net banking attrition down more than 25% year to date) and Clover embeds software, hardware and payments. Scale: $21.2B revenue. What is different now: One Fiserv plan, AI-everywhere cost program, new CEO since June 2026. Edge is intact but no longer widening: share loss in Merchant.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Fiserv is invisible to consumers; Clover terminals are visible to small-business owners but no brand pricing power is shown: Small Business revenue $1,713M vs $1,741M a year earlier (-2%). Would be noticed if it vanished (banks and merchants depend on it) but the brand does not let it charge more than rivals. No marketing-spend line found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Rivals: FIS, Jack Henry (banks); Global Payments/Worldpay, Shift4, Toast, Block/Square, Adyen (merchants). Fiserv Merchant organic -2% in Q3 while Visa payments volume grew 9% (Jul-Sep 2026), so Fiserv is losing share of merchant economics; Financial organic +2% in Q3 after -4% for 9M, first sign of stabilizing.",
+   "source": "/home/user/abcd/runs/20261126-full_hunt/industries/payments.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Clover volume still grows (10-Q: 'global volume growth, including from Clover' offset part of Merchant declines) but Clover revenue and revenue per merchant are not disclosed in the 10-K or 10-Q (nothing found); medium-term growth targets were reiterated in Aug 2026 but not quantified in the filings read. Runway is real (international Clover, ISVs, healthcare) but unproven after two lost years.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 2,
+   "evidence": "Free cash flow (operating cash flow less capex, my calculation) 2025 $4.30B vs 2024 $5.06B; 9M 2026 reported FCF $2.04B vs $2.88B. Debt $27.1B vs cash $545M; net interest 9M $1.05B. Buyback history poor: bought at 2025 prices up to the $238 peak, none in Q3 2026, $500M planned for Q4 at about $60. Insiders own almost nothing (CEO 18,388 shares as of the proxy). Pay: 2026 awards weight relative TSR 30%, adjusted EPS 30%, adjusted revenue 20%, FCF conversion 20%. Leadership churn: CEO Lyons resigned 2026-06-12 (8-K Item 5.02), President Suryadevara resigned 2026-07-07, CLO Rosman left 2026-09-30.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Core processing for banks and merchants remains essential and sticky; volumes, transactions and accounts still grow. Risks: Clover growth stalled, merchant share loss to Toast, Block, Shift4 and others, bank clients lost, three leadership changes in 12 months, leverage of about 4x adjusted EBITDA (my estimate), customers with $27B debt exposure to rates. Not losing relevance, but not gaining it either.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 2,
+   "evidence": "No 4.01, 4.02, NT filing, material weakness, or SEC comment letter found (EDGAR list, 10-K Item 9A effective, Deloitte since 1985). Flags: securities class action over Clover growth claims (class period 2024-07-22 to 2025-07-24) plus a second class period to 2025-10-29 and derivative suits; goodwill impairment of $6.45B; heavy non-GAAP: 9M adjusted EPS $5.38 vs GAAP loss per share $(8.90), and Q3 adjusted EPS $1.75 vs GAAP $(11.17); amortization of acquired intangibles alone is $576M per quarter. Related-party fees are small ($26M Q3).",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Boom: good (volume and Clover). Overheat (now): nominal volume helps, but $27B of debt costs more and the dollar trims 16% international revenue; Argentina disinflation cuts anticipation revenue. Stagflation: bank-processing base holds, merchant volume softens. Slowdown (markets pricing it): small-business volume and hardware sales weaken first, levered balance sheet; net interest expense fell to $333M from $422M (debt paid down) which helps. Rates, dollar and cost sensitivity all lean negative.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Payment regulation (interchange, debit routing, Credit Card Competition Act pending) affects acquirer and issuer economics; Regulation II debit cap vacated 2026-10-26 per the payments map (helps bank clients). Ongoing: securities class actions, derivative suits, possible estimated loss range $0 to $160M beyond accruals of $25M (10-K, Dec 2025). No tariff exposure beyond POS hardware sourcing. No pending deal docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000009/fi-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "$59.78 (2026-11-25 close), market cap $31.8B, EV about $58.3B (my calculation). Reverse DCF at 10% discount, 3% terminal, 10 years on trailing FCF of about $3.4B: price implies FCF falling about 3% a year for 10 years; own last-5-year FCF grew about 6% a year (2020 $3.25B to 2025 $4.30B). Multiples: about 8.2x 2026 adjusted EPS midpoint $7.30, about 9.7x adjusted operating income (my calculation), FCF yield on market cap about 11%; peak price $237.79 within 5 years (about 23x 2025 EPS guide) and the stock was $47.40 a month ago. Peers: FIS about 6x 2026 adjusted EBITDA (payments map). The cushion is real if FCF stabilizes, but adjusted EPS adds back about $2.3B a year of amortization.",
+   "source": "https://finance.yahoo.com/quote/FISV",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is below B (earnings power and execution unproven) so it cannot survive; no kill-switch rule holds (FCF positive, no 4.02, debt maturities covered by cash flow), and price leaves a cushion at about 8x adjusted EPS.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "hypothesis_not_confirmed": "Candidate mistake: the market treats Fiserv as one melting business, while Financial Solutions (38% margin) turned to +2% organic in Q3 and banking attrition is down more than 25%. Not confirmed: the full-year guide needs roughly +4% to +9% organic growth in Q4 versus flat in Q3, so a third guidance miss is a live risk. Test: Q4 and full-year results (expected February 2027, date not confirmed in filings) and the $500M Q4 buyback.",
+ "answer_to_lead": "Rebound view: both. The 26% month gain (47.40 to 59.78) from a depressed base looks like partial relief, not proof of recovery: Q3 organic growth was flat, 9M -3%, adjusted margin 31.2% vs 37.0%. The earlier low did over-punish on cash flow (implied FCF decline of about 7% a year at $47, my calculation), but adjusted EPS flatters. Goodwill: $6.45B charge in 9 of 10 reporting units after share-price decline, Merchant units $3.69B and Financial units $2.76B (my sums), discount rates 14% to 18%; the unit with the thinnest remaining cushion is Reporting Unit 3 (Financial, goodwill $1.8B, cushion about 10%), so a further impairment is possible. No Clover revenue or revenue per merchant is disclosed. No 13D or approach at Fiserv found (only passive 13G holders: Vanguard 11.9%, Dodge & Cox 9.3%, BlackRock 7.5% per the April 2026 proxy).",
+ "feedback": [
+  {
+   "regime_signal": "Late Overheat with falling inflation abroad",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Fiserv Merchant revenue fell $56M in Q3 on lower Argentine anticipation revenue, 'attributed to lower inflation and interest rates'; real-economy price effects show up in Fiserv's emerging-market income.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm"
+  },
+  {
+   "regime_signal": "Consumer weaker than nominal data (real spending flat)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Small Business revenue -2% to $1,713M and hardware revenue lower, offset only by volume growth; Visa Jul-Sep volume +9% nominal so Fiserv's merchant base is growing slower than the network.",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K (filed 2026-02-19): business, segments, legal note, controls and audit report read via text search; risk-factor section read only selectively.",
+  "10-Q": "Q3 2026 10-Q read in detail; Q1 and Q2 2026 covered through their earnings releases and XBRL, not full 10-Q text.",
+  "earnings_release": "Q3 2026 release (EX-99.1) read in full; Q4 2025, Q1 and Q2 2026 and the 2025 releases read for guidance history.",
+  "presentation": "Q3 8-K carries no EX-99.2; investors.fiserv.com returned HTTP 403 through the proxy, so the slide deck and May 2026 investor-day medium-term targets were not read.",
+  "ir_fact_sheet": "IR site returned 403; no supplemental data (Clover revenue, merchants, volume) read. Clover revenue and revenue per merchant are not in the filings read.",
+  "def14a": "DEF 14A filed 2026-04-02: ownership table and 2026 PSU metrics read; full pay tables not read.",
+  "red_flag_scan": "EDGAR filing list since 2023: no 8-K Item 4.01 or 4.02, no NT 10-K or NT 10-Q, no CORRESP or UPLOAD letters returned (nothing found for those); several Item 5.02 (CEO change 2026-06, President 2026-07, CLO 2026-09, new director 2026-10, CFO and co-presidents 2025-10); legal note shows class and derivative suits.",
+  "price": "yFinance quote 2026-11-26 (last close 2026-11-25 $59.78); peers' multiples from the payments map, not recomputed."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 59.78,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/FISV"
+ },
+ "complete": true
+}
