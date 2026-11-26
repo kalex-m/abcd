@@ -1,0 +1,675 @@
+{
+  "industry": "banks",
+  "as_of": "2026-11-26",
+  "complete": true,
+  "how_money_flows": "US banks take in money as deposits (about $19.8 trillion across all US commercial banks in the Fed's weekly H.8 data, week of Nov 11) and borrow in wholesale markets, then earn money three ways. (1) Spread: they lend and buy securities at higher rates than they pay depositors; this is net interest income (NII), measured as net interest margin (NIM). Loans are about $14.3 trillion and securities about $5.9 trillion. (2) Fees: cards and payments, wealth and asset management, investment banking, custody and service charges. (3) Trading: the big investment banks (GS, MS, and the trading desks at JPM, BAC, C) earn client trading and financing revenue that swings with market volume and volatility. Offsetting costs are credit losses (charge-offs and reserve builds), staff and technology, deposit interest, and the capital that regulators force them to hold. Right now the picture is: NII is still growing (JPM +13%, BAC +8%, C +14%, USB +6%, CFG +13% year on year in Q3) because old low-yield loans and bonds keep repricing up while deposit costs fell over the past year. But deposit costs ticked up 2-3 basis points in Q3 at TFC, HBAN, KEY, CFG and COF, the first sign that the Fed's hiking bias is reaching deposit prices. Credit is fine in aggregate (net charge-offs flat or falling at most banks) but reserves are being built at the wholesale-heavy banks (JPM +$539M, C +$369M, GS provision $368M, up 261% from Q2) and released at consumer and regional banks (COF, PNC, TFC, BAC consumer). Trading is the swing line: equities trading is at record-level (GS +72% year on year, MS +41%) while fixed income fell (GS FICC -24% from Q2), and that is the piece the market is selling. The cycle: loan growth is 6-9% annualized, spreads on high-yield bonds are widening (3.72%), the Fed leans to hike on Dec 8-9, and the 10-year is 4.85%. A hike with a slowing consumer is the squeeze: funding costs rise before loan growth does.",
+  "value_chain": {
+    "inputs": [
+      {
+        "input": "Deposits (consumer, small business, corporate operating cash)",
+        "suppliers": [
+          "US households and companies",
+          "Sweep programs at SCHW, MS",
+          "Brokered and wholesale deposits"
+        ],
+        "concentration": "Top-4 money-centre banks hold a large share; H.8 shows the 25 largest domestic banks as a separate group. Deposit gathering is local and sticky for the retail franchises; corporate deposits are rate-sensitive.",
+        "signal_tags": [
+          "fed_funds",
+          "2y",
+          "real_spending"
+        ],
+        "pass_through": "Banks pay a fraction (beta) of any Fed move to depositors. Q3 2026 cost of total deposits: TFC 1.59% (+3bp QoQ), HBAN 1.90% (+2bp), KEY 1.66% (+3bp), COF interest-bearing deposit rate 2.94% (+3bp). Costs are rising slightly while the Fed leans to hike; asset yields reprice with a lag.",
+        "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+        "as_of": "2026-09-30 (filed Oct 2026)"
+      },
+      {
+        "input": "Wholesale funding and capital markets (FHLB advances, bonds, repo, preferred)",
+        "suppliers": [
+          "Institutional investors",
+          "Federal Home Loan Banks",
+          "Money-market funds"
+        ],
+        "concentration": "Diffuse; large banks issue regularly. Matters most to trading banks (GS, MS) and card lenders using securitisation (COF, SYF).",
+        "signal_tags": [
+          "hy_spreads",
+          "fed_funds"
+        ],
+        "pass_through": "Wider credit spreads raise issuance cost; HY OAS 3.72% is the widest of 2026 (+105bp since August). TFC's average long-term debt cost was 4.73%.",
+        "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2 ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+        "as_of": "2026-11-24"
+      },
+      {
+        "input": "Regulatory capital (CET1)",
+        "suppliers": [
+          "Shareholder equity, retained earnings"
+        ],
+        "concentration": "Set by the Fed, FDIC and OCC. Large banks must hold CET1 above minimum plus stress capital buffer (SCB) plus, for the eight global systemic banks, a surcharge.",
+        "signal_tags": [
+          "regulation"
+        ],
+        "pass_through": "Capital ratios fell year on year at BAC (11.6% to 10.9%), WFC (11.0% to 10.0%), PNC (10.7% to 9.8%), MTB (10.99% to 10.16%), SYF (14.3% to 12.9%) as buybacks outran earnings retention. Rule changes (see structure) are set to lower requirements modestly.",
+        "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm ; https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm ; https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm ; https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm",
+        "as_of": "2026-09-30"
+      },
+      {
+        "input": "Labour and technology (including AI spend, core processing vendors)",
+        "suppliers": [
+          "Core processors: FIS, Fiserv (FISV), Jack Henry",
+          "Cloud and software vendors",
+          "Staff"
+        ],
+        "concentration": "Three core-processing vendors serve most small and mid-size banks; big banks build in-house.",
+        "signal_tags": [
+          "wages",
+          "software_capex"
+        ],
+        "pass_through": "Efficiency ratio (costs divided by revenue) is the pass-through test: JPM 54%, USB 55.9%, MTB 54.4%, RF 56.2%, BAC 66% (62% excluding a $1.2B settlement charge), WFC 63%, MS 67%.",
+        "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm ; https://www.sec.gov/Archives/edgar/data/1281761/000128176126000063/rf-2026930xexhibit991.htm ; https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+        "as_of": "2026-09-30"
+      }
+    ],
+    "industry_layer": {
+      "who_makes_what": "Money-centre universal banks (JPM, BAC, C, WFC) run consumer deposits, cards, mortgages, commercial lending, markets and wealth. Trading and wealth houses (GS, MS, SCHW) earn trading, advisory, asset-management fees and sweep-cash spread. Super-regionals and large regionals (USB, PNC, TFC, FITB, MTB, HBAN, KEY, RF, CFG) are mostly spread lenders to local businesses, commercial real estate (CRE) and consumers. Card lenders (COF, SYF; AXP as payments plus lending) earn very high margins and take high credit losses (COF NIM 8.41%, SYF 15.50%). Custody banks (BNY, STT, NTRS) earn fees for holding and servicing client assets, with low NIMs (STT 1.12%, NTRS 1.83%).",
+      "chokepoints": [
+        "Deposit franchise (cheap, sticky deposits are the scarce input)",
+        "Regulatory capital and the stress capital buffer",
+        "Card-network and processing rails (Visa, Mastercard, FIS, Fiserv)",
+        "Primary dealer and underwriting access for trading banks",
+        "Merger approvals (regional consolidation: FITB-Comerica done, HBAN's large acquisition done, VLY-Providence pending)"
+      ],
+      "capacity": "Not capacity-constrained in the plant sense; the limit is capital and balance sheet. H.8: loans and leases $14.26T, deposits $19.83T, securities $5.87T, total bank credit $20.13T (week of Nov 11, 2026).",
+      "locations": "US-wide; the four money-centre banks are in New York and Charlotte, San Francisco (WFC). Regionals cluster by region (Midwest/Southeast: HBAN, FITB, KEY, RF, TFC; Northeast: MTB, CFG; West/Midwest: USB, PNC).",
+      "sources": [
+        "https://www.federalreserve.gov/releases/h8/current/default.htm",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+        "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm"
+      ]
+    },
+    "customers": [
+      {
+        "segment": "Households (cards, mortgages, auto, deposits)",
+        "big_buyers": [
+          "Consumers via JPM Chase, BAC, WFC, COF, SYF"
+        ],
+        "share_of_revenue": "Varies: card lenders ~all; JPM consumer and card is the largest single segment of net revenue (about $50.9B managed total in Q3). Credit cards $1.10T of H.8 loans.",
+        "signal_tags": [
+          "real_spending",
+          "labour",
+          "10y"
+        ],
+        "source": "https://www.federalreserve.gov/releases/h8/current/default.htm ; https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm"
+      },
+      {
+        "segment": "Corporations and middle-market (C&I loans, treasury services, capital markets)",
+        "big_buyers": [
+          "Large corporates, private-equity-owned firms, AI and data-centre borrowers"
+        ],
+        "share_of_revenue": "C&I loans $3.02T on H.8. JPM markets-excluded NII $24.7B plus IB fees +14% year on year.",
+        "signal_tags": [
+          "ism",
+          "gdp",
+          "hy_spreads"
+        ],
+        "source": "https://www.federalreserve.gov/releases/h8/current/default.htm ; https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm"
+      },
+      {
+        "segment": "Commercial real estate (office, multifamily, construction)",
+        "big_buyers": [
+          "Developers and landlords, financed by regionals (HBAN CRE loans $23.1B), money-centres"
+        ],
+        "share_of_revenue": "CRE loans $3.16T on H.8, growing 5.1% annualized in October.",
+        "signal_tags": [
+          "cre_prices",
+          "10y"
+        ],
+        "source": "https://www.federalreserve.gov/releases/h8/current/default.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm"
+      },
+      {
+        "segment": "Investors and asset managers (trading, prime brokerage, wealth, custody)",
+        "big_buyers": [
+          "Hedge funds, asset managers, wealthy households"
+        ],
+        "share_of_revenue": "GS equities $6.4B plus FICC $3.5B plus IB $3.2B in Q3; MS wealth client assets $10.5T.",
+        "signal_tags": [
+          "vix",
+          "equity_prices",
+          "hy_spreads"
+        ],
+        "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm ; https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm"
+      },
+      {
+        "segment": "Government and securities book (Treasuries, agency MBS)",
+        "big_buyers": [
+          "US Treasury (as the issuer banks buy from)"
+        ],
+        "share_of_revenue": "Banks hold $4.85T Treasury and agency securities (MBS $2.74T). Rising long yields cut their market value (PNC AOCI -$6.5B; FITB AOCI -$4.9B).",
+        "signal_tags": [
+          "10y",
+          "curve"
+        ],
+        "source": "https://www.federalreserve.gov/releases/h8/current/default.htm ; https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm ; https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm"
+      }
+    ]
+  },
+  "cycle_position": {
+    "capacity": "Balance-sheet capacity is not binding: H.8 loans grew 8.1% annualized in Q2, 6.2% in Q3 and 8.9% in October (C&I 11.7%, CRE 5.1%, cards 5.3%, deposits 9.6%). Capital cushions are thinner than a year ago at BAC, WFC, PNC, MTB, SYF but regulators are proposing lower requirements.",
+    "pricing": "NII still rising on repricing: NIM Q3 vs Q2 vs Q3 2025: USB 2.84/2.79/2.75; PNC 2.94/2.96/2.79; TFC 3.00/2.98/3.01; HBAN 3.25/3.21/3.13; RF 3.68/3.66/3.59; MTB 3.65/3.70/3.69; WFC 2.43/2.43/2.61. Deposit costs have started to rise (+2 to +3bp QoQ). Fed's hiking bias plus 2y at 4.61% vs fed funds midpoint 3.875% mean markets price higher rates ahead.",
+    "inventories": "Credit quality is the inventory analogue. Net charge-offs: USB 0.51% (down), MTB 0.35% (up from 0.23%), HBAN 0.31% (up from 0.25%; nonperforming assets 0.90% up from 0.60% a year ago), TFC 0.77% (includes 39bp from a one-off loan sale), CFG 0.37% (flat), RF 0.29% (down). Fed delinquency data (Q2): all loans 1.42%, cards 2.85%, CRE 1.53%, all slightly lower. Reserves: built at JPM and C wholesale, released at COF ($225M), PNC (ACL ratio 1.42% from 1.61%) and TFC.",
+    "capex": "Technology and AI spend plus branch build-outs; acquisitions are the main capital deployment (FITB-Comerica closed, HBAN's large deal closed, TFC selling LightStream $7.7B to Carlyle and RAC loans, VLY buying Providence). Buybacks are large: GS $3.0B, BAC $6.0B, WFC $2.5B in Q3.",
+    "where_now": "Late-cycle earnings peak with a credit turn not yet visible in charge-offs. Hard-data regime is Overheat (good for banks: loan demand and NII), markets are pricing Slowdown (bad: spreads widening, trading volumes at risk, CRE weak). The Oct SLOOS shows CRE standards tightened and demand weaker for C&I and CRE, cards demand stronger; this conflicts with H.8 loan growth still at 6-9% annualized, a sign that credit lines are being drawn rather than new demand. Watch the Dec 8-9 FOMC.",
+    "sources": [
+      "https://www.federalreserve.gov/releases/h8/current/default.htm",
+      "https://www.federalreserve.gov/data/sloos/sloos-202610.htm",
+      "https://www.federalreserve.gov/releases/chargeoff/delallsa.htm",
+      "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm",
+      "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+      "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+      "https://www.sec.gov/Archives/edgar/data/36270/000003627026000057/ex991release3q26.htm",
+      "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+    ]
+  },
+  "structure": {
+    "concentration": "Four banks (JPM $841B market cap, BAC $335B, WFC $243B, C $188B) hold most large-bank assets. Behind them are GS, MS, SCHW, then 9 large regionals and 3 custody banks. The 25 largest domestic banks are tracked separately by the Fed. Regional consolidation is ongoing.",
+    "pricing_power": "Mixed. Deposit pricing is competitive and rate-driven; card lenders have strong pricing (NIM 8.41% at COF, 15.50% at SYF), custody and wealth have fee power, trading is a volume business. Net: spread income is rate-dependent, fee income is market-dependent.",
+    "barriers": "Charters, capital, and compliance cost are high; deposit gathering takes decades. Barrier to take share in cards and payments is lower (fintechs, networks).",
+    "regulation": "Capital: three proposals on Mar 19, 2026 (Basel III final pieces for the largest banks; a standardized-approach rewrite for others; a change in the global-systemic-bank surcharge); the agencies say these would modestly reduce capital requirements; comments closed Jun 18, 2026; I found no final rule through Nov 26. Stress capital buffer: final rule published Oct 2, 2026 averages the last two stress tests and moves the effective date to Jan 1; Fed says 2026 stress test results did not reset SCBs (held until 2027), all 32 banks stayed above minimums with aggregate CET1 minimum 11.2%.",
+    "sources": [
+      "https://www.fdic.gov/news/press-releases/2026/agencies-request-comment-proposals-modernize-regulatory-capital-framework",
+      "https://www.federalregister.gov/documents/2026/10/02/2026-20246/modifications-to-the-capital-plan-rule-and-stress-capital-buffer-requirement",
+      "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm"
+    ]
+  },
+  "key_numbers": [
+    {
+      "metric": "US bank loan growth (H.8, annualized, seasonally adjusted)",
+      "why_it_matters": "Shows loan demand: the main driver of NII growth and a read on the real economy (ISM, GDP).",
+      "latest": "Total loans Oct 2026 +8.9% (Sep +7.8%, Aug +9.2%); Q3 +6.2%; C&I Oct +11.7%; CRE Oct +5.1%; cards Oct +5.3%; deposits Oct +9.6%",
+      "prior": "Q2 2026 total loans +8.1%; Q1 +8.3%; 2025 +5.4%",
+      "source": "https://www.federalreserve.gov/releases/h8/current/default.htm",
+      "as_of": "2026-11-20 release (data to Nov 11)"
+    },
+    {
+      "metric": "Net interest margin (NIM, Q3 2026)",
+      "why_it_matters": "NIM is the spread income per dollar of earning assets; it drives about half of revenue at most banks.",
+      "latest": "USB 2.84%, PNC 2.94%, TFC 3.00%, HBAN 3.25%, FITB 3.34%, MTB 3.65%, RF 3.68%, KEY 2.95%, CFG 3.19%, WFC 2.43%, JPM net yield 2.48% (3.70% excluding Markets), BAC 2.16%, SCHW 3.04%, COF 8.41%, SYF 15.50%",
+      "prior": "Q2 2026 / Q3 2025: USB 2.79/2.75; PNC 2.96/2.79; TFC 2.98/3.01; HBAN 3.21/3.13; MTB 3.70/3.69; RF 3.66/3.59; WFC 2.43/2.61; JPM 2.40/2.45; COF +40bp yoy; SYF -12bp yoy",
+      "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm ; https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm ; https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+      "as_of": "2026-09-30"
+    },
+    {
+      "metric": "Cost of deposits (deposit beta proxy)",
+      "why_it_matters": "Rising deposit cost against falling asset yields squeezes margin; beta (share of Fed moves passed to depositors) is the test during hikes.",
+      "latest": "TFC 1.59% (+3bp QoQ); HBAN 1.90% (+2bp QoQ, -10bp yoy); KEY 1.66% (+3bp QoQ, -31bp yoy); COF interest-bearing deposit rate 2.94% (+3bp); CFG total deposit costs +3bp QoQ. A beta in percent was not published by these banks; I did not compute one.",
+      "prior": "Year-ago: HBAN 2.00%; KEY 1.97%",
+      "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/759944/000075994426000206/a3q26earningsrelease.htm",
+      "as_of": "2026-09-30"
+    },
+    {
+      "metric": "Net charge-off rate (Q3 2026)",
+      "why_it_matters": "Credit losses are the main swing against NII; card and CRE are the stress points.",
+      "latest": "JPM card 2.91% (firm NCOs $2.2B, down $389M yoy; reserve build $539M); USB 0.51%; TFC 0.77% (0.38% ex-RAC sale); HBAN 0.31%; FITB 0.31%; MTB 0.35%; CFG 0.37%; RF 0.29%; GS 0.3%; AXP write-off 1.8%; COF domestic card (Oct, monthly) 4.02% with 30+ day delinquency 3.87% (Oct 2025: 4.77% and 3.99%); COF NCOs $3.1B (about 2.7% annualized, my calculation on $462.5B loans); Fed all-bank delinquency: cards 2.85%, CRE 1.53% (Q2)",
+      "prior": "Q2: USB 0.53; TFC 0.50; HBAN 0.25; MTB 0.23; RF 0.42; AXP 1.9 yoy",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm ; https://www.federalreserve.gov/releases/chargeoff/delallsa.htm ; https://www.sec.gov/Archives/edgar/data/927628/000092762826000160/ex991october2026creditmetr.htm",
+      "as_of": "2026-09-30"
+    },
+    {
+      "metric": "CET1 ratio (Q3 2026)",
+      "why_it_matters": "Cushion above regulatory minimum; decides how much banks can buy back and lend.",
+      "latest": "JPM 13.9%, MS 14.9%, COF 13.8%, SYF 12.9%, C 12.8%, KEY 11.1%, STT 11.0%, BAC 10.9%, RF 10.8%, USB 10.8%, TFC 10.7%, CFG 10.5%, MTB 10.16%, HBAN 10.1%, FITB 10.02%, WFC 10.0%, PNC 9.8%",
+      "prior": "Year ago: BAC 11.6%, WFC 11.0%, PNC 10.7%, MTB 10.99%, SYF 14.3%, C 13.3%",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm ; https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm ; https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+      "as_of": "2026-09-30"
+    },
+    {
+      "metric": "Efficiency ratio (Q3 2026)",
+      "why_it_matters": "Costs per dollar of revenue: shows operating leverage and how much room there is if revenue slows.",
+      "latest": "JPM 54%, COF 54.2%, MTB 54.4%, USB 55.9%, RF 56.2%, PNC 57%, C 58.5%, GS 60.5%, CFG 60.0%, HBAN 61.2%, WFC 63%, BAC 66% (62% adjusted), MS 67%, TFC 82.9% reported (one-off $1.4B securities loss)",
+      "prior": "Q2: USB 57.1, WFC 60, C 57.4; Q3 2025: C 64.7, WFC 65",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm ; https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+      "as_of": "2026-09-30"
+    },
+    {
+      "metric": "Capital-markets revenue mix (GS, MS, BAC)",
+      "why_it_matters": "The market is selling banks where trading is a large share; this shows which line is peaking.",
+      "latest": "GS Q3: equities $6,441M (+72% yoy, -13% QoQ), FICC $3,471M (-1% yoy, -24% QoQ), investment banking $3,224M (+21% yoy, -5% QoQ); MS equity $5,799M, fixed income $2,011M, IB $2,159M; BAC sales and trading $5.1B (-5% yoy), IB fees $1.8B (-11% yoy)",
+      "prior": "MS Q3 2025: equity $4,116M, FI $2,169M, IB $2,108M",
+      "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm ; https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+      "as_of": "2026-09-30"
+    }
+  ],
+  "regime_sensitivity": {
+    "boom": "Best case: loan demand, trading, advisory and fees all grow, credit losses are low and capital is released. Money-centre and trading banks lead.",
+    "overheat": "Usually a winner: NII widens as asset yields reprice up, loan growth strong, fee and trading revenue high. The risk is a Fed hike cycle that raises deposit costs faster than asset yields and unrealized losses on bond books (AOCI at PNC, FITB). This is the current hard-data read.",
+    "stagflation": "Mixed to bad: deposit costs and funding rise, credit quality erodes with high inflation and weak growth, trading volume can rise on volatility but advisory and IB drop; securities losses and CRE stress.",
+    "slowdown": "Credit-sensitive: charge-offs and reserve builds rise (card, CRE, leveraged loans), loan demand falls, trading and IB fall, but falling long yields help securities values and a flat deposit cost helps NIM. Diversified banks with fees (JPM, MS wealth, custody) hold up better; card and CRE-heavy lenders worst."
+  },
+  "companies": [
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial",
+      "company_type": "Turnaround",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (insider buying, behaviour-change-4)",
+      "market_cap_usd_bn": 57.4,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares",
+      "company_type": "Cyclical",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (insider buying, behaviour-change-4)",
+      "market_cap_usd_bn": 30.0,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs",
+      "company_type": "Cyclical",
+      "business_model": "Other (investment banking, trading and wealth fees on top of a balance sheet)",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6, price-action-5)",
+      "market_cap_usd_bn": 231.0,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "company_type": "Stalwart",
+      "business_model": "Other (investment banking, trading and wealth fees on top of a balance sheet)",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6, price-action-5)",
+      "market_cap_usd_bn": 261.9,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6, markets-3)",
+      "market_cap_usd_bn": 334.9,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One",
+      "company_type": "Cyclical",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6, price-action-5, markets-3)",
+      "market_cap_usd_bn": 109.8,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab",
+      "company_type": "Fast grower",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6)",
+      "market_cap_usd_bn": 161.3,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo",
+      "company_type": "Turnaround",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6)",
+      "market_cap_usd_bn": 243.0,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "USB",
+      "name": "U.S. Bancorp",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6)",
+      "market_cap_usd_bn": 91.2,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "PNC",
+      "name": "PNC Financial",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6)",
+      "market_cap_usd_bn": 87.4,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase",
+      "company_type": "Stronghold",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6: pull JPM separately); market cap",
+      "market_cap_usd_bn": 841.1,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup",
+      "company_type": "Turnaround",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "routed lead (divergence-6: pull C separately); everyday brand",
+      "market_cap_usd_bn": 187.6,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "SYF",
+      "name": "Synchrony Financial",
+      "company_type": "Cyclical",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "card lender named in brief scope",
+      "market_cap_usd_bn": 21.4,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "large regional; market cap",
+      "market_cap_usd_bn": 46.7,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "large regional; market cap",
+      "market_cap_usd_bn": 30.9,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "KEY",
+      "name": "KeyCorp",
+      "company_type": "Turnaround",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "large regional",
+      "market_cap_usd_bn": 21.4,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "large regional",
+      "market_cap_usd_bn": 23.6,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial Group",
+      "company_type": "Cyclical",
+      "business_model": "Spread / balance sheet",
+      "triage": true,
+      "why_listed": "large regional",
+      "market_cap_usd_bn": 25.9,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "BNY",
+      "name": "BNY (Bank of New York Mellon; yFinance ticker BNY, SEC CIK 1390777)",
+      "company_type": "Stalwart",
+      "business_model": "Toll road / network",
+      "triage": true,
+      "why_listed": "custody bank in brief scope; market cap",
+      "market_cap_usd_bn": 99.0,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "STT",
+      "name": "State Street",
+      "company_type": "Stalwart",
+      "business_model": "Toll road / network",
+      "triage": true,
+      "why_listed": "custody bank in brief scope",
+      "market_cap_usd_bn": 44.1,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "NTRS",
+      "name": "Northern Trust",
+      "company_type": "Slow grower",
+      "business_model": "Toll road / network",
+      "triage": false,
+      "why_listed": "custody bank; past triage cap",
+      "market_cap_usd_bn": 30.4,
+      "everyday_brand": false,
+      "us_listed": true
+    },
+    {
+      "ticker": "AXP",
+      "name": "American Express",
+      "company_type": "Stalwart",
+      "business_model": "Transaction / take-rate platform",
+      "triage": false,
+      "why_listed": "payments-and-lending; brief says triage in banks only if payments map does not (payments basket in price-action covers AXP); not triaged here",
+      "market_cap_usd_bn": 209.5,
+      "everyday_brand": true,
+      "us_listed": true
+    },
+    {
+      "ticker": "HSBC",
+      "name": "HSBC Holdings",
+      "company_type": "Slow grower",
+      "business_model": "Spread / balance sheet",
+      "triage": false,
+      "why_listed": "foreign peer (context only)",
+      "market_cap_usd_bn": 279.5,
+      "everyday_brand": false,
+      "us_listed": false
+    },
+    {
+      "ticker": "RY",
+      "name": "Royal Bank of Canada",
+      "company_type": "Stalwart",
+      "business_model": "Spread / balance sheet",
+      "triage": false,
+      "why_listed": "foreign peer (context only)",
+      "market_cap_usd_bn": 262.2,
+      "everyday_brand": false,
+      "us_listed": false
+    },
+    {
+      "ticker": "TD",
+      "name": "Toronto-Dominion Bank",
+      "company_type": "Slow grower",
+      "business_model": "Spread / balance sheet",
+      "triage": false,
+      "why_listed": "foreign peer (context only)",
+      "market_cap_usd_bn": 189.5,
+      "everyday_brand": false,
+      "us_listed": false
+    }
+  ],
+  "lead_answers": [
+    {
+      "lead_id": "L-20261126-markets-3",
+      "answer": "Ask was which companies have HY debt due within 24 months. For banks this is the wrong direction: they are lenders and fund through deposits and investment-grade debt; I did not check their bond ratings or maturities, so no list. What the HY widening (3.72%, +105bp since August) does to banks is in the filings: wholesale credit costs are rising at trading banks (GS provision $368M, up 261% from Q2, from wholesale-loan impairments; JPM net reserve build $539M mostly Wholesale; C reserve build $369M on macro outlook), GS is #2 in leveraged lending and #3 in HY debt underwriting, so a spread blowout hits underwriting fees and held loans. Consumer and regional banks are releasing reserves (COF $225M release, PNC ACL ratio 1.42% from 1.61%, TFC ALLL 1.25% from 1.51%). BAC and COF HY exposure: nothing found in the earnings releases.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+        "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+        "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+        "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2"
+      ],
+      "as_of": "2026-11-24"
+    },
+    {
+      "lead_id": "L-20261126-macro-2",
+      "answer": "Mortgage-rate pass-through is unanswerable here: no official mortgage-rate series in my allowed sources, and the homebuilder order and incentive part belongs to the homebuilders mapper. From the bank side: the 10y was 4.85% on Nov 25 (5.15% on Nov 13), but the real 10y rose, so relief is partial. H.8 real-estate loans grew 2.6% annualized in October (3.5% Sep, 3.9% Aug), the Oct loan-officer survey says residential mortgage demand is weaker across categories with standards unchanged, and the bank securities book is hurt by high long yields (PNC AOCI -$6.5B from -$4.1B; FITB -$4.9B from -$3.3B; TFC took a $1.4B pre-tax loss repositioning its AFS portfolio).",
+      "sources": [
+        "https://www.federalreserve.gov/releases/h8/current/default.htm",
+        "https://www.federalreserve.gov/data/sloos/sloos-202610.htm",
+        "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+        "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+        "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+      ],
+      "as_of": "2026-11-25"
+    },
+    {
+      "lead_id": "L-20261126-macro-3",
+      "answer": "Lead evidence is half right. 'Slower loan growth' is partly in the data: H.8 total loans grew 6.2% annualized in Q3 vs 8.1% in Q2, but rebounded to 8.9% in October (C&I +11.7%, CRE +5.1%), so no clear slowdown yet. The Oct loan-officer survey shows CRE standards tightened and CRE and C&I demand weaker; the lead's 'standards slightly easier than median' is from the minutes and conflicts with the survey's CRE finding. Exposure by bank: JPM Commercial Real Estate Banking revenue $951M (+6% yoy), net reserve build $539M mostly Wholesale, card NCO 2.91%; C reserve build $369M; HBAN CRE loans $23.1B (down 4% QoQ), nonperforming assets 0.90% (0.60% a year ago); AXP write-off 1.8% (1.9% yoy); SYF allowance 10.01% of receivables; Fed all-bank delinquency (Q2) cards 2.85%, CRE 1.53%, both lower than Q1. Data-centre lending: a full-text search of Q3 10-Qs found mentions with CRE at RF, CFG, KEY and small banks but I did not quantify them; no quantified data-centre exposure at JPM, BAC, C, WFC in the releases (nothing found). I used earnings releases and the Fed's data, not the full 10-Q loan tables.",
+      "sources": [
+        "https://www.federalreserve.gov/releases/h8/current/default.htm",
+        "https://www.federalreserve.gov/data/sloos/sloos-202610.htm",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfex992supplement.htm",
+        "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+        "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm",
+        "https://www.federalreserve.gov/releases/chargeoff/delallsa.htm"
+      ],
+      "as_of": "2026-11-20"
+    },
+    {
+      "lead_id": "L-20261126-markets-2",
+      "answer": "Mortgage-rate follow-through is not answerable from allowed sources (see macro-2). For banks the 10y at 4.85% vs breakeven 2.12% means real yields up: that helps new securities yields and fixed-rate repricing (NIM up at USB, RF, HBAN, PNC) but hurts bond-book values (AOCI losses at PNC, FITB).",
+      "sources": [
+        "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+        "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+        "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm"
+      ],
+      "as_of": "2026-11-25"
+    },
+    {
+      "lead_id": "L-20261126-price-action-3",
+      "answer": "Payments-lane lead, answered briefly. 8-Ks since Nov 3: FISV earnings 11-03 (https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fi-20261103.htm); GPN 5.03 on 11-03 and earnings 11-05 and a GTCR Schedule 13D on 2026-11-20 (16.35%, 'may submit a proposal to acquire all outstanding shares'), which fits GPN's +18% month and 3.3x volume on 11-12 only partly (13D came 8 days later; the 11-12 trigger is not found); FIS earnings 11-04. FIS: no acquisition, guidance cut or activist filing found in 8-Ks after Nov 4; the FIS drop is a balance-sheet and organic-growth story (see divergence-5). The three process bank transactions so a cut in bank IT spend hits them; nothing found that links these moves to a client loss.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1123360/000119312526470458/primary_doc.xml",
+        "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm"
+      ],
+      "as_of": "2026-11-25"
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-4",
+      "answer": "Verified in the filings. TFC CEO Michael Lyons: Form 4 shows 21,000 shares on 2026-09-17 at $48.3608 and 25,000 on 2026-10-28 at $48.362 (weighted averages; range $48.35-$48.38), open-market purchases (code P). The matching price is real, not a mistake: both days TFC traded in a $47-$49 range, so the identical price is a coincidence, though the Oct 28 price is at the very top of that day's range. HBAN: director Gary Torgow 12,700 shares on 10-27 at $15.735 (HBAN closed $15.71), consistent. Director James Rollins' Form 4 lists 4,000 shares at $14.855 and 10,000 at $19.43 on 10-26; HBAN traded $15.70-$15.96 that day, so neither price fits and I could not verify them (possibly a different security or a filing error; treat as unverified). Directors Crane, Diaz-Granados, Neu, Shea, Sit show grants (code A, price 0), not buys, so 'three directors bought' is at best two (Torgow plus the unverified Rollins). Do credit costs explain optimism? TFC Q3: NCO 0.77% including a 39bp one-off from the RAC loan sale (so about 0.38% underlying vs 0.50% in Q2), nonperforming loans 0.40% (down 11bp), CET1 10.7%, deposits $413.2B up 0.9%, adjusted ROTCE 14.6% on a $1.4B securities-loss restructuring plus a $581M reserve recapture. HBAN is less clean: NCO 0.31% (0.22% yr ago), nonperforming assets 0.90% (0.60%), adjusted CET1 8.9%, NIM 3.25% (up). The CEO bought both before and after the Q3 release (Oct 16), which is the more informative fact. Price check: TFC $47.89 and HBAN $14.88 on Nov 25.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/92230/000153457426000016/f4_a1eus000009zbhvma2-live.xml",
+        "https://www.sec.gov/Archives/edgar/data/92230/000153457426000018/f4_a1eus00000anuuzmad-live.xml",
+        "https://www.sec.gov/Archives/edgar/data/49196/000122520826008552/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/49196/000122520826008542/doc4.xml",
+        "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+        "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex991.htm",
+        "https://finance.yahoo.com/quote/TFC/history/"
+      ],
+      "as_of": "2026-11-25"
+    },
+    {
+      "lead_id": "L-20261126-price-action-5",
+      "answer": "COF Q3: net charge-offs $3.1B (about 2.7% annualized on $462.5B loans, my calculation), a $225M loan-reserve release (not a build), NIM 8.41% (+40bp yoy), efficiency 54.2%, CET1 13.8%, loans +1% QoQ, deposits -1% QoQ; COF's monthly credit 8-K (Oct 31 data, filed 2026-11-16) shows domestic card net charge-off rate 4.02% (4.77% a year earlier) and 30+ day delinquency 3.87% (3.99% a year earlier); delinquency rose each month from 3.33% in May to 3.87% in October, but the same seasonal rise happened in 2025 (3.73% Aug to 3.99% Oct), so no turn yet. Auto 30+ day delinquency 4.68% (4.24% in May). So no credit deterioration shows in COF's filings. JPM card NCO 2.91%, AXP 1.8%, SYF allowance 10.01% (down from 10.35% a year ago) point the same way. GS: IB fees $3,224M (-5% QoQ, +21% yoy), equities $6,441M (-13% QoQ, +72% yoy), FICC $3,471M (-24% QoQ, -1% yoy), ROE 18.7% (-4.8pp QoQ), pre-tax $7,003M (-18% QoQ, +30% yoy). MS: equity $5,799M, fixed income $2,011M (down), IB $2,159M, pre-tax $6,478M. 8-Ks near 2026-11-20: GS filed only a 5.03 (charter/bylaw item) on 11-13; MS filed an 8.01 on 11-20 changing how it books carried-interest revenue and related pay from Oct 1 (an accounting timing change, not a business change); COF filed 7.01 notes (credit metrics, a conference). Nothing found that explains the GS fall on 11-20 (2.2x volume). Berkshire 13F (filed 2026-11-16, as of Sep 30): BAC 281.3M shares vs 308.8M at Jun 30 (-27.5M, -8.9%); COF 1.15M shares vs 3.0M at Jun 30 (-62%) and 7.15M at Mar 31. Confirmed: Berkshire kept selling both. The market is discounting trading peak and capital-return, not COF credit.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000142/ex991q32026earningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+        "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/60471.xml",
+        "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/56757.xml",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+        "https://www.sec.gov/Archives/edgar/data/927628/000092762826000160/ex991october2026creditmetr.htm",
+        "https://www.sec.gov/Archives/edgar/data/895421/000089542126000358/ms-20261120.htm",
+        "https://www.sec.gov/Archives/edgar/data/886982/000119312526460732/d187542d8k.htm"
+      ],
+      "as_of": "2026-11-16"
+    },
+    {
+      "lead_id": "L-20261126-divergence-5",
+      "answer": "FIS 10-Q (Sep 30, 2026): long-term debt $16.87B vs $10.35B at Dec 2025; cash $0.74B; net debt about $16.1B (my calculation). Interest expense Q3 $199M vs about $98M a quarter in 2025 (FY2025 $391M). So debt rose about $6.5B and interest cost doubled with the Issuer Solutions deal. Organic growth near 3-4% is from the press release (pro forma revenue +3.7%); what drives it was not separately dissected here (payments lane). The price drop is consistent with leverage plus low organic growth.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+        "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm"
+      ],
+      "as_of": "2026-11-04"
+    },
+    {
+      "lead_id": "L-20261126-divergence-6",
+      "answer": "Lead partly wrong on 'earnings rising'. GS pre-tax +30% yoy but -18% QoQ; MS pre-tax +7% yoy; BAC reported net income fell to $6.9B from $8.3B (adjusted $8.1B excluding a $1.2B regulatory settlement), revenue +3%, NII +8% to $16.4B, sales and trading -5%, IB fees -11%. The line the market is discounting is trading and advisory: equities trading was at a very high base (GS +72% yoy, MS +41% yoy, BAC equities +11%) while fixed income fell (GS FICC -24% QoQ; BAC FICC -17% yoy), and GS reported a rise in wholesale provisions ($368M, +261% QoQ) and a 60.5% efficiency ratio (+3.1pp QoQ). GS and MS revenue mix: GS Q3 equities $6.4B plus FICC $3.5B plus IB $3.2B plus management fees $3.6B; MS equity $5.8B, fixed income $2.0B, IB $2.2B, wealth record. JPM Q3: net revenue $50.9B (+8%), NII $27.1B (+13%), noninterest $23.8B (+3%), net income $15.3B (+6%), CET1 13.9%, overhead 54%, card NCO 2.91%, NCOs $2.2B down $389M; reserve build $539M. C Q3: net income $5.2B vs $3.8B, efficiency 58.5% (64.7% yr ago), CET1 12.8%, NII +14%, reserve build $369M. Also the lead's claim 'regional banks up' is wrong over 3 months: HBAN -10.9%, CFG -11.3%, MTB -9.1%, RF -7.7%, KEY -7.3%, FITB -4.9%, TFC -3.8% (JPM -10.1%, WFC -4.2%, USB -5.3%, PNC -8.7%); regionals are up only on a 6-month view for WFC/USB/PNC per the lead's data.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm",
+        "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm",
+        "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+        "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm",
+        "https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm",
+        "https://finance.yahoo.com/quote/GS/history/"
+      ],
+      "as_of": "2026-11-25"
+    },
+    {
+      "lead_id": "L-20261126-policy-events-7",
+      "answer": "Partly unanswerable. Treasury's auctions dataset (fiscaldata) still has no results for the November refunding auctions or the Oct 22 5-year note (high yield and bid-to-cover are null in the dataset as of Nov 26); last available long auction was the Oct 8 30-year at 5.618%, cover 2.54x vs 2.61x. So tails and bid-to-cover for Nov cannot be computed. What the market prices for Dec 9 is not in any source I'm allowed: the Fed minutes say almost all participants see further hikes as appropriate and the Sept projections median is 4.1% for 2026 vs 3.875% midpoint now; the 2y at 4.61% is above fed funds which is consistent with a hike priced. Bank angle: December hike raises asset yields with a lag and deposit costs now.",
+      "sources": [
+        "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/accounting/od/auctions_query",
+        "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+        "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
+      ],
+      "as_of": "2026-11-26"
+    }
+  ],
+  "feedback": [
+    {
+      "regime_signal": "Overheat: strong loan growth and NII",
+      "confirms_or_contradicts": "confirms",
+      "evidence": "JPM NII +13%, loans +10% yoy; USB average loans +8% yoy; CFG NII +13%; H.8 loans +8.9% annualized in October, C&I +11.7%.",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.federalreserve.gov/releases/h8/current/default.htm"
+    },
+    {
+      "regime_signal": "Credit widening and markets pricing Slowdown",
+      "confirms_or_contradicts": "confirms",
+      "evidence": "Reserve builds at JPM ($539M) and C ($369M), GS provision +261% QoQ on wholesale impairments; Oct SLOOS CRE standards tightened and CRE/C&I demand weaker.",
+      "source": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm ; https://www.sec.gov/Archives/edgar/data/831001/000110465926115323/c-ex99d1.htm ; https://www.federalreserve.gov/data/sloos/sloos-202610.htm"
+    },
+    {
+      "regime_signal": "Consumer weakness (real spending flat in Oct)",
+      "confirms_or_contradicts": "contradicts",
+      "evidence": "Consumer credit is not showing stress yet: AXP write-off rate 1.8% (down), SYF allowance down yoy, JPM card NCO 2.91%, Fed card delinquency 2.85% (Q2, down from 2.91%), COF reserve release. Stress, if any, is lagging the spending data.",
+      "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm ; https://www.sec.gov/Archives/edgar/data/1601712/000160171226000040/earningsrelease3q26.htm ; https://www.federalreserve.gov/releases/chargeoff/delallsa.htm"
+    },
+    {
+      "regime_signal": "Fed hiking bias lifts funding costs",
+      "confirms_or_contradicts": "confirms",
+      "evidence": "Cost of deposits up 2-3bp QoQ at TFC, HBAN, KEY, CFG, COF after a year of declines; Fed minutes: mortgage activity down, housing weak.",
+      "source": "https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm ; https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm ; https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    }
+  ]
+}

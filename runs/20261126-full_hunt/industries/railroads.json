@@ -1,0 +1,654 @@
+{
+ "industry": "railroads",
+ "as_of": "2026-11-26",
+ "complete": true,
+ "how_money_flows": "A freight railroad owns the track, the yards and the locomotives, and sells space on its network to shippers: grain farmers and elevators, chemical plants, automakers, coal mines and utilities, and retailers moving containers (intermodal) from ports and warehouses. Revenue is volume (carloads or containers) times revenue per unit. Revenue per unit moves with three things: contract pricing, the mix of cargo (a coal car pays about $2,500 and an intermodal box about $1,600 at Union Pacific), and a fuel surcharge that is a pass-through of diesel cost. Costs are mostly fixed and slow to change: labour (about a third of an industry-wide cost index), depreciation of track and engines, and fuel (about 14% of the index). Because the network is a fixed toll road, extra volume on the same track drops through to profit, which is why operating ratio (operating cost as a percent of revenue, lower is better) falls when volume rises. Railroads do not pay for the roadbed through a public budget the way trucks use highways: they spend their own cash on track (UP plans $3.5B of capital spending in 2026), then return the rest to shareholders. Around the railroads sit suppliers who are paid by the railroads' capex: railcar builders (Trinity, Greenbrier), railcar lessors (GATX, Trinity), locomotive and signalling makers (Wabtec, Caterpillar's Progress Rail), track products (L.B. Foster) and intermodal marketers who buy rail space and sell door-to-door service (J.B. Hunt, Hub Group). This quarter the money story is fuel: diesel cost jumped, surcharges passed most of it through in dollars, but the pass-through inflates revenue and pushes the operating ratio up (UP says fuel cost it 140 basis points of operating ratio).",
+ "value_chain": {
+  "inputs": [
+   {
+    "input": "diesel fuel",
+    "suppliers": [
+     "refiners and fuel distributors (named suppliers not disclosed in the Q3 filings reviewed)"
+    ],
+    "concentration": "Fuel is a commodity bought at market; no single supplier named in UNP/CSX/NSC Q3 filings. UNP's Q3 10-Q shows no fuel hedges (only interest-rate swaps).",
+    "signal_tags": [
+     "oil",
+     "diesel",
+     "fuel cost",
+     "fuel surcharge lag"
+    ],
+    "pass_through": "Mostly passed through by surcharge: NSC says about 95% of its revenue base has negotiated fuel surcharges. Q3 2026 surcharge revenue vs fuel expense: UNP $1.2B vs $1,040M; NSC $468M vs $420M; CSX $466M vs $451M. CSX surcharge runs on a two-month lag for non-intermodal traffic and the lag cost it $36M in Q3 (vs $11M a year ago). Surcharge dollars cover the fuel bill but swell revenue, so margin percent falls (UNP -140 bp OR, CPKC -170 bp). Falling diesel works in reverse: costs fall at once, surcharge revenue follows about two months later (inference from CSX lag description).",
+    "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+    "as_of": "2026-10-22"
+   },
+   {
+    "input": "diesel price level (EIA)",
+    "suppliers": [
+     "market"
+    ],
+    "concentration": "n/a",
+    "signal_tags": [
+     "oil",
+     "diesel"
+    ],
+    "pass_through": "US on-highway diesel was $6.127 (Nov 9), $5.937 (Nov 16), $5.695 (Nov 23), still about $1.86 above a year ago (about +49%). UNP paid an average $4.21 a gallon in Q3 vs $2.56 (+64%); CSX locomotive fuel price +67%. So 'cheaper fuel' is relative to the October peak; fuel is still far above last year.",
+    "source": "https://www.eia.gov/petroleum/gasdiesel/",
+    "as_of": "2026-11-23"
+   },
+   {
+    "input": "labour (wages and union contracts)",
+    "suppliers": [
+     "12 national rail unions covering over 100,000 workers at about 30 railroads"
+    ],
+    "concentration": "Industry-wide bargaining; all 12 unions ratified agreements through 2029-12-31 with 18.8% wage rise over five years, after 24% in the 2022 round. Labour is 32.7% of the RCAF cost index.",
+    "signal_tags": [
+     "wages",
+     "labour cost",
+     "union contracts"
+    ],
+    "pass_through": "Labour cost is known to 2029, which limits strike risk in the US and locks in about 3.5% a year wage drift; pricing has to beat that plus fuel. Canada (CN, CPKC, Teamsters Canada Rail Conference): not confirmed; 2024 binding arbitration set CN terms, expiry date and 2026 status not found.",
+    "source": "https://www.aar.org/issue/collective-bargaining/ ; https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf",
+    "as_of": "2026-07-06"
+   },
+   {
+    "input": "steel (rail, railcars, locomotive parts)",
+    "suppliers": [
+     "steel mills; Section 232 tariffs and antidumping duties apply per Trinity 10-Q"
+    ],
+    "concentration": "n/a; named mills not disclosed in sources reviewed",
+    "signal_tags": [
+     "steel",
+     "tariffs",
+     "railcar cost"
+    ],
+    "pass_through": "Trinity says it uses contract-specific buying, supplier commitments and price-escalation clauses with customers to pass steel cost on; its filing also lists tariff and fee surcharges on fixed-price contracts as a risk. Greenbrier says tariff uncertainty delayed long-lived railcar purchases, especially tank cars.",
+    "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000136/trn-20260930.htm ; https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+    "as_of": "2026-10-29"
+   },
+   {
+    "input": "capital (interest rates)",
+    "suppliers": [
+     "bond markets, banks, lessors"
+    ],
+    "concentration": "n/a",
+    "signal_tags": [
+     "rates",
+     "lessor financing"
+    ],
+    "pass_through": "Railroads are investment grade and fund track from cash. Lessors (GATX, Trinity) and buyers of railcars are the rate-sensitive link: with 10y at 4.85% and a Fed hike possible Dec 8-9 (regime file), new railcar financing costs more, but GATX reports 98.4% utilization, 12.4% lease-price index (LPI) and strong secondary-market demand. UNP entered $1.2B forward-starting rate swaps in October.",
+    "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm",
+    "as_of": "2026-10-29"
+   },
+   {
+    "input": "locomotives, signalling, track products",
+    "suppliers": [
+     "Wabtec (WAB), Caterpillar's Progress Rail, L.B. Foster (FSTR)"
+    ],
+    "concentration": "Locomotive supply is understood to be two main US makers (Wabtec and Progress Rail); not re-verified in this run.",
+    "signal_tags": [
+     "capex",
+     "steel",
+     "dollar"
+    ],
+    "pass_through": "Paid from railroad capex. WAB Q3 sales +8.1% to $3.12B, adjusted operating margin 22.9%; FSTR Q3 sales +21.5%, new orders +35.7%.",
+    "source": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/a3q26pressreleaseword.htm ; https://www.sec.gov/Archives/edgar/data/352825/000035282526000055/ex-991q32026.htm",
+    "as_of": "2026-11-04"
+   }
+  ],
+  "industry_layer": {
+   "who_makes_what": "Six Class I freight railroads carry North American freight: UP and BNSF (west), CSX and NS (east), CN and CPKC (Canada-wide, CPKC reaching Mexico). BNSF is owned by Berkshire Hathaway (noted, not triaged). Four carriers earn nearly 90% of US rail freight revenue (AFBF estimate). Railcars are made by Trinity and Greenbrier and owned either by shippers or by lessors (GATX, Trinity). Wabtec supplies engines, brakes and signalling; L.B. Foster supplies rail, track hardware and monitoring. Intermodal marketers (J.B. Hunt, Hub Group) buy rail lift and sell it to retailers.",
+   "chokepoints": [
+    "Chicago, St. Louis and New Orleans gateways where eastern and western railroads interchange (the UP-NS merger fight is about these)",
+    "Port-to-rail intermodal terminals and the Gulf Coast switching networks",
+    "Terminal Railroad Association of St. Louis (UP and NS proposed to divest control; STB denied an expedited track on that on 2026-08-18)",
+    "Single-railroad access at about 95% of grain elevators (AFBF figure)",
+    "Railcar supply: industry deliveries guided below 25,000 cars in 2026 (Trinity)"
+   ],
+   "capacity": "US railcar storage fell to 17.5% of the North American fleet in October, the lowest since December 2022 (AAR), so spare cars are being used. GATX Rail North America utilization 98.4%; Trinity lease fleet 97.0%. Trucking capacity is tightening: J.B. Hunt truckload revenue per load +29% ex fuel and Cass truckload linehaul +9.9% y/y in October, which pushes freight toward rail. Network speed is mixed: UP velocity +1% and dwell -2%; CSX velocity -2%, dwell +12%, trip-plan performance -12%.",
+   "locations": "Network spans 43 states for UP+NS combined (about 50,000 route miles proposed). Mexico carloads and intermodal are up 5.9% year to date (AAR), a cross-border signal.",
+   "sources": [
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+    "https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf",
+    "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+    "https://www.freightwaves.com/?p=585764",
+    "https://www.freightwaves.com/?p=586189",
+    "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm"
+   ]
+  },
+  "customers": [
+   {
+    "segment": "Intermodal (retail goods, containers and trailers)",
+    "big_buyers": [
+     "retailers and importers via intermodal marketers (J.B. Hunt, Hub Group)",
+     "ocean carriers"
+    ],
+    "share_of_revenue": "UNP Premium (intermodal plus autos) 32% of Q3 freight revenue ($2,188M of $6,813M); CSX intermodal 16% ($634M of $4,017M)",
+    "signal_tags": [
+     "ism",
+     "tariffs",
+     "consumer",
+     "rates"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+   },
+   {
+    "segment": "Bulk (grain, fertilizer, food, coal)",
+    "big_buyers": [
+     "grain elevators and exporters",
+     "electric utilities",
+     "steel makers (coal)"
+    ],
+    "share_of_revenue": "UNP Bulk 31% of Q3 freight revenue ($2,116M, of which grain $1,085M, coal & renewables $525M); CSX coal 13% ($537M)",
+    "signal_tags": [
+     "grain",
+     "coal",
+     "fertilizer cost",
+     "ism"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+   },
+   {
+    "segment": "Industrial / merchandise (chemicals, metals, minerals, lumber, autos)",
+    "big_buyers": [
+     "chemical and plastics makers",
+     "steel and building products",
+     "automakers"
+    ],
+    "share_of_revenue": "UNP Industrial 37% ($2,509M); CSX merchandise 61% ($2,453M). AAR October: chemicals set the fastest growth in seven months; steel products best October since 2018; motor vehicles +10% (Canada and Mexico included +9%).",
+    "signal_tags": [
+     "ism",
+     "steel",
+     "autos",
+     "chemicals",
+     "tariffs"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.freightwaves.com/?p=585764"
+   },
+   {
+    "segment": "Cross-border (Mexico, Canada)",
+    "big_buyers": [
+     "automakers",
+     "grain and fertilizer shippers"
+    ],
+    "share_of_revenue": "Not disclosed as a share. Mexico YTD +5.9% volume; Canada YTD +1.7% (AAR, 46 weeks).",
+    "signal_tags": [
+     "tariffs",
+     "Mexico trade",
+     "dollar"
+    ],
+    "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/"
+   }
+  ]
+ },
+ "cycle_position": {
+  "capacity": "Tight at the margin. Railcars in storage 17.5% of fleet (lowest since Dec 2022). Trucking is tightening (Cass truckload linehaul index +9.9% y/y, shipments +5.9% y/y in October, third straight gain after 42 months of declines). UP asset use at records (train length 9,969 ft, car miles per employee +5%).",
+  "pricing": "Revenue per unit up 7% at CSX ($2,381 vs $2,225) and about 8% at UNP (computed $2,971 vs $2,740; includes fuel surcharge and mix). UNP guides pricing dollars above inflation dollars. The rail cost index (RCAF) jumped 8.9% for Q4 2026 (unadjusted 1.193 vs 1.096) mostly because fuel; contracts tied to it will reprice upward with lag. CSX and UNP report core pricing gains alongside fuel surcharge.",
+  "inventories": "Retail import pull-forward looks mild, not a bubble: NRF Global Port Tracker (Nov 9) sees Nov imports +1.2% y/y, Dec +1.3%, then Jan 2027 -3% and Mar -11.2%. International intermodal fell slightly at CSX while domestic rose on truck-to-rail conversion, so the intermodal surge looks more like share gain from tight trucking than pure inventory build. Weekly intermodal growth is fading from +12.6% (Oct 17) to +8.3% (Nov 21).",
+  "capex": "UNP capital plan $3.5B (updated); Wabtec raised guidance; FSTR new orders +35.7%; Greenbrier saw its first backlog rise since FY2024 (14,000 cars, $2.1B) but Trinity guides industry deliveries below 25,000 cars, still a low-build year. Railcar lessors report strong renewals. Capex is steady, not booming.",
+  "where_now": "Late upswing in volume and unit pricing with a fuel shock layered on top. Carloads are growing slowly (+2.7% YTD, +0.5% in the Nov 21 week) while intermodal is strong (+5.1% YTD, +8.3% latest). Margins are squeezed in percent terms by pass-through fuel, but dollar profit is at records (UNP, CSX, CPKC and CN all grew EPS). The cycle looks consistent with the hard-data 'overheat' read, with no volume sign yet of the 'slowdown' the markets price.",
+  "sources": [
+   "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "https://www.freightwaves.com/?p=585764",
+   "https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf",
+   "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+   "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "https://www.freightwaves.com/?p=586189",
+   "https://nrf.com/media-center/press-releases/import-cargo-still-strong-as-peak-season-winds-down",
+   "https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm",
+   "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm"
+  ]
+ },
+ "structure": {
+  "concentration": "Six Class I railroads; four earn nearly 90% of US rail freight revenue; the UP-NS deal ($85B) would create the first coast-to-coast railroad with about 44% of originated carloads (Farm Bureau estimate). About 95% of grain elevators have one railroad.",
+  "pricing_power": "High on captive bulk and merchandise freight; lower on intermodal where trucks compete. UNP's CEO is quoted in the Farm Bureau filing as saying he would raise rates 3 or 4 extra percent on shippers who opposed a seamless railroad (CPKC asked the STB to terminate the case over the remarks; UP says it was out of context).",
+  "barriers": "Near-absolute: nobody builds a new national rail network. Right-of-way, terminal access and regulatory approval make entry nearly impossible.",
+  "regulation": "STB regulates rates on captive traffic, mergers and service. UP-NS docket FD 36873: revised application accepted May 28; procedural schedule set Aug 18; comments and requests for conditions due Nov 18, 2026; responses due Feb 16, 2027; hearing date to be set; final briefs due May 28, 2027 (per the lead card); decision within 90 days of the record closing, so a decision before about Aug 2027 is unlikely. Reciprocal switching: the STB's 2024 rule was vacated by a federal court in 2025, and in January 2026 the STB proposed repealing the part 1144 rules (EP 788); I did not find a final repeal rule. Labour: Railway Labor Act, national agreements through 2029.",
+  "sources": [
+   "https://www.stb.gov/wp-content/uploads/PR-26-21.pdf",
+   "https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf",
+   "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network",
+   "https://www.govinfo.gov/content/pkg/FR-2026-01-09/html/2026-00241.htm"
+  ]
+ },
+ "key_numbers": [
+  {
+   "metric": "US weekly carloads (AAR)",
+   "why_it_matters": "Real freight demand: tests the ISM-hot, copper-down split",
+   "latest": "235,148 (+0.5% y/y), week ending 2026-11-21; YTD 10.54M (+2.7%)",
+   "prior": "230,260 (+3.3%) week of Nov 14; 227,914 (+1.3%) Nov 7; 233,816 (+3.0%) Oct 31; 232,120 (+3.5%) Oct 17; 232,004 (+3.4%) Oct 10",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-11-21"
+  },
+  {
+   "metric": "US weekly intermodal units (AAR)",
+   "why_it_matters": "Consumer goods and truck-to-rail conversion; highest-margin test of the slowdown call",
+   "latest": "304,963 (+8.3% y/y), week ending 2026-11-21; YTD 13.17M (+5.1%)",
+   "prior": "299,659 (+10.7%) Nov 14; 298,369 (+11.0%) Nov 7; 280,264 (+3.9%) Oct 31; 308,015 (+12.6%) Oct 17; 302,252 (+10.4%) Oct 10. October average over 298,000 a week was a record for any month.",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-11-21"
+  },
+  {
+   "metric": "Operating ratio, latest quarter (lower is better)",
+   "why_it_matters": "Profit per dollar of revenue; fuel pass-through pushes it up",
+   "latest": "UNP 59.1% (adj 58.8%); CSX 60.9% (39.1% margin); CPKC 64.8% (core adj 61.9%); CN 63.7% (adj 61.0%); NSC 67.4% (adj 65.4%), Q3 2026",
+   "prior": "UNP 59.2%; CSX 69.7% reported (65.1% excluding $164M impairment, my calculation from the QFR); CPKC 63.5%; CN 61.4% (63.7% less 230bp); NSC 64.6%, Q3 2025",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/pressrelease_q32026.htm ; https://www.sec.gov/Archives/edgar/data/16875/000001687526000031/exhibit991-q32026earningsr.htm ; https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "metric": "Revenue per unit (CSX) / average revenue per car (UNP, computed)",
+   "why_it_matters": "Pricing plus mix plus fuel surcharge",
+   "latest": "CSX $2,381 per unit (+7%); UNP about $2,971 per car (freight revenue $6,813M over 2,293k cars; computed)",
+   "prior": "CSX $2,225; UNP about $2,740 (computed)",
+   "source": "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "metric": "Rail Cost Adjustment Factor (RCAF), STB",
+   "why_it_matters": "Official cost-inflation index that escalates many rail contracts; compare with price per unit",
+   "latest": "Q4 2026 unadjusted 1.193 (+8.9% vs Q3 1.096); adjusted 0.453; RCAF-5 0.429. Q4 fuel component index 500.2 (weight 13.9%), labour 595.4 (weight 32.7%)",
+   "prior": "Q3 2026 unadjusted 1.096; adjusted 0.417; RCAF-5 0.396. Q2 forecast error: fuel index forecast 304.3 vs actual 487.4",
+   "source": "https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf",
+   "as_of": "2026-09-16"
+  },
+  {
+   "metric": "Fuel as share of operating cost, Q3",
+   "why_it_matters": "How much of a swing diesel makes",
+   "latest": "UNP 24.4% ($1,040M of $4,254M); CSX 18.4% ($451M of $2,447M); NSC 17.7% ($420M of $2,376M), my calculation from filings",
+   "prior": "UNP 16.7%; CSX 11.2%; NSC 11.8%, Q3 2025",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "metric": "US on-highway diesel, $/gallon (EIA)",
+   "why_it_matters": "Fuel cost driver for the Q4 surcharge lag",
+   "latest": "$5.695 (2026-11-23)",
+   "prior": "$5.937 (Nov 16), $6.127 (Nov 9); about $3.83 a year ago",
+   "source": "https://www.eia.gov/petroleum/gasdiesel/",
+   "as_of": "2026-11-23"
+  }
+ ],
+ "regime_sensitivity": {
+  "boom": "Volume up, operating leverage on a fixed network pushes operating ratios down; intermodal and autos lead. Railcar builders see orders rise with a lag. Best case for the whole chain.",
+  "overheat": "Rising volume and inflation: surcharges and RCAF-linked escalators pass cost through in dollars but lag by about two months, and percent margins are squeezed by pass-through revenue (this quarter: UP -140bp, CPKC -170bp from fuel). Wage contracts are fixed to 2029 so labour is a stable 3.5%-a-year drift. Pricing-power names do well; railcar lessors gain as fleets stay full.",
+  "stagflation": "Volume flat or down while fuel and wages rise: surcharges cover fuel in dollars, but coal and grain volume weaken and the lag hurts. Captive freight gives some defence. No evidence of this in the current data.",
+  "slowdown": "Carloads and intermodal fall (retail imports forecast down 3% in January and 11% in March, NRF); fuel falls and helps costs; railcar orders and lessor financing weaken; trucks lose pricing and rail loses its tight-truck tailwind. Rails historically hold up better than trucking and railcar builders because costs flex down with volume. This is the regime the market is pricing, and the weekly AAR data do not show it yet."
+ },
+ "companies": [
+  {
+   "ticker": "UNP",
+   "name": "Union Pacific",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (policy-events-2, price-action-8, markets-1, markets-5, markets-6); market cap",
+   "market_cap_usd_bn": 177.3,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "CSX",
+   "name": "CSX",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (price-action-8, markets-1, markets-5, markets-6); market cap",
+   "market_cap_usd_bn": 94.3,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "NSC",
+   "name": "Norfolk Southern",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (policy-events-2, price-action-8, markets-5); market cap",
+   "market_cap_usd_bn": 73.3,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "CP",
+   "name": "Canadian Pacific Kansas City",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (price-action-8); market cap",
+   "market_cap_usd_bn": 81.0,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "CNI",
+   "name": "Canadian National Railway",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (price-action-8); market cap",
+   "market_cap_usd_bn": 75.8,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "WAB",
+   "name": "Westinghouse Air Brake Technologies (Wabtec)",
+   "company_type": "Stalwart",
+   "business_model": "Razor-and-blade",
+   "triage": true,
+   "why_listed": "scope: rail equipment and signalling; market cap",
+   "market_cap_usd_bn": 48.3,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "GATX",
+   "name": "GATX",
+   "company_type": "Stalwart",
+   "business_model": "Other (railcar leasing: long-lived assets rented out, similar to a toll on capacity)",
+   "triage": true,
+   "why_listed": "scope: railcar lessor; rates link",
+   "market_cap_usd_bn": 6.5,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "TRN",
+   "name": "Trinity Industries",
+   "company_type": "Cyclical",
+   "business_model": "Other (railcar leasing plus manufacturing)",
+   "triage": true,
+   "why_listed": "scope: railcar builder and lessor",
+   "market_cap_usd_bn": 2.4,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "GBX",
+   "name": "Greenbrier Companies",
+   "company_type": "Cyclical",
+   "business_model": "Project / contract",
+   "triage": true,
+   "why_listed": "scope: railcar builder; steel and tariff link",
+   "market_cap_usd_bn": 1.2,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "JBHT",
+   "name": "J.B. Hunt Transport Services",
+   "company_type": "Cyclical",
+   "business_model": "Other (intermodal and truckload logistics, asset-based)",
+   "triage": true,
+   "why_listed": "scope: intermodal partner; filed against UP-NS merger at the STB",
+   "market_cap_usd_bn": 21.2,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "HUBG",
+   "name": "Hub Group",
+   "company_type": "Turnaround",
+   "business_model": "Other (intermodal and logistics marketer, asset-light)",
+   "triage": true,
+   "why_listed": "scope: intermodal partner; restatement and Nasdaq filing-delinquency flag, Q3 10-Q not yet filed",
+   "market_cap_usd_bn": 1.4,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "FSTR",
+   "name": "L.B. Foster",
+   "company_type": "Cyclical",
+   "business_model": "Project / contract",
+   "triage": true,
+   "why_listed": "scope: track products",
+   "market_cap_usd_bn": 0.4,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "BRK-B",
+   "name": "Berkshire Hathaway (owns BNSF)",
+   "company_type": "Stronghold",
+   "business_model": "Other (conglomerate)",
+   "triage": false,
+   "why_listed": "BNSF is owned by Berkshire; noted, not triaged",
+   "market_cap_usd_bn": 1230.8,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "CAT",
+   "name": "Caterpillar (Progress Rail locomotives; routed divergence-1)",
+   "company_type": "Cyclical",
+   "business_model": "Razor-and-blade",
+   "triage": false,
+   "why_listed": "routed lead divergence-1 (belongs on a machinery map; not double-triaged here)",
+   "market_cap_usd_bn": 248.8,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "DE",
+   "name": "Deere & Company",
+   "company_type": "Cyclical",
+   "business_model": "Razor-and-blade",
+   "triage": false,
+   "why_listed": "named in routed lead divergence-1 (ag machinery; context only here)",
+   "market_cap_usd_bn": 172.8,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "KOP",
+   "name": "Koppers Holdings (rail ties)",
+   "company_type": "Cyclical",
+   "business_model": "Commodity producer",
+   "triage": false,
+   "why_listed": "track products context; small cap",
+   "market_cap_usd_bn": 0.6,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "SNDR",
+   "name": "Schneider National",
+   "company_type": "Cyclical",
+   "business_model": "Other (trucking and intermodal logistics)",
+   "triage": false,
+   "why_listed": "filed a statement supporting the UP-NS merger at the STB; intermodal customer",
+   "market_cap_usd_bn": 5.0,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "601766.SS",
+   "name": "CRRC Corporation (China)",
+   "company_type": "Cyclical",
+   "business_model": "Project / contract",
+   "triage": false,
+   "why_listed": "foreign peer: world's largest rolling-stock maker",
+   "market_cap_usd_bn": 29.1,
+   "everyday_brand": false,
+   "us_listed": false
+  },
+  {
+   "ticker": "9020.T",
+   "name": "East Japan Railway (JR East)",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": false,
+   "why_listed": "foreign peer: passenger rail network",
+   "market_cap_usd_bn": 29.0,
+   "everyday_brand": false,
+   "us_listed": false
+  },
+  {
+   "ticker": "AZJ.AX",
+   "name": "Aurizon Holdings (Australia)",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": false,
+   "why_listed": "foreign peer: bulk freight rail",
+   "market_cap_usd_bn": 4.3,
+   "everyday_brand": false,
+   "us_listed": false
+  },
+  {
+   "ticker": "GMEXICOB.MX",
+   "name": "Grupo Mexico (owns Ferromex rail)",
+   "company_type": "Cyclical",
+   "business_model": "Commodity producer",
+   "triage": false,
+   "why_listed": "foreign peer and cross-border rail owner (mostly mining)",
+   "market_cap_usd_bn": 80.2,
+   "everyday_brand": false,
+   "us_listed": false
+  }
+ ],
+ "lead_answers": [
+  {
+   "lead_id": "L-20261126-policy-events-2",
+   "answer": "Since September the docket (FD 36873) shows opposition from every major rail rival and large shipper groups, not support. Timeline: STB set the schedule 2026-08-18; comments and requests for conditions were due 2026-11-18; responses are due 2027-02-16; a hearing date is still to be set; final briefs 2027-05-28 per the lead card, with a decision within 90 days after the record closes, so no ruling before about August 2027. Filings I could confirm: (1) BNSF (reported Sep 14) asked for 824 miles of trackage rights over NS's Chicago-to-Bethlehem (Pa.) corridor plus a neutral Gulf Coast switching railroad, and told the STB that conditions can only partly offset harm, urging rejection; (2) CSX sought access to Kansas City over UP's St. Louis-Kansas City line, 50% ownership and dispatch control of UP's East St. Louis-Kansas City line and Neff Yard, trackage rights over NS lines in Pennsylvania and New Jersey, and Norfolk port access, and urged rejection; (3) CPKC proposed eight protective conditions plus new rights in Louisiana, Texas and on the former Wabash line to St. Louis, and asked the STB to terminate the case over remarks by UP's CEO; (4) CN asked that its UP trackage-rights deal for St. Louis-Kansas City be a condition; (5) American Farm Bureau (2026-11-18) opposed the deal, citing about 44% of originated carloads and 95% of grain elevators on one railroad; (6) J.B. Hunt opposed it and proposed four mandatory conditions; a joint ACC/AFPM/NITL/TFI filing argued the merger raises CSX and BNSF shippers' costs; Schneider National supported it. I could not read the full November 18 text of the BNSF, CSX and CPKC filings (they were reported through press coverage of the September filings); treat condition details as reported, not read from the docket. UP and NS applicants had proposed expanded Committed Gateway Pricing commitments. Price move: NSC was +4.6% on the last day (326.51 vs 312.11 prior close) with no cause identified; NSC 3m -5.8% vs UNP -2.6%, so the merger docket is not clearly moving prices.",
+   "sources": [
+    "https://www.stb.gov/wp-content/uploads/PR-26-21.pdf",
+    "https://www.freightwaves.com/news/bnsf-cpkc-and-csx-to-request-broad-access-to-a-combined-up-ns-network",
+    "https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf",
+    "https://www.freightwaves.com/?p=580699",
+    "https://www.railway.supply/j-b-hunt-seeks-up-ns-merger-denial-disputes-1-2-million-load-forecast/"
+   ],
+   "as_of": "2026-11-26"
+  },
+  {
+   "lead_id": "L-20261126-macro-1",
+   "answer": "Mostly yes for rails, with a caveat. AAR: October carloads +3.4% (best in eight months; +4.5% excluding coal), intermodal +9.6% with a record weekly average above 298,000, 15 of 20 carload groups up, AAR Freight Rail Index second-highest on record. Metals, chemicals, autos and petroleum are the strong groups, consistent with hot factory output. But the trend is fading at the edge: carloads +3.5%/+3.4% (Oct 17/10) to +0.5% (Nov 21), intermodal +12.6% to +8.3%, grain and coal down. On inventory build: NRF sees November imports only +1.2% y/y, then January -3% and March -11.2%, so there is some pre-holiday and pre-tariff front-loading, but CSX and NSC attribute intermodal gains to wins, new services and tighter trucking (JBHT truckload revenue per load +29% ex fuel; Cass truckload linehaul +9.9% y/y), i.e. share gain from trucks. Truck volume: Cass shipments +5.9% y/y in October (third straight rise). Conclusion: freight volume confirms ISM so far; the mix suggests part is conversion from truck, which lasts as long as trucking stays tight.",
+   "sources": [
+    "https://www.freightwaves.com/?p=585764",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-october-17-2026/",
+    "https://nrf.com/media-center/press-releases/import-cargo-still-strong-as-peak-season-winds-down",
+    "https://www.freightwaves.com/?p=586189",
+    "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm",
+    "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+   ],
+   "as_of": "2026-11-21"
+  },
+  {
+   "lead_id": "L-20261126-divergence-1",
+   "answer": "Caterpillar 10-Q: firm backlog about $78.1B at 2026-09-30, up about $6.0B from Q2, with the largest rise in Power & Energy; $32.6B of it is not expected to ship within twelve months. Management says power-generation demand (reciprocating engines and turbines) is driven by data centres and AI, and Resource Industries order rates are robust with copper and gold demand cited. So the filings show no order weakness; the 49% fall from the June high is a market-pricing move. I did not quantify how much of the run-up from about 570 to about 1,060 was an AI-power theme: the 10-Q gives segment demand commentary but not a share, so that part is unanswerable from filings. Deere (reported 2026-11-25, fiscal Q4): net sales and revenues -2% to $12.1B, fiscal 2026 net income $4.86B, fiscal 2027 net income guided $4.50-5.25B (including a $0.25-0.40B pension charge), with 'early signs of improvement in large agriculture, led by North America'. Deere says it is near a cyclical low while Caterpillar is growing: different cycle stages, not one story. Rail link: Caterpillar sells to railroads through its Progress Rail unit; CAT's fall does not show up in carloads (steel and metals carloads are up). CAT and DE belong on the machinery map; listed here as not triaged.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/315189/000110465926131741/de-ex99d1.htm",
+    "https://www.sec.gov/Archives/edgar/data/18230/000001823026000052/ex991toformcat3q2026earnin.htm"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-price-action-6",
+   "answer": "Rail-relevant part answered; the E&P hedging and capex part belongs to the oil-gas mapper and was not worked here. Brent was about $94.6 on 2026-11-25 vs $115.8 on 2026-10-26 (lead card, Yahoo). EIA on-highway diesel fell from $6.127 (Nov 9) to $5.695 (Nov 23), still about $1.86 (+49%) above a year ago. So the energy sell-off is oil-led, but the fuel relief for railroads is partial: UNP's Q3 average fuel price was $4.21 vs $2.56 (+64%), and November pump diesel is above Q3 levels, so Q4 fuel cost is likely still well above last year's Q4 even if lower than the October peak. The STB's own Q4 cost index, set on a September forecast, has the fuel component rising from 465.1 to 500.2.",
+   "sources": [
+    "https://www.eia.gov/petroleum/gasdiesel/",
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+    "https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf",
+    "https://finance.yahoo.com/quote/BZ=F"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-price-action-8",
+   "answer": "AAR (8 weeks): US carloads were +3.4% (Oct 10), +3.5% (Oct 17), +3.6% (Oct 24), +3.0% (Oct 31), +1.3% (Nov 7), +3.3% (Nov 14), +0.5% (Nov 21); intermodal +10.4%, +12.6%, +11.3%, +3.9%, +11.0%, +10.7%, +8.3%. Year to date 46 weeks: carloads +2.7%, intermodal +5.1%, total +4.0%. Rail 10-Qs: UNP Q3 carloads +6% (OR 59.1%), CSX volume +5% (intermodal +7%), NSC volume +3% (OR 67.4%, adjusted 65.4%); fuel surcharge revenue was $1.2B at UNP (vs $602M), $468M at NSC (vs $208M) and $466M at CSX (vs $234M). The merger docket is not clearly moving prices. Rail stock moves: UNP 1m -0.5%, CSX -2.1%, NSC -3.5%, CP +2.3%, CNI +0.7% vs SPY -6.9% (yFinance); the relative strength matches steady volume plus earnings records, so it is more than a weak pointer, but price alone is not evidence.",
+   "sources": [
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-14-2026/",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-7-2026/",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-october-17-2026/",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-october-10-2026/",
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+    "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/pressrelease_q32026.htm",
+    "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-markets-1",
+   "answer": "Yes, and the filings show how much is passed through. Fuel expense Q3 vs a year ago: UNP $1,040M vs $616M (+69%), NSC $420M vs $237M, CSX $451M vs $281M. Surcharge revenue: UNP $1.2B vs $602M, NSC $468M vs $208M (about 95% of NSC revenue is under contracts with surcharges, and NSC expects higher surcharge revenue than last year through year end), CSX $466M vs $234M with a two-month lag on non-intermodal traffic costing $36M vs $11M a year ago. So railroads recover fuel in dollars, with a quarter's lag at the margin, but operating ratios are hurt by the inflated revenue base (UP 140bp, CPKC 170bp). Hedging: UNP's 10-Q mentions no fuel hedges, only interest-rate swaps; CSX and NSC 10-Qs show no fuel hedge programme in the text I searched. Airlines and truckers were not worked here (other mappers); JBHT's Q3 shows fuel surcharge pass-through (revenue +20% vs +13% excluding fuel). Relief is a Q1 2027 story because of the lag and because diesel is still high.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm",
+    "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm"
+   ],
+   "as_of": "2026-10-22"
+  },
+  {
+   "lead_id": "L-20261126-markets-5",
+   "answer": "Rail half answered; the staples-valuation half is not a rail question and was not worked. Rail volumes are not consistent with a slowdown yet: US carloads +2.7% and intermodal +5.1% year to date, intermodal +8.3% and carloads +0.5% in the week ending 2026-11-21. Weakening signs: carload growth has faded from about +3.5% to +0.5% in a month, grain and coal are down, and NRF sees imports turning down in January (-3%) and March (-11.2%). Industrial weakness in prices (XLI -8% in 3 months) is not mirrored by rail volumes or earnings.",
+   "sources": [
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+    "https://nrf.com/media-center/press-releases/import-cargo-still-strong-as-peak-season-winds-down",
+    "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm"
+   ],
+   "as_of": "2026-11-21"
+  },
+  {
+   "lead_id": "L-20261126-markets-6",
+   "answer": "AAR carloads and intermodal side with the ISM survey, not copper, so far: October carloads +3.4%, intermodal +9.6% (record), metals and metals-products carloads up (Nov 21 week metallic ores and metals +3,717 cars y/y; steel products best October since 2018), AAR Freight Rail Index second-highest on record. Q3 commentary: NSC says demand rose as a tighter trucking market highlighted rail's advantage; CSX cites higher steel, equipment, aluminium and lumber shipments. Against: fertilizer shipments fell at CSX on higher input cost, grain turned down in October after 12 months of gains, and weekly carload growth slowed to +0.5% in the Nov 21 week. Copper is a leading signal; rail volume is coincident, so a fall would show up later.",
+   "sources": [
+    "https://www.freightwaves.com/?p=585764",
+    "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+    "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+   ],
+   "as_of": "2026-11-21"
+  }
+ ],
+ "feedback": [
+  {
+   "regime_signal": "Overheat (growth rising, inflation rising)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "US rail volume +4.0% year to date, intermodal record in October, UNP volume +6% and record revenue; CSX volume +5%; NSC says demand rose on tight trucking.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/"
+  },
+  {
+   "regime_signal": "Fuel is getting cheaper (Brent -18% in a month) and helps transport",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "Q3 fuel expense was up 69% (UNP), 77% (NSC) and 60% (CSX) y/y. EIA diesel is $5.695, about 49% above a year ago, and still above Q3 average fuel prices. Surcharges pass fuel through but with a two-month lag; the benefit of cheaper oil should show in Q1 2027, not Q4.",
+   "source": "https://www.eia.gov/petroleum/gasdiesel/ ; https://www.sec.gov/Archives/edgar/data/277948/000027794826000039/qfr_q32026.htm"
+  },
+  {
+   "regime_signal": "Inflation rising (PCE 3.8%)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "STB Q4 RCAF unadjusted +8.9% quarter on quarter (1.193 vs 1.096), the cost index that escalates rail contracts; rail revenue per unit rose 7-8% in Q3. Rails are passing inflation through.",
+   "source": "https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf"
+  },
+  {
+   "regime_signal": "Slowdown risk priced by markets (industrials down, copper down)",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "No slowdown visible in AAR volumes, rail earnings or customer commentary through Nov 21. Soft spots: grain and coal down, carload growth faded to +0.5%, NRF import forecast turns down from January.",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/ ; https://nrf.com/media-center/press-releases/import-cargo-still-strong-as-peak-season-winds-down"
+  },
+  {
+   "regime_signal": "Trucking tightness and freight pricing",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "J.B. Hunt truckload revenue per load +29% ex fuel; Cass truckload linehaul index +9.9% y/y and shipments +5.9% y/y; rails cite tight trucking as the source of intermodal wins. This is a capacity-tightness (overheat) sign.",
+   "source": "https://www.sec.gov/Archives/edgar/data/728535/000143774926032715/ex_1025956.htm ; https://www.freightwaves.com/?p=586189"
+  },
+  {
+   "regime_signal": "Higher rates / Fed hike bias",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "Railcar lessor GATX reports 98.4% utilization, LPI 12.4%, 86.1% renewal rate and strong secondary-market demand; rates have not hurt railcar leasing so far. Trinity guides industry railcar deliveries below 25,000, so new-build demand is subdued and tariff uncertainty delays orders (Greenbrier).",
+   "source": "https://www.sec.gov/Archives/edgar/data/40211/000004021126000091/a3q26earningsreleaseex991.htm ; https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm ; https://www.sec.gov/Archives/edgar/data/923120/000119312526431928/gbx-ex99_1.htm"
+  },
+  {
+   "regime_signal": "Credit tightening (HY spreads widening)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Hub Group (HUBG) has not filed its 2025 10-K or 2026 10-Qs after a restatement; its lenders pushed the financial-statement deadline to 2027-01-31 and the Nasdaq exception runs to 2026-12-31; the stock is -45% in 6 months. Stress at the weakest intermodal marketer while the strongest report records. Company-specific, but a credit-quality warning.",
+   "source": "https://www.sec.gov/Archives/edgar/data/940942/000119312526478483/d168949d8k.htm ; https://www.sec.gov/Archives/edgar/data/940942/000119312526465632/d191442d8k.htm"
+  }
+ ]
+}

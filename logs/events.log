@@ -39,3 +39,8 @@
 2026-11-26T09:11:59+00:00	step2	regime.json + routing.json written; paused for industry choice
 2026-11-26T09:14:00+00:00	step2_done	industries=railroads,banks,payments
 2026-11-26T09:14:00+00:00	wave3_launch	3 mappers
+2026-11-26T09:22:32+00:00	task_done	w3-railroads
+2026-11-26T09:22:32+00:00	wave4_queue	railroads 12
+2026-11-26T09:23:23+00:00	task_done	w3-banks
+2026-11-26T09:23:23+00:00	task_done	w3-payments
+2026-11-26T09:23:23+00:00	wave_done	wave 3 complete 3/3

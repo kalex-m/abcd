@@ -1,0 +1,765 @@
+{
+ "industry": "payments",
+ "as_of": "2026-11-26",
+ "complete": true,
+ "how_money_flows": "A card payment has five hands. The cardholder taps a card or wallet. The merchant's acquirer or processor (Fiserv/Clover, Global Payments/Worldpay, Shift4, Toast, Block/Square, Adyen) takes the request and sends it over a network (Visa or Mastercard) to the cardholder's issuing bank, which approves it and later settles. The merchant pays a 'merchant discount' of roughly 1.5-3% of the sale. Most of that is interchange, paid to the issuer, plus a small network fee to Visa or Mastercard; the acquirer keeps the rest. Networks are toll roads: they earn a few hundredths of a percent on every dollar (Mastercard: about $9.8B of net revenue on about $3.0T of volume in Q3, roughly 0.33%, my calculation) plus fees on cross-border and value-added services, and they carry no credit risk. American Express is a closed loop: it is network, issuer and lender at once, so it also earns card fees and interest and carries credit losses. Behind the banks sit the cores (FIS, Fiserv, Jack Henry) that run deposits and card accounts and charge recurring fees, and switching software (ACI). Consumer fintechs add other loops: PayPal and Cash App wallets earn a take rate and interest on balances; Affirm lends at point of sale and lives on the spread over funding cost; Corpay, WEX and BILL move business money and fuel-card spend; Western Union, Euronet and Remitly move cross-border cash and earn a fee plus an FX margin. Because networks and processors are paid as a percent of nominal dollars, inflation lifts their revenue even when real spending is flat; a strong dollar trims cross-border and translated foreign revenue; higher rates raise float income but also raise funding costs for lenders like Affirm.",
+ "value_chain": {
+  "inputs": [
+   {
+    "input": "Interchange and network fees (cost of goods for acquirers and processors)",
+    "suppliers": [
+     "Visa",
+     "Mastercard",
+     "issuing banks"
+    ],
+    "concentration": "Two global networks set network fees; issuers receive interchange. Shift4 reports revenue net of network fees ('gross revenue less network fees') precisely because these pass through.",
+    "signal_tags": [
+     "regulation",
+     "consumer_spending_nominal",
+     "inflation"
+    ],
+    "pass_through": "Mostly passed straight through to merchants. Regulation (Durbin cap, settlements, Credit Card Competition Act) changes who keeps the spread, not the acquirer's own margin directly.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+    "as_of": "2026-11-05"
+   },
+   {
+    "input": "Funding and credit capital (warehouse lines, ABS, deposits, corporate debt)",
+    "suppliers": [
+     "banks",
+     "ABS investors",
+     "term-loan lenders"
+    ],
+    "concentration": "Diffuse for lenders; heavy corporate debt at consolidated processors (FIS $20.8B, GPN about $22.5B, Fiserv about $27.1B).",
+    "signal_tags": [
+     "rates",
+     "hy_spreads"
+    ],
+    "pass_through": "Affirm: average funding cost 6.0%, down 69bp y/y but up 27bp from the prior quarter after benchmark rates rose; fixed-cost funding (more than half) dampened it. Processors cannot pass interest expense to clients; it comes out of margin (FIS net interest $199M vs $90M a year ago).",
+    "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+    "as_of": "2026-11-05"
+   },
+   {
+    "input": "Fuel prices (for fuel-card and fleet payments)",
+    "suppliers": [
+     "retail fuel stations",
+     "oil majors (via pump prices)"
+    ],
+    "concentration": "Not concentrated",
+    "signal_tags": [
+     "oil",
+     "inflation"
+    ],
+    "pass_through": "Revenue is partly a percent of fuel spend, so higher pump prices help: WEX Q3 revenue includes $57.3M favorable fuel-price effect; Corpay's guidance assumes $4.90 per gallon for the rest of 2026. A fall in oil (Brent about -18% in a month per regime read) works against both.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+    "as_of": "2026-10-28"
+   },
+   {
+    "input": "Foreign-exchange rates and cross-border liquidity",
+    "suppliers": [
+     "banks and FX dealers",
+     "local payout partners"
+    ],
+    "concentration": "Diffuse",
+    "signal_tags": [
+     "dollar",
+     "travel_airlines"
+    ],
+    "pass_through": "Networks earn on cross-border volume measured in constant dollars; a strong dollar shrinks translated revenue. Visa: more than half of net revenue earned outside the US; FX added about 1 point to FY26 revenue growth, so a stronger dollar reverses that tailwind. Euronet: Q3 revenue +1% reported vs +3% constant currency.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "as_of": "2026-11-05"
+   },
+   {
+    "input": "Engineering, security and compliance labour",
+    "suppliers": [
+     "in-house staff"
+    ],
+    "concentration": "n/a",
+    "signal_tags": [
+     "wages"
+    ],
+    "pass_through": "Not passed through. Visa cites higher personnel and marketing expenses as the main driver of operating expense growth (+11% in FY26). Fiserv and FIS are cutting costs (Project Elevate savings target raised to $1B) to defend margins.",
+    "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "as_of": "2026-11-05"
+   }
+  ],
+  "industry_layer": {
+   "who_makes_what": "Networks (Visa, Mastercard; AmEx closed loop) route and price transactions and earn on volume, cross-border and value-added services. Acquirers/processors and software-led merchant platforms (Fiserv/Clover, Global Payments incl. Worldpay, Shift4, Toast, Block/Square, PayPal/Braintree, Adyen) sign merchants and take a margin over interchange. Bank-tech cores and issuer processors (FIS incl. Total Issuing Solutions, Fiserv, Jack Henry, ACI) run bank back-ends under multi-year recurring contracts. Business-payments (Corpay, WEX, BILL), lenders (Affirm) and money-transfer firms (Western Union, Euronet, Remitly) are specialised loops.",
+   "chokepoints": [
+    "Visa and Mastercard: 3.8B Mastercard-branded cards issued; Visa processed 281B of 355B branded transactions in FY26, and more than 14,000 financial institutions are Visa clients",
+    "Regulation of interchange: Regulation II debit cap vacated by the Eighth Circuit on 2026-10-26; Visa/Mastercard injunctive-relief settlement awaiting final approval; Credit Card Competition Act (S.3623) pending in committee",
+    "Issuer-processing and bank-core software: switching costs for banks are high; FIS bought Global Payments' Issuer Solutions in January 2026 and Fiserv is losing banking clients at a slower rate (net attrition in banking down more than 25% year to date per Fiserv)",
+    "State regulators for money transmission: California DFPI conditions killed Western Union's merger with Intermex (terminated 2026-11-12)"
+   ],
+   "capacity": "Not a physical-capacity industry. The constraints are balance sheets (debt at consolidated processors, funding lines for lenders), regulatory approval, and bank-client contract cycles.",
+   "locations": "US-centred for the networks' largest profit pools but Visa earns more than half of net revenue outside the US; processors are US and Europe (Worldline and Nexi in Europe; Adyen is Dutch).",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+    "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1365135/000119312526457046/d500072d8k.htm"
+   ]
+  },
+  "customers": [
+   {
+    "segment": "Households (cardholders, wallet users, borrowers)",
+    "big_buyers": [
+     "consumers via banks and wallets"
+    ],
+    "share_of_revenue": "Consumer spending drives network volume; Visa FY26 nominal payments volume +10% on 'resilience in consumer spending'. Real US consumer spending was flat in October (real PCE -0.1% m/m; PCE prices +3.8% y/y) while nominal PCE rose 0.3% m/m.",
+    "signal_tags": [
+     "consumer_spending_nominal",
+     "consumer_spending_real",
+     "inflation",
+     "rates"
+    ],
+    "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+   },
+   {
+    "segment": "Merchants (restaurants, retail, e-commerce, travel)",
+    "big_buyers": [
+     "restaurants (Toast: about 189,000 locations)",
+     "enterprise retailers (Worldpay, Adyen, Fiserv)",
+     "hospitality and venues (Shift4)"
+    ],
+    "share_of_revenue": "Toast GPV $61.8B (+20%); Shift4 flagged weaker same-store sales and travel disruption",
+    "signal_tags": [
+     "consumer_spending_real",
+     "travel_airlines"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm"
+   },
+   {
+    "segment": "Banks and credit unions",
+    "big_buyers": [
+     "FIS, Fiserv and Jack Henry clients",
+     "issuers on Visa/Mastercard"
+    ],
+    "share_of_revenue": "Core and issuer processing is recurring: FIS pro forma recurring revenue +2.5% in Q3; Jack Henry processing revenue +10.7% in fiscal Q1",
+    "signal_tags": [
+     "rates",
+     "hy_spreads"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm"
+   },
+   {
+    "segment": "Businesses and fleets (B2B payments, fuel cards, bill pay)",
+    "big_buyers": [
+     "SMBs (BILL: about half a million businesses)",
+     "fleets (WEX: 600,000+ customers)",
+     "corporate treasuries (Corpay)"
+    ],
+    "share_of_revenue": "Corpay corporate payments spend volume $95.3B in Q3; WEX total volume $78.5B (+18.5%)",
+    "signal_tags": [
+     "oil",
+     "inflation",
+     "dollar"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm"
+   },
+   {
+    "segment": "Migrants and cross-border senders",
+    "big_buyers": [
+     "Remitly (10.3M active customers)",
+     "Western Union",
+     "Euronet (Ria)"
+    ],
+    "share_of_revenue": "Remitly send volume $24.4B (+25%); Euronet cites US immigration policy as a drag on its cross-border segment",
+    "signal_tags": [
+     "dollar",
+     "regulation"
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm"
+   }
+  ]
+ },
+ "cycle_position": {
+  "capacity": "No physical capacity limit. The marginal constraint is balance sheets: FIS debt $20.8B and curtailed buybacks until gross leverage reaches about 2.8x; GPN about $22.5B of debt; Fiserv about $27.1B and a $6.45B non-cash goodwill impairment in Q3.",
+  "pricing": "Networks still have pricing: Mastercard cites pricing in value-added services (+19%) and Visa cites select pricing modifications, but client incentives are growing faster than revenue (Visa +16% FY26; Mastercard rebates and incentives +18% in Q3 vs payment-network revenue +11%). Take rates are drifting down at wallets and B2B: PayPal transaction margin dollars about 0.81% of TPV vs 0.85% a year ago (my calculation); Corpay revenue per corporate spend dollar 0.60% vs 0.62%.",
+  "inventories": "Not applicable. The equivalent is credit quality and contract backlog: AmEx net write-off rate 1.8% vs 1.9% a year ago; Affirm and PayPal sell or fund BNPL receivables. FIS and Jack Henry report strong bank-client demand; Fiserv reports banking attrition easing but organic revenue still flat.",
+  "capex": "Light for networks. Adyen guides capex at about 7% of net revenue in 2026. Processors spend on platform migration (Fiserv Project Elevate savings target now $1B; GPN raised Worldpay synergy target to $650M).",
+  "where_now": "Late-cycle and diverging. Volume growth is strong in nominal terms (Visa payments volume +9% constant dollar in Jul-Sep, Mastercard gross dollar volume +7% local currency, cross-border +14% and +11%) helped by inflation, while real consumer spending is flat. Networks and AmEx sit at the top of the cycle in earnings; merchant acquirers and bank-core processors are in a restructuring phase (Fiserv organic flat, FIS and GPN levered after swapping businesses in January 2026). Growth is concentrated in software-led platforms (Toast, Block, Adyen, Affirm, Remitly).",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+  ]
+ },
+ "structure": {
+  "concentration": "Networks: Visa and Mastercard dominate US credit and debit; AmEx is a smaller closed loop (190M+ merchant locations accepting). Acquiring and bank-tech: a few large processors (Fiserv, Global Payments/Worldpay, FIS, Adyen) plus fast software-led entrants (Toast, Block, Shift4). Market-share tables by acquirer were not found in primary filings.",
+  "pricing_power": "Highest at the networks (Mastercard adjusted operating margin 60.5%, Visa FY26 GAAP operating margin about 61%, my calculation from the 10-K). Weakest at merchant acquirers, where take rates compress and Fiserv's adjusted operating margin fell to 31.2% from 37.0% year on year. Bank-core vendors have multi-year contracts but Fiserv saw net banking attrition.",
+  "barriers": "Network effects and bank/merchant relationships at the networks; regulation and licences for money transmission and lending; high switching cost and integration risk for bank cores; scale economics in acquiring.",
+  "regulation": "Debit: the Eighth Circuit (2026-10-26) affirmed vacatur of the Fed's Regulation II cap (21 cents plus 5bp); the Sixth Circuit Linney's Pizza appeal is pending (argued 2026-10-22), so a Fed rewrite and lower debit interchange is possible but not imminent. Credit: Visa/Mastercard injunctive-relief settlement preliminarily approved 2026-06-09 and awaiting final approval; the forward-looking release in the damages settlement was upheld 2026-09-29 and appealed 2026-10-01. DOJ debit monopolisation suit against Visa (filed 2024-09-24) survived a motion to dismiss. Credit Card Competition Act reintroduced 2026-01-13 as S.3623, still in committee; Visa's own 10-K says it is unclear it will advance. Stablecoins: the OCC issued final GENIUS Act rules on 2026-10-23, effective 2027-01-18. CFPB: personal financial data rights (open banking) compliance dates stayed by court (Forcht Bank, 2025-10-29) and the rule is being reconsidered. State: Illinois interchange law and California DFPI scrutiny of money transmitters.",
+  "sources": [
+   "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+   "https://bankingjournal.aba.com/2026/10/federal-appeals-court-strikes-down-the-feds-debit-card-fee-cap/",
+   "https://www.congress.gov/119/bills/s3623/BILLS-119s3623is.htm",
+   "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the-issuance-of-sta",
+   "https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/personal-financial-data-rights/",
+   "https://www.sec.gov/Archives/edgar/data/1365135/000119312526457046/d500072d8k.htm"
+  ]
+ },
+ "key_numbers": [
+  {
+   "metric": "Visa payments volume growth (constant dollar) and cross-border volume growth",
+   "why_it_matters": "Core volume driver for the toll road; cross-border earns the highest fees",
+   "latest": "Jul-Sep 2026 quarter payments volume +9%; total cross-border +14% (ex-intra-Europe +14%); FY26 payments volume +9% constant dollar (+10% nominal), cross-border +13%; processed transactions 74.2B (+10%)",
+   "prior": "Apr-Jun 2026 quarter payments volume +10% (constant dollar)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "metric": "Mastercard gross dollar volume, cross-border and net revenue",
+   "why_it_matters": "Second toll road; check whether volume growth is slowing",
+   "latest": "Q3 2026 GDV $3.0T +7% local currency; purchase volume +9%; cross-border +11%; switched transactions +9%; net revenue $9.8B +14%; adjusted operating margin 60.5%",
+   "prior": "Q3 2025 adjusted operating margin 59.8%",
+   "source": "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "metric": "AmEx billed business and credit quality",
+   "why_it_matters": "Closed-loop spend by affluent customers; credit is the risk",
+   "latest": "Q3 2026 billed business $454.0B +8% (FX-adjusted); revenue $20.1B +9%; net write-off rate 1.8%",
+   "prior": "Net write-off rate 1.9% a year earlier",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "metric": "Fiserv organic revenue growth and adjusted operating margin",
+   "why_it_matters": "Is the largest merchant and bank processor stabilising?",
+   "latest": "Q3 2026 organic revenue flat (Merchant -2%, Financial +2%); 9M organic -3%; adjusted operating margin 31.2%; 2026 outlook organic -1% to 0%, adjusted EPS $7.20-7.40; $6.45B goodwill impairment",
+   "prior": "Q3 2025 adjusted operating margin 37.0%",
+   "source": "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "metric": "FIS pro forma (organic-equivalent) revenue growth and guidance",
+   "why_it_matters": "Separates acquired growth from underlying growth",
+   "latest": "Q3 2026 GAAP revenue +27% but pro forma +3.7% (recurring +2.5%); 2026 pro forma growth guide cut to 3.1-3.6%; adjusted EPS growth guide cut to 1.2-2.4%; adjusted EBITDA margin 42.9%",
+   "prior": "August guide: pro forma 4.5-5.0%, adjusted EPS growth 7.0-8.5%",
+   "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "metric": "Global Payments normalized net revenue growth and operating margin",
+   "why_it_matters": "Same test for the largest pure merchant acquirer after Worldpay",
+   "latest": "Q3 2026 adjusted net revenue +31% reported, over +4% normalized; adjusted operating margin 42.5% (+220bp normalized); full-year normalized constant-currency growth guide 4-5%; GAAP operating income $246M vs $774M",
+   "prior": "Prior-year Q3 GAAP operating income $774M (included a $344M disposition gain)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "metric": "PayPal total payment volume and transaction margin",
+   "why_it_matters": "Take-rate pressure at the largest wallet",
+   "latest": "Q3 2026 TPV $487.1B +6% (+7% FXN); transaction margin dollars $3.95B +2%, about 0.81% of TPV; non-GAAP operating margin 18.8%; active accounts 440M +0.6%",
+   "prior": "TM$/TPV about 0.85% (Q3 2025, my calculation)",
+   "source": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "metric": "Toast and Block gross payment volume",
+   "why_it_matters": "Software-led merchant platforms taking share",
+   "latest": "Toast GPV $61.8B +20%, ARR $2.5B +24%; Block Square GPV +14% (strongest since Q1 2023), Cash App gross profit +27%",
+   "prior": "Block Q2 and earlier: not pulled",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "metric": "Corpay and WEX volume and take rate",
+   "why_it_matters": "B2B payments and fuel exposure to oil and FX",
+   "latest": "Corpay Q3 revenue +18%, organic +11%, corporate payments revenue per spend dollar 0.60%; WEX volume $78.5B +18.5%, revenue +12.8% including $57.3M from fuel prices",
+   "prior": "Corpay revenue per spend 0.62% a year ago",
+   "source": "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "metric": "Affirm GMV and funding cost",
+   "why_it_matters": "BNPL growth and rate sensitivity",
+   "latest": "FQ1 2027 GMV $14.4B (+35%); revenue less transaction costs $617M (+34%, 4.3% of GMV); average funding cost 6.0%",
+   "prior": "Funding cost fell 69bp y/y but rose 27bp q/q",
+   "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "metric": "Remittance volume and policy drag",
+   "why_it_matters": "Cross-border consumer flows and dollar",
+   "latest": "Remitly send volume $24.4B +25%; Western Union CMT transactions +2%, retail weak; Euronet revenue +1% (+3% constant currency), operating income -12%",
+   "prior": "Euronet cites US immigration policy as a persistent drag",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "metric": "US consumer spending, nominal vs real",
+   "why_it_matters": "Networks earn on nominal dollars",
+   "latest": "Oct 2026 nominal PCE +0.3% m/m, real PCE slightly negative (-$5.8B), PCE prices +3.8% y/y, saving rate 4.1%",
+   "prior": "Visa nominal payments volume +10% in FY26 vs real spending near zero this month",
+   "source": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "regime_sensitivity": {
+  "boom": "Best case for volume and cross-border (travel, e-commerce) and for lenders (Affirm, Block). Networks, AmEx, Toast, Adyen, Remitly benefit most; take rates hold because mix shifts to higher-margin premium spend.",
+  "overheat": "Nominal volume is inflated by prices, so networks and percent-of-sale processors earn more even when real spending is flat (Visa nominal payments volume +10%, WEX and Corpay fuel tailwind). Float income rises with rates. Cost: the dollar strengthens (translation and cross-border drag), debt-heavy processors pay more interest (FIS interest roughly doubled), and BNPL funding costs creep up. Now: this is where the data sit, but the real-spending signal is flat.",
+  "stagflation": "Real spending falls while prices rise: networks still gain on nominal dollars, but mix shifts to debit and low-ticket, merchants cut volume, credit losses and BNPL charge-offs rise, and regulators push harder on fees (political pressure on interchange). Defensive subscription cores (Jack Henry, FIS) hold better than volume-sensitive acquirers.",
+  "slowdown": "Volume growth slows toward real growth, cross-border and travel softens first, credit losses rise (AmEx, Affirm, PayPal credit), and lower rates cut float income but reduce funding cost. Networks fall least; high-multiple platforms and levered processors fall most. Markets are already pricing part of this (HY spreads widening, cyclicals weak) while the card-volume data have not yet turned."
+ },
+ "companies": [
+  {
+   "ticker": "GPN",
+   "name": "Global Payments",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "routed lead (GTCR 13D, price and fundamentals split)",
+   "market_cap_usd_bn": 25.4,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "FIS",
+   "name": "Fidelity National Information Services",
+   "company_type": "Turnaround",
+   "business_model": "Subscription / recurring",
+   "triage": true,
+   "why_listed": "routed lead (52-week low, segment recast, pro forma growth)",
+   "market_cap_usd_bn": 14.2,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "FISV",
+   "name": "Fiserv (Nasdaq: FISV; not FI)",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "routed lead (+26% in a month; ticker check)",
+   "market_cap_usd_bn": 31.8,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "V",
+   "name": "Visa",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (dollar, spending) and everyday brand",
+   "market_cap_usd_bn": 791.8,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "MA",
+   "name": "Mastercard",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "routed lead (dollar, spending) and everyday brand",
+   "market_cap_usd_bn": 575.0,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "PYPL",
+   "name": "PayPal Holdings",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "routed lead (dollar) and everyday brand",
+   "market_cap_usd_bn": 48.0,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "INTU",
+   "name": "Intuit",
+   "company_type": "Stalwart",
+   "business_model": "Subscription / recurring",
+   "triage": true,
+   "why_listed": "routed lead (price down, profits up; payments adjacent via QuickBooks money)",
+   "market_cap_usd_bn": 71.7,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "AXP",
+   "name": "American Express",
+   "company_type": "Stalwart",
+   "business_model": "Toll road / network",
+   "triage": true,
+   "why_listed": "closed-loop network named in brief; everyday brand",
+   "market_cap_usd_bn": 209.5,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "XYZ",
+   "name": "Block (Square, Cash App)",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; everyday brand",
+   "market_cap_usd_bn": 46.0,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "TOST",
+   "name": "Toast",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; restaurant brand",
+   "market_cap_usd_bn": 19.6,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "FOUR",
+   "name": "Shift4 Payments",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; price -41% from high",
+   "market_cap_usd_bn": 3.3,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "JKHY",
+   "name": "Jack Henry & Associates",
+   "company_type": "Stalwart",
+   "business_model": "Subscription / recurring",
+   "triage": true,
+   "why_listed": "named in brief (bank-tech core)",
+   "market_cap_usd_bn": 12.7,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "CPAY",
+   "name": "Corpay",
+   "company_type": "Stalwart",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; investing $1.1B in BILL take-private",
+   "market_cap_usd_bn": 29.1,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "WEX",
+   "name": "WEX",
+   "company_type": "Cyclical",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; fuel-price exposure",
+   "market_cap_usd_bn": 6.1,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "AFRM",
+   "name": "Affirm Holdings",
+   "company_type": "Fast grower",
+   "business_model": "Spread / balance sheet",
+   "triage": true,
+   "why_listed": "named in brief; rate-sensitive BNPL; price -29% from high",
+   "market_cap_usd_bn": 20.5,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "WU",
+   "name": "Western Union",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; Intermex deal terminated 2026-11-12",
+   "market_cap_usd_bn": 2.0,
+   "everyday_brand": true,
+   "us_listed": true
+  },
+  {
+   "ticker": "EEFT",
+   "name": "Euronet Worldwide",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; cross-border and dollar",
+   "market_cap_usd_bn": 2.5,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "RELY",
+   "name": "Remitly Global",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": true,
+   "why_listed": "named in brief; cross-border",
+   "market_cap_usd_bn": 4.6,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "ACIW",
+   "name": "ACI Worldwide",
+   "company_type": "Slow grower",
+   "business_model": "Subscription / recurring",
+   "triage": true,
+   "why_listed": "named in brief (payments software)",
+   "market_cap_usd_bn": 5.1,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "BILL",
+   "name": "BILL Holdings",
+   "company_type": "Stalwart",
+   "business_model": "Subscription / recurring",
+   "triage": false,
+   "why_listed": "named in brief; take-private agreed 2026-11-19 at $63.25 cash (TPG, Corpay minority), price pinned to the deal",
+   "market_cap_usd_bn": 5.3,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "MQ",
+   "name": "Marqeta",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "US-listed payments name not in brief; tag provisional, not researched",
+   "market_cap_usd_bn": 1.8,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "FLYW",
+   "name": "Flywire",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "US-listed cross-border payments; tag provisional, not researched",
+   "market_cap_usd_bn": 2.9,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "PAYO",
+   "name": "Payoneer",
+   "company_type": "Slow grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "US-listed cross-border B2B; tag provisional, not researched",
+   "market_cap_usd_bn": 2.5,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "PAY",
+   "name": "Paymentus",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "US-listed bill-pay; tag provisional, not researched",
+   "market_cap_usd_bn": 4.3,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "CRCL",
+   "name": "Circle Internet Group",
+   "company_type": "Fast grower",
+   "business_model": "Spread / balance sheet",
+   "triage": false,
+   "why_listed": "US-listed stablecoin issuer (GENIUS Act exposure); tag provisional, not researched",
+   "market_cap_usd_bn": 12.4,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "DLO",
+   "name": "dLocal",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "US-listed emerging-market payments; tag provisional, not researched",
+   "market_cap_usd_bn": 3.6,
+   "everyday_brand": false,
+   "us_listed": true
+  },
+  {
+   "ticker": "ADYEN.AS",
+   "name": "Adyen",
+   "company_type": "Fast grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "foreign peer (Amsterdam); Q3 net revenue EUR 738.1M +23%, volume EUR 451.1B +30%; market cap converted from EUR",
+   "market_cap_usd_bn": 29.6,
+   "everyday_brand": false,
+   "us_listed": false
+  },
+  {
+   "ticker": "WLN.PA",
+   "name": "Worldline",
+   "company_type": "Turnaround",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "foreign peer (Paris); Q3 organic +2.5% fully pruned; market cap converted from EUR",
+   "market_cap_usd_bn": 0.6,
+   "everyday_brand": false,
+   "us_listed": false
+  },
+  {
+   "ticker": "NEXI.MI",
+   "name": "Nexi",
+   "company_type": "Slow grower",
+   "business_model": "Transaction / take-rate platform",
+   "triage": false,
+   "why_listed": "foreign peer (Milan); Q3 2026 results not found; market cap converted from EUR",
+   "market_cap_usd_bn": 5.7,
+   "everyday_brand": false,
+   "us_listed": false
+  }
+ ],
+ "lead_answers": [
+  {
+   "lead_id": "L-20261126-behaviour-change-1",
+   "answer": "Facts: GTCR's 13D (filed 2026-11-20) covers 43,268,041 shares = 16.35% of GPN. Item 4 says it is evaluating strategic transactions that 'may involve a potential proposal to acquire additional or all outstanding shares'; no proposal exists and the filing says no binding obligation arises until definitive documents. Item 6 / Shareholders Agreement (2026-01-09): lock-up on the stock consideration, 35% released 12 months after 2026-01-09 (about 2027-01-09), another 15% at 15 months, the rest at 18 months; standstill: while GTCR owns more than 5% of voting securities it may not acquire additional voting securities 'subject to certain exceptions', so any bid needs board engagement or an exception. Premium and financing: nothing found; neither the 13D nor the 10-Q gives a price, a premium or a financing plan. Reference points only: GTCR received its shares at $78.69 (Jan 8 close, per GPN 10-Q) vs $96.03 on 2026-11-25, so its stake is worth about $4.2B (my calculation); GPN carries about $22.5B of debt after Worldpay. Same logic for FIS and Fiserv? No filing shows a 13D holder or approach at either (FIS: only a passive 13G on 2026-11-10; Fiserv: only tax-withholding Form 4s). Arithmetic, my calculation: FIS market cap about $14.2B plus $20.8B debt is roughly 6x 2026 adjusted EBITDA guidance ($5.57-5.6B), but its own leverage (about 3.5x gross by my calculation vs a 2.8x target) and the cut guidance limit financing room; BILL's take-private by TPG and Corpay (2026-11-19, $63.25 cash) shows private capital is active in payments. No premium, bid or financing is evidenced for FIS or Fiserv.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1123360/000119312526470458/primary_doc.xml",
+    "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1786352/000119312526469396/d176726d8k.htm",
+    "https://finance.yahoo.com/quote/GPN/history/"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-behaviour-change-6",
+   "answer": "Margins after the recast (FIS Q3 2026): Banking Solutions adjusted EBITDA margin 47.4% (+119bp reported, +212bp pro forma; pro forma revenue +3.9%, recurring +2.4%); Capital Market Solutions 54.0% (+180bp; revenue +3.0%); Corporate and Other loses $169M of EBITDA (corporate costs $163M). Why the buyback slowed: FIS says that after closing Total Issuing Solutions it 'temporarily curtailed' repurchases and paused tuck-in M&A to deleverage, and will resume 'meaningful' buybacks once gross leverage reaches about 2.8x. Debt $20.8B; net interest expense $199M in Q3 vs $90M a year ago; only $93M repurchased in nine months (about $1.7B left of $3.0B). Price context: FIS fell 23.7% on 2026-11-04, the day it cut full-year adjusted EPS growth guidance to 1.2-2.4% from 7.0-8.5% and pro forma revenue growth to 3.1-3.6% from 4.5-5.0% (August outlook). So the share-price drop has a filed cause; the lead's claim of a 'mild' signal holds for the small director buys (about $52-58k each).",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000046/q22026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+    "https://finance.yahoo.com/quote/FIS/history/"
+   ],
+   "as_of": "2026-11-04"
+  },
+  {
+   "lead_id": "L-20261126-macro-6",
+   "answer": "Yes, they track nominal dollars. Visa's 10-K says FY26 'nominal payments volume growth of 10%' was 'broad-based across both credit and debit', with cross-border supported by travel and e-commerce; constant-dollar payments volume was +9% in Jul-Sep (vs +10% in Apr-Jun). Mastercard purchase volume +9%, gross dollar volume +7% local currency; AmEx billed business +8%; PayPal TPV +6%; Toast GPV +20%; Block GPV +14%. That compares with US nominal retail sales +6.8% y/y (gas stations +30.3%) and real PCE about flat in October (BEA, verified; PCE prices +3.8% y/y), so card volume growing 7-10% is mostly price plus share gain, not real volume. Mix shift to debit or low-ticket: nothing found in filings; Visa describes growth in both credit and debit, and no network disclosed a debit mix shift. Shift4 cites weaker same-store sales (a hint of softer ticket counts) and PayPal active accounts are +0.6% only. Fuel is the clearest inflation link: WEX revenue includes +$57.3M from fuel prices.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+    "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+    "https://www.census.gov/retail/marts/www/marts_current.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1309108/000130910826000039/wexq32026earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-divergence-3",
+   "answer": "Confirmed in the filings, with limits. Intuit Q1 FY27 (Oct quarter, reported 2026-11-19): revenue $4.35B +12%, GAAP operating income $868M +63%, Global Business Solutions +15% (QuickBooks money/payments sits inside it), Consumer +7%, Mailchimp -1% (being sold to Bending Spoons). Price: -21.6% over 3 months, -59.3% from the 667 high (yFinance, 2026-11-25). The 10-Q shows no TurboTax unit or customer-count decline: TurboTax revenue +1% to $199M (seasonally tiny in this quarter) and FY27 TurboTax guidance is only +2% to +3%, Credit Karma +3% to +7%; Credit Karma's credit-card vertical fell $16M on higher rates and consumer behavior. Intuit raised its full-year operating income guide (GAAP +26-27%). So this is a multiple reset on AI-disruption fear of tax and software, with slow consumer-side growth as the visible weak spot, not a collapse in reported numbers. Its payments link is as a merchant processor and payment facilitator (it and Block lost a ruling that their merchants are inside the interchange damages class).",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/fy27q1earningspressrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+    "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "https://finance.yahoo.com/quote/INTU/history/"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-divergence-5",
+   "answer": "Confirmed and refined. Net debt/interest: debt outstanding $20.8B at 2026-09-30; Q3 net interest expense $199M vs $90M (nine months $596M vs $279M). Organic growth drivers: pro forma revenue +3.7% in Q3, of which recurring +2.5%; Banking Solutions +3.9% (recurring +2.4%), Capital Market Solutions +3.0% (recurring +3.0%); the press release does not itemise drivers beyond mix and cost savings. Why the price fell: on 2026-11-04 FIS cut FY26 adjusted EPS growth guidance to 1.2-2.4% from 7.0-8.5% and pro forma growth to 3.1-3.6% from 4.5-5.0% (the lead's 'headline gap smaller than it looks' holds: the fall followed a guidance cut and leverage, not a collapse in cash flow; 2026 free cash flow guide $2.15-2.25B unchanged). GAAP operating income $660M vs $457M. Price: $27.64 on 2026-11-25, closing low $25.83 on 2026-11-20, -31% over 3 months.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000046/q22026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+    "https://finance.yahoo.com/quote/FIS/history/"
+   ],
+   "as_of": "2026-11-04"
+  },
+  {
+   "lead_id": "L-20261126-divergence-7",
+   "answer": "GPN half confirmed: Q3 GAAP revenue $3.31B (adjusted net revenue +31% reported from the Worldpay deal, normalized +4%); GAAP operating income $246M vs $774M (-68%), but the prior-year quarter included a $344M gain on business disposition and the new quarter carries Worldpay purchase accounting, so the fall is partly accounting. Interest and other expense $276M vs $144M; nine-month operating cash flow $213M vs $2,141M with capex $729M. Adjusted operating margin rose to 42.5% and adjusted EPS +10% to $3.58, with 2026 guidance reaffirmed. 6-month price gain is +30.7% (lead said +32%); over 3 months only +3.8% and the stock is 5.5% below its 101.59 high. The two big moves have no matching filing: +13.0% on 2026-10-30 and -12.0% on 2026-11-12 (nothing found in the submissions feed), and about +10% on 2026-11-20 coincides with the GTCR 13D. Homebuilder half of the lead belongs to that mapper.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+    "https://finance.yahoo.com/quote/GPN/history/"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-markets-7",
+   "answer": "Direction confirmed; my 63-day pull shows DXY 103.74 vs 99.70 (+4.0% from 2026-08-28); the lead's 98.92 base on 8-25 gives +4.8%. Disclosures found: Visa says more than half of net revenue is earned outside the US and exchange-rate moves added about 1 point to FY26 net revenue growth, so the recent dollar rise turns a tailwind into a headwind from fiscal 2027; Visa's cross-border volume is reported in constant dollars so volume is not hit but reported revenue is. Mastercard reports currency-neutral (14% reported and neutral in Q3) so no FX drag yet. Euronet: Q3 revenue +1% reported vs +3% constant currency (about 2 points of FX drag) and it names FX conversion rate changes in its outlook. PayPal TPV +6% reported vs +7% FXN, and Adyen +23% vs +22% constant currency, i.e. small tailwinds so far. No filed forward FX-headwind figure found for Visa, Mastercard or PayPal; Corpay's guidance bases FX on Bloomberg consensus as of 2026-10-26, so it does not yet reflect the latest dollar move.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm",
+    "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+    "https://www.adyen.com/press-and-media/adyen-publishes-q3-2026-business-update-6r9vz0",
+    "https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm"
+   ],
+   "as_of": "2026-11-25"
+  },
+  {
+   "lead_id": "L-20261126-price-action-3",
+   "answer": "Confirmed, with company-specific causes found in filings for two of three. FISV: +26.1% in 1 month (closing 59.78, 14.4% below the high); +12.5% on 2026-11-03 earnings: Q3 organic revenue flat, 2026 outlook affirmed (organic -1% to 0%, adjusted EPS $7.20-7.40), Project Elevate savings target doubled to $1B, $500M buyback resumed for Q4, banking net attrition down more than 25% year to date. Not a clean recovery: $6.45B non-cash goodwill impairment, adjusted operating margin 31.2% vs 37.0%, nine-month organic -3%, nine-month free cash flow $2.04B vs $2.88B. FIS: -22.4% in 1 month, 52-week closing low 25.83 on 2026-11-20 (now 27.64); caused by the Nov 4 guidance cut (see FIS answers). GPN: +17.9% in 1 month; Q3 results and reaffirmed outlook 2026-11-05, 13D 2026-11-20; the 8-K feed has no item matching the 2026-11-12 volume spike (3.3x, price -12.0%). No acquisition, activist 13D or client-loss 8-K found at FISV or FIS through 2026-11-26; FIS sold a non-core prepaid business on 2026-10-20 for more than $100M. TICKER CHECK: EDGAR shows Fiserv's common stock trading as FISV on The Nasdaq Stock Market (10-Q cover 2026-09-30; submissions feed lists ticker FISV, exchange Nasdaq; 'FI' returns no CIK mapping). Use FISV, not FI. Exhibit filenames still use the old 'fi-' prefix.",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm",
+    "https://www.sec.gov/Archives/edgar/data/798354/000079835426000042/fisv-20260930.htm",
+    "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm",
+    "https://data.sec.gov/submissions/CIK0000798354.json",
+    "https://finance.yahoo.com/quote/FISV/history/"
+   ],
+   "as_of": "2026-11-25"
+  }
+ ],
+ "feedback": [
+  {
+   "regime_signal": "Late Overheat: inflation lifts nominal spending",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Visa calls FY26 nominal payments volume +10% 'resilient consumer spending'; WEX revenue includes +$57.3M from fuel prices; PCE prices +3.8% y/y. Real PCE is about flat, so the volume is price-led.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm"
+  },
+  {
+   "regime_signal": "Fed hiking bias and higher rates",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Affirm: funding costs rose 27bp sequentially 'due to the increase in benchmark interest rates'; FIS interest expense $199M vs $90M; PayPal interest on customer balances about $289M in Q3 (transaction margin dollars $3.95B less $3.66B ex-interest, my calculation).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm"
+  },
+  {
+   "regime_signal": "Credit stress (HY spreads widening, Slowdown risk)",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "AmEx net write-off rate 1.8% vs 1.9% a year earlier with a reserve release; Visa and Mastercard commentary shows no consumer credit stress yet. Credit has not turned in card data.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm"
+  },
+  {
+   "regime_signal": "Consumer weaker than nominal data show (real PCE flat)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Shift4 cites weaker same-store sales and travel disruption; Euronet cites US immigration policy and global economic pressure on remittances; PayPal active accounts +0.6%. Offsetting: Toast GPV +20%, Visa cross-border +14%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm"
+  },
+  {
+   "regime_signal": "Dollar +4-5% in 3 months",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Euronet Q3 revenue +1% reported vs +3% constant currency; Visa says FX added about 1 point to FY26 revenue growth and over half of revenue is non-US, so the recent dollar rise reverses it.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm"
+  },
+  {
+   "regime_signal": "Bank and merchant demand for tech modernisation",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "Jack Henry says demand is 'very strong' (fiscal Q1 revenue +8.8%); FIS says client demand remains strong; Fiserv banking net attrition down more than 25%. Weak spot: Fiserv Merchant Solutions organic -2%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000095/jkhy-20260930xex99pressrel.htm"
+  }
+ ]
+}

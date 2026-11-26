@@ -2,8 +2,8 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T09:14:00+00:00",
-  "current_wave": 3,
+  "heartbeat": "2026-11-26T09:23:23+00:00",
+  "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
     {
@@ -101,10 +101,10 @@
       "extra_outputs": [
         "library/industries/railroads-primer.md"
       ],
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:14:00+00:00"
+      "updated": "2026-11-26T09:22:32+00:00"
     },
     {
       "id": "w3-banks",
@@ -117,10 +117,10 @@
       "extra_outputs": [
         "library/industries/banks-primer.md"
       ],
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:14:00+00:00"
+      "updated": "2026-11-26T09:23:23+00:00"
     },
     {
       "id": "w3-payments",
@@ -133,10 +133,724 @@
       "extra_outputs": [
         "library/industries/payments-primer.md"
       ],
+      "status": "done",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T09:23:23+00:00"
+    },
+    {
+      "id": "w4-UNP",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "UNP",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/UNP.json",
       "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:14:00+00:00"
+      "updated": "2026-11-26T09:23:23+00:00"
+    },
+    {
+      "id": "w4-CSX",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "CSX",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/CSX.json",
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T09:23:23+00:00"
+    },
+    {
+      "id": "w4-NSC",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "NSC",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/NSC.json",
+      "status": "running",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-26T09:23:23+00:00"
+    },
+    {
+      "id": "w4-CP",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "CP",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/CP.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-CNI",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "CNI",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/CNI.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-WAB",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "WAB",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/WAB.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-GATX",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "GATX",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/GATX.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-TRN",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "TRN",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/TRN.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-GBX",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "GBX",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/GBX.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-JBHT",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "JBHT",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/JBHT.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-HUBG",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "HUBG",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/HUBG.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-FSTR",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "FSTR",
+        "industry": "railroads"
+      },
+      "output": "runs/20261126-full_hunt/triage/FSTR.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-TFC",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "TFC",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/TFC.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-HBAN",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "HBAN",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/HBAN.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-GS",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "GS",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/GS.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-MS",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "MS",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/MS.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-BAC",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "BAC",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/BAC.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-COF",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "COF",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/COF.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-SCHW",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "SCHW",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/SCHW.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-WFC",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "WFC",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/WFC.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-USB",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "USB",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/USB.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-PNC",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "PNC",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/PNC.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-JPM",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "JPM",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/JPM.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-C",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "C",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/C.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-SYF",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "SYF",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/SYF.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-FITB",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "FITB",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/FITB.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-MTB",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "MTB",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/MTB.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-KEY",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "KEY",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/KEY.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-RF",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "RF",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/RF.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-CFG",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "CFG",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/CFG.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-BNY",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "BNY",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/BNY.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-STT",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "STT",
+        "industry": "banks"
+      },
+      "output": "runs/20261126-full_hunt/triage/STT.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-GPN",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "GPN",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/GPN.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-FIS",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "FIS",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/FIS.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-FISV",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "FISV",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/FISV.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-V",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "V",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/V.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-MA",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "MA",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/MA.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-PYPL",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "PYPL",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/PYPL.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-INTU",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "INTU",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/INTU.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-AXP",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "AXP",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/AXP.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-XYZ",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "XYZ",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/XYZ.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-TOST",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "TOST",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/TOST.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-FOUR",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "FOUR",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/FOUR.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-JKHY",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "JKHY",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/JKHY.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-CPAY",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "CPAY",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/CPAY.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-WEX",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "WEX",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/WEX.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-AFRM",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "AFRM",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/AFRM.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-WU",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "WU",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/WU.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-EEFT",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "EEFT",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/EEFT.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-RELY",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "RELY",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/RELY.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w4-ACIW",
+      "wave": 4,
+      "agent": "triage-analyst",
+      "input": {
+        "ticker": "ACIW",
+        "industry": "payments"
+      },
+      "output": "runs/20261126-full_hunt/triage/ACIW.json",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
     }
   ],
   "notes": [
@@ -145,6 +859,7 @@
     "ibkr: unavailable",
     "FRED/BLS API unreachable at bootstrap",
     "Step 2: regime=overheat (low-medium) with slowdown transition risk; awaiting industry choice",
-    "Industries chosen by Alex: railroads, banks, payments"
+    "Industries chosen by Alex: railroads, banks, payments",
+    "Lead corrections from mappers: regionals were down 4-11% over 3m, not up (divergence-6); BAC NI fell on a $1.2B settlement; FIS fall has a filed cause (Nov 4 guide cut); Fiserv ticker is FISV; BNY ticker is BNY"
   ]
 }
