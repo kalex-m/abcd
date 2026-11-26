@@ -1,0 +1,193 @@
+{
+ "ticker": "INTU",
+ "name": "Intuit Inc.",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Subscription / recurring",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Intuit sells TurboTax (tax filing), QuickBooks (small-business accounting, payroll, payments, loans), Credit Karma (finds credit cards, loans, insurance for consumers) and Mailchimp (email marketing, being sold); about 93M customers, FY26 revenue $21.4B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "FY26 revenue $21,448M: Global Business Solutions $11,592M recast (QB Online $5,051M, Online Services $3,595M, Desktop $2,946M); Consumer $8,584M (TurboTax $5,296M, Credit Karma $2,641M, ProTax $647M); Mailchimp $1,272M.",
+   "source": "https://investors.intuit.com/_assets/_7623f1ff5267b6890da8feeaf8f86c55/intuit/db/946/10425/fact_sheet/Q1_FY27_Fact_Sheet_External_vShared.pdf",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Tens of millions of consumers, small businesses and accountants; no customer concentration disclosed. Credit Karma is paid by lenders, card issuers and insurers (partner revenue, concentration not disclosed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "International revenue is about 8% of the total in each of FY24-FY26; sells mainly in the US (and Canada); almost all in dollars, so little currency exposure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Subscriptions and per-return fees plus take rate on payments, bill pay, payroll and loans, plus referral fees at Credit Karma. Service revenue was $3,933M of $4,354M in Q1 FY27 (90%). Business money payment volume +33% in Q1. Per-customer, not per-seat, pricing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Capex about $221M (about 1% of revenue); GAAP operating margin 27% (FY26 $5,884M on $21,448M). Fixed-cost heavy (R&D, sales), so margin expands with revenue; 17% headcount cut in May 2026. Guidance hit rate: FY26 revenue $21.45B beat the initial $21.0-21.2B guide, TurboTax +7% vs +8% guided; but FY27 Credit Karma guide cut within 3 months (+11-13% to +3-7%). Cash collected up front on subscriptions (deferred revenue $1.1B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000029/fy26q4earningspressrelease.htm",
+   "as_of": "2026-08-25"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Critical inputs: public cloud (AWS and Google Cloud host most online systems), bank and payment-processor partners (some sole or limited source per 10-K), lender and card-issuer partners at Credit Karma, funding for QuickBooks Capital loans (secured revolvers $970M, loan sales). Cloud is replaceable but costly to move. Can pass cost on: QB Online growth cites 'higher effective prices'; Q1 payment cost of revenue rose with volume. Signal tags: rates and hy_spreads (loan funding, Credit Karma lender appetite and demand), consumer_spending_nominal (payment volume), wages (headcount cut). Rates hit Credit Karma in Q1.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Switching costs (books, payroll, accountant network), tax and financial data, brand, scale; now doing differently: AI agents inside QuickBooks, listings in Claude, ChatGPT, Perplexity, in-house refund transfer, TurboTax 'Sign and File' at a lower price. Edge is strongest in business software, weaker in consumer discovery.",
+   "source": "https://investors.intuit.com/_assets/_7623f1ff5267b6890da8feeaf8f86c55/intuit/db/946/10425/webcast_transcript/Q1_FY27_Earnings_Script.pdf",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "TurboTax and QuickBooks are household names; about 93M customers; marketing spend rose in FY26 (Consumer marketing +$191M). Loss of either would be noticed by tens of millions of filers and small firms.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Management says it is changing its tax model to 'regain share of total IRS e-filers' and cut tax revenue per customer in FY27; 10-K says fewer TurboTax federal units in FY26; unit counts no longer disclosed. Rivals: H&R Block, free filers, Xero, Bill and Block in payments; share in QuickBooks not disclosed.",
+   "source": "https://investors.intuit.com/_assets/_7623f1ff5267b6890da8feeaf8f86c55/intuit/db/946/10425/webcast_transcript/Q1_FY27_Earnings_Script.pdf",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Online Ecosystem +20% in Q1 (QB Online +19%, Online Services +21%); mid-market customers +30%. But FY27 guide is TurboTax +2-3%, Credit Karma +3-7%, Consumer +2-4%, total +8-9% (Q2 Consumer guided down mid-single digits).",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000043/fy27q1earningspressrelease.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "FY26 operating cash flow $8.8B (+42%) but helped by $1.28B deferred tax; capex $221M; SBC $2.06B (9.6% of revenue). Bought back $5.4B (13.4M shares, about $410 each) in FY26, far above today's $272. Cash and investments $5.3B vs debt $6.9B. Insiders own 2.34%; 2023 PSUs paid 0% on the TSR leg; no pledging or hedging.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000037/intu-20260731.htm",
+   "as_of": "2026-07-31"
+  },
+  {
+   "n": 13,
+   "name": "Durability (Zoom test)",
+   "score": 3,
+   "evidence": "Business software is not losing relevance: GBS +15%, QB Online +19-23%, 56% of segment operating income. Consumer is the weak side: Credit Karma 'below expectations' with a faster consumer shift to AI-first discovery, TurboTax cut price to win share, Q2 Consumer guided down mid-single digits. Not a Zoom case (revenue and profit still growing), but the AI front-door risk is visible in the consumer half and not yet disproven.",
+   "source": "https://investors.intuit.com/_assets/_7623f1ff5267b6890da8feeaf8f86c55/intuit/db/946/10425/webcast_transcript/Q1_FY27_Earnings_Script.pdf",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K 4.01/4.02, no NT filings, clean auditor report (EY) with no material weakness found; FTC order vacated (Fifth Circuit, Mar 2026) and suit dismissed Sep 15 2026; one SEC comment letter (Mar 2024, KPI disclosure) closed. Watch: about $3B gap between GAAP and non-GAAP operating income in FY26 (SBC was excluded before Aug 2026; now included).",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: pricing power and higher interest on customer funds help; Credit Karma already hurt by higher rates. Slowdown: tax and bookkeeping are non-discretionary but lender referral revenue and small-business payroll volume fall. Stagflation: squeezed small businesses and consumer credit. Rate sensitivity is mainly Credit Karma and QB Capital funding.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "IRS Free File / suspended Direct File remain named risks; FTC order vacated and case closed; Ontario class action still pending; Mailchimp sale to Bending Spoons needs regulatory approval (close early 2027); consumer-lending rules touch Credit Karma and QB Capital.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 5,
+   "evidence": "At $271.72 market cap about $71.7B, EV about $73.3B. Reverse DCF at 10%/3%: normalized owner FCF about $5.3B (net income + D&A - capex, SBC treated as a cost, tax normalized) needs only about 2% yearly growth for 10 years; on SBC-burdened reported FCF $6.6B, about -1%. Own 5y FCF growth about 22%/yr (flattered). P/E 16.5x trailing GAAP (FY22-FY25 year-ends 58-60x), 13.4x on FY27 GAAP guide; peers trailing: ADBE 14x, CRM 25x, ADP 29x. EV/GAAP EBITDA 10.9x.",
+   "source": "https://finance.yahoo.com/quote/INTU",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "high",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Price leaves a large cushion (implies about 2% growth), but the consumer half (Credit Karma, TurboTax) was just guided down and tax unit and customer counts are not disclosed; the Q3 FY27 tax season is the proof.",
+ "the_mistake": "The market prices the whole company as an AI seat-compression victim, but about 56% of segment operating income is Global Business Solutions (+15%, per-customer subscriptions and take-rate money), and the stock fell about 60% from its 52-week high while GAAP operating income grew 20%. Partly right, though: the consumer half now shows real AI-discovery and share pressure.",
+ "what_makes_market_notice": "Q2 FY27 results (late Feb 2027, date not confirmed); Mailchimp sale close (early calendar 2027) with $3.3B cash buyback; Q3 FY27 tax-season results (May 2027) showing TurboTax share regained.",
+ "feedback": [
+  {
+   "note": "Credit Karma revenue below plan from higher interest rates and a faster shift of consumers to AI-first product discovery; credit-card vertical revenue fell. Confirms tight-credit/higher-rate leg of the regime read and AI front-door effect on referral businesses.",
+   "source": "https://www.sec.gov/Archives/edgar/data/896878/000089687826000045/intu-20261031.htm",
+   "as_of": "2026-11-19"
+  },
+  {
+   "note": "Business Money total payment volume +33% in Q1 FY27 and online payments cost of revenue up on volume: small-business nominal payment volume still strong, consistent with the Overheat hard data.",
+   "source": "https://investors.intuit.com/_assets/_7623f1ff5267b6890da8feeaf8f86c55/intuit/db/946/10425/webcast_transcript/Q1_FY27_Earnings_Script.pdf",
+   "as_of": "2026-11-19"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Latest 10-Q (Q1 FY27) read in text; prior three quarters via XBRL companyfacts and fact sheet quarterly table, not read in text.",
+  "presentation": "No earnings slide deck found in 8-K exhibits (Q3 EX-99.02 was an employee memo); IR prepared remarks (Q1 FY27 earnings script) used instead.",
+  "red_flag_scan": "EDGAR filings list scanned: no 4.01, 4.02, NT 10-K/10-Q; CORRESP/UPLOAD Feb-Mar 2024 read (KPI disclosure). 8-K 5.02 filings (Nov 2025, Jan 2026, Apr 2026) listed but not read.",
+  "ir_fact_sheet": "investors.intuit.com Q1 FY27 fact sheet and earnings script fetched.",
+  "other": "Auditor report only checked for opinion on controls; critical audit matters not located by text search. TurboTax unit counts and QuickBooks customer counts not disclosed in any source read. IBKR not used (triage)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 271.72,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/INTU"
+ },
+ "complete": true
+}

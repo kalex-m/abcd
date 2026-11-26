@@ -1,0 +1,188 @@
+{
+ "ticker": "FOUR",
+ "name": "Shift4 Payments",
+ "industry": "payments",
+ "company_type": "Fast grower",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Integrated payments plus software for hospitality, restaurants, stadiums and luxury retail, and since the July 2025 Global Blue deal, tax-free shopping refunds for travellers.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 gross revenue $1,319M: payments-based $1,073M, tax-free shopping $139M, subscription and other $107M (-10% y/y per letter). Payments-based GRLNF $402M of $648M total.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Many merchants across restaurants, hotels, venues, luxury brands; Kahala Brands is now largest restaurant customer. No single customer above 10% disclosed in what was read (not exhaustively checked).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "67% of 6,300 staff are outside the US across 59 countries; worldwide ex-Americas payments GRLNF +44% YTD; euro notes $1,266M; FX and travel disruption named as headwinds.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Takes a spread (Blended Spread 64 bps vs ~60 bps target) on card volume ($61B in Q3, +11%) plus software and tax-refund fees; mostly recurring per-transaction, paid as volume flows.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Capex $63-74M a quarter (equipment, software); Adj EBITDA margin 48% on GRLNF (50% a year ago); FY guide cut: GRLNF ~4% and Adj EBITDA ~6% below the original 2026 plan; volume guide upper end trimmed to $240-250B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: Visa/Mastercard network fees ($671M in Q3, passed to merchants and netted out in GRLNF); one vendor processes North American merchant activity and a sponsor bank is needed (single points of failure); funding via term loan and notes. Pass-through: network fees yes; interest costs no ($78M Q3 vs $61M a year ago). Signal tags: rates (floating term loan $1,990M at 6.35%), dollar and travel (tax-free shopping, euro debt), consumer_spending_nominal (percent-of-sale revenue), regulation (interchange).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Claims #1 in US hospitality and sports/entertainment, #2 in US restaurants, #1 in luxury tax-free retail; 'unmatched software integration library'. Doing differently now: Shift4 One unified platform live in 15 countries, trading single-product revenue for payments revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "A business-to-business brand; consumers see it at checkout but do not choose it. Not an everyday household name. Marketing spend not separately checked.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Competes with Chase Paymentech, Elavon, Fiserv, Global Payments, Adyen, Toast, Square, Lightspeed. Company says it is gaining share; volume +11% and payments GRLNF +18% in Q3 suggest so, but rivals' volume not compared here.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Payments GRLNF +23% YTD vs low-20s target; international in 15 countries; pending $143M cash Paramount Commerce deal (up to $317M); Global Blue synergies ~$50M exiting 2026 toward $70M by 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "LTM GAAP free cash flow about $371M (156+66-9+158) vs adjusted $470M guide (42% of Adj EBITDA); net debt about $4.3B = 3.8x LTM Adj EBITDA of $1,132M; repurchased 5.5M shares in H1 and 4.2M in Q3; insiders and employees hold over 40% per CEO letter; Rook (founder) 28.4% of Class A. Pay rewards Adj EBITDA (PvP table).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Not losing relevance: volume 2.9x Q3 2022. But travel disruption and weak same-store sales hit Q4 harder; subscription revenue -10% in Q3; growth leans on acquisitions; founder (25% of votes) now serves as NASA Administrator and resigned as Executive Chairman Dec 2025.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean: no 4.01/4.02, no NT filings, no CORRESP/UPLOAD in 3 years, clean ICFR opinion (PCAOB ID 238), Global Blue valuation is the critical audit matter. Flags: Q3 Adj EBITDA $310M vs EBITDA $261M (+19%); non-GAAP EPS $1.49 vs GAAP $0.37; Adj FCF adds back $151M YTD; chief accounting officer left Apr 2026 (interim replacement).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000010/four-20251231.htm",
+   "as_of": "2026-02-27"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 2,
+   "evidence": "Overheat: nominal volume helps, but a strong dollar and rising rates hurt (floating debt, tourists). Slowdown: travel and discretionary dining/stadium spend soften first and 3.8x leverage bites. Stagflation: real spend falls, debt costs rise. Boom is best.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Exposed to card network rules, interchange/Credit Card Competition Act, EU/UK payment rules, tax-free shopping regimes in 40+ countries; pending Paramount close needs routine approvals in Q4 2026. No specific adverse docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "At $43.58 (about 88M shares incl. preferred, equity ~$3.8B, EV ~$8.3B), reverse DCF: LTM GAAP FCF $371M must shrink ~2% a year (or $290M after stock comp must grow only ~1.5%) to justify price; own OCF grew 275M (2022) to 634M (2025). EV/Adj EBITDA ~7.4x, ~8.5x non-GAAP EPS guide $5.05-5.15. Own 5-year range and peer multiples not pulled.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000051/four-20260930.htm",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Organic growth is real (9-10%) and the price implies shrinking cash flow, but 3.8x net leverage, a guidance cut and large non-GAAP add-backs leave the cushion unproven in a Slowdown turn.",
+ "the_mistake": "Market treats it as a debt-funded roll-up whose cash flow will shrink; filings show 9% organic growth, payments revenue +18%, record adjusted free cash flow, and the 2027 convertible ($633M) already covered by $1.24B cash and a new term loan.",
+ "what_makes_market_notice": "Q4 2026 results (around Feb 2027) showing synergies near $50M and free cash flow at the $465-475M guide; Paramount close in Q4 2026; reduced travel disruption.",
+ "feedback": [
+  {
+   "fact": "CEO letter: travel disruption (worse in Q4), currency fluctuation, inflation and weaker same-store sales are headwinds; volume guide trimmed to $240-250B. Confirms dollar and soft real-spend reads.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1794669/000179466926000049/ex991q3.htm",
+   "as_of": "2026-11-05"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read in detail; prior three 10-Qs via XBRL history and the Q3 letter's 5-quarter tables only",
+  "ir_fact_sheet": "investors.shift4.com answered 200 but was not crawled; the Q3 shareholder letter served as presentation",
+  "def14a": "2026 proxy: ownership and pay-vs-performance table only; incentive metrics not read in full",
+  "red_flag_scan": "EDGAR filing list: no 4.01/4.02, NT, CORRESP or UPLOAD in 3 years; 5.02 items read (Isaacman Dec 2025, CAO Mar 2026)",
+  "price": "yFinance only; own 5-year multiple range and peer multiples not pulled; organic growth also quoted as 11% in one letter chart vs 9% constant currency in text (unreconciled)"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 43.58,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/FOUR"
+ },
+ "complete": true
+}

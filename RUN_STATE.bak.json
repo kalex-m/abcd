@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T14:03:36+00:00",
+  "heartbeat": "2026-11-26T14:04:04+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -679,10 +679,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/INTU.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T14:00:08+00:00"
+      "updated": "2026-11-26T14:04:04+00:00"
     },
     {
       "id": "w4-AXP",
@@ -749,10 +749,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/JKHY.json",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T14:03:36+00:00"
     },
     {
       "id": "w4-CPAY",
@@ -864,6 +864,7 @@
     "Correction (CNI triage): CN will not oppose UP-NS after a 2026-07-22 settlement; CN Teamsters and Steelworkers contracts expire 2026-12-31",
     "Borderline for main-thread review after Wave 4: SCHW (A, mistake identified, P/E at 5-yr low but P/TBV shows no cushion; P/TBV is a weak lens for a brokerage with TDA goodwill; earnings partly cyclical). FIS (B, price implies decline, but organic slowdown unexplained).",
     "Borderline add: C (quality C on unresolved 2020 consent orders, but identified mistake: Services 31% ROTCE hidden in a ~11% bank; All Other loss falls away as Banamex deconsolidates early 2027; 1.12x TBV).",
-    "Borderline add: PYPL (B; price implies owner FCF -2%/yr for 10 years while volume and Venmo grow and share count fell ~29%; Zoom test unresolved because branded-checkout growth is not quantified)."
+    "Borderline add: PYPL (B; price implies owner FCF -2%/yr for 10 years while volume and Venmo grow and share count fell ~29%; Zoom test unresolved because branded-checkout growth is not quantified).",
+    "Borderline add (strongest): INTU (B, attractiveness HIGH; price implies ~2%/yr FCF growth vs 22% 5-yr; GBS ~56% of segment op income growing 15%; kept Watch for real consumer-side AI/share pressure: Credit Karma guide cut to +3-7%, TurboTax price cuts)."
   ]
 }
