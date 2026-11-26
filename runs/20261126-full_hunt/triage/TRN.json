@@ -1,0 +1,192 @@
+{
+ "ticker": "TRN",
+ "name": "Trinity Industries",
+ "industry": "railroads",
+ "company_type": "Cyclical",
+ "business_model": "Other (railcar lessor plus railcar manufacturer: monthly lease rent over funding cost, plus build-to-order manufacturing)",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Builds freight and tank railcars (Rail Products) and owns, leases and services about 97,160 wholly-owned railcars (Leasing and Services); substantially all of the lease fleet was built by Trinity. Two businesses under one brand, TrinityRail.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000014/trn-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 3,
+   "evidence": "Q3 2026 revenue $535.1M: Rail Products $339.5M (new railcars, conversions, parts), Leasing and Services $286.3M (leases, maintenance, logistics), minus $90.7M of sales to its own lease fleet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Fleet leased to industrial shippers and railroads (chemicals, energy, agriculture, construction, consumer products) on fixed monthly rent for 1 to 10 years; 10-K says some markets have few customers and orders swing by quarter. Top-customer share not found in the text read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000014/trn-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "North America only. 3,460 of 6,110 employees (57%) are in Mexico, where tank cars are built (Monclova since 1998); steel is shipped from the US into Mexico, so peso and border rules matter. Revenue split by country not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000014/trn-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Two sentences: it rents railcars on 1-10 year fixed leases (spread over funding cost) and builds railcars for itself and outside buyers. Leasing revenue is recurring; building is lumpy. Nearly all lease debt is non-recourse, with 71.8% loan-to-value on the wholly-owned fleet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Fleet is capital heavy (lease capex $409.5M in 9M 2026, sold $168.7M); manufacturing has high fixed cost (Rail Products margin 5.1% ex a $13.4M facility gain, guided 5-6% for the year). 3-year net fleet investment and cash targets met early; 2026 EPS guide $2.20-$2.40 held, but maintenance business showed 'operational inefficiencies' and Jonesboro shop is being repurposed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/q32026exh992-conferencecal.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 2,
+   "evidence": "Steel and bought-in components are over 70% of railcar cost; at least two suppliers make most specialty parts (wheels, brakes, bearings, side frames), names not disclosed. Tank cars depend on the Mexico plant, now under an antidumping and countervailing duty petition by Union Tank Car (Berkshire). Cost pass-through is by contract escalators and some tariff-recovery clauses, which the 10-Q says may not fully cover duties; higher steel can also cut new-car demand. Signal tags: tariffs and steel to input cost, rates to customer and own financing, oil/chemicals to tank-car demand.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000014/trn-20251231.htm",
+   "as_of": "2026-02-19"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Only large lessor that builds most of its own fleet (scale and a captive factory); 15-year average fleet age with low obsolescence; sells fleet slices to investor partners (Napier Park, Wafra) and keeps servicing fees: investor-owned fleet 50,260 cars vs 33,645 a year ago. New: sustainable railcar conversions (355 delivered in Q3).",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Business-to-business industrial name; nobody outside rail and chemical shippers would notice it vanish. Renewal success 89% shows customers do re-sign, which is repeat buying of a sort. No marketing spend line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Leasing: GATX and four other major lessors; building: Union Tank Car, Greenbrier and others. Industry fleet has shrunk 17 straight months (AAR via the company deck); Trinity's share of orders not disclosed. Q3 orders 2,190 vs 350 a year ago suggests it is at least keeping pace in a thin market.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/q32026investorpresentati.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Management says 2026 is the low for industry deliveries (about 16,000 delivered through Q3, guide under 25,000), railcars in storage fell to 18%, and lease rates lag asset values. But the leasing signal is mixed: FLRD (change in rent expected on leases expiring in the next four quarters) fell to +0.1% from +8.7%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "Operating cash flow $242.7M in 9M 2026, but after lease capex net of sales and operating capex, free cash flow was about -$33M (my calculation; -$227M a year ago), funded by debt (+$142M). Debt $5.92B, recourse only $599M. Q3 buyback of 787,000 shares for $23M at about 2x book. ROE 31.8% is boosted by non-cash partnership gains ($194M Q4-25, $132M Q2-26). Insiders own 2.1%. Long-term pay is 60% performance units tied to relative TSR and ROE (the gain-boosted measure).",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Railcars are long-lived and the fleet is shrinking, which supports rent. But tank-car compliance repair work is moderating, the Mexico duty petition is open, and the head of Leasing and Services retired in 2026 (8-K Item 5.02). Rail freight is not losing relevance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/q32026exh992-conferencecal.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean on formal flags: no 8-K Item 4.01 or 4.02, no NT filings, no CORRESP/UPLOAD letters, no material weakness found, one critical audit matter (deferred taxes) since Nov 2023. Earnings quality is the concern: 9M 2026 pre-tax income of $199.4M includes $131.6M partnership gain, $38.7M lease-sale gains and $17.5M other gains; ex all gains it is about $12M (my calculation). Non-GAAP 'Adjusted ROE' and 'cash flow with gains' are headline measures.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom + (orders and fleet utilisation rise, 2026 seen as deliveries low). Overheat 0 (steel and asset prices lift lease rates, but the newest $350M loan floats at SOFR + 1.30% and the 2028 recourse notes cost about 7.8%). Stagflation - (steel and rate squeeze, volumes soft). Slowdown - (orders, rail volumes and gain sales fall; refinancing costs). Share of floating-rate debt not found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Antidumping and countervailing duty petition on Mexican tank cars filed 2026-09-30 (Commerce initiation decision extended; ITC preliminary case open); no accrual booked and loss not estimable. Section 232 steel tariffs and IEEPA tariffs are named risks. Mexico is core to the plant footprint.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000136/trn-20260930.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $30.19 (2026-11-25 close), market cap about $2.36B, 2.13x book (own year-end range 1.9-2.5x, my calculation), forward P/E 14.2, trailing P/E 7.3 (distorted by gains), EV/EBITDA 13.0 vs GBX 12.7, WAB 19.7, GATX 2.33x book. Reverse DCF at 10% discount and 3% terminal growth: owner cash of $241-285M a year (5-year average to LTM operating cash flow less operating capex and the equity-funded share of fleet spend) is priced for -3% to -5% a year; if only $150M is truly distributable it needs +3.9% a year. Last 5 years: operating cash flow fell from $622M (2020) to $367M (2025). Dividend $1.24 (4.1%).",
+   "source": "https://finance.yahoo.com/quote/TRN",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is C: about 94% of 9M pre-tax income is gains and ex-gains it is about $12M against $196M of interest; the price (2.13x book) leaves no clear cushion and no proven mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Trinity says 17 straight months of North American fleet contraction, railcars in storage down to 18% (lowest since May 2023), renewal rates +4.1% over expiring, utilization 97.0%, and expects 2026 to be the cyclical low for deliveries (industry under 25,000). Orders 2,190 vs 350 a year ago; backlog $1.65B vs $1.76B. This agrees with GATX (utilization 98.4%) and the Overheat read for lessors, but FLRD fell to +0.1% from +8.7% and new-car backlog value is lower, so nothing shows a slowdown yet and nothing shows lease rates still accelerating.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/q32026exh992-conferencecal.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "fact": "CFO says capital markets remain supportive 'in a rising rate environment' (closed a $350M SOFR+1.30% term loan in Oct 2026 refinancing 3.10% notes), and that higher steel and rates will push lease rates up. Confirms the rate and steel input signals; the refinancing replaced 3.10% debt with floating debt, which is the cost side of a Fed hike.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000135/exh991pressrelease9302026.htm",
+   "as_of": "2026-10-29"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively (legal note, debt notes); Q1 and Q2 10-Qs not read line by line; annual numbers from XBRL companyfacts.",
+  "ir_fact_sheet": "IR site trin.net not fetched; supplemental statistics are in the EX-99.1 release and EX-99.3 deck.",
+  "red_flag_scan": "EDGAR submissions list scanned for 8-K Items 4.01/4.02/5.02, NT, CORRESP/UPLOAD since 2023-11; only a 5.02 (Feb 2026, Mitchell retirement) and 5.02 (Apr 2024) found; comment-letter contents not applicable.",
+  "price": "yFinance last close 2026-11-25 (stock rose 4.6% that day, from 28.85); multiples from yFinance info; 5-year P/B is my calculation from year-end price, approximate share counts and book equity; IBKR not used at triage. Several gain and FCF figures are my calculations from the EX-99.1 statements. Customer concentration and revenue-by-country not extracted from the 10-K."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 30.19,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/TRN"
+ },
+ "complete": true
+}
