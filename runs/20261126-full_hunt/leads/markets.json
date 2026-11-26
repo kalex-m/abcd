@@ -1,0 +1,280 @@
+[
+  {
+    "lead_id": "L-20261126-markets-1",
+    "agent": "markets",
+    "signal": "Oil fell about 18% in a month and Brent is back near $91-95 after a $116 retest on Oct 26.",
+    "evidence": [
+      {
+        "fact": "Brent 94.61 vs 115.81 on 2026-10-26; WTI 83.68 vs 101.76",
+        "source": "https://finance.yahoo.com/quote/BZ=F",
+        "as_of": "2026-11-25"
+      },
+      {
+        "fact": "WTI managed-money net long fell to 15.8k from 111.7k on 9-08",
+        "source": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+        "as_of": "2026-11-17"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "airlines",
+        "link": "input cost",
+        "direction": "helps"
+      },
+      {
+        "industry": "trucking",
+        "link": "input cost",
+        "direction": "helps"
+      },
+      {
+        "industry": "railroads",
+        "link": "input cost",
+        "direction": "helps"
+      },
+      {
+        "industry": "oil-gas",
+        "link": "customer demand",
+        "direction": "hurts"
+      }
+    ],
+    "so_what": "Fuel-heavy users get relief; producers lose pricing. Positioning is already flat, so selling pressure may be mostly done.",
+    "ask_next": "Do airlines, truckers and railroads show fuel surcharge or fuel cost lines in latest filings that confirm the relief, and how much is hedged?",
+    "tickers_named": [
+      "DAL",
+      "UAL",
+      "UNP",
+      "CSX",
+      "XOM"
+    ],
+    "strength": "one_lane",
+    "confidence": "medium"
+  },
+  {
+    "lead_id": "L-20261126-markets-2",
+    "agent": "markets",
+    "signal": "10y breakeven inflation fell to 2.12% (from 2.34% a month ago) while Oct CPI was hot.",
+    "evidence": [
+      {
+        "fact": "10y breakeven 2.12 vs 2.34",
+        "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10YIE",
+        "as_of": "2026-11-25"
+      },
+      {
+        "fact": "Real 10y 2.73 vs 2.64 (Treasury)",
+        "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+        "as_of": "2026-11-25"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "homebuilders",
+        "link": "financing",
+        "direction": "helps"
+      },
+      {
+        "industry": "banks",
+        "link": "financing",
+        "direction": "helps"
+      }
+    ],
+    "so_what": "Market bets inflation fades; nominal yields fell but real yields rose, so financing relief is partial.",
+    "ask_next": "Is the 30-year mortgage rate falling with the 10y (4.85%), and do homebuilder order commentary and incentives show it?",
+    "tickers_named": [
+      "LEN",
+      "DHI",
+      "TMHC",
+      "BRK-B"
+    ],
+    "strength": "one_lane",
+    "confidence": "medium"
+  },
+  {
+    "lead_id": "L-20261126-markets-3",
+    "agent": "markets",
+    "signal": "High-yield spreads widened to 3.72%, the widest of 2026, up 105bp from August.",
+    "evidence": [
+      {
+        "fact": "HY OAS 3.72 vs 2.67 on 2026-08-26",
+        "source": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+        "as_of": "2026-11-24"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "banks",
+        "link": "financing",
+        "direction": "hurts"
+      },
+      {
+        "industry": "homebuilders",
+        "link": "financing",
+        "direction": "hurts"
+      },
+      {
+        "industry": "software",
+        "link": "financing",
+        "direction": "hurts"
+      }
+    ],
+    "so_what": "Lenders are charging more to risky borrowers: high-debt companies are squeezed, cash-rich ones gain relative standing.",
+    "ask_next": "Which companies in the configured industries have high-yield debt due within 24 months?",
+    "tickers_named": [
+      "HYG",
+      "BAC",
+      "COF"
+    ],
+    "strength": "one_lane",
+    "confidence": "medium"
+  },
+  {
+    "lead_id": "L-20261126-markets-4",
+    "agent": "markets",
+    "signal": "Tech sold off 16% in a month and VIX hit 35.9 on 11-20; SPY 8% below its October high.",
+    "evidence": [
+      {
+        "fact": "XLK 155.79 vs 186.32 on 10-26",
+        "source": "https://finance.yahoo.com/quote/XLK",
+        "as_of": "2026-11-25"
+      },
+      {
+        "fact": "VIX close 28.29, 35.89 on 11-20",
+        "source": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+        "as_of": "2026-11-25"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "software",
+        "link": "customer demand",
+        "direction": "hurts"
+      },
+      {
+        "industry": "semiconductors",
+        "link": "customer demand",
+        "direction": "hurts"
+      }
+    ],
+    "so_what": "Growth/AI names are the source of the equity drawdown; cheap quality may appear if fear is overdone.",
+    "ask_next": "Which software and semiconductor firms have net cash and falling prices without falling revenue?",
+    "tickers_named": [
+      "XLK",
+      "CRM",
+      "NOW",
+      "ADBE"
+    ],
+    "strength": "one_lane",
+    "confidence": "medium"
+  },
+  {
+    "lead_id": "L-20261126-markets-5",
+    "agent": "markets",
+    "signal": "Defensives are winning: staples +7% in 3 months while industrials -8%; cyclicals/defensives ratio -10%.",
+    "evidence": [
+      {
+        "fact": "XLP 92.30 vs 85.96 (8-25); XLI 162.95 vs 177.92",
+        "source": "https://finance.yahoo.com/quote/XLP",
+        "as_of": "2026-11-25"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "staples",
+        "link": "customer demand",
+        "direction": "helps"
+      },
+      {
+        "industry": "utilities",
+        "link": "customer demand",
+        "direction": "helps"
+      },
+      {
+        "industry": "railroads",
+        "link": "customer demand",
+        "direction": "hurts"
+      }
+    ],
+    "so_what": "Investors are paying up for safety; staples may be getting expensive, industrials cheaper.",
+    "ask_next": "Are staples valuations now above their 5-year range, and are rail carloads and intermodal volumes consistent with a slowdown?",
+    "tickers_named": [
+      "XLP",
+      "XLU",
+      "UNP",
+      "CSX",
+      "NSC"
+    ],
+    "strength": "one_lane",
+    "confidence": "medium"
+  },
+  {
+    "lead_id": "L-20261126-markets-6",
+    "agent": "markets",
+    "signal": "Market-vs-data gap: ISM manufacturing 55.5 and prices paid 75 while copper fell 18%, industrials 8% over 3m.",
+    "evidence": [
+      {
+        "fact": "ISM Oct 55.5 (secondary page)",
+        "source": "https://www.webull.com/news/15854774774635520",
+        "as_of": "2026-11-02"
+      },
+      {
+        "fact": "Copper HG=F 5.33 vs 6.51 on 10-26",
+        "source": "https://finance.yahoo.com/quote/HG=F",
+        "as_of": "2026-11-25"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "railroads",
+        "link": "customer demand",
+        "direction": "helps"
+      },
+      {
+        "industry": "trucking",
+        "link": "customer demand",
+        "direction": "helps"
+      }
+    ],
+    "so_what": "If ISM is right, industrial and transport stocks are mispriced low; if copper is right, the factory survey is lagging.",
+    "ask_next": "What do AAR weekly carloads and Q3 rail/trucking volume commentary say about real freight demand?",
+    "tickers_named": [
+      "UNP",
+      "CSX",
+      "NSC",
+      "XLI"
+    ],
+    "strength": "one_lane",
+    "confidence": "low"
+  },
+  {
+    "lead_id": "L-20261126-markets-7",
+    "agent": "markets",
+    "signal": "Dollar index up 4.8% in 3 months to 103.67 amid risk-off and higher real yields.",
+    "evidence": [
+      {
+        "fact": "DXY 103.67 vs 98.92 on 8-25",
+        "source": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "as_of": "2026-11-25"
+      }
+    ],
+    "travels_to": [
+      {
+        "industry": "payments",
+        "link": "customer demand",
+        "direction": "hurts"
+      },
+      {
+        "industry": "software",
+        "link": "customer demand",
+        "direction": "hurts"
+      }
+    ],
+    "so_what": "Strong dollar trims foreign revenue translation for multinationals and cross-border payment volumes.",
+    "ask_next": "Which payment and software firms disclose the largest foreign-currency revenue share and FX headwind guidance?",
+    "tickers_named": [
+      "V",
+      "MA",
+      "PYPL"
+    ],
+    "strength": "one_lane",
+    "confidence": "low"
+  }
+]
