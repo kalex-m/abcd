@@ -1,0 +1,191 @@
+{
+ "ticker": "FSTR",
+ "name": "L.B. Foster Company",
+ "industry": "railroads",
+ "company_type": "Cyclical",
+ "business_model": "Project / contract",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 3,
+   "evidence": "Small Pittsburgh maker and distributor of track components, friction-management products, rail monitoring tech, precast concrete and steel bridge/pipe products; founded 1902, two segments.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 3,
+   "evidence": "2025 sales $540.0M: Rail, Technologies and Services 57% (rail distribution, insulated joints, transit fasteners, friction management, track monitoring) and Infrastructure 43% (precast buildings, steel bridge products, pipe coating). 9M-2026 Rail sales +20.2%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "No customer above 10% of 2025 sales; in 2024 one Rail customer was about $71.8M (about 13.5%), unnamed. Buyers are short lines, transit agencies, contractors, Class Is, and government-funded projects.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "2025 sales: US $481.4M (89%), UK $32.4M (6%), Canada $19.4M, other $6.7M. UK is the weak spot (product lines being exited: AMH 2025, Tew 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 2,
+   "evidence": "Project and contract sales plus product sales, sealed bids for transit; not recurring. Orders are lumpy; Q3-2026 backlog $234.7M (Rail $126.4M -9.8%, Infrastructure $108.3M +1.0%). Aftermarket friction-management service is a small recurring piece.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000058/fstr-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 2,
+   "evidence": "Gross margin 21.1% (2025), operating margin 4.1% (2025) and 6.0% in Q3-2026: thin. Capex $10.4M (1.9% of sales). Working capital swings: operating cash flow 2022 -$10.6M, 2023 $37.0M, 2024 $22.6M, 2025 $35.6M. Q3 guidance hit rate not disclosed (company gives no formal guidance in the filings read).",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Buys steel, cement, aggregates (mostly domestic suppliers), epoxy and electronics; also finished/semi-finished steel products from domestic and some foreign producers; 'a number of vendor options' and no single supplier named, so no disclosed single point of failure. Foreign purchases face tariffs and anti-dumping duties. Pass-through is partial and not stated: Q3-2026 Rail gross margin fell 320bp to 19.6% on mix while sales rose 32%. Signal tags: steel price, tariffs, dollar (import cost), oil (epoxy/lubricants), rates (customer financing).",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Patents and trademarks in friction management, track monitoring and precast; CXT brand in precast buildings; installed base for friction management. Doing differently now: exiting low-margin UK lines (AMH, Tew), buying Dulworth precast operating assets for $52.2M cash (closed 2026-10-28), new Florida precast plant.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000053/fstr-20261028.htm",
+   "as_of": "2026-10-29"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 1,
+   "evidence": "B2B industrial supplier; no consumer usage; market cap about $0.4B. Customers would switch among vendors for commodity track accessories.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Competition 'in each product line' from different groups of companies; share data not disclosed. Rail Products Q3 sales +54.6% and orders +55.0%, while Friction Management orders -10.2% and sales -9.0%; no share series available.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000058/fstr-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Dulworth adds precast capacity; Florida plant ramping; Steel Products orders +508% in Q3 on prior-year cancellations; Rail Products strong. But total backlog is down, and growth is project-timing driven, not structural. Little evidence of segments scaling unpriced.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000058/fstr-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF (operating cash flow less capex) 2025 $25.2M, 2024 $12.8M, 2023 $32.4M, 2022 -$18.2M. Rough ROIC about 7-8% (NOPAT about $16M on about $214M capital; my calculation), below a 10% cost of capital. Debt $28.7M at 9/30/26, then $52.2M Dulworth funded from cash and revolver. Repurchased 1.017M shares for $23.6M since 2023 (about $23 average), none in 2026. CEO owns 2.2%; PSUs pay on Economic Profit Improvement and Adjusted EBITDA. Activist 22NW holds 11.3%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000114036126014171/ny20062559x1_def14a.htm",
+   "as_of": "2026-04-10"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Track components are needed and spending follows Class I, transit and state funding, but the business is a small, price-taking cyclical. Operating income was -$7.2M in 2022 and $21.9M in 2025; sales roughly flat, $540M in 2025 vs $531M in 2024. Not losing relevance; thin edge.",
+   "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000352825.json",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "Item 4.02 filed 2024-10-07 (gain classification error of $3.477M after SEC comments; material weakness at 12/31/2023). Remediated: 10-K FY2025 concludes internal control effective. CORRESP/UPLOAD letters were in Aug-Nov 2024; none found since. No NT filings. Heavy activist presence but no related-party issues seen.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282524000197/fstr-20241007.htm",
+   "as_of": "2024-10-07"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +; Overheat 0 to + (steel and wages push cost, volume helps; surcharge-style pass-through is not disclosed); Stagflation -; Slowdown - (lower freight and transit capex, project delays, small cap with a revolver). Rate sensitivity: revolver is floating, partly swapped ($20M swaps). Dollar: UK/Canada exposure is about 10% of sales.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000058/fstr-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Exposed to federal infrastructure funding, shutdown delays, Buy America style content rules, and steel tariffs and anti-dumping duties named in risk factors. No pending regulatory docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000016/fstr-20251231.htm",
+   "as_of": "2026-03-05"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "$37.78 gives market cap about $397M; pro forma net debt about $74M (debt $28.7M less cash $7.2M plus $52.2M Dulworth) so EV about $471M, 12x LTM EBITDA (about $38.6M, my calculation) and 13.7x 2025 EBITDA. Reverse DCF at 10% discount rate, 3% terminal: needs about 4% (on $29M pre-interest FCF) to 6% (on $25M) FCF growth for 10 years. Own last 5 years FCF is erratic (2022 -$18M to 2023 +$32M) so no clean growth rate. Price assumes steady growth from a lumpy base: no cushion. Own 5-year and peer multiples: not pulled.",
+   "source": "https://finance.yahoo.com/quote/FSTR",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is C (thin 4-6% operating margin, lumpy cash flow, ROIC below cost of capital), so it cannot survive; no kill-switch rule holds, and the price leaves no cushion.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "note": "Rail Products orders +55.0% and sales +54.6% in Q3-2026 supports the strong US freight/maintenance-spend read in AAR data; Rail backlog -9.8% and Friction Management orders -10.2% show no broad acceleration. Infrastructure steel orders had prior-year cancellations. Nothing yet confirms the Slowdown turn.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000058/fstr-20260930.htm",
+   "as_of": "2026-11-04"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "unreachable",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read for business, segments, customers, ICFR, MD&A.",
+  "10-Q": "Q3-2026 10-Q read in full MD&A; Q1/Q2 2026 and Q3-2025 10-Qs listed but not read, XBRL annual series used for history.",
+  "earnings_release": "Nov 4 2026 8-K main body read; EX-99.1 release text not fetched in this pass (numbers taken from the 10-Q).",
+  "presentation": "Not fetched; no IR site access attempted in this pass.",
+  "ir_fact_sheet": "Not fetched; IR site not reached.",
+  "def14a": "2026 proxy: ownership table and PSU metrics only; pay figures not read.",
+  "red_flag_scan": "8-K item list, NT forms and CORRESP/UPLOAD from the EDGAR submissions feed; 4.02 8-K (2024-10-07) read. No NT filings found.",
+  "price": "yFinance quote, last close 2026-11-25; peer and own 5-year multiples not pulled."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 37.78,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/FSTR"
+ },
+ "complete": true
+}
