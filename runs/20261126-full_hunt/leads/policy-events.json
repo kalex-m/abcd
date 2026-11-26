@@ -1,0 +1,274 @@
+[
+ {
+  "lead_id": "L-20261126-policy-events-1",
+  "agent": "policy-events",
+  "signal": "USTR proposed new Section 301 tariffs on 14 economies over industrial excess capacity.",
+  "evidence": [
+   {
+    "fact": "Proposed tariffs: China up to 20%, EU 15%, Japan/Korea/Taiwan/Switzerland up to 15%, India up to 25%, Vietnam up to 35%; sectors named include autos, semiconductors, pharma, steel, solar, apparel; comments due 2027-01-05, hearings 2027-01-25; no effective date",
+    "source": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+    "as_of": "2026-11-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "autos",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "semiconductors",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "pharma",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "apparel-retail",
+    "link": "input cost",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Importers of finished goods and parts face higher costs if finalized; it adds to the tariff-inflation channel in the stagflation read; nothing is law yet.",
+  "ask_next": "Which large US companies import most from the 14 economies in these sectors, and which already disclosed tariff costs in the latest 10-Q?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-2",
+  "agent": "policy-events",
+  "signal": "UP-NS rail merger review will not finish before mid-2027.",
+  "evidence": [
+   {
+    "fact": "STB set schedule 2026-08-18: final briefs due 2027-05-28, decision within 90 days of record close",
+    "source": "https://www.stb.gov/wp-content/uploads/PR-26-21.pdf",
+    "as_of": "2026-08-18"
+   },
+   {
+    "fact": "STB accepted revised application 2026-05-28, held in abeyance until August",
+    "source": "https://www.stb.gov/news-communications/latest-news/pr-26-13/",
+    "as_of": "2026-05-28"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "railroads",
+    "link": "regulation",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "No deal clarity for years of rail investors; standalone rail economics matter more near term; merger conditions on competition are the swing factor.",
+  "ask_next": "What have the STB docket FD 36873 filings from shippers and BNSF/CSX said on competition remedies since September?",
+  "tickers_named": [
+   "UNP",
+   "NSC"
+  ],
+  "strength": "one_lane",
+  "confidence": "high"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-3",
+  "agent": "policy-events",
+  "signal": "Homebuilder consolidation: Dream Finders closed Beazer (cash), Berkshire closed Taylor Morrison.",
+  "evidence": [
+   {
+    "fact": "Dream Finders completed Beazer merger 2026-10-20 at $33.50 cash per share",
+    "source": "https://www.sec.gov/Archives/edgar/data/915840/000110465926131058/tm2630409d1_8k.htm",
+    "as_of": "2026-11-23"
+   },
+   {
+    "fact": "TMHC filed Form 15 (deregistered) 2026-08-04 after the Berkshire deal",
+    "source": "https://www.sec.gov/Archives/edgar/data/1562476/000119312526332021/d376435d1512g.htm",
+    "as_of": "2026-08-04"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "homebuilders",
+    "link": "competition",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Buyers paying cash for builders at a cyclical low is a bottom-of-cycle signal; fewer public builders left.",
+  "ask_next": "What price-to-book multiples did these deals pay versus where LEN, DHI, PHM trade?",
+  "tickers_named": [
+   "DFH",
+   "BZH",
+   "TMHC",
+   "LEN"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-4",
+  "agent": "policy-events",
+  "signal": "Marvell agreed to buy Lumentum in an all-stock deal (4.5 Marvell shares per share).",
+  "evidence": [
+   {
+    "fact": "Merger agreement 2026-11-01; 4.500 exchange ratio; Marvell holder vote needed for charter change and share issuance",
+    "source": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526442717/d352474d8k.htm",
+    "as_of": "2026-11-02"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "semiconductors",
+    "link": "competition",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Consolidation in optical/AI networking parts; antitrust and China approval risk; dilution for Marvell holders.",
+  "ask_next": "What regulatory approvals are required, outside date and termination fee in the merger agreement?",
+  "tickers_named": [
+   "MRVL",
+   "LITE"
+  ],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-5",
+  "agent": "policy-events",
+  "signal": "Section 232 findings on robotics/machinery and wind turbines carry no tariff yet; talks ordered.",
+  "evidence": [
+   {
+    "fact": "Robotics proclamation signed 2026-10-28: no tariffs, negotiations, Commerce/USTR update within 180 days",
+    "source": "https://www.whitehouse.gov/presidential-actions/2026/10/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states/",
+    "as_of": "2026-10-28"
+   },
+   {
+    "fact": "FR publication of robotics proclamation",
+    "source": "https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united-states",
+    "as_of": "2026-11-02"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "industrial-machinery",
+    "link": "input cost",
+    "direction": "hurts"
+   },
+   {
+    "industry": "utilities",
+    "link": "input cost",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "A tariff option hanging over machinery buyers and wind projects, to be decided by about April 2027.",
+  "ask_next": "Which machinery makers and wind developers have import exposure per their filings?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-6",
+  "agent": "policy-events",
+  "signal": "Penske Automotive take-private by Penske Corp and Mitsui moves to proxy stage.",
+  "evidence": [
+   {
+    "fact": "PREM14A filed 2026-11-24; merger agreement dated 2026-10-15 with Motown Acquisition Corp",
+    "source": "https://www.sec.gov/Archives/edgar/data/1019849/000114036126045385/ny20083135x1_prem14a.htm",
+    "as_of": "2026-11-24"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "autos",
+    "link": "competition",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Strategic buyers value auto retail at current prices despite tariff risk to autos.",
+  "ask_next": "What price and premium, and do dealership peers trade near that value?",
+  "tickers_named": [
+   "PAG"
+  ],
+  "strength": "one_lane",
+  "confidence": "low"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-7",
+  "agent": "policy-events",
+  "signal": "Rate-sensitive event cluster Dec 7-10: 3y/10y/30y auctions, FOMC, CPI.",
+  "evidence": [
+   {
+    "fact": "FOMC Dec 8-9 with projections",
+    "source": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "as_of": "2026-11-26"
+   },
+   {
+    "fact": "CPI Nov on Dec 10; jobs Dec 4",
+    "source": "https://www.bls.gov/schedule/2026/12_sched_list.htm",
+    "as_of": "2026-11-26"
+   },
+   {
+    "fact": "3y Dec 7, 10y reopening Dec 8, 30y reopening Dec 10",
+    "source": "https://home.treasury.gov/system/files/221/TentativeAuctionScheduleQ42026.pdf",
+    "as_of": "2026-11-26"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "hurts"
+   },
+   {
+    "industry": "homebuilders",
+    "link": "financing",
+    "direction": "hurts"
+   },
+   {
+    "industry": "utilities",
+    "link": "financing",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Long-yield swings around weak auctions or hot CPI hit mortgage rates and rate-sensitive stocks within days.",
+  "ask_next": "What did the Nov 2026 3y/10y/30y auctions' tails and bid-to-cover show, and what does the market price for the Dec 9 decision?",
+  "tickers_named": [],
+  "strength": "one_lane",
+  "confidence": "medium"
+ },
+ {
+  "lead_id": "L-20261126-policy-events-8",
+  "agent": "policy-events",
+  "signal": "Anthropic's $81B IPO (largest ever) priced at $83 on Nasdaq; possible fast index entry Dec 21.",
+  "evidence": [
+   {
+    "fact": "424B4: 980M shares at $83, Nasdaq symbol ANT, lockups 180-365 days",
+    "source": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+    "as_of": "2026-11-19"
+   },
+   {
+    "fact": "Press: opened $111.50 on 2026-11-19; one report says Nasdaq-100 entry Dec 21 (unconfirmed)",
+    "source": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo",
+    "as_of": "2026-11-19"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "competition",
+    "direction": "hurts"
+   },
+   {
+    "industry": "semiconductors",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Huge new equity supply and index-fund buying could pull money from other mega-caps; AI lab as listed competitor for software seat spending.",
+  "ask_next": "Does Nasdaq's published 2026 methodology allow fast entry, and which holdings get sold to make room?",
+  "tickers_named": [
+   "ANT"
+  ],
+  "strength": "one_lane",
+  "confidence": "low"
+ }
+]
