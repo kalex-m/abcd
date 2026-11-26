@@ -1,0 +1,189 @@
+{
+ "ticker": "TOST",
+ "name": "Toast, Inc.",
+ "industry": "payments",
+ "company_type": "Fast grower",
+ "business_model": "Razor-and-blade: restaurant software subscription plus payments take rate",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Toast sells restaurant and retail operators a point-of-sale system plus the card payments, payroll and loans that run through it; about 189,000 locations, ARR $2.5B (+24%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "9M 2026 revenue $5,519M: financial technology (payments, mostly pass-through) $4,512M, subscriptions $875M, hardware and services $132M; subscription plus fintech gross profit $1,735M of total $1,506M after a hardware/services loss.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Mostly small and mid-sized restaurants (10-K: a majority are SMBs, more fragile in downturns); no customer above 10% of revenue in 2023-2025; enterprise chains (Applebee's etc.) and retail growing from a small base.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000057/tost-20251231.htm",
+   "as_of": "2026-02-18"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Effectively all revenue is US (no material revenue elsewhere in 2023-25); staff in Ireland and India; Canada all 10 provinces; no real currency exposure, but also no geographic spread yet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000057/tost-20251231.htm",
+   "as_of": "2026-02-18"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Razor-and-blade: subscription fee plus a cut of each card payment. Payments cost of revenue $1,239M on $1,619M fintech revenue in Q3 2026, so net take about 0.61% of $61.8B volume, same as a year ago (about 0.61%). Most gross profit rides on restaurant sales volume.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Software-like costs: GAAP operating income $165M on $630M recurring gross profit (26% margin, from 17% a year ago); capex only $48M in 9M. Watch: inventory $244M vs $114M at year-end, and $148M paid for contract acquisition costs in 9M. Guidance raised in Q3: FY gross profit growth 26% (was 23-25%), adj. EBITDA $840-850M (was $805-825M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: card payment processors/sponsor banks (interchange passes through to merchants, Toast keeps its spread), hardware from contract manufacturers, some on a single source (displays); 10-K says no long-term agreements with all suppliers. Tags: tariffs and dollar hit hardware cost; inflation/consumer_spending_nominal move volume; rates drive cash interest income ($36M in 9M). Hardware is a small, loss-making line (cost $357M vs revenue about $132M incl. services in 9M) so pass-through matters little; the payments take rate has held at 0.61%. Single bank partner for Toast Capital loans.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000057/tost-20251231.htm",
+   "as_of": "2026-02-18"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "All-in-one restaurant stack with switching costs (hardware, menus, payroll, payments in one login) and data for lending; record 30,000 net adds in 2025. Doing differently now: AI agents (Toast IQ Grow and Team), Toast Fuel for convenience stores.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000098/tost-20260423.htm",
+   "as_of": "2026-04-23"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Diners see Toast terminals daily but are not the buyer; to operators it is a well-known brand. Vanishing would hurt restaurants a lot, consumers little. Sales and marketing $493M in 9M, 8.9% of revenue ($171M in Q3 vs $144M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Competes with Square, Fiserv's Clover, legacy POS and niche tools. Gaining: locations +21% to 189,000 with about 8,500 net adds in Q3 and a record 30,000 in 2025. No filing gives total market share; 'nothing found' on a clean share figure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Enterprise, international and retail passed 10,000 live locations in mid-2025 (10-K proxy); Canada complete; fuel and convenience launched. Core US restaurant base is still being converted. Not yet priced as a separate story; international revenue is not yet material.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000098/tost-20260423.htm",
+   "as_of": "2026-04-23"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "No debt, $1,885M cash and securities. FCF about $606M over the last 12 months (estimate: FY25 operating cash $661M plus 9M change, less capex) but 9M FCF flat at $426M vs $430M. SBC about $214M last 12 months. Bought back $486M (19M shares) in 9M and added $500M authorization. Dual-class: Class B holds about 55% votes. CFO and President Gomez leaves Dec 31, 2026 (successor internal).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Gaining relevance: ARR +24%, locations +21%. Risks: restaurant cycle (SMB), cheap competition (Clover, Square), founder-led but CFO transition, and one major legal challenge to sales practices.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Clean on accounting: no 8-K Items 4.01/4.02, no NT filings, no CORRESP/UPLOAD letters in the filing list back to 2022. But FTC and 7 states sued on Oct 29, 2026 (FTC Act, ROSCA: sales and cancellation practices); damages unestimated, no accrual. Critical audit matter is the Toast Capital credit-loss reserve (credit loss expense $87M in 9M vs $66M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000216/tost-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +; overheat 0 (nominal sales inflation lifts volume, but food and labour costs squeeze SMB restaurants; cash earns interest); stagflation - (real traffic flat, loan losses); slowdown - (volume-linked, high-multiple). Rate sensitivity: higher rates add interest income, hurt loans; dollar negligible (US revenue).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "FTC complaint filed Oct 29, 2026 seeking injunction, money relief and civil penalties (docket: N.D. Cal., 10-Q note); interchange rules and Credit Card Competition Act would change who keeps the payment spread; Toast offers surcharging.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000216/tost-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $33.71 (close 2026-11-25), market cap $19.6B, EV about $17.7B (no debt, $1.9B cash). Reverse DCF at 10%/3%: needs about 12% yearly FCF growth for 10 years off $606M FCF, or about 18% if SBC ($214M) is counted as a cost (owner FCF $392M). Own record: FCF swung from negative in 2022 to about $606M, but 9M 2026 FCF is flat. Multiples: forward P/E 19.0, EV/FY26 adj. EBITDA guide about 21x vs Block 14.1 fwd P/E, PayPal 9.8, Fiserv 7.5. 5-year own multiple range: not retrieved (nothing found cheaply).",
+   "source": "https://finance.yahoo.com/quote/TOST",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B and growth and profit are real, but price needs about 12-18% yearly cash-flow growth for ten years, the FTC sued on Oct 29 and the CFO is leaving, and no clear market mistake shows.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Restaurant POS payment volume (GPV) grew 20% to $61.8B in Q3 2026 with take rate steady at about 0.61%, so nominal restaurant spending was solid in Jul-Sep; October real spending flat is not yet in any company data.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm",
+   "as_of": "2026-11-03",
+   "reading": "Supports Overheat in hard data (nominal volume up); does not yet confirm the Slowdown turn."
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read in full text; the earlier three read through the EX-99.1 comparatives and XBRL, not line by line.",
+  "presentation": "No EX-99.2 in the 8-K; investor site not fetched (not in allowed fetch list).",
+  "ir_fact_sheet": "Not reached; IR site not fetched.",
+  "price": "yFinance; peers' multiples from yFinance (forward P/E) only; own 5-year multiple range not retrieved; FCF last-12-months is an estimate from filings.",
+  "red_flag_scan": "Filing list back to 2022-04 scanned for 4.01/4.02, NT, CORRESP, UPLOAD: none."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 33.71,
+  "as_of": "2026-11-25 close",
+  "source": "https://finance.yahoo.com/quote/TOST"
+ },
+ "complete": true
+}
