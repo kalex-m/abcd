@@ -1,0 +1,200 @@
+{
+ "ticker": "SCHW",
+ "name": "Charles Schwab",
+ "industry": "banks",
+ "company_type": "Fast grower",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Brokerage, wealth and banking firm: clients hold $13.33T in assets across 48.6M accounts; Schwab earns on lending client cash and margin, and on fees.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 net revenue $7,171M: net interest 48%, asset management and admin fees 27%, trading 16%, bank deposit account fees 5%, other 4%. Offsetting streams.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 5,
+   "evidence": "Millions of retail and RIA clients, no concentration; 40.3M active brokerage accounts supply the cash that funds the bank.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Almost entirely US; only $10.9B of non-sovereign foreign holdings, so little currency exposure (revenue split by geography not broken out in the 10-Q).",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread on client cash plus margin and bank loans, plus fees; 52% of revenue is not net interest. Rate-sensitive half: NIM 3.04% vs 2.88% a year ago.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Pre-tax margin 52.7% (49.2% a year ago); adjusted expenses +9% against revenue +17%, so operating leverage is positive. Guidance hit rate not tested.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical input is client cash (tags: fed_funds, 2y, real_spending). Bank deposits fell to $244.1B from $255.7B at year-end as cash sorts into other products; wholesale funding filled the gap: other short-term borrowings $14.2B (was $6.9B), brokerage payables $46.5B (was $25.7B), brokered CDs $3.8B (was $2.0B), FHLB only $2.0B. Supplemental funding is not being paid down, it changed form to fund $187.9B margin loans. Cost pass-through: strong, deposits cost 0.23% against 3.90% asset yield.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Scale and low cost, one platform for trading, advice and banking; new: Pledged Asset Lines $37.3B (+59%), Forge private-markets deal closed 2026-03-02 for $636M, crypto and AI assistant launches.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Household name for 48.6M accounts; new brokerage accounts 1.2M in Q3 (+9%). Marketing spend per revenue dollar not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Core net new assets $190.4B in Q3, +38%, annualised organic growth 5.8%: taking share. Rival data (Fidelity, Vanguard, IBKR, Robinhood) not pulled.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "$13.33T client assets against over $90T of US investable wealth (company estimate); bank loans $72.3B, +35% yoy; Wealth Advisory flows +55%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 44% (Q3) vs 10% cost of equity; buybacks restarted: $3.9B (40.2M shares, about $97 each) in 9 months, dividend +19% to $0.32; consolidated CET1 24.5%, adjusted Tier 1 leverage 7.0% (target 6.75-7.00%). Insider ownership table in DEF 14A not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Not losing relevance (assets +15% yoy). Risks: cash sorting, trading and margin volumes are at cycle highs (daily trades +44%), and margin loans include $60.7B long/short strategy balances funded wholesale.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000035/a3q26exhibit991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01/4.02, no NT filings in 3 years, no material weakness found in the 10-Q; SEC comment letters Dec 2023-Jan 2024 (old); non-GAAP add-back only $151M pre-tax; generic regulatory-inquiry language in legal note.",
+   "source": "https://data.sec.gov/submissions/CIK0000316709.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: good (trading, margin, higher short rates lift floating yields). Slowdown: fees fall with markets but falling long yields shrink AOCI loss ($11.2B). Hike-driven cash sorting is the weak spot.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Category III bank holding company, AOCI excluded from regulatory capital; no pending deal docket found (Forge closed). Easing capital rules a mild tailwind.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Reverse residual income: tangible common equity about $27.5B (equity $51.4B less preferred $6.2B, goodwill $12.0B, intangibles $5.7B); price $93.45 gives $161.3B cap, P/TBV 5.9x. At 10% cost of equity and 3% growth that implies ROTCE of about 44%, which equals Q3's peak 44% (9-month 42%, FY25 38%). Excluding AOCI loss, TBV $38.7B, P/TBV 4.2x implies 32% vs actual about 27%. P/E 16.0 trailing (5.85 EPS), forward about 12.0, vs 5-year year-end P/E of 21-26x (2022 22.5, 2023 26.0, 2024 24.1, 2025 21.2); peers JPM 13.3, MS 13.3, IBKR 28.5. Cheap vs own history, no cushion on tangible book.",
+   "source": "https://finance.yahoo.com/quote/SCHW ; https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is high, but the price needs a 44% return on tangible equity, the Q3 peak, so there is no cushion on book value despite a low P/E.",
+ "the_mistake": "Shares are 18% below the 52-week high while net income rose 23% and 9-month EPS 36%: the market trades Schwab as a cash-sorting spread lender, yet net interest is only 48% of revenue and fees, trading and deposit fees are growing faster. Partly offset: record trading and margin volumes are cyclical.",
+ "what_makes_market_notice": "Q4 results around 2027-01-20 (date from past pattern, not confirmed): core net new assets, sweep cash and NIM; Fed Dec 8-9 decision.",
+ "findings": {
+  "core_net_new_assets": "Q3 $190.4B (+38%), 9-month $450.2B (+27%)",
+  "client_cash": "Transactional sweep cash $492.8B at September, +$7.1B vs June, after net outflow from bank sweep; bank deposits $244.1B vs $255.7B at Dec 2025",
+  "nim": "3.04% Q3 vs 2.88% a year ago; 2.97% 9-month vs 2.69%",
+  "supplemental_funding": "FHLB $2.0B (small); not paid down, replaced by short-term borrowings $14.2B and brokerage payables to fund margin",
+  "aoci": "Loss $11.2B vs $11.0B at Dec 2025, largely unrealized MBS loss ($3.9B on $38.9B agency MBS AFS) plus HTM transfer losses; excluded from regulatory capital",
+  "buybacks": "Restarted: $500M in Q3, $3.9B in 9 months under $20B authorisation",
+  "td_integration": "Nothing in the Q3 10-Q on remaining TD Ameritrade synergies; TD Bank fully exited its stake in 2025; Forge integration under way (costs $49M 9-month)",
+  "red_flags": "none found"
+ },
+ "feedback": [
+  {
+   "note": "Sweep cash grew in Q3 and bank deposit account fee revenue rose 40% on higher net yields, consistent with the Overheat read; cash sorting out of bank deposits (-$11.6B YTD) is the risk if the Fed hikes. Trading volume +44% and VIX spike support the volatility read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/316709/000031670926000038/schw-20260930.htm",
+   "as_of": "2026-09-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "unreachable",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "2026-02-25 10-K located but not read in this triage; business and funding facts taken from the Q3 2026 10-Q, which carries the same MD&A",
+  "10-Q": "latest Q3 2026 10-Q read in full text; prior three 10-Qs not read; 5-year EPS from XBRL companyfacts",
+  "presentation": "filing index shows only EX-99.1 attached to the 2026-10-15 8-K; IR-site deck not fetched",
+  "ir_fact_sheet": "Schwab IR site not fetched in this pass",
+  "def14a": "2026-04-06 proxy opened; ROTCE reconciliation seen, pay design and insider ownership not analysed",
+  "red_flag_scan": "EDGAR submissions scanned for 8-K items 4.01/4.02/5.02/1.01, NT forms, CORRESP/UPLOAD back to 2023-11-26; keyword search for material weakness in the 10-Q found none",
+  "price": "yfinance quote 2026-11-25 close; IBKR not used"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 93.45,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/SCHW"
+ },
+ "complete": true
+}
