@@ -1,2 +1,10 @@
 research/data/sec/company_tickers.json
 __pycache__/
+*.tmp
+.run.lock
+cache/edgar/*
+cache/yf/*
+!cache/edgar/.gitkeep
+!cache/yf/.gitkeep
+logs/session-*.log
+logs/scheduler.log

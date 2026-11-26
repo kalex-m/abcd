@@ -1,0 +1,28 @@
+2026-11-26T08:49:46+00:00	smoke_test	sec_edgar_submissions	ok	JPM recent filings: 26393
+2026-11-26T08:49:46+00:00	smoke_test	sec_edgar_companyfacts	ok	JPM us-gaap tags: 918
+2026-11-26T08:49:46+00:00	smoke_test	sec_edgar_full_text_search	ok	hits: 10000
+2026-11-26T08:49:47+00:00	smoke_test	yfinance	ok	SPY last close 716.70 on 2026-11-25
+2026-11-26T08:50:17+00:00	smoke_test	fred	unreachable	RemoteDisconnected: Remote end closed connection without response
+2026-11-26T08:50:18+00:00	smoke_test	bls	unreachable	RuntimeError: REQUEST_NOT_PROCESSED: Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been 
+2026-11-26T08:50:18+00:00	smoke_test	bea	ok	HTTP 200, 59,153 bytes
+2026-11-26T08:50:18+00:00	smoke_test	census	ok	HTTP 200, 79,608 bytes
+2026-11-26T08:50:18+00:00	smoke_test	federal_reserve	ok	HTTP 200, 14,561 bytes
+2026-11-26T08:50:19+00:00	smoke_test	treasury_yields	ok	HTTP 200, 18,416 bytes
+2026-11-26T08:50:19+00:00	smoke_test	treasury_fiscaldata	ok	HTTP 200, 15,187 bytes
+2026-11-26T08:50:19+00:00	smoke_test	eia	ok	HTTP 200, 89,195 bytes
+2026-11-26T08:50:20+00:00	smoke_test	aar	ok	HTTP 200, 388,048 bytes
+2026-11-26T08:50:20+00:00	smoke_test	cftc	ok	HTTP 200, 4,720 bytes
+2026-11-26T08:50:20+00:00	smoke_test	cboe	ok	HTTP 200, 400,000 bytes
+2026-11-26T08:50:21+00:00	smoke_test	ferc	unreachable	HTTPError: HTTP Error 403: Forbidden
+2026-11-26T08:50:21+00:00	smoke_test	stb	ok	HTTP 200, 103,006 bytes
+2026-11-26T08:50:21+00:00	smoke_test	fcc	unreachable	HTTPError: HTTP Error 403: Forbidden
+2026-11-26T08:50:22+00:00	smoke_test	fda	ok	HTTP 200, 1,840 bytes
+2026-11-26T08:50:22+00:00	smoke_test	federal_register	ok	HTTP 200, 1,081 bytes
+2026-11-26T08:50:22+00:00	smoke_test	ustr	ok	HTTP 200, 35,879 bytes
+2026-11-26T08:50:22+00:00	smoke_test	ofac	ok	HTTP 200, 44,108 bytes
+2026-11-26T08:50:23+00:00	smoke_test	court_dockets_courtlistener	unreachable	HTTPError: HTTP Error 401: Unauthorized
+2026-11-26T08:50:23+00:00	smoke_test	company_ir_sites	n/a	per-company; tested on first use, blocked fetches logged as unreachable
+2026-11-26T08:50:23+00:00	smoke_test	ibkr	n/a	unavailable: no IBKR MCP connector attached to this session (skip silently, use yFinance)
+2026-11-26T08:50:23+00:00	smoke_test	perplexity_finance	n/a	cross-check only; no connector attached
+2026-11-26T08:50:23+00:00	smoke_test	fmp	n/a	FORBIDDEN: never called (denied in .claude/settings.json)
+2026-11-26T08:50:42+00:00	bootstrap	folder tree, 17 agents, scripts, settings, config, state written; smoke test logged above

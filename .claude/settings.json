@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read", "Write", "Edit", "Glob", "Grep", "WebSearch",
+      "WebFetch(domain:sec.gov)", "WebFetch(domain:data.sec.gov)", "WebFetch(domain:efts.sec.gov)",
+      "WebFetch(domain:federalreserve.gov)", "WebFetch(domain:treasury.gov)", "WebFetch(domain:fred.stlouisfed.org)",
+      "WebFetch(domain:bls.gov)", "WebFetch(domain:bea.gov)", "WebFetch(domain:census.gov)", "WebFetch(domain:eia.gov)",
+      "WebFetch(domain:cftc.gov)", "WebFetch(domain:federalregister.gov)", "WebFetch(domain:stb.gov)",
+      "WebFetch(domain:home.treasury.gov)", "WebFetch(domain:ofac.treasury.gov)", "WebFetch(domain:ustr.gov)",
+      "WebFetch(domain:cboe.com)", "WebFetch(domain:ferc.gov)", "WebFetch(domain:fcc.gov)", "WebFetch(domain:fda.gov)",
+      "WebFetch(domain:aar.org)", "WebFetch(domain:courtlistener.com)",
+      "Bash(python:*)", "Bash(py:*)", "Bash(python3:*)", "Bash(pip install:*)"
+    ],
+    "deny": ["WebFetch(domain:financialmodelingprep.com)", "mcp__FMP"]
+  }
+}

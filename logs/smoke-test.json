@@ -1,0 +1,137 @@
+{
+  "as_of": "2026-11-26T08:50:23+00:00",
+  "results": {
+    "sec_edgar_submissions": {
+      "status": "ok",
+      "detail": "JPM recent filings: 26393",
+      "ms": 33
+    },
+    "sec_edgar_companyfacts": {
+      "status": "ok",
+      "detail": "JPM us-gaap tags: 918",
+      "ms": 81
+    },
+    "sec_edgar_full_text_search": {
+      "status": "ok",
+      "detail": "hits: 10000",
+      "ms": 0
+    },
+    "yfinance": {
+      "status": "ok",
+      "detail": "SPY last close 716.70 on 2026-11-25",
+      "ms": 376
+    },
+    "fred": {
+      "status": "unreachable",
+      "detail": "RemoteDisconnected: Remote end closed connection without response",
+      "ms": 30528
+    },
+    "bls": {
+      "status": "unreachable",
+      "detail": "RuntimeError: REQUEST_NOT_PROCESSED: Request could not be serviced, as the daily threshold for total number of requests allocated to the user with registration key  has been ",
+      "ms": 457
+    },
+    "bea": {
+      "status": "ok",
+      "detail": "HTTP 200, 59,153 bytes",
+      "ms": 261
+    },
+    "census": {
+      "status": "ok",
+      "detail": "HTTP 200, 79,608 bytes",
+      "ms": 163
+    },
+    "federal_reserve": {
+      "status": "ok",
+      "detail": "HTTP 200, 14,561 bytes",
+      "ms": 122
+    },
+    "treasury_yields": {
+      "status": "ok",
+      "detail": "HTTP 200, 18,416 bytes",
+      "ms": 456
+    },
+    "treasury_fiscaldata": {
+      "status": "ok",
+      "detail": "HTTP 200, 15,187 bytes",
+      "ms": 480
+    },
+    "eia": {
+      "status": "ok",
+      "detail": "HTTP 200, 89,195 bytes",
+      "ms": 261
+    },
+    "aar": {
+      "status": "ok",
+      "detail": "HTTP 200, 388,048 bytes",
+      "ms": 373
+    },
+    "cftc": {
+      "status": "ok",
+      "detail": "HTTP 200, 4,720 bytes",
+      "ms": 308
+    },
+    "cboe": {
+      "status": "ok",
+      "detail": "HTTP 200, 400,000 bytes",
+      "ms": 295
+    },
+    "ferc": {
+      "status": "unreachable",
+      "detail": "HTTPError: HTTP Error 403: Forbidden",
+      "ms": 490
+    },
+    "stb": {
+      "status": "ok",
+      "detail": "HTTP 200, 103,006 bytes",
+      "ms": 189
+    },
+    "fcc": {
+      "status": "unreachable",
+      "detail": "HTTPError: HTTP Error 403: Forbidden",
+      "ms": 170
+    },
+    "fda": {
+      "status": "ok",
+      "detail": "HTTP 200, 1,840 bytes",
+      "ms": 548
+    },
+    "federal_register": {
+      "status": "ok",
+      "detail": "HTTP 200, 1,081 bytes",
+      "ms": 124
+    },
+    "ustr": {
+      "status": "ok",
+      "detail": "HTTP 200, 35,879 bytes",
+      "ms": 144
+    },
+    "ofac": {
+      "status": "ok",
+      "detail": "HTTP 200, 44,108 bytes",
+      "ms": 214
+    },
+    "court_dockets_courtlistener": {
+      "status": "unreachable",
+      "detail": "HTTPError: HTTP Error 401: Unauthorized",
+      "ms": 187
+    },
+    "company_ir_sites": {
+      "status": "n/a",
+      "detail": "per-company; tested on first use, blocked fetches logged as unreachable"
+    },
+    "ibkr": {
+      "status": "n/a",
+      "detail": "unavailable: no IBKR MCP connector attached to this session (skip silently, use yFinance)"
+    },
+    "perplexity_finance": {
+      "status": "n/a",
+      "detail": "cross-check only; no connector attached"
+    },
+    "fmp": {
+      "status": "n/a",
+      "detail": "FORBIDDEN: never called (denied in .claude/settings.json)"
+    }
+  },
+  "complete": true
+}
