@@ -1,7 +1,7 @@
 {
   "run_id": "20261126-full_hunt",
-  "complete": false,
-  "status": "awaiting_industry_choice",
+  "complete": true,
+  "status": "routed",
   "both_lanes_industries": {
     "railroads": {
       "leads": "policy-events-2, markets-1, macro-1 (A) + price-action-8, divergence-1 (B)",
@@ -747,5 +747,68 @@
       "A": 0,
       "B": 1
     }
-  }
+  },
+  "industries_chosen": [
+    "railroads",
+    "banks",
+    "payments"
+  ],
+  "chosen_by": "Alex (interactive, 2026-11-26)",
+  "routed": {
+    "railroads": [
+      "L-20261126-policy-events-2",
+      "L-20261126-markets-1",
+      "L-20261126-divergence-1",
+      "L-20261126-macro-1",
+      "L-20261126-price-action-8",
+      "L-20261126-markets-5",
+      "L-20261126-price-action-6",
+      "L-20261126-markets-6"
+    ],
+    "banks": [
+      "L-20261126-markets-3",
+      "L-20261126-macro-2",
+      "L-20261126-macro-3",
+      "L-20261126-markets-2",
+      "L-20261126-price-action-3",
+      "L-20261126-behaviour-change-4",
+      "L-20261126-price-action-5",
+      "L-20261126-divergence-5",
+      "L-20261126-divergence-6",
+      "L-20261126-policy-events-7"
+    ],
+    "payments": [
+      "L-20261126-divergence-3",
+      "L-20261126-divergence-7",
+      "L-20261126-macro-6",
+      "L-20261126-price-action-3",
+      "L-20261126-behaviour-change-1",
+      "L-20261126-divergence-5",
+      "L-20261126-markets-7",
+      "L-20261126-behaviour-change-6"
+    ]
+  },
+  "not_routed": [
+    "L-20261126-policy-events-1",
+    "L-20261126-price-action-1",
+    "L-20261126-markets-4",
+    "L-20261126-behaviour-change-2",
+    "L-20261126-behaviour-change-3",
+    "L-20261126-behaviour-change-7",
+    "L-20261126-divergence-2",
+    "L-20261126-policy-events-3",
+    "L-20261126-price-action-2",
+    "L-20261126-macro-4",
+    "L-20261126-policy-events-8",
+    "L-20261126-divergence-4",
+    "L-20261126-price-action-4",
+    "L-20261126-macro-5",
+    "L-20261126-policy-events-5",
+    "L-20261126-behaviour-change-5",
+    "L-20261126-policy-events-4",
+    "L-20261126-macro-7",
+    "L-20261126-behaviour-change-8",
+    "L-20261126-policy-events-6",
+    "L-20261126-price-action-7"
+  ]
 }

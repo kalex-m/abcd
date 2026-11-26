@@ -1,9 +1,17 @@
 {
   "owner": "Alex",
-  "edgar_contact_email": "SET-ME@example.com",
+  "edgar_contact_email": "bungabongkalex@gmail.com",
   "mode": "full_hunt",
-  "industries": [],
-  "default_industries": ["railroads", "payments", "homebuilders"],
+  "industries": [
+    "railroads",
+    "banks",
+    "payments"
+  ],
+  "default_industries": [
+    "railroads",
+    "payments",
+    "homebuilders"
+  ],
   "watchlist": [],
   "max_parallel": 5,
   "max_companies_per_industry": 20,
@@ -12,5 +20,8 @@
   "heartbeat_stale_minutes": 45,
   "max_run_days": 4,
   "price_max_age_trading_days": 1,
-  "report_formats": ["html", "md"]
+  "report_formats": [
+    "html",
+    "md"
+  ]
 }
