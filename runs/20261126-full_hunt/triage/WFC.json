@@ -1,0 +1,192 @@
+{
+ "ticker": "WFC",
+ "name": "Wells Fargo",
+ "industry": "banks",
+ "company_type": "Turnaround",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "US money-centre bank: takes $1.5T of deposits, lends ($1.03T average loans), runs a markets and investment-banking desk, and manages $2.7T of client assets. Q3 2026 revenue $21.9B, net income $6.0B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 revenue by segment: Consumer Banking and Lending $10,656M (49%), Corporate and Investment Banking $5,008M (23%), Wealth and Investment Management $4,104M (19%), Commercial Banking $3,236M (15%); Corporate -$610M. Net interest income 57% of revenue ($12,517M of $21,870M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Households and small business (consumer deposits $825B), private and public companies (commercial), large corporates and institutions, and affluent clients. No single-customer concentration disclosed; Q3 average loans: consumer $342B, commercial $241B, CIB $353B, wealth $95B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Mostly US: non-US loans $86.2B, about 8% of loans (9% at Dec 2025); about 76% of staff based in the US. 4,068 retail branches. No currency concentration found in the sources read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Two sentences: it earns the gap between what it pays on deposits (1.56% average cost) and what it earns on loans and securities, plus fees from wealth, cards, deposits and deal-making. About 57% spread, 43% fees; recurring fees (investment advisory $3,046M, deposit fees $1,415M, card fees $1,274M) are growing 8-15% a year.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Operating leverage is working: Q3 expense $13.7B (-1% yoy) on revenue +2%, efficiency ratio 63% (65% a year ago; 66% for 2025 per proxy), headcount 194,369 vs 210,821 (-8%). Guidance hit: 2026 expense ~$55.7B and NII ~$50B both unchanged from prior; Q4 NII guided ~$13B. Technology cost +13% yoy and advertising +14%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/ex993-wellsfargo3q26pres.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are deposits ($1.50T period-end; average deposit cost 1.56% vs 1.51% in Q2), wholesale funding (long-term debt $180B at 5.40%), regulatory capital (CET1 10.0% vs 11.0% a year ago) and technology vendors (no named supplier or concentration disclosed in the filings read: nothing found). Signal tags: fed_funds and 2y move deposit cost and floating-asset yield; hy_spreads move wholesale funding cost; regulation sets capital. Pass-through: deposit costs rose (Q3 interest-bearing deposit cost 2.05%, down from 2.09% a year ago, but commercial deposit growth is more rate-sensitive); NIM stuck at 2.43% (lowest among large peers: JPM 2.48% reported, 3.70% ex-Markets) shows limited ability to widen spread. Fixed-rate asset repricing helps.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale (4,068 branches, 38.2M digital active customers, 14 straight quarters of primary-checking growth) plus a cost-cut and rebuild: US M&A deal rank #6 YTD (from #93), ECM share +84bp to 3.9%, leveraged finance share 7.7% (#3). Doing differently now: growing markets balance sheet and commercial/CIB lending after the Fed lifted the growth cap on June 3, 2025; sold rail car leasing in Q1 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/ex993-wellsfargo3q26pres.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "Household name with 4,068 branches; 660k new credit card accounts opened in Q3; auto originations +15%. Advertising and promotion $1,067M for nine months 2026 vs $742M (+44%). People would notice if it vanished, but pricing power vs rivals is not shown (deposit spread 2.68%, up from 2.59%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex992xsuppl.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals JPM, BAC, C, US Bancorp. Gaining share in loans and deposits (both +11% yoy vs system loan growth about +6% annualized in Q3 per Fed H.8) and in investment banking, but NIM 2.43% and efficiency 63% trail JPM and BAC (BAC 62% adjusted). Proxy: 1-year relative TSR 25th percentile for 2025.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Post-cap growth is visible: average loans $1,033B (+11% yoy), deposits $1,483B (+11%), assets $2,244B (+12%); Corporate and Investment Banking loans +19%, deposits +22%; Wealth client assets $2,739B (+11%). Markets revenue flat (-1% yoy; FICC -7%, equities +21%), so the trading build is not yet earning more. Nine-month NII is $36.9B (+5% yoy) against a 2026 guide of about $50B, so earnings power is only starting to show.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 16.3% (YTD 16.2%) vs a 10% cost of equity; CET1 fell to 10.0% from 11.0% as buybacks ($2.5B, 28.6M shares at avg about $87.4 in Q3; $20.2B authorisation left) outran retained earnings; share count -5% yoy; dividend raised to $0.50 from $0.45. Buybacks were above today's $80.94 price. Pay (DEF 14A): CEO 2025 pay $40.0M, long-term awards are performance shares tied to relative ROTCE and 3-year goals, clawback in place, say-on-pay 92.4%. Insider ownership % not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Essential, not losing relevance. Risks: consent order (FRB, Feb 2018) governance provisions still in place and an OCC anti-money-laundering formal agreement (Sep 2024) still on the books; leadership change (Chief Operating Officer Scott Powell becomes Chief Risk Officer on Jan 15, 2027); key-person dependence on CEO Scharf. Disruption risk from fintech and stablecoin payment rails not quantified in the sources read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000133/wfc-20251231_d2.htm",
+   "as_of": "2026-02-24"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No NT filings, no 8-K Item 4.01 or 4.02 in the 8-Ks read (Dec 2025 to Nov 2026: items 2.02, 5.02, 5.03, 5.07, 7.01, 8.01 only). CORRESP (Feb 11, 2026) is only an S-3 acceleration request. Q3 ROTCE helped by $170M of discrete tax benefits. Auditor report and critical audit matters sit in the Annual Report exhibit, not read; one Jan 27, 2026 SEC UPLOAD letter (PDF) not read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: loan and fee growth. Overheat +: loan growth strong, fixed-rate repricing, but deposit costs creeping up. Stagflation 0/-: funding cost and credit stress. Slowdown -: provision rise, 13% of loans in CRE, trading and deal fees fall; falling long yields help securities. Sensitivity: 2026 NII guide ~$50B depends on rate path and deposit mix; HY spreads at 3.72% are the key signal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Tailwind: Fed finalised stress-test and stress capital buffer changes on Sep 30, 2026 to lower capital volatility; asset cap lifted Jun 3, 2025. Overhang: remaining FRB consent-order provisions and OCC AML agreement; no tariff exposure specific to the bank found. No pending merger docket.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000327/wfc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Bank method. $80.94 / tangible book $44.46 = 1.82x. At 10% cost of equity and 3% growth, 1.82x needs a sustained ROTCE of about 15.7% (18.2% at 0% growth). Actual ROTCE 16.2% YTD, 16.3% in Q3 (about 15.8% excluding the $170M tax benefit, my estimate), 14.6% for 2025. Fair P/TBV at 16.2% is 1.89x ($84, +4%); at 14.6% it is 1.66x ($74, -9%). P/E 11.4x on trailing EPS $7.09. Peers: HBAN 1.57x at ROTCE 14.6%, TFC 1.50x at 12.7%, GS 2.35x, MS 3.10x, JPM 2.81x at about 20% (from sibling triage files). Own 5-year P/TBV range not pulled. Price is 17% below its 52-week high of $97.76, but the cushion is thin.",
+   "source": "https://finance.yahoo.com/quote/WFC",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and returns improving, but at 1.82x tangible book the price already assumes about 15.7% sustained ROTCE against 16.2% earned, so there is no cushion and no clear mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answer_to_lead": "Provision +51% yoy ($1,029M vs $681M) is mostly loan-growth reserve build plus a smaller reserve release a year ago (Q3 2025 allowance fell $273M), not a credit turn: net charge-offs $983M (+3%), rate 0.38% (vs 0.40%), nonaccruals $7.06B (-7% yoy), allowance ratio 1.38% (1.52% a year ago). Watch spots: commercial charge-off rate 0.18% (from 0.10% in Q2), Commercial Banking provision $240M (from $39M), CRE office loans $18.6B (2% of loans, down from $22.0B at Dec 2025) with $1.88B nonaccrual (10% of office), criticized CRE $11.6B of $132.0B. The market is pricing the post-cap growth already, so no mispricing shown.",
+ "feedback": [
+  {
+   "note": "Management says consumers and businesses are doing well, delinquencies low, with higher rates, oil and inflation named as risks; this leans to the hard-data Overheat read. Loan growth +11% and deposits +11% yoy confirm demand, against markets' Slowdown pricing. Commercial charge-off rise and CRE nonaccruals lean slightly toward the credit-turn side.",
+   "source": "https://www.sec.gov/Archives/edgar/data/72971/000007297126000318/wfc3qer10-13x26ex991xrelea.htm",
+   "as_of": "2026-10-13"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "Main 10-K read for business and consent orders; financial statements and auditor report sit in the Annual Report exhibit, not read.",
+  "10-Q": "Q3 2026 10-Q read selectively (CRE, capital, repurchases, legal item pointer); Q1 and Q2 numbers taken from the Q3 quarterly supplement five-quarter tables, not the 10-Qs themselves.",
+  "earnings_release": "Q3 2026 EX-99.1 read in full.",
+  "presentation": "EX-99.3 deck read as text; NII and expense guidance taken from it.",
+  "ir_fact_sheet": "Quarterly supplement (EX-99.2) used as the fact sheet; no separate IR fact sheet fetched.",
+  "def14a": "Pay and say-on-pay read; insider ownership percentage not extracted.",
+  "red_flag_scan": "8-Ks scanned only back to Dec 2025 (submissions recent window), not the full 3 years; Jan 27, 2026 UPLOAD PDF not read. Note 9 (Legal Actions) not read.",
+  "price": "yFinance quote; no IBKR check at triage; own 5-year P/TBV range not pulled."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 80.94,
+  "as_of": "2026-11-26 yFinance quote (previous close 81.19)",
+  "source": "https://finance.yahoo.com/quote/WFC"
+ },
+ "complete": true
+}

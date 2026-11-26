@@ -1,0 +1,211 @@
+{
+ "ticker": "BAC",
+ "name": "Bank of America",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Bank holding company: takes $2.02T of deposits and lends $1.23T, runs the Merrill wealth arm, serves companies, and trades for institutions. Q3 2026 revenue $30.0B, net income $6.9B (adjusted $8.1B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 revenue (FTE) by segment: Consumer Banking $11.6B (38%), Global Wealth & Investment Mgmt $7.1B (24%), Global Banking $6.2B (21%), Global Markets $5.9B (19%); All Other -$0.6B. Q3 NII $16.4B vs noninterest income $13.5B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 5,
+   "evidence": "Retail: 38.9M consumer checking accounts (92% primary), 4.1M small-business accounts; wealth client balances $5.1T; corporate and institutional clients. No single-customer concentration disclosed; nothing found on a top-customer figure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "FY2025 revenue $97.7B U.S. (86%) and $15.4B non-U.S. (14%: Asia $6.0B, EMEA $7.6B, LatAm $1.8B). 77% of the 213,000 staff are in the U.S. Net-investment hedges used for foreign operations.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000157/bac-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread plus fees: 9M26 NII $48.2B (52% of $91.8B revenue) and noninterest income $43.6B, of which asset-management and consumer fees recur; trading and IB (Q3 S&T $5.1B, IB fees $1.8B) are cyclical. Deposits pay 2.03% interest-bearing cost; NIM 2.16%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Negative operating leverage in Q3: adjusted expense $18.5B up 7% vs revenue up 3%; adjusted efficiency ratio 62% vs 60% a year ago (reported 66%). Marketing +17%, info processing +10%. Provision $1.3B flat. Capital-light bank; no guidance hit-rate figure found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Critical inputs are deposits ($2.02T avg, #1 U.S. consumer deposits, retail sticky), wholesale funding (LTD $319B), regulatory capital, and technology/labour (213,000 staff, comp $42.3B FY25). Interest-bearing deposit cost 2.03% (+5bp QoQ, -37bp yoy). Can pass costs on partly: loan yields reprice (fixed-rate asset repricing lifted NIM +15bp yoy). Signal tags: fed_funds, 2y, hy_spreads, real_spending, regulation. No single supplier point of failure; deposit beta is the chokepoint.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac-09302026ex993.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Scale and distribution: #1 U.S. consumer deposits, #1 small business lender 21 quarters, 31 straight quarters of net checking growth; 71% of sales digital; 200,000+ staff using AI tools, 300+ approved use cases (company statement). Different now: BofA Rewards launched May 2026, ~4M enrollments in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "Daily-use brand: 4.2B digital logins in Q3, $266B card/debit spend (+8%), $1.2T payments. Marketing $669M in Q3 (2.2% of revenue). People would notice if it vanished.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Rivals JPM, WFC, C, plus fintechs. Share gains: deposits +2% yoy, loans +6%, GWIM revenue +13%; losses: IB fees -11%, FICC -17% yoy. NIM 2.16% vs JPM ex-Markets 3.70% and WFC 2.43%. JPM ROTCE 20% vs BAC 12.6% reported (14.9% adjusted).",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Loans up 6% (10th straight quarter of sequential growth); wealth AUM $2.4T +12%; NII $16.4B +8%. Guidance for 4Q NII not located in the release or deck text I read (nothing found). Runway is steady, not step-change; ROTCE targets not found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex992.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "Q3 ROTCE 12.6% (14.9% adjusted); 9M26 15.2%. Returned $8.3B in Q3; buybacks $21.4B FY25; share count 8.65B (Feb 2020) to 6.90B (Oct 2026). CET1 10.9% vs 10.0% requirement (4.5+3.0 G-SIB+2.5 SCB), down from 11.6% a year ago. CEO pay $33.7M, 96.3% equity; half is performance units on ROA and adjusted TBV growth; 50% of net shares held to a year after retirement.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Diversified streams (consumer, wealth, banking, markets); no sign of lost relevance. Risks: second set of BSA/AML consent orders (OCC Dec 2024, OCC+FinCEN+OFAC Oct 2026) with outside reviews of past transactions; low NIM; HTM book carries $103.9B unrealised loss that grew from $80.2B at Dec 2025 (73% of HTM fair value matures after 10 years, so maturity unwinding is slow).",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "No 8-K 4.01/4.02, no NT filing, no material weakness; PwC clean opinion on FY25 controls. But a $1.2B penalty (Oct 13 2026) under consent orders; 9M litigation expense $1.7B vs $0.3B; reasonably-possible further loss $0-0.2B. FY25 retrospective accounting-method change for tax-credit investments (reclassification, not a restatement). SEC letters in 3 years: only S-3 acceleration requests.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Asset-sensitive: +100bp parallel adds $1.4B NII over 12 months, -100bp cuts $1.9B. Helped by a December hike; hurt if the turn to Slowdown brings cuts, higher charge-offs and weaker markets revenue. Card NCO 3.22% (3.46% yr ago); allowance ratio fell to 1.04% from 1.14%. Dollar: 14% of revenue non-U.S., small.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Consent orders require remediation and independent reviews (cost not expected to be significant per 10-Q). Capital rules: G-SIB 3.0% and SCB 2.5%; SLR buffer cut to 0.75% from 2.0%. Pending dockets beyond the settlement: nothing found; legal note shows $0-0.2B reasonably-possible loss.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "P/TBV 1.67x ($48.54 / $29.14). At a 10% cost of equity and 3% growth that implies a 14.7% ROTCE for ever, against 14.9% adjusted Q3, 15.2% 9M26 reported, 14.2% FY25 own average. Cushion is about 0-10%. P/TBV was 1.82x a year ago and ~2.2x at the Aug high; JPM 2.81x for 20% ROTCE. P/E and EV/EBITDA not meaningful for a bank.",
+   "source": "https://finance.yahoo.com/quote/BAC",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B, but 1.67x TBV already prices a roughly 14.7% ROTCE against about 15% earned, so the cushion is thin, and the one-off $1.2B settlement explains little of the 22% fall since August; no clear mistake yet.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "Credit is improving through September: card NCO 3.22% (3.46% yr ago), total NCO 0.44% (0.47%), commercial reservable criticized down $4.8B since Dec 2025; but the allowance ratio fell to 1.04% from 1.14%. Contradicts a credit-led Slowdown so far; the reserve is thinner if it turns.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "fact": "Markets revenue softening while banking stays soft: FICC -17% yoy, IB fees -11% yoy, S&T $5.1B -5%. Equities +11%. Mixed read on market activity.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "fact": "Asset-sensitive: +100bp = +$1.4B 12-month NII, -100bp = -$1.9B. A Dec hike helps NII; a swing to cuts in a Slowdown hurts it.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "fact": "Combined credit/debit card spend $266B, +8% yoy (nominal); consumer deposits flat, +$1B. Real spending flat in October per regime read, so nominal strength is partly price.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "fact": "Premise check on the securities-book tailwind: HTM unrealised loss grew to $103.9B (amortised cost $496.4B vs fair value $392.5B) from $80.2B at Dec 2025 as long yields rose; $286.3B of $392.5B fair value is contractually due after 10 years. The loss unwinds slowly, and HTM is not marked in tangible book.",
+   "source": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000548/bac-20260930.htm",
+   "as_of": "2026-09-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively (legal/regulatory settlement, HTM and AFS, capital, rate sensitivity, credit tables, segments). Q1 and Q2 10-Qs not opened; their figures come only from the Q3 5-quarter supplement. FY25 ROTCE 14.22 is from a 10-K table row read as the 2025 column.",
+  "ir_fact_sheet": "investor.bankofamerica.com not fetched (no sanctioned fetch path in this session); the earnings supplement (EX-99.3) was used instead.",
+  "red_flag_scan": "Submissions index scanned from 2023-11-26 to 2026-11-26 for 8-K items 1.01/1.05/2.05/2.06/3.01/4.01/4.02, NT, CORRESP, UPLOAD, 10-K/A, 10-Q/A: only 8-K 5.02 (Oct 2026 two directors added; Nov 2025 officer item not opened), S-3 acceleration CORRESP (2024-03-25, 2025-12-05), one 2024-03-12 UPLOAD PDF not opened. 2026-10-23 8-K 3.03 is a Series WW preferred issuance.",
+  "price": "yFinance last close $48.54 on 2026-11-25 (Thanksgiving 2026-11-26 closed). 5-year P/TBV range not computed from primary TBV history: only Q3 2025 (28.16) and Q2/Q3 2026 TBV per share used; history prices dividend-adjusted. Peer TBV: JPM $112.64 per share from its Q3 release; WFC and C P/TBV not pulled.",
+  "berkshire": "Not used as evidence. DEF 14A (record date Mar 2026) shows Berkshire at 568.07M shares, 7.9% as of 13G/A 2025-11-14; the 455.9M Q3 figure in the brief was not verified (13F not read).",
+  "settlement": "Oct 13 2026 OCC and FinCEN consent orders and OFAC settlement agreement over BSA/AML and sanctions programs; $1.2B non-tax-deductible charge in Q3 ($0.17 per share); more outside-consultant reviews required; further reasonably-possible loss $0-0.2B per 10-Q Note 10. No other pending docket found.",
+  "valuation": "Residual-income: P/TBV = (ROTCE-g)/(r-g), r=10%, g=3%: 1.67x implies 14.7%. At ~15.8% normalised ROTCE (9M26 15.2% plus about 0.6pt for the charge, my estimate) fair P/TBV about 1.83x = $53 (+10%); at 14.2% about 1.60x = $47. With g=0 the price implies 16.7%.",
+  "watch_triggers": "Dec 8-9 FOMC; Q4 results mid-Jan 2027 (NII, efficiency back near 60%, CET1 vs 10.0% requirement); price below ~1.5x TBV (about $44) or ROTCE sustained above 16%."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 48.54,
+  "as_of": "2026-11-25 close",
+  "source": "https://finance.yahoo.com/quote/BAC"
+ },
+ "complete": true
+}
