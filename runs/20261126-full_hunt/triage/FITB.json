@@ -1,0 +1,212 @@
+{
+ "ticker": "FITB",
+ "name": "Fifth Third Bancorp",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Cincinnati-based bank (since 1858) that lends to businesses and households and sells payments and wealth services; $301.2B assets after buying Comerica, three segments (Commercial Banking, Consumer and Small Business, Wealth and Asset Management).",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 revenue = NII $2,276M (FTE) plus fees $1,052M adjusted (wealth $259M, commercial payments $256M, consumer $158M, capital markets $147M, commercial banking $128M, mortgage $47M); fees ~32% of pro forma revenue. Pre-tax by segment Q3: Commercial $818M, Consumer $656M, Wealth $106M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Loans 70% commercial / 30% consumer ($181.0B); C&I 48%, CRE 20%; Shared National Credit $46.6B (~26% of loans, ~60% near investment grade); non-bank lenders (NDFI) $14.3B (8%), 87% investment grade; top-customer concentration not disclosed.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "US only: Midwest base plus Southeast, and since Feb 1 2026 Comerica's Texas, California, Arizona and Michigan (Comerica also had small Canada/Mexico activity); no material foreign-currency exposure disclosed in the Q3 materials.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000119312525230873/d91245dex991.htm",
+   "as_of": "2025-10-06"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread bank: NII is ~68% of revenue (NIM 3.34%, yield on earning assets 5.15%, paid on liabilities 2.50%); fees ~32% (commercial payments $256M a quarter is the recurring fee stream, +63% y/y mostly from Comerica). Two-sentence test passes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Adjusted efficiency 54.6% (GAAP 62.4%); $850M expense synergy run-rate 'locked in for 4Q26'; merger charges ~$1.04B year to date; 450bp positive operating leverage vs Q2; Q4 guide: expense down 2-3%, NII up 2.5-3.5%. Only a few quarters of guidance track record on the combined bank, and GAAP costs are still inflated by integration.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: deposits ($238B avg; 27% non-interest-bearing), wholesale funding ($23B; FHLB advances down 52% y/y), capital (CET1 10.02%). Signal tags fed_funds/2y/real_spending: total cost of deposits rose to 1.64% from 1.54% (+10bp QoQ, interest-bearing 2.24%, +11bp) while peers TFC/HBAN/KEY rose only 2-3bp (part is Comerica sweep balances moving on-balance-sheet). Pass-through: NII +0.21% for +100bp (year 1), -0.82% for -100bp, so hikes are roughly neutral and cuts hurt. hy_spreads tag: long-term debt $17.5B avg. Core-conversion single point of failure is now passed (completed 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Commercial Payments and Wealth are two $1B+ recurring fee businesses; 70% more new commercial relationships vs 3Q25; household growth +7% Southeast, +8% Southwest (management figures); Comerica middle-market franchise adds scale (9th largest US bank at announcement). Doing differently now: building density in high-growth Southeast/Southwest.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Regional consumer brand with 3.49M average active digital users and 2.73M mobile users (Q3), 98% digital-assisted mortgage applications; consumer banking revenue only $158M of $2.3B+ revenue, so not a daily-use national brand; no ad-spend-per-revenue figure beyond marketing expense $57M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Management cites FDIC data showing deposit share gains in the Southeast and new gains in Comerica's Michigan, Texas, California markets; capped Dallas/Houston/Austin deposits +20% y/y. Rivals: PNC, USB, HBAN, KEY, TFC, JPM, BAC. Share claims are company-stated; not independently checked against FDIC SOD.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Southeast and Southwest build-out plus cross-sell of payments and wealth to Comerica's middle-market base; announced deal assumed no revenue synergies. Guide: Q4 average loans +1-2%, fee income +2-4%. Capital markets fees fell 5% on volatility.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "Adjusted ROTCE 20.6% (GAAP 16.6%) vs ~10% cost of equity; CET1 10.02% (up 9bp QoQ); no buybacks year to date, dividend uses ~16bp CET1 a quarter. Shares 661M (Dec 2025) to 903.6M after Comerica. Insiders: only sales found in last 6 months (CEO sold 8,257 sh at $54.50 on 2026-10-30 after option exercises); no open-market buys. Pay (DEF 14A): 3-year relative ROACE, efficiency ratio and ROTCE floors; 2026 integration PSUs capped at 125%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Not losing relevance: deposits $239B, loan-to-core-deposit 76%, LCR 102%; Category III bank from Q3 2026 (more liquidity/stress-test rules). Risks: integration, rate-sensitive commercial deposits, AOCI losses. Key-person risk: Tim Spence is Chairman, CEO and President; Comerica's Curt Farmer to be Vice Chair and Peter Sefzik to head Wealth (per deal deck).",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/fifththirdbancorppresent.htm",
+   "as_of": "2026-10-19"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 3,
+   "evidence": "Accounting clean: no 8-K Items 4.01/4.02, no NT filings, no CORRESP/UPLOAD since Nov 2023, Deloitte auditor since 1970 with one critical audit matter (ACL qualitative adjustments). But: Item 2.06 (2025-09-05) $170-200M fraud-related impairment on an asset-backed finance loan (actual $178M charge-off); state AG investigations into consumer solar lending ($4.2B solar loans); Early Access class action (claimed damages >$440M, Ohio Supreme Court question certified May 2026); overdraft class action; Visa/MasterCard interchange costs ($26M after tax Q3). No CFPB auto matter found in Note 16. Adjusted figures exclude $211M after-tax of items in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: strong loan growth (+1.2% QoQ) but deposit cost +10bp and AOCI loss widened to $4.9B from $3.3B in a quarter (TBV/share fell $1.21). Slowdown: -100bp costs 0.82% NII in year 1; commercial-heavy book (70%) and CRE $36B ($0.56% NPL, up from 0.24%); falling long yields would shrink the AOCI hole. Dollar: US-only. Input cost: funding cost is the key tag.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Moved from Category IV to III in Q3 2026 (annual stress test, LCR/NSFR; single-counterparty limits from Q4 2028); Fed stress-test revisions adopted 2026-09-30 aim to cut stress-capital-buffer volatility; Comerica deal closed so no pending merger docket; Visa/interchange injunctive-relief settlement preliminarily approved 2026-06-09; no tariff exposure disclosed beyond generic risk factor.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $51.71 (2026-11-25), TBV/share $22.01 incl. AOCI: P/TBV 2.35x. At 10% cost of equity and 3% growth that implies ROTCE ~19.4% (0% growth: 23.5%). Actual: 20.6% adjusted, 16.6% GAAP Q3. Fair P/TBV at 20.6% = 2.51x (~$55, +7%); at 16.6% = 1.94x (~$43, -17%). Ex-AOCI TBV $27.5 gives 1.88x. Annualized Q3 adjusted EPS $1.13 gives P/E ~11.4x (GAAP $0.90: ~14.4x). Own year-end P/TBV 2020-25 (from XBRL, approx): 0.96, 1.61, 1.91, 1.77, 2.13, 2.02x: today above the 5-year range top on reported TBV. Peers: PNC 2.05x (ROTCE 18.3%), WFC 1.82x, BAC 1.67x, HBAN 1.57x, TFC 1.50x: FITB is the most expensive regional.",
+   "source": "https://finance.yahoo.com/quote/FITB ; https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and a clean integration so far, but at 2.35x tangible book (priciest regional, above its own 5-year range) the price already needs ~19.4% ROTCE vs 20.6% adjusted / 16.6% GAAP, and there is no identifiable market mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "comerica_deal": {
+  "terms": "All-stock, 1.8663 FITB shares per Comerica share; announced 2025-10-06 at $10.9B ($82.88/share, 20% premium to 10-day VWAP, 1.73x TBV); closed 2026-02-01 at ~$12.7B because FITB's stock rose. Pro forma ownership 73/27.",
+  "synergies": "$850M pre-tax expense savings (35% of Comerica's cost base), no revenue synergies modeled; management says full run-rate is locked in for 4Q26; ~$1.04B merger charges year to date vs $1.3B restructuring assumed.",
+  "announced_economics": "Deck: 9% 2027E EPS accretion, 22% IRR, TBV/share accretion 0.1% including one-time charges (4.7% excluding), goodwill $3.4B + $1.26B core-deposit intangible.",
+  "actual_so_far": "Goodwill $5.0B (above the $3.4B plan, because the stock price at close was higher) plus $1.2B core-deposit intangible (preliminary). TBV/share $22.01 vs $22.46 in the deck (Jun 2025) and vs $22.59 at Dec 2025 (XBRL): down 2.6% YTD, but ex-AOCI TBV/share is ~$27.5 vs ~$27.3 at Dec 2025, so the fall is a rate/bond-loss effect, not deal dilution. CET1 10.02% vs 10.81% at Dec 2025. Shares +37% to 903.6M. Q3 GAAP EPS $0.90 vs $0.91 a year ago (adjusted $1.13); adjusted ROTCE 20.6%, up 160bp QoQ. Conversion finished with retention reported strong. Integration credit costs: NCO 0.31%, ACL 1.74%.",
+  "verdict_at_todays_price": "Operationally creating value (earnings power, efficiency 54.6% adjusted), but the market already pays for it: 2.35x TBV needs ~19.4% ROTCE, which equals the adjusted run-rate. Not destroying value, not cheap."
+ },
+ "feedback": [
+  {
+   "fact": "Cost of total deposits rose to 1.64% (+10bp QoQ) while fed funds went 3.75% to 4.00%; management says deposit competition is heating up.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19",
+   "effect": "confirms the deposit-cost squeeze in the Overheat hard-data read; FITB worse than peers (+2-3bp) partly due to Comerica sweep balances"
+  },
+  {
+   "fact": "Accumulated OCI loss widened to $4.9B from $3.3B in Q3 as long yields rose; management says late-quarter market volatility slowed M&A advisory and loan syndication; commercial NCO 0.22% steady.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000229/q32026earningsrelease.htm",
+   "as_of": "2026-10-19",
+   "effect": "confirms rate pressure on bond books; hard-data credit still benign (contradicts the HY-spread widening so far)"
+  },
+  {
+   "fact": "Q3 NII sensitivity: +100bp ramp +0.21% year 1; -100bp -0.82%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/35527/000003552726000243/fitb-20260930.htm",
+   "as_of": "2026-11-03",
+   "effect": "FITB roughly rate-neutral to hikes, loses on cuts: a Slowdown turn costs NII"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 51.71,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/FITB (yFinance last close; 52-week range $42.94-$59.50; shares 903,645,765)"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: auditor report, critical audit matter, segments, risk-factor wording on investigations; not a full read.",
+  "10-Q": "Q3 2026 10-Q read in depth (Comerica note, goodwill, intangibles, capital, NII sensitivity, legal note 16). Q1, Q2 2026 and Q3 2025 10-Qs not read; trends taken from the five-quarter tables in the Q3 release and deck.",
+  "earnings_release": "Q3 2026 release (EX-99.1) read in depth.",
+  "presentation": "Q3 2026 deck (EX-99.2) read; Oct 6 2025 deal deck (EX-99.2) read for terms.",
+  "ir_fact_sheet": "No separate fact sheet found on EDGAR; the IR site (53.com) was not fetched.",
+  "def14a": "2026 proxy read for pay metrics and ownership notes; ownership table not totalled. Form 4s for the last 6 months checked directly (5 filings, all sales/option exercises).",
+  "red_flag_scan": "8-K item scan Nov 2023 to Nov 2026 over EDGAR submissions: no 4.01, 4.02, NT, CORRESP or UPLOAD. Items 2.06 (2025-09-05), 3.01 (2026-06-01 move of listing from Nasdaq to NYSE) and 5.02 (board and integration pay awards) reviewed.",
+  "price": "yFinance only; IBKR not tried (not a Step 6 survivor price check). Own P/TBV history approximated from XBRL year-end equity less preferred, goodwill, intangibles over shares.",
+  "ratings_note": "Q3 reported TBV/share includes the $4.9B AOCI loss; ex-AOCI P/TBV is 1.88x."
+ },
+ "complete": true
+}

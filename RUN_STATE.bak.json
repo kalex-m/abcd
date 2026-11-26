@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T13:57:18+00:00",
+  "heartbeat": "2026-11-26T13:58:31+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -525,10 +525,10 @@
         "industry": "banks"
       },
       "output": "runs/20261126-full_hunt/triage/KEY.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T13:56:03+00:00"
+      "updated": "2026-11-26T13:58:31+00:00"
     },
     {
       "id": "w4-RF",
@@ -553,10 +553,10 @@
         "industry": "banks"
       },
       "output": "runs/20261126-full_hunt/triage/CFG.json",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-26T13:57:18+00:00"
     },
     {
       "id": "w4-BNY",

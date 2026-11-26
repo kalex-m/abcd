@@ -1,0 +1,206 @@
+{
+ "ticker": "KEY",
+ "name": "KeyCorp",
+ "industry": "banks",
+ "company_type": "Turnaround",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Cleveland-based bank holding company (KeyBank): takes deposits in a 15-state branch footprint and lends to individuals, small businesses and mid-sized companies, and earns fees from investment banking, payments and wealth management. Total assets $193.1B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Two segments. Q3 revenue (TE) $2,052M: Consumer Bank $1,049M (47% of the two segments), Commercial Bank $1,201M (53%), Other -$198M. Revenue mix: net interest income $1,300M (64%), noninterest income $744M (36%). Priority fee lines (investment banking, commercial payments, wealth) grew ~12% yoy; IB and debt placement fees $780M in 2025.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Retail and small-business households plus commercial clients in 15 states; relationship households +~2% and commercial clients +~3% yoy. Loans $111.6B avg Q3 (commercial about two-thirds; consumer $28.5B). No single-customer concentration reported; uninsured deposits $70.5B of $153.8B (46%) are the rate-sensitive, flight-prone slice.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US-only, 15-state branch footprint (Midwest, Northeast, Pacific Northwest) plus national commercial and commercial-mortgage servicing lines; no meaningful foreign revenue (small UK M&A advisory purchase, Clearwater, closed in Q3 2026). Currency exposure is negligible. Geographic revenue split is not disclosed; CRE collateral is spread across regions.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Spread bank with a fee layer: earns the gap between loan/securities yields (4.82% on earning assets) and deposit/debt costs (interest-bearing liabilities 2.38%); NIM 2.95%, below most regional peers (HBAN 3.25%, RF 3.68%). Fees 36% of revenue. Explainable in two sentences. Pays depositors daily; cost of deposits 1.66%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Cash efficiency ratio 60.6% in Q3 (61.9% Q2, 61.8% a year ago), so costs are mostly fixed and the revenue lift is dropping through: revenue +8% yoy, expense +6%. Guidance: 2026 revenue up ~8%, adjusted expense up ~4%, NII up ~10% (all given Oct 20, tightened from 9-11%); loans guidance and charge-off guide tightened. Capex-light branch/tech spend. Working capital N/A for a bank; hit rate: Q3 beat or met the guide and guidance was tightened, not cut.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs are deposits and capital, not goods. Deposits $153.8B (cost 1.66%, +3bp QoQ, -31bp yoy; tag fed_funds, 2y) from households and businesses, mostly sticky retail but 46% uninsured; noninterest-bearing $28.0B. Wholesale: long-term debt $11.5B at 5.77% average, short-term borrowings up to $5.2B from $1.3B a year ago (tag hy_spreads: HY OAS 3.72%, widest of 2026). Capital: CET1 11.1%, but AOCI fell $1.5B in Q3 as long yields rose. Pass-through: management says deposit environment is assumed stable and floating-rate C&I loans reprice up; no single supplier of funds, but no pricing control either. Single point of failure is the funding mix if a slowdown spooks uninsured depositors.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Scale in the middle market (KeyBanc Capital Markets, commercial mortgage servicing fees $287M in 2025) and Scotiabank's ~14.9% stake and two board seats (Investment Agreement of Aug 12 2024). Doing differently now: deliberate shift toward higher-yielding C&I loans, run-off of low-yield consumer loans, and Clearwater UK purchase to add M&A advisory. No network effects; branch banking is undifferentiated.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Regional retail brand known in its footprint but not a national everyday name; people would switch banks with some friction. Consumer Bank earns $211M of $579M pre-tax-style segment income (36%); the franchise is run for commercial clients. Marketing spend per revenue dollar not disclosed in the sources read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: HBAN, CFG, RF, FITB, USB, PNC. Share is gaining in commercial clients (+~3% yoy) and average commercial loans are guided up ~10% for 2026 against ~5% total loans; consumer loans are shrinking by design ($28.5B, -$2.3B yoy). Deposit growth ($3.6B QoQ) outpaced loans ($1.5B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Management targets ROTCE 15%+ and NIM 3.25%+ by end of 2027 (NIM 2.95% now, Q4 exit guided ~3.00%). Runway comes from fixed-rate asset and swap repricing and fee lines; no new geography. Little is hidden: the targets are public.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "ROTCE 15.11% in Q3 vs ~10% cost of equity, but 11.85% for 2025, -3.03% in 2024 (the $1.8B securities repositioning loss) and 9.60% in 2023. 9M 2026 13.65%. CET1 11.1%; buybacks $320M in Q3 (14.2M shares at about $22.5) on pace for $1.3B in 2026; Scotiabank participates pro rata. Shares 1,058M, -4.9% yoy. Pay: annual plan on PPNR and ROTCE; 2023-25 performance awards paid 0% for missing EPS/ROTCE thresholds. Insider ownership not examined in detail.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Not losing relevance; deposit franchise intact. Risks: long-duration securities book (AFS unrealized losses $2.8B, AOCI -$3.9B) makes tangible book swing with 10y yields (TBV $13.62 to $12.35 in Q3, -9%); credit is clean now (NCO 0.32%, NPLs 0.55%, office 4% of CRE) but CRE and C&I will test in a slowdown. Ratings: Moody's Baa1 senior, Fitch A-, S&P BBB with positive outlook. Key-person: CEO Chris Gorman (strategy owner); CIO resigned Mar 2026 (health).",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Items 4.01 or 4.02, no NT 10-K/10-Q in the filings list for 2025-26, and no CORRESP/UPLOAD letters showing in the submissions feed; ICFR effective, clean EY opinion (only CAM is the allowance for loan losses). 5.02 events: CIO resignation (Feb 24 2026), director retirement (Jan 2026). Non-GAAP adjustments are small (adjusted vs GAAP EPS gap $0.00 in Q3 2025).",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000162828026010546/key-20251231.htm",
+   "as_of": "2026-02-23"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +; Overheat 0 (loan growth and NIM help, but a Sept Fed hike lifted long yields and cut TBV 9% in Q3); Stagflation - (deposit costs, credit); Slowdown - (IB fees, CRE and C&I credit), partly offset by falling long yields restoring TBV. Dollar and oil effects indirect. Deposit costs +3bp QoQ, margin still rising on fixed-rate repricing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Rules: Basel III endgame re-proposal and stress-test changes are modestly capital-friendly per industry primer; Scotiabank's holding is capped near 14.9% and carries director rights (a governance overhang and a possible acquirer-in-waiting). No pending deal or docket found in 8-Ks (2026 items: 8.01 preferred redemptions, 7.01 conference decks).",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $20.22 (close 2026-11-25) / TBV $12.35 = 1.64x. At 10% cost of equity and 3% growth that implies a sustained ROTCE of about 14.5% (16.4% at 0% growth, 13.8% at 4%). Actual: 15.1% in Q3 (helped by a lower provision, $61M vs $92M), 13.65% for 9M 2026, 11.85% 2025; target 15%+ by end-2027. Cushion about 0.6pt: thin, and the recovery is already in the price (shares +27% from end-2024 close of $15.88). TBV ex-AOCI is ~$16.0 (P/TBV 1.26x; ROTCE on that base ~12.7%, implied ~11.8%). P/E ~9.9x annualised Q3 EPS $2.04. Own year-end P/TBV about 1.46x (2025) and 1.36x (2024, price dividend-adjusted so approximate). Peers P/TBV: HBAN 1.57x (ROTCE 14.6%), TFC 1.50x, CFG 1.73x (15.1%), USB 2.00x (18.5%). Year range $18.26-$24.07.",
+   "source": "https://finance.yahoo.com/quote/KEY",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Recovery is real (ROTCE 15.1% vs 12.5% a year ago, credit improving) but at 1.64x tangible book the price already assumes about 14.5% ROTCE against a 15%+ target, leaving a thin cushion, and quality is C (NIM and ROTCE history trail peers).",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "fact": "KEY's Q3 cost of deposits was 1.66% (+3bp QoQ, -31bp yoy); management assumes a stable deposit environment and says the Fed's September rate increase and energy costs add downside risk to the economy.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000023/key-20260930.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms Overheat hard data and the late-cycle deposit-cost drift; management still calls the economy resilient"
+  },
+  {
+   "fact": "AOCI fell from -$2,354M to -$3,865M in Q3 (AFS securities -$1.19B, hedges -$0.32B after tax) as long yields rose, cutting TBV/share 9% to $12.35 and TCE/TA to 6.87%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms rates up: the long-end rise through Q3 hit bank tangible book; the recent fall in the 10y (5.07% to 4.85%) would partly reverse it"
+  },
+  {
+   "fact": "Net charge-offs 0.32% (from 0.42%); FY26 charge-off guide cut to 37-39bp from 40-45bp; IB and debt placement fees +27% QoQ.",
+   "source": "https://www.sec.gov/Archives/edgar/data/91576/000009157626000020/a3q26earningsrelease.htm",
+   "as_of": "2026-10-20",
+   "effect": "contradicts the Slowdown transition in credit and capital markets so far; credit has not turned"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read selectively: risk factor on Scotiabank, repositioning, ROTCE table, TBV, auditor and ICFR. Segment and CRE detail not studied in depth.",
+  "10-Q": "Q3 2026 10-Q read in depth (outlook, capital, securities, AOCI, deposits). Q4 2025 / Q1 / Q2 2026 filings not read individually; trend taken from Q3 release comparatives (Q2 2026 and Q3 2025 columns).",
+  "earnings_release": "Q3 2026 release EX-99.1 (2026-10-20) read; financial supplement tables are inside it.",
+  "presentation": "Q3 slide deck (EX-99.2 or IR site) not fetched; the release and 10-Q hold the guidance table and targets.",
+  "ir_fact_sheet": "Financial supplement tables in the Q3 release used; separate IR-site fact sheet not fetched.",
+  "def14a": "2026 proxy read for pay metrics (PPNR, ROTCE) and 2023 award payout at 0%; ownership table and insider holdings not read in detail; Form 4 trades not checked.",
+  "red_flag_scan": "Filings list 2025-26 checked for Items 4.01/4.02, NT filings, CORRESP/UPLOAD (none returned by the submissions feed); 5.02 items read for Jan, Feb, May 2026. Older 3-year window not fully paged.",
+  "price": "yFinance last close 2026-11-25; own P/TBV history uses dividend-adjusted closes and 10-K TBV for 2024-25 only (2021-23 not computed).",
+  "scotiabank": "Investment Agreement Aug 12 2024: ~14.9% stake, two board designees, pro-rata repurchase true-up (Scotiabank sold ~177k shares/$4M in Q3 2026). Purchase price and lock-up terms not re-read from the 2024 8-K.",
+  "securities_repositioning": "2H 2024: ~$10.0B of low-yield MBS sold and reinvested, $1.8B loss in 2024 (10-K). NII has risen from $3.77B (2024) to $4.64B (2025) and FY26 guided up ~10%; the payback is now visible in NIM 2.95% vs 2.75% a year ago and is largely in the price."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 20.22,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/KEY"
+ },
+ "complete": true
+}
