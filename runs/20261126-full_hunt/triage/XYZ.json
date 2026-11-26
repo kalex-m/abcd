@@ -1,0 +1,196 @@
+{
+ "ticker": "XYZ",
+ "name": "Block, Inc. (formerly Square, Inc.; NYSE: XYZ; CIK 1512673)",
+ "industry": "payments",
+ "company_type": "Fast grower",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Block runs Square (card payments, point-of-sale software, hardware and loans for merchants) and Cash App (a consumer money app: send, spend, borrow, buy now pay later, bitcoin). Q3 2026 gross profit $3.24B, +22%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 gross profit by segment: Cash App $2.07B (+27%, 64%), Square $1.16B (+14%, 36%). By category: Commerce Enablement $1.85B (+19%), Financial Solutions $1.33B (+32%), Bitcoin Ecosystem $52M (-50%, 1.6% of total). Bitcoin is 27% of revenue but under 2% of gross profit, so it is revenue noise only.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Square sells to small and mid-size merchants (food and beverage GPV +20%, retail +13%, services +8%); Cash App has 60M monthly transacting actives, about 70% of them gig, creator or hourly earners (lower-income, credit-sensitive). No single customer matters, but the consumer base is exposed to a real-spending slowdown.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Q3 revenue 91% US ($6.09B) and 9% international ($0.63B, +18%); no country above 10%. Square international GPV +26% (constant currency +26%), so currency drag is small. Dollar +4.8% over 3m is a minor translation headwind.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Explainable in two sentences: Square takes a cut of every card swipe plus software and loan fees; Cash App earns card fees, short-term loan fees (Borrow, Afterpay) and interest on balances. Mostly transaction-based, not subscription; lending spread is now the fastest-growing part (Financial Solutions +32%). Consumer lending originations $19.0B in Q3 (+40%). Commerce monetization rate 1.74% (+18bp).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Low fixed-cost leverage showing: non-GAAP operating expenses $2.33B in Q3, roughly flat for four quarters while gross profit grew 22%, so adjusted operating margin rose from 18% to 29% of gross profit. Capex only about $170M a year (TTM $169M). Workforce cut over 40% in Feb 2026 ($495M restructuring). Guidance: Q3 beat and 2026 raised to $12.626B gross profit and $3.519B adjusted operating income (investor day Nov 2025 said $11.98B and $2.70B); earlier-year hit rate not checked. Upfront credit losses (GAAP) rose 66%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: (a) card interchange and network fees paid to Visa/Mastercard and issuers, passed through to merchants in pricing (signal: regulation, inflation); (b) funding for loans: $1.5B warehouse lines, $900M undrawn revolver, $5.7B corporate debt, plus balance-sheet cash (signals: rates, hy_spreads); (c) hardware parts, some from limited or single sources via contract manufacturers, with tariff exposure (10-K risk factor); (d) third-party payment processors: three hold about 40%, 25% and 12% of settlements receivable (single points of failure); (e) partner banks and Square Financial Services (Utah industrial bank). Can pass on interchange and hardware costs through pricing; cannot pass on higher funding costs quickly because Borrow loans are six-week fixed-fee products.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Two linked networks: Neighborhoods put 30,000+ Square seller locations (nearly $5B annualized GPV) in front of Cash App users, and 400+ ISO partners plus field sales widen Square distribution. 10 years of proprietary lending data (Square Loans cohorts at or better than a 4% loss target) now sold outward as Cash App Score. Doing differently now: AI tools (Squaremates, Buzz, Builderlab; first machine-intelligence revenue expected Q4) and a Cash App fee cut on bitcoin.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 4,
+   "evidence": "60M monthly users, 28M with Cash App Card, inflows per active $1,446 per quarter, 1 in 5 Cash App Tag orderers is a new or re-engaged Card user. Square readers sit at the counter of millions of small shops. People would notice if either vanished, but both skew to small merchants and gig earners rather than the whole population; Cash App actives are growing only +4%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Square GPV +14% (US +10.4%, strongest since Q1 2023) versus Toast GPV +20% and Fiserv Merchant organic -2%: gaining on legacy incumbents, slower than Toast in restaurants (Square F&B +20%). Management says over half of the US addressable market still uses legacy solutions. Cash App faces PayPal, Zelle and bank apps; actives +4%, primary banking actives 9.4M (+13%, flat for two quarters).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Management guides 2027 gross profit up at least 15% and adjusted operating income +30% to $4.575B. Only 16% of US Square sellers pay for software; Borrow average limit $300 versus $1,500 maximum; 32M Cash App users do not use the Card. Part of this runway is more consumer credit, which is the part to test in a slowdown.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "Trailing 12-month free cash flow $3.45B (company definition), but about $0.8B of the 9-month operating cash flow is accrued legal costs not yet paid, stock pay is about $1.16B a year, and $1.4B went into lending capital. Cash $7.86B plus $0.58B securities against $5.72B debt, but customers payable ($7.70B) exceeds customer funds ($5.36B) and $764M is owed to DOJ, so true net cash is near zero (my calculation). Buybacks $701M for 11.6M shares in 9M 2026 (about $60 each); diluted share count 615M vs 622M a year ago. Pay plan for 2026 adds a bonus tied to gross profit and operating income; Dorsey takes $2.75 salary; Class B holders control 53% of votes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Gaining relevance (GPV and gross profit accelerating, not a Zoom case). Risks: consumer credit is a growing share of profit (consumer loans held for investment allowance 14.5% of balance versus 10.7% at Dec 2025), compliance record, dependence on founder Jack Dorsey (also Block Head, engineering now reports to him), reliance on partner banks and card networks. Bitcoin gross profit fell 50% by design.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 2,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filing, no material weakness found; auditor EY since 2019 with one critical audit matter (bitcoin custody existence). Against that: DOJ agreed in principle (Oct 2026) to a three-year deferred prosecution agreement on a Bank Secrecy Act anti-money-laundering charge, gross $964M, net $764M accrued, not final and could exceed accrual; securities class action survived dismissal Jan 2026; July 2026 state attorney-general settlement (immaterial); contingencies charges $743M, $365M, $435M in Q1-Q3 2026 sit outside adjusted profit; Chief Accounting Officer left Jan 2026, replaced May 2026; SEC comment letters in mid-2023 (outside the 3-year window by a few months).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: nominal volumes and prices help (percent-of-sale fees), but higher funding costs and weak real spending hurt; Slowdown and Stagflation: Cash App Borrow and Afterpay losses rise and gig-worker incomes weaken, while HY spreads (3.72%, widest of 2026) say lenders are being repriced. Rate sensitivity: moderate (funding cost, offset by interest on customer balances). Dollar: small. Input-cost: low except hardware tariffs.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Pending: DOJ deferred prosecution agreement (needs final agreement and court approval); derivative settlement ($150M from insurers) needs court approval; San Francisco gross receipts tax dispute up to $114M; Square Financial Services is an industrial bank regulated by FDIC and Utah; BNPL and short-term consumer lending rules; crypto policy. Consent-order conditions can restrict what Block does.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069524/xyz-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $76.10 (2026-11-25), market cap $46.0B; EV about $46B (my calc, net cash near zero after customer balances and the DOJ accrual). Reverse DCF at 10% discount, 3% terminal, 10 years: if owner earnings are about $2.8B (2026 adjusted operating income $3.52B after tax of 20%, already net of stock pay) the price needs about 4.5% growth a year; on a harsher base of $1.5B (TTM FCF less stock pay less the DOJ accrual) it needs about 12.7%. Own FCF (operating cash flow less capex) grew from $0.7B (2021) to $2.4B (2025), about 36% a year, but from a low base. 18.3x 2026 adjusted EPS guide ($4.15), 13.1x EV to 2026 adjusted operating income, 10.1x on the 2027 outlook; GAAP P/E over 100x trailing ($0.74). Peers on adjusted EPS: PayPal 10.3x, Fiserv 8.2x, Global Payments 7.0x. Own year-end GAAP P/E: 31x (2025), 19x (2024).",
+   "source": "https://finance.yahoo.com/quote/XYZ",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and the price is reasonable on guided adjusted profit (18x), but the credit loss test in a slowdown is unproven, a DOJ anti-money-laundering deal is not final, and the cushion disappears once stock pay and legal costs are counted.",
+ "the_mistake": "Candidate, not yet proven: the market treats Block as a risky consumer lender with a compliance overhang, while Q3 shows loss rates stable, gross profit +22%, adjusted operating margin 29% and guidance raised. The opposite risk is equally live: adjusted profit leaves out $1.5B of 2026 legal and restructuring charges and the loan book is untested in a downturn.",
+ "what_makes_market_notice": "Final DOJ agreement and court approval (timing not disclosed); Q4 results on 2027-02-24 (Borrow limits resuming growth, loss rates, 2027 guide of $4.575B adjusted operating income); first Builderlab machine-intelligence revenue in Q4 2026.",
+ "feedback": [
+  {
+   "fact": "Q3 2026: Cash App Borrow loss rates 'remained healthy', Cash App consumer lending variable profit margin in line with a year ago and up modestly quarter over quarter; no numeric loss rate disclosed. Inflows per active growth slowed from +12% (Q4 2025) to +6% (Q3 2026); Commerce Enablement volume growth slowed from 18% to 14% in Cash App. Does not yet confirm a consumer-credit break, but flat real spending shows up as slower volume per user.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  },
+  {
+   "fact": "Square US GPV +10.4%, accelerating, and mid-market sellers the fastest-growing segment; contradicts the flat real-spending read for small merchants so far (nominal prices help percent-of-sale fees).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1512673/000162828026069513/q32026shareholderletter.htm",
+   "as_of": "2026-11-03"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "nothing_found",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K filed 2026-02-26, searched for auditor report, CAM, supply chain, voting control; not read end to end.",
+  "10-Q": "Q3 2026 10-Q read selectively (balance sheet, cash flow, notes 12, 16, 19, loans); XBRL companyfacts for annual series. Q1 and Q2 10-Qs not read; quarterly figures taken from the Q3 shareholder letter tables.",
+  "earnings_release": "Block publishes its results as a shareholder letter (8-K EX-99.1), covered.",
+  "presentation": "No separate EX-99.2 deck on the 8-K; IR site investors.block.xyz not fetched, so earnings presentation and November 2025 investor day deck unchecked (listed as nothing_found for EDGAR only).",
+  "ir_fact_sheet": "Not found on EDGAR; IR site not fetched.",
+  "def14a": "2026 proxy (filed 2026-04-24): pay design, voting control; ownership table only partly read.",
+  "red_flag_scan": "Submissions JSON: no 8-K 4.01/4.02, no NT 10-K/10-Q, no 10-K/A; UPLOAD/CORRESP only in 2023. 5.02 items read. Borrow and Afterpay loss rates: no numeric figure disclosed in sources read. Earnings call transcript not read.",
+  "price": "yFinance quote 2026-11-25 close (last close before US Thanksgiving); IBKR not tested."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 76.1,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/XYZ"
+ },
+ "complete": true
+}

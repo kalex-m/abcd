@@ -1,0 +1,203 @@
+{
+ "ticker": "AXP",
+ "name": "American Express",
+ "industry": "payments",
+ "company_type": "Stalwart",
+ "business_model": "Other (closed-loop network, issuer and acquirer: spend fees, card fees and net interest)",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Global premium card issuer, network and acquirer in one (closed loop): it earns from customer spending, card fees and lending to affluent consumers, small businesses and corporations. Q3 2026 revenue $20.1B, +9%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "Q3 revenue mix: discount revenue (merchant fee on spend) $10.2B = 51%; net card fees $3.0B = 15%; net interest income $4.9B = 25%; service fees and other $2.0B = 10%. Segments: US Consumer $9.8B (49% of revenue), Commercial $4.6B (23%), International Card and Global Merchant & Network make up the rest.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Consumers, small businesses and corporates, plus merchants who pay the discount fee. Concentration: Delta cobrand = about 13% of worldwide billed business and 21% of Card Member loans; all cobrands together about 26% of billed business and 36% of loans (FY25). Delta deal runs through 2029.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "About 22% of FY25 revenue came from outside the US; 79% of Card Member loans and receivables are US. International Card Services billed business +11% (9M +12% FX-adjusted); card accepted at 190M+ merchant locations. Dollar strength is a translation drag on the 22%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Three-party closed loop: spend fees from merchants, annual card fees, and interest on revolving balances; 75% of Q3 revenue is non-interest (fees and spend), so it is less rate-driven than a pure lender. Card balances $221B, customer deposits $155B. Still carries credit risk: 2026 provisions $3.3B for 9M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Costs flex with spend: rewards $5.1B (25% of revenue), Card Member services $2.0B (+36%, Platinum refresh benefits), business development $1.8B; together about 44% of revenue. Capex 9M $3.0B vs $1.7B a year ago (+76%). Guidance hit rate: FY26 EPS $17.30-17.90 (Jan) was reaffirmed in April and July, and the low end raised in October; clean so far.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Critical inputs are funding (customer deposits $155B, long-term debt $58.5B; Oct 30 2026 issued $3.0B notes at 5.447%-5.817% vs 4.85% 10y Treasury), cobrand partners (Delta 13% of billed business), merchant acceptance and rewards partners (Marriott, Airbnb, airlines). Funding is diffuse, partner concentration is the single point of failure (Delta, contract to 2029). Pass-through: rewards cost rises with spend and is largely covered by card fees (+16% in Q3) and merchant fees; cannot pass higher funding cost to merchants, but can reprice lending yield (net interest yield 8.5% vs 8.2%). Signal tags: rates and hy_spreads (funding cost, credit), consumer_spending_nominal and dollar (billed business, cross-border), travel_airlines (T&E 29% of billed business, +10%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Closed-loop data and affluent customer base, premium brand, card-fee membership model, lounge and travel benefits (33 Centurion lounges), merchant acceptance up to 190M+ locations. Doing differently now: Platinum refresh, new Amex Corporate and Business Savings account, Resy/OpenAI agentic commerce tools.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 5,
+   "evidence": "Premium everyday card brand: 49.7M US consumer cards-in-force (+4%), average basic Card Member spend $5,522 a quarter (+4%); company reports #1 in J.D. Power US credit card satisfaction for seventh year (company statement, not independently checked). Marketing $1.77B = 8.8% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Visa and Mastercard (open networks), big-bank premium cards (JPM, Citi, Capital One). Share not measurable from filings: Amex network volume +8% in Q3 vs Mastercard GDV +7% local currency and Visa payments volume +9% constant dollar, so roughly in line. Commercial Services billed business only +3%, a weak spot.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Q3 billed business $454.0B +8% (USCS +9%, ICS +11%, CS +3%); T&E +10%, goods and services +7%; net card fees +16%; Card balances +8%. Runway: international acceptance, Gen Z and Millennial cohorts, commercial and small-business banking products. Management still guides to about 10% revenue growth in 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROE 38.0% for 9M (42.4% in Q3 including GBTG sale gain; 34% for FY25). CET1 10.9% (target 10-11%). Returned $7.4B in 9M, $5.5B in buybacks; share count -3% y/y; Q3 buyback average price $331.37, above today's $312. For a lender, operating cash flow (9M $14.6B) less capex $3.0B is shown only for context; cash earnings are better read as net income. CEO pay: 96% performance based, scorecard of revenue growth, EPS and ROE (2026 proxy). Insider ownership table not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Gaining relevance: card fees and billed business growing, retention strong per company. Risks: credit cycle, regulation of fees and rewards (Credit Card Competition Act style rules, state interchange laws, EU caps), anti-steering class actions (Pizza Hazel, 5-Star), cobrand renewals, key-person (CEO Squeri; Berkshire has a voting agreement tied to him).",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02 and no NT 10-K/10-Q in the last 3 years; PwC clean opinion with effective internal control FY25; critical audit matter is the standard credit-loss reserve. Watch points: legal reserve increase and restructuring in Q3 other expense; Q3 adjusted EPS excludes the $982M GBTG gain (modest adjustment). Last SEC comment letters are Dec 2023 - Jan 2024 (closed).",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000080/axp-20251231.htm",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: nominal spend +8-9% and net interest income +10% help; strong dollar trims the 22% foreign revenue. Slowdown risk: T&E and credit; reserves already cut from 2.9% to 2.5% of balances, so a turn would add provisions. Funding: new 4-8 year debt at 5.4-5.8% vs older cheaper debt, so higher-for-longer pressures net interest margin. Affluent base has held up: write-off rate 1.8% (from 1.9%), 30+ days past due 1.2% (from 1.3%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Anti-steering suits (Pizza Hazel, 5-Star) pending; state laws barring interchange on tax and tips; EU fee caps on three-party networks and cobrand; CFPB oversight; stress capital buffer rule runs to end 2027 with a new one from Jan 2028. No single pending deal or docket that decides the thesis.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $312.39 (2026-11-25), market cap $209.5B, down 19% from the 52-week high of $387.49 and near the $290.97 low. P/E 17.6x on trailing and on 2026 adjusted guide midpoint $17.75; own FY-end P/E range: 14.3x (2022) to 23.8x (2025). Reverse DCF on earnings (10% discount, 3% terminal, 10 years, equity cash flow = net income less capital needed to grow tangible equity at the same rate, starting from $12.0B adjusted 2026 net income): price needs 7.0% a year earnings growth; own EPS CAGR FY21-FY25 11.3% (10.02 to 15.38), net income 7.7%; 2026 adjusted EPS guide +15%, but Q3 was helped by a discrete tax benefit (rate 18.1% vs 24.1%) and a reserve release. P/TBV vs ROTCE: tangible equity about $30.7B (equity $35.8B less goodwill about $4.9B and small intangibles; approximate), P/TBV 6.8x. At a 10% cost of equity, 6.8x P/TBV implies ROTCE of 39% if tangible book grows 5% a year, 33% at 6% growth, 45% at 4%. Actual adjusted ROTCE about 40% (annualised 9M adjusted net income $12.1B over average tangible equity about $29.6B). So price is fair if returns hold near 40%, with a real cushion only if book growth stays at 7% or more (it was 8% in 9M). Peers (yfinance): Visa 34.4x, Mastercard 34.5x, JPM 13.3x (P/B 2.4x), Capital One 11.2x, Synchrony 7.2x. Not priced like the networks (they need about 15%), but not cheap versus banks. Moderate cushion.",
+   "source": "https://finance.yahoo.com/quote/AXP",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality A and the price needs only about 7% a year earnings growth (networks need about 15%), but no mistake is proven: Q3 EPS was helped by a tax benefit and a reserve release, and the share fall is unexplained by filings.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "candidate_mistake_to_test": "The shares de-rated from 23.8x P/E (Dec 2025) to 17.6x even as 2026 guidance was raised and fees (75% of revenue) grew faster than lending income; the market may be pricing AXP like a credit-card lender in a widening-spread regime. Unproven until Q4 results show write-offs near 1.8% and earnings without the tax and reserve help.",
+ "flip_to_survived_if": "Q4 2026 results (expected late January 2027) show underlying EPS growth near 10%+ without discrete tax benefits or further reserve release, write-off rate stays at or below about 1.9%, and the Platinum cost growth moderates as management says.",
+ "feedback": [
+  {
+   "text": "Card credit confirms hard data, not the market's Slowdown call: Q3 net write-off rate 1.8% (1.9% a year ago), 30+ days past due 1.2% (1.3%), billed business +8%; but Commercial Services billed business only +3% and reserves cut to 2.5% of balances from 2.9%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "text": "Affluent travel spend resilient into September: T&E billed business +10% vs goods and services +7%, International +11% FX-adjusted. The dollar's 4.8% 3-month rise came after this quarter ended and is not yet visible.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000409/axp-20260930.htm",
+   "as_of": "2026-10-23"
+  },
+  {
+   "text": "Funding is repricing higher: Amex issued $3.0B of 4- and 8-year notes at 5.447% and 5.817% on Oct 30 2026 while Q3 interest expense was still down 10% y/y; supports the Fed-hiking overlay.",
+   "source": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000411/axp-20261030.htm",
+   "as_of": "2026-10-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 10-Q read selectively (MD&A tables 1-10, balance sheet, cash flow, Note 7 legal); Q1 and Q2 10-Qs not read line by line; XBRL used for equity, goodwill, cash flow.",
+  "presentation": "ir.americanexpress.com not fetched (no allowed-domain route attempted); Q3 statistical tables supplement and slides not read.",
+  "ir_fact_sheet": "Same as presentation: IR site not reached; segment and credit data come from the 10-Q instead.",
+  "def14a": "2026 proxy (filed 2026-03-25) read for pay design and scorecard; insider ownership table not extracted.",
+  "red_flag_scan": "8-K items scanned from 2023-12 to 2026-11-25 (80 filings): only Item 5.02 hits (latest: director Angelakis resigns effective 2026-12-02, to focus on other business). No 4.01/4.02/NT. CORRESP/UPLOAD last Dec 2023-Jan 2024, PDFs not parsed. Legal reserve increase amount in Q3 not extracted.",
+  "price": "yfinance 2026-11-26 for 2026-11-25 close; IBKR not tried (read-only tool unavailable in this run).",
+  "tangible_equity": "Goodwill and intangibles for Sep 30 2026 not read from the 10-Q; FY25 goodwill $4.87B and intangibles $0.09B used, so TBV about $30.7B is approximate (a 2026 acquisition added some goodwill).",
+  "peer_multiples": "yfinance only; no 5-year multiple history in XBRL, own range built from FY-end price and diluted EPS."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 312.39,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/AXP"
+ },
+ "complete": true
+}
