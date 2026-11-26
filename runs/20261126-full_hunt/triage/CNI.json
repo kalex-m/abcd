@@ -1,0 +1,208 @@
+{
+ "ticker": "CNI",
+ "name": "Canadian National Railway",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "CN runs a roughly 20,000-mile freight rail network linking Canada's east and west coasts with the U.S. Midwest and Gulf Coast; it earns money by hauling other people's freight and charging per ton-mile (Q3 2026 freight revenue C$4,574M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Seven commodity groups, Q3 2026 share of freight revenue (computed): intermodal 23% (C$1,065M), petroleum and chemicals 22%, grain and fertilizers 20%, metals and minerals 12%, forest products 11%, automotive 6%, coal 5%. FY2025: intermodal largest at 22% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "No customer concentration disclosed; MD&A stresses a diversified portfolio with no group above 22% of FY2025 revenue. Buyers are grain exporters, refiners and chemical makers, steel and lumber shippers, automakers and ocean-carrier/retail intermodal customers.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000011/a2025annualstatsmda.htm",
+   "as_of": "2026-02-04"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "FY2025 revenue by traffic type: 37% overseas, 29% transborder (Canada-US), 18% Canadian domestic, 16% US domestic. Reports in C$ but a large share of revenue is in US$; a weaker C$ added to Q3 revenue (+15% reported vs +14% constant currency); 17,289 staff in Canada, 6,533 in the US.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000011/a2025annualstatsmda.htm",
+   "as_of": "2026-02-04"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll-road style network: one reported segment, revenue per ton-mile (7.70 cents in Q3, +10%), fuel surcharges and annual rate increases; heavy fixed network cost. Q3 revenue C$4,771M, operating income C$1,730M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Operating ratio (costs as % of revenue, lower is better) was 63.7% reported and 61.0% adjusted in Q3 2026 vs 61.4% a year ago; FY2025 61.9%. Capex about C$2.8B net in 2026. Guidance: 2026 adjusted EPS growth 'mid-to-high single digit, tracking toward the upper end'; FY2025 outcome was in line with the July 2025 outlook, so there was a mid-year reset before that.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Fuel: 94.6M US gallons in Q3 at C$6.09 a gallon vs C$3.82 (+59%); fuel cost +56% (C$662M) but CN passed it on through surcharges and rates (revenue per ton-mile +10%) and adjusted OR still improved 40 bp, unlike UNP (-140 bp) and CPKC (-170 bp). Locomotives, rail and rolling stock come from a few suppliers (named in no filing; 40-F risk factor says 'limits the number of suppliers'). Labour: Teamsters Canada Rail Conference (about 6,000 train crews) and Steelworkers (about 2,800 track staff) contracts expire 2026-12-31. Signal tags: oil, diesel, fuel cost, fuel surcharge lag, wages, union contracts, tariffs, steel, capex, dollar.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Only North American railroad touching three coasts (Atlantic, Pacific, Gulf); originates more than 85% and both originates and terminates more than 65% of traffic on its own network. 2026 UP agreement gives CN Kansas City Terminal and St. Louis terminal stakes, Midwest overhead rights, and new Memphis-Eagle Pass (Mexico) access, contingent on the UP-NS merger closing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000110465926085991/tm2621143d2_6k.htm",
+   "as_of": "2026-07-22"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Business-to-business freight; shippers pick CN for route and service, not brand. Essential to Canadian exports, but no consumer repeat-buy or pricing premium beyond network position (freight revenue per carload C$3,353, +15%, mostly fuel and mix).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: CPKC (Canada-wide, Mexico), UP, BNSF, CSX, NSC. Q3 2026 ton-miles +4% with carloads flat (1,364k vs 1,368k); intermodal ton-miles -3% (CN says it dropped lower-profit international volume; Prince Rupert and Halifax down, Vancouver up). UP-NS merger: CN signed a deal on 2026-07-22 and 'will not oppose' it.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Guide is low single-digit ton-mile growth for 2026 (9-month RTM +4%). Drivers named: grain (record Canadian crop lapping), refined products and NGLs, Mexico access, new crude business; headwinds: flat housing and US tariffs on forest products, weak iron ore. Nothing here suggests growth above mid single digits.",
+   "source": "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q3/q3-2026-financial-presentation-en.pdf",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "ROIC 12.9% FY2025; adjusted debt/EBITDA 2.61x (Q3 2026) with Moody's outlook negative; 9-month FCF C$2,918M (+25%) but buybacks C$1,999M plus dividends of about C$1.65B (computed, C$2.745 x ~600M shares) exceed FCF, funded by debt (long-term debt plus current C$22.8B vs C$21.2B at year-end). Buybacks were C$4.55B in 2023, C$2.65B in 2024, C$2.05B in 2025 at roughly US$100-115 a share. Pay: PSUs 70% of long-term pay (40% ROIC, 30% relative TSR); hedging banned; CFO retires 2027-02-01 (planned succession).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3fsnotes.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Network cannot be replicated and grain, energy and intermodal flows are structural; main threats are Canadian labour stoppages (a 2024 stoppage hit Q3 2024), blockades, derailments and trade barriers, not loss of relevance. Q3 2026 car velocity 207 (-2%), network speed 19.1 mph (-2%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000011/a2025annualstatsmda.htm",
+   "as_of": "2026-02-04"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "KPMG audit, disclosure controls and ICFR effective (FY2025 40-F). No 4.01/4.02-type items, NT filings or SEC comment letters in the last 3 years (only a 2021 CORRESP/UPLOAD pair, outside the window). Watch items: Q3 2026 adjustments of C$132M to operating income (impairment, workforce reduction, merger-advisory costs) lift adjusted OR 270 bp below reported; COO change Oct 2025, CFO change Feb 2027.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000110465926010352/tm261145d1_40f.htm",
+   "as_of": "2026-02-04"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: positive so far (adjusted EPS +18% in Q3, grain and energy volumes up, surcharges pass fuel through, weaker C$ helps translation). Slowdown: rails hold up better than trucking and fuel costs fall, but Canadian export volumes (grain, forest, intermodal) are cyclical and 2027 labour risk is open. CN assumes C$0.71 and WTI US$80-110 for the rest of 2026. Rates: C$22.8B of mostly fixed-rate debt. Dollar: Q3 constant-currency EPS C$2.14 vs C$2.16 reported.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Teamsters (6,000 crew) and Steelworkers (2,800) contracts expire 2026-12-31; bargaining runs through December and Canadian law lets a strike or lockout follow the statutory process. Also: US tariffs on forest products, CTA cap on grain revenue, Canada-US trade tension. UP-NS docket: CN settled, so it is no longer an opponent (a contrary view in the brief).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "US$126.40, equity US$75.8B. Reverse DCF on equity (FCF is after interest): TTM FCF about C$3.9B (US$2.78B at 0.71) needs about 11.3% a year for 10 years at 10% discount and 3% terminal growth. CN's own 5-year FCF growth (operating cash flow less property additions, 2020 to 2025: C$3.30B to C$3.34B) is about 0% a year; reported FCF fell from C$3,887M (2023) to C$3,336M (2025). P/E 22.0x trailing and 19.7x forward vs roughly 17-22x own 2022-25 (computed from average price, FX and diluted EPS); EV/EBITDA 10.5x vs CP 12.7x, UNP 15.5x, CSX 15.7x, NSC 15.3x. Cheaper than peers, but price assumes more growth than CN has delivered.",
+   "source": "https://finance.yahoo.com/quote/CNI",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B but price leaves no cushion (needs about 11% FCF growth a year vs about 0% delivered) and there is no identifiable market mistake; revisit after the 2026-12-31 labour contract expiry and Q4 results with 2027 guidance (late January 2027).",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "regime_signal": "Overheat (growth and inflation rising)",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "CN Q3 2026 ton-miles +4%, revenue +15%, grain exports and refined petroleum volumes up, fuel price C$6.09 a gallon vs C$3.82; surcharges and rate increases passed the cost through.",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3mda.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "regime_signal": "Slowdown priced by markets",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "No volume slowdown in CN's data through Q3 and CN reaffirmed 2026 guidance on 2026-10-30; CN itself flags 'heightened demand risk' from trade tensions and tariffs, and forest products are already down (-4% ton-miles).",
+   "source": "https://www.sec.gov/Archives/edgar/data/16868/000001686826000041/a2026q3pressreleasestatssu.htm",
+   "as_of": "2026-10-30"
+  },
+  {
+   "regime_signal": "Cheaper oil helps transport",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "CN's Q3 fuel cost was +56% y/y and its guidance assumes WTI US$80-110; relief arrives with a lag via lower fuel and later lower surcharges.",
+   "source": "https://www.cn.ca/-/media/files/investors/investor-financial-quarterly/investor-financial-quarterly-2026/q3/q3-2026-financial-presentation-en.pdf",
+   "as_of": "2026-10-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 126.4,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/CNI"
+ },
+ "coverage_notes": {
+  "10-K": "Foreign filer: FY2025 Form 40-F (AIF) plus annual report MD&A and statements from the 2026-02-04 6-K; no 10-K.",
+  "10-Q": "Foreign filer: Q3 2026 6-K (release, MD&A, statements and notes) read in text; Q1 and Q2 6-Ks not read separately, covered through 9-month comparatives. XBRL companyfacts used for 2019-2025 annual cash flow.",
+  "earnings_release": "Q3 2026 release (6-K Ex 99.1) 2026-10-30.",
+  "presentation": "Q3 2026 analyst presentation PDF from cn.ca (partly read: outlook, commodity slides).",
+  "ir_fact_sheet": "IR page lists a non-GAAP measures PDF and Quarterly Review only; no separate fact sheet found; the non-GAAP measures are also in the release.",
+  "def14a": "Foreign private issuer files no DEF 14A; used the 2026 Management Information Circular (6-K Ex 99.3, filed 2026-03-25). Insider share ownership figures not extracted.",
+  "red_flag_scan": "Scanned the EDGAR filing list (6-K, 40-F, CORRESP/UPLOAD) for 2023-2026: no auditor change, restatement or NT filings seen; 6-K bodies read for 2026 items only. 2021 comment letter is outside 3 years. No separate regulatory docket read: CN's STB position taken from its own 2026-07-22 release.",
+  "price": "yfinance quote and multiples on 2026-11-26 (last close 2026-11-25); EV and trailing P/E are yfinance figures, not independently checked. Own-history P/E computed roughly from annual average price, average FX and diluted EPS; 2021 EPS not in XBRL so excluded.",
+  "other": "Potash and Prince Rupert volumes: only qualitative statements in the Q3 MD&A and presentation; no port-level tonnage published in what was read. Moody's negative outlook from Q3 MD&A."
+ },
+ "complete": true
+}
