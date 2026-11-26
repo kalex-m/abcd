@@ -1,0 +1,197 @@
+{
+ "ticker": "NSC",
+ "name": "Norfolk Southern",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "NSC runs a 19,100 route-mile freight railroad in 22 states plus DC in the eastern US; it earns money by hauling other people's goods on track it owns, and was about 7 million carloads a year.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+   "as_of": "2026-02-09"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 revenue $3,526M: merchandise $2,188M (62%), intermodal $919M (26%), coal $419M (12%). Merchandise split: agriculture/forest/consumer $696M, chemicals $658M, metals/construction $516M, autos $318M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Many shippers across chemicals, metals, autos, agriculture, coal and intermodal marketers; no customer over 10% flagged in the 10-K text reviewed (not a full read of the customer note). Intermodal is the swing customer group (up 21% in Q3).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "All US: 19,100 route miles, 22 states + DC, links to every major Atlantic port and Gulf/Great Lakes ports; revenue in dollars so no direct currency exposure (Conrail 58% economic stake is a US joint venture with CSX; investment $1.9B).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+   "as_of": "2026-02-09"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll-road model: contract and tariff freight revenue priced per car, with about 95% of revenue under fuel surcharges (industry file citing NSC). Q3 revenue per unit $1,902, +11%; revenue +14% on volume +3%, of which fuel surcharges were 8 points of the growth.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "High fixed-cost network (depreciation $363M a quarter). Operating ratio (OR, lower is better) 67.4% reported, 65.4% adjusted in Q3 2026 vs 64.6%/63.3% a year ago, 210bp worse adjusted, on fuel $420M vs $237M (+77%). Capex $1,407M in 9M 2026 (14% of revenue). Receivables up $243M in 9M. Guidance hit rate: no 2026 guidance read in the release (not found).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: diesel (366M gallons in 2025; Q3 fuel 17.7% of operating cost vs 11.8%), locomotives and rolling stock (few suppliers, 10-K says high barriers and dependence on key suppliers; industry file names Wabtec and Progress Rail, locomotive duopoly not re-verified), rail steel (Section 232 tariffs), labour (about 80% unionised; national deals fixed to 2029-12-31, 18.8% over five years). Single points: Chicago, Conrail Shared Assets Areas, and the locomotive duopoly. Pass-through: fuel is passed on by surcharge with about a two-month lag (Q3 surcharge $468M vs fuel expense $420M); RCAF Q4 2026 +8.9% escalates contracts. Signal tags: oil, diesel, fuel cost, fuel surcharge lag, wages, steel, tariffs, rates. Falling diesel (now $5.695, -7% in two weeks, still about +49% y/y) cuts cost at once and revenue two months later.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm ; runs/20261126-full_hunt/industries/railroads.json ; https://www.eia.gov/petroleum/gasdiesel/ ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+   "as_of": "2026-11-23"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Only Class I with the most extensive eastern intermodal network and every major Atlantic port, a Conrail JV share, and a high-barrier route map; doing differently now: volume +3% in Q3 with intermodal revenue +21% as trucking tightens, and productivity gains, but a leadership change (COO John Orr left 2026-05-31 over proposed operating changes).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526250020/d91653d8k.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "B2B toll road, not a consumer brand; essential (carried about 7 million carloads a year, and a loss would hit manufacturing and ports), pricing power capped by STB oversight of rates and fuel surcharges. No marketing spend line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm",
+   "as_of": "2026-02-09"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Direct rival in the east is CSX (Conrail shared areas); UP and BNSF compete across gateways. NSC Q3 volume +3% (carloads units 1,853.5k vs 1,803.9k) in a market where AAR US carloads were +0.5% in the latest week; adjusted OR 65.4% is worse than UNP 59.1% and CSX 60.9% reported in Q3 2026. Share vs trucks gaining; share vs eastern rail not proven.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Intermodal units +3% and revenue per unit +18% in Q3; chemicals units +9%; truck conversion helps while trucking is tight (JB Hunt truckload revenue per load +29% ex fuel per industry file). Standalone runway is more about OR repair than volume; 9M 2026 income from railway operations $3,151M vs $3,419M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF (operating cash less capex): 2025 $2,157M (NI $2,873M); LTM about $1,647M after the $285M East Palestine class settlement payment. 9M 2026 dividends $910M vs FCF $1,313M. Net debt $15.0B (debt $16,613M less cash $1,598M) is about 2.7x LTM EBITDA of about $5.5B; no buybacks in 2026 (merger agreement blocks them); 2025 buyback $534M. Insiders own under 1% (187,638 shares, 17 people). Pay: annual plan OR weighted 35%, PSUs on return on capital and relative TSR.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526127620/nsc-20260327.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Rail network is hard to replicate and demand is gaining relevance as trucking tightens. Risks: merger outcome and break-up of Conrail-type partnerships, East Palestine legacy liability, key-person (COO left in 2026). No sign of losing relevance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026006268/nsc-20251231.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Items 4.01 or 4.02, no NT filings and no material weakness in the filings scanned (last three years). Two SEC UPLOAD (comment) letters dated 2024-03-01 and 2024-03-13 exist; letter text could not be extracted (PDF letterhead only), no restatement followed. Non-GAAP adjustments are small (adj EPS $3.62 vs $3.37, 7%). Critical audit matter is capitalisation of property expenditures. Open East Palestine suits remain.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000702165&type=UPLOAD",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: volume and RCAF pass costs through but Q3 adjusted OR worsened 210bp as fuel surcharge lag and pass-through revenue squeezed the margin percent. Slowdown: carloads and intermodal fall but costs flex and fuel falls; labour fixed to 2029. Rates: $16.6B debt, interest $193M a quarter, 10y 4.85%. Dollar: no direct exposure (US-only revenue). Fuel is the sensitive input (17.7% of cost).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Target in the UP-NS merger (STB Docket FD 36873): revised application accepted 2026-05-28, schedule adopted 2026-08-18, comments filed 2026-11-18, responses due 2027-02-16, hearing date to be set; BNSF, CSX, CPKC, CN, the Farm Bureau and J.B. Hunt filed against or sought heavy conditions; decision not expected before about August 2027. Terms: 1 UNP share + $88.82 cash per NSC share; $2.5B break fee (about $11.1 a share) payable by UNP on failure to get regulatory approval; end date 2028-01-28 (auto extensions). Buybacks suspended while pending; merger costs $145M in 9M 2026. East Palestine: $600M class settlement fully paid (final $285M in March 2026), DOJ consent decree motion pending since Oct 2024, personal-injury release appeal pending in the Sixth Circuit, Pennsylvania class action motion to dismiss pending; accruals $189M at 2026-09-30 (from $474M). Ohio AG outcome not re-read.",
+   "source": "https://www.stb.gov/wp-content/uploads/PR-26-21.pdf ; https://www.sec.gov/Archives/edgar/data/702165/000119312525168147/d877267d8k.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm ; docket FD 36873 reported via https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf (full Nov 18 filings by BNSF, CSX, CPKC not read)",
+   "as_of": "2026-11-18"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $326.51 (2026-11-25 close). Deal-implied value: UNP $298.38 + $88.82 = $387.20, 18.6% above NSC; spread is about 15.7% of deal value. If the deal is valued at its mid-2028 close at a 10% discount (PV about $332), the price already assumes about 90% odds of approval (about 46% undiscounted using a $275 standalone value). Standalone reverse DCF: EV $88.4B (market cap $73.3B + net debt $15.0B); on 2025 owner FCF $2.16B, a 10% discount rate and 3% terminal growth need about 14.3% FCF growth a year for 10 years (13.5% on an unlevered basis, about 14.7% on LTM FCF plus the East Palestine payment) vs about 0% a year over 2020-2025 (FCF $2.14B to $2.16B). Even the pre-deal price ($275.01 on 2025-07-25, before the merger agreement) implied about 12% growth. A 10-year DCF at 6% growth gives about $176 a share, 8% about $205. Multiples: P/E 27.4x TTM EPS $11.93 and 22.4x forward vs NSC year-end P/E of about 16-28x over 2021-25 (22.1, 16.3, 27.7, 19.5, 22.3); EV/EBITDA 15.3x vs UNP 15.5x and CSX 15.7x; P/E UNP 23.3x, CSX 26.6x. Standalone on peer multiples is about $275-290 (pre-deal $275 plus $11 break fee), which is 12-16% below today's price. If the STB says no, expect roughly $275-290 (more if rails rerate, less if the fuel margin squeeze persists).",
+   "source": "https://finance.yahoo.com/quote/NSC ; https://www.sec.gov/Archives/edgar/data/702165/000119312525168147/d877267d8k.htm ; https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm ; https://www.sec.gov/Archives/edgar/data/702165/000162828026066836/nsc-20260930.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B but today's price is a deal price: it assumes close to certain STB approval, and standalone the stock needs about 14% a year FCF growth against about 0% over five years, so there is no cushion and no clear mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "claim": "Company says demand rose as a tighter trucking market highlighted rail's advantage; Q3 volume +3%, intermodal revenue +21%. Confirms the industry file's truck-conversion read; Overheat hard data.",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_1.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "claim": "Fuel expense $420M vs $237M a year ago (+77%) and adjusted OR 210bp worse despite surcharges: confirms the fuel pass-through lag squeezing margin percent in Overheat. Nothing yet in filings that shows Slowdown (volume +3%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/702165/000119312526428384/nsc-ex99_2.htm",
+   "as_of": "2026-10-22"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K filed 2026-02-09 read selectively (business, fuel, suppliers, CAM, MD&A Eastern Ohio recoveries).",
+  "10-Q": "Q3 2026 10-Q read in full text for merger, East Palestine, debt, results; Q1/Q2 2026 and Q3 2025 10-Q not text-read; quarterly numbers taken from Q3 statements and annual XBRL.",
+  "earnings_release": "Q3 2026 EX-99.1 (2026-10-22).",
+  "presentation": "EX-99.2 in the 8-K is the financial statements and notes, not a slide deck; NSC IR slide deck and non-GAAP tables on norfolksouthern.com were not fetched.",
+  "ir_fact_sheet": "No separate IR fact sheet or supplemental data file found/fetched.",
+  "def14a": "2026 DEF 14A (2026-03-27): insider ownership and incentive metrics read; pay figures not totalled.",
+  "red_flag_scan": "Submissions index scanned back to 2023-11-26 for 4.01, 4.02, 3.01, 1.03, 2.06, NT forms: none. Two UPLOAD letters (2024-03-01, 2024-03-13) found; body unreadable (PDF image), so subject unknown.",
+  "price": "yFinance quote 2026-11-25 close $326.51; 5-year history for year-end P/E; peer multiples from yFinance info (UNP, CSX). IBKR check not run.",
+  "stb_docket": "STB press release PR-26-21 read; docket FD 36873 filings of 2026-11-18 not read directly (AFBF filing and industry lead answer relied on, which cites press coverage for BNSF/CSX/CPKC)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 326.51,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/NSC"
+ },
+ "complete": true
+}

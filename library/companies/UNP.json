@@ -1,0 +1,202 @@
+{
+ "ticker": "UNP",
+ "name": "Union Pacific",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Toll road / network",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Owns and runs the Union Pacific Railroad: about 32,000 route miles in 23 western states, linking all West and Gulf Coast ports to eastern gateways and the only railroad serving all six major Mexico gateways. Sells space on a fixed network.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 5,
+   "evidence": "2025 freight revenue $23.2B in three groups: Bulk 33% (grain, fertilizer, food, coal), Industrial and Premium (autos, intermodal) make up the rest. Q3 2026 freight revenue $6,813M: Bulk $2,116M, Industrial $2,509M, Premium $2,188M (intermodal $1,517M, +27%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Thousands of shippers across grain, chemicals, autos, retail containers; no single customer named as material in 10-K. Exposed to trade policy (grain exports, Mexico, import containers) and to intermodal customers who can shift to trucks. Mix is diversified, but intermodal is now 22% of Q3 freight revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Almost all US revenue, in 23 western states, with Mexico and Canada interchange; one reportable segment. Dollar has little direct effect; Mexico gateway and port traffic is the foreign link. 10-K shows no material foreign-currency exposure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Toll road: sells volume x revenue per car. Q3 average revenue per car $2,971 vs $2,740 (+8%) including fuel surcharge, pricing and mix; contract and surcharge based, repeat shippers. Not subscription but highly recurring. Fuel surcharge now inflates revenue and pushes operating ratio percent up (fuel hurt OR by 140 bp).",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Operating ratio 59.1% Q3 2026 (59.2% a year ago; adjusted 58.8%, +30 bp); 59.8% for 2025. Mostly fixed costs, so 6% volume growth dropped through: operating income +15%. Capex $3.5B plan (about 16% of 2026 revenue run-rate). Record productivity (car miles per employee +5%, train length 9,969 ft). Management has said OR improvement from the core is 'challenged by high fuel prices'.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 4,
+   "evidence": "Critical inputs: (1) diesel, 24.4% of Q3 operating cost ($1,040M of $4,254M; price $4.21/gal, +64% y/y), bought at market, no fuel hedges, no named supplier; recovered by fuel surcharges that trail fuel price by about two months (10-K), so Q3 surcharge revenue about $1.2B vs $1,040M expense. Signal tags: oil, diesel, fuel cost, fuel surcharge lag. Falling diesel (Brent -18% in a month; EIA diesel still ~+49% y/y) helps cost at once and revenue follows about two months later. (2) Locomotives and parts: two domestic suppliers (single point of failure risk named in the 10-K). (3) Rail: limited number of steel producers meeting its spec (10-K), steel tariff exposure (signal tags: steel, tariffs, railcar cost). (4) Labour: 13 rail unions, 83% of workforce, national agreements through 2029 (labour cost known). Pass-through: strong on fuel with lag (STB Q4 RCAF +8.9% to 1.193 escalates contracts), 'pricing dollars above inflation dollars' guided; contract pricing and captive freight give pricing power; weaker on intermodal where trucks compete.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm ; https://www.eia.gov/petroleum/gasdiesel/ ; https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 5,
+   "evidence": "Ownership of an irreplaceable western network (no new national rail network will be built); scale; 95% of grain elevators have one railroad (Farm Bureau, per STB filing). What is different now: record service metrics (dwell 19.9 hours, -2%) plus the pending Norfolk Southern deal for the first coast-to-coast railroad (about 50,000 miles).",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "B2B freight, not a consumer brand: shippers would notice at once if it vanished (rail moves a large share of western grain, chemicals, autos and containers) but customers do not choose it by brand. Ability to charge more than rivals shown on captive freight; Q3 average revenue per car +8%. No marketing spend line.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Main rival BNSF in the West, plus CSX/NS in the East, CPKC/CN at borders, and trucks. Q3 volume +6% (carloads 2,293k) vs AAR US YTD carloads +2.7%, intermodal +5.1%: UNP is growing faster than the industry. Share gain from tight trucking per industry notes.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Standalone: volume +6% and pricing above inflation, but management's EPS target is only high-single to low-double digit CAGR through 2027 and intermodal growth is fading in the weekly AAR data (+12.6% mid-Oct to +8.3% Nov 21). Bigger runway is the Norfolk Southern merger (not yet approved, decision unlikely before about Aug 2027). Not yet priced in only if the STB approves without harsh conditions.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "Cash from operations 9M 2026 $8.3B (+18%); capital investments $2.8B; free cash flow after dividends $2.36B vs $1.86B. Return on invested capital 3-year average 15.9% (DEF 14A). Debt $30.3B; adjusted debt/EBITDA 2.4x (2.7x at Dec 2025). Buybacks paused for the merger (9M 2026 $26M vs $2.68B a year ago; 2025 buybacks at about $227 average). Pay: annual bonus on operating income and operating ratio, PSUs two-thirds ROIC and one-third operating income growth vs peers. CFO Jennifer Hamann retires early 2027 (8-K Oct 16, 2026). Insider ownership not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000098/unp-20260324.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 5,
+   "evidence": "Network cannot be replicated; relevance rising (intermodal up 27% on truck-to-rail conversion). Risks: regulation (STB rate and switching rules), a mainline or hazmat accident, merger execution, strike risk lowered by 2029 labour deals. No disruption risk to freight rail found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000037/unp-20251231.htm",
+   "as_of": "2026-02-06"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "8-K scan from 2023: no Item 4.01, no Item 4.02, no NT filings, no material weakness (10-K Item 9A clean, 'None' under Item 9); one critical audit matter (capitalisation of properties, routine). CORRESP 2025-09-30 is an S-4 effectiveness request; UPLOAD pdf of 2025-09-24 could not be decoded (same week as S-4, likely merger-registration comments). Not a score-5 because of the undecoded comment letter and acquisition costs ($93M 9M 2026) in adjusted figures; adjusted vs reported OR gap is small (0.3 pt).",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm ; https://www.sec.gov/Archives/edgar/data/100885/000119312525224743/filename1.htm",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: positive in dollars (surcharges, pricing, tight trucks) but percent margin squeezed (fuel cost 140 bp on Q3 OR). Boom: strong. Stagflation: mixed (fuel recovered, volume soft). Slowdown: volume falls but costs flex; historically holds up better than trucking. Rate sensitivity: $30B debt, new merger debt at today's 10y 4.85%. Dollar: small. Input cost: fuel passed through with a two-month lag.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+   "as_of": "2026-10-22"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Pending STB docket FD 36873 (UP-Norfolk Southern, $85B): revised application accepted May 28, 2026; schedule set Aug 18; motions to dismiss denied Sep 18; conditions requests due Nov 18; responses Feb 16, 2027; final briefs May 28, 2027; company expects close in second half of 2027, with STB decision within 90 days after the record closes. Opposed by BNSF, CSX, CPKC, CN, American Farm Bureau, J.B. Hunt; first application rejected as incomplete Jan 16, 2026. $2.5B termination fee payable by either side in some cases. Also STB rate and reciprocal switching review (EP 788 repeal proposed Jan 2026) and CEO comments on raising rates on shippers who opposed the deal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm ; https://www.stb.gov/wp-content/uploads/PR-26-21.pdf ; https://www.fb.org/files/AFBF-STB-Comments-11.18.26.pdf",
+   "as_of": "2026-11-18"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $298.38 (2026-11-25), market cap $177.3B, enterprise value about $204.6B. Reverse DCF at 10% discount and 3% terminal growth: needs about 11% a year free cash flow growth for 10 years, on a TTM unlevered base of about $7.7B (CFO about $10.5B less capex about $3.8B plus after-tax interest). Own last-5-years owner FCF (CFO minus capex): $5.61B in 2020 to $5.50B in 2025, about -0.4% a year; diluted EPS rose from $11.21 in 2022 to $11.98 in 2025 (about 2% a year) on buybacks and pricing so price assumes far more than history. P/E 23.3 trailing, 20.7 forward; EV/EBITDA about 15.5; own 5-year P/E roughly 16 to 25 (my estimate from monthly closes and annual EPS), median near 20. Peers (yFinance): CSX P/E 26.6, EV/EBITDA 15.7; NSC P/E 27.4, EV/EBITDA 15.3. Standalone only; merger adds about 225M shares and about $20B cash consideration.",
+   "source": "https://finance.yahoo.com/quote/UNP ; https://www.sec.gov/Archives/edgar/data/100885/000010088526000321/unp-20260930.htm ; https://data.sec.gov/api/xbrl/companyfacts/CIK0000100885.json",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "A",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Top-quality network, but today's price needs about 11% a year free-cash-flow growth for ten years (history is about flat) and the Norfolk Southern merger adds financing and regulatory risk through mid-2027, so no cushion and no clear mistake.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "regime_signal": "Overheat: growth and inflation rising",
+   "confirms_or_contradicts": "confirms",
+   "evidence": "UNP Q3 volume +6%, record revenue $7.2B (+15%), freight revenue per car +8%; AAR US YTD carloads +2.7%, intermodal +5.1%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm"
+  },
+  {
+   "regime_signal": "Cheaper fuel (Brent -18% in a month) helps transport",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "UNP Q3 fuel expense $1,040M, +69%, price $4.21/gal +64%; surcharge trails fuel by about two months, STB Q4 RCAF +8.9%; relief shows in Q1 2027, not Q4.",
+   "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm ; https://www.railwayage.com/wp-content/uploads/2026/09/53242.pdf"
+  },
+  {
+   "regime_signal": "Slowdown priced by markets",
+   "confirms_or_contradicts": "contradicts",
+   "evidence": "No slowdown in UNP volume or pricing through Q3; weekly US carloads +0.5% y/y (Nov 21) fading from +3.3%.",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read in detail (merger note, debt, buybacks); Q1-Q2 2026 and Q3 2025 figures taken from the Q3 earnings release tables and XBRL companyfacts, not read as text.",
+  "presentation": "Earnings presentation (EX-99.2 or up.com IR slides) not fetched; no EX-99.2 found in the filing index scanned.",
+  "ir_fact_sheet": "No IR fact sheet or supplemental data pack found beyond the earnings release tables.",
+  "def14a": "2026 proxy read for pay metrics and ROIC; insider ownership table not extracted.",
+  "red_flag_scan": "8-K item list 2023-2026 scanned for 4.01, 4.02, NT filings: none found. CORRESP 2025-09-30 read; UPLOAD pdf 2025-09-24 downloaded but not decodable as text.",
+  "price": "yFinance quote and history; peers P/E and EV/EBITDA from yFinance info; own 5-year P/E range is my estimate. Merger-docket facts beyond the 10-Q note come from the railroads industry file (STB press release PR-26-21, Farm Bureau filing), not re-read from the STB docket site."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 298.38,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/UNP"
+ },
+ "complete": true
+}
