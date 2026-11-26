@@ -1,0 +1,62 @@
+{
+  "run_id": "20261126-full_hunt",
+  "as_of": "2026-11-26",
+  "complete": true,
+  "regime": "overheat",
+  "label": "Overheat in the hard data, markets pricing a turn toward Slowdown",
+  "confidence": "low-medium",
+  "why": "Official data shows growth rising (Q3 GDP revised to 4.3%, ISM manufacturing 55.5, services 54.5, claims 189k) and inflation rising (Oct PCE 3.8% y/y, core 3.3%). Markets disagree: oil -18% in 1m, 10y breakeven down 22bp to 2.12%, copper -18%, HY spreads widest of 2026 at 3.72%, cyclicals/defensives -10% over 3m, VIX 28. Markets are the early warning, hard data the confirmation (CLAUDE.md 4.2), so the working read is late Overheat with a live Slowdown transition risk.",
+  "transition_risk": {
+    "to": "slowdown",
+    "probability": "meaningful",
+    "trigger_watch": [
+      "Dec 4 jobs report",
+      "Dec 8-9 FOMC hike or skip",
+      "Dec 10 CPI",
+      "HY spreads above 4%",
+      "ISM new orders below 50"
+    ]
+  },
+  "overlays": {
+    "rates": "Fed hiking bias (Oct 28 hold 10-2, two dissents for a hike; Dec 8-9 hike is base case) while long yields fall: 2y 4.61%, 10y 4.85%, 30y 5.24% (2026-11-25). Curve positive ~24bp.",
+    "dollar": "Up: DXY 103.67, +4.8% over 3m. Tightening for foreign earners and emerging markets.",
+    "credit": "Widening: HY OAS 3.72%, +105bp since August, widest of 2026.",
+    "liquidity": "Tightening: Fed hiking, dollar up, risk-off (VIX 35.9 peak on 11-20)."
+  },
+  "disagreements": [
+    {
+      "hard_data": "ISM manufacturing 55.5, prices paid 75 (Oct)",
+      "market": "copper -18% 1m, industrials -8% 3m",
+      "who_might_be_wrong": "ISM is a survey and may lag a turn; copper and credit lead"
+    },
+    {
+      "hard_data": "PCE 3.8% y/y, core 3.3%",
+      "market": "10y breakeven 2.12%, -22bp 1m; oil -18%",
+      "who_might_be_wrong": "markets read the oil shock as passing; Fed reads it as sticky"
+    },
+    {
+      "hard_data": "Fed leaning to a December hike",
+      "market": "10y fell from 5.07% to 4.85% since Nov 18",
+      "who_might_be_wrong": "a hike into a slowdown is the classic policy error; or the long end is pricing growth damage"
+    },
+    {
+      "hard_data": "Q3 GDP 4.3%, claims 189k",
+      "market": "HY spreads widest of 2026, cyclicals/defensives -10%, SPY -6.9% 1m",
+      "who_might_be_wrong": "GDP is backward-looking; credit is forward-looking"
+    },
+    {
+      "hard_data": "nominal retail sales inflated by fuel",
+      "market": "staples +7% 3m",
+      "who_might_be_wrong": "real consumer spending was flat in October: the consumer is weaker than nominal data shows"
+    }
+  ],
+  "prior_view_broken": [
+    "Stagflation call: growth is not falling in the hard data",
+    "10y 5.10% is stale (4.85%)",
+    "Energy leadership cracking (XLE -10.7% 1m)",
+    "Taylor Morrison deal already closed (Form 15 2026-08-04)",
+    "Homebuilders not depressed in price (ITB +8.8% 1m) but fundamentals are"
+  ],
+  "sources": "see runs/20261126-full_hunt/wave1/macro.md and markets.md (every figure there carries its URL and as-of date)",
+  "feedback_applied": []
+}

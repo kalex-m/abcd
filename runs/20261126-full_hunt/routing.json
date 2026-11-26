@@ -1,0 +1,751 @@
+{
+  "run_id": "20261126-full_hunt",
+  "complete": false,
+  "status": "awaiting_industry_choice",
+  "both_lanes_industries": {
+    "railroads": {
+      "leads": "policy-events-2, markets-1, macro-1 (A) + price-action-8, divergence-1 (B)",
+      "why": "rails outperform a falling market while fuel cost falls and goods activity runs hot; UP-NS docket pending to mid-2027"
+    },
+    "banks": {
+      "leads": "macro-3, markets-3, macro-2 (A) + divergence-6, price-action-5, behaviour-change-4 (B)",
+      "why": "capital-markets and card banks sold while earnings rise; credit spreads widening; regional insiders buying"
+    },
+    "payments": {
+      "leads": "markets-7, macro-6 (A) + behaviour-change-1, behaviour-change-6, price-action-3, divergence-5, divergence-7 (B)",
+      "why": "group splitting; GTCR 13D at GPN; FIS at 52w low with organic growth 3.7%"
+    },
+    "software": {
+      "leads": "markets-4, macro-4, policy-events-8 (A) + price-action-2, divergence-2, divergence-3, behaviour-change-2, behaviour-change-7 (B)",
+      "why": "AI seat-compression sell-off vs growing fundamentals and insider buying: the Zoom test applies"
+    },
+    "semiconductors": {
+      "leads": "macro-4, markets-4, policy-events-1 (A) + price-action-1, divergence-4, behaviour-change-3 (B)",
+      "why": "semis crushed; NVDA governance shock; INTC CEO buying; new 301 tariff proposal"
+    },
+    "homebuilders": {
+      "leads": "macro-2, markets-2, policy-events-3 (A) + price-action-4, divergence-7 (B)",
+      "why": "builders rallying on falling long yields while revenue and margins fall: a warning, not a bargain"
+    }
+  },
+  "ranked_leads": [
+    {
+      "lead_id": "L-20261126-policy-events-2",
+      "strength": "both_lanes",
+      "confidence": "high",
+      "industries": [
+        "railroads"
+      ],
+      "ask_next": "What have the STB docket FD 36873 filings from shippers and BNSF/CSX said on competition remedies since September?",
+      "tickers": [
+        "UNP",
+        "NSC"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-markets-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "airlines",
+        "trucking",
+        "railroads",
+        "oil-gas"
+      ],
+      "ask_next": "Do airlines, truckers and railroads show fuel surcharge or fuel cost lines in latest filings that confirm the relief, and how much is hedged?",
+      "tickers": [
+        "DAL",
+        "UAL",
+        "UNP",
+        "CSX",
+        "XOM"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "autos",
+        "semiconductors",
+        "pharma",
+        "apparel-retail"
+      ],
+      "ask_next": "Which large US companies import most from the 14 economies in these sectors, and which already disclosed tariff costs in the latest 10-Q?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-markets-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "banks",
+        "homebuilders",
+        "software"
+      ],
+      "ask_next": "Which companies in the configured industries have high-yield debt due within 24 months?",
+      "tickers": [
+        "HYG",
+        "BAC",
+        "COF"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "semiconductors",
+        "software",
+        "utilities"
+      ],
+      "ask_next": "In the latest NVDA, MU, AMD 10-Q/10-K and hyperscaler (MSFT, GOOGL, AMZN, META) 10-Qs: did capex guidance, purchase commitments, inventory days or customer-concentration disclosures change versus the prior quarter? Any 8-K on 2026-11-23?",
+      "tickers": [
+        "NVDA",
+        "MU",
+        "AMD",
+        "INTC",
+        "SMH"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "railroads",
+        "trucking"
+      ],
+      "ask_next": "What is the stated backlog and order trend in the 10-Q, how much of the 2026 run-up (about 570 to 1,060) was a power-generation/AI-capex theme, and does Deere (DE, +22% 6m) tell a different story?",
+      "tickers": [
+        "CAT",
+        "DE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software",
+        "payments"
+      ],
+      "ask_next": "Read the 10-Q risk factors and the Q1 call-free release text for any consumer TurboTax unit or customer-count decline; is the 59% fall from the high a multiple reset only?",
+      "tickers": [
+        "INTU"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-7",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "homebuilders",
+        "payments"
+      ],
+      "ask_next": "What are the net new orders, backlog and gross margin trend in the PHM/TOL/DHI filings, and what did mortgage rates do over the same window?",
+      "tickers": [
+        "PHM",
+        "TOL",
+        "DHI",
+        "LEN",
+        "GPN"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-macro-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "railroads",
+        "trucking"
+      ],
+      "ask_next": "Do carload, intermodal and truck volumes and pricing confirm the ISM strength, or is it inventory build ahead of price rises?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-macro-2",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "homebuilders",
+        "banks"
+      ],
+      "ask_next": "How much of the Nov 18-25 fall in 10-year yield feeds into mortgage rates, and do builder orders and incentives show it?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-macro-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "banks",
+        "software"
+      ],
+      "ask_next": "Which large banks show CRE, card and data-centre lending exposure in their latest 10-Q, and are reserves building?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-macro-6",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "payments",
+        "staples"
+      ],
+      "ask_next": "Do network and processor volume growth figures in the latest filings track nominal sales, and is the mix shifting to debit or low-ticket?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-markets-2",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "homebuilders",
+        "banks"
+      ],
+      "ask_next": "Is the 30-year mortgage rate falling with the 10y (4.85%), and do homebuilder order commentary and incentives show it?",
+      "tickers": [
+        "LEN",
+        "DHI",
+        "TMHC",
+        "BRK-B"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-markets-4",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software",
+        "semiconductors"
+      ],
+      "ask_next": "Which software and semiconductor firms have net cash and falling prices without falling revenue?",
+      "tickers": [
+        "XLK",
+        "CRM",
+        "NOW",
+        "ADBE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "payments",
+        "banks"
+      ],
+      "ask_next": "Pull 8-Ks for GPN (around 2026-11-12), FISV and FIS (around 2026-11-20): any acquisition, divestiture, guidance cut/raise, client loss or activist 13D. Compare latest 10-Q organic revenue growth and debt.",
+      "tickers": [
+        "FISV",
+        "GPN",
+        "FIS",
+        "V",
+        "MA"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-1",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "payments"
+      ],
+      "ask_next": "Read the GPN shareholders agreement/standstill terms and GTCR's Item 6; what premium and financing could a bid carry, and does the same logic apply to FIS and Fiserv at depressed prices?",
+      "tickers": [
+        "GPN",
+        "FIS",
+        "FISV"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-2",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software"
+      ],
+      "ask_next": "Do CRM, ORCL, ADBE, NOW show repeat buying beyond one director, and what does Wix's ValueAct Item 4 say it wants (check full text)?",
+      "tickers": [
+        "CRM",
+        "ORCL",
+        "WIX",
+        "TEAM",
+        "HUBS",
+        "NOW",
+        "ADBE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "semiconductors"
+      ],
+      "ask_next": "Is Intel's CEO buy a one-off signal on turnaround confidence, and what do Intel's Q3 10-Q capex and foundry customer disclosures say?",
+      "tickers": [
+        "INTC",
+        "GFS",
+        "ENPH",
+        "NVDA"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-4",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "banks"
+      ],
+      "ask_next": "Confirm the TFC and HBAN trade prices against market data and check whether credit costs or deposit trends in the 10-Q explain the optimism.",
+      "tickers": [
+        "TFC",
+        "HBAN"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-7",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software"
+      ],
+      "ask_next": "What share of market cap is EPAM's $1.8B and does the 50% FCF commitment hold under AI-driven revenue pressure?",
+      "tickers": [
+        "EPAM",
+        "HPE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-2",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software"
+      ],
+      "ask_next": "Is Datadog revenue priced per host/usage (not per seat) per the 10-K, and what did the stock do in the 3 days after 2026-11-04?",
+      "tickers": [
+        "DDOG",
+        "INTU",
+        "NOW",
+        "ADBE",
+        "CRM"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-3",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "homebuilders"
+      ],
+      "ask_next": "What price-to-book multiples did these deals pay versus where LEN, DHI, PHM trade?",
+      "tickers": [
+        "DFH",
+        "BZH",
+        "TMHC",
+        "LEN"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-2",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "software"
+      ],
+      "ask_next": "In NOW, CRM, ADBE latest 10-Qs: remaining performance obligations (contracted future revenue) growth, net revenue retention, risk-factor language on AI agents reducing seats, and any change in billings guidance.",
+      "tickers": [
+        "NOW",
+        "CRM",
+        "ADBE",
+        "IGV"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-5",
+      "strength": "both_lanes",
+      "confidence": "medium",
+      "industries": [
+        "banks"
+      ],
+      "ask_next": "In latest 10-Qs: COF card charge-offs and delinquencies, reserve build; GS/MS investment-banking and trading revenue trend, any 8-K on 2026-11-20. Check Berkshire 13F for BAC/COF sales.",
+      "tickers": [
+        "GS",
+        "MS",
+        "COF",
+        "KBE",
+        "KRE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-5",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "payments",
+        "banks"
+      ],
+      "ask_next": "From the 10-Q balance sheet and debt note, what is net debt and interest cost after the acquisition, and what drives organic growth near 3-4%?",
+      "tickers": [
+        "FIS",
+        "GPN",
+        "V",
+        "MA"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-macro-4",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "semiconductors",
+        "software"
+      ],
+      "ask_next": "Do chip and equipment makers show rising average selling prices and backlog, and how exposed are they to a funding pullback?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-markets-7",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "payments",
+        "software"
+      ],
+      "ask_next": "Which payment and software firms disclose the largest foreign-currency revenue share and FX headwind guidance?",
+      "tickers": [
+        "V",
+        "MA",
+        "PYPL"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-8",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "software",
+        "semiconductors"
+      ],
+      "ask_next": "Does Nasdaq's published 2026 methodology allow fast entry, and which holdings get sold to make room?",
+      "tickers": [
+        "ANT"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-8",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "railroads",
+        "trucking"
+      ],
+      "ask_next": "Check AAR weekly carload and intermodal data for the last 8 weeks and rail 10-Q commentary (UNP, CSX, NSC) on volumes and fuel surcharge; confirm whether UNP-NSC merger docket (STB) is moving prices.",
+      "tickers": [
+        "UNP",
+        "CSX",
+        "NSC",
+        "CP",
+        "CNI",
+        "IYT"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-6",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "payments"
+      ],
+      "ask_next": "What are FIS's Banking vs Capital Markets margins after the recast, and why was the buyback slowed (leverage after the Issuer Solutions deal)?",
+      "tickers": [
+        "FIS",
+        "GPN",
+        "FISV"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-4",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "semiconductors"
+      ],
+      "ask_next": "Why did the CEO resign and return (read the full 8-K and any 8-K/A), and does the October-quarter 10-Q show anything the release did not?",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-divergence-6",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "banks"
+      ],
+      "ask_next": "Break down GS/MS/BAC revenue by trading vs fee vs net interest income; which line is the market discounting? Pull JPM and C separately.",
+      "tickers": [
+        "GS",
+        "MS",
+        "BAC",
+        "COF",
+        "SCHW",
+        "WFC",
+        "USB",
+        "PNC"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-4",
+      "strength": "both_lanes",
+      "confidence": "low",
+      "industries": [
+        "homebuilders"
+      ],
+      "ask_next": "In latest 10-Qs for DHI, LEN, PHM, TOL, NVR: orders, cancellation rate, incentives as % of price, gross margin trend, backlog. Verify against 30-year mortgage rate from Freddie Mac/Fed before trusting the rally.",
+      "tickers": [
+        "DHI",
+        "LEN",
+        "PHM",
+        "TOL",
+        "NVR",
+        "ITB"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-macro-5",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "airlines",
+        "trucking",
+        "oil-gas"
+      ],
+      "ask_next": "Which airlines and truckers show fuel cost pass-through (fares, surcharges) versus margin loss in their latest filings?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-markets-5",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "staples",
+        "utilities",
+        "railroads"
+      ],
+      "ask_next": "Are staples valuations now above their 5-year range, and are rail carloads and intermodal volumes consistent with a slowdown?",
+      "tickers": [
+        "XLP",
+        "XLU",
+        "UNP",
+        "CSX",
+        "NSC"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-7",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "banks",
+        "homebuilders",
+        "utilities"
+      ],
+      "ask_next": "What did the Nov 2026 3y/10y/30y auctions' tails and bid-to-cover show, and what does the market price for the Dec 9 decision?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-price-action-6",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "oil-gas",
+        "airlines",
+        "railroads"
+      ],
+      "ask_next": "Check EIA weekly petroleum data and Brent/WTI for the last 30 days (is the energy sell-off oil-led?), then E&P 10-Q hedging and capex guidance (XOM, CVX, COP, OXY, EOG).",
+      "tickers": [
+        "XOM",
+        "CVX",
+        "XOP",
+        "XLE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-5",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "industrial-machinery",
+        "utilities"
+      ],
+      "ask_next": "Which machinery makers and wind developers have import exposure per their filings?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-5",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "airlines"
+      ],
+      "ask_next": "What does the Boeing and Accenture latest 10-Q/8-K say that the insiders may see (backlog, delivery rate, AI-driven bookings)?",
+      "tickers": [
+        "UBER",
+        "ACN",
+        "BA",
+        "CVS",
+        "PLTR"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-4",
+      "strength": "one_lane",
+      "confidence": "medium",
+      "industries": [
+        "semiconductors"
+      ],
+      "ask_next": "What regulatory approvals are required, outside date and termination fee in the merger agreement?",
+      "tickers": [
+        "MRVL",
+        "LITE"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-macro-7",
+      "strength": "one_lane",
+      "confidence": "low",
+      "industries": [
+        "utilities",
+        "homebuilders"
+      ],
+      "ask_next": "What changed on Nov 19-20 to move yields (check Fed speeches, Treasury, EIA)? Does it persist after the Dec 4 jobs report?",
+      "tickers": []
+    },
+    {
+      "lead_id": "L-20261126-markets-6",
+      "strength": "one_lane",
+      "confidence": "low",
+      "industries": [
+        "railroads",
+        "trucking"
+      ],
+      "ask_next": "What do AAR weekly carloads and Q3 rail/trucking volume commentary say about real freight demand?",
+      "tickers": [
+        "UNP",
+        "CSX",
+        "NSC",
+        "XLI"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-behaviour-change-8",
+      "strength": "one_lane",
+      "confidence": "low",
+      "industries": [
+        "staples"
+      ],
+      "ask_next": "Which of the three has a catalyst date (Vail annual meeting) and what does FMC's Item 4 say about Tessenderlo's intent?",
+      "tickers": [
+        "MTN",
+        "MAT",
+        "FMC"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-policy-events-6",
+      "strength": "one_lane",
+      "confidence": "low",
+      "industries": [
+        "autos"
+      ],
+      "ask_next": "What price and premium, and do dealership peers trade near that value?",
+      "tickers": [
+        "PAG"
+      ]
+    },
+    {
+      "lead_id": "L-20261126-price-action-7",
+      "strength": "one_lane",
+      "confidence": "low",
+      "industries": [
+        "health-insurers"
+      ],
+      "ask_next": "Look for UNH 8-K around 2026-11-19 (guidance, medical cost ratio, DOJ/CMS item) and CVS/Aetna medical benefit ratio in the latest 10-Q.",
+      "tickers": [
+        "UNH",
+        "CVS",
+        "HUM"
+      ]
+    }
+  ],
+  "industry_lane_map": {
+    "software": {
+      "A": 6,
+      "B": 6
+    },
+    "banks": {
+      "A": 5,
+      "B": 5
+    },
+    "payments": {
+      "A": 2,
+      "B": 6
+    },
+    "semiconductors": {
+      "A": 5,
+      "B": 3
+    },
+    "railroads": {
+      "A": 5,
+      "B": 3
+    },
+    "homebuilders": {
+      "A": 6,
+      "B": 2
+    },
+    "trucking": {
+      "A": 4,
+      "B": 2
+    },
+    "utilities": {
+      "A": 4,
+      "B": 1
+    },
+    "airlines": {
+      "A": 2,
+      "B": 2
+    },
+    "staples": {
+      "A": 2,
+      "B": 1
+    },
+    "oil-gas": {
+      "A": 2,
+      "B": 1
+    },
+    "autos": {
+      "A": 2,
+      "B": 0
+    },
+    "pharma": {
+      "A": 1,
+      "B": 0
+    },
+    "apparel-retail": {
+      "A": 1,
+      "B": 0
+    },
+    "industrial-machinery": {
+      "A": 1,
+      "B": 0
+    },
+    "health-insurers": {
+      "A": 0,
+      "B": 1
+    }
+  }
+}

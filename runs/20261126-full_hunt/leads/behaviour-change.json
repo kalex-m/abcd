@@ -1,0 +1,316 @@
+[
+ {
+  "lead_id": "L-20261126-behaviour-change-1",
+  "agent": "behaviour-change",
+  "signal": "GTCR (16.35% holder of Global Payments, acquired via the Worldpay deal) switched from a passive 13G to an active 13D and says it may bid for the rest of the company.",
+  "evidence": [
+   {
+    "fact": "Schedule 13D filed 2026-11-20 by GTCR W Aggregator LP and affiliates: 43,268,041 shares = 16.35% of GPN; Item 4 says reporting persons are 'evaluating possible strategic transactions ... may involve a potential proposal to acquire additional or all outstanding shares'; shares received as Worldpay consideration on 2026-01-09",
+    "source": "https://www.sec.gov/Archives/edgar/data/1123360/000119312526470458/primary_doc.xml",
+    "as_of": "2026-11-20"
+   },
+   {
+    "fact": "No Form 4 insider buys at GPN since 2026-09-01 (0 Form 4s in the submissions feed)",
+    "source": "https://data.sec.gov/submissions/CIK0001123360.json",
+    "as_of": "2026-11-26"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "payments",
+    "link": "competition",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "A large private-equity holder is hinting at a take-private of a payments name whose peers (FIS) sit at 52-week lows. Payments valuations may be below what an informed buyer would pay. No bid exists yet; standstill rules in a shareholders agreement apply.",
+  "ask_next": "Read the GPN shareholders agreement/standstill terms and GTCR's Item 6; what premium and financing could a bid carry, and does the same logic apply to FIS and Fiserv at depressed prices?",
+  "tickers_named": [
+   "GPN",
+   "FIS",
+   "FISV"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-2",
+  "agent": "behaviour-change",
+  "signal": "Software insiders are buying with their own money while the group is down: Salesforce and Oracle directors, plus ValueAct taking a 7.0% Wix stake.",
+  "evidence": [
+   {
+    "fact": "CRM director David Kirk bought 4,176 shares at $239.33 (about $999k), code P",
+    "source": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000212/form4.xml",
+    "as_of": "2026-09-18"
+   },
+   {
+    "fact": "ORCL director Stephen Rusckowski bought 25,000 shares at $139.35 (about $3.48M), code P",
+    "source": "https://www.sec.gov/Archives/edgar/data/1341439/000134143926000099/form4.xml",
+    "as_of": "2026-09-29"
+   },
+   {
+    "fact": "ValueAct Schedule 13D on Wix.com: 2,997,316 shares, 7.0% (ValueAct Master Fund 6.1%)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1576789/000141881226000003/primary_doc.xml",
+    "as_of": "2026-11-23"
+   },
+   {
+    "fact": "TEAM CEO Cannon-Brookes bought on 11-11 and 11-12 (68 purchase lines; the first eight sum to at least $3.2M) but under a 10b5-1 plan adopted 2026-08-09, so weaker evidence",
+    "source": "https://www.sec.gov/Archives/edgar/data/1650372/000166612026000033/primarydocument.xml",
+    "as_of": "2026-11-12"
+   },
+   {
+    "fact": "HUBS CEO Halligan bought 22,985 shares (about $5.0M) but footnote says it was matched against a prior sale for Section 16(b) short-swing, with $449,642 paid back to the company; discount as a signal",
+    "source": "https://www.sec.gov/Archives/edgar/data/1404655/000119312526462154/ownership.xml",
+    "as_of": "2026-11-13"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Directors paying $1M to $3.5M at CRM and ORCL and an activist at Wix are acting against the AI-seat-compression sell-off. Not a cluster at any single company, so one lane only.",
+  "ask_next": "Do CRM, ORCL, ADBE, NOW show repeat buying beyond one director, and what does Wix's ValueAct Item 4 say it wants (check full text)?",
+  "tickers_named": [
+   "CRM",
+   "ORCL",
+   "WIX",
+   "TEAM",
+   "HUBS",
+   "NOW",
+   "ADBE"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-3",
+  "agent": "behaviour-change",
+  "signal": "Intel's CEO bought $9.7M of Intel stock on the open market on 2026-11-02, in a semis group that has been crushed.",
+  "evidence": [
+   {
+    "fact": "INTC CEO Lip-Bu Tan bought 150,000 shares at $64.73 (about $9.71M), code P, 10b5-1 flag 0",
+    "source": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000195/form4.xml",
+    "as_of": "2026-11-02"
+   },
+   {
+    "fact": "GlobalFoundries directors Lazar (10,000 sh at $38.00, $380k) and Moorthy (2,500 sh, $94k) bought",
+    "source": "https://www.sec.gov/Archives/edgar/data/1709048/000170904826000266/wk-form4_1794262871.xml",
+    "as_of": "2026-11-06"
+   },
+   {
+    "fact": "Enphase CEO bought 10,000 shares at $26.75 ($268k); a director bought 1,000 shares",
+    "source": "https://www.sec.gov/Archives/edgar/data/1463101/000154377726000006/",
+    "as_of": "2026-11-02"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "semiconductors",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Insiders at chip makers and a chip maker's foundry peer are buying into the weakness. The checks for NVDA, AMD, MU, AVGO etc. in my scan found no P buys since 2026-09-01, so the buying is concentrated in the weaker or turnaround names.",
+  "ask_next": "Is Intel's CEO buy a one-off signal on turnaround confidence, and what do Intel's Q3 10-Q capex and foundry customer disclosures say?",
+  "tickers_named": [
+   "INTC",
+   "GFS",
+   "ENPH",
+   "NVDA"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-4",
+  "agent": "behaviour-change",
+  "signal": "Bank insiders are buying: Truist's CEO twice, and three Huntington directors, while big-bank peers show none.",
+  "evidence": [
+   {
+    "fact": "TFC CEO Michael Lyons bought 21,000 sh (about $1.02M) on 2026-09-17 and 25,000 sh (about $1.21M) on 2026-10-28; both reported at $48.36, which looks odd and needs checking against the filing",
+    "source": "https://www.sec.gov/Archives/edgar/data/92230/000153457426000018/f4_a1eus00000anuuzmad-live.xml",
+    "as_of": "2026-10-28"
+   },
+   {
+    "fact": "HBAN directors Rollins (about $254k over two lines) and Torgow (12,700 sh, about $200k) bought 2026-10-26/27; prices in the filing are inconsistent (14.86, 15.73, 19.43), so verify",
+    "source": "https://www.sec.gov/Archives/edgar/data/49196/000122520826008542/doc4.xml",
+    "as_of": "2026-10-27"
+   },
+   {
+    "fact": "No P buys found at JPM, BAC (issuer), C, WFC, GS, MS, USB, PNC, SCHW since 2026-09-01 (BAC rows were BofA as a holder in other issuers, ignored)",
+    "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=4",
+    "as_of": "2026-11-26"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "banks",
+    "link": "financing",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Regional bank leaders are buying while the big banks lag. A cluster at HBAN plus repeat CEO buying at TFC is a sign that managers see value at a 5%+ 10-year yield.",
+  "ask_next": "Confirm the TFC and HBAN trade prices against market data and check whether credit costs or deposit trends in the 10-Q explain the optimism.",
+  "tickers_named": [
+   "TFC",
+   "HBAN"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-5",
+  "agent": "behaviour-change",
+  "signal": "Several large non-tech companies have CEO or multiple director open-market buys: Uber, Accenture, Boeing, CVS.",
+  "evidence": [
+   {
+    "fact": "UBER CEO Khosrowshahi bought 141,000 sh (about $10.0M) at about $70.96; 10b5-1 false. Another executive (Macdonald) bought about $5.3M on 2026-09-04",
+    "source": "https://www.sec.gov/Archives/edgar/data/1543151/000118423726000008/primarydocument.xml",
+    "as_of": "2026-09-10"
+   },
+   {
+    "fact": "ACN Chair/CEO Julie Sweet bought 12,200 sh (about $3.0M) on 2026-10-26; director Price bought about $200k the same day",
+    "source": "https://www.sec.gov/Archives/edgar/data/1467373/000148763026000022/wk-form4_1793184338.xml",
+    "as_of": "2026-10-26"
+   },
+   {
+    "fact": "BA directors Buckley ($998k) and Mollenkopf ($510k) on 2026-10-30, Johri ($500k) on 2026-11-17: three directors, about $2.0M",
+    "source": "https://www.sec.gov/Archives/edgar/data/12927/000122520826008642/doc4.xml",
+    "as_of": "2026-11-17"
+   },
+   {
+    "fact": "CVS EVP Prem Shah bought 23,855 sh at $83.89 (about $2.0M)",
+    "source": "https://www.sec.gov/Archives/edgar/data/64803/000006480326000112/form4.xml",
+    "as_of": "2026-11-06"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "airlines",
+    "link": "customer demand",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Accenture (IT services exposed to AI) and Boeing have the strongest multi-person signal. Exclusions: PEP (Pohlad trust swap, not a real purchase), PLTR (Thiel $122M but under a 10b5-1 plan adopted 2026-08-19).",
+  "ask_next": "What does the Boeing and Accenture latest 10-Q/8-K say that the insiders may see (backlog, delivery rate, AI-driven bookings)?",
+  "tickers_named": [
+   "UBER",
+   "ACN",
+   "BA",
+   "CVS",
+   "PLTR"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-6",
+  "agent": "behaviour-change",
+  "signal": "FIS (at a 52-week low) recut its reportable segments after buying the Issuer Solutions business, while two directors bought small amounts and the buyback runs slowly.",
+  "evidence": [
+   {
+    "fact": "FIS 10-Q: segments are now Banking Solutions, Capital Market Solutions, and Corporate and Other; Issuer Solutions folded into Banking; prior periods recast",
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+    "as_of": "2026-11-04"
+   },
+   {
+    "fact": "FIS repurchased only $93M in 9M 2026 against $3.0B program; about $1.7B remains",
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000113689326000063/fis-20260930.htm",
+    "as_of": "2026-09-30"
+   },
+   {
+    "fact": "FIS directors bought 1,585 sh at $36.40 (2026-10-15) and 1,800 sh at $29.00 (2026-11-06), about $52k to $58k each",
+    "source": "https://www.sec.gov/Archives/edgar/data/1136893/000162828026072763/wk-form4_1794345685.xml",
+    "as_of": "2026-11-06"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "payments",
+    "link": "competition",
+    "direction": "hurts"
+   }
+  ],
+  "so_what": "Price fell from $36 to $29 in three weeks; directors buying small and repurchases are slow, so the signal is mild. Segment recast makes older-vs-new comparisons harder.",
+  "ask_next": "What are FIS's Banking vs Capital Markets margins after the recast, and why was the buyback slowed (leverage after the Issuer Solutions deal)?",
+  "tickers_named": [
+   "FIS",
+   "GPN",
+   "FISV"
+  ],
+  "confidence": "low",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-7",
+  "agent": "behaviour-change",
+  "signal": "Buyback upsizes at EPAM and HPE, both hit by AI or tech weakness.",
+  "evidence": [
+   {
+    "fact": "EPAM raised repurchase authorization by $1.5B to $1.8B remaining, plans $500M accelerated buyback, commits to return at least 50% of FCF 2027-2029",
+    "source": "https://www.sec.gov/Archives/edgar/data/1352010/000135201026000048/exhibit99_q3x2026.htm",
+    "as_of": "2026-11-05"
+   },
+   {
+    "fact": "HPE board authorized an additional $5B repurchase capacity (8-K)",
+    "source": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000097/ex-991x11232026x8k.htm",
+    "as_of": "2026-11-23"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "software",
+    "link": "financing",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Managements with direct customer visibility are shrinking share count after the sell-off. Many other 8-Ks with buyback news exist (GM, Gap, Microsoft cash-flow only); only these two were verified.",
+  "ask_next": "What share of market cap is EPAM's $1.8B and does the 50% FCF commitment hold under AI-driven revenue pressure?",
+  "tickers_named": [
+   "EPAM",
+   "HPE"
+  ],
+  "confidence": "medium",
+  "strength": "one_lane"
+ },
+ {
+  "lead_id": "L-20261126-behaviour-change-8",
+  "agent": "behaviour-change",
+  "signal": "New 13D holders at Vail Resorts (proxy fight), Mattel (17.7%), and FMC (20%).",
+  "evidence": [
+   {
+    "fact": "Oasis Management 13D at Vail: 6.2%; notice of nomination of four directors (incl. Robert Chapek) on 2026-09-10",
+    "source": "https://www.sec.gov/Archives/edgar/data/812011/000090266426003832/primary_doc.xml",
+    "as_of": "2026-09-16"
+   },
+   {
+    "fact": "EdgePoint Investment Group 13D at Mattel: 50,515,811 shares, 17.68%",
+    "source": "https://www.sec.gov/Archives/edgar/data/63276/000094787126000942/primary_doc.xml",
+    "as_of": "2026-10-22"
+   },
+   {
+    "fact": "Tessenderlo Group 13D at FMC: 31,109,166 shares, 20.0%",
+    "source": "https://www.sec.gov/Archives/edgar/data/37785/000114036126037699/primary_doc.xml",
+    "as_of": "2026-09-25"
+   }
+  ],
+  "travels_to": [
+   {
+    "industry": "staples",
+    "link": "competition",
+    "direction": "helps"
+   }
+  ],
+  "so_what": "Large holders are active in out-of-favour consumer and ag-chem names; Vail's board fight is the most concrete.",
+  "ask_next": "Which of the three has a catalyst date (Vail annual meeting) and what does FMC's Item 4 say about Tessenderlo's intent?",
+  "tickers_named": [
+   "MTN",
+   "MAT",
+   "FMC"
+  ],
+  "confidence": "low",
+  "strength": "one_lane"
+ }
+]

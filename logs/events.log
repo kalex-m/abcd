@@ -34,3 +34,6 @@
 2026-11-26T09:02:24+00:00	task_done	w1-divergence
 2026-11-26T09:02:39+00:00	task_done	w1-policy-events
 2026-11-26T09:04:12+00:00	task_done	w1-macro
+2026-11-26T09:11:06+00:00	task_done	w1-behaviour-change
+2026-11-26T09:11:06+00:00	wave_done	wave 1 complete 6/6
+2026-11-26T09:11:59+00:00	step2	regime.json + routing.json written; paused for industry choice

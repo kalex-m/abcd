@@ -2,8 +2,8 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T09:04:12+00:00",
-  "current_wave": 1,
+  "heartbeat": "2026-11-26T09:11:59+00:00",
+  "current_wave": 2,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
     {
@@ -85,16 +85,17 @@
       "extra_outputs": [
         "runs/20261126-full_hunt/leads/behaviour-change.json"
       ],
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T09:00:05+00:00"
+      "updated": "2026-11-26T09:11:06+00:00"
     }
   ],
   "notes": [
     "config.industries empty -> Step 2 proposes industries and pauses for Alex",
     "edgar_contact_email still placeholder",
     "ibkr: unavailable",
-    "FRED/BLS API unreachable at bootstrap"
+    "FRED/BLS API unreachable at bootstrap",
+    "Step 2: regime=overheat (low-medium) with slowdown transition risk; awaiting industry choice"
   ]
 }
