@@ -1,0 +1,199 @@
+{
+ "ticker": "WAB",
+ "name": "Westinghouse Air Brake Technologies (Wabtec)",
+ "industry": "railroads",
+ "company_type": "Stalwart",
+ "business_model": "Razor-and-blade",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Makes locomotives, brakes, signalling, couplers and sensors for freight and transit rail, plus mining/marine/industrial gear, and then services the installed fleet for years; 2025 sales $11.17B.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "2025 mix: Freight $8,036M (Services $3,055M, Equipment $2,365M, Components $1,586M, Digital $1,030M) and Transit $3,131M (OEM $1,393M, Aftermarket $1,738M). Freight Services plus Transit Aftermarket = $4,793M, 43% of sales (my calculation).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 3,
+   "evidence": "Class I and other railroads, transit agencies, rail OEMs, miners; top five customers about 30% of 2025 sales, none above 10%. Moderate concentration; orders are lumpy (locomotives deliveries lower in Q3 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "2025 sales: US $5,367M (48%), North America $6,192M (55%), Europe $1,956M, India $699M, Kazakhstan/CIS $431M (down from $559M in 2024), Australia/NZ $453M, South America $513M, Africa $326M (up from $194M). About 44.5% of sales are outside North America (my calculation), so a +4.8% 3-month dollar rise bites on translation. Hedges FX on acquisitions.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Razor-and-blade: sells locomotives and brakes once, then parts, modernisations and long service contracts for decades. Total backlog $31.4B (+22.9% y/y) but only $8.99B (29%) is 12-month backlog (+8.8%); Q3 sales of services booked as 'services' are only $493M of $3,120M (15.8%) at 40.8% gross margin vs 36.7% on goods (my calculation from the 10-Q).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Mostly variable material cost, adjusted op margin 22.9% (+1.9 pts) in Q3 2026; capex low ($182M 9M 2026, 1.5% of sales). Working capital heavy: inventory $2.95B vs customer deposits $0.80B (down from $1.02B), 9M customer deposits drained $149M. Guidance hit: raised 2026 adj EPS to $10.85-$11.05 (+$0.20). Long-contract revenue (over-time, estimate-based) is the auditor's critical audit matter.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: steel, aluminum, copper, rubber, energy, chemicals, polymers; 10-K says no long-term pricing with pure raw-material suppliers and some components are single-sourced (suppliers not named). Cost pass-through: price escalations and surcharges, but 10-K admits lags; Q3 10-Q says gross margin gains were 'partially offset by higher commodity costs and net tariffs' and tariff costs hurt 9M results with only a 'nominal' refund recovered. Linked to railroads signal tags capex, steel, dollar (industry value_chain row 'locomotives, signalling, track products'): steel/tariff cost is passed on only with a lag, while a stronger dollar lowers foreign sales. Adjusted gross margin still rose 1.8 pts, so pricing has so far beaten input cost.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Installed base in locomotives and brakes (one of two main US locomotive makers, with Progress Rail, per industry file; not re-verified), switching costs in signalling/train control, scale; Integration 3.0 targets $115-140M run-rate synergies by 2028. Differently now: digital (+24.2% in Q3, Frauscher sensors) and modernisations rather than new-build.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Not a consumer brand (industry file everyday_brand false). Railroads would notice instantly if brakes and parts stopped, but no marketing-led pricing edge; R&D $223M in 2025 (2% of sales).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals: Caterpillar's Progress Rail (locomotives), Knorr-Bremse (brakes), Siemens/Alstom (signalling and transit). Share trend not disclosed; Q3 Equipment +0.3% with lower locomotive deliveries suggests no share surge in new-build.",
+   "source": "runs/20261126-full_hunt/industries/railroads.json",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Backlog $31.4B vs $25.6B a year earlier (+21.4% ex-FX); 2026 sales guide $12.3-12.6B (+11.5%) but Q3 organic only +4.7%, acquisitions +4.0%. Runway in India, Africa, Kazakhstan services, digital and modernisation; much of the multi-year backlog is long-dated.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000094345226000017/a3q26pressreleaseword.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF (CFO less capex): 2020 $648M, 2025 $1,499M; TTM about $1.78B (my calculation from XBRL). Q3 cash conversion 82%. Debt $6.38B, cash $0.49B, EBITDA about $2.8B, so net leverage about 2x; $1.7B of debt due within 12 months vs $2.09B liquidity. Goodwill $10.6B plus intangibles $4.0B of $23.1B assets, so after-tax return on capital is about 8% (my calculation), near the cost of capital. Buybacks $762M in 9M 2026 at much higher prices than 2024. Pay: adjusted EPS, cash conversion, 3-year ROIC and CFO, relative TSR. Insiders hold about 169,000 shares (0.1%, about $49M).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Rail is gaining relevance (freight and transit electrification, signalling mandates); services annuity on a long-lived fleet. Risks: Class I capex cycles, locomotive order timing, Kazakhstan/CIS volatility (sales -23% in 2025), customer concentration of top five at 30%. No sign of losing relevance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026008067/wab-20251231.htm",
+   "as_of": "2026-02-13"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Items 4.01/4.02/3.01, no NT filings, no CORRESP/UPLOAD letters found in EDGAR submissions 2018-2026; no material weakness. Watch items: GAAP EPS $6.86 vs adjusted $8.29 for nine months (17% gap, mostly amortisation and restructuring), a critical audit matter on estimates for over-time long-term contract revenue, and acquisition-heavy accounting ($1.06B spent on acquisitions in 9M 2026).",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom: good (orders, capex). Overheat: good so far (price escalators, margin +1.9 pts) but the dollar +4.8% and tariff costs hurt. Stagflation: neutral (cost lags, but service annuity). Slowdown: backlog and aftermarket cushion earnings, but the multiple (35.7x GAAP trailing) and $6.4B debt would suffer with HY spreads widening and a Fed hike; orders from railroads fall in a freight recession.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Exposed to US tariffs (net tariff cost a margin drag, refund claims pending) and steel/aluminum duties; non-US 44.5% of sales brings sanctions and trade risk (Kazakhstan/CIS, China $297M). Also exposed to FRA/PTC signalling rules (tailwind) and transit funding. No pending regulatory docket found for a Wabtec deal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/943452/000162828026066629/wab-20260930.htm",
+   "as_of": "2026-10-21"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "At $287.59 (2026-11-25 close) EV is about $54.6B. Starting from owner FCF of about $1.7-1.9B (TTM, after SBC / adding back after-tax interest; my calculation), a 10% discount rate and 3% terminal growth need FCF growth of about 12-14% a year for 10 years. Own history: 12.3% a year 2021-2025 and 18.3% a year 2020-2025 from a depressed 2020 base, helped by acquisitions; Q3 organic sales growth is 4.7%. P/E 35.7x GAAP trailing and 26.3x on 2026 adjusted guidance ($10.95 mid) vs own year-end range 27.6x-31.1x (2021-2025, GAAP, my calculation); EV/EBITDA 19.7x vs TRN 13.0x, GBX 12.7x, FSTR 10.4x, CAT 16.9x. The price asks for a repeat of the best five years, so no cushion.",
+   "source": "https://finance.yahoo.com/quote/WAB",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "low",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality B but the price needs about 12-14% a year FCF growth for 10 years (same as its best five years), leaving no cushion, and no clear misreading found.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "feedback": [
+  {
+   "note": "Customers/peers confirm demand but not an acceleration: AAR carloads +2.7% YTD and intermodal +5.1% YTD (Nov 21); Wabtec itself reports lower locomotive deliveries and lower North America railcar build in Q3.",
+   "source": "https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-november-21-2026/",
+   "as_of": "2026-11-21"
+  },
+  {
+   "note": "Track and parts peer L.B. Foster Q3 sales +21.5% and new orders +35.7%, consistent with strong maintenance-of-way demand Wabtec cites.",
+   "source": "https://www.sec.gov/Archives/edgar/data/352825/000035282526000055/ex-991q32026.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "note": "Railcar maker Trinity cites steel tariffs and price-escalation clauses; Greenbrier says tariff uncertainty delayed long-lived railcar purchases: supports a tariff drag on railcar-related components.",
+   "source": "https://www.sec.gov/Archives/edgar/data/99780/000009978026000136/trn-20260930.htm",
+   "as_of": "2026-10-29"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 287.59,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/WAB"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read selectively (P&L, MD&A, cash flow, balance sheet); the other 3 of the last 4 10-Qs were not read line by line, and FCF history comes from XBRL companyfacts.",
+  "presentation": "Earnings presentation (EX-99.2) not fetched; no IR site access attempted in this session.",
+  "ir_fact_sheet": "No IR fact sheet fetched; backlog by segment and product-line margins were not available from the filings read.",
+  "red_flag_scan": "EDGAR submissions list scanned 2018-2026: no 4.01, 4.02, 3.01, NT, CORRESP or UPLOAD found (nothing_found for those items); scan limited to filing index, not the text of each 8-K.",
+  "def14a": "2026 proxy read for pay metrics and ownership only.",
+  "price": "yFinance quote 2026-11-26 shows last price 287.59 (2026-11-25 close; US holiday). Peer multiples from yFinance info, trailing."
+ },
+ "complete": true
+}
