@@ -1,0 +1,209 @@
+{
+ "ticker": "PNC",
+ "name": "The PNC Financial Services Group",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Super-regional bank: takes deposits ($466.4B) and lends ($378.8B), plus payments, treasury management, wealth and capital markets, coast to coast after the Jan 2026 FirstBank deal.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "3Q26 revenue $6.56B: NII $4.21B (64%), fees $2.14B. Segment net income: Retail $1.43B, Corporate & Institutional $1.55B, Asset Mgmt $0.13B (Other -$1.02B). Fees: card/cash mgmt $769M, asset mgmt $447M, capital markets $433M, lending/deposit $358M, mortgage $135M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Wide base: 780k FirstBank customers added; loans $277.0B commercial (73%) and $101.8B consumer (27%); no single-customer concentration disclosed. CRE is $37.0B (9.8% of loans).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US-centred: coast-to-coast branches, strategic offices in four other countries; FirstBank added Colorado and Arizona (95 branches). No FX-driven earnings; domestic credit and rate exposure only.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Spread/balance-sheet bank, 64% of revenue is net interest; fees 36%. NIM 2.94% (2.79% a year ago). Customers pay through loan spreads and recurring treasury, card and advisory fees. Explained in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 57% (60% prior quarter); adjusted expenses -3% QoQ; Q4 adjusted expenses guided +5% vs NII +4%. FY26 expenses guided +9.5% vs revenue +13.7% (positive operating leverage); FirstBank integration ~$300M one-off. Guidance raised on loans, NII and fees in Q3 (hit-rate looks good this year; multi-year record not tested).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065997/a3q26earningsslides_vfx2.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Banking inputs: deposits (cost of funds up; spot deposits +4% QoQ to $466.4B), wholesale funding (FHLB advances: borrowed funds $79.8B, 15% of avg liabilities, +28% YoY), and capital (CET1 9.8%, was 10.7%). Signal tags: fed_funds, 2y, hy_spreads, real_spending, regulation. Pass-through: funding costs rose slightly in 3Q ('increased funding costs'); assets reprice with lag (securities yield 3.59%). PNC did not publish a total deposit cost in the pages read: nothing found for beta. Single points: FHLB reliance and brokered deposits ($8B spot).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale plus national expansion into Southeast/Mountain West; treasury management and card; doing differently now: buying a regional (FirstBank, $4.2B), converting 95 branches in June, and building receive-fixed swaps ($83B notional) to lock yields.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Recognised retail brand in the Mid-Atlantic and Midwest, weaker in newly entered Sunbelt/West markets; banking is a low-differentiation, sticky-account product; no marketing spend figure pulled. Would be noticed if gone (account holders), not a price-setting brand.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Rivals JPM, BAC, WFC, USB, TFC. Loans +14% YoY (acquisition-inflated; avg loans +2% QoQ organic-ish) against industry loans +8.9% (H.8 Oct); PNC ROTCE 18.3% vs USB ~18.5% and TFC 14.6% adjusted per peer files. Gaining share in commercial, losing in autos (-8%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Guided Q4 average loans +2.5% QoQ and NII +4%; FY26 NII +15.5% (baseline $14.41B); entering new markets with the FirstBank base; 33% of securities and swaps (about $90B pool) run off through 2028 at low yields. Part of this is already in guidance.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065997/a3q26earningsslides_vfx2.htm",
+   "as_of": "2026-10-15"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "ROTCE 18.3% vs 10% cost of equity (strong). CET1 fell to 9.8% from 10.7% a year ago as PNC returned $1.4B in Q3 ($0.8B dividends, $0.6B buybacks); dividend raised to $2.00 from $1.70. Share count 392M to 397M (FirstBank stock). TBV/share flat YoY ($107.64 vs $107.84). Pay metrics: DEF 14A reviewed only at summary level (record 2025 EPS $16.59, ROTCE above peer median); insider ownership figure not extracted.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Gaining relevance by scale (FirstBank closes a footprint gap); disruption risk from fintech/deposit competition is modest for commercial bank with treasury services. Key-person: Chairman/CEO Bill Demchak (no succession read performed). Rate risk: AOCI -$6.5B (was -$4.1B) is the swing factor if long yields rise.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "8-K item scan Aug 2023-Nov 2026: no Item 4.01 or 4.02, no NT 10-K/10-Q found; Q3 10-Q says disclosure controls effective. SEC comment letters (UPLOAD) last dated 2024-01-31 (closed; subject not read). Non-GAAP: integration costs and Visa items excluded ($48M after tax in Q3, 12 cents EPS); Visa litigation-escrow derivative adjustments recur. Q3 nonperforming loans +8% QoQ.",
+   "source": "https://data.sec.gov/submissions/CIK0000713676.json",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: positive (NII guided up, loans strong, ACL 1.42%). Slowdown: credit-sensitive (CRE $37B, NPLs $2.19B rising, criticized CRE $5.4B = 14.6%) but falling long yields lift AOCI (-$6.5B). Fed hike: deposit costs +, receive-fixed swaps and runoff reprice positively over time; dollar neutral; oil neutral.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 4,
+   "evidence": "Category IV-type large bank under Basel III capital rules; Visa Class B litigation escrow funding is recurring noise; no pending deal docket (FirstBank closed 2026-01-05). Capital rule changes expected to lower requirements modestly per industry file (not PNC-specific figure verified).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 2,
+   "evidence": "Price $220.33 (2026-11-25 close) / TBV $107.64 = 2.05x. At 10% cost of equity and 3% growth, 2.05x implies ~17.3% ROTCE forever (16.3% at 4% growth); actual 18.3% Q3, 17.9% Q2: cushion about 1 point, thin. P/E 11.7x trailing (13.91 9M26 + 4.87 Q4'25 = $18.78); year-end P/E 2021-25: 13.1, 9.8, 10.9, 13.1, 12.2, so mid-range. Peers P/TBV: TFC 1.50x, HBAN 1.57x, BAC 1.67x, USB ~2.0x. Own 5-year P/TBV range: not extracted (nothing found). Repricing tailwind (securities yield 3.59% vs 3.92% swap fixed rate, 33% runoff by 2028, Q4 NIM target 3.0%+) is already in guidance and in a premium multiple.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and ROTCE 18.3%, but 2.05x tangible book needs ~17.3% ROTCE for ever, so the price leaves about a 1-point cushion and the NII repricing is already in guidance.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answers": {
+  "repricing_priced": "Largely yes. Securities yield 3.59% and receive-fixed swaps 3.92% are repricing upward as 33% of the securities and swap book runs off through 2028; PNC guides Q4 NII +4% and NIM 3.0% or higher. Stock trades at 2.05x TBV, above TFC 1.50x, HBAN 1.57x, BAC 1.67x, so the tailwind is not ignored. Source: https://www.sec.gov/Archives/edgar/data/713676/000162828026065997/a3q26earningsslides_vfx2.htm",
+  "reserve_release": "Mildly thin, not reckless. ACL ratio 1.61% (3Q25) to 1.48% to 1.42%; allowance fell $75M to $5.39B while provision ($189M) was below net charge-offs ($257M, including $35M student-loan transfer); NPLs rose 8% to $2.19B (coverage 2.45x vs 2.69x). Office $4.8B (1.3% of loans) carries 9.2% reserves, 27.9% criticized, 10.8% nonperforming. Part of the ratio fall is mix (student loans to held-for-sale, loan growth). Source: https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm ; https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+  "firstbank": "Closed 2026-01-05, $4.2B cash and PNC stock plus $0.1B preferred swap (Series X). Goodwill and intangibles rose from $11.16B to $14.11B YoY; CET1 10.7% to 9.8%; TBV/share flat ($107.84 to $107.64) despite earnings, partly AOCI; shares 392M to 397M. About $300M integration costs guided ($261M booked YTD). Cash/stock split and deal-date TBV dilution not extracted. Source: https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm"
+ },
+ "feedback": [
+  {
+   "fact": "PNC 3Q26 NIM 2.94% (2.96% Q2); average deposits +1%, spot +4%; commercial loan utilization up; funding costs 'increased' without a published deposit-cost figure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30",
+   "direction": "confirms Overheat loan demand; deposit-cost pressure consistent with peers"
+  },
+  {
+   "fact": "NPLs +8% QoQ, driven by commercial; criticized CRE $5.4B (14.6% of CRE).",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026069377/pnc-20260930.htm",
+   "as_of": "2026-09-30",
+   "direction": "early credit stress consistent with widening HY spreads (Slowdown risk)"
+  },
+  {
+   "fact": "AOCI -$6.5B vs -$4.1B as long yields rose in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/713676/000162828026065936/q32026financialhighlightsa.htm",
+   "as_of": "2026-09-30",
+   "direction": "long-rate sensitivity; helped if 10y keeps falling from 5.07%"
+  }
+ ],
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 220.33,
+  "as_of": "2026-11-25 close (quote pulled 2026-11-26)",
+  "source": "https://finance.yahoo.com/quote/PNC"
+ },
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "Only XBRL annual EPS (2018-2025) and filing list used; 10-K text, risk-factor diff and auditor report not read in this triage.",
+  "10-Q": "Q3 2026 10-Q text read (CRE, office, FirstBank, securities); Q1, Q2 and prior-year 10-Qs not read.",
+  "earnings_release": "3Q26 EX-99.1 read in full; earlier quarters not read.",
+  "presentation": "3Q26 slides (EX-99.2) read: guidance, securities and swap runoff.",
+  "ir_fact_sheet": "No separate fact sheet looked for beyond the release and slides.",
+  "def14a": "2026-03-11 DEF 14A searched for headline pay and performance text only; insider ownership table and pay metrics not extracted.",
+  "red_flag_scan": "EDGAR submissions list: no 4.01/4.02, no NT filings; UPLOAD/CORRESP last 2024-01-31 (subject not read).",
+  "price": "yFinance quote; no IBKR check at triage; own 5-year P/TBV range nothing_found; deposit cost total nothing_found in the sources read."
+ },
+ "complete": true
+}
