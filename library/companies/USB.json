@@ -1,0 +1,202 @@
+{
+ "ticker": "USB",
+ "name": "U.S. Bancorp",
+ "industry": "banks",
+ "company_type": "Stalwart",
+ "business_model": "Spread / balance sheet",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Super-regional bank holding company ($703.0B assets, $415.2B loans, $531.7B deposits at 9/30/26): takes deposits and lends (spread income), and earns fees from payments, trust/wealth, capital markets and mortgage. 68,520 employees.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Q3 2026 net revenue $7,970M: net interest income $4,490M (56%) and fees $3,545M (44%). Fee lines: consolidated payments $1,358M, trust and investment management $802M, capital markets $640M, lending/deposit fees $308M, mortgage $155M. Net income by segment: Wealth/Corporate/Commercial/Institutional $1,598M, Consumer and Business Banking $633M, Payment Services $175M, Treasury/Corporate -$204M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Diverse: consumers, 2M+ small businesses ($45B deposits, $18B loans, 10% of revenue), middle-market, large corporates, governments, institutions. No single-customer concentration disclosed; one large co-brand card partnership onboarded in Q3 added about $12B of risk-weighted assets.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 4,
+   "evidence": "Domestic bank; merchant services also in Canada and parts of Europe, and corporate trust in Europe; the 10-K calls foreign operations 'not significant'. Little currency exposure (dollar +4.8% in 3 months barely matters).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Two engines: spread income (NIM 2.84%, +9bp year on year) and fees (44% of revenue; fee revenue +14.9% year on year, about +7.6% excluding the BTIG broker purchase). Fees come from payments, trust and capital markets, which move on different cycles than loan credit. Explainable in two sentences.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Efficiency ratio 55.9% (57.2% a year ago); positive operating leverage 240bp (revenue ex securities losses +9.5% vs expense +7.1%); expense +2.0% excluding BTIG. Management targets positive operating leverage, mid-to-high 50s efficiency. FY26 guide: net revenue +8-9% vs $28.7B, operating leverage about 300bp. Q3 beat its own fee, NII and expense guidance ranges.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Inputs: deposits (avg $526.6B; consumer $275B, wholesale/trust/other $252B), wholesale funding (long-term debt avg $56.1B at 4.37%), regulatory capital, technology and labour (tech and communications expense +18.9% yoy, compensation +7.5%). Suppliers are millions of depositors, so no supplier concentration; no single point of failure found (core vendors not named in the sources read). Pass-through: loans reprice (floating-rate share of loans noted in deck; loan yield 5.75%), but interest-bearing deposit cost rose 7bp in the quarter to 2.22% (total deposits 1.88%), above the 2-3bp rise at peers. Signal tags: fed_funds, 2y (deposit beta), hy_spreads (wholesale cost, spreads widening to 3.72%), regulation (capital), wages and software_capex (expenses).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningssupplement.htm ; https://www.sec.gov/Archives/edgar/data/92230/000009223026000108/ex991-3q26.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Scale and distribution: #3 US commercial card issuer by spend, #1 freight payments provider by volume (company claim citing Nilson/competitor reports, 2026), large corporate trust and fund administration. Doing differently now: bought BTIG (capital markets contribution 4% of revenue in 2023, 8% now, target about 10% in 3-5 years), launched USBDC stablecoin pilot, small-business push (Business Essentials cards, 50 new bankers).",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Recognised consumer bank and card brand, but regional (not a daily-use national brand); marketing $199M in Q3 (2.5% of net revenue, +13.7% yoy). People would notice if it vanished, but there is no evidence of a pricing premium over rivals.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "Mixed. Merchant processing fees $461M, -0.4% yoy (flat; $1,382M YTD, +2.2%) versus corporate payments and treasury +12.3% and card +6.0%; consistent with the payments map flag that merchant acquiring is slow-growth. Loans +8.0% yoy vs deposits +2.9% (loan growth outruns deposit gathering). Peer share data not available from primary sources; Elavon is not named in the 10-K or release (reported as 'merchant processing services').",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Several levers not yet fully visible: BTIG and FICC growing at high-single-digit pace; capital markets share of revenue to rise from 8% toward 10%; small-business franchise; corporate payments +12.3%; loans +8.0% yoy with commercial +11.5%. Medium-term targets (2026-27): ROA 1.15-1.35%, ROTCE high teens, fee growth mid-single digits.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "ROTCE 18.5% (Q3) vs about 10% cost of equity; ROA 1.25%. 2025 net income $7,570M (+20% yoy). CET1 10.8% (9.1% including AOCI), flat for four quarters; target about 10%. Buybacks small: 2025 $489M vs dividends $3,168M; Q3 earnings returned $847M; shares flat at 1,558M. Policy: 70-75% capital deployment. Insiders: 23 officers/directors hold 3.28M shares (<1%). Pay: 2025 performance units now use absolute and relative ROTCE plus a TSR modifier. Bank FCF is not a meaningful measure.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/36104/000110465926025844/tm261379-1_def14a.htm ; https://data.sec.gov/api/xbrl/companyfacts/CIK0000036104.json",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 4,
+   "evidence": "Not losing relevance: revenue 2025 $28.7B (2022 $24.3B), fees growing, deposits record in consumer. Risks: payments disruption (fintech, stablecoins; merchant fees flat), integration of BTIG, CEO Gunjan Kedia in the role since 2025 (key-person risk modest). AOCI loss $9.46B (vs $7.0B at YE25) shows rate sensitivity of the bond book.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://data.sec.gov/api/xbrl/companyfacts/CIK0000036104.json",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "Clean in all primary sources checked: no 8-K Items 4.01/4.02/1.05/2.06, no NT 10-K/10-Q, no 10-K/A or CORRESP/UPLOAD in the EDGAR submissions list from 2022-11 to 2026-11; auditor Ernst & Young (Minneapolis); no 'material weakness' text in the 10-K body. Not checked: audit report and CAMs sit in the annual report exhibit (not opened). Non-GAAP use is modest (efficiency, ROTCE, operating leverage reconciled). 5.02 items in 2026 are a severance plan and director matters, no CEO/CFO exit seen.",
+   "source": "https://data.sec.gov/submissions/CIK0000036104.json ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm",
+   "as_of": "2026-11-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat (now): NII widening with loan growth and fixed-asset repricing, but deposit cost rose 7bp vs peers' 2-3bp. Slowdown: fees (trust, payments) cushion, long yields falling would repair AOCI; but card/CRE credit (NCO 0.51%, allowance 1.97%) and capital markets would soften. Stagflation: deposit cost and credit pressure. Dollar and oil effects indirect. HY spreads at 3.72% are the credit tell.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningssupplement.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Total assets $703B sit near the $700B Category II threshold; a move would bring AOCI into CET1 (9.1% pro forma vs about 10% target) and heavier rules. A long-term-debt proposal (greater of 6% of RWA etc.) is pending, not final. No deal docket: BTIG already closed (announced Jan 2026, up to $1B). Payments exposure to interchange rules is a standing risk; nothing new found in the 10-K body.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000011/usb-20251231.htm ; https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $58.55 / tangible book per share $29.34 = 2.00x (1.65x if AOCI loss of about $6.07/share is added back). At 10% cost of equity and 3% growth, 2.00x implies sustained ROTCE of about 17.0% (16.0% at 4% growth). Actual 18.5% (Q3), target high teens. Fair P/TBV at 18.5% = 2.21x ($65, +11%); at 16% = 1.86x ($55, -7%); at 14% = 1.57x ($46, -21%). P/E 10.9x on annualised Q3 EPS $1.34; dividend yield 3.7%. Peers (from sibling triage files, my calc): TFC 1.50x at 12.7-14.6% ROTCE, BAC 1.67x at ~15%, WFC 1.82x at 16.2%, JPM 2.81x at ~20%. USB trades at a premium to regional peers, in line with its higher return. Own 5-year P/TBV range not pulled from sourced data (rough year-end price over XBRL-based tangible equity suggests about 1.7-1.9x in 2024-25); cushion is modest and depends on ROTCE staying near 18%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm ; https://finance.yahoo.com/quote/USB ; https://data.sec.gov/api/xbrl/companyfacts/CIK0000036104.json",
+   "as_of": "2026-11-26"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "+",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality B and a real fee second stream, but 2.0x tangible book already prices a high-teens ROTCE (actual 18.5%), so the cushion is modest and no clear market mistake stands out.",
+ "the_mistake": null,
+ "what_makes_market_notice": null,
+ "answers_to_brief": {
+  "fee_mix_stabiliser_or_drag": "Mostly a stabiliser, but not a hidden one. Fees are 44% of Q3 revenue and grew 14.9% (about 7.6% excluding BTIG); trust +9.9%, corporate payments and treasury +12.3%, card +6.0%, capital markets +69% (BTIG-driven), mortgage -13.9%. The drag is merchant processing: $461M, -0.4% yoy, and the Payment Services segment net income fell 31% yoy to $175M (provision $594M vs $409M, including $135M day-one reserve on the purchased small-business card portfolio). The market already pays 2.0x tangible book for this mix, a premium to regional peers, so it is not being ignored.",
+  "guidance_vs_delivery": "Q3 results met or beat guidance on NII ($4,490M), fees ($3,545M) and expense ($4,493M, +7.1%, +2.0% ex BTIG). FY26 outlook: net revenue +8-9% vs $28.7B, positive operating leverage about 300bp. Operating leverage 240bp in Q3 vs 400bp in Q2 and 530bp a year ago (narrowing).",
+  "union_bank_integration": "Nothing found in the 10-K body or Q3 release; the tail is not mentioned as an open item. The Union Bank deal is not named in these sources; BTIG (closed 2026) is the live integration, adding about $200M quarterly revenue, $22M integration/amortisation cost in Q3.",
+  "capital_and_aoci": "CET1 10.8% flat for 4 quarters; 9.1% including AOCI; AOCI loss $9,462M vs $6,987M at YE25 (5-year Treasury +86bp since 6/30). TBV per share fell 2.3% in the quarter to $29.34. Management called Q3 capital demands (about $12B RWA from a co-brand partnership, AOCI) non-recurring.",
+  "credit": "NCO ratio 0.51% (0.56% a year ago); NPAs $1,324M (-20% yoy); allowance 1.97% of loans; card NCO 3.29% (3.80% a year ago); NDFI loans $50B described as A-rated average. Nothing broken yet; HY spreads widening is the watch item."
+ },
+ "feedback": [
+  {
+   "note": "Deposit cost rose 7bp in Q3 (interest-bearing 2.22%, total 1.88%) versus 2-3bp at peers: USB is paying more to hold deposits while the Fed leans to hike.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms deposit-cost pressure, slightly worse than peers"
+  },
+  {
+   "note": "Loans +8.0% yoy (commercial +11.5%, cards +9.8%) with credit improving: supports the hard-data Overheat read; credit metrics show no Slowdown yet.",
+   "source": "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningspresentatio.htm",
+   "as_of": "2026-09-30",
+   "effect": "confirms hard data, contradicts the market's credit fear so far"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "covered",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-K": "10-K body read; risk factors, MD&A and audit report are in the annual report exhibit, which was not opened.",
+  "10-Q": "Last 4 quarters taken from the Q3 earnings release and supplement (5-quarter tables) and XBRL annual facts; the 10-Q MD&A text was not read.",
+  "ir_fact_sheet": "Earnings supplement (EX-99.2) used as the fact sheet; no separate IR fact-sheet page fetched.",
+  "red_flag_scan": "EDGAR submissions 'recent' list (2022-11 to 2026-11) scanned for 8-K items 4.01/4.02/1.05/2.06, NT forms, 10-K/A, CORRESP/UPLOAD: nothing found. Comment-letter text not separately searched.",
+  "price": "yfinance snapshot; IBKR not used at triage. Peer P/TBV taken from sibling triage files."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 58.55,
+  "as_of": "2026-11-26",
+  "source": "https://finance.yahoo.com/quote/USB"
+ },
+ "complete": true
+}
