@@ -67,3 +67,5 @@
 2026-11-26T09:30:28+00:00	task_start	w4-GS
 2026-11-26T09:30:47+00:00	task_done	w4-MA
 2026-11-26T09:30:47+00:00	task_start	w4-MS
+2026-11-26T13:47:17+00:00	interrupted	usage limit hit; running triage tasks reset to pending without consuming attempts
+2026-11-26T13:47:17+00:00	session_start	reconciled 0 task(s) 
