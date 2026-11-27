@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-27T00:13:37+00:00",
+  "heartbeat": "2026-11-27T00:14:33+00:00",
   "current_wave": 5,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -925,10 +925,10 @@
         "ticker": "SYF"
       },
       "output": "runs/20261126-full_hunt/deepdive/SYF/dd-ownership.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-27T00:06:31+00:00"
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-SYF-dd-peers",
@@ -977,10 +977,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-ir.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-27T00:10:16+00:00"
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-WEX-dd-transcripts",
@@ -990,10 +990,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-transcripts.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-27T00:11:52+00:00"
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-WEX-dd-regulatory",
@@ -1016,10 +1016,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-credit.md",
-      "status": "pending",
+      "status": "failed",
       "attempts": 0,
-      "last_error": null,
-      "updated": null
+      "last_error": "cancelled: WEX demoted to watch after 3/8 layers (mistake disappeared); see status_overrides.json",
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-WEX-dd-ownership",
@@ -1029,10 +1029,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-ownership.md",
-      "status": "pending",
+      "status": "failed",
       "attempts": 0,
-      "last_error": null,
-      "updated": null
+      "last_error": "cancelled: WEX demoted to watch after 3/8 layers (mistake disappeared); see status_overrides.json",
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-WEX-dd-peers",
@@ -1042,10 +1042,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-peers.md",
-      "status": "pending",
+      "status": "failed",
       "attempts": 0,
-      "last_error": null,
-      "updated": null
+      "last_error": "cancelled: WEX demoted to watch after 3/8 layers (mistake disappeared); see status_overrides.json",
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-WEX-dd-diff",
@@ -1055,10 +1055,10 @@
         "ticker": "WEX"
       },
       "output": "runs/20261126-full_hunt/deepdive/WEX/dd-diff.md",
-      "status": "pending",
+      "status": "failed",
       "attempts": 0,
-      "last_error": null,
-      "updated": null
+      "last_error": "cancelled: WEX demoted to watch after 3/8 layers (mistake disappeared); see status_overrides.json",
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-RELY-dd-edgar",
@@ -1068,10 +1068,10 @@
         "ticker": "RELY"
       },
       "output": "runs/20261126-full_hunt/deepdive/RELY/dd-edgar.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-RELY-dd-ir",
@@ -1081,10 +1081,10 @@
         "ticker": "RELY"
       },
       "output": "runs/20261126-full_hunt/deepdive/RELY/dd-ir.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-RELY-dd-transcripts",
@@ -1094,10 +1094,10 @@
         "ticker": "RELY"
       },
       "output": "runs/20261126-full_hunt/deepdive/RELY/dd-transcripts.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-27T00:14:33+00:00"
     },
     {
       "id": "w5-RELY-dd-regulatory",
@@ -1283,6 +1283,7 @@
     "Borderline add: PYPL (B; price implies owner FCF -2%/yr for 10 years while volume and Venmo grow and share count fell ~29%; Zoom test unresolved because branded-checkout growth is not quantified).",
     "Borderline add (strongest): INTU (B, attractiveness HIGH; price implies ~2%/yr FCF growth vs 22% 5-yr; GBS ~56% of segment op income growing 15%; kept Watch for real consumer-side AI/share pressure: Credit Karma guide cut to +3-7%, TurboTax price cuts).",
     "Borderline add: AXP (A, medium; price needs ~7%/yr earnings growth vs networks ~15%; P/E de-rated 23.8x->17.6x while guidance raised; Q3 EPS helped by tax and reserve release).",
-    "Wave 4 complete 51/51: survived SYF, WEX, RELY; INTU promoted by main thread (see STATUS_REVIEW.md); dropped CP, HUBG; rest watch"
+    "Wave 4 complete 51/51: survived SYF, WEX, RELY; INTU promoted by main thread (see STATUS_REVIEW.md); dropped CP, HUBG; rest watch",
+    "WEX demoted survived->watch mid-Wave 5 (fuel lift, Benefits slowing); 4 remaining layers cancelled; dd-regulatory already running is allowed to finish"
   ]
 }

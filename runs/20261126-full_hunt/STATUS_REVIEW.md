@@ -14,4 +14,10 @@ Rules applied: CLAUDE.md 6.4.1. Survived needs quality B or better, a price cush
 | PYPL | watch | watch | Cushion exists (price implies owner FCF -2% a year), but the Zoom test is unresolved because branded-checkout growth is not quantified; evidence incomplete. |
 | FIS | watch | watch | Cushion exists, but the Q3 recurring-growth drop (5.1% to 2.5%) is unexplained in filings; evidence incomplete. |
 
+## Update during Wave 5 (2026-11-27)
+
+| Ticker | Change | Reason |
+|---|---|---|
+| WEX | survived → **watch** | Deep dive (EDGAR, IR, transcripts all "weakens"): 93% of the 2026 guidance raise is fuel by WEX's own label; ~10.5x at 2025 fuel prices, not 8.6x; Benefits profit +4.9% (Q3 +0.9%), not ~11%; GAAP EPS 41% below adjusted; activist director sold ~250,500 shares in November. The mistake disappeared (CLAUDE.md 6.6). Remaining layers cancelled. |
+
 <!-- COMPLETE -->
