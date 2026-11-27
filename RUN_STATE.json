@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-27T00:14:33+00:00",
+  "heartbeat": "2026-11-27T00:14:48+00:00",
   "current_wave": 5,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -951,10 +951,10 @@
         "ticker": "SYF"
       },
       "output": "runs/20261126-full_hunt/deepdive/SYF/dd-diff.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-27T00:07:18+00:00"
+      "updated": "2026-11-27T00:14:48+00:00"
     },
     {
       "id": "w5-WEX-dd-edgar",
@@ -1107,10 +1107,10 @@
         "ticker": "RELY"
       },
       "output": "runs/20261126-full_hunt/deepdive/RELY/dd-regulatory.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-27T00:14:48+00:00"
     },
     {
       "id": "w5-RELY-dd-credit",

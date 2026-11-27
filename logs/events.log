@@ -166,3 +166,5 @@
 2026-11-27T00:14:33+00:00	task_done	w5-WEX-dd-transcripts
 2026-11-27T00:14:33+00:00	status_change	WEX survived->watch (deep dive)
 2026-11-27T00:14:33+00:00	task_start	w5-RELY-dd-edgar w5-RELY-dd-ir w5-RELY-dd-transcripts
+2026-11-27T00:14:48+00:00	task_done	w5-SYF-dd-diff
+2026-11-27T00:14:48+00:00	task_start	w5-RELY-dd-regulatory
