@@ -1,0 +1,201 @@
+{
+ "ticker": "RELY",
+ "name": "Remitly Global",
+ "industry": "payments",
+ "company_type": "Fast grower",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 5,
+   "evidence": "Digital app that sends money across borders (fee plus a spread on the exchange rate), 175+ countries; 10.3M active customers in Q3 2026 (+17%). Adding business payments, a card and a pay-later option.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "Almost all revenue is consumer remittance (one reporting segment, mix not split); newer lines are Business Payments (30,000+ business customers), Global Card, Flex (interest-free send-now-pay-later). Revenue $509.8M in Q3, +22%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/remitlyirpresentation3q2.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Millions of individual senders, mostly immigrants; no customer is 10% or more of revenue. Send volume $24.4B in Q3 (+25%); but the buyer base is one demographic exposed to immigration policy.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "Revenue by sender country Q3: US $348.6M (68%, +25%), Canada $40.5M (8%, -3%), rest of world $120.7M (24%, +23%). Biggest receive countries India, Mexico, Philippines. Long-lived assets 79% US. FX spreads are part of revenue, so a strong dollar matters.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 4,
+   "evidence": "Transaction fee plus FX spread on each send; repeat sending but no contract. Transaction margin 68% of revenue vs 65% a year ago (+312bp); transaction expenses 32% of revenue vs 35%. Revenue take rate (revenue / send volume) slipped to 2.09% from 2.15% in Q3 and 2.08% vs 2.20% over nine months.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 4,
+   "evidence": "Low capex: $18.9M in 9M 2026 (property plus software) against $1.46B revenue. Prefunding ties up cash (disbursement prefunding $287M) so the JPMorgan-led revolver was lifted from $550M to $1.0B on 2026-10-26; nothing drawn at 9/30. Marketing 20% of revenue, operating margin 13.6% in Q3 vs 2.8%. Guidance hit rate: Q3 guide was revenue $505-507M, adj. EBITDA $92-94M; actual $509.8M and $120.8M. Q2 guide was revenue $483-485M; Q2 actual $495.2M.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: bank and card payment processors that take funds in, disbursement partners (banks, wallets, cash-out agents) in India, Mexico, Philippines that pay out, FX liquidity, and the JPMorgan revolver for prefunding. 10-K says banks set bank-transfer fees 'with little prior notice' and card processors can raise fees; no named single supplier above 10%, but a few payout corridors dominate volume. Pass-through: it sets its own price and FX spread in-app, and transaction expenses fell to 32% of revenue from 35% as volume scaled, so cost increases have been absorbed by scale rather than passed on. Signal tags: dollar (FX spread, sender-country translation), rates (prefunding and revolver interest; interest expense $8.0M in 9M vs $5.1M), regulation, wages (sender employment). Single points of failure: licences and partner bank access.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026009038/rely-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Digital-first with scale cost to serve; ~84% of transfers delivered in under a minute; cohort lifetime value rising (customers stay longer, send more, cost less). Doing differently now: business payments, Etsy platform deal, card and wallet, send-by-text. But switching costs are low and rivals can match price.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/remitlyirpresentation3q2.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 3,
+   "evidence": "Used repeatedly by its own customers, yet not a household name for most Americans and acquisition is paid: marketing $294.7M in 9M 2026 (20% of revenue, +18% y/y). Would be noticed by senders and recipients if it vanished; little pricing power over rivals (price competition is the stated basis).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 4,
+   "evidence": "Competes with agent networks (Western Union, MoneyGram), banks, and digital rivals (Wise and others) per its 10-K. Send volume +25% against Western Union consumer-money-transfer transactions +2% in the same quarter (payments industry file, WU Q3 release), so it is gaining share from incumbents. Digital rivals' share not measured here.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026009038/rely-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 4,
+   "evidence": "Large transfers ($5,000+) volume +25%; volume outside India receive +80%; business payments volume growth accelerating two quarters running; Global Card live in the US. But growth is slowing: send volume +37% (Q1) to +25% (Q3); active customers +20% to +17%; Q4 guide +20-21%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/remitlyirpresentation3q2.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 4,
+   "evidence": "Free cash flow $87.8M in Q3, $290.6M in 9M (company definition); trailing 12 months about $381M, about $238M after stock pay (about $143M TTM). Net cash about $666M, no long-term debt (repaid $155M). Bought 2.77M shares for $44.2M in Q1 (about $16), $80M in 9M; authorization raised to $500M. Insiders own 6.5% as a group. Pay: DEF 14A says no financial performance measures are used for executive pay; new CEO since Feb 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Gaining relevance now (rising volume and customers; no Zoom pattern), but low switching costs, stablecoin and neobank entrants, and policy risk on its core customer. Key-person: CEO changed 2026-02-19 (co-founder moved to Chair); the product and technology chief resigned in June. Canada revenue fell 3% in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 8-K Item 4.01 or 4.02, no NT filings, no material weakness, no comment letters in 3 years (the only CORRESP/UPLOAD are 2021 IPO letters). Watch: adjusted EBITDA adds back $101.7M of stock pay in 9M (30% of the $337.1M figure); 9M net income $322.5M includes a $136M tax benefit (valuation allowance release); Chief Accounting Officer changed April 2026 (orderly, no disagreement). 2025 critical audit matter is revenue recognition.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026009038/rely-20251231.htm",
+   "as_of": "2025-12-31"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Boom +: more sender employment and volume. Overheat: nominal volumes and recipient prices rise but dollar strength squeezes FX economics and borrowing costs rise (rates, dollar, input-cost sensitivity: moderate). Stagflation -: US sender jobs and real income squeezed. Slowdown: remittances held up in earlier downturns but sender hours and volume soften; credit lines for prefunding stay open (JPM upsized to $1B in late Oct).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "One Big Beautiful Bill Act (2025) taxes outbound NON-digital remittances; management says it expects no material impact (a digital sender is largely outside it). Immigration enforcement is named as a risk to customer behaviour. Money-transmitter licences are required in every market; regulators can be decisive (California conditions ended the Western Union / Intermex deal on 2026-11-12, per payments industry file). No pending docket naming Remitly found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "Price $21.68, market cap about $4.64B, EV about $4.0B (cash $669M, no debt). Reverse DCF at 10% discount, 3% terminal growth: owner FCF of $238M (after stock pay) needs only about 5% growth a year for 10 years to justify EV; with cash taxes normalised (about $180M) about 8-9%; on reported FCF of $381M implies shrinkage. Company is growing revenue 22%, FY26 adj. EBITDA guide $442M. EV/FY26 adj. EBITDA about 9x; EV/sales 2.1x vs 1.4x-3.5x at year-ends 2022-2025 (own approximation); Western Union 4.9x and Euronet 4.7x EV/EBITDA but growing -2% and +1%.",
+   "source": "https://finance.yahoo.com/quote/RELY",
+   "as_of": "2026-11-27"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "high",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "0"
+ },
+ "status": "survived",
+ "status_reason": "Quality B, net cash, price needs only about 5-9% FCF growth against 20%+ delivered, and the mistake and catalyst are identifiable; risks (policy, take-rate, stock pay) are real but not kill-switch grade.",
+ "the_mistake": "The market prices Remitly as a fragile immigrant-remittance trade (deportations, remittance tax, shrinking take rate), yet the tax hits cash sends, not digital, and send volume is +25% with transaction margin up 312bp and free cash flow after stock pay up sharply. Price implies low-single-digit to high-single-digit cash growth for ten years.",
+ "what_makes_market_notice": "Q4 2026 results and 2027 guidance (last year reported 2026-02-18; date unconfirmed) showing growth holding near 20%, positive GAAP earnings without tax benefits, and buyback execution under the $500M authorization.",
+ "feedback": [
+  {
+   "note": "Remitly send volume +25% and active customers +17% in a quarter where US real consumer spending was flat: remittances are not yet showing the Slowdown the markets price. Contradicts a near-term volume hit.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "note": "Revolver upsized from $550M to $1.0B (JPMorgan agent) on 2026-10-26: bank funding available to a mid-cap fintech despite widening HY spreads. Does not support a credit-stress read for this name.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000178217026000084/rely-20261026.htm",
+   "as_of": "2026-10-26"
+  },
+  {
+   "note": "Canada revenue -3% y/y (US +25%, rest of world +23%): possible strong-dollar translation or a local weakness; not explained in the filing text read.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm",
+   "as_of": "2026-09-30"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "covered",
+  "ir_fact_sheet": "nothing_found",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 21.68,
+  "as_of": "2026-11-27",
+  "source": "https://finance.yahoo.com/quote/RELY"
+ },
+ "coverage_notes": {
+  "10-K": "FY2025 10-K read (business, competition, risk factors, auditor report, CAM, MD&A non-GAAP table).",
+  "10-Q": "Q3 2026 10-Q read in text; Q1 and Q2 2026 via earnings releases; earlier quarters not opened. XBRL annual facts used for FY2023-2025.",
+  "earnings_release": "Q3 2026 EX-99.1 plus Q1 and Q2 2026 releases (guidance history).",
+  "presentation": "Q3 2026 EX-99.2 deck read; cohort charts are images so no numeric LTV or CAC payback available.",
+  "ir_fact_sheet": "No separate fact sheet opened (ir.remitly.com not fetched); nothing found on EDGAR. Customer acquisition payback is not disclosed in text.",
+  "def14a": "DEF 14A filed 2026-04-24: ownership table and pay-versus-performance read; full CD&A not read line by line.",
+  "red_flag_scan": "EDGAR submissions list 2021-2026: no 8-K Items 4.01/4.02, no NT 10-K/10-Q; CORRESP/UPLOAD only 2021 (IPO). 5.02 8-Ks 2026 read. Wise not assessed.",
+  "price": "yFinance quote, last price 21.68 (previous close 21.40); 2026-11-27 may be a partial session. Peer multiples from yFinance (WU, EEFT). Reverse DCF is the analyst's own calculation, FCF TTM = FY2025 FCF $283.3M + 9M26 $290.6M - 9M25 $192.8M; own multiple history approximated from year-end price x 10-K cover shares less year-end cash over revenue."
+ },
+ "complete": true
+}

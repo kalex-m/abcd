@@ -2,8 +2,8 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-27T00:00:55+00:00",
-  "current_wave": 4,
+  "heartbeat": "2026-11-27T00:03:13+00:00",
+  "current_wave": 5,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
     {
@@ -833,10 +833,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/RELY.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T23:57:47+00:00"
+      "updated": "2026-11-27T00:02:30+00:00"
     },
     {
       "id": "w4-ACIW",
@@ -851,6 +851,422 @@
       "attempts": 0,
       "last_error": null,
       "updated": "2026-11-27T00:00:28+00:00"
+    },
+    {
+      "id": "w5-SYF-dd-edgar",
+      "wave": 5,
+      "agent": "dd-edgar",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-edgar.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-ir",
+      "wave": 5,
+      "agent": "dd-ir",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-ir.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-transcripts",
+      "wave": 5,
+      "agent": "dd-transcripts",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-transcripts.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-regulatory",
+      "wave": 5,
+      "agent": "dd-regulatory",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-regulatory.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-credit",
+      "wave": 5,
+      "agent": "dd-credit",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-credit.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-ownership",
+      "wave": 5,
+      "agent": "dd-ownership",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-ownership.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-peers",
+      "wave": 5,
+      "agent": "dd-peers",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-peers.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-SYF-dd-diff",
+      "wave": 5,
+      "agent": "dd-diff",
+      "input": {
+        "ticker": "SYF"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/SYF/dd-diff.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-edgar",
+      "wave": 5,
+      "agent": "dd-edgar",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-edgar.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-ir",
+      "wave": 5,
+      "agent": "dd-ir",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-ir.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-transcripts",
+      "wave": 5,
+      "agent": "dd-transcripts",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-transcripts.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-regulatory",
+      "wave": 5,
+      "agent": "dd-regulatory",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-regulatory.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-credit",
+      "wave": 5,
+      "agent": "dd-credit",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-credit.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-ownership",
+      "wave": 5,
+      "agent": "dd-ownership",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-ownership.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-peers",
+      "wave": 5,
+      "agent": "dd-peers",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-peers.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-WEX-dd-diff",
+      "wave": 5,
+      "agent": "dd-diff",
+      "input": {
+        "ticker": "WEX"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/WEX/dd-diff.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-edgar",
+      "wave": 5,
+      "agent": "dd-edgar",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-edgar.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-ir",
+      "wave": 5,
+      "agent": "dd-ir",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-ir.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-transcripts",
+      "wave": 5,
+      "agent": "dd-transcripts",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-transcripts.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-regulatory",
+      "wave": 5,
+      "agent": "dd-regulatory",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-regulatory.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-credit",
+      "wave": 5,
+      "agent": "dd-credit",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-credit.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-ownership",
+      "wave": 5,
+      "agent": "dd-ownership",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-ownership.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-peers",
+      "wave": 5,
+      "agent": "dd-peers",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-peers.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-RELY-dd-diff",
+      "wave": 5,
+      "agent": "dd-diff",
+      "input": {
+        "ticker": "RELY"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/RELY/dd-diff.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-edgar",
+      "wave": 5,
+      "agent": "dd-edgar",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-edgar.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-ir",
+      "wave": 5,
+      "agent": "dd-ir",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-ir.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-transcripts",
+      "wave": 5,
+      "agent": "dd-transcripts",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-transcripts.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-regulatory",
+      "wave": 5,
+      "agent": "dd-regulatory",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-regulatory.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-credit",
+      "wave": 5,
+      "agent": "dd-credit",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-credit.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-ownership",
+      "wave": 5,
+      "agent": "dd-ownership",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-ownership.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-peers",
+      "wave": 5,
+      "agent": "dd-peers",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-peers.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
+    },
+    {
+      "id": "w5-INTU-dd-diff",
+      "wave": 5,
+      "agent": "dd-diff",
+      "input": {
+        "ticker": "INTU"
+      },
+      "output": "runs/20261126-full_hunt/deepdive/INTU/dd-diff.md",
+      "status": "pending",
+      "attempts": 0,
+      "last_error": null,
+      "updated": null
     }
   ],
   "notes": [
@@ -866,6 +1282,7 @@
     "Borderline add: C (quality C on unresolved 2020 consent orders, but identified mistake: Services 31% ROTCE hidden in a ~11% bank; All Other loss falls away as Banamex deconsolidates early 2027; 1.12x TBV).",
     "Borderline add: PYPL (B; price implies owner FCF -2%/yr for 10 years while volume and Venmo grow and share count fell ~29%; Zoom test unresolved because branded-checkout growth is not quantified).",
     "Borderline add (strongest): INTU (B, attractiveness HIGH; price implies ~2%/yr FCF growth vs 22% 5-yr; GBS ~56% of segment op income growing 15%; kept Watch for real consumer-side AI/share pressure: Credit Karma guide cut to +3-7%, TurboTax price cuts).",
-    "Borderline add: AXP (A, medium; price needs ~7%/yr earnings growth vs networks ~15%; P/E de-rated 23.8x->17.6x while guidance raised; Q3 EPS helped by tax and reserve release)."
+    "Borderline add: AXP (A, medium; price needs ~7%/yr earnings growth vs networks ~15%; P/E de-rated 23.8x->17.6x while guidance raised; Q3 EPS helped by tax and reserve release).",
+    "Wave 4 complete 51/51: survived SYF, WEX, RELY; INTU promoted by main thread (see STATUS_REVIEW.md); dropped CP, HUBG; rest watch"
   ]
 }

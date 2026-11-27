@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-27T00:00:28+00:00",
+  "heartbeat": "2026-11-27T00:02:30+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -819,10 +819,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/EEFT.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T23:57:28+00:00"
+      "updated": "2026-11-27T00:00:55+00:00"
     },
     {
       "id": "w4-RELY",
@@ -833,10 +833,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/RELY.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-26T23:57:47+00:00"
+      "updated": "2026-11-27T00:02:30+00:00"
     },
     {
       "id": "w4-ACIW",

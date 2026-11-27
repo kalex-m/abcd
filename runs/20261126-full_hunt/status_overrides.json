@@ -1,0 +1,12 @@
+{
+  "complete": true,
+  "as_of": "2026-11-27",
+  "overrides": {
+    "INTU": {
+      "from": "watch",
+      "to": "survived",
+      "by": "main thread",
+      "reason": "Quality B; price needs ~2%/yr owner FCF growth vs ~22% 5-yr; mistake identified (GBS ~56% of segment op income growing ~15%, priced as AI victim); dated catalysts. Deep dive must run the Zoom test on Consumer."
+    }
+  }
+}
