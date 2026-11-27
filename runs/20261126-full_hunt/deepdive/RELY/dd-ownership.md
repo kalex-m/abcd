@@ -1,0 +1,49 @@
+# RELY dd-ownership (run 20261126-full_hunt, as of 2026-11-27)
+
+Method: all 159 non-derivative lines from every Form 4 filed 2025-11-01 to 2026-11-12 (EDGAR submissions API, CIK 1782170) were parsed. Each sale was tagged by the Form 4 Rule 10b5-1 checkbox and footnote text. Browse: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1782170&type=4
+
+## Summary for main thread
+1. Zero open-market purchases by any insider in 12 months. Every non-plan sale is small, except Naspers/Prosus: a 12.0M-share sale at $15.98 on 2026-03-12, and a full exit by 2026-06-02. The largest venture overhang is gone.
+2. The founder-director Hug sells about 11,000 shares a month under a 10b5-1 plan (cap 1,014,439 shares, nearly used up). The ex-CEO Oppenheimer has sold nothing in 12 months and holds 4.51M shares. Directors Riese and Morris made non-plan sales of $24-27 in Aug-Sep; the CEO and CFO are plan sellers, with the new CEO's filings showing only tax withholding.
+3. Short interest is 9.9% of float (20.1M shares, 6.3 days to cover), flat versus a month earlier. Index and big funds added in Q3; Baillie Gifford cut 32%.
+
+Thesis impact: neutral (slightly supports: overhang cleared, no distress selling; no insider conviction buying either).
+
+## Findings
+
+**F1. No open-market insider buying.** Fact: 0 Form 4 transaction code "P" lines among 159 lines (2025-11-12 to 2026-11-10). → Source: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1782170&type=4 (2026-11-12 latest) → Means: nobody put cash in at $12-$27 despite a 2026 low near $12.5 (Nov 2025 tax-withholding price $12.49). Absence of buying is not a warning by itself; the sellers are mostly plan or tax-driven. → Confidence: high.
+
+**F2. Naspers/Prosus (MIH/PayU) exit, the key venture holder.** Fact: Form 4 filed 2026-03-13 shows a 12,000,000-share sale on 2026-03-12 at $15.98, leaving 13,441,745 (not 10b5-1; Naspers was a 10% holder before). The 13G/A of 2026-04-23 shows 6.4%. The 13G/A filed 2026-08-11 is an exit filing (0 shares, event date 06/02/2026). → Sources: https://www.sec.gov/Archives/edgar/data/1782170/000095015726000295/form4.xml (2026-03-13); https://www.sec.gov/Archives/edgar/data/1782170/000095015726000877/primary_doc.xml (2026-08-11) → Means: about $192M sold in one block at roughly 26% below today's $21.68; the remaining 1.44M shares left by June (price not disclosed; they were below 10%, so no Form 4). The overhang of the largest early investor is cleared; this is supportive for the price path. → Confidence: high on facts, medium on the sale price of the final 1.44M (not disclosed).
+
+**F3. Founder/director Hug: plan selling, steady, nearly finished.** Fact: Hug sold 1,051,992 shares in 35 Form 4 lines at an average of $23.37 (about $24.6M), all flagged 10b5-1. Plan adopted 2025-12-11, cap 1,014,439 shares, ends no later than 2027-03-31 (10-K Item 9B). Sales by month: Dec 2025 40.8k; Mar-Jun about 60-92k a month; Jul 688k (at about $24-26, the 2026 peak area); Aug-Nov 11k a month. Mar-Nov total is 1,011,216 shares, within 3k of the cap, so little is left under this plan. He also gifted 70,000 shares (2025-12-11), and pledges 2,000,000 shares for a personal credit line (DEF 14A, as of 2026-03-31). Latest holding 2,636,889 shares after the 2026-11-06 sale. → Sources: https://www.sec.gov/Archives/edgar/data/1782170/000162828026009038/rely-20251231.htm (2026-02-18); https://www.sec.gov/Archives/edgar/data/1782170/000178217026000048/rely-20260424.htm (2026-04-24) → Means: selling is pre-scheduled, front-loaded into strength, and mostly done. The pledge of 2M shares (about $43M at $21.68) is a forced-sale risk only if the price collapsed. Plan expiry or a new adoption (watch the 10-K, mid-Feb 2027) is the signal. → Confidence: high (note: whether the 40.8k December sales were under this plan or an earlier one is unconfirmed).
+
+**F4. Non-plan (discretionary) sales, small.** Fact: Riese (director) about 330,000 shares in Aug at $23.5-24.9; Morris (director) about 89,800 at $24-27 (May, Aug-Sep); Sinha (CPTO) 50,000 at $23.42 (2026-05-14); Chung (director) 12,000 at $21.42 (2026-05-20). No 10b5-1 box or footnote. Riese also sold 40,000 under a plan adopted 2025-03-11 (option exercise at $0.64). → Sources: https://www.sec.gov/Archives/edgar/data/1782170/000130769626000003/wk-form4_1786490295.xml (2026-08-11); https://www.sec.gov/Archives/edgar/data/1782170/000123804026000013/wk-form4_1788554672.xml (2026-09-04) → Means: Riese cut his direct stake from about 611k to 261k shares (-57%) near $24; that is a director taking money off at a higher price, not a cluster. Riese's post-sale direct stake: 261,094 to 311,094 (the Form 4 field was inconsistent). Morris still holds 1.80M. → Confidence: medium (post-sale totals come from the form's own column; not reconciled).
+
+**F5. Executives: plan and tax sales only; new CEO holds.** Fact: Mehta (CFO) sells 25,000 shares each quarter-vest under a plan (adopted 2025-11-21, cap 100,000): 3/3 at $17.50, 5/26 at $21.07, 8/25 at $26.15, and a Form 144 filed 2026-11-25 for 25,000 at about $21.46 (market value $536,500). Sharma (CBO) sold 82,000 and Somalya 83,727 via plans. New CEO Gunningham: Form 3 on 2026-02-23; grant of 787,500 RSUs on 2026-02-19; only tax-withholding disposals since (22,851 and 22,809 shares); he has bought no shares. Oppenheimer (founder, now director): one Form 4 in 12 months, a 10,185-RSU grant on 2026-06-10, holding 4,510,790 shares; no sales. New officers: Fung (CAO) Form 3 2026-04-03; director Messinger Form 3 2026-04-14 (no holdings). → Sources: https://www.sec.gov/Archives/edgar/data/1782170/000195004726011536/xsl144X01/primary_doc.xml (2026-11-25); https://www.sec.gov/Archives/edgar/data/1782170/000162828026009038/rely-20251231.htm (2026-02-18) → Means: the founder-CEO departure did not come with founder selling; Oppenheimer's 2.1% stake is untouched. The new CEO has no cash stake beyond awards. → Confidence: high.
+
+**F6. 10b5-1 adoptions.** Fact: Adopted in Q4 2025 (disclosed in the FY25 10-K): Sharma 2025-11-18 (124,000 shares, to 2027-02-28); Mehta 2025-11-21 (100,000); Sinha 2025-12-10 (63,906, to 2027-03-01); Hug 2025-12-11 (1,014,439, to 2027-03-31). Q1 and Q2 2026: none adopted, modified or ended. Q3 2026: director Blignaut adopted a plan 2026-08-11 for up to 7,000 shares (to 2027-03-31); he has sold 23,000 plan shares and filed a Form 144 on 2026-11-10 for 5,000 shares. → Sources: https://www.sec.gov/Archives/edgar/data/1782170/000162828026070142/rely-20260930.htm (2026-11-04); same 10-K (2026-02-18) → Means: all four insider plans were adopted at a time of share-price lows (about $12-$16) and the plans ran off through the 2026 rally; no new officer plans after the CEO change. → Confidence: high.
+
+**F7. 13D/13G.** Fact: No SC 13D (activist) filing in the record since the IPO window shown; only 13G/13G-A. 2026: FMR 5.1% (2026-05-06) then 10.3%, 21.76M shares (2026-07-08); BlackRock 8.3% (2026-07-29) then 9.6%, 20.28M (2026-10-27); Vanguard Portfolio Management new 5.99%, 12.70M (2026-10-30; the main Vanguard Group filed 0 on 2026-03-27 after a filer split, so not a real exit); Baillie Gifford 5.6% (2026-02-09) then 4.0% (2026-10-21, below 5%). → Sources: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1782170&type=SC+13 ; https://www.sec.gov/Archives/edgar/data/1782170/000002012383260038/ (via filing list) → Means: ownership has rotated from early venture and growth funds (Naspers, Baillie Gifford) to Fidelity and index. Nobody is building a control or activist stake. → Confidence: high (accession-level URLs for the 13Gs are in EDGAR submissions; they were read from primary_doc.xml for each).
+
+**F8. 13F changes (period 2026-09-30).** Fact: FMR 21.66M (-0.5%); BlackRock 21.03M (+14.8%); Vanguard Portfolio Mgmt 12.52M (+21.3%); Goldman Sachs 10.28M (+20.6%); Vanguard Capital Mgmt 9.01M (+12.7%); Baillie Gifford 8.47M (-31.6%); State Street 7.52M (+9.4%); Geode 5.02M; Divisadero Street Capital 4.97M (+33.6%); Generation Investment 3.92M (-19.9%). Institutions hold 96% of shares (508 holders). → Source: yFinance holders table, https://finance.yahoo.com/quote/RELY/holders (2026-11-27; 13F data as of 2026-09-30) → Means: the growth-fund exits (Baillie Gifford, Generation) coincide with the shift to value/index/Fidelity holders; no sign of a broad institutional exit. 13F data lags 45 days and can't show Q4 moves. → Confidence: medium (aggregator of 13F filings; not opened individually).
+
+**F9. Short interest.** Fact: 20,125,311 shares short on 2026-11-13 (9.94% of float 203.2M; 6.3 days of average volume 3.52M) versus 20,327,121 on 2026-10-15 (-1.0%). → Source: yFinance info for RELY, https://finance.yahoo.com/quote/RELY (2026-11-27) → Means: a sizeable but stable short position; it fits the fragile-trade fear in the thesis and gives a squeeze path if results hold. Only two data points were available, so a longer trend is unconfirmed. → Confidence: medium.
+
+## Coverage
+| Item | Status |
+|---|---|
+| Form 3 | covered (3 filed in 2026: Gunningham, Fung, Messinger) |
+| Form 4, open-market vs 10b5-1 vs tax/grant | covered (159 lines, 2025-11-12 to 2026-11-10; purchases: nothing_found) |
+| Form 5 | nothing_found (none in the submissions list) |
+| Form 144 (cross-check) | covered (latest: Mehta 2026-11-25, Blignaut 11-10, Hug 11-05/06) |
+| 10b5-1 plan adoptions | covered (10-K Item 9B and Q3 10-Q Item 5; Q1, Q2 nothing adopted) |
+| SC 13D | nothing_found |
+| SC 13G / 13G/A | covered (10 filings in 2026) |
+| 13F changes | covered via yFinance aggregator only (individual 13F filings not opened) |
+| Early venture investors | covered for Naspers (exited); other early VCs: nothing_found (none above 5% in the 2026 proxy table) |
+| Short interest | covered (2 data points only) |
+
+## Feedback
+none (no supplier or customer commentary in this layer).
+
+<!-- COMPLETE -->
