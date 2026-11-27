@@ -1,0 +1,188 @@
+{
+ "ticker": "EEFT",
+ "name": "Euronet Worldwide",
+ "industry": "payments",
+ "company_type": "Turnaround",
+ "business_model": "Transaction / take-rate platform",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Moves money and cash three ways: ATMs and card processing, prepaid mobile/digital content distribution, and cross-border transfers (Ria, Xe, Dandelion). Two plain sentences; model is clear.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "9M 2026 revenue $3,281M: Cross-Border $1,296M (39%), Payments Infrastructure (ATMs, Ren, merchant acquiring, CoreCard) $1,110M (34%), epay $882M (27%). 9M op income: PI $238M, epay $97M, Cross-Border $123M (-28%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002297/eeft-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "No customer above 10% of revenue in any segment; buyers are consumers, banks, retailers, mobile operators. Walmart is a named Ria sending agent.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "ATMs in 70 countries, largely Europe, Asia and Middle East; Ria strongest in US-outbound corridors. Translation risk: 2025 op income was 4.1% higher from FX, so a strong dollar now reverses that (euro avg +4% y/y in 9M, but euro -2% q/q).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Per-transaction fees plus FX margin; ATM fees and DCC (currency conversion) at the cash machine; prepaid commissions. Mostly paid per use, not subscription; digital accelerators are 26% of YTD revenue and +33%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "Q3 revenue +1% but op income -12%: costs are sticky (salaries and SG&A up). Capex $125.5M in 2025 (3% of revenue). Q3 guidance miss and outlook cut in October; investor-day targets from May revised after five months.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: bank/network sponsors and Visa/Mastercard rules for ATM interchange, agent networks (about 654,000 Ria locations), local payout partners, cash for ATMs ($913M ATM cash funded by debt), mobile operators and content brands for epay. No single supplier named as critical; chokepoints are card-network rules and payout partners. Cost pass-through: weak in remittance (Western Union has twice the revenue and price pressure), moderate in epay, limited in ATMs (cost inflation hit PI margin). Signal tags: dollar (translation), travel_airlines (tourist ATM volume), rates (ATM cash funding), regulation (remittance tax, DCC rules).",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002297/eeft-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 3,
+   "evidence": "Owned global payout network, Ren software, 'Dandelion' real-time payments rail, scale in ATMs. Doing differently: digital transactions in Cross-Border +34% to 8.1M in Q3; letter of intent with Diebold Nixdorf. Retail cash remittance edge is not strong against Western Union.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Ria and Euronet ATMs are visible to immigrant communities and tourists but are not a household name; people would switch ATM or sender with little notice.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 2,
+   "evidence": "Cross-Border transactions -2% to 45.3M while digital +34%; Western Union has about 2x Ria's revenue. ATMs +4% (59,688 installed), epay transactions +4%. Share in US retail remittance is under pressure from policy, not clearly from rivals.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002297/eeft-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Digital accelerators +33% YTD (Ria digital, merchant acquiring, Ren); CoreCard (acquired Q4 2025) lifts PI. Runway real but small against the retail remittance decline; 9M group revenue only +4.6%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "FCF (operating cash flow less capex) 2021-25: $314M, $644M, $549M, $616M, $434M; 9M 2026 about $161M vs $288M a year earlier. Bought back $200M in 9M 2026 (more than 9M FCF). Debt $2,177M, unrestricted cash $955M, investment-grade stated aim. Insiders hold 12.2% (CEO 6.8%). Pay: 40% cumulative adjusted op income, 24% adjusted EPS growth, 36% stock price. Rough ROIC about 11% vs 10% hurdle.",
+   "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001029199.json",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Retail cash remittance is a shrinking pool under US immigration and tax policy; ATM travel volume depends on tourists. Digital shift is under way, so not a Zoom case, but the cash-based core is losing relevance while the digital core is not yet big enough.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 5,
+   "evidence": "No 4.01 or 4.02 items, no NT filing, no material weakness (controls effective at 12/31/2025), one critical audit matter on revenue evidence (routine). Sept 2025 CORRESP was an S-4 acceleration request, not a comment letter. Adjusted measures exclude a small non-cash accrual only.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526000131/eeft-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: mixed (inflation helps nominal fees; strong dollar and tighter rates hurt translation and ATM cash cost). Slowdown: tourism and remittance volumes soften, but epay is steadier. Dollar +4.8% in 3 months is a headwind; outlook excludes further FX moves.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 2,
+   "evidence": "Cross-Border explicitly cites US immigration policy and the US remittance tax as the cause of the decline; Q3 not fully recovered ('market remains fragile'). DCC rules in the EU are a second exposure. No pending merger docket found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002297/eeft-20260930.htm",
+   "as_of": "2026-11-04"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 4,
+   "evidence": "Price $69.07 (market cap $2.54B, 36.7M shares). Reverse DCF at 10% discount, 3% terminal: on 2025 FCF of $434M the price implies FCF shrinking about 10% a year for 10 years; on $300M it implies -5%; flat FCF is justified only if FCF is about $215M. Own FCF growth 2021-25 was +8%/yr (but 2022-25 fell). Multiples: GAAP P/E 11.4 trailing; EV/adjusted EBITDA about 5.2x on $725M guide (EV about $3.76B before netting ATM cash). Peers: WU trailing P/E 6.0, RM 6.6. Own 5-year multiple range not computed; the stock is 53% below its 5-year high ($146).",
+   "source": "https://finance.yahoo.com/quote/EEFT",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "C",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "-",
+  "slowdown": "-"
+ },
+ "status": "watch",
+ "status_reason": "Price leaves a large cushion, but quality is C and earnings are still falling (Q3 op income -12%, outlook cut) until US remittance volumes turn.",
+ "the_mistake": "The market prices Euronet as one shrinking cash-remittance and tourist-ATM business; ATMs (+4%), epay (+3% revenue) and digital transfers (+34%) are growing and the stock implies cash flow falling about 10% a year. The risk is that the remittance drop is policy-driven and may last.",
+ "what_makes_market_notice": "Stabilising US remittance volumes (Q3 sequential decline already narrowed from -5% to -4%); Q4 2026 results (expected February 2027, date not confirmed); digital accelerators passing 30% of revenue.",
+ "feedback": [
+  {
+   "fact": "Management says US immigration-related pressure on remittances 'persisted longer than we anticipated', and the revised outlook cites FX conversion rate changes; ATM volumes face 'economic pressures on discretionary travel spend'. Supports Overheat-with-turn-risk: real consumer pressure and strong dollar are showing up in cross-border flows.",
+   "source": "https://www.sec.gov/Archives/edgar/data/1029199/000155485526002206/ex991_1.htm",
+   "as_of": "2026-10-27"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "10-Q": "Q3 2026 10-Q read in text; Q1 and Q2 2026 and Q3 2025 used via XBRL and filing list only.",
+  "presentation": "May 2026 investor day deck (8-K 7.01 EX-99.1) and Q3 slides not read; targets only known through the Q3 release.",
+  "ir_fact_sheet": "IR site ir.euronetworldwide.com not fetched.",
+  "red_flag_scan": "Filing list for 2024-2026 scanned: no 4.01, 4.02, NT; CORRESP of 2025-09-17 is S-4 acceleration; UPLOAD 2025-09-11 PDF not opened; 5.02 on 2026-04-28 is a director's death.",
+  "other": "Q3 release exhibit located via the filing's index.json (directory listing blocked)."
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 69.07,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/EEFT"
+ },
+ "complete": true
+}
