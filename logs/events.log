@@ -172,3 +172,5 @@
 2026-11-27T00:17:01+00:00	task_start	w5-RELY-dd-credit
 2026-11-27T00:17:12+00:00	task_done	w5-WEX-dd-regulatory
 2026-11-27T00:17:12+00:00	task_start	w5-RELY-dd-ownership
+2026-11-27T00:17:39+00:00	task_done	w5-RELY-dd-transcripts
+2026-11-27T00:17:39+00:00	task_start	w5-RELY-dd-peers
