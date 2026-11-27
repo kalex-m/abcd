@@ -1,0 +1,189 @@
+{
+ "ticker": "ACIW",
+ "name": "ACI Worldwide",
+ "industry": "payments",
+ "company_type": "Slow grower",
+ "business_model": "Subscription / recurring",
+ "reads": [
+  {
+   "n": 1,
+   "name": "What they do",
+   "score": 4,
+   "evidence": "Sells payments software to banks, merchants and billers (authorise, route and settle card, real-time and bill payments), and runs Speedpay bill pay for billers. Around 90 countries; no customer above 10% of revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 2,
+   "name": "What they sell",
+   "score": 4,
+   "evidence": "9M 2026 revenue $1,283M: SaaS/PaaS $805M (63%), licence $252M (20%), maintenance $153M (12%), services $73M (6%). Segments 9M: Payment Software $626M (49%), Biller $657M (51%). Recurring (SaaS+maintenance) = 75% of 9M revenue ($959M, +6%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 3,
+   "name": "Who buys",
+   "score": 4,
+   "evidence": "Banks, intermediaries, Tier 1-2 merchants and billers; 80,000+ merchants. No customer over 10% of revenue in 2023-2025 and none over 10% of receivables. Biller side is many billers, concentrated in utilities, insurance, government (not itemised).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 4,
+   "name": "Where they operate",
+   "score": 3,
+   "evidence": "US 63% of 9M 2026 revenue ($813M of $1,283M); other $470M, no single non-US country over 10%. 2,930 staff: 1,335 Americas, 819 EMEA, 776 APAC (Pune, Bangalore, Timisoara, Cape Town). Q3 non-US revenue fell 29% on licence timing. Dollar +4.8% over 3m is a translation drag.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 5,
+   "name": "Money model",
+   "score": 3,
+   "evidence": "Software: multi-year licence (lumpy, recognised up front) plus maintenance and SaaS; Biller: per-transaction fees, with interchange passed through (net revenue only $66M of $210M in Q3). Recurring share 69% in 2025, 75% 9M 2026. Two-sentence test passes but licence timing swings quarters (Q3 revenue -12%, adj EBITDA -43%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 6,
+   "name": "Operations",
+   "score": 3,
+   "evidence": "High fixed cost software base: Q3 adj EBITDA margin 35% vs 49% a year ago on a -12% revenue move, showing operating leverage both ways. Capex light: 9M PP&E plus software $37M (3% of revenue). Q3 up-front licence revenue means cash can lag. FY26 guide: revenue $1.895-1.925B, adj EBITDA raised to $550-565M, Q4 carries a large renewal concentration; guidance hit rate not fully tested (only the Nov raise checked).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000033/aciw-20261105_exx991.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 7,
+   "name": "Supply chain",
+   "score": 3,
+   "evidence": "Critical inputs: cloud hosting (Microsoft Azure and AWS, named as critical in 10-K risk factors; two suppliers, single points of failure for SaaS uptime), card networks and banks for biller interchange (Visa, Mastercard set fees; passed through to billers but 10-K warns ACI may have to absorb part), and engineers (Pune, Bangalore, Timisoara). Software and payments fees mostly pass through, but interchange spikes could be absorbed. Signal tags: rates (floating debt 5.74%, 10% rate move = $4.7M interest cost), dollar (non-US 37% of revenue), regulation (interchange rules), consumer spending nominal (biller volume).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 8,
+   "name": "Edge",
+   "score": 4,
+   "evidence": "Deep embedded switching for banks and Tier 1 merchants with high switching costs; 60-month backlog $7.37B (Payment Software $3.44B, Biller $3.94B), 71% of it assumed renewals. New: ACI Connetic cloud-native platform (first go-live, two more wins) and Cranium card-switching microservices acquisition (Oct 2026). Recurring-heavy but Payment Software recurring was -1% in Q3.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000033/aciw-20261105_exx991.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 9,
+   "name": "Everyday brand",
+   "score": 2,
+   "evidence": "Back-office software; end users rarely know it, though Speedpay is the pay screen for many bills and the engine behind many card networks and ATMs. Would be noticed if it vanished, but by banks, not the public. Sales and marketing $125M, 7% of 2025 revenue.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 10,
+   "name": "Rivals and share",
+   "score": 3,
+   "evidence": "10-K names in-house IT teams and larger processors (some are customers) as the main competition; larger rivals have bigger budgets. Share not disclosed. Evidence: net new ARR bookings TTM $79M (-3%) but Q3 +86% ($24M); new licence and services bookings TTM $238M (-22%). Mixed, not clearly gaining or losing.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000033/aciw-20261105_exx991.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 11,
+   "name": "Growth runway",
+   "score": 3,
+   "evidence": "Real-time schemes (FedNow, RTP, UK Faster Payments, TIPS, NPP) and Connetic modernisation; Speedpay ONE for billers. Guided FY26 revenue growth upper single digits, but TTM ARR bookings down 3% and 2025 revenue growth of 10% was lifted by licence timing. Market caps small ($5.1B) vs the slow moves of FIS/Fiserv.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000033/aciw-20261105_exx991.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 12,
+   "name": "Cash and leaders",
+   "score": 3,
+   "evidence": "2025: operating cash flow $323M less capex and software $33M = free cash flow about $290M (16% of revenue); 2024 $314M. ROIC not computed. Net debt $602M (1.3x adj EBITDA), $587M liquidity. Bought back 3.4M shares YTD for $157M at avg $45.69 (below today's $51.22). Stock comp $71M in 2025, up from $25M in 2023. Insiders own under 1% each; BlackRock 16%, Vanguard 13.6%. CEO resigned Nov 13; CFO Leibrock is interim CEO, board running a search.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 13,
+   "name": "Durability",
+   "score": 3,
+   "evidence": "Not losing relevance: recurring revenue up 4-6%, backlog up to $7.37B. Risks: disruption by cloud-native rivals and in-house IT; key-person gap (CEO left to run another public company, interim CEO is also CFO; Chair is Executive Chair); Q3 Payment Software recurring -1%.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000119312526466273/d197838d8k.htm",
+   "as_of": "2026-11-18"
+  },
+  {
+   "n": 14,
+   "name": "Red flags",
+   "score": 4,
+   "evidence": "No 4.01 or 4.02 items, no NT filings, no material weakness found in the 10-K controls report. Critical audit matter is licence revenue recognition (judgment-heavy, a flag for lumpy numbers). Last SEC comment letters May 2023 (older than 3 years by a few months); adjusted EBITDA adds back $54M stock comp YTD. CEO and CAO changes in Nov 2026.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 15,
+   "name": "Regime fit",
+   "score": 3,
+   "evidence": "Overheat: nominal biller volumes help; floating-rate debt and strong dollar hurt a little; interest income is tiny ($0.3M per 10% rate move), so little float benefit. Slowdown: recurring base steady, licence deals can slip, banks delay IT. Stagflation: banks cut spend but renewals stay. Not float-driven.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000035/aciw-20260930.htm",
+   "as_of": "2026-11-05"
+  },
+  {
+   "n": 16,
+   "name": "Rules and politics",
+   "score": 3,
+   "evidence": "Interchange rules and card-network fee changes touch biller economics (Visa/Mastercard fee hikes could be absorbed per 10-K). Real-time schemes are government-backed demand (FedNow). No pending docket or deal found.",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000011/aciw-20251231.htm",
+   "as_of": "2026-02-26"
+  },
+  {
+   "n": 17,
+   "name": "Price",
+   "score": 3,
+   "evidence": "Price $51.22 (11-25 close), market cap $5.13B, EV about $5.73B. Reverse DCF at 10% / 3%: on 2025 FCF ($290M) the price needs about 7% a year growth for 10 years; on FCF after stock comp ($225M) about 10%. Own FCF growth: 2020 $268M to 2025 $290M, 1.6% a year; 2021 to 2025 13% a year. EV/2026 adj EBITDA midpoint ($557M) about 10.3x; 2025 GAAP P/E 23.7x. 52-week range $38-$63. Peer and own-history multiples not pulled (price only), so cushion is modest not large.",
+   "source": "https://finance.yahoo.com/quote/ACIW",
+   "as_of": "2026-11-25"
+  }
+ ],
+ "business_quality": "B",
+ "attractiveness_now": "medium",
+ "regime_grid": {
+  "boom": "+",
+  "overheat": "0",
+  "stagflation": "0",
+  "slowdown": "0"
+ },
+ "status": "watch",
+ "status_reason": "Quality is B and the recurring base is real (75% of revenue, +6%), but the CEO just left (interim CFO-CEO), Payment Software recurring was -1% and the price assumes 7-10% FCF growth, so there is no clear cushion yet.",
+ "the_mistake": "The market reads the Q3 revenue (-12%) and EBITDA (-43%) drop as decay, but it is licence renewals pushed into Q4; recurring revenue is up 4-6% and guidance was raised. That mistake is only half proven: Payment Software recurring is flat to down and bookings are volatile.",
+ "what_makes_market_notice": "Q4 2026 results (about late Feb 2027) with guided $612-642M revenue and $257-272M adj EBITDA showing the renewal catch-up; a permanent CEO appointment.",
+ "feedback": [
+  {
+   "note": "Biller interchange optimisation and rates: floating debt 5.74%, little float income; no direct supplier or customer commentary confirming or contradicting the Overheat-to-Slowdown read. Banks still buying (Q3 ARR bookings +86%).",
+   "source": "https://www.sec.gov/Archives/edgar/data/935036/000093503626000033/aciw-20261105_exx991.htm",
+   "as_of": "2026-11-05"
+  }
+ ],
+ "coverage": {
+  "10-K": "covered",
+  "10-Q": "covered",
+  "earnings_release": "covered",
+  "presentation": "unreachable",
+  "ir_fact_sheet": "unreachable",
+  "def14a": "covered",
+  "red_flag_scan": "covered",
+  "price": "covered"
+ },
+ "coverage_notes": {
+  "presentation": "EX-99.2 deck listed in the 8-K but not read; no IR site fetch done in this pass",
+  "ir_fact_sheet": "not fetched; IR site not reached",
+  "red_flag_scan": "submissions list checked for 4.01/4.02, NT, CORRESP/UPLOAD (last May 2023); Items 5.02 read for Nov 2026 CEO change",
+  "def14a": "2026 proxy read for ownership; pay-metric details not read",
+  "guidance_hit_rate": "only Nov 2026 guidance raise checked",
+  "peers_multiples": "peer and 5-year own multiples not pulled"
+ },
+ "as_of": "2026-11-26",
+ "price_used": {
+  "price": 51.22,
+  "as_of": "2026-11-25",
+  "source": "https://finance.yahoo.com/quote/ACIW"
+ },
+ "complete": true
+}

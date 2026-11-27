@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-26T23:59:07+00:00",
+  "heartbeat": "2026-11-26T23:59:49+00:00",
   "current_wave": 4,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -777,10 +777,10 @@
         "industry": "payments"
       },
       "output": "runs/20261126-full_hunt/triage/WEX.json",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
-      "last_error": "interrupted (usage limit)",
-      "updated": "2026-11-26T23:56:24+00:00"
+      "last_error": null,
+      "updated": "2026-11-26T23:59:49+00:00"
     },
     {
       "id": "w4-AFRM",
