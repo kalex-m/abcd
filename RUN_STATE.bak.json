@@ -1263,10 +1263,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/deepdive/INTU/dd-diff.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-28T01:05:26+00:00"
     }
   ],
   "notes": [
