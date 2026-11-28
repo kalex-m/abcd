@@ -1,9 +1,9 @@
 {
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
-  "status": "running",
-  "heartbeat": "2026-11-28T01:21:16+00:00",
-  "current_wave": 5,
+  "status": "complete",
+  "heartbeat": "2026-11-28T01:28:42+00:00",
+  "current_wave": 8,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
     {
@@ -1341,10 +1341,21 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/redteam/INTU.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-28T01:15:05+00:00"
+      "updated": "2026-11-28T01:27:37+00:00"
+    },
+    {
+      "id": "s8-reports",
+      "wave": 8,
+      "agent": "main-thread",
+      "input": {},
+      "output": "runs/20261126-full_hunt/SUMMARY.md",
+      "status": "done",
+      "attempts": 0,
+      "last_error": null,
+      "updated": "2026-11-28T01:28:41+00:00"
     }
   ],
   "notes": [
@@ -1362,6 +1373,8 @@
     "Borderline add (strongest): INTU (B, attractiveness HIGH; price implies ~2%/yr FCF growth vs 22% 5-yr; GBS ~56% of segment op income growing 15%; kept Watch for real consumer-side AI/share pressure: Credit Karma guide cut to +3-7%, TurboTax price cuts).",
     "Borderline add: AXP (A, medium; price needs ~7%/yr earnings growth vs networks ~15%; P/E de-rated 23.8x->17.6x while guidance raised; Q3 EPS helped by tax and reserve release).",
     "Wave 4 complete 51/51: survived SYF, WEX, RELY; INTU promoted by main thread (see STATUS_REVIEW.md); dropped CP, HUBG; rest watch",
-    "WEX demoted survived->watch mid-Wave 5 (fuel lift, Benefits slowing); 4 remaining layers cancelled; dd-regulatory already running is allowed to finish"
-  ]
+    "WEX demoted survived->watch mid-Wave 5 (fuel lift, Benefits slowing); 4 remaining layers cancelled; dd-regulatory already running is allowed to finish",
+    "Step 8: final survivors INTU only; SYF (broken) and RELY (cushion gone) to watch; regime confidence raised to medium on feedback"
+  ],
+  "completed": "2026-11-28T01:28:42+00:00"
 }

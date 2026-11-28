@@ -4,8 +4,8 @@
   "complete": true,
   "regime": "overheat",
   "label": "Overheat in the hard data, markets pricing a turn toward Slowdown",
-  "confidence": "low-medium",
-  "why": "Official data shows growth rising (Q3 GDP revised to 4.3%, ISM manufacturing 55.5, services 54.5, claims 189k) and inflation rising (Oct PCE 3.8% y/y, core 3.3%). Markets disagree: oil -18% in 1m, 10y breakeven down 22bp to 2.12%, copper -18%, HY spreads widest of 2026 at 3.72%, cyclicals/defensives -10% over 3m, VIX 28. Markets are the early warning, hard data the confirmation (CLAUDE.md 4.2), so the working read is late Overheat with a live Slowdown transition risk.",
+  "confidence": "medium",
+  "why": "Official data shows growth rising (Q3 GDP revised to 4.3%, ISM manufacturing 55.5, services 54.5, claims 189k) and inflation rising (Oct PCE 3.8% y/y, core 3.3%). Markets disagree: oil -18% in 1m, 10y breakeven down 22bp to 2.12%, copper -18%, HY spreads widest of 2026 at 3.72%, cyclicals/defensives -10% over 3m, VIX 28. Markets are the early warning, hard data the confirmation (CLAUDE.md 4.2), so the working read is late Overheat with a live Slowdown transition risk. Step 8 feedback: company filings and calls (123 feedback entries, 18 confirm / 12 contradict) show no slowdown yet in rail volumes or card credit, so the hard-data Overheat read gains confidence (low-medium \u2192 medium); the market's Slowdown call remains the main transition risk, with first soft spots in carloads, imports and immigrant remittances.",
   "transition_risk": {
     "to": "slowdown",
     "probability": "meaningful",
@@ -58,5 +58,31 @@
     "Homebuilders not depressed in price (ITB +8.8% 1m) but fundamentals are"
   ],
   "sources": "see runs/20261126-full_hunt/wave1/macro.md and markets.md (every figure there carries its URL and as-of date)",
-  "feedback_applied": []
+  "feedback_applied": [
+    {
+      "from": "railroads map, UNP/CSX/CNI triage",
+      "finding": "No volume slowdown through Q3 or AAR week of Nov 21; soft spots: carloads faded to +0.5%, grain/coal down, NRF sees imports turning down from January",
+      "effect": "confirms hard-data Overheat; slowdown not yet in company data"
+    },
+    {
+      "from": "banks and payments maps, TFC triage, SYF/peers deep dive",
+      "finding": "Card credit has not turned: AXP write-offs 1.8% (down), COF/AXP/Bread charge-offs and delinquency below last year; SYF management expects higher 2027 charge-offs",
+      "effect": "credit-spread widening not yet visible in lender data; watch 2027"
+    },
+    {
+      "from": "rail triage (UNP, CSX, CNI), HUBG",
+      "finding": "Q3 fuel expense +56% to +77% y/y; surcharges lag ~2 months; Hub Group says fuel and rail costs ran ahead of pricing in H1 2026",
+      "effect": "cheaper oil helps transport only from Q1 2027; late-Overheat cost squeeze confirmed"
+    },
+    {
+      "from": "WEX deep dive",
+      "finding": "93% of WEX's 2026 EPS guidance raise came from fuel prices",
+      "effect": "confirms energy-driven nominal inflation in 2026 earnings"
+    },
+    {
+      "from": "RELY deep dive and red team",
+      "finding": "Remittance tax pulled forward H1 2026 customer acquisition; net customer adds slowed to +144k in Q3 vs +345k",
+      "effect": "immigrant-sender demand softening; consumer-side caution"
+    }
+  ]
 }

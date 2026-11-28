@@ -14,6 +14,20 @@
       "by": "main thread",
       "as_of": "2026-11-27",
       "reason": "Mistake disappeared in deep dive (3 of 3 completed layers weaken): 93% of the 2026 adjusted-EPS guidance raise is fuel by WEX's own label; at 2025 fuel prices the multiple is ~10.5x not 8.6x; Benefits segment profit +4.9% over 9M 2026 (Q3 +0.9%), not ~11%; GAAP EPS 41% below adjusted; activist director sold ~250,500 shares in Nov 2026. CLAUDE.md 6.6: mistake gone -> Watch."
+    },
+    "SYF": {
+      "from": "survived",
+      "to": "watch",
+      "by": "main thread (Step 8, red team)",
+      "as_of": "2026-11-28",
+      "reason": "Red team: broken. The cushion only exists at a 10% cost of equity; SYF's own perpetual preferred yields 8.3\u20138.4% and the common has never priced below ~11% since the 2014 IPO; at 11% the probability-weighted value is \u22122%. A 10% card-rate cap now has presidential and incoming-majority backing, and partners can terminate early on such a change in law. Capital above the 11% CET1 target is ~$2B, not $6.2B. CLAUDE.md 6.7: broken \u2192 Watch."
+    },
+    "RELY": {
+      "from": "survived",
+      "to": "watch",
+      "by": "main thread (Step 8, red team)",
+      "as_of": "2026-11-28",
+      "reason": "Red team: weakened, and the cushion disappeared: with diluted shares (223.6M), 2027 at management's 16% low end and a charge for customer-funds capital, base value is $20.2\u2013$23.5 (\u22127% to +8% vs $21.84). The mistake is not shown: the 2026-11-05 drop followed a slowdown in net customer adds (+144k vs +345k a year earlier). CLAUDE.md 6.6: cushion gone \u2192 Watch."
     }
   }
 }

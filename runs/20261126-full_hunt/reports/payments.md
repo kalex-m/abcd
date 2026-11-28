@@ -1,8 +1,8 @@
 # Payments industry report · 20261126-full_hunt
 
-Payments · 19 triaged · 2 survived · 17 watch · 0 dropped
+Payments · 19 triaged · 1 survived · 18 watch · 0 dropped
 
-**Regime:** Overheat in the hard data, markets pricing a turn toward Slowdown (confidence low-medium)
+**Regime:** Overheat in the hard data, markets pricing a turn toward Slowdown (confidence medium)
 
 ## How money flows
 A card payment has five hands. The cardholder taps a card or wallet. The merchant's acquirer or processor (Fiserv/Clover, Global Payments/Worldpay, Shift4, Toast, Block/Square, Adyen) takes the request and sends it over a network (Visa or Mastercard) to the cardholder's issuing bank, which approves it and later settles. The merchant pays a 'merchant discount' of roughly 1.5-3% of the sale. Most of that is interchange, paid to the issuer, plus a small network fee to Visa or Mastercard; the acquirer keeps the rest. Networks are toll roads: they earn a few hundredths of a percent on every dollar (Mastercard: about $9.8B of net revenue on about $3.0T of volume in Q3, roughly 0.33%, my calculation) plus fees on cross-border and value-added services, and they carry no credit risk. American Express is a closed loop: it is network, issuer and lender at once, so it also earns card fees and interest and carries credit losses. Behind the banks sit the cores (FIS, Fiserv, Jack Henry) that run deposits and card accounts and charge recurring fees, and switching software (ACI). Consumer fintechs add other loops: PayPal and Cash App wallets earn a take rate and interest on balances; Affirm lends at point of sale and lives on the spread over funding cost; Corpay, WEX and BILL move business money and fuel-card spend; Western Union, Euronet and Remitly move cross-border cash and earn a fee plus an FX margin. Because networks and processors are paid as a percent of nominal dollars, inflation lifts their revenue even when real spending is flat; a strong dollar trims cross-border and translated foreign revenue; higher rates raise float income but also raise funding costs for lenders like Affirm.
@@ -16,18 +16,18 @@ A card payment has five hands. The cardholder taps a card or wallet. The merchan
 | V | Visa Inc. | Stalwart | A | low | **watch** | Quality A, but the price needs about 15% a year owner-cash-flow growth for 10 years against about 9% history, and no clear market misreading to exploit. |
 | MA | Mastercard | Stalwart | A | low | **watch** | Excellent business, but today's price needs about 16% FCF growth for 10 years, matching its best run, so there is no cushion and no mispricing. |
 | PYPL | PayPal Holdings | Turnaround | B | medium | **watch** | Quality B and a real price cushion (about 12% FCF yield), but branded-checkout share trend is unquantified and the 2% transaction-margin growth does not yet sho |
-| INTU | Intuit Inc. | Stalwart | B | high | **survived** | Quality B; price needs ~2%/yr owner FCF growth vs ~22% 5-yr; mistake identified (GBS ~56% of segment op income growing ~15%, priced as AI victim); dated catalys |
+| INTU | Intuit Inc. | Stalwart | B | high | **survived** | Red team: weakened (valuation holds; owner-FCF base conservative). Price assumes ~3%/yr owner FCF growth vs base ~8% fading to 4%; base value $348 vs $271.94 (+ |
 | AXP | American Express | Stalwart | A | medium | **watch** | Quality A and the price needs only about 7% a year earnings growth (networks need about 15%), but no mistake is proven: Q3 EPS was helped by a tax benefit and a |
 | XYZ | Block, Inc. (formerly Square, Inc.; NYSE: XYZ; CIK 1512673) | Fast grower | B | medium | **watch** | Quality B and the price is reasonable on guided adjusted profit (18x), but the credit loss test in a slowdown is unproven, a DOJ anti-money-laundering deal is n |
 | TOST | Toast, Inc. | Fast grower | B | medium | **watch** | Quality is B and growth and profit are real, but price needs about 12-18% yearly cash-flow growth for ten years, the FTC sued on Oct 29 and the CFO is leaving,  |
 | FOUR | Shift4 Payments | Fast grower | B | medium | **watch** | Organic growth is real (9-10%) and the price implies shrinking cash flow, but 3.8x net leverage, a guidance cut and large non-GAAP add-backs leave the cushion u |
 | JKHY | Jack Henry & Associates | Stalwart | B | low | **watch** | Quality B and a real share-gainer, but the price already assumes about 10% a year FCF growth for 10 years, matching its past, so there is no cushion and no clea |
 | CPAY | Corpay, Inc. (formerly FLEETCOR) | Stalwart | B | medium | **watch** | Quality is B and growth is strong, but the stock is up ~62% from its low to near the 52-week high, no clear misread is left, and the FTC consent order and BILL  |
-| WEX | WEX Inc. | Cyclical | B | medium | **watch** | Mistake disappeared in deep dive (3 of 3 completed layers weaken): 93% of the 2026 adjusted-EPS guidance raise is fuel by WEX's own label; at 2025 fuel prices t |
+| WEX | WEX Inc. | Cyclical | B | medium | **watch** | Demoted mid-Wave 5: 93% of the 2026 guidance raise is fuel by WEX's own label; ~10.5x at 2025 fuel prices; Benefits +4.9% not ~11%; FDIC consent order on WEX Ba |
 | AFRM | Affirm Holdings | Fast grower | B | medium | **watch** | Quality B and growth strong, but the price leaves only a thin cushion in a regime where funding spreads are widening and delinquencies are rising, and no clear  |
 | WU | The Western Union Company | Turnaround | C | medium | **watch** | Cheap (about 4x forward earnings, price assumes -7%/yr FCF decline) but quality is C, the dividend is not covered by free cash flow, and no mistake is identifia |
 | EEFT | Euronet Worldwide | Turnaround | C | medium | **watch** | Price leaves a large cushion, but quality is C and earnings are still falling (Q3 op income -12%, outlook cut) until US remittance volumes turn. |
-| RELY | Remitly Global | Fast grower | B | high | **survived** | Quality B, net cash, price needs only about 5-9% FCF growth against 20%+ delivered, and the mistake and catalyst are identifiable; risks (policy, take-rate, sto |
+| RELY | Remitly Global | Fast grower | B | high | **watch** | Red team: weakened, and the cushion disappeared: with diluted shares (223.6M), 2027 at management's 16% low end and a charge for customer-funds capital, base va |
 | ACIW | ACI Worldwide | Slow grower | B | medium | **watch** | Quality is B and the recurring base is real (75% of revenue, +6%), but the CEO just left (interim CFO-CEO), Payment Software recurring was -1% and the price ass |
 | BILL | BILL Holdings | Stalwart | – | – | not_triaged | named in brief; take-private agreed 2026-11-19 at $63.25 cash (TPG, Corpay minority), price pinned to the deal |
 | MQ | Marqeta | Turnaround | – | – | not_triaged | US-listed payments name not in brief; tag provisional, not researched |
@@ -56,7 +56,7 @@ A card payment has five hands. The cardholder taps a card or wallet. The merchan
 
 ## Survivors
 - **INTU**: survived · see `theses/INTU.md`, red team `redteam/INTU.md`
-- **RELY**: survived · see `theses/RELY.md`, red team `redteam/RELY.md`
+- **RELY**: watch · see `theses/RELY.md`, red team `redteam/RELY.md`
 
 Charts and full coverage are in `payments.html`.
 

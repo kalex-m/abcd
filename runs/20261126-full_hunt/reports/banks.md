@@ -1,8 +1,8 @@
 # Banks industry report · 20261126-full_hunt
 
-Banks · 20 triaged · 1 survived · 19 watch · 0 dropped
+Banks · 20 triaged · 0 survived · 20 watch · 0 dropped
 
-**Regime:** Overheat in the hard data, markets pricing a turn toward Slowdown (confidence low-medium)
+**Regime:** Overheat in the hard data, markets pricing a turn toward Slowdown (confidence medium)
 
 ## How money flows
 US banks take in money as deposits (about $19.8 trillion across all US commercial banks in the Fed's weekly H.8 data, week of Nov 11) and borrow in wholesale markets, then earn money three ways. (1) Spread: they lend and buy securities at higher rates than they pay depositors; this is net interest income (NII), measured as net interest margin (NIM). Loans are about $14.3 trillion and securities about $5.9 trillion. (2) Fees: cards and payments, wealth and asset management, investment banking, custody and service charges. (3) Trading: the big investment banks (GS, MS, and the trading desks at JPM, BAC, C) earn client trading and financing revenue that swings with market volume and volatility. Offsetting costs are credit losses (charge-offs and reserve builds), staff and technology, deposit interest, and the capital that regulators force them to hold. Right now the picture is: NII is still growing (JPM +13%, BAC +8%, C +14%, USB +6%, CFG +13% year on year in Q3) because old low-yield loans and bonds keep repricing up while deposit costs fell over the past year. But deposit costs ticked up 2-3 basis points in Q3 at TFC, HBAN, KEY, CFG and COF, the first sign that the Fed's hiking bias is reaching deposit prices. Credit is fine in aggregate (net charge-offs flat or falling at most banks) but reserves are being built at the wholesale-heavy banks (JPM +$539M, C +$369M, GS provision $368M, up 261% from Q2) and released at consumer and regional banks (COF, PNC, TFC, BAC consumer). Trading is the swing line: equities trading is at record-level (GS +72% year on year, MS +41%) while fixed income fell (GS FICC -24% from Q2), and that is the piece the market is selling. The cycle: loan growth is 6-9% annualized, spreads on high-yield bonds are widening (3.72%), the Fed leans to hike on Dec 8-9, and the 10-year is 4.85%. A hike with a slowing consumer is the squeeze: funding costs rise before loan growth does.
@@ -22,7 +22,7 @@ US banks take in money as deposits (about $19.8 trillion across all US commercia
 | PNC | The PNC Financial Services Group | Stalwart | B | medium | **watch** | Quality B and ROTCE 18.3%, but 2.05x tangible book needs ~17.3% ROTCE for ever, so the price leaves about a 1-point cushion and the NII repricing is already in  |
 | JPM | JPMorgan Chase & Co. | Stronghold | A | low | **watch** | Quality A, but 2.81x tangible book already assumes about 22.7% ROTCE against a 20-21% run rate, so no cushion; no clear market mistake. |
 | C | Citigroup | Turnaround | C | medium | **watch** | Price asks only ~10.8% RoTCE vs 11.5% now, but quality is C until returns beat the 10% cost of equity for several quarters and the 2020 consent orders end; no k |
-| SYF | Synchrony Financial | Cyclical | B | medium | **survived** | Quality B; price implies 14% ROTCE against 24-25% earned (and about 18% in 2023's bad credit year); credit is improving y/y; close call because EPS fell 6% in Q |
+| SYF | Synchrony Financial | Cyclical | B | medium | **watch** | Red team: broken. The cushion only exists at a 10% cost of equity; SYF's own perpetual preferred yields 8.3–8.4% and the common has never priced below ~11% sinc |
 | FITB | Fifth Third Bancorp | Stalwart | B | medium | **watch** | Quality B and a clean integration so far, but at 2.35x tangible book (priciest regional, above its own 5-year range) the price already needs ~19.4% ROTCE vs 20. |
 | MTB | M&T Bank Corporation | Stalwart | B | medium | **watch** | Quality B and ROTCE 17.3%, but 1.86x tangible book (above its own 2021-25 range) needs about 16.0% ROTCE for ever, so the cushion is about 1 point, and I found  |
 | KEY | KeyCorp | Turnaround | C | medium | **watch** | Recovery is real (ROTCE 15.1% vs 12.5% a year ago, credit improving) but at 1.64x tangible book the price already assumes about 14.5% ROTCE against a 15%+ targe |
@@ -46,7 +46,7 @@ US banks take in money as deposits (about $19.8 trillion across all US commercia
 - **Capital-markets revenue mix (GS, MS, BAC)**: GS Q3: equities $6,441M (+72% yoy, -13% QoQ), FICC $3,471M (-1% yoy, -24% QoQ), investment banking $3,224M (+21% yoy, -5% QoQ); MS equity $5,799M, fixed income $2,011M, IB $2,159M; BAC sales and trading $5.1B (-5% yoy), IB fees $1.8B (-11% yoy) (prior MS Q3 2025: equity $4,116M, FI $2,169M, IB $2,108M) · [source](https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/a3q26gsearningsresultspr.htm ; https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm ; https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm) 2026-09-30
 
 ## Survivors
-- **SYF**: survived · see `theses/SYF.md`, red team `redteam/SYF.md`
+- **SYF**: watch · see `theses/SYF.md`, red team `redteam/SYF.md`
 
 Charts and full coverage are in `banks.html`.
 

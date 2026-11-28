@@ -1,0 +1,54 @@
+{
+  "complete": true,
+  "as_of": "2026-11-28",
+  "survivors": {
+    "INTU": {
+      "final_status": "survived",
+      "final_reason": "Red team: weakened (valuation holds; owner-FCF base conservative). Price assumes ~3%/yr owner FCF growth vs base ~8% fading to 4%; base value $348 vs $271.94 (+28%). The mistake covers the GBS half only; Consumer is eroding.",
+      "kill_switch": [
+        "Q2 FY2027 results (late Feb 2027): GBS like-for-like revenue growth below 10%, or the FY2027 GBS guide cut below +13%.",
+        "FY2027 tax season (Q3 FY2027 results, ~May 2027): US TurboTax units down more than 5% year over year (faster than the ~3%/yr trend).",
+        "Mailchimp sale blocked or the ~$3.3B proceeds not returned through FY2027 buybacks.",
+        "FY2027 owner FCF (FCF minus stock pay) below $4.5B.",
+        "Online paid small-business customers turn negative while GBS growth relies on price."
+      ],
+      "sizing": {
+        "conviction": "low",
+        "main_risk": "Consumer erosion accelerates while GBS growth is price-led on ~4% customer growth (both exposed to AI substitutes); GBS segment margin excludes product development and support costs.",
+        "add_if": "Q2 FY2027 shows GBS +13\u201314% with customer growth improving, and TurboTax units stabilise in the May 2027 season."
+      },
+      "watch_signals": [
+        "IRS filing-season statistics (weekly from late January 2027): self-prepared e-files vs TurboTax units",
+        "Lane B: INTU vs IGV software ETF relative strength; any open-market insider buying (divergence and behaviour-change scanners)",
+        "Lane A: real consumer spending and small-business activity (ISM services, retail sales)",
+        "HSR clearance for the Mailchimp sale; Credit Karma growth vs the +3\u20137% guide"
+      ]
+    },
+    "SYF": {
+      "final_status": "watch",
+      "final_reason": "Red team: broken. The cushion only exists at a 10% cost of equity; SYF's own perpetual preferred yields 8.3\u20138.4% and the common has never priced below ~11% since the 2014 IPO; at 11% the probability-weighted value is \u22122%. A 10% card-rate cap now has presidential and incoming-majority backing, and partners can terminate early on such a change in law. Capital above the 11% CET1 target is ~$2B, not $6.2B. CLAUDE.md 6.7: broken \u2192 Watch.",
+      "back_to_survived_if": [
+        "Rate-cap bills (S.381 / H.R.1944) stall after the new Congress sets its 2027 agenda",
+        "Price falls to ~1.2x TBV (~$51) while ROTCE stays above 20%",
+        "Early delinquency (30+) falls clearly below last year for 3 months"
+      ]
+    },
+    "RELY": {
+      "final_status": "watch",
+      "final_reason": "Red team: weakened, and the cushion disappeared: with diluted shares (223.6M), 2027 at management's 16% low end and a charge for customer-funds capital, base value is $20.2\u2013$23.5 (\u22127% to +8% vs $21.84). The mistake is not shown: the 2026-11-05 drop followed a slowdown in net customer adds (+144k vs +345k a year earlier). CLAUDE.md 6.6: cushion gone \u2192 Watch.",
+      "back_to_survived_if": [
+        "Price below ~$17 with growth still in the high teens",
+        "Net customer adds re-accelerate above 300k a quarter",
+        "Buybacks exceed stock-based pay for two quarters"
+      ]
+    },
+    "WEX": {
+      "final_status": "watch",
+      "final_reason": "Demoted mid-Wave 5: 93% of the 2026 guidance raise is fuel by WEX's own label; ~10.5x at 2025 fuel prices; Benefits +4.9% not ~11%; FDIC consent order on WEX Bank; activist director selling.",
+      "back_to_survived_if": [
+        "Benefits profit growth back above 10%",
+        "Price implies <8x earnings at normal fuel prices"
+      ]
+    }
+  }
+}
