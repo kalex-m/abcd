@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-28T01:03:18+00:00",
+  "heartbeat": "2026-11-28T01:04:36+00:00",
   "current_wave": 5,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -1172,10 +1172,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/deepdive/INTU/dd-edgar.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
-      "last_error": "interrupted (usage limit, resets 04:50 UTC)",
-      "updated": "2026-11-28T01:01:45+00:00"
+      "last_error": null,
+      "updated": "2026-11-28T01:04:36+00:00"
     },
     {
       "id": "w5-INTU-dd-ir",
@@ -1237,10 +1237,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/deepdive/INTU/dd-ownership.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-28T01:04:36+00:00"
     },
     {
       "id": "w5-INTU-dd-peers",
