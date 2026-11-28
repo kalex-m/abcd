@@ -1,0 +1,63 @@
+# Payments industry report · 20261126-full_hunt
+
+Payments · 19 triaged · 2 survived · 17 watch · 0 dropped
+
+**Regime:** Overheat in the hard data, markets pricing a turn toward Slowdown (confidence low-medium)
+
+## How money flows
+A card payment has five hands. The cardholder taps a card or wallet. The merchant's acquirer or processor (Fiserv/Clover, Global Payments/Worldpay, Shift4, Toast, Block/Square, Adyen) takes the request and sends it over a network (Visa or Mastercard) to the cardholder's issuing bank, which approves it and later settles. The merchant pays a 'merchant discount' of roughly 1.5-3% of the sale. Most of that is interchange, paid to the issuer, plus a small network fee to Visa or Mastercard; the acquirer keeps the rest. Networks are toll roads: they earn a few hundredths of a percent on every dollar (Mastercard: about $9.8B of net revenue on about $3.0T of volume in Q3, roughly 0.33%, my calculation) plus fees on cross-border and value-added services, and they carry no credit risk. American Express is a closed loop: it is network, issuer and lender at once, so it also earns card fees and interest and carries credit losses. Behind the banks sit the cores (FIS, Fiserv, Jack Henry) that run deposits and card accounts and charge recurring fees, and switching software (ACI). Consumer fintechs add other loops: PayPal and Cash App wallets earn a take rate and interest on balances; Affirm lends at point of sale and lives on the spread over funding cost; Corpay, WEX and BILL move business money and fuel-card spend; Western Union, Euronet and Remitly move cross-border cash and earn a fee plus an FX margin. Because networks and processors are paid as a percent of nominal dollars, inflation lifts their revenue even when real spending is flat; a strong dollar trims cross-border and translated foreign revenue; higher rates raise float income but also raise funding costs for lenders like Affirm.
+
+## Every company
+| Ticker | Name | Type | Quality | Attract. | Status | Reason |
+|---|---|---|---|---|---|---|
+| GPN | Global Payments | Turnaround | B | medium | **watch** | Quality B and EV/EBITDA near 7.6x leaves some cushion, but I found no clear market mistake and the cash flow is not yet proven after Worldpay; the 13D is a poss |
+| FIS | Fidelity National Information Services | Turnaround | B | medium | **watch** | Quality is B and the price leaves a large cushion, but the cause of the Q3 growth slowdown, client retention and win/loss data could not be confirmed (no call t |
+| FISV | Fiserv, Inc. (Nasdaq: FISV; CIK 0000798354) | Turnaround | C | medium | **watch** | Quality is below B (earnings power and execution unproven) so it cannot survive; no kill-switch rule holds (FCF positive, no 4.02, debt maturities covered by ca |
+| V | Visa Inc. | Stalwart | A | low | **watch** | Quality A, but the price needs about 15% a year owner-cash-flow growth for 10 years against about 9% history, and no clear market misreading to exploit. |
+| MA | Mastercard | Stalwart | A | low | **watch** | Excellent business, but today's price needs about 16% FCF growth for 10 years, matching its best run, so there is no cushion and no mispricing. |
+| PYPL | PayPal Holdings | Turnaround | B | medium | **watch** | Quality B and a real price cushion (about 12% FCF yield), but branded-checkout share trend is unquantified and the 2% transaction-margin growth does not yet sho |
+| INTU | Intuit Inc. | Stalwart | B | high | **survived** | Quality B; price needs ~2%/yr owner FCF growth vs ~22% 5-yr; mistake identified (GBS ~56% of segment op income growing ~15%, priced as AI victim); dated catalys |
+| AXP | American Express | Stalwart | A | medium | **watch** | Quality A and the price needs only about 7% a year earnings growth (networks need about 15%), but no mistake is proven: Q3 EPS was helped by a tax benefit and a |
+| XYZ | Block, Inc. (formerly Square, Inc.; NYSE: XYZ; CIK 1512673) | Fast grower | B | medium | **watch** | Quality B and the price is reasonable on guided adjusted profit (18x), but the credit loss test in a slowdown is unproven, a DOJ anti-money-laundering deal is n |
+| TOST | Toast, Inc. | Fast grower | B | medium | **watch** | Quality is B and growth and profit are real, but price needs about 12-18% yearly cash-flow growth for ten years, the FTC sued on Oct 29 and the CFO is leaving,  |
+| FOUR | Shift4 Payments | Fast grower | B | medium | **watch** | Organic growth is real (9-10%) and the price implies shrinking cash flow, but 3.8x net leverage, a guidance cut and large non-GAAP add-backs leave the cushion u |
+| JKHY | Jack Henry & Associates | Stalwart | B | low | **watch** | Quality B and a real share-gainer, but the price already assumes about 10% a year FCF growth for 10 years, matching its past, so there is no cushion and no clea |
+| CPAY | Corpay, Inc. (formerly FLEETCOR) | Stalwart | B | medium | **watch** | Quality is B and growth is strong, but the stock is up ~62% from its low to near the 52-week high, no clear misread is left, and the FTC consent order and BILL  |
+| WEX | WEX Inc. | Cyclical | B | medium | **watch** | Mistake disappeared in deep dive (3 of 3 completed layers weaken): 93% of the 2026 adjusted-EPS guidance raise is fuel by WEX's own label; at 2025 fuel prices t |
+| AFRM | Affirm Holdings | Fast grower | B | medium | **watch** | Quality B and growth strong, but the price leaves only a thin cushion in a regime where funding spreads are widening and delinquencies are rising, and no clear  |
+| WU | The Western Union Company | Turnaround | C | medium | **watch** | Cheap (about 4x forward earnings, price assumes -7%/yr FCF decline) but quality is C, the dividend is not covered by free cash flow, and no mistake is identifia |
+| EEFT | Euronet Worldwide | Turnaround | C | medium | **watch** | Price leaves a large cushion, but quality is C and earnings are still falling (Q3 op income -12%, outlook cut) until US remittance volumes turn. |
+| RELY | Remitly Global | Fast grower | B | high | **survived** | Quality B, net cash, price needs only about 5-9% FCF growth against 20%+ delivered, and the mistake and catalyst are identifiable; risks (policy, take-rate, sto |
+| ACIW | ACI Worldwide | Slow grower | B | medium | **watch** | Quality is B and the recurring base is real (75% of revenue, +6%), but the CEO just left (interim CFO-CEO), Payment Software recurring was -1% and the price ass |
+| BILL | BILL Holdings | Stalwart | – | – | not_triaged | named in brief; take-private agreed 2026-11-19 at $63.25 cash (TPG, Corpay minority), price pinned to the deal |
+| MQ | Marqeta | Turnaround | – | – | not_triaged | US-listed payments name not in brief; tag provisional, not researched |
+| FLYW | Flywire | Fast grower | – | – | not_triaged | US-listed cross-border payments; tag provisional, not researched |
+| PAYO | Payoneer | Slow grower | – | – | not_triaged | US-listed cross-border B2B; tag provisional, not researched |
+| PAY | Paymentus | Fast grower | – | – | not_triaged | US-listed bill-pay; tag provisional, not researched |
+| CRCL | Circle Internet Group | Fast grower | – | – | not_triaged | US-listed stablecoin issuer (GENIUS Act exposure); tag provisional, not researched |
+| DLO | dLocal | Fast grower | – | – | not_triaged | US-listed emerging-market payments; tag provisional, not researched |
+| ADYEN.AS | Adyen | Fast grower | – | – | not_triaged · foreign peer | foreign peer (Amsterdam); Q3 net revenue EUR 738.1M +23%, volume EUR 451.1B +30%; market cap converted from EUR |
+| WLN.PA | Worldline | Turnaround | – | – | not_triaged · foreign peer | foreign peer (Paris); Q3 organic +2.5% fully pruned; market cap converted from EUR |
+| NEXI.MI | Nexi | Slow grower | – | – | not_triaged · foreign peer | foreign peer (Milan); Q3 2026 results not found; market cap converted from EUR |
+
+## Key numbers
+- **Visa payments volume growth (constant dollar) and cross-border volume growth**: Jul-Sep 2026 quarter payments volume +9%; total cross-border +14% (ex-intra-Europe +14%); FY26 payments volume +9% constant dollar (+10% nominal), cross-border +13%; processed transactions 74.2B (+10%) (prior Apr-Jun 2026 quarter payments volume +10% (constant dollar)) · [source](https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm) 2026-10-27
+- **Mastercard gross dollar volume, cross-border and net revenue**: Q3 2026 GDV $3.0T +7% local currency; purchase volume +9%; cross-border +11%; switched transactions +9%; net revenue $9.8B +14%; adjusted operating margin 60.5% (prior Q3 2025 adjusted operating margin 59.8%) · [source](https://www.sec.gov/Archives/edgar/data/1141391/000114139126000122/ma09302026-exx991xearnings.htm) 2026-10-29
+- **AmEx billed business and credit quality**: Q3 2026 billed business $454.0B +8% (FX-adjusted); revenue $20.1B +9%; net write-off rate 1.8% (prior Net write-off rate 1.9% a year earlier) · [source](https://www.sec.gov/Archives/edgar/data/4962/000000496226000405/q326exhibit991.htm) 2026-10-23
+- **Fiserv organic revenue growth and adjusted operating margin**: Q3 2026 organic revenue flat (Merchant -2%, Financial +2%); 9M organic -3%; adjusted operating margin 31.2%; 2026 outlook organic -1% to 0%, adjusted EPS $7.20-7.40; $6.45B goodwill impairment (prior Q3 2025 adjusted operating margin 37.0%) · [source](https://www.sec.gov/Archives/edgar/data/798354/000079835426000039/fisvq326earningsrelease.htm) 2026-11-03
+- **FIS pro forma (organic-equivalent) revenue growth and guidance**: Q3 2026 GAAP revenue +27% but pro forma +3.7% (recurring +2.5%); 2026 pro forma growth guide cut to 3.1-3.6%; adjusted EPS growth guide cut to 1.2-2.4%; adjusted EBITDA margin 42.9% (prior August guide: pro forma 4.5-5.0%, adjusted EPS growth 7.0-8.5%) · [source](https://www.sec.gov/Archives/edgar/data/1136893/000113689326000061/q32026ex991.htm) 2026-11-04
+- **Global Payments normalized net revenue growth and operating margin**: Q3 2026 adjusted net revenue +31% reported, over +4% normalized; adjusted operating margin 42.5% (+220bp normalized); full-year normalized constant-currency growth guide 4-5%; GAAP operating income $246M vs $774M (prior Prior-year Q3 GAAP operating income $774M (included a $344M disposition gain)) · [source](https://www.sec.gov/Archives/edgar/data/1123360/000112336026000091/exhibit99120260930.htm) 2026-11-05
+- **PayPal total payment volume and transaction margin**: Q3 2026 TPV $487.1B +6% (+7% FXN); transaction margin dollars $3.95B +2%, about 0.81% of TPV; non-GAAP operating margin 18.8%; active accounts 440M +0.6% (prior TM$/TPV about 0.85% (Q3 2025, my calculation)) · [source](https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm) 2026-10-27
+- **Toast and Block gross payment volume**: Toast GPV $61.8B +20%, ARR $2.5B +24%; Block Square GPV +14% (strongest since Q1 2023), Cash App gross profit +27% (prior Block Q2 and earlier: not pulled) · [source](https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm) 2026-11-03
+- **Corpay and WEX volume and take rate**: Corpay Q3 revenue +18%, organic +11%, corporate payments revenue per spend dollar 0.60%; WEX volume $78.5B +18.5%, revenue +12.8% including $57.3M from fuel prices (prior Corpay revenue per spend 0.62% a year ago) · [source](https://www.sec.gov/Archives/edgar/data/1175454/000117545426000054/ex991q3_2026.htm) 2026-11-04
+- **Affirm GMV and funding cost**: FQ1 2027 GMV $14.4B (+35%); revenue less transaction costs $617M (+34%, 4.3% of GMV); average funding cost 6.0% (prior Funding cost fell 69bp y/y but rose 27bp q/q) · [source](https://www.sec.gov/Archives/edgar/data/1820953/000162828026071005/affirmfq127shareholderle.htm) 2026-11-05
+- **Remittance volume and policy drag**: Remitly send volume $24.4B +25%; Western Union CMT transactions +2%, retail weak; Euronet revenue +1% (+3% constant currency), operating income -12% (prior Euronet cites US immigration policy as a persistent drag) · [source](https://www.sec.gov/Archives/edgar/data/1782170/000162828026070130/rely3q26-earningspr.htm) 2026-11-04
+- **US consumer spending, nominal vs real**: Oct 2026 nominal PCE +0.3% m/m, real PCE slightly negative (-$5.8B), PCE prices +3.8% y/y, saving rate 4.1% (prior Visa nominal payments volume +10% in FY26 vs real spending near zero this month) · [source](https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026) 2026-11-25
+
+## Survivors
+- **INTU**: survived · see `theses/INTU.md`, red team `redteam/INTU.md`
+- **RELY**: survived · see `theses/RELY.md`, red team `redteam/RELY.md`
+
+Charts and full coverage are in `payments.html`.
+
+<!-- COMPLETE -->
