@@ -2,7 +2,7 @@
   "run_id": "20261126-full_hunt",
   "mode": "full_hunt",
   "status": "running",
-  "heartbeat": "2026-11-28T01:09:16+00:00",
+  "heartbeat": "2026-11-28T01:15:05+00:00",
   "current_wave": 5,
   "started": "2026-11-26T08:56:36+00:00",
   "tasks": [
@@ -1263,10 +1263,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/deepdive/INTU/dd-diff.md",
-      "status": "running",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": "2026-11-28T01:05:26+00:00"
+      "updated": "2026-11-28T01:15:04+00:00"
     },
     {
       "id": "s6-SYF-thesis",
@@ -1328,10 +1328,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/theses/INTU.md",
-      "status": "pending",
+      "status": "done",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-28T01:15:04+00:00"
     },
     {
       "id": "w7-INTU-redteam",
@@ -1341,10 +1341,10 @@
         "ticker": "INTU"
       },
       "output": "runs/20261126-full_hunt/redteam/INTU.md",
-      "status": "pending",
+      "status": "running",
       "attempts": 0,
       "last_error": null,
-      "updated": null
+      "updated": "2026-11-28T01:15:05+00:00"
     }
   ],
   "notes": [
